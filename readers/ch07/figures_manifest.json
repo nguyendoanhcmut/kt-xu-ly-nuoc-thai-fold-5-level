@@ -1,0 +1,88 @@
+{
+  "doc_source": "C:\\antgravity workplace\\hcmut-263\\kt xu ly nuoc thai\\Chapter 7 Biological Denitrification Unit.pdf",
+  "total_figures": 6,
+  "skipped_decorative": 15,
+  "total_table_captions": 0,
+  "total_table_crops": 0,
+  "table_recall_warn": false,
+  "figures": [
+    {
+      "id": "fig_01",
+      "figure_type": "figure",
+      "file_name": "fig_01_p2.jpeg",
+      "rel_path": "assets/fig_01_p2.jpeg",
+      "abs_path": "C:\\antgravity workplace\\hcmut-263\\kt xu ly nuoc thai\\fold_5_level_v1\\readers\\ch07\\assets\\fig_01_p2.jpeg",
+      "page": 2,
+      "caption": "Figure 1 (Page 2)",
+      "figure_number": "1",
+      "width": 794,
+      "height": 361,
+      "context_mentions": []
+    },
+    {
+      "id": "fig_02",
+      "figure_type": "figure",
+      "file_name": "fig_02_p3.jpeg",
+      "rel_path": "assets/fig_02_p3.jpeg",
+      "abs_path": "C:\\antgravity workplace\\hcmut-263\\kt xu ly nuoc thai\\fold_5_level_v1\\readers\\ch07\\assets\\fig_02_p3.jpeg",
+      "page": 3,
+      "caption": "Figure 2 (Page 3)",
+      "figure_number": "2",
+      "width": 794,
+      "height": 361,
+      "context_mentions": []
+    },
+    {
+      "id": "fig_03",
+      "figure_type": "figure",
+      "file_name": "fig_03_p3.jpeg",
+      "rel_path": "assets/fig_03_p3.jpeg",
+      "abs_path": "C:\\antgravity workplace\\hcmut-263\\kt xu ly nuoc thai\\fold_5_level_v1\\readers\\ch07\\assets\\fig_03_p3.jpeg",
+      "page": 3,
+      "caption": "Figure 3 (Page 3)",
+      "figure_number": "3",
+      "width": 593,
+      "height": 339,
+      "context_mentions": []
+    },
+    {
+      "id": "fig_04",
+      "figure_type": "figure",
+      "file_name": "fig_04_p4.jpeg",
+      "rel_path": "assets/fig_04_p4.jpeg",
+      "abs_path": "C:\\antgravity workplace\\hcmut-263\\kt xu ly nuoc thai\\fold_5_level_v1\\readers\\ch07\\assets\\fig_04_p4.jpeg",
+      "page": 4,
+      "caption": "Figure 4 (Page 4)",
+      "figure_number": "4",
+      "width": 668,
+      "height": 351,
+      "context_mentions": []
+    },
+    {
+      "id": "fig_05",
+      "figure_type": "figure",
+      "file_name": "fig_05_p4.jpeg",
+      "rel_path": "assets/fig_05_p4.jpeg",
+      "abs_path": "C:\\antgravity workplace\\hcmut-263\\kt xu ly nuoc thai\\fold_5_level_v1\\readers\\ch07\\assets\\fig_05_p4.jpeg",
+      "page": 4,
+      "caption": "Figure 5 (Page 4)",
+      "figure_number": "5",
+      "width": 1345,
+      "height": 398,
+      "context_mentions": []
+    },
+    {
+      "id": "fig_06",
+      "figure_type": "figure",
+      "file_name": "fig_06_p5.jpeg",
+      "rel_path": "assets/fig_06_p5.jpeg",
+      "abs_path": "C:\\antgravity workplace\\hcmut-263\\kt xu ly nuoc thai\\fold_5_level_v1\\readers\\ch07\\assets\\fig_06_p5.jpeg",
+      "page": 5,
+      "caption": "Figure 6 (Page 5)",
+      "figure_number": "6",
+      "width": 1345,
+      "height": 398,
+      "context_mentions": []
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "brief_id": "f51e2026",
+  "worker_id": "ch_w2",
+  "input_file": "worker_inputs/ch_w2.json",
+  "input_sha256": "fc348a78b731463286e40e356843449486123f1bd68fe77707bf7cb7d007df9b",
+  "assigned_slugs": [
+    "ch03_1",
+    "ch03_2"
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ch03_1_ex01",
+      "chapter_slug": "ch03_1",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Thiết kế mương đặt song chắn rác cho lưu lượng giờ cao điểm $Q = 1,000\\text{ m}^3/\\text{h} = 0.278\\text{ m}^3/\\text{s}$ với độ dốc đáy mương $S = 0.0001\\text{ m/m}$ và chiều cao bảo vệ $h_{\\text{bv}} = 0.5\\text{ m}$. Tính tổn thất cột nước qua song chắn rác đặt thẳng đứng ($\\theta = 90^\\circ$) khi sạch và khi bị tắc nghẽn $50\\%$ với bề rộng thanh $b = 10\\text{ mm}$ và khe hở $e = 40\\text{ mm}$.",
+      "design_parameters_selected": [
+        "Bề rộng mương dẫn: $W = 1.5\\text{ m}$",
+        "Hệ số nhám Manning (bê tông trơn): $n = 0.012$",
+        "Chiều cao bảo vệ: $h_{\\text{bv}} = 0.5\\text{ m}$",
+        "Hệ số lưu lượng qua song chắn sạch: $C_{\\text{clean}} = 0.7$",
+        "Hệ số lưu lượng khi tắc nghẽn $50\\%$: $C_{\\text{clog}} = 0.6$"
+      ],
+      "governing_equations": [
+        "$$v = \\frac{Q}{A} = \\frac{Q}{W \\times D}$$",
+        "$$v = \\frac{1}{n} R^{2/3} S^{1/2}, \\quad R = \\frac{W \\times D}{W + 2D}$$",
+        "$$N_{\\text{bars}} = \\frac{W - e}{b + e}, \\quad N_{\\text{spaces}} = N_{\\text{bars}} + 1$$",
+        "$$A_{\\text{space}} = N_{\\text{spaces}} \\times e \\times D, \\quad v_{\\text{thru}} = \\frac{Q}{A_{\\text{space}}}$$",
+        "$$h_L = \\frac{1}{C}\\left(\\frac{v_{\\text{thru}}^2 - v_{\\text{app}}^2}{2g}\\right)$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính chiều sâu dòng chảy và kích thước tiết diện mương dẫn**: Chọn bề rộng mương $W = 1.5\\text{ m}$ và giải hệ phương trình Manning kết hợp phương trình liên tục, tìm được chiều sâu nước $D = 0.5\\text{ m}$, vận tốc tới gần $v_{\\text{app}} = 0.37\\text{ m/s}$ và tổng chiều cao mương $H = D + h_{\\text{bv}} = 0.5 + 0.5 = 1.0\\text{ m}$.",
+        "$$v = \\frac{Q}{W \\times D} = \\frac{1,000 / 3,600}{1.5 \\times D} = \\frac{1}{0.012}\\left(\\frac{1.5 D}{1.5 + 2D}\\right)^{2/3}(0.0001)^{1/2} \\Rightarrow D = 0.5\\text{ m}, \\quad v_{\\text{app}} = 0.37\\text{ m/s}$$",
+        "**Bước 2 - Tính số thanh chắn, số khe hở và vận tốc qua khe**: Số thanh chắn đạt $N_{\\text{bars}} = 29\\text{ thanh}$, số khe hở $N_{\\text{spaces}} = 30\\text{ khe}$, tổng diện tích khe hở ngập nước $A_{\\text{space}} = 0.6\\text{ m}^2$, vận tốc qua khe khi sạch $v_{\\text{thru}} = 0.46\\text{ m/s}$ và khi tắc $50\\%$ là $v_{\\text{thru,clog}} = 0.92\\text{ m/s}$.",
+        "$$N_{\\text{bars}} = \\frac{1,500 - 40}{10 + 40} = 29.2 \\rightarrow 29\\text{ thanh}, \\quad A_{\\text{space}} = 30 \\times 0.04 \\times 0.5 = 0.6\\text{ m}^2, \\quad v_{\\text{thru}} = \\frac{1,000 / 3,600}{0.6} = 0.46\\text{ m/s}$$",
+        "**Bước 3 - Tính tổn thất cột nước qua song chắn khi sạch và khi tắc nghẽn**: Tổn thất cột nước qua song chắn đạt $h_{L,\\text{clean}} = 5.4\\text{ mm}$ khi sạch và $h_{L,\\text{clog}} = 60\\text{ mm}$ khi tắc nghẽn $50\\%$.",
+        "$$h_{L,\\text{clean}} = \\frac{1}{0.7}\\left(\\frac{0.46^2 - 0.37^2}{2 \\times 9.81}\\right) = 0.00544\\text{ m} = 5.4\\text{ mm}, \\quad h_{L,\\text{clog}} = \\frac{1}{0.6}\\left(\\frac{0.92^2 - 0.37^2}{2 \\times 9.81}\\right) = 0.06\\text{ m} = 60\\text{ mm}$$"
+      ],
+      "verification_checks": [
+        "Vận tốc tới gần $v_{\\text{app}} = 0.37\\text{ m/s} \\in [0.3, 0.6]\\text{ m/s}$ (Đạt chuẩn Slide 28)",
+        "Tổn thất cột nước khi sạch $h_{L,\\text{clean}} = 5.4\\text{ mm} < 150\\text{ mm}$ (Đạt chuẩn Slide 28)",
+        "Tổn thất cột nước khi tắc $50\\%$ $h_{L,\\text{clog}} = 60\\text{ mm} < 150\\text{ mm}$ (Đạt chuẩn Slide 28)"
+      ],
+      "final_answers": {
+        "channel_width_m": "$W = 1.5\\text{ m}$",
+        "flow_depth_m": "$D = 0.5\\text{ m}$",
+        "channel_height_m": "$H = 1.0\\text{ m}$",
+        "approach_velocity_m_s": "$v_{\\text{app}} = 0.37\\text{ m/s}$",
+        "number_of_bars": "$N_{\\text{bars}} = 29\\text{ thanh}$",
+        "number_of_spaces": "$N_{\\text{spaces}} = 30\\text{ khe}$",
+        "space_area_m2": "$A_{\\text{space}} = 0.6\\text{ m}^2$",
+        "velocity_thru_clean_m_s": "$v_{\\text{thru}} = 0.46\\text{ m/s}$",
+        "headloss_clean_mm": "$h_{L,\\text{clean}} = 5.4\\text{ mm} = 0.00544\\text{ m}$",
+        "headloss_50pct_clogged_mm": "$h_{L,\\text{clog}} = 60\\text{ mm} = 0.06\\text{ m}$"
+      }
+    },
+    {
+      "exercise_id": "ch03_1_ex02",
+      "chapter_slug": "ch03_1",
+      "category": "pdf_exercise",
+      "status_before": "PARTIAL",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy] | [Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Kế thừa thông số của bài tập `ch03_1_ex01` ($Q = 1,000\\text{ m}^3/\\text{h} = 0.278\\text{ m}^3/\\text{s}$, $W = 1.5\\text{ m}$, $D = 0.5\\text{ m}$, $N_{\\text{spaces}} = 30\\text{ khe}$, $e = 0.04\\text{ m}$), tính lại diện tích khe hở ngập nước, vận tốc qua khe, vận tốc tới gần và tổn thất cột nước qua song chắn rác sạch ($C = 0.7$) khi đặt nghiêng góc $\\theta = 50^\\circ$, $\\theta = 55^\\circ$ và $\\theta = 60^\\circ$ so với phương ngang.",
+      "design_parameters_selected": [
+        "Lưu lượng thiết kế: $Q = 1,000\\text{ m}^3/\\text{h} = 0.278\\text{ m}^3/\\text{s}$",
+        "Kích thước mương và khe: $W = 1.5\\text{ m}$, $D = 0.5\\text{ m}$, $N_{\\text{spaces}} = 30\\text{ khe}$, $e = 0.04\\text{ m}$",
+        "Góc nghiêng so với phương ngang: $\\theta = 50^\\circ, 55^\\circ, 60^\\circ$",
+        "Hệ số lưu lượng khi song chắn sạch: $C = 0.7$"
+      ],
+      "governing_equations": [
+        "$$L_s = \\frac{D}{\\sin\\theta}, \\quad A_{\\text{space}} = \\frac{N_{\\text{spaces}} \\times e \\times D}{\\sin\\theta}, \\quad A_{\\text{total}} = \\frac{W \\times D}{\\sin\\theta}$$",
+        "$$v_{\\text{thru}} = \\frac{Q}{A_{\\text{space}}}, \\quad v_{\\text{app}} = \\frac{Q}{A_{\\text{total}}}, \\quad h_L = \\frac{1}{C}\\left(\\frac{v_{\\text{thru}}^2 - v_{\\text{app}}^2}{2g}\\right)$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính thủy lực và tổn thất cột nước tại góc nghiêng $\\theta = 50^\\circ$**: Diện tích khe mở rộng đạt $A_{\\text{space}} = 0.78\\text{ m}^2$, diện tích mặt cắt nghiêng $A_{\\text{total}} = 0.98\\text{ m}^2$, vận tốc qua khe $v_{\\text{thru}} = 0.35\\text{ m/s}$, vận tốc tới gần $v_{\\text{app}} = 0.28\\text{ m/s}$ và tổn thất cột nước $h_L(50^\\circ) = 3.2\\text{ mm}$.",
+        "$$A_{\\text{space}}(50^\\circ) = \\frac{30 \\times 0.04 \\times 0.5}{\\sin 50^\\circ} = 0.78\\text{ m}^2, \\quad h_L(50^\\circ) = \\frac{1}{0.7}\\left(\\frac{0.35^2 - 0.28^2}{2 \\times 9.8}\\right) = 0.0032\\text{ m} = 3.2\\text{ mm}$$",
+        "**Bước 2 - Tính thủy lực và tổn thất cột nước tại góc nghiêng $\\theta = 55^\\circ$**: Diện tích khe đạt $A_{\\text{space}} = 0.73\\text{ m}^2$, diện tích mặt cắt nghiêng $A_{\\text{total}} = 0.92\\text{ m}^2$, vận tốc qua khe $v_{\\text{thru}} = 0.38\\text{ m/s}$, vận tốc tới gần $v_{\\text{app}} = 0.30\\text{ m/s}$ và tổn thất cột nước $h_L(55^\\circ) = 4.0\\text{ mm}$.",
+        "$$A_{\\text{space}}(55^\\circ) = \\frac{30 \\times 0.04 \\times 0.5}{\\sin 55^\\circ} = 0.73\\text{ m}^2, \\quad h_L(55^\\circ) = \\frac{1}{0.7}\\left(\\frac{0.38^2 - 0.30^2}{2 \\times 9.8}\\right) = 0.0040\\text{ m} = 4.0\\text{ mm}$$",
+        "**Bước 3 - Tính thủy lực và tổn thất cột nước tại góc nghiêng $\\theta = 60^\\circ$**: Diện tích khe đạt $A_{\\text{space}} = 0.69\\text{ m}^2$, diện tích mặt cắt nghiêng $A_{\\text{total}} = 0.87\\text{ m}^2$, vận tốc qua khe $v_{\\text{thru}} = 0.40\\text{ m/s}$, vận tốc tới gần $v_{\\text{app}} = 0.32\\text{ m/s}$ và tổn thất cột nước $h_L(60^\\circ) = 4.2\\text{ mm}$.",
+        "$$A_{\\text{space}}(60^\\circ) = \\frac{30 \\times 0.04 \\times 0.5}{\\sin 60^\\circ} = 0.69\\text{ m}^2, \\quad h_L(60^\\circ) = \\frac{1}{0.7}\\left(\\frac{0.40^2 - 0.32^2}{2 \\times 9.8}\\right) = 0.0042\\text{ m} = 4.2\\text{ mm}$$",
+        "**Bước 4 - Bảng đối chiếu và nhận xét ảnh hưởng của góc nghiêng $\\theta$**: Khi giảm góc nghiêng $\\theta$ từ $90^\\circ$ xuống $60^\\circ$, $55^\\circ$ và $50^\\circ$, diện tích khe ngập nước $A_{\\text{space}}$ tăng dần từ $0.60\\text{ m}^2$ lên $0.78\\text{ m}^2$, làm giảm vận tốc qua khe $v_{\\text{thru}}$ từ $0.46\\text{ m/s}$ xuống $0.35\\text{ m/s}$ và giảm tổn thất cột nước $h_L$ từ $5.4\\text{ mm}$ xuống $3.2\\text{ mm}$."
+      ],
+      "verification_checks": [
+        "Kiểm tra quy luật tổn thất cột nước: $h_L(50^\\circ) = 3.2\\text{ mm} < h_L(55^\\circ) = 4.0\\text{ mm} < h_L(60^\\circ) = 4.2\\text{ mm} < h_L(90^\\circ) = 5.4\\text{ mm} < 150\\text{ mm}$ (Đạt chuẩn Slide 28)"
+      ],
+      "final_answers": {
+        "theta_50_deg": "$A_{\\text{space}} = 0.78\\text{ m}^2, \\; A_{\\text{total}} = 0.98\\text{ m}^2, \\; v_{\\text{thru}} = 0.35\\text{ m/s}, \\; v_{\\text{app}} = 0.28\\text{ m/s}, \\; h_L = 3.2\\text{ mm}$",
+        "theta_55_deg": "$A_{\\text{space}} = 0.73\\text{ m}^2, \\; A_{\\text{total}} = 0.92\\text{ m}^2, \\; v_{\\text{thru}} = 0.38\\text{ m/s}, \\; v_{\\text{app}} = 0.30\\text{ m/s}, \\; h_L = 4.0\\text{ mm}$",
+        "theta_60_deg": "$A_{\\text{space}} = 0.69\\text{ m}^2, \\; A_{\\text{total}} = 0.87\\text{ m}^2, \\; v_{\\text{thru}} = 0.40\\text{ m/s}, \\; v_{\\text{app}} = 0.32\\text{ m/s}, \\; h_L = 4.2\\text{ mm}$"
+      }
+    },
+    {
+      "exercise_id": "proj_ch03_1_hw01",
+      "chapter_slug": "ch03_1",
+      "category": "projector_only",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Thiết kế mương đặt song chắn rác thô cào cơ giới cho lưu lượng $Q = 40,000\\text{ m}^3/\\text{d} = 0.463\\text{ m}^3/\\text{s}$. Song chắn rác đặt nghiêng góc $\\theta = 75^\\circ$ so với phương ngang, khe hở $e = 12\\text{ mm}$, bề rộng thanh $b = 12\\text{ mm}$ và vận tốc dòng chảy thượng lưu yêu cầu $v > 0.4\\text{ m/s}$. Tính tổn thất cột nước qua song chắn khi sạch và khi bị tắc nghẽn $50\\%$.",
+      "design_parameters_selected": [
+        "Bề rộng mương dẫn: $W = 1.5\\text{ m}$",
+        "Độ dốc đáy mương và hệ số nhám Manning: $S = 0.0001\\text{ m/m}$, $n = 0.012$",
+        "Chiều cao bảo vệ: $h_{\\text{bv}} = 0.5\\text{ m}$",
+        "Hệ số lưu lượng: $C_{\\text{clean}} = 0.7$ (khi sạch) và $C_{\\text{clog}} = 0.6$ (khi tắc $50\\%$)"
+      ],
+      "governing_equations": [
+        "$$Q = \\frac{40,000}{86,400} = 0.463\\text{ m}^3/\\text{s}, \\quad v = \\frac{Q}{W \\times D} = \\frac{1}{n} R^{2/3} S^{1/2}$$",
+        "$$N_{\\text{bars}} = \\frac{W - e}{b + e}, \\quad N_{\\text{spaces}} = N_{\\text{bars}} + 1$$",
+        "$$A_{\\text{space}} = \\frac{N_{\\text{spaces}} \\times e \\times D}{\\sin 75^\\circ}, \\quad A_{\\text{total}} = \\frac{W \\times D}{\\sin 75^\\circ}$$",
+        "$$h_L = \\frac{1}{C}\\left(\\frac{v_{\\text{thru}}^2 - v_{\\text{app}}^2}{2g}\\right)$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính chiều sâu dòng chảy thượng lưu và kích thước mương dẫn**: Chọn bề rộng mương $W = 1.5\\text{ m}$ và giải hệ phương trình Manning kết hợp phương trình liên tục, tìm được chiều sâu nước $D = 0.72\\text{ m}$, vận tốc thượng lưu $v = 0.43\\text{ m/s} > 0.4\\text{ m/s}$ và tổng chiều cao mương $H = 1.22\\text{ m}$.",
+        "$$v = \\frac{0.463}{1.5 \\times D} = \\frac{1}{0.012}\\left(\\frac{1.5 D}{1.5 + 2D}\\right)^{2/3}(0.0001)^{1/2} \\Rightarrow D = 0.72\\text{ m}, \\quad v = 0.43\\text{ m/s}$$",
+        "**Bước 2 - Tính số thanh chắn, diện tích khe nghiêng $\\theta = 75^\\circ$ và vận tốc**: Mương lắp $N_{\\text{bars}} = 62\\text{ thanh}$ và $N_{\\text{spaces}} = 63\\text{ khe}$, diện tích khe nghiêng $A_{\\text{space}} = 0.56\\text{ m}^2$, diện tích mặt cắt nghiêng $A_{\\text{total}} = 1.12\\text{ m}^2$, vận tốc qua khe $v_{\\text{thru}} = 0.83\\text{ m/s}$ và vận tốc tới gần $v_{\\text{app}} = 0.41\\text{ m/s}$.",
+        "$$N_{\\text{bars}} = \\frac{1,500 - 12}{12 + 12} = 62\\text{ thanh}, \\quad A_{\\text{space}} = \\frac{63 \\times 0.012 \\times 0.72}{\\sin 75^\\circ} = 0.56\\text{ m}^2, \\quad v_{\\text{thru}} = \\frac{0.463}{0.56} = 0.83\\text{ m/s}$$",
+        "**Bước 3 - Tính tổn thất cột nước khi song chắn sạch và khi tắc nghẽn $50\\%$**: Tổn thất cột nước qua song chắn đạt $h_{L,\\text{clean}} = 38\\text{ mm}$ khi sạch và tăng lên $h_{L,\\text{clog}} = 220\\text{ mm}$ khi tắc nghẽn $50\\%$.",
+        "$$h_{L,\\text{clean}} = \\frac{1}{0.7}\\left(\\frac{0.83^2 - 0.41^2}{2 \\times 9.81}\\right) = 0.038\\text{ m} = 38\\text{ mm}, \\quad h_{L,\\text{clog}} = \\frac{1}{0.6}\\left(\\frac{1.66^2 - 0.41^2}{2 \\times 9.81}\\right) = 0.22\\text{ m} = 220\\text{ mm}$$"
+      ],
+      "verification_checks": [
+        "Vận tốc thượng lưu $v = 0.43\\text{ m/s} > 0.4\\text{ m/s}$ và vận tốc tới gần $v_{\\text{app}} = 0.41\\text{ m/s} > 0.4\\text{ m/s}$ (Đạt chuẩn Slide 28)",
+        "Vận tốc qua khe khi sạch $v_{\\text{thru}} = 0.83\\text{ m/s} \\in [0.6, 1.0]\\text{ m/s}$ (Đạt chuẩn Slide 28)",
+        "Tổn thất cột nước khi sạch $h_{L,\\text{clean}} = 38\\text{ mm} < 150\\text{ mm}$ và khi tắc $50\\%$ $h_{L,\\text{clog}} = 220\\text{ mm} \\in [150, 600]\\text{ mm}$ (Đạt chuẩn Slide 28)"
+      ],
+      "final_answers": {
+        "channel_width_m": "$W = 1.5\\text{ m}$",
+        "flow_depth_m": "$D = 0.72\\text{ m}$",
+        "channel_height_m": "$H = 1.22\\text{ m}$",
+        "upstream_velocity_m_s": "$v = 0.43\\text{ m/s}$",
+        "number_of_bars": "$N_{\\text{bars}} = 62\\text{ thanh}$",
+        "number_of_spaces": "$N_{\\text{spaces}} = 63\\text{ khe}$",
+        "space_area_m2": "$A_{\\text{space}} = 0.56\\text{ m}^2$",
+        "velocity_thru_clean_m_s": "$v_{\\text{thru}} = 0.83\\text{ m/s}$",
+        "headloss_clean_mm": "$h_{L,\\text{clean}} = 38\\text{ mm} = 0.038\\text{ m}$",
+        "headloss_50pct_clogged_mm": "$h_{L,\\text{clog}} = 220\\text{ mm} = 0.22\\text{ m}$"
+      }
+    },
+    {
+      "exercise_id": "ch03_2_ex01",
+      "chapter_slug": "ch03_2",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể lắng cát ngang cho trạm xử lý nước thải đô thị có lưu lượng trung bình $Q_{\\text{avg}} = 0.5\\text{ m}^3/\\text{s}$ và hệ số vượt tải cực đại $\\text{PF} = 3.0$.",
+      "design_parameters_selected": [
+        "Thời gian lưu nước ở lưu lượng đỉnh: $t = 60\\text{ s}$",
+        "Vận tốc dòng chảy ngang: $v_H = 0.3\\text{ m/s}$",
+        "Vận tốc lắng của hạt cát $d > 0.21\\text{ mm}$ ($70\\text{-mesh}$): $v_s = 1.15\\text{ m/min} = 0.02\\text{ m/s}$",
+        "Bề rộng và chiều sâu công tác: $W = 5\\text{ m}$, $D = 1\\text{ m}$",
+        "Hệ số dự phòng chiều dài $25\\%$ và chiều cao bảo vệ $h_{\\text{bv}} = 0.5\\text{ m}$"
+      ],
+      "governing_equations": [
+        "$$Q_{\\text{peak}} = Q_{\\text{avg}} \\times \\text{PF}, \\quad V = Q_{\\text{peak}} \\times t = L \\times W \\times D$$",
+        "$$\\frac{L}{D} > \\frac{v_H}{v_s}, \\quad W \\times D = \\frac{Q_{\\text{peak}}}{v_H}, \\quad L_{\\text{prac}} = 1.25 \\times L$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính lưu lượng đỉnh, thể tích bể và tỷ số chiều dài trên chiều sâu**: Lưu lượng giờ cao điểm đạt $Q_{\\text{peak}} = 1.5\\text{ m}^3/\\text{s}$, thể tích bể $V = 90\\text{ m}^3$ và tỷ số hình học tối thiểu $\\frac{L}{D} > 15$.",
+        "$$Q_{\\text{peak}} = 0.5 \\times 3.0 = 1.5\\text{ m}^3/\\text{s}, \\quad V = 1.5 \\times 60 = 90\\text{ m}^3, \\quad \\frac{L}{D} > \\frac{0.3}{0.02} = 15$$",
+        "**Bước 2 - Tính kích thước công tác và kích thước xây dựng thực tế của bể**: Diện tích mặt cắt ngang đạt $W \\times D = 5\\text{ m}^2$, chọn $W = 5\\text{ m}$, $D = 1\\text{ m}$ suy ra chiều dài vùng lắng $L = 18\\text{ m}$, chiều dài thực tế $L_{\\text{prac}} = 22\\text{ m}$ và tổng chiều cao $H_{\\text{prac}} = 1.5\\text{ m}$.",
+        "$$W \\times D = \\frac{1.5}{0.3} = 5\\text{ m}^2 \\Rightarrow L = \\frac{90}{5 \\times 1} = 18\\text{ m}, \\quad L_{\\text{prac}} = 18 \\times 1.25 = 22\\text{ m}, \\quad H_{\\text{prac}} = 1.0 + 0.5 = 1.5\\text{ m}$$"
+      ],
+      "verification_checks": [
+        "Kiểm tra tỷ số chiều dài trên chiều sâu: $\\frac{L}{D} = \\frac{18}{1} = 18 \\ge 15$ (Đạt chuẩn Slide 7)"
+      ],
+      "final_answers": {
+        "peak_flowrate_m3_s": "$Q_{\\text{peak}} = 1.5\\text{ m}^3/\\text{s}$",
+        "volume_m3": "$V = 90\\text{ m}^3$",
+        "effective_dimensions": "$18\\text{ m} \\times 5\\text{ m} \\times 1\\text{ m}$",
+        "practical_dimensions": "$22\\text{ m} \\times 5\\text{ m} \\times 1.5\\text{ m}$"
+      }
+    },
+    {
+      "exercise_id": "ch03_2_ex02",
+      "chapter_slug": "ch03_2",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Thiết kế hệ thống bể lắng cát thổi khí cho trạm xử lý nước thải đô thị có lưu lượng trung bình $Q_{\\text{avg}} = 0.5\\text{ m}^3/\\text{s}$ và hệ số vượt tải cực đại $\\text{PF} = 2.75$.",
+      "design_parameters_selected": [
+        "Số lượng bể và thời gian lưu ở lưu lượng đỉnh: $N = 2\\text{ bể}$, $t = 3\\text{ min} = 180\\text{ s}$",
+        "Chiều sâu công tác và tỷ số rộng trên sâu: $D = 3\\text{ m}$, $\\frac{W}{D} = 1.2$",
+        "Suất cấp khí theo chiều dài bể: $q_{\\text{air}} = 0.3\\text{ m}^3/\\text{min}\\cdot\\text{m}$",
+        "Suất lượng cát tách ra: $q_{\\text{grit}} = 0.05\\text{ m}^3/10^3\\text{ m}^3$"
+      ],
+      "governing_equations": [
+        "$$Q_{\\text{peak}} = Q_{\\text{avg}} \\times \\text{PF}, \\quad V_{\\text{each}} = \\frac{1}{2} Q_{\\text{peak}} \\times t$$",
+        "$$W = 1.2 D, \\quad L = \\frac{V_{\\text{each}}}{W \\times D}$$",
+        "$$Q_{\\text{air,total}} = 2 \\times L \\times q_{\\text{air}}, \\quad V_{\\text{grit}} = Q_{\\text{avg}} \\times 86,400 \\times q_{\\text{grit}}$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính lưu lượng đỉnh, thể tích mỗi bể và kích thước hình học**: Lưu lượng giờ cao điểm đạt $Q_{\\text{peak}} = 1.38\\text{ m}^3/\\text{s}$, thể tích mỗi bể $V_{\\text{each}} = 124.2\\text{ m}^3$, chọn $D = 3\\text{ m}$ suy ra bề rộng $W = 3.6\\text{ m}$ và chiều dài $L = 11.5\\text{ m}$.",
+        "$$Q_{\\text{peak}} = 0.5 \\times 2.75 = 1.38\\text{ m}^3/\\text{s}, \\quad V_{\\text{each}} = \\frac{1}{2} \\times 1.38 \\times 180 = 124.2\\text{ m}^3, \\quad L = \\frac{124.2}{3.6 \\times 3} = 11.5\\text{ m}$$",
+        "**Bước 2 - Tính lưu lượng khí cấp và thể tích cát thu được mỗi ngày**: Lưu lượng khí cấp cho mỗi bể đạt $Q_{\\text{air,each}} = 3.45\\text{ m}^3/\\text{min}$, tổng lưu lượng khí $Q_{\\text{air,total}} = 6.9\\text{ m}^3/\\text{min}$ và thể tích cát lắng $V_{\\text{grit}} = 2.16\\text{ m}^3/\\text{d}$.",
+        "$$Q_{\\text{air,total}} = 2 \\times (11.5 \\times 0.3) = 6.9\\text{ m}^3/\\text{min}, \\quad V_{\\text{grit}} = 0.5 \\times 86,400 \\times \\frac{0.05}{10^3} = 2.16\\text{ m}^3/\\text{d}$$"
+      ],
+      "verification_checks": [
+        "Kiểm tra tỷ số rộng trên sâu: $\\frac{W}{D} = 1.2 \\in [1.0, 5.0]$ (Đạt chuẩn Slide 15)",
+        "Kiểm tra tỷ số dài trên rộng: $\\frac{L}{W} = \\frac{11.5}{3.6} = 3.19 \\in [3.0, 5.0]$ (Đạt chuẩn Slide 15)"
+      ],
+      "final_answers": {
+        "peak_flowrate_m3_s": "$Q_{\\text{peak}} = 1.38\\text{ m}^3/\\text{s}$",
+        "volume_each_m3": "$V_{\\text{each}} = 124.2\\text{ m}^3$",
+        "chamber_dimensions_each": "$11.5\\text{ m} \\times 3.6\\text{ m} \\times 3\\text{ m}$ ($2\\text{ bể}$)",
+        "air_supply_each_m3_min": "$Q_{\\text{air,each}} = 3.45\\text{ m}^3/\\text{min}$",
+        "total_air_supply_m3_min": "$Q_{\\text{air,total}} = 6.9\\text{ m}^3/\\text{min}$",
+        "daily_grit_volume_m3_day": "$V_{\\text{grit}} = 2.16\\text{ m}^3/\\text{d}$"
+      }
+    },
+    {
+      "exercise_id": "proj_ch03_2_hw01",
+      "chapter_slug": "ch03_2",
+      "category": "projector_only",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể lắng cát ngang cho nhà máy xử lý nước thải có lưu lượng trung bình $Q_{\\text{avg}} = 0.3\\text{ m}^3/\\text{s}$ và lưu lượng cực đại $Q_{\\text{peak}} = 1.0\\text{ m}^3/\\text{s}$ để loại bỏ hạt cát có đường kính từ $d = 0.125\\text{ mm}$ ($120\\text{-mesh}$) trở lên với tỷ trọng hạt $S_s = 2.50$.",
+      "design_parameters_selected": [
+        "Nhiệt độ nước thiết kế $T = 20^\\circ\\text{C}$: $\\rho_L = 998.2\\text{ kg/m}^3$, $\\mu = 1.002 \\times 10^{-3}\\text{ kg/m}\\cdot\\text{s}$",
+        "Vận tốc dòng chảy ngang và thời gian lưu: $v_H = 0.27\\text{ m/s}$, $t = 60\\text{ s}$",
+        "Chiều sâu công tác: $D = 1.0\\text{ m}$",
+        "Hệ số dự phòng chiều dài $25\\%$ và chiều cao bảo vệ $h_{\\text{bv}} = 0.5\\text{ m}$"
+      ],
+      "governing_equations": [
+        "$$v_s = \\frac{g}{0.7}\\left[\\frac{(\\rho_S - \\rho_L) d^2}{18\\mu}\\right], \\quad \\frac{L}{D} > \\frac{v_H}{v_s}$$",
+        "$$V = Q_{\\text{peak}} \\times t, \\quad W \\times D = \\frac{Q_{\\text{peak}}}{v_H}, \\quad L_{\\text{prac}} = 1.25 \\times L$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính vận tốc lắng hạt cát theo định luật Stokes hiệu chỉnh và tỷ số $\\frac{L}{D}$**: Tại $T = 20^\\circ\\text{C}$, hạt cát $d = 0.125\\text{ mm}$ có vận tốc lắng thực tế $v_s = 0.018\\text{ m/s}$, chọn vận tốc ngang $v_H = 0.27\\text{ m/s}$ suy ra tỷ số $\\frac{L}{D} > 15$.",
+        "$$v_s = \\frac{9.81}{0.7}\\left[\\frac{(2.50 \\times 998.2 - 998.2)(0.125 \\times 10^{-3})^2}{18 \\times 1.002 \\times 10^{-3}}\\right] = 0.018\\text{ m/s}, \\quad \\frac{L}{D} > \\frac{0.27}{0.018} = 15$$",
+        "**Bước 2 - Tính thể tích bể, kích thước công tác và kích thước xây dựng thực tế**: Thể tích bể ở lưu lượng đỉnh đạt $V = 60\\text{ m}^3$, chọn $D = 1.0\\text{ m}$ suy ra bề rộng $W = 3.7\\text{ m}$, chiều dài công tác $L = 16\\text{ m}$, chiều dài thực tế $L_{\\text{prac}} = 20\\text{ m}$ và tổng chiều cao $H_{\\text{prac}} = 1.5\\text{ m}$.",
+        "$$V = 1.0 \\times 60 = 60\\text{ m}^3, \\quad W = \\frac{1.0}{0.27 \\times 1.0} = 3.7\\text{ m}, \\quad L = \\frac{60}{3.7} = 16\\text{ m}, \\quad L_{\\text{prac}} = 16 \\times 1.25 = 20\\text{ m}$$"
+      ],
+      "verification_checks": [
+        "Kiểm tra tỷ số chiều dài trên chiều sâu: $\\frac{L}{D} = \\frac{16}{1.0} = 16 > 15$ (Đạt chuẩn Slide 28)"
+      ],
+      "final_answers": {
+        "settling_velocity_m_s": "$v_s = 0.018\\text{ m/s}$",
+        "horizontal_velocity_m_s": "$v_H = 0.27\\text{ m/s}$",
+        "volume_m3": "$V = 60\\text{ m}^3$",
+        "effective_dimensions": "$16\\text{ m} \\times 3.7\\text{ m} \\times 1.0\\text{ m}$",
+        "practical_dimensions": "$20\\text{ m} \\times 3.7\\text{ m} \\times 1.5\\text{ m}$"
+      }
+    },
+    {
+      "exercise_id": "proj_ch03_2_hw02",
+      "chapter_slug": "ch03_2",
+      "category": "projector_only",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Thiết kế hệ thống $N = 2\\text{ bể}$ lắng cát thổi khí cho nhà máy có lưu lượng trung bình $Q_{\\text{avg}} = 15,000\\text{ m}^3/\\text{d}$ và lưu lượng giờ cực đại $Q_{\\text{peak}} = 40,000\\text{ m}^3/\\text{d}$, trong đó mỗi bể phải chịu được $75\\%$ lưu lượng cực đại khi bể còn lại ngưng vận hành để bảo trì. Tính kích thước bể, lưu lượng khí, cột áp yêu cầu, chọn máy thổi khí và tính chi phí tiền điện hàng tháng.",
+      "design_parameters_selected": [
+        "Thời gian lưu nước ở lưu lượng đỉnh: $t = 3\\text{ min}$",
+        "Chiều sâu công tác, bề rộng bể và chiều cao bảo vệ: $D = 2.2\\text{ m}$, $W = 3.0\\text{ m}$, $h_{\\text{bv}} = 0.3\\text{ m}$",
+        "Suất cấp khí theo chiều dài bể: $q_{\\text{air}} = 0.3\\text{ m}^3/\\text{min}\\cdot\\text{m}$",
+        "Tổn thất qua đĩa phân phối $h_{\\text{diff}} = 0.25\\text{ m}$, qua ống và van $h_{\\text{pipe}} = 0.4\\text{ m}$",
+        "Hiệu suất truyền động $\\eta = 90\\%$, đơn giá điện $0.3\\text{ USD/kWh}$ trong $30\\text{ ngày/tháng}$"
+      ],
+      "governing_equations": [
+        "$$V_{\\text{each}} = 0.75 \\times Q_{\\text{peak}} \\times t, \\quad L = \\frac{V_{\\text{each}}}{W \\times D}$$",
+        "$$Q_{\\text{air}} = q_{\\text{air}} \\times L \\times N, \\quad H_{\\text{blower}} = D + h_{\\text{diff}} + h_{\\text{pipe}}$$",
+        "$$\\text{Cost}_{\\text{month}} = \\left(\\frac{P \\times 24}{\\eta}\\right) \\times 0.3 \\times 30$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính thể tích mỗi bể và kích thước hình học (Câu a)**: Thể tích công tác của mỗi bể đạt $V_{\\text{each}} = 62.5\\text{ m}^3$, chọn $D = 2.2\\text{ m}$ và $W = 3.0\\text{ m}$ suy ra chiều dài $L = 9.5\\text{ m}$ và tổng chiều cao thực tế $H_{\\text{prac}} = 2.5\\text{ m}$.",
+        "$$V_{\\text{each}} = 0.75 \\times 40,000 \\times \\frac{3}{1,440} = 62.5\\text{ m}^3, \\quad L = \\frac{62.5}{2.2 \\times 3.0} = 9.5\\text{ m}, \\quad \\frac{W}{D} = 1.36, \\quad \\frac{L}{W} = 3.16$$",
+        "**Bước 2 - Tính tổng lưu lượng khí cấp và cột áp máy thổi khí yêu cầu (Câu b)**: Tổng lưu lượng khí cấp cho $2\\text{ bể}$ đạt $Q_{\\text{air}} = 5.7\\text{ m}^3/\\text{min}$ và tổng cột áp máy thổi khí yêu cầu là $H_{\\text{blower}} = 2.85\\text{ m}$.",
+        "$$Q_{\\text{air}} = 0.3 \\times 9.5 \\times 2 = 5.7\\text{ m}^3/\\text{min}, \\quad H_{\\text{blower}} = 2.2 + 0.25 + 0.4 = 2.85\\text{ m}$$",
+        "**Bước 3 - Chọn model máy thổi khí và tính chi phí điện năng hàng tháng (Câu c và d)**: Chọn máy thổi khí model `TSR2-80` ($Q = 5.7\\text{ m}^3/\\text{min}$ tại cột áp $H = 3.0\\text{ m} = 3,000\\text{ mmAq}$) có công suất $P = 5.5\\text{ kW}$, chi phí tiền điện hàng tháng là $1,320\\text{ USD/tháng}$.",
+        "$$\\text{Cost}_{\\text{month}} = \\left(\\frac{5.5 \\times 24}{0.90}\\right) \\times 0.3 \\times 30 = 1,320\\text{ USD/tháng}$$"
+      ],
+      "verification_checks": [
+        "Kiểm tra tỷ số rộng trên sâu: $\\frac{W}{D} = \\frac{3.0}{2.2} = 1.36 \\in [1.0, 5.0]$ (Đạt chuẩn Slide 15)",
+        "Kiểm tra tỷ số dài trên rộng: $\\frac{L}{W} = \\frac{9.5}{3.0} = 3.16 \\in [3.0, 5.0]$ (Đạt chuẩn Slide 15)"
+      ],
+      "final_answers": {
+        "volume_each_m3": "$V_{\\text{each}} = 62.5\\text{ m}^3$",
+        "practical_dimensions_each": "$9.5\\text{ m} \\times 3.0\\text{ m} \\times 2.5\\text{ m}$",
+        "total_air_supply_m3_min": "$Q_{\\text{air}} = 5.7\\text{ m}^3/\\text{min}$",
+        "blower_head_m": "$H_{\\text{blower}} = 2.85\\text{ m}$",
+        "blower_model": "TSR2-80 ($P = 5.5\\text{ kW}$ tại $H = 3.0\\text{ m}$)",
+        "monthly_power_cost_usd": "$1,320\\text{ USD/tháng}$"
+      }
+    }
+  ]
+}

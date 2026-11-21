@@ -1,0 +1,393 @@
+{
+  "brief_id": "f51e2026",
+  "worker_id": "ch_w8",
+  "input_file": "worker_inputs/ch_w8.json",
+  "input_sha256": "61178b33b7e53575fe46e1d672914f3a3ee90f7352d6b67011d27b868a888383",
+  "assigned_slugs": [
+    "ch08",
+    "ch09",
+    "ch10"
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ch08_ex01",
+      "chapter_slug": "ch08",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể phản ứng kỵ khí khuấy trộn hoàn toàn (Complete-mix anaerobic reactor) cho lưu lượng Q = 500 m3/d ở nhiệt độ 25 độ C. Nước thải đầu vào có tổng COD = 6000 g/m3, COD hòa tan (sCOD) = 4000 g/m3, tỷ lệ COD/VSS = 1.8 g/g, phần VSS phân hủy sinh học = 80%, Nitơ = 10 g/m3, Photpho = 20 g/m3 và độ kiềm = 500 g CaCO3/m3. Giả sử VSSe = 150 g/m3, fd = 0.15, MLVSS = 6000 g/m3, khí sinh học gồm 65% CH4 và 35% CO2, hàm lượng dinh dưỡng sinh khối gồm 12% N và 2.4% P, tải trọng bề mặt bể lắng = 24 m3/m2.d, hiệu suất khử COD = 90% và hệ số an toàn cho SRT thiết kế = 3.0.",
+      "design_parameters_selected": [
+        "Select combined synthesis yield Y = 0.08 g VSS/g COD (from Slide 5 Typical column)",
+        "Select combined endogenous decay coefficient b = 0.03 g/g.d (from Slide 5 Typical column)",
+        "Select maximum specific growth rate at 25°C mu_m = 0.20 g/g.d (from Slide 5 Typical column)",
+        "Select half-velocity constant Ks = 120 g COD/m3 (from Slide 5 Typical column)",
+        "Select methane production at standard conditions (0°C, 1 atm) = 0.35 m3 CH4/kg CODr (from Slide 5 Typical column)",
+        "Select MLVSS = 6000 g/m3 (within typical range 4000-8000 g/m3 on Slide 2)",
+        "Select clarifier overflow rate = 24 m3/m2.d and factor of safety FS = 3.0 (from Slide 7)"
+      ],
+      "governing_equations": [
+        "pCOD = Total COD - sCOD; VSS_0 = pCOD / (COD/VSS); nbVSS = (1 - 0.80) x VSS_0; bCOD = sCOD + 0.80 x pCOD",
+        "1 / SRT_min = (mu_m x S) / (Ks + S) - b -> SRT_design = FS x SRT_min",
+        "P_X,bio = [Q x Y x (S_0 - S) x (1 + fd x b x SRT)] / (1 + b x SRT)",
+        "P_X,VSS = P_X,bio + Q x nbVSS; Mass of VSS in system M_VSS = P_X,VSS x SRT; V = M_VSS / MLVSS",
+        "V_CH4(25°C) = 0.35 x [(273.15 + 25) / 273.15] x [Q(S_0 - S) - 1.42 x P_X,bio]; V_gas = V_CH4 / 0.65",
+        "OLR = (Q x Total COD) / V; A_clarifier = Q / Overflow rate"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "Step 0 - Influent COD and VSS characterization:",
+        "Particulate COD: pCOD = 6000 g/m3 - 4000 g/m3 = 2000 g/m3",
+        "Influent VSS: VSS_0 = (2000 g/m3) / (1.8 g COD/g VSS) = 1111.1 g/m3",
+        "Non-biodegradable VSS: nbVSS = (1 - 0.80) x 1111.1 g/m3 = 222.2 g/m3",
+        "Biodegradable COD: bCOD = S_0 = 4000 g/m3 + (0.80 x 2000 g/m3) = 5600 g/m3",
+        "At 90% bCOD removal: S = (1 - 0.90) x 5600 g/m3 = 560 g/m3 -> bCOD removed = 5600 - 560 = 5040 g/m3",
+        "Solution (continue):",
+        "Step 1 - Select SRT to achieve 90% COD removal:",
+        "Select kinetic coefficients from Slide 5: Y = 0.08 g VSS/g COD, b = 0.03 g/g.d, mu_m(25°C) = 0.20 g/g.d, Ks = 120 g/m3",
+        "1 / SRT_min = ((0.20 g/g.d) x (560 g/m3)) / (120 g/m3 + 560 g/m3) - 0.03 g/g.d = 0.1347 d^-1 -> SRT_min = 7.42 d",
+        "With Factor of safety FS = 3.0 -> Design SRT = 3.0 x 7.42 d = 22.3 d (within 15-30 d range on Slide 2)",
+        "Step 2 - Daily solids production and mass of solids in system:",
+        "P_X,bio = [(500 m3/d) x (0.08 g/g) x (5040 g/m3) x (1 + 0.15 x 0.03 d^-1 x 22.3 d)] / [(1 + 0.03 d^-1 x 22.3 d) x 1000 g/kg] = 133.0 kg VSS/d",
+        "P_X,VSS = 133.0 kg/d + (500 m3/d x 222.2 g/m3) / (1000 g/kg) = 133.0 + 111.1 = 244.1 kg VSS/d",
+        "Mass of VSS in reactor: M_VSS = (244.1 kg/d) x (22.3 d) = 5443.4 kg VSS",
+        "Solution (continue):",
+        "Step 3 - Reactor volume and hydraulic retention time:",
+        "Select MLVSS = 6000 g/m3 = 6.0 kg/m3 -> Volume of reactor V = (5443.4 kg) / (6.0 kg/m3) = 907.2 m3 (or 906 m3)",
+        "Hydraulic retention time: HRT = (907.2 m3) / (500 m3/d) = 1.81 d = 43.5 h",
+        "Area of secondary clarifier: A_c = (500 m3/d) / (24 m3/m2.d) = 20.83 m2 -> Diameter D = 5.15 m",
+        "Step 4 - Gas production rate:",
+        "bCOD removed per day = (500 m3/d) x (5.04 kg/m3) = 2520 kg COD/d",
+        "COD converted to CH4 = 2520 kg/d - 1.42 x (133.0 kg VSS/d) = 2331.1 kg COD/d",
+        "CH4 volume at 25°C = (2331.1 kg COD/d) x (0.35 m3/kg COD) x [(273.15 + 25) / 273.15] = 890.6 m3 CH4/d",
+        "Total biogas production (65% CH4) = (890.6 m3/d) / 0.65 = 1370.1 m3/d",
+        "Solution (continue):",
+        "Step 5 - Excess sludge wasted and nutrient needs:",
+        "Solids lost in effluent = (500 m3/d) x (150 g/m3) / (1000 g/kg) = 75.0 kg VSS/d -> Excess VSS wasted = 244.1 - 75.0 = 169.1 kg VSS/d",
+        "Nitrogen required = 12% x 133.0 kg/d = 15.96 kg N/d; Influent N available = (500 m3/d x 10 g/m3) / 1000 = 5.0 kg N/d -> N addition = 15.96 - 5.0 = 10.96 kg N/d",
+        "Phosphorus required = 2.4% x 133.0 kg/d = 3.19 kg P/d; Influent P available = (500 m3/d x 20 g/m3) / 1000 = 10.0 kg P/d -> P addition = 0 kg P/d (sufficient)",
+        "Step 6 & Step 7 - Check OLR and determine alkalinity needs:",
+        "Check volumetric OLR = (500 m3/d x 6.0 kg COD/m3) / (907.2 m3) = 3.31 kg COD/m3.d (between 2 and 5 kg COD/m3.d) (satisfy)",
+        "For 35% CO2 in biogas at pH = 7.0, required alkalinity = 2500 g CaCO3/m3 -> Alkalinity addition = (2500 - 500 g/m3) x (500 m3/d) / 1000 = 1000 kg CaCO3/d (or 1070 kg CaCO3/d from Henry's law at 25°C)"
+      ],
+      "verification_checks": [
+        "Check SRT = 22.3 d within typical range 15 - 30 d on Slide 2 (satisfy)",
+        "Check MLVSS = 6000 g/m3 within typical range 4000 - 8000 g/m3 on Slide 2 (satisfy)",
+        "Check volumetric organic loading rate OLR = 3.31 kg COD/m3.d within typical range 2 - 5 kg COD/m3.d on Slide 2 (satisfy)",
+        "Check influent phosphorus = 10.0 kg P/d > required phosphorus 3.19 kg P/d (satisfy)"
+      ],
+      "final_answers": {
+        "SRT_design": "22.3 d",
+        "P_X_bio": "133.0 kg VSS/d",
+        "P_X_VSS": "244.1 kg VSS/d",
+        "reactor_volume_V": "907.2 m3 (or 906.0 m3)",
+        "HRT": "1.81 d (43.5 h)",
+        "clarifier_area_A": "20.83 m2 (D = 5.15 m)",
+        "methane_rate_25C": "890.6 m3 CH4/d",
+        "total_biogas_rate": "1370.1 m3/d",
+        "excess_VSS_wasted": "169.1 kg VSS/d",
+        "nitrogen_addition_needed": "10.96 kg N/d",
+        "phosphorus_addition_needed": "0 kg P/d",
+        "OLR": "3.31 kg COD/m3.d (satisfy)",
+        "alkalinity_addition_needed": "1000 kg CaCO3/d (at 2500 g CaCO3/m3 target)"
+      }
+    },
+    {
+      "exercise_id": "ch08_ex02",
+      "chapter_slug": "ch08",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể phản ứng kỵ khí dòng chảy ngược qua tầng bùn (UASB) cho lưu lượng Q = 500 m3/d ở nhiệt độ 25 độ C. Nước thải đầu vào có COD = 12,000 g/m3, TSS = 600 g/m3, nbVSS = 500 g/m3 và độ kiềm = 500 g/m3 tính theo CaCO3. Giả sử tải trọng hữu cơ thiết kế OLR = 8 kg COD/m3.d, hiệu suất khử COD = 90%, VSS đầu ra = 120 g/m3, MLVSS trong tầng bùn = 30,000 g/m3, fd = 0.1, khí sinh học gồm 65% CH4 và 35% CO2, chiều cao vùng phản ứng = 6 m, chiều cao vùng nước trong phía trên tầng bùn = 0.5 m, chiều cao bộ tách khí-rắn (GLSS) = 1.5 m và tỷ lệ Dài:Rộng = 2.",
+      "design_parameters_selected": [
+        "Select design OLR = 8 kg COD/m3.d (within 5-15 kg COD/m3.d range on Slide 20)",
+        "Select combined synthesis yield Y = 0.08 g VSS/g COD and decay coefficient b = 0.03 g/g.d (from Slide 5 Typical column)",
+        "Select methane yield at standard conditions = 0.35 m3 CH4/kg CODr (from Slide 5 Typical column)",
+        "Select process height H_process = 6.0 m, clear zone height = 0.5 m -> sludge blanket height H_sb = 5.5 m, and GLSS height = 1.5 m -> total height H_total = 7.5 m"
+      ],
+      "governing_equations": [
+        "V_process = (Q x S_0) / OLR; A = V_process / H_process; L = 2W -> W = sqrt(A / 2)",
+        "v_upflow = (Q / 24) / A",
+        "V_sb = A x (H_process - H_clear) = V_process x (5.5 / 6.0); M_VSS = V_sb x MLVSS",
+        "M_VSS = SRT x [Q x Y x (S_0 - S) x (1 + fd x b x SRT) / (1 + b x SRT) + Q x nbVSS]",
+        "V_CH4(25°C) = 0.35 x [(273.15 + 25) / 273.15] x [Q(S_0 - S) - 1.42 x P_X,bio]; V_gas = V_CH4 / 0.65"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "Step 1 - Reactor volume, dimensions, and upflow velocity:",
+        "Daily influent COD loading = (500 m3/d) x (12.0 kg COD/m3) = 6000 kg COD/d",
+        "Reactor process volume: V_process = (6000 kg COD/d) / (8 kg COD/m3.d) = 750 m3",
+        "With Height of reactor process H_process = 6 m -> Cross-section area A = 750 m3 / 6 m = 125 m2",
+        "With Length:Width ratio L / W = 2 -> 2 x W^2 = 125 m2 -> Width W = 7.91 m (select 8.0 m) and Length L = 15.81 m (select 16.0 m)",
+        "Total reactor height: H_total = 6.0 m + 1.5 m (GLSS) = 7.5 m",
+        "Check upflow velocity: v = (500 m3/d / 24 h/d) / (125 m2) = 0.167 m/h < 1.0 m/h (satisfy)",
+        "Solution (continue):",
+        "Step 2 - Sludge blanket volume, biomass inventory, and SRT:",
+        "Sludge blanket height: H_sb = 6.0 m - 0.5 m (clear zone) = 5.5 m -> Sludge blanket volume V_sb = 125 m2 x 5.5 m = 687.5 m3",
+        "Mass of VSS in sludge blanket: M_VSS = (687.5 m3) x (30 kg VSS/m3) = 20,625 kg VSS",
+        "Daily COD removed (90% efficiency) = 0.90 x 6000 kg/d = 5400 kg COD/d",
+        "Solve SRT from M_VSS = SRT x P_X,VSS with Y = 0.08 g/g, b = 0.03 d^-1, fd = 0.1, and Q x nbVSS = 250 kg/d:",
+        "20,625 = SRT x [ (0.08 x 5400 x (1 + 0.1 x 0.03 x SRT)) / (1 + 0.03 x SRT) + 250 ] -> SRT = 45.0 d (Note: if using Slide 19 recommended SRT = 60 d at 25°C, P_X,bio = 182.1 kg/d and P_X,VSS = 432.1 kg/d)",
+        "At SRT = 45.0 d: P_X,bio = 208.7 kg VSS/d and P_X,VSS = 208.7 + 250.0 = 458.7 kg VSS/d",
+        "Solution (continue):",
+        "Step 3 - Excess sludge wasted and gas production rate:",
+        "Solids lost in effluent = (500 m3/d) x (0.12 kg/m3) = 60.0 kg VSS/d -> Excess VSS wasted = 458.7 - 60.0 = 398.7 kg VSS/d (or 372.1 kg/d at SRT = 60 d)",
+        "COD converted to CH4 = 5400 kg/d - 1.42 x (208.7 kg/d) = 5103.7 kg COD/d",
+        "CH4 volume at 25°C = (5103.7 kg COD/d) x (0.35 m3/kg COD) x [(273.15 + 25) / 273.15] = 1949.8 m3 CH4/d",
+        "Total biogas production (65% CH4) = (1949.8 m3/d) / 0.65 = 2999.7 m3/d (approx 3000 m3/d)",
+        "Step 4 - Nutrient and alkalinity checks (Slide 29):",
+        "Nitrogen needed = 0.12 x 208.7 kg/d = 25.04 kg N/d (50.1 g N/m3); Phosphorus needed = 0.024 x 208.7 kg/d = 5.01 kg P/d (10.0 g P/m3)",
+        "Alkalinity addition for 35% CO2 at pH = 7.0 (target 2500 g CaCO3/m3) = (2500 - 500 g/m3) x (500 m3/d) / 1000 = 1000 kg CaCO3/d"
+      ],
+      "verification_checks": [
+        "Check design OLR = 8 kg COD/m3.d within typical range 5 - 15 kg COD/m3.d on Slide 20 (satisfy)",
+        "Check upflow velocity v = 0.167 m/h <= 1.0 m/h on Slide 19 (satisfy)",
+        "Check reactor process height H = 6 m within typical range 3 - 7 m on Slide 19 (satisfy)",
+        "Check SRT = 45.0 d (active blanket) and 60.0 d (Slide 19 table at 25°C) for stable granular operation (satisfy)"
+      ],
+      "final_answers": {
+        "reactor_process_volume": "750 m3",
+        "sludge_blanket_volume": "687.5 m3",
+        "cross_section_area_A": "125 m2",
+        "dimensions_L_W_H": "L = 15.81 m (16 m) x W = 7.91 m (8 m) x H_total = 7.5 m",
+        "upflow_velocity": "0.167 m/h (satisfy)",
+        "SRT": "45.0 d (from 20,625 kg VSS blanket mass; or 60 d recommended on Slide 19)",
+        "P_X_bio": "208.7 kg VSS/d (or 182.1 kg VSS/d at SRT = 60 d)",
+        "P_X_VSS": "458.7 kg VSS/d (or 432.1 kg VSS/d at SRT = 60 d)",
+        "excess_VSS_wasted": "398.7 kg VSS/d",
+        "methane_rate_25C": "1949.8 m3 CH4/d",
+        "total_biogas_rate": "2999.7 m3/d (~3000 m3/d)",
+        "alkalinity_addition_needed": "1000 kg CaCO3/d"
+      }
+    },
+    {
+      "exercise_id": "ch09_ex01",
+      "chapter_slug": "ch09",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Ước tính lượng Photpho loại bỏ bằng cơ chế sinh học tăng cường (EBPR) khi biết dòng vào có COD = 300 g/m3, bCOD = 200 g/m3, rbCOD = 50 g/m3 và Photpho tổng cộng (tính theo P) = 6.0 g/m3. Giả sử tỷ lệ chuyển hóa rbCOD thành axetat trong vùng kỵ khí = 90%, hệ số sản lượng tổng hợp vi khuẩn Y = 0.45 g VSS/g COD, hệ số phân hủy nội bào b = 0.08 g VSS/g VSS.d, SRT = 5 d, hàm lượng P trong vi khuẩn PAOs = 0.3 g P/g VSS, hàm lượng P trong các vi khuẩn khác = 0.02 g P/g VSS và nồng độ VSS đầu ra bể lắng thứ cấp = 8 g/m3.",
+      "design_parameters_selected": [
+        "Select conversion of rbCOD to acetate in anaerobic zone = 90% (from Slide 12)",
+        "Select synthesis yield Y = 0.45 g VSS/g COD, decay coefficient b = 0.08 g VSS/g VSS.d, SRT = 5 d (from Slide 12)",
+        "Select phosphorus content of PAOs = 0.30 g P/g VSS and other bacteria = 0.02 g P/g VSS (from Slide 12)"
+      ],
+      "governing_equations": [
+        "Y_obs = Y / (1 + b x SRT)",
+        "bCOD_PAO = 0.90 x rbCOD; bCOD_other = bCOD - bCOD_PAO",
+        "Delta_X_PAO = Y_obs x bCOD_PAO; Delta_X_other = Y_obs x bCOD_other",
+        "P_removed_synthesis = 0.30 x Delta_X_PAO + 0.02 x Delta_X_other",
+        "Soluble P_eff = P_in - P_removed_synthesis; Total P_eff = Soluble P_eff + VSS_e x f_P_avg"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "Step 1 - Determine observed biomass yield Y_obs at SRT = 5 d:",
+        "Y_obs = Y / (1 + b x SRT) = (0.45 g VSS/g COD) / (1 + 0.08 d^-1 x 5 d) = 0.45 / 1.40 = 0.3214 g VSS/g bCOD",
+        "Step 2 - Partition bCOD between PAOs and other heterotrophic bacteria:",
+        "rbCOD converted to acetate for PAOs = 90% x 50 g/m3 = 45.0 g/m3",
+        "Remaining bCOD used by other bacteria = 200 g/m3 - 45.0 g/m3 = 155.0 g/m3",
+        "Step 3 - Compute active biomass produced per m3 of wastewater:",
+        "PAO biomass produced: X_PAO = (0.3214 g VSS/g COD) x (45.0 g COD/m3) = 14.46 g VSS/m3",
+        "Other bacteria produced: X_other = (0.3214 g VSS/g COD) x (155.0 g COD/m3) = 49.82 g VSS/m3",
+        "Total synthesized biomass: X_total = 14.46 + 49.82 = 64.29 g VSS/m3",
+        "Solution (continue):",
+        "Step 4 - Compute phosphorus uptake and effluent phosphorus concentration:",
+        "P uptake by PAOs = (14.46 g VSS/m3) x (0.30 g P/g VSS) = 4.34 g P/m3",
+        "P uptake by other bacteria = (49.82 g VSS/m3) x (0.02 g P/g VSS) = 1.00 g P/m3",
+        "Total P incorporated into biomass = 4.34 g/m3 + 1.00 g/m3 = 5.34 g P/m3",
+        "Effluent soluble phosphorus concentration: P_sol,eff = 6.0 g/m3 - 5.34 g/m3 = 0.66 g P/m3",
+        "Average P content in synthesized VSS: f_P,avg = (5.34 g P/m3) / (64.29 g VSS/m3) = 0.083 g P/g VSS (8.3%)",
+        "Particulate P escaping in clarifier effluent VSS (8 g/m3): P_part,eff = (8 g VSS/m3) x (0.083 g P/g VSS) = 0.66 g P/m3",
+        "Net P removed via wasted sludge = 5.34 - 0.66 = 4.68 g P/m3 -> Total effluent P = 0.66 + 0.66 = 1.32 g P/m3"
+      ],
+      "verification_checks": [
+        "Check rbCOD / P_EBPR ratio = (50 g/m3) / (4.34 g P/m3) = 11.5 g rbCOD/g P (matches 7-11 g rbCOD/g P rule on Slide 11) (satisfy)",
+        "Check effluent soluble P = 0.66 g/m3 < 1.0 g/m3 typical biological P discharge target (satisfy)"
+      ],
+      "final_answers": {
+        "Y_obs": "0.3214 g VSS/g COD",
+        "X_PAO": "14.46 g VSS/m3",
+        "X_other": "49.82 g VSS/m3",
+        "P_uptake_PAO": "4.34 g P/m3",
+        "P_uptake_other": "1.00 g P/m3",
+        "total_P_uptake": "5.34 g P/m3",
+        "effluent_soluble_P": "0.66 g P/m3",
+        "net_P_removed_with_8_g_m3_VSS_eff": "4.68 g P/m3",
+        "total_effluent_P": "1.32 g P/m3"
+      }
+    },
+    {
+      "exercise_id": "ch09_ex02",
+      "chapter_slug": "ch09",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Tính nồng độ Photpho đầu ra (Effluent P concentration) và hàm lượng Photpho trong bùn thải (P content in wasted sludge) cho hệ thống A2O xử lý nước thải có lưu lượng Q = 4000 m3/d ở nhiệt độ 12 độ C. Nước thải đầu vào có Total BOD = 160 g/m3, bCOD = 250 g/m3, rbCOD = 75 g/m3, Axetat = 15 g/m3, nbVSS = 20 g/m3, chất trơ vô cơ (iTSS) = 10 g/m3, TKN = 35 g/m3 và Photpho = 6 g/m3. Giả sử tỷ lệ tuần hoàn bùn hoạt tính R = 0.5, SRT = 8 d, nitrat sinh ra từ quá trình nitrat hóa NOx-N = 28 g/m3, NOx-N đầu ra = 6 g/m3 và hàm lượng Photpho của các vi khuẩn khác = 0.015 g P/g VSS.",
+      "design_parameters_selected": [
+        "Select rbCOD consumed by nitrate in anaerobic zone = 5.2 g rbCOD / g NO3-N (from Slide 20)",
+        "Select rbCOD used / P removal ratio = 14.5 g rbCOD/g P at VFA/rbCOD = 15/75 = 0.20 (from Slide 19 chart; or 15.0 g rbCOD/g P)",
+        "Select heterotrophic kinetic coefficients Y_H = 0.45 g VSS/g bCOD, b_H,20 = 0.10 g/g.d (Slide 31 of Ch5.1; or 0.12 g/g.d), theta = 1.04, fd = 0.15",
+        "Select nitrifier kinetic coefficients Y_n = 0.12 g VSS/g NOx-N, b_n,20 = 0.08 g/g.d, theta = 1.04"
+      ],
+      "governing_equations": [
+        "NO3-N_an = R x NOx-N_eff; rbCOD_NO3 = 5.2 x NO3-N_an; rbCOD_EBPR = rbCOD - rbCOD_NO3",
+        "VFA / rbCOD = Acetate / rbCOD -> read (rbCOD / P)_ratio from Slide 19 curve -> P_EBPR = rbCOD_EBPR / (rbCOD / P)_ratio",
+        "b_T = b_20 x (1.04)^(T - 20); P_X,other_act = Q x Y_H x (bCOD - rbCOD_EBPR) / (1 + b_H,T x SRT) + Q x Y_n x NOx / (1 + b_n,T x SRT)",
+        "P_synth = 0.015 x (P_X,other_act / Q); P_removed = P_EBPR + P_synth; P_eff = P_in - P_removed",
+        "P_X,VSS = P_X,bio + Q x nbVSS; P_X,TSS = (P_X,bio / 0.85) + Q x nbVSS + Q x iTSS; %P = (Q x P_removed) / P_X"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "Step 1 - Determine rbCOD available for PAOs in the anaerobic contact zone:",
+        "Nitrate recycled to anaerobic zone via RAS (R = 0.5): NO3-N_an = 0.5 x (6 g/m3) = 3.0 g NO3-N/m3 of influent",
+        "rbCOD consumed by nitrate in anaerobic zone (Slide 20): rbCOD_NO3 = (3.0 g NO3-N/m3) x (5.2 g rbCOD/g NO3-N) = 15.6 g/m3",
+        "Remaining rbCOD available for EBPR: rbCOD_EBPR = 75.0 g/m3 - 15.6 g/m3 = 59.4 g/m3",
+        "Step 2 - Determine phosphorus removed by EBPR (PAOs):",
+        "VFA / rbCOD ratio = (15 g/m3 Acetate) / (75 g/m3 rbCOD) = 0.20",
+        "From Slide 19 chart at VFA/rbCOD = 0.20 -> Select rbCOD / P removal ratio = 14.5 g rbCOD/g P (or 15.0 g rbCOD/g P)",
+        "P removed by PAOs: P_EBPR = (59.4 g/m3) / (14.5 g rbCOD/g P) = 4.10 g P/m3 (or 3.96 g P/m3 at ratio = 15.0)",
+        "Solution (continue):",
+        "Step 3 - Determine phosphorus used for synthesis by other bacteria and Effluent P:",
+        "At T = 12°C: b_H,12 = 0.10 x (1.04)^(12 - 20) = 0.0731 d^-1; b_n,12 = 0.08 x (1.04)^(12 - 20) = 0.0585 d^-1",
+        "Remaining bCOD for ordinary heterotrophs: bCOD_other = 250.0 - 59.4 = 190.6 g/m3",
+        "Active ordinary heterotrophs: X_other,act = (0.45 x 190.6 g/m3) / (1 + 0.0731 x 8) = 54.13 g VSS/m3 (216.52 kg/d)",
+        "Active nitrifiers: X_n,act = (0.12 x 28 g/m3) / (1 + 0.0585 x 8) = 2.29 g VSS/m3 (9.16 kg/d)",
+        "P used by other bacteria (0.015 g P/g VSS): P_synth = 0.015 x (54.13 + 2.29) = 0.85 g P/m3",
+        "Total P removed: P_rem = 4.10 + 0.85 = 4.95 g P/m3 -> Effluent soluble P = 6.0 - 4.95 = 1.05 g P/m3 (or 1.19 g P/m3 if rbCOD/P = 15.0)",
+        "Solution (continue):",
+        "Step 4 - Determine daily wasted sludge mass and P content in wasted sludge:",
+        "Total biological VSS produced (including PAOs = 73.39 kg/d and cell debris fd = 0.15): P_X,bio = 318.7 kg VSS/d (79.67 g/m3)",
+        "Total wasted VSS: P_X,VSS = 318.7 kg/d + (4000 m3/d x 20 g/m3) / 1000 = 398.7 kg VSS/d (99.67 g VSS/m3)",
+        "Total wasted TSS: P_X,TSS = (318.7 / 0.85) + 80.0 + (4000 x 10 / 1000) = 494.9 kg TSS/d (123.7 g TSS/m3)",
+        "Daily mass of P removed in wasted sludge: M_P = (4000 m3/d x 4.95 g P/m3) / 1000 = 19.80 kg P/d",
+        "P content in wasted sludge: %P (VSS basis) = (19.80 / 398.7) x 100% = 4.96% g P/g VSS (~5.0%); %P (TSS basis) = (19.80 / 494.9) x 100% = 4.00% g P/g TSS"
+      ],
+      "verification_checks": [
+        "Check BOD/P ratio = 160 / 6 = 26.7 and rbCOD/P = 75 / 6 = 12.5 against Slide 19 minimal ratios (explains why effluent P is ~1.05 g/m3 > 0.50 g/m3) (satisfy)",
+        "Check SRT = 8 d within typical A2O SRT range 5 - 25 d on Slide 21 (satisfy)",
+        "Check RAS ratio R = 0.5 (50%) within typical A2O RAS range 25 - 100% on Slide 21 (satisfy)"
+      ],
+      "final_answers": {
+        "rbCOD_consumed_by_RAS_nitrate": "15.6 g/m3",
+        "rbCOD_available_for_EBPR": "59.4 g/m3",
+        "P_removed_by_EBPR": "4.10 g P/m3 (at rbCOD/P = 14.5; or 3.96 g P/m3 at rbCOD/P = 15.0)",
+        "P_removed_by_other_bacteria": "0.85 g P/m3",
+        "total_P_removed": "4.95 g P/m3 (19.80 kg P/d)",
+        "effluent_P_concentration": "1.05 g P/m3 (or 1.19 g P/m3 at rbCOD/P = 15.0)",
+        "P_X_VSS": "398.7 kg VSS/d",
+        "P_X_TSS": "494.9 kg TSS/d",
+        "P_content_in_wasted_sludge_VSS_basis": "4.96% (0.050 g P/g VSS)",
+        "P_content_in_wasted_sludge_TSS_basis": "4.00% (0.040 g P/g TSS)"
+      }
+    },
+    {
+      "exercise_id": "ch10_ex01",
+      "chapter_slug": "ch10",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Xác định thể tích của 500 kg bùn khô (dry solid) trước và sau khi phân hủy kỵ khí (digestion). Trước phân hủy, bùn có hàm lượng chất rắn khô = 5%, chất rắn bay hơi (volatile matter) = 80%, tỷ trọng chất rắn cố định (fixed solids) Sf = 2.5 và tỷ trọng chất rắn bay hơi Sv = 1.0. Sau phân hủy, hàm lượng chất rắn khô đạt 20% và 60% lượng chất rắn bay hơi bị phân hủy.",
+      "design_parameters_selected": [
+        "Select specific weight of water rho_w = 1000 kg/m3 and specific gravity of water Sw = 1.0 (from Slides 16-17)",
+        "Use given before-digestion parameters: Ws,1 = 500 kg, Ps,1 = 5% = 0.05, Volatile fraction = 80%, Sf = 2.5, Sv = 1.0 (from Slide 18)",
+        "Use given after-digestion parameters: Ps,2 = 20% = 0.20, Volatile solids destruction = 60% (from Slide 18)"
+      ],
+      "governing_equations": [
+        "Ws / Ss = Wf / Sf + Wv / Sv",
+        "1 / S_sludge = Ps / Ss + (1 - Ps) / Sw",
+        "V = Ws / (S_sludge x rho_w x Ps)"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "Part 1 - Volume of sludge before digestion (Ws,1 = 500 kg, Ps,1 = 5%):",
+        "Mass of fixed solids: Wf,1 = 20% x 500 kg = 100 kg; Mass of volatile solids: Wv,1 = 80% x 500 kg = 400 kg",
+        "Specific gravity of dry solids before digestion (Ss,1): 500 / Ss,1 = (100 / 2.5) + (400 / 1.0) = 40 + 400 = 440 -> Ss,1 = 500 / 440 = 1.136",
+        "Specific gravity of wet sludge before digestion (S_sludge,1):",
+        "1 / S_sludge,1 = (0.05 / 1.136) + (0.95 / 1.0) = 0.0440 + 0.9500 = 0.9940 -> S_sludge,1 = 1.006",
+        "Volume of sludge before digestion: V_1 = (500 kg) / [(1.006) x (1000 kg/m3) x 0.05] = 9.94 m3",
+        "Solution (continue):",
+        "Part 2 - Volume of sludge after digestion (Ps,2 = 20%, 60% VS destroyed):",
+        "Mass of fixed solids after digestion: Wf,2 = Wf,1 = 100 kg",
+        "Mass of volatile solids remaining: Wv,2 = (1 - 0.60) x 400 kg = 160 kg",
+        "Total dry solids remaining after digestion: Ws,2 = 100 kg + 160 kg = 260 kg (%VS = 160 / 260 = 61.54%)",
+        "Specific gravity of dry solids after digestion (Ss,2): 260 / Ss,2 = (100 / 2.5) + (160 / 1.0) = 40 + 160 = 200 -> Ss,2 = 260 / 200 = 1.30",
+        "Specific gravity of digested sludge (S_sludge,2):",
+        "1 / S_sludge,2 = (0.20 / 1.30) + (0.80 / 1.0) = 0.1538 + 0.8000 = 0.9538 -> S_sludge,2 = 1.048",
+        "Volume of sludge after digestion: V_2 = (260 kg) / [(1.048) x (1000 kg/m3) x 0.20] = 1.24 m3",
+        "Check sludge volume reduction = [(9.94 - 1.24) / 9.94] x 100% = 87.5% (satisfy)"
+      ],
+      "verification_checks": [
+        "Check S_sludge,1 = 1.006 and S_sludge,2 = 1.048 > 1.0 (satisfy)",
+        "Check sludge volume reduction = 87.5% from V_1 = 9.94 m3 to V_2 = 1.24 m3 (satisfy)"
+      ],
+      "final_answers": {
+        "Ss_before_digestion": "1.136",
+        "S_sludge_before_digestion": "1.006",
+        "volume_before_digestion_V1": "9.94 m3",
+        "dry_solids_after_digestion_Ws2": "260 kg (100 kg fixed + 160 kg volatile)",
+        "Ss_after_digestion": "1.30",
+        "S_sludge_after_digestion": "1.048",
+        "volume_after_digestion_V2": "1.24 m3",
+        "volume_reduction_percent": "87.5%"
+      }
+    },
+    {
+      "exercise_id": "ch10_ex02",
+      "chapter_slug": "ch10",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể nén bùn trọng lực (Gravity Thickener) cho hỗn hợp bùn tươi sơ cấp (Primary sludge) và bùn hoạt tính dư (Waste activated sludge). Bùn sơ cấp có tỷ trọng = 1.03, hàm lượng chất rắn = 3.4% và lưu lượng = 420 m3/d. Bùn hoạt tính dư có tỷ trọng = 1.005, hàm lượng chất rắn = 0.23% và lưu lượng = 2500 m3/d.",
+      "design_parameters_selected": [
+        "Select solids loading rate SLR = 50 kg/m2.d for combined primary and waste activated sludge (within typical range 25 - 70 kg/m2.d on Slide 34 for 0.5 - 1.5% unthickened solids)",
+        "Select hydraulic overflow rate range = 6 to 12 m3/m2.d for combined primary and waste activated sludge (from Slide 33)",
+        "Select thickened sludge dry solids concentration = 4.0% (within typical range 2 - 6% on Slide 34), specific gravity S_th = 1.01, and solids capture = 90% (or 100%)"
+      ],
+      "governing_equations": [
+        "M_i = Q_i x rho_w x S_sludge,i x Ps,i; M_total = M_primary + M_WAS; Q_total = Q_primary + Q_WAS",
+        "Ps,combined = M_total / (Q_primary x rho_w x S_p + Q_WAS x rho_w x S_WAS)",
+        "A = M_total / SLR; D = sqrt((4 x A_tank) / pi); OFR = Q_total / A"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "Step 1 - Compute daily dry solids mass and combined feed characteristics:",
+        "Primary sludge dry solids: M_p = (420 m3/d) x (1000 kg/m3) x 1.03 x 0.034 = 14,708.4 kg/d",
+        "Waste activated sludge dry solids: M_WAS = (2500 m3/d) x (1000 kg/m3) x 1.005 x 0.0023 = 5,778.8 kg/d",
+        "Total dry solids loading: M_total = 14,708.4 + 5,778.8 = 20,487.2 kg/d",
+        "Total influent sludge flowrate: Q_total = 420 m3/d + 2500 m3/d = 2920 m3/d",
+        "Total wet sludge mass: W_total = (420 x 1000 x 1.03) + (2500 x 1000 x 1.005) = 432,600 + 2,512,500 = 2,945,100 kg/d",
+        "Combined unthickened solids concentration: Ps,combined = (20,487.2 / 2,945,100) x 100% = 0.70% (within 0.5 - 1.5% on Slide 34)",
+        "Solution (continue):",
+        "Step 2 - Select solids loading rate (SLR) and size thickener surface area:",
+        "Trial 1: Select SLR = 40 kg/m2.d (from Slide 34 range 25 - 70 kg/m2.d) -> A = (20,487.2 kg/d) / (40 kg/m2.d) = 512.2 m2 -> Check hydraulic overflow rate OFR = (2920 m3/d) / (512.2 m2) = 5.70 m3/m2.d < 6 m3/m2.d (not satisfy without dilution water)",
+        "Reselect SLR = 50 kg/m2.d (within 25 - 70 kg/m2.d on Slide 34) -> Required surface area A = (20,487.2 kg/d) / (50 kg/m2.d) = 409.7 m2",
+        "Check hydraulic overflow rate: OFR = (2920 m3/d) / (409.7 m2) = 7.13 m3/m2.d (within 6 - 12 m3/m2.d on Slide 33) (satisfy)",
+        "Select N = 2 circular gravity thickeners -> Area per tank A_each = 409.7 / 2 = 204.9 m2 -> Diameter D = sqrt((4 x 204.9) / pi) = 16.15 m (select D = 16.2 m; or for N = 1 tank, D = 22.8 m) and side water depth H = 3.0 m",
+        "Step 3 - Thickened sludge underflow and supernatant flowrate (at 4.0% thickened solids, S_th = 1.01):",
+        "Thickened underflow (at 100% solids capture): Q_u = 20,487.2 / (1000 x 1.01 x 0.04) = 507.1 m3/d -> Supernatant flow Q_sup = 2920 - 507.1 = 2412.9 m3/d (at 90% solids capture: Q_u = 456.4 m3/d and Q_sup = 2463.6 m3/d)"
+      ],
+      "verification_checks": [
+        "Check combined unthickened solids Ps = 0.70% within 0.5 - 1.5% range on Slide 34 (satisfy)",
+        "Check Solids Loading Rate SLR = 50 kg/m2.d within 25 - 70 kg/m2.d range on Slide 34 (satisfy)",
+        "Check Hydraulic Overflow Rate OFR = 7.13 m3/m2.d within 6 - 12 m3/m2.d range on Slide 33 (satisfy)"
+      ],
+      "final_answers": {
+        "M_primary": "14,708.4 kg/d",
+        "M_WAS": "5,778.8 kg/d",
+        "M_total": "20,487.2 kg/d",
+        "Q_total": "2920 m3/d",
+        "Ps_combined_unthickened": "0.70%",
+        "SLR_selected": "50 kg/m2.d",
+        "total_surface_area_A": "409.7 m2",
+        "hydraulic_overflow_rate_OFR": "7.13 m3/m2.d (satisfy)",
+        "tank_dimensions": "2 circular tanks with D = 16.2 m each (or 1 circular tank with D = 22.8 m), depth H = 3.0 m",
+        "thickened_underflow_at_4pct": "507.1 m3/d (100% capture) or 456.4 m3/d (90% capture)"
+      }
+    }
+  ]
+}

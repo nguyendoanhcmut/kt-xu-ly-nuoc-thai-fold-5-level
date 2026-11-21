@@ -1,0 +1,250 @@
+{
+  "brief_id": "f51e2026",
+  "worker_id": "ch_w6",
+  "input_file": "worker_inputs/ch_w6.json",
+  "input_sha256": "c796d8604cad528a956cd75e6e19c41b767c95522de53c2b60311e49da54a27d",
+  "assigned_slugs": [
+    "ch05_1",
+    "ch05_2"
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ch05_1_ex01",
+      "chapter_slug": "ch05_1",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Bể phản ứng sinh học hiếu khí tiếp nhận lưu lượng nước thải Q = 1000 m3/d có nồng độ bsCOD đầu vào bằng 500 g/m3. Dòng ra khỏi bể có nồng độ bsCOD bằng 10 g/m3 và nồng độ sinh khối VSS bằng 200 g/m3. Xác định hệ số sản lượng sinh khối quan sát được (g VSS/g COD khử) và lượng oxy tiêu thụ theo g O2/g COD khử cùng khối lượng oxy tiêu thụ mỗi ngày (g/d).",
+      "design_parameters_selected": [
+        "Select influent flowrate Q = 1000 m3/d",
+        "Select influent biodegradable soluble COD So = 500 g/m3",
+        "Select effluent biodegradable soluble COD S = 10 g/m3",
+        "Select effluent biomass concentration Xe = 200 g VSS/m3 (influent VSS Xo = 0 g/m3)",
+        "Select theoretical oxygen equivalent of bacterial cells C5H7NO2 = 1.42 g O2/g VSS (from Slide 20)"
+      ],
+      "governing_equations": [
+        "Y_obs = (g biomass produced) / (g substrate consumed) = (Xe - Xo) / (So - S)",
+        "Total COD removal = Oxygen requirement + COD incorporated into biomass",
+        "COD of cell tissue = 5 x (32 g O2/mole) / (113 g C5H7NO2/mole) = 1.42 g O2/g VSS",
+        "Ro (g O2/d) = Q x (So - S) - 1.42 x Q x Xe"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "1. Determine observed yield in g VSS/g COD removed:",
+        "Substrate (bsCOD) removed = So - S = 500 g/m3 - 10 g/m3 = 490 g COD/m3",
+        "Biomass produced = Xe - Xo = 200 g VSS/m3 - 0 g VSS/m3 = 200 g VSS/m3",
+        "Observed yield: Y_obs = (200 g VSS/m3) / (490 g COD/m3) = 0.408 g VSS/g COD removed (or 0.41 g VSS/g COD removed)",
+        "Solution (continue):",
+        "2. Determine amount of oxygen used in g O2/g COD removed and in g/d:",
+        "Cell yield expressed as COD = Y_obs x 1.42 = (200 / 490 g VSS/g COD) x (1.42 g COD/g VSS) = 0.58 g cell as COD/g COD removed",
+        "1 g COD removal = Oxygen used + 0.58 g COD incorporated into biomass -> Oxygen used = 1 - 0.58 = 0.42 g O2/g COD removed",
+        "Daily bsCOD removed = Q x (So - S) = (1000 m3/d) x (500 - 10 g/m3) = 490,000 g COD/d = 490 kg COD/d",
+        "Daily COD incorporated into biomass = 1.42 x Q x Xe = (1.42 g O2/g VSS) x (1000 m3/d) x (200 g VSS/m3) = 284,000 g O2/d = 284 kg O2/d",
+        "Daily oxygen used: Ro = 490,000 g/d - 284,000 g/d = 206,000 g O2/d = 206 kg O2/d"
+      ],
+      "verification_checks": [
+        "Check COD mass balance: Oxygen used (0.42 g O2/g COD) + Biomass COD (0.58 g COD/g COD) = 1.00 g COD/g COD removed (satisfy)",
+        "Check daily oxygen rate: (490,000 g COD/d) x (206 / 490 g O2/g COD) = 206,000 g O2/d (satisfy)"
+      ],
+      "final_answers": {
+        "Y_obs": "0.41 g VSS/g COD removed (exact 0.408 g VSS/g COD removed)",
+        "O2_per_g_COD_removed": "0.42 g O2/g COD removed",
+        "daily_O2_used": "206,000 g O2/d (206 kg O2/d)"
+      }
+    },
+    {
+      "exercise_id": "ch05_1_ex02",
+      "chapter_slug": "ch05_1",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Bể phản ứng sinh học khuấy trộn hoàn toàn hiếu khí có thể tích V = 335 m3 và nồng độ sinh khối hoạt tính X = 2000 g/m3. Lưu lượng nước thải Q = 1000 m3/d, nồng độ bsCOD đầu vào So = 300 g/m3, nồng độ nbVSS đầu vào Xo,i = 50 g/m3, nồng độ bsCOD đầu ra S = 2.4 g/m3 và hệ số xác tế bào fd = 0.1. Chọn các hệ số động học điển hình từ bảng Slide 31 để xác định hệ số sản lượng sinh khối ròng (Y_bio), hệ số sản lượng quan sát (Y_obs) và tỷ phần sinh khối hoạt tính trong MLVSS (F_X,act).",
+      "design_parameters_selected": [
+        "Select typical kinetic coefficients from Slide 31 table (at 20oC): Y = 0.45 g VSS/g bsCOD, b = 0.10 g VSS/g VSS.d, k = 6 g bsCOD/g VSS.d, Ks = 30 g/m3",
+        "Given reactor volume V = 335 m3, active biomass concentration X = 2000 g/m3, flowrate Q = 1000 m3/d",
+        "Given influent bsCOD So = 300 g/m3, effluent bsCOD S = 2.4 g/m3, influent nbVSS Xo,i = 50 g/m3, cell debris fraction fd = 0.1"
+      ],
+      "governing_equations": [
+        "r_su = Q(So - S) / V (or r_su = k S X / (Ks + S))",
+        "r_X = Y r_su - b X",
+        "r_XT,VSS = Y r_su - b X + fd b X + Q Xo,i / V",
+        "Y_bio = r_X / r_su",
+        "Y_obs = r_XT,VSS / r_su",
+        "F_X,act = (Y r_su - b X) / r_XT,VSS"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "Select typical kinetic coefficients from Slide 31 table: Y = 0.45 g VSS/g bsCOD, b = 0.10 g VSS/g VSS.d (and k = 6 g bsCOD/g VSS.d, Ks = 30 g/m3)",
+        "Calculate substrate utilization rate: r_su = Q(So - S) / V = (1000 m3/d) x (300 - 2.4 g/m3) / (335 m3) = 888.4 g bsCOD/m3.d (or from Monod equation: r_su = (6 x 2.4 x 2000) / (30 + 2.4) = 888.9 g bsCOD/m3.d)",
+        "Calculate net biomass growth rate: r_X = Y r_su - b X = (0.45 g VSS/g COD) x (888.4 g/m3.d) - (0.10 d^-1) x (2000 g/m3) = 399.8 - 200.0 = 199.8 g VSS/m3.d (or 200.0 g VSS/m3.d)",
+        "Calculate total VSS production rate: r_XT,VSS = r_X + fd b X + Q Xo,i / V = 199.8 + (0.1)(0.10)(2000) + (1000 x 50) / 335 = 199.8 + 20.0 + 149.3 = 369.1 g VSS/m3.d (or 369.3 g VSS/m3.d)",
+        "Solution (continue):",
+        "1. Net biomass yield: Y_bio = r_X / r_su = (199.8 g VSS/m3.d) / (888.4 g bsCOD/m3.d) = 0.225 g VSS/g bsCOD (or 0.23 g VSS/g bsCOD)",
+        "2. Observed yield: Y_obs = r_XT,VSS / r_su = (369.1 g VSS/m3.d) / (888.4 g bsCOD/m3.d) = 0.415 g VSS/g bsCOD (or 0.42 g VSS/g bsCOD)",
+        "3. Active biomass fraction in MLVSS: F_X,act = r_X / r_XT,VSS = (199.8 g VSS/m3.d) / (369.1 g VSS/m3.d) = 0.541 = 54.1% (or 54.2%)"
+      ],
+      "verification_checks": [
+        "Check yield inequality: Y_bio (0.225 g/g) < Y_obs (0.415 g/g) < Y (0.45 g/g) (satisfy)",
+        "Check active biomass fraction: F_X,act = Y_bio / Y_obs = 0.225 / 0.415 = 0.542 (satisfy)"
+      ],
+      "final_answers": {
+        "r_su": "888.4 g bsCOD/m3.d (or 888.9 g bsCOD/m3.d)",
+        "r_X": "199.8 g VSS/m3.d (or 200.0 g VSS/m3.d)",
+        "r_XT_VSS": "369.1 g VSS/m3.d (or 369.3 g VSS/m3.d)",
+        "Y_bio": "0.225 g VSS/g bsCOD",
+        "Y_obs": "0.415 g VSS/g bsCOD",
+        "F_X_act": "0.541 (54.1%)"
+      }
+    },
+    {
+      "exercise_id": "ch05_1_ex03",
+      "chapter_slug": "ch05_1",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Hệ thống bùn hoạt tính sinh trưởng lơ lửng khuấy trộn hoàn toàn vận hành với thời gian lưu bùn SRT = 6 ngày, lưu lượng Q = 1000 m3/d, nồng độ bsCOD đầu vào So = 192 g/m3, chất trơ đầu vào bằng 10 g/m3, nồng độ MLVSS trong bể hiếu khí XT = 2500 g/m3 và nbVSS đầu vào Xo,i = 30 g/m3. Cho k = 12.5 g COD/g VSS.d, Ks = 10 g COD/m3, Y = 0.4 g VSS/g COD, fd = 0.15 g VSS/g VSS, b = 0.1 g VSS/g VSS.d và tỷ lệ VSS/TSS của sinh khối bằng 0.85. Xác định: (1) nồng độ bsCOD đầu ra, (2) thời gian lưu nước HRT, (3) lượng bùn sinh ra mỗi ngày theo kg VSS/d và kg TSS/d, (4) tỷ phần sinh khối trong MLVSS, và (5) lượng oxy yêu cầu theo kg/d.",
+      "design_parameters_selected": [
+        "Given SRT = 6 days, Q = 1000 m3/d, So = 192 g/m3, Xo,i = 30 g/m3, MLVSS concentration XT = 2500 g/m3, inert solids/organics = 10 g/m3",
+        "Given kinetic coefficients: k = 12.5 g COD/g VSS.d, Ks = 10 g COD/m3, Y = 0.4 g VSS/g COD, fd = 0.15 g VSS/g VSS, b = 0.1 g VSS/g VSS.d, Biomass VSS/TSS = 0.85"
+      ],
+      "governing_equations": [
+        "S = Ks (1 + b x SRT) / [SRT (Y k - b) - 1]",
+        "PX,VSS = A + B + C = [Q Y (So - S) / (1 + b x SRT)] + [fd b Q SRT Y (So - S) / (1 + b x SRT)] + Q Xo,i",
+        "PX,TSS = A / 0.85 + B / 0.85 + C + Q (TSSo - VSSo)",
+        "SRT = (V x XT) / PX,VSS -> V = (PX,VSS x SRT) / XT, HRT = V / Q",
+        "F_X,act = A / PX,VSS",
+        "Ro = Q (So - S) - 1.42 PX,bio where PX,bio = A + B"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "1. Determine effluent bsCOD concentration (S):",
+        "S = [Ks x (1 + b x SRT)] / [SRT x (Y x k - b) - 1] = [10 x (1 + 0.1 x 6)] / [6 x (0.4 x 12.5 - 0.1) - 1] = 16 / (29.4 - 1) = 0.56 g/m3",
+        "2 & 3. Determine daily sludge production (PX,VSS and PX,TSS) and HRT:",
+        "Heterotrophic biomass produced: A = [Q x Y x (So - S)] / (1 + b x SRT) = [(1000 m3/d) x 0.4 x (192 - 0.56 g/m3)] / (1 + 0.1 x 6) = 47,860 g/d = 47.86 kg VSS/d",
+        "Cell debris produced: B = fd x b x SRT x A = 0.15 x 0.1 x 6 x 47.86 kg/d = 4.31 kg VSS/d",
+        "Nonbiodegradable VSS in influent: C = Q x Xo,i = (1000 m3/d) x (30 g/m3) = 30,000 g/d = 30.00 kg VSS/d",
+        "Total daily VSS production: PX,VSS = A + B + C = 47.86 + 4.31 + 30.00 = 82.17 kg VSS/d",
+        "Daily TSS production (if 10 g/m3 is influent inert inorganic solids TSSo - VSSo = 10 g/m3): PX,TSS = (47.86 + 4.31) / 0.85 + 30.00 + (1000 x 10 x 10^-3) = 61.37 + 30.00 + 10.00 = 101.37 kg TSS/d (or 91.37 kg TSS/d if TSSo - VSSo = 0)",
+        "Reactor volume: V = (PX,VSS x SRT) / XT = (82,166 g/d x 6 d) / (2500 g/m3) = 197.2 m3 -> HRT = V / Q = 197.2 m3 / 1000 m3/d = 0.197 d = 4.73 h",
+        "Solution (continue):",
+        "4. Determine fraction of biomass in the MLVSS:",
+        "Active heterotrophic biomass fraction: F_X,act = A / PX,VSS = 47.86 / 82.17 = 0.582 = 58.2% (Total biological VSS fraction including cell debris: (A + B) / PX,VSS = 52.17 / 82.17 = 0.635 = 63.5%)",
+        "5. Determine oxygen requirement in kg/d:",
+        "Total biological VSS produced: PX,bio = A + B = 47.86 + 4.31 = 52.17 kg VSS/d",
+        "Ro = Q(So - S) - 1.42 x PX,bio = (1000 m3/d) x (192 - 0.56 g/m3) x 10^-3 kg/g - 1.42 x (52.17 kg/d) = 191.44 - 74.08 = 117.36 kg O2/d (or 123.48 kg O2/d if using active biomass A only)"
+      ],
+      "verification_checks": [
+        "Check minimum SRT: 1 / SRT_min = Y k - b = 0.4 x 12.5 - 0.1 = 4.9 d^-1 -> SRT_min = 0.204 d -> Design SRT = 6 d = 29.4 x SRT_min (satisfy)",
+        "Check MLVSS mass balance: (XT x V) / SRT = (2500 g/m3 x 197.2 m3) / 6 d = 82.17 kg VSS/d = PX,VSS (satisfy)"
+      ],
+      "final_answers": {
+        "effluent_bsCOD_S": "0.56 g/m3",
+        "reactor_volume_V": "197.2 m3",
+        "HRT": "0.197 d (4.73 h)",
+        "PX_VSS": "82.17 kg VSS/d",
+        "PX_TSS": "101.37 kg TSS/d (or 91.37 kg TSS/d without influent FSS)",
+        "biomass_fraction_in_MLVSS": "0.582 (58.2% active biomass; 63.5% total biological VSS)",
+        "oxygen_requirement_Ro": "117.36 kg O2/d"
+      }
+    },
+    {
+      "exercise_id": "ch05_2_ex01",
+      "chapter_slug": "ch05_2",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Bể phản ứng sinh học nitrat hóa thiết kế với thời gian lưu bùn SRT = 20 ngày ở nhiệt độ 12oC. Cho các hệ số động học của vi khuẩn AOB và NOB ở 12oC gồm µm,AOB = 0.52 g VSS/g VSS.d, µm,NOB = 0.61 g VSS/g VSS.d, K_NH4 = 0.5 g/m3, K_NO2 = 0.2 g/m3, Ko,AOB = 0.5 mg/L, Ko,NOB = 0.9 mg/L, b_AOB = 0.135 g VSS/g VSS.d và b_NOB = 0.135 g VSS/g VSS.d. Xác định nồng độ NH4-N và NO2-N đầu ra khi nồng độ DO trong bể bằng 2 mg/L và khi nồng độ DO bằng 0.4 mg/L.",
+      "design_parameters_selected": [
+        "Given design SRT = 20 days -> specific growth rate at steady state µ_AOB = µ_NOB = 1 / SRT = 1 / 20 = 0.05 d^-1",
+        "Given kinetic coefficients at 12oC: µm,AOB = 0.52 d^-1, µm,NOB = 0.61 d^-1, K_NH4 = 0.5 mg/L, K_NO2 = 0.2 mg/L, Ko,AOB = 0.5 mg/L, Ko,NOB = 0.9 mg/L, b_AOB = b_NOB = 0.135 d^-1",
+        "Evaluate two operating DO scenarios: Case 1 with So = 2.0 mg/L and Case 2 with So = 0.4 mg/L"
+      ],
+      "governing_equations": [
+        "µm,AOB,DO = µm,AOB x [So / (Ko,AOB + So)]",
+        "µm,NOB,DO = µm,NOB x [So / (Ko,NOB + So)]",
+        "1 / SRT = µ_AOB = µm,AOB,DO x [S_NH4 / (K_NH4 + S_NH4)] - b_AOB -> S_NH4 = K_NH4 (1/SRT + b_AOB) / [µm,AOB,DO - (1/SRT + b_AOB)]",
+        "1 / SRT = µ_NOB = µm,NOB,DO x [S_NO2 / (K_NO2 + S_NO2)] - b_NOB -> S_NO2 = K_NO2 (1/SRT + b_NOB) / [µm,NOB,DO - (1/SRT + b_NOB)]"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "At steady state with SRT = 20 d: µ_AOB = µ_NOB = 1 / SRT = 1 / 20 = 0.05 d^-1 -> Required gross specific growth rate: (1 / SRT) + b = 0.05 + 0.135 = 0.185 d^-1",
+        "Case 1: DO concentration in reactor So = 2 mg/L:",
+        "µm,AOB,DO = 0.52 x [2.0 / (0.5 + 2.0)] = 0.416 g VSS/g VSS.d",
+        "0.05 = 0.416 x [S_NH4 / (0.5 + S_NH4)] - 0.135 -> S_NH4 = [0.5 x 0.185] / (0.416 - 0.185) = 0.40 mg/L (g/m3)",
+        "µm,NOB,DO = 0.61 x [2.0 / (0.9 + 2.0)] = 0.421 g VSS/g VSS.d",
+        "0.05 = 0.421 x [S_NO2 / (0.2 + S_NO2)] - 0.135 -> S_NO2 = [0.2 x 0.185] / (0.4207 - 0.185) = 0.16 mg/L (g/m3)",
+        "Solution (continue):",
+        "Case 2: DO concentration in reactor So = 0.4 mg/L:",
+        "µm,AOB,DO = 0.52 x [0.4 / (0.5 + 0.4)] = 0.231 g VSS/g VSS.d",
+        "0.05 = 0.231 x [S_NH4 / (0.5 + S_NH4)] - 0.135 -> S_NH4 = [0.5 x 0.185] / (0.2311 - 0.185) = 2.01 mg/L (g/m3)",
+        "µm,NOB,DO = 0.61 x [0.4 / (0.9 + 0.4)] = 0.1877 g VSS/g VSS.d",
+        "0.05 = 0.1877 x [S_NO2 / (0.2 + S_NO2)] - 0.135 -> S_NO2 = [0.2 x 0.185] / (0.1877 - 0.185) = 13.74 mg/L (or 12.33 mg/L if µm,NOB,DO is rounded to 0.188 d^-1)"
+      ],
+      "verification_checks": [
+        "Check DO = 2.0 mg/L (optimal range 2.0-4.0 mg/L): both µm,AOB,DO (0.416 d^-1) and µm,NOB,DO (0.421 d^-1) >> 0.185 d^-1 -> complete nitrification with low effluent NH4-N (0.40 mg/L) and NO2-N (0.16 mg/L) (satisfy)",
+        "Check DO = 0.4 mg/L (low DO): µm,NOB,DO (0.1877 d^-1) approaches washout threshold 0.185 d^-1 -> severe NOB inhibition causes nitrite accumulation S_NO2 = 13.74 mg/L (incomplete nitrification)"
+      ],
+      "final_answers": {
+        "DO_2_mg_L_effluent_NH4_N": "0.40 mg/L",
+        "DO_2_mg_L_effluent_NO2_N": "0.16 mg/L (exact 0.157 mg/L)",
+        "DO_0_4_mg_L_effluent_NH4_N": "2.01 mg/L",
+        "DO_0_4_mg_L_effluent_NO2_N": "13.74 mg/L (or 12.33 mg/L if µm,NOB,DO rounded to 0.188 d^-1)"
+      }
+    },
+    {
+      "exercise_id": "ch05_2_ex02",
+      "chapter_slug": "ch05_2",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Bể phản ứng kỵ khí vận hành ở nhiệt độ 35oC với lưu lượng Q = 3000 m3/d, nồng độ bCOD đầu vào bằng 5000 g/m3, hiệu suất khử bCOD đạt 95% và hệ số sản lượng sinh khối ròng Y_bio = 0.04 g VSS/g COD tiêu thụ. (1) Xác định tổng lưu lượng khí sinh học (biogas) sinh ra mỗi ngày. (2) Xác định khối lượng kiềm NaHCO3 (kg NaHCO3/d) cần bổ sung để duy trì pH = 7.0 khi độ kiềm đầu vào bằng 453 mg/L tính theo CaCO3.",
+      "design_parameters_selected": [
+        "Select methane conversion factor at 35oC, 1 atm from Slide 35: 0.4 L CH4/g COD = 0.4 m3 CH4/kg COD",
+        "Select biogas composition from Slide 35: CH4 accounts for 65% of total gas; CO2 accounts for 35% of total gas",
+        "Select required alkalinity at 35oC and 35% CO2 for pH = 7.0 from Slide 36 table: 2253 mg/L as CaCO3",
+        "Select equivalent weights: CaCO3 = 50 g/eq (MW = 100 g/mol), NaHCO3 = 84 g/eq (MW = 84 g/mol)"
+      ],
+      "governing_equations": [
+        "COD_removed = COD of CH4 + COD of biomass",
+        "COD of biomass = 1.42 x PX,bio where PX,bio = Y_bio x COD_removed",
+        "V_CH4 = (0.4 m3 CH4/kg COD) x COD_CH4",
+        "V_total_gas = V_CH4 / 0.65",
+        "Alkalinity_added (as CaCO3) = Q x (Alk_required - Alk_influent)",
+        "Mass of NaHCO3 = Alkalinity_added (as CaCO3) x (84 g NaHCO3 / 50 g CaCO3)"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "1/ Determine total gas production of anaerobic reactor at 35oC:",
+        "Daily bCOD removed: COD_removed = Q x So x E = (3000 m3/d) x (5000 g/m3) x 95% x (10^-3 kg/g) = 14,250 kg COD/d",
+        "Daily biomass produced: PX,bio = Y_bio x COD_removed = (0.04 kg VSS/kg COD) x (14,250 kg COD/d) = 570 kg VSS/d",
+        "COD of biomass = 1.42 x PX,bio = 1.42 x 570 kg/d = 809.4 kg COD/d",
+        "COD converted to CH4: COD_CH4 = COD_removed - COD_biomass = 14,250 - 809.4 = 13,440.6 kg COD/d",
+        "Methane volume produced at 35oC: V_CH4 = (13,440.6 kg COD/d) x (0.4 m3 CH4/kg COD) = 5,376.24 m3 CH4/d",
+        "Total biogas production (with 65% CH4): V_gas = 5,376.24 / 65% = 8,271.14 m3/d",
+        "Solution (continue):",
+        "2/ Determine alkalinity (kg NaHCO3/d) needed to maintain pH of 7.0:",
+        "Select required alkalinity at 35oC and 35% CO2 from Slide 36 table = 2253 mg/L as CaCO3",
+        "Alkalinity concentration needed to add = 2253 mg/L - 453 mg/L = 1800 mg/L as CaCO3 = 1800 g CaCO3/m3",
+        "Daily alkalinity mass needed as CaCO3 = (3000 m3/d) x (1800 g/m3) x (10^-3 kg/g) = 5400 kg CaCO3/d",
+        "Daily NaHCO3 needed = (5400 kg CaCO3/d) x (84 kg NaHCO3 / 50 kg CaCO3) = 9072 kg NaHCO3/d"
+      ],
+      "verification_checks": [
+        "Check COD balance: COD_biomass (809.4 kg/d) + COD_CH4 (13,440.6 kg/d) = 14,250.0 kg/d = COD_removed (satisfy)",
+        "Check alkalinity buffer at 35oC and 35% CO2: 453 mg/L + 1800 mg/L = 2253 mg/L as CaCO3 -> pH = 7.0 (satisfy)"
+      ],
+      "final_answers": {
+        "COD_removed": "14,250 kg COD/d",
+        "PX_bio": "570 kg VSS/d",
+        "V_CH4": "5,376.24 m3 CH4/d",
+        "total_biogas_production": "8,271.14 m3/d",
+        "alkalinity_needed_as_CaCO3": "5400 kg CaCO3/d (1800 mg/L as CaCO3)",
+        "NaHCO3_needed": "9072 kg NaHCO3/d"
+      }
+    }
+  ]
+}

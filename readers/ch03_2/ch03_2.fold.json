@@ -1,0 +1,1327 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-3-2-c-c-qu-tr-nh-x-l-v-t-l-b-l-ng-b0093ca3",
+  "lang": "vi",
+  "title": "Chương 3.2. Các Quá Trình Xử Lý Vật Lý - Bể Lắng Cát (Chapter 3 Physical Unit Processes - 2. Grit Chamber)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch03_2_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:43:02Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-08T00:43:02",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-tổng-quan-về-quá-trình-tách-cát-và-phân-loại-bể-lắng-cát-overview-of-grit-removal",
+      "num": "1",
+      "title": "Tổng quan về quá trình tách cát và phân loại bể lắng cát (Overview of Grit Removal)",
+      "depth": 1,
+      "takeaway": "Bể lắng cát tách hạt vô cơ có tỷ trọng $S_s = 2.65$ bằng ba cơ chế",
+      "topic": "Bể lắng cát",
+      "units": [
+        {
+          "id": "p-e6de51a2",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Cát sỏi (grit) trong nước thải bao gồm cát, sỏi nhỏ, xỉ than và các hạt vô cơ nặng khác có tốc độ lắng lớn hơn nhiều so với các chất rắn hữu cơ dễ phân hủy sinh học [Page 1] [Page 2]. Các hạt cát này thường có kích thước hạt nằm trong khoảng từ 0.05 đến 1.0 mm và có tỷ trọng riêng (specific gravity) điển hình khoảng 2.65 [Page 2]. Lượng cát phát sinh trong hệ thống thoát nước dao động từ 0.004 đến $0.2\\text{ m}^3$ cát trên mỗi $1,000\\text{ m}^3$ nước thải tùy thuộc vào điều kiện mặt phủ đô thị và hệ thống cống thu gom [Page 2]. Mục tiêu cốt lõi của công trình tách cát là ngăn ngừa sự tích tụ cặn nặng trong đường ống, kênh dẫn và các bể xử lý phía sau, đồng thời giảm tần suất bảo trì, bảo vệ cánh bơm khỏi mài mòn cơ học và nâng cao hiệu quả của các quá trình xử lý kế tiếp [Page 2].",
+          "sentences": [
+            "Cát sỏi (grit) trong nước thải bao gồm cát, sỏi nhỏ, xỉ than và các hạt vô cơ nặng khác có tốc độ lắng lớn hơn nhiều so với các chất rắn hữu cơ dễ phân hủy sinh học [Page 1] [Page 2].",
+            "Các hạt cát này thường có kích thước hạt nằm trong khoảng từ 0.05 đến 1.0 mm và có tỷ trọng riêng (specific gravity) điển hình khoảng 2.65 [Page 2].",
+            "Lượng cát phát sinh trong hệ thống thoát nước dao động từ 0.004 đến $0.2\\text{ m}^3$ cát trên mỗi $1,000\\text{ m}^3$ nước thải tùy thuộc vào điều kiện mặt phủ đô thị và hệ thống cống thu gom [Page 2].",
+            "Mục tiêu cốt lõi của công trình tách cát là ngăn ngừa sự tích tụ cặn nặng trong đường ống, kênh dẫn và các bể xử lý phía sau, đồng thời giảm tần suất bảo trì, bảo vệ cánh bơm khỏi mài mòn cơ học và nâng cao hiệu quả của các quá trình xử lý kế tiếp [Page 2]."
+          ],
+          "brief": [
+            "Cát sỏi (grit) trong nước thải bao gồm cát, sỏi nhỏ, xỉ than và các hạt vô cơ nặng khác có tốc độ lắng lớn hơn nhiều so với các chất rắn hữu cơ dễ phân hủy sinh học [Page 1] [Page 2].",
+            "Mục tiêu cốt lõi của công trình tách cát là ngăn ngừa sự tích tụ cặn nặng trong đường ống, kênh dẫn và các bể xử lý phía sau, đồng thời giảm tần suất bảo trì, bảo vệ cánh bơm khỏi mài mòn cơ học và nâng cao hiệu quả của các quá trình xử lý kế tiếp [Page 2]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Quá trình tách cát loại bỏ hạt cỡ $0.05\\text{ mm}$ đến $1.0\\text{ mm}$ chống mài mòn. Hạt cát có tỷ trọng $S_s = 2.65$ nên lắng nhanh hơn nhiều so với cặn hữu cơ.",
+          "takeaway": "Quá trình tách cát loại bỏ hạt cỡ $0.05\\text{ mm}$ đến $1.0\\text{ mm}$ chống mài mòn",
+          "topic": "Quá trình tách cát"
+        },
+        {
+          "id": "p-a2d82716",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Trong dây chuyền công nghệ của trạm xử lý nước thải, bể lắng cát thường được bố trí ngay phía sau song chắn rác và nằm phía trước bể lắng đợt một (primary sedimentation tanks) [Page 2]. Kỹ sư công nghệ chia các thiết bị tách cát thành ba nhóm chính dựa trên chế độ thủy lực trong bể [Page 3]. Nhóm thứ nhất là bể lắng cát ngang (horizontal-flow grit chambers) điều khiển vận tốc dòng chảy ngang không đổi [Page 3]. Nhóm thứ hai là bể lắng cát thổi khí (aerated grit chambers) tạo dòng xoắn ốc bằng khí nén, và nhóm thứ ba là bể lắng cát xoáy (vortex grit chambers) sử dụng lực ly tâm và trọng lực [Page 3].",
+          "sentences": [
+            "Trong dây chuyền công nghệ của trạm xử lý nước thải, bể lắng cát thường được bố trí ngay phía sau song chắn rác và nằm phía trước bể lắng đợt một (primary sedimentation tanks) [Page 2].",
+            "Kỹ sư công nghệ chia các thiết bị tách cát thành ba nhóm chính dựa trên chế độ thủy lực trong bể [Page 3].",
+            "Nhóm thứ nhất là bể lắng cát ngang (horizontal-flow grit chambers) điều khiển vận tốc dòng chảy ngang không đổi [Page 3].",
+            "Nhóm thứ hai là bể lắng cát thổi khí (aerated grit chambers) tạo dòng xoắn ốc bằng khí nén, và nhóm thứ ba là bể lắng cát xoáy (vortex grit chambers) sử dụng lực ly tâm và trọng lực [Page 3]."
+          ],
+          "brief": [
+            "Trong dây chuyền công nghệ của trạm xử lý nước thải, bể lắng cát thường được bố trí ngay phía sau song chắn rác và nằm phía trước bể lắng đợt một (primary sedimentation tanks) [Page 2].",
+            "Nhóm thứ nhất là bể lắng cát ngang (horizontal-flow grit chambers) điều khiển vận tốc dòng chảy ngang không đổi [Page 3]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Bể lắng cát đặt sau song chắn gồm loại ngang, thổi khí và xoáy. Vị trí đặt trước bể lắng đợt một giúp ngăn bồi lắng đường ống và kênh dẫn.",
+          "takeaway": "Bể lắng cát đặt sau song chắn gồm loại ngang, thổi khí và xoáy",
+          "topic": "Bể lắng cát"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-bể-lắng-cát-ngang-định-luật-stokes-và-thông-số-thiết-kế-chuẩn-horizontal-flow-grit-chamber",
+      "num": "2",
+      "title": "Bể lắng cát ngang, định luật Stokes và thông số thiết kế chuẩn (Horizontal-Flow Grit Chamber)",
+      "depth": 1,
+      "takeaway": "Bể lắng cát ngang áp dụng định luật Stokes hiệu chỉnh với vận tốc $v_H = 0.3\\text{ m/s}$",
+      "topic": "Bể lắng cát ngang",
+      "units": [
+        {
+          "id": "p-ede9e070",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bể lắng cát ngang là công trình tách cát lâu đời nhất và thường được áp dụng cho các trạm xử lý nước thải quy mô nhỏ đến trung bình nhờ cấu tạo đơn giản, dù hiệu suất tách cát mịn không cao khi lưu lượng dao động lớn [Page 3] [Page 5]. Chiều dài hữu ích của mương lắng được quyết định bởi chiều sâu công tác $H$ và tỷ số giữa vận tốc dòng chảy ngang $V_h$ với vận tốc lắng $V_s$ của hạt cát theo điều kiện lắng chạm đáy $t_s < t_h$ hay $\\frac{L}{H} > \\frac{V_h}{V_s}$ [Page 3] [Page 4]. Diện tích mặt cắt ngang của mương ($A = W \\times H$) phụ thuộc vào lưu lượng tính toán $Q$ và số đơn nguyên mương làm việc song song, đồng thời kỹ sư phải cộng thêm một đoạn chiều dài dự phòng để bù cho vùng xoáy rối tại cửa vào và cửa ra [Page 3] [Page 5]. Cát lắng dưới rãnh đáy của bể lắng cát ngang được thu gom bằng hệ thống băng cào, gầu múc hoặc vít tải (screw conveyors) để đưa lên thiết bị rửa cát trước khi đem đi chôn lấp, hoặc được nạo vét thủ công tại các trạm quy mô nhỏ [Page 5].",
+          "sentences": [
+            "Bể lắng cát ngang là công trình tách cát lâu đời nhất và thường được áp dụng cho các trạm xử lý nước thải quy mô nhỏ đến trung bình nhờ cấu tạo đơn giản, dù hiệu suất tách cát mịn không cao khi lưu lượng dao động lớn [Page 3] [Page 5].",
+            "Chiều dài hữu ích của mương lắng được quyết định bởi chiều sâu công tác $H$ và tỷ số giữa vận tốc dòng chảy ngang $V_h$ với vận tốc lắng $V_s$ của hạt cát theo điều kiện lắng chạm đáy $t_s < t_h$ hay $\\frac{L}{H} > \\frac{V_h}{V_s}$ [Page 3] [Page 4].",
+            "Diện tích mặt cắt ngang của mương ($A = W \\times H$) phụ thuộc vào lưu lượng tính toán $Q$ và số đơn nguyên mương làm việc song song, đồng thời kỹ sư phải cộng thêm một đoạn chiều dài dự phòng để bù cho vùng xoáy rối tại cửa vào và cửa ra [Page 3] [Page 5].",
+            "Cát lắng dưới rãnh đáy của bể lắng cát ngang được thu gom bằng hệ thống băng cào, gầu múc hoặc vít tải (screw conveyors) để đưa lên thiết bị rửa cát trước khi đem đi chôn lấp, hoặc được nạo vét thủ công tại các trạm quy mô nhỏ [Page 5]."
+          ],
+          "brief": [
+            "Chiều dài hữu ích của mương lắng được quyết định bởi chiều sâu công tác $H$ và tỷ số giữa vận tốc dòng chảy ngang $V_h$ với vận tốc lắng $V_s$ của hạt cát theo điều kiện lắng chạm đáy $t_s < t_h$ hay $\\frac{L}{H} > \\frac{V_h}{V_s}$ [Page 3] [Page 4].",
+            "Diện tích mặt cắt ngang của mương ($A = W \\times H$) phụ thuộc vào lưu lượng tính toán $Q$ và số đơn nguyên mương làm việc song song, đồng thời kỹ sư phải cộng thêm một đoạn chiều dài dự phòng để bù cho vùng xoáy rối tại cửa vào và cửa ra [Page 3] [Page 5]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Chiều dài bể lắng cát ngang thỏa mãn điều kiện $\\frac{L}{D} > \\frac{v_H}{v_s}$. Kỹ sư phải cộng thêm $25\\%$ đến $50\\%$ chiều dài dự phòng vùng vào và ra.",
+          "takeaway": "Chiều dài bể lắng cát ngang thỏa mãn điều kiện $\\frac{L}{D} > \\frac{v_H}{v_s}$",
+          "topic": "bể lắng cát ngang"
+        },
+        {
+          "id": "p-2cec2925",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Đối với các hạt cát hình cầu lắng trong bể lắng cát ngang, vận tốc lắng $V_s$ (m/s) được xác định bằng định luật Stokes có hiệu chỉnh hình dạng hạt trên Slide 7 là $V_s = \\frac{g(\\rho_S - \\rho_L)d^2}{0.7 \\times 18\\mu}$ [Page 4]. Trong phương trình này, $g = 9.81\\text{ m/s}^2$ là gia tốc trọng trường, $d$ là đường kính hạt cát cần giữ lại (m), $\\rho_S$ là khối lượng riêng của hạt rắn ($\\text{kg/m}^3$), $\\rho_L$ là khối lượng riêng của nước ($\\text{kg/m}^3$) và $\\mu$ là độ nhớt động lực học của chất lỏng ($\\text{kg/s}\\cdot\\text{m}$) [Page 4]. Hệ số $0.7$ ở mẫu số phản ánh sự suy giảm vận tốc lắng thực tế trong bể do hình dạng hạt cát không hoàn toàn cầu và do độ rối nhẹ của dòng chảy ngang trong mương [Page 4].",
+          "sentences": [
+            "Đối với các hạt cát hình cầu lắng trong bể lắng cát ngang, vận tốc lắng $V_s$ (m/s) được xác định bằng định luật Stokes có hiệu chỉnh hình dạng hạt trên Slide 7 là $V_s = \\frac{g(\\rho_S - \\rho_L)d^2}{0.7 \\times 18\\mu}$ [Page 4].",
+            "Trong phương trình này, $g = 9.81\\text{ m/s}^2$ là gia tốc trọng trường, $d$ là đường kính hạt cát cần giữ lại (m), $\\rho_S$ là khối lượng riêng của hạt rắn ($\\text{kg/m}^3$), $\\rho_L$ là khối lượng riêng của nước ($\\text{kg/m}^3$) và $\\mu$ là độ nhớt động lực học của chất lỏng ($\\text{kg/s}\\cdot\\text{m}$) [Page 4].",
+            "Hệ số $0.7$ ở mẫu số phản ánh sự suy giảm vận tốc lắng thực tế trong bể do hình dạng hạt cát không hoàn toàn cầu và do độ rối nhẹ của dòng chảy ngang trong mương [Page 4]."
+          ],
+          "brief": [
+            "Đối với các hạt cát hình cầu lắng trong bể lắng cát ngang, vận tốc lắng $V_s$ (m/s) được xác định bằng định luật Stokes có hiệu chỉnh hình dạng hạt trên Slide 7 là $V_s = \\frac{g(\\rho_S - \\rho_L)d^2}{0.7 \\times 18\\mu}$ [Page 4].",
+            "Hệ số $0.7$ ở mẫu số phản ánh sự suy giảm vận tốc lắng thực tế trong bể do hình dạng hạt cát không hoàn toàn cầu và do độ rối nhẹ của dòng chảy ngang trong mương [Page 4]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Định luật Stokes hiệu chỉnh chia thêm hệ số $0.7$ khi tính vận tốc lắng $v_s$. Hệ số $0.7$ bù trừ cho hình dạng hạt không cầu và độ rối nhẹ trong mương.",
+          "takeaway": "Định luật Stokes hiệu chỉnh chia thêm hệ số $0.7$ khi tính vận tốc lắng $v_s$",
+          "topic": "Định luật Stokes"
+        },
+        {
+          "id": "p-4e58f4c7",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Bảng thông số thiết kế chuẩn cho bể lắng cát ngang trên Slide 7 (Typical design information for Horizontal-flow grit chamber) quy định rõ dải giá trị (Range) và giá trị điển hình (Typical) cho từng đại lượng thiết kế [Page 4]. Thời gian lưu nước (Detention time) nằm trong khoảng từ 45 đến 90 s với giá trị điển hình là 60 s, và vận tốc dòng chảy ngang (Horizontal velocity) nằm trong khoảng từ 0.25 đến 0.4 m/s với giá trị điển hình là 0.3 m/s [Page 4]. Vận tốc lắng thiết kế (Settling velocity) để loại bỏ hạt cỡ $0.21\\text{ mm}$ (cỡ rây 70-mesh) nằm trong khoảng 1.0 đến $1.3\\text{ m/min}$ với giá trị điển hình là $1.15\\text{ m/min}$ ($0.02\\text{ m/s}$), còn để loại bỏ hạt cỡ $0.149\\text{ mm}$ (cỡ rây 100-mesh) thì nằm trong khoảng 0.6 đến $0.9\\text{ m/min}$ với giá trị điển hình là $0.75\\text{ m/min}$ [Page 4]. Độ tổn thất cột nước qua tiết diện kiểm soát lưu lượng bằng 30 đến 40% chiều sâu nước trong kênh (điển hình 36%), và tỷ lệ chiều dài cộng thêm cho vùng rối cửa vào và cửa ra (Added length allowance for inlet and outlet turbulence) lấy từ 25 đến 50% với giá trị điển hình là 30% [Page 4].",
+          "sentences": [
+            "Bảng thông số thiết kế chuẩn cho bể lắng cát ngang trên Slide 7 (Typical design information for Horizontal-flow grit chamber) quy định rõ dải giá trị (Range) và giá trị điển hình (Typical) cho từng đại lượng thiết kế [Page 4].",
+            "Thời gian lưu nước (Detention time) nằm trong khoảng từ 45 đến 90 s với giá trị điển hình là 60 s, và vận tốc dòng chảy ngang (Horizontal velocity) nằm trong khoảng từ 0.25 đến 0.4 m/s với giá trị điển hình là 0.3 m/s [Page 4].",
+            "Vận tốc lắng thiết kế (Settling velocity) để loại bỏ hạt cỡ $0.21\\text{ mm}$ (cỡ rây 70-mesh) nằm trong khoảng 1.0 đến $1.3\\text{ m/min}$ với giá trị điển hình là $1.15\\text{ m/min}$ ($0.02\\text{ m/s}$), còn để loại bỏ hạt cỡ $0.149\\text{ mm}$ (cỡ rây 100-mesh) thì nằm trong khoảng 0.6 đến $0.9\\text{ m/min}$ với giá trị điển hình là $0.75\\text{ m/min}$ [Page 4]. Độ tổn thất cột nước qua tiết diện kiểm soát lưu lượng bằng 30 đến 40% chiều sâu nước trong kênh (điển hình 36%), và tỷ lệ chiều dài cộng thêm cho vùng rối cửa vào và cửa ra (Added length allowance for inlet and outlet turbulence) lấy từ 25 đến 50% với giá trị điển hình là 30% [Page 4]."
+          ],
+          "brief": [
+            "Thời gian lưu nước (Detention time) nằm trong khoảng từ 45 đến 90 s với giá trị điển hình là 60 s, và vận tốc dòng chảy ngang (Horizontal velocity) nằm trong khoảng từ 0.25 đến 0.4 m/s với giá trị điển hình là 0.3 m/s [Page 4].",
+            "Vận tốc lắng thiết kế (Settling velocity) để loại bỏ hạt cỡ $0.21\\text{ mm}$ (cỡ rây 70-mesh) nằm trong khoảng 1.0 đến $1.3\\text{ m/min}$ với giá trị điển hình là $1.15\\text{ m/min}$ ($0.02\\text{ m/s}$), còn để loại bỏ hạt cỡ $0.149\\text{ mm}$ (cỡ rây 100-mesh) thì nằm trong khoảng 0.6 đến $0.9\\text{ m/min}$ với giá trị điển hình là $0.75\\text{ m/min}$ [Page 4]. Độ tổn thất cột nước qua tiết diện kiểm soát lưu lượng bằng 30 đến 40% chiều sâu nước trong kênh (điển hình 36%), và tỷ lệ chiều dài cộng thêm cho vùng rối cửa vào và cửa ra (Added length allowance for inlet and outlet turbulence) lấy từ 25 đến 50% với giá trị điển hình là 30% [Page 4]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Thông số chuẩn bể lắng cát ngang chọn thời gian lưu $t = 60\\text{ s}$ và $v_H = 0.3\\text{ m/s}$. Hạt $d = 0.21\\text{ mm}$ có vận tốc lắng điển hình $v_s = 1.15\\text{ m/min} = 0.02\\text{ m/s}$.",
+          "takeaway": "Thông số chuẩn bể lắng cát ngang chọn thời gian lưu $t = 60\\text{ s}$ và $v_H = 0.3\\text{ m/s}$",
+          "topic": "Thông số chuẩn"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-bể-lắng-cát-thổi-khí-thiết-bị-thu-cát-và-thông-số-thiết-kế-chuẩn-aerated-grit-chamber",
+      "num": "3",
+      "title": "Bể lắng cát thổi khí, thiết bị thu cát và thông số thiết kế chuẩn (Aerated Grit Chamber)",
+      "depth": 1,
+      "takeaway": "Bể lắng cát thổi khí tạo dòng xoắn ốc rửa cát với thời gian lưu $t = 3\\text{ phút}$",
+      "topic": "Bể lắng cát",
+      "units": [
+        {
+          "id": "p-16c73486",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bể lắng cát thổi khí hoạt động dựa trên nguyên lý hỗn hợp nước và bọt khí có tỷ trọng nhỏ hơn tỷ trọng của nước thuần túy nên các hạt cát nặng dễ dàng tách khỏi dòng chảy và lắng xuống đáy [Page 6]. Không khí nén được cấp vào dọc theo một bên thành bể hình chữ nhật ở gần đáy để tạo ra quỹ đạo dòng chảy xoắn ốc (helical liquid flow pattern) và duy trì vận tốc quét ngang ổn định ở sát đáy bể [Page 6]. Nhờ khả năng điều chỉnh lưu lượng khí linh hoạt, lực cắt của dòng xoáy tách lớp chất hữu cơ bám quanh bề mặt hạt cát và giữ chất hữu cơ ở trạng thái lơ lửng, giúp cát thu được ở máng đáy rất sạch [Page 6] [Page 8]. Do hiệu suất tách cát cao và không bị suy giảm khi lưu lượng nước thải thay đổi, bể lắng cát thổi khí được ứng dụng rộng rãi tại các nhà máy xử lý nước thải quy mô lớn và kết hợp với cầu cào hành trình (traveling bridge), băng cào xích (chain and flight) hoặc vít tải (screw conveyors) để thu gom cát [Page 8] [Page 9] [Page 10].",
+          "sentences": [
+            "Bể lắng cát thổi khí hoạt động dựa trên nguyên lý hỗn hợp nước và bọt khí có tỷ trọng nhỏ hơn tỷ trọng của nước thuần túy nên các hạt cát nặng dễ dàng tách khỏi dòng chảy và lắng xuống đáy [Page 6].",
+            "Không khí nén được cấp vào dọc theo một bên thành bể hình chữ nhật ở gần đáy để tạo ra quỹ đạo dòng chảy xoắn ốc (helical liquid flow pattern) và duy trì vận tốc quét ngang ổn định ở sát đáy bể [Page 6].",
+            "Nhờ khả năng điều chỉnh lưu lượng khí linh hoạt, lực cắt của dòng xoáy tách lớp chất hữu cơ bám quanh bề mặt hạt cát và giữ chất hữu cơ ở trạng thái lơ lửng, giúp cát thu được ở máng đáy rất sạch [Page 6] [Page 8].",
+            "Do hiệu suất tách cát cao và không bị suy giảm khi lưu lượng nước thải thay đổi, bể lắng cát thổi khí được ứng dụng rộng rãi tại các nhà máy xử lý nước thải quy mô lớn và kết hợp với cầu cào hành trình (traveling bridge), băng cào xích (chain and flight) hoặc vít tải (screw conveyors) để thu gom cát [Page 8] [Page 9] [Page 10]."
+          ],
+          "brief": [
+            "Không khí nén được cấp vào dọc theo một bên thành bể hình chữ nhật ở gần đáy để tạo ra quỹ đạo dòng chảy xoắn ốc (helical liquid flow pattern) và duy trì vận tốc quét ngang ổn định ở sát đáy bể [Page 6].",
+            "Nhờ khả năng điều chỉnh lưu lượng khí linh hoạt, lực cắt của dòng xoáy tách lớp chất hữu cơ bám quanh bề mặt hạt cát và giữ chất hữu cơ ở trạng thái lơ lửng, giúp cát thu được ở máng đáy rất sạch [Page 6] [Page 8]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Bể lắng cát thổi khí tạo dòng xoắn ốc giúp rửa sạch chất hữu cơ. Lực cắt của dòng khí giữ cặn hữu cơ lơ lửng và ổn định theo lưu lượng.",
+          "takeaway": "Bể lắng cát thổi khí tạo dòng xoắn ốc giúp rửa sạch chất hữu cơ",
+          "topic": "dòng xoắn ốc"
+        },
+        {
+          "id": "p-f2134762",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Về mặt cấu tạo hình học trên Slide 15, dọc theo một bên đáy bể ngay phía dưới dàn phân phối khí có bố trí một máng thu cát (grit hopper) sâu khoảng $0.9\\text{ m}$ với vách nghiêng dốc đứng [Page 7]. Các đĩa hoặc ống phân phối khí (air diffusers) được lắp đặt ở cao trình cách mặt phẳng đáy bể thông thường từ $0.45\\text{ đến }0.6\\text{ m}$ [Page 7]. Bảng thông số thiết kế chuẩn cho bể lắng cát thổi khí trên Slide 15 (Typical design information for Aerated Grit Chamber) quy định thời gian lưu nước ở lưu lượng cực đại (Detention time at peak flowrate) từ 2 đến 5 min với giá trị điển hình là 3 min [Page 7]. Kích thước bể có chiều sâu (Depth) từ 2 đến 5 m, chiều dài (Length) từ 7.5 đến 20 m, chiều rộng (Width) từ 2.5 đến 7 m, tỷ số rộng trên sâu (Width-depth ratio) từ 1:1 đến 5:1 (điển hình 1.5:1), tỷ số dài trên rộng (Length-width ratio) từ 3:1 đến 5:1 (điển hình 4:1), cường độ cấp khí theo chiều dài bể (Air supply per unit of length) từ 0.2 đến $0.5\\text{ m}^3/\\text{m}\\cdot\\text{min}$, và lượng cát thu được (Grit quantities) từ 0.004 đến $0.20\\text{ m}^3/1,000\\text{ m}^3$ (điển hình $0.015\\text{ m}^3/1,000\\text{ m}^3$) [Page 7].",
+          "sentences": [
+            "Về mặt cấu tạo hình học trên Slide 15, dọc theo một bên đáy bể ngay phía dưới dàn phân phối khí có bố trí một máng thu cát (grit hopper) sâu khoảng $0.9\\text{ m}$ với vách nghiêng dốc đứng [Page 7].",
+            "Các đĩa hoặc ống phân phối khí (air diffusers) được lắp đặt ở cao trình cách mặt phẳng đáy bể thông thường từ $0.45\\text{ đến }0.6\\text{ m}$ [Page 7].",
+            "Bảng thông số thiết kế chuẩn cho bể lắng cát thổi khí trên Slide 15 (Typical design information for Aerated Grit Chamber) quy định thời gian lưu nước ở lưu lượng cực đại (Detention time at peak flowrate) từ 2 đến 5 min với giá trị điển hình là 3 min [Page 7].",
+            "Kích thước bể có chiều sâu (Depth) từ 2 đến 5 m, chiều dài (Length) từ 7.5 đến 20 m, chiều rộng (Width) từ 2.5 đến 7 m, tỷ số rộng trên sâu (Width-depth ratio) từ 1:1 đến 5:1 (điển hình 1.5:1), tỷ số dài trên rộng (Length-width ratio) từ 3:1 đến 5:1 (điển hình 4:1), cường độ cấp khí theo chiều dài bể (Air supply per unit of length) từ 0.2 đến $0.5\\text{ m}^3/\\text{m}\\cdot\\text{min}$, và lượng cát thu được (Grit quantities) từ 0.004 đến $0.20\\text{ m}^3/1,000\\text{ m}^3$ (điển hình $0.015\\text{ m}^3/1,000\\text{ m}^3$) [Page 7]."
+          ],
+          "brief": [
+            "Về mặt cấu tạo hình học trên Slide 15, dọc theo một bên đáy bể ngay phía dưới dàn phân phối khí có bố trí một máng thu cát (grit hopper) sâu khoảng $0.9\\text{ m}$ với vách nghiêng dốc đứng [Page 7].",
+            "Kích thước bể có chiều sâu (Depth) từ 2 đến 5 m, chiều dài (Length) từ 7.5 đến 20 m, chiều rộng (Width) từ 2.5 đến 7 m, tỷ số rộng trên sâu (Width-depth ratio) từ 1:1 đến 5:1 (điển hình 1.5:1), tỷ số dài trên rộng (Length-width ratio) từ 3:1 đến 5:1 (điển hình 4:1), cường độ cấp khí theo chiều dài bể (Air supply per unit of length) từ 0.2 đến $0.5\\text{ m}^3/\\text{m}\\cdot\\text{min}$, và lượng cát thu được (Grit quantities) từ 0.004 đến $0.20\\text{ m}^3/1,000\\text{ m}^3$ (điển hình $0.015\\text{ m}^3/1,000\\text{ m}^3$) [Page 7]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Bể có máng thu cát sâu $0.9\\text{ m}$ và lưu nước $t = 3\\text{ phút}$ ở lưu lượng đỉnh. Tỷ số $\\frac{W}{D}$ từ $1:1$ đến $5:1$ và cường độ khí từ $0.2$ đến $0.5\\text{ m}^3/\\text{min}\\cdot\\text{m}$.",
+          "takeaway": "Bể có máng thu cát sâu $0.9\\text{ m}$ và lưu nước $t = 3\\text{ phút}$ ở lưu lượng đỉnh",
+          "topic": "máng thu cát"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-lời-giải-chi-tiết-hai-bài-tập-ví-dụ-trong-slide-pdf-worked-slide-examples-ch03_2_ex01-ch03_2_ex02",
+      "num": "4",
+      "title": "Lời giải chi tiết hai bài tập ví dụ trong Slide PDF (Worked Slide Examples: ch03_2_ex01 & ch03_2_ex02)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch03_2_ex01-slide-810-thiết-kế-bể-lắng-cát-ngang-cho-nước-thải-đô-thị",
+      "num": "",
+      "title": "Bài tập ch03_2_ex01 (Slide 8–10): Thiết kế bể lắng cát ngang cho nước thải đô thị",
+      "depth": 2,
+      "takeaway": "Thiết kế bể lắng cát ngang cho $Q_{\\text{peak}} = 1.5\\text{ m}^3/\\text{s}$ đạt kích thước $22\\text{ m} \\times 5\\text{ m} \\times 1.5\\text{ m}$",
+      "topic": "Thiết kế bể lắng",
+      "units": [
+        {
+          "id": "p-a2703d71",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #22, #23, #142, #143, Slide 8–10): Thiết kế bể lắng cát ngang cho trạm xử lý nước thải đô thị có lưu lượng trung bình $Q_{\\text{avg}} = 0.5\\text{ m}^3/\\text{s}$ và hệ số vượt tải cực đại $\\text{PF} = 3.0$ [Page 4].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #22, #23, #142, #143, Slide 8–10): Thiết kế bể lắng cát ngang cho trạm xử lý nước thải đô thị có lưu lượng trung bình $Q_{\\text{avg}} = 0.5\\text{ m}^3/\\text{s}$ và hệ số vượt tải cực đại $\\text{PF} = 3.0$ [Page 4]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #22, #23, #142, #143, Slide 8–10): Thiết kế bể lắng cát ngang cho trạm xử lý nước thải đô thị có lưu lượng trung bình $Q_{\\text{avg}} = 0.5\\text{ m}^3/\\text{s}$ và hệ số vượt tải cực đại $\\text{PF} = 3.0$ [Page 4]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài thiết kế bể lắng cát ngang cho $Q_{\\text{avg}} = 0.5\\text{ m}^3/\\text{s}$ và $\\text{PF} = 3.0$.",
+          "takeaway": "Đề bài thiết kế bể lắng cát ngang cho $Q_{\\text{avg}} = 0.5\\text{ m}^3/\\text{s}$ và $\\text{PF} = 3.0$",
+          "topic": "bể lắng cát ngang"
+        },
+        {
+          "id": "p-bd00d3c9",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bước 1 - Tính lưu lượng cực đại, thể tích bể và tỷ số chiều dài trên chiều sâu tối thiểu: Lưu lượng cực đại đạt $Q_{\\text{peak}} = 1.5\\text{ m}^3/\\text{s}$ và thể tích bể lắng cát ngang ứng với thời gian lưu $t = 60\\text{ s}$ đạt $V = 90\\text{ m}^3$ [Page 4]. Từ vận tốc ngang $v_H = 0.3\\text{ m/s}$ và vận tốc lắng $v_s = 0.02\\text{ m/s}$, điều kiện lắng chạm đáy đòi hỏi tỷ số $\\frac{L}{D} > 15$.",
+          "sentences": [
+            "Bước 1 - Tính lưu lượng cực đại, thể tích bể và tỷ số chiều dài trên chiều sâu tối thiểu: Lưu lượng cực đại đạt $Q_{\\text{peak}} = 1.5\\text{ m}^3/\\text{s}$ và thể tích bể lắng cát ngang ứng với thời gian lưu $t = 60\\text{ s}$ đạt $V = 90\\text{ m}^3$ [Page 4].",
+            "Từ vận tốc ngang $v_H = 0.3\\text{ m/s}$ và vận tốc lắng $v_s = 0.02\\text{ m/s}$, điều kiện lắng chạm đáy đòi hỏi tỷ số $\\frac{L}{D} > 15$."
+          ],
+          "brief": [
+            "Bước 1 - Tính lưu lượng cực đại, thể tích bể và tỷ số chiều dài trên chiều sâu tối thiểu: Lưu lượng cực đại đạt $Q_{\\text{peak}} = 1.5\\text{ m}^3/\\text{s}$ và thể tích bể lắng cát ngang ứng với thời gian lưu $t = 60\\text{ s}$ đạt $V = 90\\text{ m}^3$ [Page 4].",
+            "Từ vận tốc ngang $v_H = 0.3\\text{ m/s}$ và vận tốc lắng $v_s = 0.02\\text{ m/s}$, điều kiện lắng chạm đáy đòi hỏi tỷ số $\\frac{L}{D} > 15$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Lưu lượng đỉnh đạt $Q_{\\text{peak}} = 1.5\\text{ m}^3/\\text{s}$ và thể tích bể bằng $V = 90\\text{ m}^3$. Với $v_H = 0.3\\text{ m/s}$ và $v_s = 0.02\\text{ m/s}$, tỷ số hình học yêu cầu $\\frac{L}{D} > 15$.",
+          "takeaway": "Lưu lượng đỉnh đạt $Q_{\\text{peak}} = 1.5\\text{ m}^3/\\text{s}$ và thể tích bể bằng $V = 90\\text{ m}^3$",
+          "topic": "Lưu lượng đỉnh"
+        },
+        {
+          "id": "p-a70dd66b",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Xác định kích thước công tác và kích thước thực tế của bể lắng cát ngang: Diện tích mặt cắt ngang của mương bằng $A_c = 5.0\\text{ m}^2$, chọn bề rộng $W = 5\\text{ m}$ suy ra chiều sâu công tác $D = 1\\text{ m}$ và chiều dài công tác $L = 18\\text{ m}$ [Page 4]. Cộng thêm $25\\%$ chiều dài dự phòng vùng cửa vào và cửa ra cùng $0.5\\text{ m}$ chiều cao bảo vệ, thu được kích thước thực tế $L_{\\text{prac}} = 22\\text{ m}$, $W = 5\\text{ m}$ và $H_{\\text{prac}} = 1.5\\text{ m}$.",
+          "sentences": [
+            "Bước 2 - Xác định kích thước công tác và kích thước thực tế của bể lắng cát ngang: Diện tích mặt cắt ngang của mương bằng $A_c = 5.0\\text{ m}^2$, chọn bề rộng $W = 5\\text{ m}$ suy ra chiều sâu công tác $D = 1\\text{ m}$ và chiều dài công tác $L = 18\\text{ m}$ [Page 4].",
+            "Cộng thêm $25\\%$ chiều dài dự phòng vùng cửa vào và cửa ra cùng $0.5\\text{ m}$ chiều cao bảo vệ, thu được kích thước thực tế $L_{\\text{prac}} = 22\\text{ m}$, $W = 5\\text{ m}$ và $H_{\\text{prac}} = 1.5\\text{ m}$."
+          ],
+          "brief": [
+            "Bước 2 - Xác định kích thước công tác và kích thước thực tế của bể lắng cát ngang: Diện tích mặt cắt ngang của mương bằng $A_c = 5.0\\text{ m}^2$, chọn bề rộng $W = 5\\text{ m}$ suy ra chiều sâu công tác $D = 1\\text{ m}$ và chiều dài công tác $L = 18\\text{ m}$ [Page 4].",
+            "Cộng thêm $25\\%$ chiều dài dự phòng vùng cửa vào và cửa ra cùng $0.5\\text{ m}$ chiều cao bảo vệ, thu được kích thước thực tế $L_{\\text{prac}} = 22\\text{ m}$, $W = 5\\text{ m}$ và $H_{\\text{prac}} = 1.5\\text{ m}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Bể có kích thước công tác $18\\text{ m} \\times 5\\text{ m} \\times 1\\text{ m}$ và thực tế $22\\text{ m} \\times 5\\text{ m} \\times 1.5\\text{ m}$. Tỷ số $\\frac{L}{D} = 18 \\ge 15$ thỏa mãn điều kiện lắng và cộng thêm $25\\%$ chiều dài.",
+          "takeaway": "Bể có kích thước công tác $18\\text{ m} \\times 5\\text{ m} \\times 1\\text{ m}$ và thực tế $22\\text{ m} \\times 5\\text{ m} \\times 1.5\\text{ m}$",
+          "topic": "kích thước công tác"
+        },
+        {
+          "id": "p-47659d61",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng hợp đáp số xác nhận kích thước bể lắng cát ngang đạt chuẩn thiết kế. Các thông số vận tốc và tỷ số hình học đều thỏa mãn giới hạn trên slide.",
+          "takeaway": "Tổng hợp đáp số xác nhận kích thước bể lắng cát ngang đạt chuẩn thiết kế",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-40f22473",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng cực đại và thể tích bể ($Q_{\\text{peak}}, V$): $1.5\\text{ m}^3/\\text{s}$ và $90\\text{ m}^3$ (Kiểm tra: $t = 60\\text{ s} \\in [45, 90]\\text{ s}$ — Đạt chuẩn Slide 7)",
+          "sentences": [
+            "Lưu lượng cực đại và thể tích bể ($Q_{\\text{peak}}, V$): $1.5\\text{ m}^3/\\text{s}$ và $90\\text{ m}^3$ (Kiểm tra: $t = 60\\text{ s} \\in [45, 90]\\text{ s}$ — Đạt chuẩn Slide 7)"
+          ],
+          "brief": [
+            "Lưu lượng cực đại và thể tích bể ($Q_{\\text{peak}}, V$): $1.5\\text{ m}^3/\\text{s}$ và $90\\text{ m}^3$ (Kiểm tra: $t = 60\\text{ s} \\in [45, 90]\\text{ s}$ — Đạt chuẩn Slide 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng đỉnh bằng $Q_{\\text{peak}} = 1.5\\text{ m}^3/\\text{s}$ và thể tích bể đạt $V = 90\\text{ m}^3$.",
+          "takeaway": "Lưu lượng đỉnh bằng $Q_{\\text{peak}} = 1.5\\text{ m}^3/\\text{s}$ và thể tích bể đạt $V = 90\\text{ m}^3$",
+          "topic": "Lưu lượng đỉnh"
+        },
+        {
+          "id": "p-ed67dce4",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ số chiều dài công tác trên chiều sâu ($L/D$): $18$ (Kiểm tra: $18 \\ge 15$ — Đạt chuẩn Slide 10)",
+          "sentences": [
+            "Tỷ số chiều dài công tác trên chiều sâu ($L/D$): $18$ (Kiểm tra: $18 \\ge 15$ — Đạt chuẩn Slide 10)"
+          ],
+          "brief": [
+            "Tỷ số chiều dài công tác trên chiều sâu ($L/D$): $18$ (Kiểm tra: $18 \\ge 15$ — Đạt chuẩn Slide 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Kích thước vùng lắng hiệu dụng đạt $L = 18\\text{ m}$, $W = 5\\text{ m}$, $D = 1\\text{ m}$ với $\\frac{L}{D} = 18 \\ge 15$.",
+          "takeaway": "Kích thước vùng lắng hiệu dụng đạt $L = 18\\text{ m}$, $W = 5\\text{ m}$, $D = 1\\text{ m}$ với $\\frac{L}{D} = 18 \\ge 15$",
+          "topic": "vùng lắng hiệu dụng"
+        },
+        {
+          "id": "p-48b6f872",
+          "kind": "list item",
+          "role": "result",
+          "full": "Kích thước thực tế của bể ($L_{\\text{prac}}$, $W$, $H_{\\text{prac}}$): $L_{\\text{prac}} = 22\\text{ m}$, $W = 5\\text{ m}$, $H_{\\text{prac}} = 1.5\\text{ m}$ (Kiểm tra: cộng $25\\%$ chiều dài và $h_{\\text{bv}} = 0.5\\text{ m}$ — Đạt chuẩn Slide 7 & 10)",
+          "sentences": [
+            "Kích thước thực tế của bể ($L_{\\text{prac}}$, $W$, $H_{\\text{prac}}$): $L_{\\text{prac}} = 22\\text{ m}$, $W = 5\\text{ m}$, $H_{\\text{prac}} = 1.5\\text{ m}$ (Kiểm tra: cộng $25\\%$ chiều dài và $h_{\\text{bv}} = 0.5\\text{ m}$ — Đạt chuẩn Slide 7 & 10)"
+          ],
+          "brief": [
+            "Kích thước thực tế của bể ($L_{\\text{prac}}$, $W$, $H_{\\text{prac}}$): $L_{\\text{prac}} = 22\\text{ m}$, $W = 5\\text{ m}$, $H_{\\text{prac}} = 1.5\\text{ m}$ (Kiểm tra: cộng $25\\%$ chiều dài và $h_{\\text{bv}} = 0.5\\text{ m}$ — Đạt chuẩn Slide 7 & 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Kích thước xây dựng thực tế của bể đạt $22\\text{ m} \\times 5\\text{ m} \\times 1.5\\text{ m}$.",
+          "takeaway": "Kích thước xây dựng thực tế của bể đạt $22\\text{ m} \\times 5\\text{ m} \\times 1.5\\text{ m}$",
+          "topic": "Kích thước xây dựng"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch03_2_ex02-slide-1618-thiết-kế-bể-lắng-cát-thổi-khí-cho-nước-thải-đô-thị",
+      "num": "",
+      "title": "Bài tập ch03_2_ex02 (Slide 16–18): Thiết kế bể lắng cát thổi khí cho nước thải đô thị",
+      "depth": 2,
+      "takeaway": "Thiết kế $2$ bể lắng cát thổi khí đạt $11.5\\text{ m} \\times 3.6\\text{ m} \\times 3\\text{ m}$ và $Q_{\\text{air}} = 6.9\\text{ m}^3/\\text{min}$",
+      "topic": "bể lắng cát",
+      "units": [
+        {
+          "id": "p-360999f1",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #24, #25, #144, #145, Slide 16–18): Thiết kế hệ thống bể lắng cát thổi khí cho trạm xử lý nước thải đô thị có lưu lượng trung bình $Q_{\\text{avg}} = 0.5\\text{ m}^3/\\text{s}$ và hệ số vượt tải cực đại $\\text{PF} = 2.75$ [Page 7].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #24, #25, #144, #145, Slide 16–18): Thiết kế hệ thống bể lắng cát thổi khí cho trạm xử lý nước thải đô thị có lưu lượng trung bình $Q_{\\text{avg}} = 0.5\\text{ m}^3/\\text{s}$ và hệ số vượt tải cực đại $\\text{PF} = 2.75$ [Page 7]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #24, #25, #144, #145, Slide 16–18): Thiết kế hệ thống bể lắng cát thổi khí cho trạm xử lý nước thải đô thị có lưu lượng trung bình $Q_{\\text{avg}} = 0.5\\text{ m}^3/\\text{s}$ và hệ số vượt tải cực đại $\\text{PF} = 2.75$ [Page 7]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài thiết kế bể lắng cát thổi khí cho $Q_{\\text{avg}} = 0.5\\text{ m}^3/\\text{s}$ và $\\text{PF} = 2.75$.",
+          "takeaway": "Đề bài thiết kế bể lắng cát thổi khí cho $Q_{\\text{avg}} = 0.5\\text{ m}^3/\\text{s}$ và $\\text{PF} = 2.75$",
+          "topic": "bể lắng cát"
+        },
+        {
+          "id": "p-3673b094",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bước 1 - Tính lưu lượng cực đại, thể tích mỗi bể và kích thước hình học: Với lưu lượng cực đại $Q_{\\text{peak}} = 1.38\\text{ m}^3/\\text{s}$ chia đều cho $N = 2\\text{ bể}$ ở thời gian lưu $t = 3\\text{ min}$, thể tích mỗi bể đạt $V_{\\text{each}} = 124.2\\text{ m}^3$ [Page 7]. Chọn chiều sâu $D = 3\\text{ m}$ và tỷ số $W/D = 1.2$ thu được bề rộng $W = 3.6\\text{ m}$ và chiều dài $L = 11.5\\text{ m}$.",
+          "sentences": [
+            "Bước 1 - Tính lưu lượng cực đại, thể tích mỗi bể và kích thước hình học: Với lưu lượng cực đại $Q_{\\text{peak}} = 1.38\\text{ m}^3/\\text{s}$ chia đều cho $N = 2\\text{ bể}$ ở thời gian lưu $t = 3\\text{ min}$, thể tích mỗi bể đạt $V_{\\text{each}} = 124.2\\text{ m}^3$ [Page 7].",
+            "Chọn chiều sâu $D = 3\\text{ m}$ và tỷ số $W/D = 1.2$ thu được bề rộng $W = 3.6\\text{ m}$ và chiều dài $L = 11.5\\text{ m}$."
+          ],
+          "brief": [
+            "Bước 1 - Tính lưu lượng cực đại, thể tích mỗi bể và kích thước hình học: Với lưu lượng cực đại $Q_{\\text{peak}} = 1.38\\text{ m}^3/\\text{s}$ chia đều cho $N = 2\\text{ bể}$ ở thời gian lưu $t = 3\\text{ min}$, thể tích mỗi bể đạt $V_{\\text{each}} = 124.2\\text{ m}^3$ [Page 7].",
+            "Chọn chiều sâu $D = 3\\text{ m}$ và tỷ số $W/D = 1.2$ thu được bề rộng $W = 3.6\\text{ m}$ và chiều dài $L = 11.5\\text{ m}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Mỗi bể có thể tích $V_{\\text{each}} = 124.2\\text{ m}^3$ và kích thước $11.5\\text{ m} \\times 3.6\\text{ m} \\times 3\\text{ m}$. Tỷ số $\\frac{W}{D} = 1.2$ và $\\frac{L}{W} = 3.19$ đều nằm trong giới hạn chuẩn.",
+          "takeaway": "Mỗi bể có thể tích $V_{\\text{each}} = 124.2\\text{ m}^3$ và kích thước $11.5\\text{ m} \\times 3.6\\text{ m} \\times 3\\text{ m}$",
+          "topic": "Mỗi bể có"
+        },
+        {
+          "id": "p-45aec590",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính lưu lượng khí nén yêu cầu và lượng cát phát sinh hàng ngày: Với cường độ cấp khí $q_{\\text{air}} = 0.3\\text{ m}^3/\\text{min}\\cdot\\text{m}$, lưu lượng khí cho mỗi bể là $3.45\\text{ m}^3/\\text{min}$ và tổng lưu lượng khí cho $2\\text{ bể}$ là $Q_{\\text{air}} = 6.9\\text{ m}^3/\\text{min}$ [Page 7]. Lượng cát thu gom hàng ngày tính theo lưu lượng trung bình ngày đạt $V_{\\text{grit}} = 2.16\\text{ m}^3/\\text{d}$.",
+          "sentences": [
+            "Bước 2 - Tính lưu lượng khí nén yêu cầu và lượng cát phát sinh hàng ngày: Với cường độ cấp khí $q_{\\text{air}} = 0.3\\text{ m}^3/\\text{min}\\cdot\\text{m}$, lưu lượng khí cho mỗi bể là $3.45\\text{ m}^3/\\text{min}$ và tổng lưu lượng khí cho $2\\text{ bể}$ là $Q_{\\text{air}} = 6.9\\text{ m}^3/\\text{min}$ [Page 7].",
+            "Lượng cát thu gom hàng ngày tính theo lưu lượng trung bình ngày đạt $V_{\\text{grit}} = 2.16\\text{ m}^3/\\text{d}$."
+          ],
+          "brief": [
+            "Bước 2 - Tính lưu lượng khí nén yêu cầu và lượng cát phát sinh hàng ngày: Với cường độ cấp khí $q_{\\text{air}} = 0.3\\text{ m}^3/\\text{min}\\cdot\\text{m}$, lưu lượng khí cho mỗi bể là $3.45\\text{ m}^3/\\text{min}$ và tổng lưu lượng khí cho $2\\text{ bể}$ là $Q_{\\text{air}} = 6.9\\text{ m}^3/\\text{min}$ [Page 7].",
+            "Lượng cát thu gom hàng ngày tính theo lưu lượng trung bình ngày đạt $V_{\\text{grit}} = 2.16\\text{ m}^3/\\text{d}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng lưu lượng khí cấp đạt $Q_{\\text{air,total}} = 6.9\\text{ m}^3/\\text{min}$ và lượng cát $V_{\\text{grit}} = 2.16\\text{ m}^3/\\text{d}$. Mỗi bể dài $L = 11.5\\text{ m}$ cần $Q_{\\text{air,each}} = 3.45\\text{ m}^3/\\text{min}$ với suất cấp khí $0.3\\text{ m}^3/\\text{min}\\cdot\\text{m}$.",
+          "takeaway": "Tổng lưu lượng khí cấp đạt $Q_{\\text{air,total}} = 6.9\\text{ m}^3/\\text{min}$ và lượng cát $V_{\\text{grit}} = 2.16\\text{ m}^3/\\text{d}$",
+          "topic": "lưu lượng khí cấp"
+        },
+        {
+          "id": "p-47659d61-2",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng hợp đáp số xác nhận hệ thống $2$ bể lắng cát thổi khí đạt chuẩn. Kích thước hình học và lưu lượng khí cấp thỏa mãn đầy đủ tiêu chuẩn bài giảng.",
+          "takeaway": "Tổng hợp đáp số xác nhận hệ thống $2$ bể lắng cát thổi khí đạt chuẩn",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-02843140",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích và kích thước mỗi bể ($V_{\\text{each}}$, $L$, $W$, $D$): $V_{\\text{each}} = 124.2\\text{ m}^3$, $L = 11.5\\text{ m}$, $W = 3.6\\text{ m}$, $D = 3.0\\text{ m}$ (Kiểm tra: $W/D = 1.2 \\in [1, 5]$ và $L/W = 3.19 \\in [3, 5]$ — Đạt chuẩn Slide 15)",
+          "sentences": [
+            "Thể tích và kích thước mỗi bể ($V_{\\text{each}}$, $L$, $W$, $D$): $V_{\\text{each}} = 124.2\\text{ m}^3$, $L = 11.5\\text{ m}$, $W = 3.6\\text{ m}$, $D = 3.0\\text{ m}$ (Kiểm tra: $W/D = 1.2 \\in [1, 5]$ và $L/W = 3.19 \\in [3, 5]$ — Đạt chuẩn Slide 15)"
+          ],
+          "brief": [
+            "Thể tích và kích thước mỗi bể ($V_{\\text{each}}$, $L$, $W$, $D$): $V_{\\text{each}} = 124.2\\text{ m}^3$, $L = 11.5\\text{ m}$, $W = 3.6\\text{ m}$, $D = 3.0\\text{ m}$ (Kiểm tra: $W/D = 1.2 \\in [1, 5]$ và $L/W = 3.19 \\in [3, 5]$ — Đạt chuẩn Slide 15)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng đỉnh đạt $Q_{\\text{peak}} = 1.38\\text{ m}^3/\\text{s}$ và thể tích mỗi bể là $V_{\\text{each}} = 124.2\\text{ m}^3$.",
+          "takeaway": "Lưu lượng đỉnh đạt $Q_{\\text{peak}} = 1.38\\text{ m}^3/\\text{s}$ và thể tích mỗi bể là $V_{\\text{each}} = 124.2\\text{ m}^3$",
+          "topic": "Lưu lượng đỉnh"
+        },
+        {
+          "id": "p-cd0a1bd5",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổng lưu lượng khí nén cấp cho 2 bể ($Q_{\\text{air}}$): $6.9\\text{ m}^3/\\text{min}$ ($3.45\\text{ m}^3/\\text{min}$ mỗi bể) (Kiểm tra: $q_{\\text{air}} = 0.3 \\in [0.2, 0.5]\\text{ m}^3/\\text{min}\\cdot\\text{m}$ — Đạt chuẩn Slide 15)",
+          "sentences": [
+            "Tổng lưu lượng khí nén cấp cho 2 bể ($Q_{\\text{air}}$): $6.9\\text{ m}^3/\\text{min}$ ($3.45\\text{ m}^3/\\text{min}$ mỗi bể) (Kiểm tra: $q_{\\text{air}} = 0.3 \\in [0.2, 0.5]\\text{ m}^3/\\text{min}\\cdot\\text{m}$ — Đạt chuẩn Slide 15)"
+          ],
+          "brief": [
+            "Tổng lưu lượng khí nén cấp cho 2 bể ($Q_{\\text{air}}$): $6.9\\text{ m}^3/\\text{min}$ ($3.45\\text{ m}^3/\\text{min}$ mỗi bể) (Kiểm tra: $q_{\\text{air}} = 0.3 \\in [0.2, 0.5]\\text{ m}^3/\\text{min}\\cdot\\text{m}$ — Đạt chuẩn Slide 15)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Kích thước mỗi bể đạt $11.5\\text{ m} \\times 3.6\\text{ m} \\times 3\\text{ m}$ với $\\frac{W}{D} = 1.2$ và $\\frac{L}{W} = 3.19$.",
+          "takeaway": "Kích thước mỗi bể đạt $11.5\\text{ m} \\times 3.6\\text{ m} \\times 3\\text{ m}$ với $\\frac{W}{D} = 1.2$ và $\\frac{L}{W} = 3.19$",
+          "topic": "Kích thước mỗi bể"
+        },
+        {
+          "id": "p-c38c2e26",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích cát thu gom hàng ngày ($V_{\\text{grit}}$): $2.16\\text{ m}^3/\\text{d}$ (Kiểm tra: $q_{\\text{grit}} = 0.05$ ($\\text{m}^3/10^3\\text{ m}^3$) — Đạt chuẩn Slide 15)",
+          "sentences": [
+            "Thể tích cát thu gom hàng ngày ($V_{\\text{grit}}$): $2.16\\text{ m}^3/\\text{d}$ (Kiểm tra: $q_{\\text{grit}} = 0.05$ ($\\text{m}^3/10^3\\text{ m}^3$) — Đạt chuẩn Slide 15)"
+          ],
+          "brief": [
+            "Thể tích cát thu gom hàng ngày ($V_{\\text{grit}}$): $2.16\\text{ m}^3/\\text{d}$ (Kiểm tra: $q_{\\text{grit}} = 0.05$ ($\\text{m}^3/10^3\\text{ m}^3$) — Đạt chuẩn Slide 15)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng lưu lượng khí bằng $Q_{\\text{air,total}} = 6.9\\text{ m}^3/\\text{min}$ và lượng cát thu được $V_{\\text{grit}} = 2.16\\text{ m}^3/\\text{d}$.",
+          "takeaway": "Tổng lưu lượng khí bằng $Q_{\\text{air,total}} = 6.9\\text{ m}^3/\\text{min}$ và lượng cát thu được $V_{\\text{grit}} = 2.16\\text{ m}^3/\\text{d}$",
+          "topic": "Tổng lưu lượng khí"
+        }
+      ]
+    },
+    {
+      "id": "sec-5-lời-giải-chi-tiết-bài-tập-homework-1-về-bể-lắng-cát-ngang-worked-classroom-homework-1-proj_ch03_2_hw01",
+      "num": "5",
+      "title": "Lời giải chi tiết bài tập Homework 1 về bể lắng cát ngang (Worked Classroom Homework 1: proj_ch03_2_hw01)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-proj_ch03_2_hw01-slide-2428---homework-1-thiết-kế-bể-lắng-cát-ngang-loại-bỏ-hạt-cát-0125-mm-120-mesh",
+      "num": "",
+      "title": "Bài tập proj_ch03_2_hw01 (Slide 24–28 - Homework 1): Thiết kế bể lắng cát ngang loại bỏ hạt cát 0.125 mm (120-mesh)",
+      "depth": 2,
+      "takeaway": "Thiết kế bể lắng cát ngang tách hạt $d = 0.125\\text{ mm}$ đạt kích thước $20\\text{ m} \\times 3.7\\text{ m} \\times 1.5\\text{ m}$",
+      "topic": "bể lắng cát ngang",
+      "units": [
+        {
+          "id": "p-83610e69",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #27, #30–#32, #146, #148, #150, #153–#156, Slide 24–28): Thiết kế bể lắng cát ngang cho nhà máy xử lý nước thải có lưu lượng trung bình $Q_{\\text{avg}} = 0.3\\text{ m}^3/\\text{s}$ và lưu lượng cực đại $Q_{\\text{peak}} = 1.0\\text{ m}^3/\\text{s}$ để tách các hạt cát có đường kính từ $d = 0.125\\text{ mm}$ ($120\\text{-mesh}$) trở lên với tỷ trọng riêng của cát $S_s = 2.50$ [Page 4].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #27, #30–#32, #146, #148, #150, #153–#156, Slide 24–28): Thiết kế bể lắng cát ngang cho nhà máy xử lý nước thải có lưu lượng trung bình $Q_{\\text{avg}} = 0.3\\text{ m}^3/\\text{s}$ và lưu lượng cực đại $Q_{\\text{peak}} = 1.0\\text{ m}^3/\\text{s}$ để tách các hạt cát có đường kính từ $d = 0.125\\text{ mm}$ ($120\\text{-mesh}$) trở lên với tỷ trọng riêng của cát $S_s = 2.50$ [Page 4]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #27, #30–#32, #146, #148, #150, #153–#156, Slide 24–28): Thiết kế bể lắng cát ngang cho nhà máy xử lý nước thải có lưu lượng trung bình $Q_{\\text{avg}} = 0.3\\text{ m}^3/\\text{s}$ và lưu lượng cực đại $Q_{\\text{peak}} = 1.0\\text{ m}^3/\\text{s}$ để tách các hạt cát có đường kính từ $d = 0.125\\text{ mm}$ ($120\\text{-mesh}$) trở lên với tỷ trọng riêng của cát $S_s = 2.50$ [Page 4]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài thiết kế bể lắng cát ngang tách hạt $d = 0.125\\text{ mm}$ ở $Q_{\\text{peak}} = 1.0\\text{ m}^3/\\text{s}$.",
+          "takeaway": "Đề bài thiết kế bể lắng cát ngang tách hạt $d = 0.125\\text{ mm}$ ở $Q_{\\text{peak}} = 1.0\\text{ m}^3/\\text{s}$",
+          "topic": "bể lắng cát ngang"
+        },
+        {
+          "id": "p-f2e00826",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bước 1 - Tính vận tốc lắng theo định luật Stokes hiệu chỉnh và chọn vận tốc ngang: Tại nhiệt độ nước $T = 20^\\circ\\text{C}$, thay $\\rho_S = 2,495.5\\text{ kg/m}^3$, $\\rho_L = 998.2\\text{ kg/m}^3$, $d = 0.125\\text{ mm}$ ($1.25 \\times 10^{-4}\\text{ m}$) và $\\mu = 1.002 \\times 10^{-3}$ ($\\text{kg/s}\\cdot\\text{m}$) vào phương trình Stokes có hệ số $0.7$, thu được vận tốc lắng $v_s = 0.018\\text{ m/s}$ [Page 4]. Chọn vận tốc dòng chảy ngang $v_H = 0.27\\text{ m/s}$ để tỷ số giới hạn đạt $\\frac{L}{D} > 15$.",
+          "sentences": [
+            "Bước 1 - Tính vận tốc lắng theo định luật Stokes hiệu chỉnh và chọn vận tốc ngang: Tại nhiệt độ nước $T = 20^\\circ\\text{C}$, thay $\\rho_S = 2,495.5\\text{ kg/m}^3$, $\\rho_L = 998.2\\text{ kg/m}^3$, $d = 0.125\\text{ mm}$ ($1.25 \\times 10^{-4}\\text{ m}$) và $\\mu = 1.002 \\times 10^{-3}$ ($\\text{kg/s}\\cdot\\text{m}$) vào phương trình Stokes có hệ số $0.7$, thu được vận tốc lắng $v_s = 0.018\\text{ m/s}$ [Page 4].",
+            "Chọn vận tốc dòng chảy ngang $v_H = 0.27\\text{ m/s}$ để tỷ số giới hạn đạt $\\frac{L}{D} > 15$."
+          ],
+          "brief": [
+            "Bước 1 - Tính vận tốc lắng theo định luật Stokes hiệu chỉnh và chọn vận tốc ngang: Tại nhiệt độ nước $T = 20^\\circ\\text{C}$, thay $\\rho_S = 2,495.5\\text{ kg/m}^3$, $\\rho_L = 998.2\\text{ kg/m}^3$, $d = 0.125\\text{ mm}$ ($1.25 \\times 10^{-4}\\text{ m}$) và $\\mu = 1.002 \\times 10^{-3}$ ($\\text{kg/s}\\cdot\\text{m}$) vào phương trình Stokes có hệ số $0.7$, thu được vận tốc lắng $v_s = 0.018\\text{ m/s}$ [Page 4].",
+            "Chọn vận tốc dòng chảy ngang $v_H = 0.27\\text{ m/s}$ để tỷ số giới hạn đạt $\\frac{L}{D} > 15$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Công thức Stokes hiệu chỉnh ở $20^\\circ\\text{C}$ tính được vận tốc lắng $v_s = 0.018\\text{ m/s}$. Chọn vận tốc ngang $v_H = 0.27\\text{ m/s}$ dẫn đến điều kiện hình học $\\frac{L}{D} > 15$.",
+          "takeaway": "Công thức Stokes hiệu chỉnh ở $20^\\circ\\text{C}$ tính được vận tốc lắng $v_s = 0.018\\text{ m/s}$",
+          "topic": "Công thức Stokes"
+        },
+        {
+          "id": "p-d647ec96",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính thể tích, kích thước công tác và kích thước thực tế của bể lắng cát ngang: Với thời gian lưu $t = 60\\text{ s}$ ở lưu lượng đỉnh $Q_{\\text{peak}} = 1.0\\text{ m}^3/\\text{s}$, thể tích bể bằng $V = 60\\text{ m}^3$ và diện tích mặt cắt ngang bằng $W \\times D = 3.7\\text{ m}^2$ [Page 4]. Chọn chiều sâu $D = 1.0\\text{ m}$ suy ra bề rộng $W = 3.7\\text{ m}$, chiều dài công tác $L = 16\\text{ m}$, và sau khi cộng $25\\%$ chiều dài dự phòng thu được kích thước thực tế $L_{\\text{prac}} = 20\\text{ m}$, $W = 3.7\\text{ m}$ và $H_{\\text{prac}} = 1.5\\text{ m}$.",
+          "sentences": [
+            "Bước 2 - Tính thể tích, kích thước công tác và kích thước thực tế của bể lắng cát ngang: Với thời gian lưu $t = 60\\text{ s}$ ở lưu lượng đỉnh $Q_{\\text{peak}} = 1.0\\text{ m}^3/\\text{s}$, thể tích bể bằng $V = 60\\text{ m}^3$ và diện tích mặt cắt ngang bằng $W \\times D = 3.7\\text{ m}^2$ [Page 4].",
+            "Chọn chiều sâu $D = 1.0\\text{ m}$ suy ra bề rộng $W = 3.7\\text{ m}$, chiều dài công tác $L = 16\\text{ m}$, và sau khi cộng $25\\%$ chiều dài dự phòng thu được kích thước thực tế $L_{\\text{prac}} = 20\\text{ m}$, $W = 3.7\\text{ m}$ và $H_{\\text{prac}} = 1.5\\text{ m}$."
+          ],
+          "brief": [
+            "Bước 2 - Tính thể tích, kích thước công tác và kích thước thực tế của bể lắng cát ngang: Với thời gian lưu $t = 60\\text{ s}$ ở lưu lượng đỉnh $Q_{\\text{peak}} = 1.0\\text{ m}^3/\\text{s}$, thể tích bể bằng $V = 60\\text{ m}^3$ và diện tích mặt cắt ngang bằng $W \\times D = 3.7\\text{ m}^2$ [Page 4].",
+            "Chọn chiều sâu $D = 1.0\\text{ m}$ suy ra bề rộng $W = 3.7\\text{ m}$, chiều dài công tác $L = 16\\text{ m}$, và sau khi cộng $25\\%$ chiều dài dự phòng thu được kích thước thực tế $L_{\\text{prac}} = 20\\text{ m}$, $W = 3.7\\text{ m}$ và $H_{\\text{prac}} = 1.5\\text{ m}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Bể có thể tích $V = 60\\text{ m}^3$ và kích thước thực tế $20\\text{ m} \\times 3.7\\text{ m} \\times 1.5\\text{ m}$. Chiều dài hiệu dụng $L = 16\\text{ m}$ trên chiều sâu $D = 1.0\\text{ m}$ đạt $\\frac{L}{D} = 16 > 15$.",
+          "takeaway": "Bể có thể tích $V = 60\\text{ m}^3$ và kích thước thực tế $20\\text{ m} \\times 3.7\\text{ m} \\times 1.5\\text{ m}$",
+          "topic": "kích thước thực tế"
+        },
+        {
+          "id": "p-47659d61-3",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng hợp đáp số xác nhận bể lắng cát ngang loại bỏ được hạt $d = 0.125\\text{ mm}$. Tất cả thông số vận tốc và tỷ số hình học thỏa mãn tiêu chuẩn thiết kế.",
+          "takeaway": "Tổng hợp đáp số xác nhận bể lắng cát ngang loại bỏ được hạt $d = 0.125\\text{ mm}$",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-56f59874",
+          "kind": "list item",
+          "role": "result",
+          "full": "Vận tốc lắng hạt $0.125\\text{ mm}$ và vận tốc ngang ($v_s, v_H$): $0.018\\text{ m/s}$ và $0.27\\text{ m/s}$ (Kiểm tra: $v_H \\in [0.25, 0.40]\\text{ m/s}$ — Đạt chuẩn Slide 7)",
+          "sentences": [
+            "Vận tốc lắng hạt $0.125\\text{ mm}$ và vận tốc ngang ($v_s, v_H$): $0.018\\text{ m/s}$ và $0.27\\text{ m/s}$ (Kiểm tra: $v_H \\in [0.25, 0.40]\\text{ m/s}$ — Đạt chuẩn Slide 7)"
+          ],
+          "brief": [
+            "Vận tốc lắng hạt $0.125\\text{ mm}$ và vận tốc ngang ($v_s, v_H$): $0.018\\text{ m/s}$ và $0.27\\text{ m/s}$ (Kiểm tra: $v_H \\in [0.25, 0.40]\\text{ m/s}$ — Đạt chuẩn Slide 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Vận tốc lắng hạt đạt $v_s = 0.018\\text{ m/s}$ và vận tốc ngang chọn $v_H = 0.27\\text{ m/s}$.",
+          "takeaway": "Vận tốc lắng hạt đạt $v_s = 0.018\\text{ m/s}$ và vận tốc ngang chọn $v_H = 0.27\\text{ m/s}$",
+          "topic": "Vận tốc lắng hạt"
+        },
+        {
+          "id": "p-151dc287",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ số chiều dài công tác trên chiều sâu ($L/D$): $16$ (Kiểm tra: $16 > 15$ — Đạt chuẩn Slide 26)",
+          "sentences": [
+            "Tỷ số chiều dài công tác trên chiều sâu ($L/D$): $16$ (Kiểm tra: $16 > 15$ — Đạt chuẩn Slide 26)"
+          ],
+          "brief": [
+            "Tỷ số chiều dài công tác trên chiều sâu ($L/D$): $16$ (Kiểm tra: $16 > 15$ — Đạt chuẩn Slide 26)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể bằng $V = 60\\text{ m}^3$ với kích thước hiệu dụng $16\\text{ m} \\times 3.7\\text{ m} \\times 1.0\\text{ m}$.",
+          "takeaway": "Thể tích bể bằng $V = 60\\text{ m}^3$ với kích thước hiệu dụng $16\\text{ m} \\times 3.7\\text{ m} \\times 1.0\\text{ m}$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-b6b4fab9",
+          "kind": "list item",
+          "role": "result",
+          "full": "Kích thước thực tế của bể ($L_{\\text{prac}}$, $W$, $H_{\\text{prac}}$): $L_{\\text{prac}} = 20\\text{ m}$, $W = 3.7\\text{ m}$, $H_{\\text{prac}} = 1.5\\text{ m}$ (Kiểm tra: cộng $25\\%$ chiều dài và $h_{\\text{bv}} = 0.5\\text{ m}$ — Đạt chuẩn Slide 26)",
+          "sentences": [
+            "Kích thước thực tế của bể ($L_{\\text{prac}}$, $W$, $H_{\\text{prac}}$): $L_{\\text{prac}} = 20\\text{ m}$, $W = 3.7\\text{ m}$, $H_{\\text{prac}} = 1.5\\text{ m}$ (Kiểm tra: cộng $25\\%$ chiều dài và $h_{\\text{bv}} = 0.5\\text{ m}$ — Đạt chuẩn Slide 26)"
+          ],
+          "brief": [
+            "Kích thước thực tế của bể ($L_{\\text{prac}}$, $W$, $H_{\\text{prac}}$): $L_{\\text{prac}} = 20\\text{ m}$, $W = 3.7\\text{ m}$, $H_{\\text{prac}} = 1.5\\text{ m}$ (Kiểm tra: cộng $25\\%$ chiều dài và $h_{\\text{bv}} = 0.5\\text{ m}$ — Đạt chuẩn Slide 26)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Kích thước xây dựng thực tế của bể đạt $20\\text{ m} \\times 3.7\\text{ m} \\times 1.5\\text{ m}$.",
+          "takeaway": "Kích thước xây dựng thực tế của bể đạt $20\\text{ m} \\times 3.7\\text{ m} \\times 1.5\\text{ m}$",
+          "topic": "Kích thước xây dựng"
+        }
+      ]
+    },
+    {
+      "id": "sec-6-lời-giải-chi-tiết-bài-tập-homework-2-về-bể-lắng-cát-thổi-khí-và-máy-thổi-khí-worked-classroom-homework-2-proj_ch03_2_hw02",
+      "num": "6",
+      "title": "Lời giải chi tiết bài tập Homework 2 về bể lắng cát thổi khí và máy thổi khí (Worked Classroom Homework 2: proj_ch03_2_hw02)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-proj_ch03_2_hw02-slide-2530---homework-2-thiết-kế-bể-lắng-cát-thổi-khí-chọn-máy-thổi-khí-và-tính-chi-phí-điện-năng",
+      "num": "",
+      "title": "Bài tập proj_ch03_2_hw02 (Slide 25–30 - Homework 2): Thiết kế bể lắng cát thổi khí, chọn máy thổi khí và tính chi phí điện năng",
+      "depth": 2,
+      "takeaway": "Thiết kế $2$ bể lắng cát thổi khí chọn máy TSR2-80 công suất $5.5\\text{ kW}$ tốn $1,320\\text{ USD/tháng}$",
+      "topic": "bể lắng cát",
+      "units": [
+        {
+          "id": "p-f257fcc6",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #26, #28, #29, #33, #34, #147, #149, #151, #152, #157, #158, Slide 25–30): Thiết kế hệ thống $N = 2\\text{ bể}$ lắng cát thổi khí cho nhà máy có lưu lượng trung bình $Q_{\\text{avg}} = 15,000\\text{ m}^3/\\text{d}$ và lưu lượng giờ cực đại $Q_{\\text{peak}} = 40,000\\text{ m}^3/\\text{d}$, trong đó mỗi bể chịu tải $75\\%$ lưu lượng cực đại khi bể kia ngưng vận hành [Page 7]. Tính lưu lượng khí nén, cột áp máy thổi khí (với tổn thất qua đĩa phân phối khí $0.25\\text{ m}$ và tổn thất đường ống, van $0.40\\text{ m}$), chọn model máy thổi khí từ bảng thông số và tính tiền điện hàng tháng với hiệu suất động cơ $\\eta = 90\\%$ và đơn giá điện $0.3\\text{ USD/kWh}$.",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #26, #28, #29, #33, #34, #147, #149, #151, #152, #157, #158, Slide 25–30): Thiết kế hệ thống $N = 2\\text{ bể}$ lắng cát thổi khí cho nhà máy có lưu lượng trung bình $Q_{\\text{avg}} = 15,000\\text{ m}^3/\\text{d}$ và lưu lượng giờ cực đại $Q_{\\text{peak}} = 40,000\\text{ m}^3/\\text{d}$, trong đó mỗi bể chịu tải $75\\%$ lưu lượng cực đại khi bể kia ngưng vận hành [Page 7].",
+            "Tính lưu lượng khí nén, cột áp máy thổi khí (với tổn thất qua đĩa phân phối khí $0.25\\text{ m}$ và tổn thất đường ống, van $0.40\\text{ m}$), chọn model máy thổi khí từ bảng thông số và tính tiền điện hàng tháng với hiệu suất động cơ $\\eta = 90\\%$ và đơn giá điện $0.3\\text{ USD/kWh}$."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #26, #28, #29, #33, #34, #147, #149, #151, #152, #157, #158, Slide 25–30): Thiết kế hệ thống $N = 2\\text{ bể}$ lắng cát thổi khí cho nhà máy có lưu lượng trung bình $Q_{\\text{avg}} = 15,000\\text{ m}^3/\\text{d}$ và lưu lượng giờ cực đại $Q_{\\text{peak}} = 40,000\\text{ m}^3/\\text{d}$, trong đó mỗi bể chịu tải $75\\%$ lưu lượng cực đại khi bể kia ngưng vận hành [Page 7].",
+            "Tính lưu lượng khí nén, cột áp máy thổi khí (với tổn thất qua đĩa phân phối khí $0.25\\text{ m}$ và tổn thất đường ống, van $0.40\\text{ m}$), chọn model máy thổi khí từ bảng thông số và tính tiền điện hàng tháng với hiệu suất động cơ $\\eta = 90\\%$ và đơn giá điện $0.3\\text{ USD/kWh}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài thiết kế $N = 2\\text{ bể}$ lắng cát thổi khí chịu tải $75\\%$ của $Q_{\\text{peak}} = 40,000\\text{ m}^3/\\text{d}$. Bài toán yêu cầu tính kích thước bể, chọn máy thổi khí và tính tiền điện hàng tháng.",
+          "takeaway": "Đề bài thiết kế $N = 2\\text{ bể}$ lắng cát thổi khí chịu tải $75\\%$ của $Q_{\\text{peak}} = 40,000\\text{ m}^3/\\text{d}$",
+          "topic": "lắng cát thổi khí"
+        },
+        {
+          "id": "p-89fbd230",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bước 1 - Tính thể tích và kích thước thực tế của mỗi bể lắng cát thổi khí (Câu a): Mỗi bể tiếp nhận $75\\%$ lưu lượng đỉnh $Q_{\\text{peak}} = 40,000\\text{ m}^3/\\text{d}$ trong thời gian lưu $t = 3\\text{ min}$ nên có thể tích $V_{\\text{each}} = 62.5\\text{ m}^3$ [Page 7]. Chọn chiều sâu $D = 2.2\\text{ m}$ và bề rộng $W = 3.0\\text{ m}$, tính được chiều dài $L = 9.5\\text{ m}$ và chiều cao thực tế mỗi bể là $H_{\\text{prac}} = 2.5\\text{ m}$.",
+          "sentences": [
+            "Bước 1 - Tính thể tích và kích thước thực tế của mỗi bể lắng cát thổi khí (Câu a): Mỗi bể tiếp nhận $75\\%$ lưu lượng đỉnh $Q_{\\text{peak}} = 40,000\\text{ m}^3/\\text{d}$ trong thời gian lưu $t = 3\\text{ min}$ nên có thể tích $V_{\\text{each}} = 62.5\\text{ m}^3$ [Page 7].",
+            "Chọn chiều sâu $D = 2.2\\text{ m}$ và bề rộng $W = 3.0\\text{ m}$, tính được chiều dài $L = 9.5\\text{ m}$ và chiều cao thực tế mỗi bể là $H_{\\text{prac}} = 2.5\\text{ m}$."
+          ],
+          "brief": [
+            "Bước 1 - Tính thể tích và kích thước thực tế của mỗi bể lắng cát thổi khí (Câu a): Mỗi bể tiếp nhận $75\\%$ lưu lượng đỉnh $Q_{\\text{peak}} = 40,000\\text{ m}^3/\\text{d}$ trong thời gian lưu $t = 3\\text{ min}$ nên có thể tích $V_{\\text{each}} = 62.5\\text{ m}^3$ [Page 7].",
+            "Chọn chiều sâu $D = 2.2\\text{ m}$ và bề rộng $W = 3.0\\text{ m}$, tính được chiều dài $L = 9.5\\text{ m}$ và chiều cao thực tế mỗi bể là $H_{\\text{prac}} = 2.5\\text{ m}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Mỗi bể có thể tích $V_{\\text{each}} = 62.5\\text{ m}^3$ và kích thước thực tế $9.5\\text{ m} \\times 3.0\\text{ m} \\times 2.5\\text{ m}$. Tỷ số $\\frac{W}{D} = 1.36$ và $\\frac{L}{W} = 3.16$ đều thỏa mãn giới hạn chuẩn.",
+          "takeaway": "Mỗi bể có thể tích $V_{\\text{each}} = 62.5\\text{ m}^3$ và kích thước thực tế $9.5\\text{ m} \\times 3.0\\text{ m} \\times 2.5\\text{ m}$",
+          "topic": "kích thước thực tế"
+        },
+        {
+          "id": "p-7ca6db24",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính tổng lưu lượng khí nén và cột áp xả của máy thổi khí (Câu b): Với cường độ cấp khí $q_{\\text{air}} = 0.3\\text{ m}^3/\\text{min}\\cdot\\text{m}$ cho $2\\text{ bể}$ dài $9.5\\text{ m}$, tổng lưu lượng khí yêu cầu đạt $Q_{\\text{air}} = 5.7\\text{ m}^3/\\text{min}$. Tổng cột áp yêu cầu của máy thổi khí bằng tổng độ ngập nước $D = 2.2\\text{ m}$ cộng tổn thất đĩa phân phối $0.25\\text{ m}$ và tổn thất ống van $0.40\\text{ m}$, đạt $H_{\\text{blower}} = 2.85\\text{ m}$.",
+          "sentences": [
+            "Bước 2 - Tính tổng lưu lượng khí nén và cột áp xả của máy thổi khí (Câu b): Với cường độ cấp khí $q_{\\text{air}} = 0.3\\text{ m}^3/\\text{min}\\cdot\\text{m}$ cho $2\\text{ bể}$ dài $9.5\\text{ m}$, tổng lưu lượng khí yêu cầu đạt $Q_{\\text{air}} = 5.7\\text{ m}^3/\\text{min}$.",
+            "Tổng cột áp yêu cầu của máy thổi khí bằng tổng độ ngập nước $D = 2.2\\text{ m}$ cộng tổn thất đĩa phân phối $0.25\\text{ m}$ và tổn thất ống van $0.40\\text{ m}$, đạt $H_{\\text{blower}} = 2.85\\text{ m}$."
+          ],
+          "brief": [
+            "Bước 2 - Tính tổng lưu lượng khí nén và cột áp xả của máy thổi khí (Câu b): Với cường độ cấp khí $q_{\\text{air}} = 0.3\\text{ m}^3/\\text{min}\\cdot\\text{m}$ cho $2\\text{ bể}$ dài $9.5\\text{ m}$, tổng lưu lượng khí yêu cầu đạt $Q_{\\text{air}} = 5.7\\text{ m}^3/\\text{min}$.",
+            "Tổng cột áp yêu cầu của máy thổi khí bằng tổng độ ngập nước $D = 2.2\\text{ m}$ cộng tổn thất đĩa phân phối $0.25\\text{ m}$ và tổn thất ống van $0.40\\text{ m}$, đạt $H_{\\text{blower}} = 2.85\\text{ m}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Hệ thống cần lưu lượng khí $Q_{\\text{air}} = 5.7\\text{ m}^3/\\text{min}$ và cột áp $H_{\\text{blower}} = 2.85\\text{ m}$. Cột áp máy thổi khí bằng tổng chiều sâu nước $D = 2.2\\text{ m}$ và tổn thất $0.65\\text{ m}$.",
+          "takeaway": "Hệ thống cần lưu lượng khí $Q_{\\text{air}} = 5.7\\text{ m}^3/\\text{min}$ và cột áp $H_{\\text{blower}} = 2.85\\text{ m}$",
+          "topic": "lưu lượng khí"
+        },
+        {
+          "id": "p-19bb196f",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Chọn model máy thổi khí và tính chi phí tiền điện hàng tháng (Câu c và d): Tra bảng đặc tính máy thổi khí tại lưu lượng $Q_{\\text{air}} = 5.7\\text{ m}^3/\\text{min}$ và cột áp làm tròn $H = 3.0\\text{ m}$ ($30\\text{ kPa}$), chọn model TSR2-80 có công suất yêu cầu $P = 5.5\\text{ kW}$. Với hiệu suất động cơ $\\eta = 90\\%$ vận hành liên tục $24\\text{ h/d}$ trong $30\\text{ d/tháng}$ ở đơn giá $0.3\\text{ USD/kWh}$, chi phí tiền điện hàng tháng bằng $1,320\\text{ USD/tháng}$.",
+          "sentences": [
+            "Bước 3 - Chọn model máy thổi khí và tính chi phí tiền điện hàng tháng (Câu c và d): Tra bảng đặc tính máy thổi khí tại lưu lượng $Q_{\\text{air}} = 5.7\\text{ m}^3/\\text{min}$ và cột áp làm tròn $H = 3.0\\text{ m}$ ($30\\text{ kPa}$), chọn model TSR2-80 có công suất yêu cầu $P = 5.5\\text{ kW}$.",
+            "Với hiệu suất động cơ $\\eta = 90\\%$ vận hành liên tục $24\\text{ h/d}$ trong $30\\text{ d/tháng}$ ở đơn giá $0.3\\text{ USD/kWh}$, chi phí tiền điện hàng tháng bằng $1,320\\text{ USD/tháng}$."
+          ],
+          "brief": [
+            "Bước 3 - Chọn model máy thổi khí và tính chi phí tiền điện hàng tháng (Câu c và d): Tra bảng đặc tính máy thổi khí tại lưu lượng $Q_{\\text{air}} = 5.7\\text{ m}^3/\\text{min}$ và cột áp làm tròn $H = 3.0\\text{ m}$ ($30\\text{ kPa}$), chọn model TSR2-80 có công suất yêu cầu $P = 5.5\\text{ kW}$.",
+            "Với hiệu suất động cơ $\\eta = 90\\%$ vận hành liên tục $24\\text{ h/d}$ trong $30\\text{ d/tháng}$ ở đơn giá $0.3\\text{ USD/kWh}$, chi phí tiền điện hàng tháng bằng $1,320\\text{ USD/tháng}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Chọn máy thổi khí TSR2-80 công suất $P = 5.5\\text{ kW}$ với chi phí điện $1,320\\text{ USD/tháng}$. Máy làm việc ở cột áp $H = 3.0\\text{ m}$ với hiệu suất truyền động $\\eta = 90\\%$.",
+          "takeaway": "Chọn máy thổi khí TSR2-80 công suất $P = 5.5\\text{ kW}$ với chi phí điện $1,320\\text{ USD/tháng}$",
+          "topic": "máy thổi khí"
+        },
+        {
+          "id": "p-47659d61-4",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng hợp đáp số xác nhận thiết kế bể và máy thổi khí TSR2-80 đạt chuẩn. Toàn bộ thông số hình học và công suất khí thỏa mãn yêu cầu bài giảng.",
+          "takeaway": "Tổng hợp đáp số xác nhận thiết kế bể và máy thổi khí TSR2-80 đạt chuẩn",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-c67626f1",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích và kích thước thực tế mỗi bể ($V_{\\text{each}}$, $L$, $W$, $H_{\\text{prac}}$): $V_{\\text{each}} = 62.5\\text{ m}^3$, $L = 9.5\\text{ m}$, $W = 3.0\\text{ m}$, $H_{\\text{prac}} = 2.5\\text{ m}$ (Kiểm tra: $W/D = 1.36 \\in [1, 5]$ và $L/W = 3.16 \\in [3, 5]$ — Đạt chuẩn Slide 15 & 29)",
+          "sentences": [
+            "Thể tích và kích thước thực tế mỗi bể ($V_{\\text{each}}$, $L$, $W$, $H_{\\text{prac}}$): $V_{\\text{each}} = 62.5\\text{ m}^3$, $L = 9.5\\text{ m}$, $W = 3.0\\text{ m}$, $H_{\\text{prac}} = 2.5\\text{ m}$ (Kiểm tra: $W/D = 1.36 \\in [1, 5]$ và $L/W = 3.16 \\in [3, 5]$ — Đạt chuẩn Slide 15 & 29)"
+          ],
+          "brief": [
+            "Thể tích và kích thước thực tế mỗi bể ($V_{\\text{each}}$, $L$, $W$, $H_{\\text{prac}}$): $V_{\\text{each}} = 62.5\\text{ m}^3$, $L = 9.5\\text{ m}$, $W = 3.0\\text{ m}$, $H_{\\text{prac}} = 2.5\\text{ m}$ (Kiểm tra: $W/D = 1.36 \\in [1, 5]$ và $L/W = 3.16 \\in [3, 5]$ — Đạt chuẩn Slide 15 & 29)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Mỗi bể có thể tích $V_{\\text{each}} = 62.5\\text{ m}^3$ và kích thước thực tế $9.5\\text{ m} \\times 3.0\\text{ m} \\times 2.5\\text{ m}$.",
+          "takeaway": "Mỗi bể có thể tích $V_{\\text{each}} = 62.5\\text{ m}^3$ và kích thước thực tế $9.5\\text{ m} \\times 3.0\\text{ m} \\times 2.5\\text{ m}$",
+          "topic": "kích thước thực tế"
+        },
+        {
+          "id": "p-789c996e",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng khí nén và cột áp máy thổi khí ($Q_{\\text{air}}$, $H_{\\text{blower}}$): $5.7\\text{ m}^3/\\text{min}$ và $2.85\\text{ m}$ (Kiểm tra: $q_{\\text{air}} = 0.3\\text{ m}^3/\\text{min}\\cdot\\text{m}$ — Đạt chuẩn Slide 15 & 30)",
+          "sentences": [
+            "Lưu lượng khí nén và cột áp máy thổi khí ($Q_{\\text{air}}$, $H_{\\text{blower}}$): $5.7\\text{ m}^3/\\text{min}$ và $2.85\\text{ m}$ (Kiểm tra: $q_{\\text{air}} = 0.3\\text{ m}^3/\\text{min}\\cdot\\text{m}$ — Đạt chuẩn Slide 15 & 30)"
+          ],
+          "brief": [
+            "Lưu lượng khí nén và cột áp máy thổi khí ($Q_{\\text{air}}$, $H_{\\text{blower}}$): $5.7\\text{ m}^3/\\text{min}$ và $2.85\\text{ m}$ (Kiểm tra: $q_{\\text{air}} = 0.3\\text{ m}^3/\\text{min}\\cdot\\text{m}$ — Đạt chuẩn Slide 15 & 30)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng lưu lượng khí cấp đạt $Q_{\\text{air}} = 5.7\\text{ m}^3/\\text{min}$ tại cột áp $H_{\\text{blower}} = 2.85\\text{ m}$.",
+          "takeaway": "Tổng lưu lượng khí cấp đạt $Q_{\\text{air}} = 5.7\\text{ m}^3/\\text{min}$ tại cột áp $H_{\\text{blower}} = 2.85\\text{ m}$",
+          "topic": "lưu lượng khí cấp"
+        },
+        {
+          "id": "p-08054f99",
+          "kind": "list item",
+          "role": "result",
+          "full": "Model máy thổi khí và công suất điện ($P$): Model TSR2-80, công suất $P = 5.5\\text{ kW}$ tại $H = 3\\text{ m}$ (Kiểm tra: đạt bảng tra Catalogue Slide 26 & 30)",
+          "sentences": [
+            "Model máy thổi khí và công suất điện ($P$): Model TSR2-80, công suất $P = 5.5\\text{ kW}$ tại $H = 3\\text{ m}$ (Kiểm tra: đạt bảng tra Catalogue Slide 26 & 30)"
+          ],
+          "brief": [
+            "Model máy thổi khí và công suất điện ($P$): Model TSR2-80, công suất $P = 5.5\\text{ kW}$ tại $H = 3\\text{ m}$ (Kiểm tra: đạt bảng tra Catalogue Slide 26 & 30)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Model máy thổi khí TSR2-80 cung cấp $Q = 5.7\\text{ m}^3/\\text{min}$ với công suất $P = 5.5\\text{ kW}$.",
+          "takeaway": "Model máy thổi khí TSR2-80 cung cấp $Q = 5.7\\text{ m}^3/\\text{min}$ với công suất $P = 5.5\\text{ kW}$",
+          "topic": "máy thổi khí"
+        },
+        {
+          "id": "p-b3080c10",
+          "kind": "list item",
+          "role": "result",
+          "full": "Chi phí tiền điện hàng tháng ($\\text{Cost}_{\\text{month}}$): $1,320\\text{ USD/tháng}$ (Kiểm tra: tính ở $\\eta = 90\\%$ — Đạt chuẩn Slide 30)",
+          "sentences": [
+            "Chi phí tiền điện hàng tháng ($\\text{Cost}_{\\text{month}}$): $1,320\\text{ USD/tháng}$ (Kiểm tra: tính ở $\\eta = 90\\%$ — Đạt chuẩn Slide 30)"
+          ],
+          "brief": [
+            "Chi phí tiền điện hàng tháng ($\\text{Cost}_{\\text{month}}$): $1,320\\text{ USD/tháng}$ (Kiểm tra: tính ở $\\eta = 90\\%$ — Đạt chuẩn Slide 30)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Chi phí tiền điện vận hành máy thổi khí hàng tháng bằng $1,320\\text{ USD/tháng}$.",
+          "takeaway": "Chi phí tiền điện vận hành máy thổi khí hàng tháng bằng $1,320\\text{ USD/tháng}$",
+          "topic": "Chi phí tiền điện"
+        },
+        {
+          "id": "p-83bc80e2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 1 (Page 2)",
+          "sentences": [
+            "Figure 1 (Page 2)"
+          ],
+          "brief": [
+            "Figure 1 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $1$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $1$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-bc294c03",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 2 (Page 3)",
+          "sentences": [
+            "Figure 2 (Page 3)"
+          ],
+          "brief": [
+            "Figure 2 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $2$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $2$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-ad026bc7",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 3 (Page 3)",
+          "sentences": [
+            "Figure 3 (Page 3)"
+          ],
+          "brief": [
+            "Figure 3 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $3$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $3$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-7952bbcc",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 4 (Page 3)",
+          "sentences": [
+            "Figure 4 (Page 3)"
+          ],
+          "brief": [
+            "Figure 4 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $4$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $4$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-3ddce6aa",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 5 (Page 3)",
+          "sentences": [
+            "Figure 5 (Page 3)"
+          ],
+          "brief": [
+            "Figure 5 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $5$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $5$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-1216493d",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 6 (Page 3)",
+          "sentences": [
+            "Figure 6 (Page 3)"
+          ],
+          "brief": [
+            "Figure 6 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $6$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $6$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-7efff3c3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 7 (Page 4)",
+          "sentences": [
+            "Figure 7 (Page 4)"
+          ],
+          "brief": [
+            "Figure 7 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $7$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $7$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-4f8b09ff",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 8 (Page 4)",
+          "sentences": [
+            "Figure 8 (Page 4)"
+          ],
+          "brief": [
+            "Figure 8 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $8$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $8$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-de91b6e8",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 9 (Page 4)",
+          "sentences": [
+            "Figure 9 (Page 4)"
+          ],
+          "brief": [
+            "Figure 9 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $9$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $9$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-7815c41c",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 10 (Page 4)",
+          "sentences": [
+            "Figure 10 (Page 4)"
+          ],
+          "brief": [
+            "Figure 10 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $10$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $10$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-b85ecbd4",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 11 (Page 5)",
+          "sentences": [
+            "Figure 11 (Page 5)"
+          ],
+          "brief": [
+            "Figure 11 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $11$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $11$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-1cbc9fa6",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 12 (Page 5)",
+          "sentences": [
+            "Figure 12 (Page 5)"
+          ],
+          "brief": [
+            "Figure 12 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $12$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $12$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-9e5f2cea",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 13 (Page 6)",
+          "sentences": [
+            "Figure 13 (Page 6)"
+          ],
+          "brief": [
+            "Figure 13 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $13$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $13$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-35daa220",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 14 (Page 6)",
+          "sentences": [
+            "Figure 14 (Page 6)"
+          ],
+          "brief": [
+            "Figure 14 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $14$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $14$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-9e2eecf2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 15 (Page 6)",
+          "sentences": [
+            "Figure 15 (Page 6)"
+          ],
+          "brief": [
+            "Figure 15 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $15$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $15$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-da63c895",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 16 (Page 7)",
+          "sentences": [
+            "Figure 16 (Page 7)"
+          ],
+          "brief": [
+            "Figure 16 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $16$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $16$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-874a0a43",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 17 (Page 7)",
+          "sentences": [
+            "Figure 17 (Page 7)"
+          ],
+          "brief": [
+            "Figure 17 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $17$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $17$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-76c8d190",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 18 (Page 8)",
+          "sentences": [
+            "Figure 18 (Page 8)"
+          ],
+          "brief": [
+            "Figure 18 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $18$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $18$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-1e5f966d",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 19 (Page 9)",
+          "sentences": [
+            "Figure 19 (Page 9)"
+          ],
+          "brief": [
+            "Figure 19 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $19$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $19$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-2ae7c037",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 20 (Page 9)",
+          "sentences": [
+            "Figure 20 (Page 9)"
+          ],
+          "brief": [
+            "Figure 20 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $20$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $20$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-1f0c83bf",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 21 (Page 9)",
+          "sentences": [
+            "Figure 21 (Page 9)"
+          ],
+          "brief": [
+            "Figure 21 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $21$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $21$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-043393b3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 22 (Page 9)",
+          "sentences": [
+            "Figure 22 (Page 9)"
+          ],
+          "brief": [
+            "Figure 22 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $22$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $22$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-f42c951e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 23 (Page 10)",
+          "sentences": [
+            "Figure 23 (Page 10)"
+          ],
+          "brief": [
+            "Figure 23 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $23$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $23$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-fcc0d9f6",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 24 (Page 10)",
+          "sentences": [
+            "Figure 24 (Page 10)"
+          ],
+          "brief": [
+            "Figure 24 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $24$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $24$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-24bab1b4",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 25 (Page 10)",
+          "sentences": [
+            "Figure 25 (Page 10)"
+          ],
+          "brief": [
+            "Figure 25 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $25$ trích xuất từ slide bài giảng phần bể lắng cát.",
+          "takeaway": "Hình minh họa số $25$ trích xuất từ slide bài giảng phần bể lắng cát",
+          "topic": "Hình minh họa"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,1084 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-8-c-ng-tr-nh-x-l-sinh-h-c-k-kh-630334b3",
+  "lang": "vi",
+  "title": "Chương 8 - Công trình Xử lý Sinh học Kỵ khí (Chapter 8 - Biological Anaerobic Unit)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch08_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:44:14Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-07T23:41:52",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-tổng-quan-và-cơ-chế-của-bể-phản-ứng-kỵ-khí-khuấy-trộn-hoàn-toàn-completely-mixed-anaerobic-reactor",
+      "num": "1",
+      "title": "Tổng quan và Cơ chế của Bể Phản ứng Kỵ khí Khuấy trộn Hoàn toàn (Completely-Mixed Anaerobic Reactor)",
+      "depth": 1,
+      "takeaway": "Bể kỵ khí khuấy trộn hoàn toàn tách thời gian lưu bùn khỏi lưu nước",
+      "topic": "Bể kỵ khí",
+      "units": [
+        {
+          "id": "p-f833a2a3",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Chương 8 trình bày nguyên lý, thông số động học và quy trình thiết kế hai công trình xử lý sinh học kỵ khí điển hình là bể phản ứng kỵ khí khuấy trộn hoàn toàn (Completely-mixed anaerobic reactor) và bể phản ứng kỵ khí dòng chảy ngược qua tầng bùn (Upflow anaerobic sludge blanket hay UASB) [Page 1]. Trong hệ thống kỵ khí khuấy trộn hoàn toàn, sinh khối kỵ khí phát triển ở trạng thái lơ lửng (suspended growth anaerobic biomass) và được giữ đồng nhất nhờ thiết bị khuấy cơ học hoặc tuần hoàn khí sinh học [Page 2]. Hệ thống bố trí một buồng tách khí (degas chamber) ở giữa bể phản ứng và bể lắng thứ cấp (clarifier) để giải phóng các bọt khí metan và cacbon dioxit bám vào bông bùn trước khi lắng [Page 2]. Bể lắng thứ cấp thu hồi bùn kỵ khí lắng ở đáy và tuần hoàn dòng bùn này (recycle anaerobic sludge) quay lại bể phản ứng nhằm duy trì thời gian lưu bùn (SRT) cao hơn nhiều so với thời gian lưu nước (HRT) [Page 2].",
+          "sentences": [
+            "Chương 8 trình bày nguyên lý, thông số động học và quy trình thiết kế hai công trình xử lý sinh học kỵ khí điển hình là bể phản ứng kỵ khí khuấy trộn hoàn toàn (Completely-mixed anaerobic reactor) và bể phản ứng kỵ khí dòng chảy ngược qua tầng bùn (Upflow anaerobic sludge blanket hay UASB) [Page 1].",
+            "Trong hệ thống kỵ khí khuấy trộn hoàn toàn, sinh khối kỵ khí phát triển ở trạng thái lơ lửng (suspended growth anaerobic biomass) và được giữ đồng nhất nhờ thiết bị khuấy cơ học hoặc tuần hoàn khí sinh học [Page 2].",
+            "Hệ thống bố trí một buồng tách khí (degas chamber) ở giữa bể phản ứng và bể lắng thứ cấp (clarifier) để giải phóng các bọt khí metan và cacbon dioxit bám vào bông bùn trước khi lắng [Page 2].",
+            "Bể lắng thứ cấp thu hồi bùn kỵ khí lắng ở đáy và tuần hoàn dòng bùn này (recycle anaerobic sludge) quay lại bể phản ứng nhằm duy trì thời gian lưu bùn (SRT) cao hơn nhiều so với thời gian lưu nước (HRT) [Page 2]."
+          ],
+          "brief": [
+            "Hệ thống bố trí một buồng tách khí (degas chamber) ở giữa bể phản ứng và bể lắng thứ cấp (clarifier) để giải phóng các bọt khí metan và cacbon dioxit bám vào bông bùn trước khi lắng [Page 2].",
+            "Bể lắng thứ cấp thu hồi bùn kỵ khí lắng ở đáy và tuần hoàn dòng bùn này (recycle anaerobic sludge) quay lại bể phản ứng nhằm duy trì thời gian lưu bùn (SRT) cao hơn nhiều so với thời gian lưu nước (HRT) [Page 2]."
+          ],
+          "evidence": [
+            2,
+            3
+          ],
+          "key": "Buồng tách khí và bể lắng thứ cấp tuần hoàn bùn kỵ khí về bể. Quá trình giải phóng bọt khí metan giúp bông bùn lắng tốt và giữ thời gian lưu bùn cao.",
+          "takeaway": "Buồng tách khí và bể lắng thứ cấp tuần hoàn bùn kỵ khí về bể",
+          "topic": "tuần hoàn bùn"
+        },
+        {
+          "id": "p-7bceeac1",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Các thông số vận hành tiêu chuẩn trên Slide 3 quy định vùng làm việc ổn định cho hệ thống bùn kỵ khí khuấy trộn hoàn toàn có tuần hoàn bùn [Page 2]. Nồng độ chất rắn lơ lửng bay hơi trong hỗn hợp bùn (MLVSS concentration) tại bể phản ứng nằm trong khoảng từ $4000\\text{ g/m}^3$ đến $8000\\text{ g/m}^3$ [Page 2]. Tải trọng hữu cơ thể tích theo nhu cầu oxy hóa học (COD loading rate) được thiết kế trong dải từ $2\\text{ kg COD/m}^3\\cdot\\text{d}$ đến $5\\text{ kg COD/m}^3\\cdot\\text{d}$ [Page 2]. Thời gian lưu bùn hay tuổi bùn thiết kế (SRT) được duy trì trong khoảng từ $15\\text{ d}$ đến $30\\text{ d}$ để bù đắp tốc độ sinh trưởng chậm của nhóm vi khuẩn sinh metan (methanogens) và ngăn ngừa hiện tượng rửa trôi sinh khối [Page 2].",
+          "sentences": [
+            "Các thông số vận hành tiêu chuẩn trên Slide 3 quy định vùng làm việc ổn định cho hệ thống bùn kỵ khí khuấy trộn hoàn toàn có tuần hoàn bùn [Page 2].",
+            "Nồng độ chất rắn lơ lửng bay hơi trong hỗn hợp bùn (MLVSS concentration) tại bể phản ứng nằm trong khoảng từ $4000\\text{ g/m}^3$ đến $8000\\text{ g/m}^3$ [Page 2].",
+            "Tải trọng hữu cơ thể tích theo nhu cầu oxy hóa học (COD loading rate) được thiết kế trong dải từ $2\\text{ kg COD/m}^3\\cdot\\text{d}$ đến $5\\text{ kg COD/m}^3\\cdot\\text{d}$ [Page 2].",
+            "Thời gian lưu bùn hay tuổi bùn thiết kế (SRT) được duy trì trong khoảng từ $15\\text{ d}$ đến $30\\text{ d}$ để bù đắp tốc độ sinh trưởng chậm của nhóm vi khuẩn sinh metan (methanogens) và ngăn ngừa hiện tượng rửa trôi sinh khối [Page 2]."
+          ],
+          "brief": [
+            "Nồng độ chất rắn lơ lửng bay hơi trong hỗn hợp bùn (MLVSS concentration) tại bể phản ứng nằm trong khoảng từ $4000\\text{ g/m}^3$ đến $8000\\text{ g/m}^3$ [Page 2].",
+            "Thời gian lưu bùn hay tuổi bùn thiết kế (SRT) được duy trì trong khoảng từ $15\\text{ d}$ đến $30\\text{ d}$ để bù đắp tốc độ sinh trưởng chậm của nhóm vi khuẩn sinh metan (methanogens) và ngăn ngừa hiện tượng rửa trôi sinh khối [Page 2]."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Hệ thống duy trì MLVSS từ $4000\\text{ g/m}^3$ đến $8000\\text{ g/m}^3$ và SRT từ $15\\text{ d}$ đến $30\\text{ d}$. Tải trọng hữu cơ từ $2\\text{ kg COD/m}^3\\cdot\\text{d}$ đến $5\\text{ kg COD/m}^3\\cdot\\text{d}$ giúp ngăn rửa trôi vi khuẩn sinh metan.",
+          "takeaway": "Hệ thống duy trì MLVSS từ $4000\\text{ g/m}^3$ đến $8000\\text{ g/m}^3$ và SRT từ $15\\text{ d}$ đến $30\\text{ d}$",
+          "topic": "duy trì MLVSS"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-động-học-quá-trình-kỵ-khí-và-quy-trình-thiết-kế-7-bước-anaerobic-kinetics-and-design-procedure",
+      "num": "2",
+      "title": "Động học Quá trình Kỵ khí và Quy trình Thiết kế 7 Bước (Anaerobic Kinetics and Design Procedure)",
+      "depth": 1,
+      "takeaway": "Động học Monod và bảy bước thiết kế xác định thể tích cùng sản lượng khí",
+      "topic": "Động học Monod",
+      "units": [
+        {
+          "id": "p-2f2857bc",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Bảng thông số động học trên Slide 5 cung cấp đầy đủ các hệ số sinh trưởng, phân hủy nội bào và sản lượng khí metan cho quá trình xử lý kỵ khí [Page 3]. Hệ số sản lượng tổng hợp tế bào ($Y_H$) của giai đoạn lên men axit (fermentation) dao động từ $0.06\\text{ g VSS/g COD}$ đến $0.12\\text{ g VSS/g COD}$ với giá trị điển hình là $0.10\\text{ g VSS/g COD}$, trong khi giai đoạn sinh metan (methanogenesis) có dải từ $0.02\\text{ g VSS/g COD}$ đến $0.06\\text{ g VSS/g COD}$ với giá trị điển hình là $0.04\\text{ g VSS/g COD}$ [Page 3]. Khi tính toán gộp toàn bộ quá trình kỵ khí (overall combined), hệ số sản lượng tổng hợp kết hợp có dải từ $0.05\\text{ g VSS/g COD}$ đến $0.10\\text{ g VSS/g COD}$ và lấy giá trị điển hình là $Y = 0.08\\text{ g VSS/g COD}$ [Page 3]. Hệ số phân hủy nội bào ($b_H$) có giá trị điển hình là $0.04\\text{ g/g}\\cdot\\text{d}$ (dải từ $0.02$ đến $0.06\\text{ g/g}\\cdot\\text{d}$) cho giai đoạn lên men, $0.02\\text{ g/g}\\cdot\\text{d}$ (dải từ $0.01$ đến $0.04\\text{ g/g}\\cdot\\text{d}$) cho giai đoạn sinh metan, và lấy giá trị kết hợp điển hình là $b = 0.03\\text{ g/g}\\cdot\\text{d}$ (dải từ $0.02$ đến $0.04\\text{ g/g}\\cdot\\text{d}$) [Page 3].",
+          "sentences": [
+            "Bảng thông số động học trên Slide 5 cung cấp đầy đủ các hệ số sinh trưởng, phân hủy nội bào và sản lượng khí metan cho quá trình xử lý kỵ khí [Page 3].",
+            "Hệ số sản lượng tổng hợp tế bào ($Y_H$) của giai đoạn lên men axit (fermentation) dao động từ $0.06\\text{ g VSS/g COD}$ đến $0.12\\text{ g VSS/g COD}$ với giá trị điển hình là $0.10\\text{ g VSS/g COD}$, trong khi giai đoạn sinh metan (methanogenesis) có dải từ $0.02\\text{ g VSS/g COD}$ đến $0.06\\text{ g VSS/g COD}$ với giá trị điển hình là $0.04\\text{ g VSS/g COD}$ [Page 3].",
+            "Khi tính toán gộp toàn bộ quá trình kỵ khí (overall combined), hệ số sản lượng tổng hợp kết hợp có dải từ $0.05\\text{ g VSS/g COD}$ đến $0.10\\text{ g VSS/g COD}$ và lấy giá trị điển hình là $Y = 0.08\\text{ g VSS/g COD}$ [Page 3].",
+            "Hệ số phân hủy nội bào ($b_H$) có giá trị điển hình là $0.04\\text{ g/g}\\cdot\\text{d}$ (dải từ $0.02$ đến $0.06\\text{ g/g}\\cdot\\text{d}$) cho giai đoạn lên men, $0.02\\text{ g/g}\\cdot\\text{d}$ (dải từ $0.01$ đến $0.04\\text{ g/g}\\cdot\\text{d}$) cho giai đoạn sinh metan, và lấy giá trị kết hợp điển hình là $b = 0.03\\text{ g/g}\\cdot\\text{d}$ (dải từ $0.02$ đến $0.04\\text{ g/g}\\cdot\\text{d}$) [Page 3]."
+          ],
+          "brief": [
+            "Khi tính toán gộp toàn bộ quá trình kỵ khí (overall combined), hệ số sản lượng tổng hợp kết hợp có dải từ $0.05\\text{ g VSS/g COD}$ đến $0.10\\text{ g VSS/g COD}$ và lấy giá trị điển hình là $Y = 0.08\\text{ g VSS/g COD}$ [Page 3].",
+            "Hệ số phân hủy nội bào ($b_H$) có giá trị điển hình là $0.04\\text{ g/g}\\cdot\\text{d}$ (dải từ $0.02$ đến $0.06\\text{ g/g}\\cdot\\text{d}$) cho giai đoạn lên men, $0.02\\text{ g/g}\\cdot\\text{d}$ (dải từ $0.01$ đến $0.04\\text{ g/g}\\cdot\\text{d}$) cho giai đoạn sinh metan, và lấy giá trị kết hợp điển hình là $b = 0.03\\text{ g/g}\\cdot\\text{d}$ (dải từ $0.02$ đến $0.04\\text{ g/g}\\cdot\\text{d}$) [Page 3]."
+          ],
+          "evidence": [
+            2,
+            3
+          ],
+          "key": "Hệ số động học kết hợp điển hình đạt $Y = 0.08\\text{ g VSS/g COD}$ và $b = 0.03\\text{ g/g}\\cdot\\text{d}$. Các giá trị này tổng hợp cả hai giai đoạn lên men axit và sinh metan trong bể kỵ khí.",
+          "takeaway": "Hệ số động học kết hợp điển hình đạt $Y = 0.08\\text{ g VSS/g COD}$ và $b = 0.03\\text{ g/g}\\cdot\\text{d}$",
+          "topic": "Hệ số động"
+        },
+        {
+          "id": "p-3525b646",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Tốc độ sinh trưởng riêng cực đại ($\\mu_m$) phụ thuộc chặt chẽ vào nhiệt độ vận hành của bể phản ứng kỵ khí [Page 3]. Ở nhiệt độ $35^\\circ\\text{C}$, hệ số $\\mu_m$ dao động từ $0.30\\text{ g/g}\\cdot\\text{d}$ đến $0.38\\text{ g/g}\\cdot\\text{d}$ với giá trị điển hình là $0.35\\text{ g/g}\\cdot\\text{d}$, còn ở $30^\\circ\\text{C}$ thì $\\mu_m$ nằm trong khoảng từ $0.22\\text{ g/g}\\cdot\\text{d}$ đến $0.28\\text{ g/g}\\cdot\\text{d}$ với giá trị điển hình là $0.25\\text{ g/g}\\cdot\\text{d}$ [Page 3]. Tại nhiệt độ $25^\\circ\\text{C}$, hệ số $\\mu_m$ dao động từ $0.18\\text{ g/g}\\cdot\\text{d}$ đến $0.24\\text{ g/g}\\cdot\\text{d}$ với giá trị điển hình là $0.20\\text{ g/g}\\cdot\\text{d}$, và hằng số bán bão hòa ($K_s$) có dải từ $60\\text{ mg COD/L}$ đến $500\\text{ mg COD/L}$ với giá trị điển hình là $120\\text{ mg COD/L}$ ($120\\text{ g/m}^3$) [Page 3]. Về sản lượng khí sinh học ở điều kiện tiêu chuẩn ($0^\\circ\\text{C}$ và $1\\text{ atm}$), lượng khí $\\text{CH}_4$ sinh ra đạt $0.35\\text{ m}^3/\\text{kg COD}_r$, tỷ lệ thể tích khí metan trong tổng khí sinh học chiếm từ $60\\%$ đến $70\\%$ với giá trị điển hình là $65\\%$, và nhiệt trị của khí metan ở điều kiện tiêu chuẩn đạt $38,846\\text{ kJ/m}^3$ [Page 3].",
+          "sentences": [
+            "Tốc độ sinh trưởng riêng cực đại ($\\mu_m$) phụ thuộc chặt chẽ vào nhiệt độ vận hành của bể phản ứng kỵ khí [Page 3]. Ở nhiệt độ $35^\\circ\\text{C}$, hệ số $\\mu_m$ dao động từ $0.30\\text{ g/g}\\cdot\\text{d}$ đến $0.38\\text{ g/g}\\cdot\\text{d}$ với giá trị điển hình là $0.35\\text{ g/g}\\cdot\\text{d}$, còn ở $30^\\circ\\text{C}$ thì $\\mu_m$ nằm trong khoảng từ $0.22\\text{ g/g}\\cdot\\text{d}$ đến $0.28\\text{ g/g}\\cdot\\text{d}$ với giá trị điển hình là $0.25\\text{ g/g}\\cdot\\text{d}$ [Page 3].",
+            "Tại nhiệt độ $25^\\circ\\text{C}$, hệ số $\\mu_m$ dao động từ $0.18\\text{ g/g}\\cdot\\text{d}$ đến $0.24\\text{ g/g}\\cdot\\text{d}$ với giá trị điển hình là $0.20\\text{ g/g}\\cdot\\text{d}$, và hằng số bán bão hòa ($K_s$) có dải từ $60\\text{ mg COD/L}$ đến $500\\text{ mg COD/L}$ với giá trị điển hình là $120\\text{ mg COD/L}$ ($120\\text{ g/m}^3$) [Page 3].",
+            "Về sản lượng khí sinh học ở điều kiện tiêu chuẩn ($0^\\circ\\text{C}$ và $1\\text{ atm}$), lượng khí $\\text{CH}_4$ sinh ra đạt $0.35\\text{ m}^3/\\text{kg COD}_r$, tỷ lệ thể tích khí metan trong tổng khí sinh học chiếm từ $60\\%$ đến $70\\%$ với giá trị điển hình là $65\\%$, và nhiệt trị của khí metan ở điều kiện tiêu chuẩn đạt $38,846\\text{ kJ/m}^3$ [Page 3]."
+          ],
+          "brief": [
+            "Tại nhiệt độ $25^\\circ\\text{C}$, hệ số $\\mu_m$ dao động từ $0.18\\text{ g/g}\\cdot\\text{d}$ đến $0.24\\text{ g/g}\\cdot\\text{d}$ với giá trị điển hình là $0.20\\text{ g/g}\\cdot\\text{d}$, và hằng số bán bão hòa ($K_s$) có dải từ $60\\text{ mg COD/L}$ đến $500\\text{ mg COD/L}$ với giá trị điển hình là $120\\text{ mg COD/L}$ ($120\\text{ g/m}^3$) [Page 3].",
+            "Về sản lượng khí sinh học ở điều kiện tiêu chuẩn ($0^\\circ\\text{C}$ và $1\\text{ atm}$), lượng khí $\\text{CH}_4$ sinh ra đạt $0.35\\text{ m}^3/\\text{kg COD}_r$, tỷ lệ thể tích khí metan trong tổng khí sinh học chiếm từ $60\\%$ đến $70\\%$ với giá trị điển hình là $65\\%$, và nhiệt trị của khí metan ở điều kiện tiêu chuẩn đạt $38,846\\text{ kJ/m}^3$ [Page 3]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Ở $25^\\circ\\text{C}$, tốc độ $\\mu_m = 0.20\\text{ g/g}\\cdot\\text{d}$, $K_s = 120\\text{ mg COD/L}$ và metan đạt $0.35\\text{ m}^3/\\text{kg COD}_r$. Tỷ lệ khí metan trong tổng khí sinh học chiếm điển hình $65\\%$ với nhiệt trị $38,846\\text{ kJ/m}^3$.",
+          "takeaway": "Ở $25^\\circ\\text{C}$, tốc độ $\\mu_m = 0.20\\text{ g/g}\\cdot\\text{d}$, $K_s = 120\\text{ mg COD/L}$ và metan đạt $0.35\\text{ m}^3/\\text{kg COD}_r$",
+          "topic": "tốc độ"
+        },
+        {
+          "id": "p-20f2e047",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Quy trình thiết kế bể phản ứng kỵ khí khuấy trộn hoàn toàn trên Slide 6 bao gồm bảy bước tính toán tuần tự [Page 3]. Bước 1 lựa chọn thời gian lưu bùn ($\\text{SRT} = \\text{FS} \\times \\text{SRT}_{\\min}$) từ phương trình động học Monod $\\frac{1}{\\text{SRT}_{\\min}} = \\frac{\\mu_m S}{K_s + S} - b$ để đạt nồng độ cơ chất đầu ra $S$ và hiệu suất khử COD yêu cầu [Page 3]. Bước 2 xác định lượng sinh khối tạo thành mỗi ngày $P_{X,\\text{VSS}} = \\frac{Q Y (S_0 - S)(1 + f_d b \\cdot \\text{SRT})}{1 + b \\cdot \\text{SRT}} + Q \\cdot \\text{nbVSS}$ và tổng khối lượng bùn lưu giữ trong hệ thống $M_{\\text{VSS}} = P_{X,\\text{VSS}} \\times \\text{SRT}$ [Page 3]. Bước 3 chọn nồng độ MLVSS thiết kế trong bể để tính thể tích bể phản ứng $V = \\frac{M_{\\text{VSS}}}{\\text{MLVSS}}$ và thời gian lưu nước $\\text{HRT} = \\frac{V}{Q}$ [Page 3]. Bước 4 đến Bước 7 lần lượt xác định lưu lượng khí metan và tổng khí sinh học từ cân bằng COD, tính lượng bùn dư xả bỏ cùng nhu cầu bổ sung dinh dưỡng N và P, kiểm tra tải trọng hữu cơ thể tích $\\text{OLR} = \\frac{Q \\cdot \\text{COD}_0}{V}$ và tính lượng độ kiềm $\\text{CaCO}_3$ cần bổ sung để giữ $\\text{pH} \\approx 7.0$ [Page 3].",
+          "sentences": [
+            "Quy trình thiết kế bể phản ứng kỵ khí khuấy trộn hoàn toàn trên Slide 6 bao gồm bảy bước tính toán tuần tự [Page 3].",
+            "Bước 1 lựa chọn thời gian lưu bùn ($\\text{SRT} = \\text{FS} \\times \\text{SRT}_{\\min}$) từ phương trình động học Monod $\\frac{1}{\\text{SRT}_{\\min}} = \\frac{\\mu_m S}{K_s + S} - b$ để đạt nồng độ cơ chất đầu ra $S$ và hiệu suất khử COD yêu cầu [Page 3].",
+            "Bước 2 xác định lượng sinh khối tạo thành mỗi ngày $P_{X,\\text{VSS}} = \\frac{Q Y (S_0 - S)(1 + f_d b \\cdot \\text{SRT})}{1 + b \\cdot \\text{SRT}} + Q \\cdot \\text{nbVSS}$ và tổng khối lượng bùn lưu giữ trong hệ thống $M_{\\text{VSS}} = P_{X,\\text{VSS}} \\times \\text{SRT}$ [Page 3].",
+            "Bước 3 chọn nồng độ MLVSS thiết kế trong bể để tính thể tích bể phản ứng $V = \\frac{M_{\\text{VSS}}}{\\text{MLVSS}}$ và thời gian lưu nước $\\text{HRT} = \\frac{V}{Q}$ [Page 3].",
+            "Bước 4 đến Bước 7 lần lượt xác định lưu lượng khí metan và tổng khí sinh học từ cân bằng COD, tính lượng bùn dư xả bỏ cùng nhu cầu bổ sung dinh dưỡng N và P, kiểm tra tải trọng hữu cơ thể tích $\\text{OLR} = \\frac{Q \\cdot \\text{COD}_0}{V}$ và tính lượng độ kiềm $\\text{CaCO}_3$ cần bổ sung để giữ $\\text{pH} \\approx 7.0$ [Page 3]."
+          ],
+          "brief": [
+            "Bước 1 lựa chọn thời gian lưu bùn ($\\text{SRT} = \\text{FS} \\times \\text{SRT}_{\\min}$) từ phương trình động học Monod $\\frac{1}{\\text{SRT}_{\\min}} = \\frac{\\mu_m S}{K_s + S} - b$ để đạt nồng độ cơ chất đầu ra $S$ và hiệu suất khử COD yêu cầu [Page 3].",
+            "Bước 4 đến Bước 7 lần lượt xác định lưu lượng khí metan và tổng khí sinh học từ cân bằng COD, tính lượng bùn dư xả bỏ cùng nhu cầu bổ sung dinh dưỡng N và P, kiểm tra tải trọng hữu cơ thể tích $\\text{OLR} = \\frac{Q \\cdot \\text{COD}_0}{V}$ và tính lượng độ kiềm $\\text{CaCO}_3$ cần bổ sung để giữ $\\text{pH} \\approx 7.0$ [Page 3]."
+          ],
+          "evidence": [
+            1,
+            4
+          ],
+          "key": "Quy trình thiết kế bảy bước tính từ tuổi bùn đến thể tích và độ kiềm. Cân bằng COD và sinh khối xác định chính xác lưu lượng khí metan, lượng bùn xả và nhu cầu dinh dưỡng.",
+          "takeaway": "Quy trình thiết kế bảy bước tính từ tuổi bùn đến thể tích và độ kiềm",
+          "topic": "Quy trình thiết"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-lời-giải-chi-tiết-bài-tập-1-ch08_ex01---thiết-kế-bể-phản-ứng-kỵ-khí-khuấy-trộn-hoàn-toàn",
+      "num": "3",
+      "title": "Lời giải Chi tiết Bài tập 1 (ch08_ex01) - Thiết kế Bể Phản ứng Kỵ khí Khuấy trộn Hoàn toàn",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch08_ex01-slide-7-trang-4-thiết-kế-bể-phản-ứng-kỵ-khí-khuấy-trộn-hoàn-toàn",
+      "num": "",
+      "title": "Bài tập ch08_ex01 (Slide 7, Trang 4): Thiết kế Bể Phản ứng Kỵ khí Khuấy trộn Hoàn toàn",
+      "depth": 2,
+      "takeaway": "Bài tập thiết kế bể kỵ khí đạt thể tích $V = 907.2\\text{ m}^3$ và tuổi bùn $\\theta_c = 22.3\\text{ d}$",
+      "topic": "thiết kế bể",
+      "units": [
+        {
+          "id": "p-74b3e606",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 5–7): Thiết kế hệ thống bể phản ứng kỵ khí khuấy trộn hoàn toàn có tuần hoàn bùn để xử lý lưu lượng nước thải $Q = 500\\text{ m}^3/\\text{d}$ ở nhiệt độ vận hành $T = 25^\\circ\\text{C}$ với tổng nồng độ $\\text{COD} = 6000\\text{ g/m}^3$, phần hòa tan $\\text{sCOD} = 4000\\text{ g/m}^3$ và yêu cầu hiệu suất khử đạt $E = 90\\%$ [Page 4].",
+          "sentences": [
+            "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 5–7): Thiết kế hệ thống bể phản ứng kỵ khí khuấy trộn hoàn toàn có tuần hoàn bùn để xử lý lưu lượng nước thải $Q = 500\\text{ m}^3/\\text{d}$ ở nhiệt độ vận hành $T = 25^\\circ\\text{C}$ với tổng nồng độ $\\text{COD} = 6000\\text{ g/m}^3$, phần hòa tan $\\text{sCOD} = 4000\\text{ g/m}^3$ và yêu cầu hiệu suất khử đạt $E = 90\\%$ [Page 4]."
+          ],
+          "brief": [
+            "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 5–7): Thiết kế hệ thống bể phản ứng kỵ khí khuấy trộn hoàn toàn có tuần hoàn bùn để xử lý lưu lượng nước thải $Q = 500\\text{ m}^3/\\text{d}$ ở nhiệt độ vận hành $T = 25^\\circ\\text{C}$ với tổng nồng độ $\\text{COD} = 6000\\text{ g/m}^3$, phần hòa tan $\\text{sCOD} = 4000\\text{ g/m}^3$ và yêu cầu hiệu suất khử đạt $E = 90\\%$ [Page 4]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài thiết kế bể kỵ khí cho $Q = 500\\text{ m}^3/\\text{d}$, $\\text{COD} = 6000\\text{ g/m}^3$ ở $T = 25^\\circ\\text{C}$ đạt $E = 90\\%$.",
+          "takeaway": "Đề bài thiết kế bể kỵ khí cho $Q = 500\\text{ m}^3/\\text{d}$, $\\text{COD} = 6000\\text{ g/m}^3$ ở $T = 25^\\circ\\text{C}$ đạt $E = 90\\%$",
+          "topic": "thiết kế bể"
+        },
+        {
+          "id": "p-6b29706f",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Phân tách thành phần $\\text{COD}$ và $\\text{VSS}$ đầu vào: Nồng độ $\\text{pCOD}$ dạng hạt đạt $2000\\text{ g/m}^3$, nồng độ cặn $\\text{VSS}_0$ bằng $1111.1\\text{ g/m}^3$ và phần cặn trơ $\\text{nbVSS}$ bằng $222.2\\text{ g/m}^3$. Tổng cơ chất dễ phân hủy $S_0$ đạt $5600\\text{ g/m}^3$, cơ chất đầu ra $S$ còn $560\\text{ g/m}^3$ và độ giảm $\\Delta S$ đạt $5040\\text{ g/m}^3$ [Page 4].",
+          "sentences": [
+            "Bước 1 - Phân tách thành phần $\\text{COD}$ và $\\text{VSS}$ đầu vào: Nồng độ $\\text{pCOD}$ dạng hạt đạt $2000\\text{ g/m}^3$, nồng độ cặn $\\text{VSS}_0$ bằng $1111.1\\text{ g/m}^3$ và phần cặn trơ $\\text{nbVSS}$ bằng $222.2\\text{ g/m}^3$.",
+            "Tổng cơ chất dễ phân hủy $S_0$ đạt $5600\\text{ g/m}^3$, cơ chất đầu ra $S$ còn $560\\text{ g/m}^3$ và độ giảm $\\Delta S$ đạt $5040\\text{ g/m}^3$ [Page 4]."
+          ],
+          "brief": [
+            "Bước 1 - Phân tách thành phần $\\text{COD}$ và $\\text{VSS}$ đầu vào: Nồng độ $\\text{pCOD}$ dạng hạt đạt $2000\\text{ g/m}^3$, nồng độ cặn $\\text{VSS}_0$ bằng $1111.1\\text{ g/m}^3$ và phần cặn trơ $\\text{nbVSS}$ bằng $222.2\\text{ g/m}^3$.",
+            "Tổng cơ chất dễ phân hủy $S_0$ đạt $5600\\text{ g/m}^3$, cơ chất đầu ra $S$ còn $560\\text{ g/m}^3$ và độ giảm $\\Delta S$ đạt $5040\\text{ g/m}^3$ [Page 4]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Cơ chất dễ phân hủy đầu vào đạt $S_0 = 5600\\text{ g/m}^3$ và đầu ra còn $S = 560\\text{ g/m}^3$. Nồng độ cặn đầu vào $\\text{VSS}_0 = 1111.1\\text{ g/m}^3$ chứa phần cặn trơ $\\text{nbVSS} = 222.2\\text{ g/m}^3$ và độ giảm $\\Delta S = 5040\\text{ g/m}^3$.",
+          "takeaway": "Cơ chất dễ phân hủy đầu vào đạt $S_0 = 5600\\text{ g/m}^3$ và đầu ra còn $S = 560\\text{ g/m}^3$",
+          "topic": "Cơ chất dễ"
+        },
+        {
+          "id": "p-b3a98c99",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Xác định tuổi bùn cực tiểu và tuổi bùn thiết kế $\\theta_c$: Theo phương trình động học Monod trên Slide 5 ở $25^\\circ\\text{C}$, tuổi bùn cực tiểu $\\theta_{c,\\min}$ bằng $7.42\\text{ d}$. Nhân với hệ số an toàn $\\text{FS} = 3.0$, tuổi bùn thiết kế $\\theta_c$ đạt $22.3\\text{ d}$ [Page 3].",
+          "sentences": [
+            "Bước 2 - Xác định tuổi bùn cực tiểu và tuổi bùn thiết kế $\\theta_c$: Theo phương trình động học Monod trên Slide 5 ở $25^\\circ\\text{C}$, tuổi bùn cực tiểu $\\theta_{c,\\min}$ bằng $7.42\\text{ d}$.",
+            "Nhân với hệ số an toàn $\\text{FS} = 3.0$, tuổi bùn thiết kế $\\theta_c$ đạt $22.3\\text{ d}$ [Page 3]."
+          ],
+          "brief": [
+            "Bước 2 - Xác định tuổi bùn cực tiểu và tuổi bùn thiết kế $\\theta_c$: Theo phương trình động học Monod trên Slide 5 ở $25^\\circ\\text{C}$, tuổi bùn cực tiểu $\\theta_{c,\\min}$ bằng $7.42\\text{ d}$.",
+            "Nhân với hệ số an toàn $\\text{FS} = 3.0$, tuổi bùn thiết kế $\\theta_c$ đạt $22.3\\text{ d}$ [Page 3]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tuổi bùn cực tiểu bằng $\\theta_{c,\\min} = 7.42\\text{ d}$ và tuổi bùn thiết kế đạt $\\theta_c = 22.3\\text{ d}$. Nhân tuổi bùn cực tiểu ở $25^\\circ\\text{C}$ với hệ số an toàn $\\text{FS} = 3.0$ giúp hệ thống vận hành ổn định.",
+          "takeaway": "Tuổi bùn cực tiểu bằng $\\theta_{c,\\min} = 7.42\\text{ d}$ và tuổi bùn thiết kế đạt $\\theta_c = 22.3\\text{ d}$",
+          "topic": "tuổi bùn thiết"
+        },
+        {
+          "id": "p-5d56674d",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính lượng bùn sinh ra mỗi ngày và khối lượng bùn trong bể: Lượng sinh khối kỵ khí tổng hợp $P_{x,\\text{bio}}$ đạt $133.0\\text{ kg/d}$ và phần cặn trơ đi vào $P_{x,\\text{nb}}$ bằng $111.1\\text{ kg/d}$. Tổng sản lượng bùn $P_{x,\\text{VSS}}$ đạt $244.1\\text{ kg/d}$ và tổng lượng bùn giữ trong bể $M_{\\text{VSS}}$ bằng $5443.4\\text{ kg}$ [Page 3].",
+          "sentences": [
+            "Bước 3 - Tính lượng bùn sinh ra mỗi ngày và khối lượng bùn trong bể: Lượng sinh khối kỵ khí tổng hợp $P_{x,\\text{bio}}$ đạt $133.0\\text{ kg/d}$ và phần cặn trơ đi vào $P_{x,\\text{nb}}$ bằng $111.1\\text{ kg/d}$.",
+            "Tổng sản lượng bùn $P_{x,\\text{VSS}}$ đạt $244.1\\text{ kg/d}$ và tổng lượng bùn giữ trong bể $M_{\\text{VSS}}$ bằng $5443.4\\text{ kg}$ [Page 3]."
+          ],
+          "brief": [
+            "Bước 3 - Tính lượng bùn sinh ra mỗi ngày và khối lượng bùn trong bể: Lượng sinh khối kỵ khí tổng hợp $P_{x,\\text{bio}}$ đạt $133.0\\text{ kg/d}$ và phần cặn trơ đi vào $P_{x,\\text{nb}}$ bằng $111.1\\text{ kg/d}$.",
+            "Tổng sản lượng bùn $P_{x,\\text{VSS}}$ đạt $244.1\\text{ kg/d}$ và tổng lượng bùn giữ trong bể $M_{\\text{VSS}}$ bằng $5443.4\\text{ kg}$ [Page 3]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng sản lượng bùn đạt $P_{x,\\text{VSS}} = 244.1\\text{ kg/d}$ và lượng bùn trong bể đạt $M_{\\text{VSS}} = 5443.4\\text{ kg}$. Lượng bùn sinh học tổng hợp $P_{x,\\text{bio}} = 133.0\\text{ kg/d}$ cộng với lượng cặn trơ $P_{x,\\text{nb}} = 111.1\\text{ kg/d}$.",
+          "takeaway": "Tổng sản lượng bùn đạt $P_{x,\\text{VSS}} = 244.1\\text{ kg/d}$ và lượng bùn trong bể đạt $M_{\\text{VSS}} = 5443.4\\text{ kg}$",
+          "topic": "sản lượng bùn"
+        },
+        {
+          "id": "p-345c1f51",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Xác định thể tích bể phản ứng, thời gian lưu và bể lắng: Với nồng độ bùn $X_{\\text{MLVSS}}$ bằng $6.0\\text{ kg/m}^3$, thể tích bể phản ứng $V$ đạt $907.2\\text{ m}^3$ và thời gian lưu nước $\\text{HRT}$ bằng $43.5\\text{ h}$. Diện tích bể lắng thứ cấp $A_c$ đạt $20.83\\text{ m}^2$, tương ứng đường kính $D_c = 5.15\\text{ m}$ [Page 4].",
+          "sentences": [
+            "Bước 4 - Xác định thể tích bể phản ứng, thời gian lưu và bể lắng: Với nồng độ bùn $X_{\\text{MLVSS}}$ bằng $6.0\\text{ kg/m}^3$, thể tích bể phản ứng $V$ đạt $907.2\\text{ m}^3$ và thời gian lưu nước $\\text{HRT}$ bằng $43.5\\text{ h}$.",
+            "Diện tích bể lắng thứ cấp $A_c$ đạt $20.83\\text{ m}^2$, tương ứng đường kính $D_c = 5.15\\text{ m}$ [Page 4]."
+          ],
+          "brief": [
+            "Bước 4 - Xác định thể tích bể phản ứng, thời gian lưu và bể lắng: Với nồng độ bùn $X_{\\text{MLVSS}}$ bằng $6.0\\text{ kg/m}^3$, thể tích bể phản ứng $V$ đạt $907.2\\text{ m}^3$ và thời gian lưu nước $\\text{HRT}$ bằng $43.5\\text{ h}$.",
+            "Diện tích bể lắng thứ cấp $A_c$ đạt $20.83\\text{ m}^2$, tương ứng đường kính $D_c = 5.15\\text{ m}$ [Page 4]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Thể tích bể phản ứng đạt $V = 907.2\\text{ m}^3$ và diện tích bể lắng đạt $A_c = 20.83\\text{ m}^2$. Thời gian lưu nước bằng $\\text{HRT} = 43.5\\text{ h}$ tại $X_{\\text{MLVSS}} = 6.0\\text{ kg/m}^3$ và đường kính bể lắng đạt $D_c = 5.15\\text{ m}$.",
+          "takeaway": "Thể tích bể phản ứng đạt $V = 907.2\\text{ m}^3$ và diện tích bể lắng đạt $A_c = 20.83\\text{ m}^2$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-2c38d726",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 5 - Tính sản lượng khí metan và tổng lưu lượng khí sinh học: Từ cân bằng $\\text{COD}$, lượng chất hữu cơ chuyển thành khí metan $\\text{COD}_{\\text{CH}_4}$ đạt $2331.1\\text{ kg/d}$. Quy đổi hệ số $0.35\\text{ m}^3/\\text{kg}$ từ $0^\\circ\\text{C}$ sang $25^\\circ\\text{C}$, lưu lượng metan $V_{\\text{CH}_4}$ đạt $890.6\\text{ m}^3/\\text{d}$ và tổng khí sinh học $V_{\\text{gas}}$ đạt $1370.1\\text{ m}^3/\\text{d}$ [Page 3].",
+          "sentences": [
+            "Bước 5 - Tính sản lượng khí metan và tổng lưu lượng khí sinh học: Từ cân bằng $\\text{COD}$, lượng chất hữu cơ chuyển thành khí metan $\\text{COD}_{\\text{CH}_4}$ đạt $2331.1\\text{ kg/d}$.",
+            "Quy đổi hệ số $0.35\\text{ m}^3/\\text{kg}$ từ $0^\\circ\\text{C}$ sang $25^\\circ\\text{C}$, lưu lượng metan $V_{\\text{CH}_4}$ đạt $890.6\\text{ m}^3/\\text{d}$ và tổng khí sinh học $V_{\\text{gas}}$ đạt $1370.1\\text{ m}^3/\\text{d}$ [Page 3]."
+          ],
+          "brief": [
+            "Bước 5 - Tính sản lượng khí metan và tổng lưu lượng khí sinh học: Từ cân bằng $\\text{COD}$, lượng chất hữu cơ chuyển thành khí metan $\\text{COD}_{\\text{CH}_4}$ đạt $2331.1\\text{ kg/d}$.",
+            "Quy đổi hệ số $0.35\\text{ m}^3/\\text{kg}$ từ $0^\\circ\\text{C}$ sang $25^\\circ\\text{C}$, lưu lượng metan $V_{\\text{CH}_4}$ đạt $890.6\\text{ m}^3/\\text{d}$ và tổng khí sinh học $V_{\\text{gas}}$ đạt $1370.1\\text{ m}^3/\\text{d}$ [Page 3]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Lưu lượng khí metan ở $25^\\circ\\text{C}$ đạt $V_{\\text{CH}_4} = 890.6\\text{ m}^3/\\text{d}$ và tổng khí đạt $V_{\\text{gas}} = 1370.1\\text{ m}^3/\\text{d}$. Lượng chất hữu cơ chuyển hóa thành khí metan bằng $\\text{COD}_{\\text{CH}_4} = 2331.1\\text{ kg/d}$ với tỷ lệ $65\\%\\text{ CH}_4$.",
+          "takeaway": "Lưu lượng khí metan ở $25^\\circ\\text{C}$ đạt $V_{\\text{CH}_4} = 890.6\\text{ m}^3/\\text{d}$ và tổng khí đạt $V_{\\text{gas}} = 1370.1\\text{ m}^3/\\text{d}$",
+          "topic": "Lưu lượng khí"
+        },
+        {
+          "id": "p-65b2ddaf",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 6 - Tính lượng bùn dư xả bỏ và nhu cầu bổ sung dinh dưỡng: Trừ lượng bùn trôi theo dòng ra $75.0\\text{ kg/d}$, lượng bùn dư cần xả bỏ $W_{\\text{waste}}$ bằng $169.1\\text{ kg/d}$. Nhu cầu Nitơ cần bổ sung $\\Delta\\text{N}$ là $10.96\\text{ kg/d}$, còn lượng Photpho đầu vào $10.0\\text{ kg/d}$ đã vượt nhu cầu $3.19\\text{ kg/d}$ [Page 4].",
+          "sentences": [
+            "Bước 6 - Tính lượng bùn dư xả bỏ và nhu cầu bổ sung dinh dưỡng: Trừ lượng bùn trôi theo dòng ra $75.0\\text{ kg/d}$, lượng bùn dư cần xả bỏ $W_{\\text{waste}}$ bằng $169.1\\text{ kg/d}$.",
+            "Nhu cầu Nitơ cần bổ sung $\\Delta\\text{N}$ là $10.96\\text{ kg/d}$, còn lượng Photpho đầu vào $10.0\\text{ kg/d}$ đã vượt nhu cầu $3.19\\text{ kg/d}$ [Page 4]."
+          ],
+          "brief": [
+            "Bước 6 - Tính lượng bùn dư xả bỏ và nhu cầu bổ sung dinh dưỡng: Trừ lượng bùn trôi theo dòng ra $75.0\\text{ kg/d}$, lượng bùn dư cần xả bỏ $W_{\\text{waste}}$ bằng $169.1\\text{ kg/d}$.",
+            "Nhu cầu Nitơ cần bổ sung $\\Delta\\text{N}$ là $10.96\\text{ kg/d}$, còn lượng Photpho đầu vào $10.0\\text{ kg/d}$ đã vượt nhu cầu $3.19\\text{ kg/d}$ [Page 4]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Hệ thống xả bỏ $W_{\\text{waste}} = 169.1\\text{ kg/d}$ bùn dư và cần châm thêm $\\Delta\\text{N} = 10.96\\text{ kg/d}$. Lượng cặn trôi theo dòng ra bằng $75.0\\text{ kg/d}$ và lượng Photpho đầu vào $10.0\\text{ kg/d}$ đã đủ cho nhu cầu $3.19\\text{ kg/d}$.",
+          "takeaway": "Hệ thống xả bỏ $W_{\\text{waste}} = 169.1\\text{ kg/d}$ bùn dư và cần châm thêm $\\Delta\\text{N} = 10.96\\text{ kg/d}$",
+          "topic": "bùn dư"
+        },
+        {
+          "id": "p-41b2f8a8",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 7 - Kiểm tra tải trọng hữu cơ thể tích và tính độ kiềm bổ sung: Tải trọng hữu cơ thể tích $\\text{OLR}$ của bể đạt $3.31\\text{ kg COD/m}^3\\text{d}$. Để giữ $\\text{pH} = 7.0$ ứng với $35\\%\\text{ CO}_2$ cần độ kiềm $2500\\text{ g/m}^3$, do đó khối lượng độ kiềm cần châm thêm $M_{\\text{Alk}}$ bằng $1000\\text{ kg CaCO}_3/\\text{d}$ [Page 4].",
+          "sentences": [
+            "Bước 7 - Kiểm tra tải trọng hữu cơ thể tích và tính độ kiềm bổ sung: Tải trọng hữu cơ thể tích $\\text{OLR}$ của bể đạt $3.31\\text{ kg COD/m}^3\\text{d}$. Để giữ $\\text{pH} = 7.0$ ứng với $35\\%\\text{ CO}_2$ cần độ kiềm $2500\\text{ g/m}^3$, do đó khối lượng độ kiềm cần châm thêm $M_{\\text{Alk}}$ bằng $1000\\text{ kg CaCO}_3/\\text{d}$ [Page 4]."
+          ],
+          "brief": [
+            "Bước 7 - Kiểm tra tải trọng hữu cơ thể tích và tính độ kiềm bổ sung: Tải trọng hữu cơ thể tích $\\text{OLR}$ của bể đạt $3.31\\text{ kg COD/m}^3\\text{d}$. Để giữ $\\text{pH} = 7.0$ ứng với $35\\%\\text{ CO}_2$ cần độ kiềm $2500\\text{ g/m}^3$, do đó khối lượng độ kiềm cần châm thêm $M_{\\text{Alk}}$ bằng $1000\\text{ kg CaCO}_3/\\text{d}$ [Page 4]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tải trọng hữu cơ đạt $\\text{OLR} = 3.31\\text{ kg COD/m}^3\\text{d}$ và độ kiềm bổ sung bằng $M_{\\text{Alk}} = 1000\\text{ kg CaCO}_3/\\text{d}$.",
+          "takeaway": "Tải trọng hữu cơ đạt $\\text{OLR} = 3.31\\text{ kg COD/m}^3\\text{d}$ và độ kiềm bổ sung bằng $M_{\\text{Alk}} = 1000\\text{ kg CaCO}_3/\\text{d}$",
+          "topic": "Tải trọng hữu"
+        },
+        {
+          "id": "p-47659d61",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Toàn bộ thông số thiết kế của bể kỵ khí đều thỏa mãn giới hạn tiêu chuẩn. Các kết quả tính toán tuân thủ đầy đủ quy trình bảy bước trên slide bài giảng.",
+          "takeaway": "Toàn bộ thông số thiết kế của bể kỵ khí đều thỏa mãn giới hạn tiêu chuẩn",
+          "topic": "thông số thiết"
+        },
+        {
+          "id": "p-63b90eec",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tuổi bùn kỵ khí thiết kế ($\\theta_c$): $22.3\\text{ d}$ (Kiểm tra: $15\\text{ d} \\le \\theta_c \\le 30\\text{ d}\\text{ - Đạt chuẩn Slide 3}$)",
+          "sentences": [
+            "Tuổi bùn kỵ khí thiết kế ($\\theta_c$): $22.3\\text{ d}$ (Kiểm tra: $15\\text{ d} \\le \\theta_c \\le 30\\text{ d}\\text{ - Đạt chuẩn Slide 3}$)"
+          ],
+          "brief": [
+            "Tuổi bùn kỵ khí thiết kế ($\\theta_c$): $22.3\\text{ d}$ (Kiểm tra: $15\\text{ d} \\le \\theta_c \\le 30\\text{ d}\\text{ - Đạt chuẩn Slide 3}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tuổi bùn kỵ khí thiết kế đạt $\\theta_c = 22.3\\text{ d}$ nằm trong dải $15\\text{ d}$ đến $30\\text{ d}$.",
+          "takeaway": "Tuổi bùn kỵ khí thiết kế đạt $\\theta_c = 22.3\\text{ d}$ nằm trong dải $15\\text{ d}$ đến $30\\text{ d}$",
+          "topic": "Tuổi bùn"
+        },
+        {
+          "id": "p-8be2e08b",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổng sản lượng bùn sinh ra ($P_{x,\\text{VSS}}$): $244.1\\text{ kg VSS/d}$ (Kiểm tra: $P_{x,\\text{bio}} = 133.0\\text{ kg/d}\\text{ - Đạt chuẩn Slide 6}$)",
+          "sentences": [
+            "Tổng sản lượng bùn sinh ra ($P_{x,\\text{VSS}}$): $244.1\\text{ kg VSS/d}$ (Kiểm tra: $P_{x,\\text{bio}} = 133.0\\text{ kg/d}\\text{ - Đạt chuẩn Slide 6}$)"
+          ],
+          "brief": [
+            "Tổng sản lượng bùn sinh ra ($P_{x,\\text{VSS}}$): $244.1\\text{ kg VSS/d}$ (Kiểm tra: $P_{x,\\text{bio}} = 133.0\\text{ kg/d}\\text{ - Đạt chuẩn Slide 6}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng sản lượng bùn sinh ra đạt $P_{x,\\text{VSS}} = 244.1\\text{ kg VSS/d}$ với $P_{x,\\text{bio}} = 133.0\\text{ kg/d}$.",
+          "takeaway": "Tổng sản lượng bùn sinh ra đạt $P_{x,\\text{VSS}} = 244.1\\text{ kg VSS/d}$ với $P_{x,\\text{bio}} = 133.0\\text{ kg/d}$",
+          "topic": "sản lượng bùn"
+        },
+        {
+          "id": "p-2720e661",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể phản ứng kỵ khí ($V$): $907.2\\text{ m}^3$ (Kiểm tra: $\\text{HRT} = 43.5\\text{ h},\\; X_{\\text{MLVSS}} = 6000\\text{ g/m}^3\\text{ - Đạt chuẩn Slide 3}$)",
+          "sentences": [
+            "Thể tích bể phản ứng kỵ khí ($V$): $907.2\\text{ m}^3$ (Kiểm tra: $\\text{HRT} = 43.5\\text{ h},\\; X_{\\text{MLVSS}} = 6000\\text{ g/m}^3\\text{ - Đạt chuẩn Slide 3}$)"
+          ],
+          "brief": [
+            "Thể tích bể phản ứng kỵ khí ($V$): $907.2\\text{ m}^3$ (Kiểm tra: $\\text{HRT} = 43.5\\text{ h},\\; X_{\\text{MLVSS}} = 6000\\text{ g/m}^3\\text{ - Đạt chuẩn Slide 3}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể phản ứng kỵ khí đạt $V = 907.2\\text{ m}^3$ ứng với $\\text{HRT} = 43.5\\text{ h}$.",
+          "takeaway": "Thể tích bể phản ứng kỵ khí đạt $V = 907.2\\text{ m}^3$ ứng với $\\text{HRT} = 43.5\\text{ h}$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-0666252c",
+          "kind": "list item",
+          "role": "result",
+          "full": "Diện tích và đường kính bể lắng ($A_c,\\; D_c$): $20.83\\text{ m}^2,\\; 5.15\\text{ m}$ (Kiểm tra: $\\text{OFR} = 24\\text{ m}^3/\\text{m}^2\\cdot\\text{d}\\text{ - Đạt chuẩn Slide 7}$)",
+          "sentences": [
+            "Diện tích và đường kính bể lắng ($A_c,\\; D_c$): $20.83\\text{ m}^2,\\; 5.15\\text{ m}$ (Kiểm tra: $\\text{OFR} = 24\\text{ m}^3/\\text{m}^2\\cdot\\text{d}\\text{ - Đạt chuẩn Slide 7}$)"
+          ],
+          "brief": [
+            "Diện tích và đường kính bể lắng ($A_c,\\; D_c$): $20.83\\text{ m}^2,\\; 5.15\\text{ m}$ (Kiểm tra: $\\text{OFR} = 24\\text{ m}^3/\\text{m}^2\\cdot\\text{d}\\text{ - Đạt chuẩn Slide 7}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bể lắng thứ cấp có diện tích $A_c = 20.83\\text{ m}^2$ và đường kính $D_c = 5.15\\text{ m}$.",
+          "takeaway": "Bể lắng thứ cấp có diện tích $A_c = 20.83\\text{ m}^2$ và đường kính $D_c = 5.15\\text{ m}$",
+          "topic": "Bể lắng"
+        },
+        {
+          "id": "p-68bb0d65",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng khí metan và tổng khí sinh học ($V_{\\text{CH}_4},\\; V_{\\text{gas}}$): $890.6\\text{ m}^3/\\text{d},\\; 1370.1\\text{ m}^3/\\text{d}$ (Kiểm tra: $\\%_{\\text{CH}_4} = 65\\%\\text{ ở } 25^\\circ\\text{C}\\text{ - Đạt chuẩn Slide 5}$)",
+          "sentences": [
+            "Lưu lượng khí metan và tổng khí sinh học ($V_{\\text{CH}_4},\\; V_{\\text{gas}}$): $890.6\\text{ m}^3/\\text{d},\\; 1370.1\\text{ m}^3/\\text{d}$ (Kiểm tra: $\\%_{\\text{CH}_4} = 65\\%\\text{ ở } 25^\\circ\\text{C}\\text{ - Đạt chuẩn Slide 5}$)"
+          ],
+          "brief": [
+            "Lưu lượng khí metan và tổng khí sinh học ($V_{\\text{CH}_4},\\; V_{\\text{gas}}$): $890.6\\text{ m}^3/\\text{d},\\; 1370.1\\text{ m}^3/\\text{d}$ (Kiểm tra: $\\%_{\\text{CH}_4} = 65\\%\\text{ ở } 25^\\circ\\text{C}\\text{ - Đạt chuẩn Slide 5}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng khí metan đạt $V_{\\text{CH}_4} = 890.6\\text{ m}^3/\\text{d}$ và tổng khí đạt $V_{\\text{gas}} = 1370.1\\text{ m}^3/\\text{d}$.",
+          "takeaway": "Lưu lượng khí metan đạt $V_{\\text{CH}_4} = 890.6\\text{ m}^3/\\text{d}$ và tổng khí đạt $V_{\\text{gas}} = 1370.1\\text{ m}^3/\\text{d}$",
+          "topic": "Lưu lượng khí"
+        },
+        {
+          "id": "p-f89ce1c2",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tải trọng hữu cơ thể tích ($\\text{OLR}$): $3.31\\text{ kg COD/m}^3\\cdot\\text{d}$ (Kiểm tra: $2\\text{ kg/m}^3\\cdot\\text{d} \\le \\text{OLR} \\le 5\\text{ kg/m}^3\\cdot\\text{d}\\text{ - Đạt chuẩn Slide 3}$)",
+          "sentences": [
+            "Tải trọng hữu cơ thể tích ($\\text{OLR}$): $3.31\\text{ kg COD/m}^3\\cdot\\text{d}$ (Kiểm tra: $2\\text{ kg/m}^3\\cdot\\text{d} \\le \\text{OLR} \\le 5\\text{ kg/m}^3\\cdot\\text{d}\\text{ - Đạt chuẩn Slide 3}$)"
+          ],
+          "brief": [
+            "Tải trọng hữu cơ thể tích ($\\text{OLR}$): $3.31\\text{ kg COD/m}^3\\cdot\\text{d}$ (Kiểm tra: $2\\text{ kg/m}^3\\cdot\\text{d} \\le \\text{OLR} \\le 5\\text{ kg/m}^3\\cdot\\text{d}\\text{ - Đạt chuẩn Slide 3}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tải trọng hữu cơ đạt $\\text{OLR} = 3.31\\text{ kg COD/m}^3\\cdot\\text{d}$ thỏa mãn dải $2$ đến $5\\text{ kg/m}^3\\cdot\\text{d}$.",
+          "takeaway": "Tải trọng hữu cơ đạt $\\text{OLR} = 3.31\\text{ kg COD/m}^3\\cdot\\text{d}$ thỏa mãn dải $2$ đến $5\\text{ kg/m}^3\\cdot\\text{d}$",
+          "topic": "Tải trọng hữu"
+        },
+        {
+          "id": "p-85e359d2",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lượng bùn xả bỏ và hóa chất bổ sung ($W_{\\text{waste}},\\; \\Delta\\text{N},\\; M_{\\text{Alk}}$): $169.1\\text{ kg VSS/d},\\; 10.96\\text{ kg N/d},\\; 1000\\text{ kg CaCO}_3/\\text{d}$ (Kiểm tra: $\\text{pH} \\approx 7.0\\text{ - Đạt chuẩn Slide 6}$)",
+          "sentences": [
+            "Lượng bùn xả bỏ và hóa chất bổ sung ($W_{\\text{waste}},\\; \\Delta\\text{N},\\; M_{\\text{Alk}}$): $169.1\\text{ kg VSS/d},\\; 10.96\\text{ kg N/d},\\; 1000\\text{ kg CaCO}_3/\\text{d}$ (Kiểm tra: $\\text{pH} \\approx 7.0\\text{ - Đạt chuẩn Slide 6}$)"
+          ],
+          "brief": [
+            "Lượng bùn xả bỏ và hóa chất bổ sung ($W_{\\text{waste}},\\; \\Delta\\text{N},\\; M_{\\text{Alk}}$): $169.1\\text{ kg VSS/d},\\; 10.96\\text{ kg N/d},\\; 1000\\text{ kg CaCO}_3/\\text{d}$ (Kiểm tra: $\\text{pH} \\approx 7.0\\text{ - Đạt chuẩn Slide 6}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lượng bùn xả bỏ bằng $W_{\\text{waste}} = 169.1\\text{ kg VSS/d}$ và châm $M_{\\text{Alk}} = 1000\\text{ kg CaCO}_3/\\text{d}$.",
+          "takeaway": "Lượng bùn xả bỏ bằng $W_{\\text{waste}} = 169.1\\text{ kg VSS/d}$ và châm $M_{\\text{Alk}} = 1000\\text{ kg CaCO}_3/\\text{d}$",
+          "topic": "Lượng bùn xả"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-cấu-tạo-cơ-chế-tạo-hạt-và-thông-số-thiết-kế-bể-uasb-upflow-anaerobic-sludge-blanket",
+      "num": "4",
+      "title": "Cấu tạo, Cơ chế Tạo Hạt và Thông số Thiết kế Bể UASB (Upflow Anaerobic Sludge Blanket)",
+      "depth": 1,
+      "takeaway": "Bể UASB giữ tầng bùn hạt mật độ cao nhờ bộ tách ba pha khí-lỏng-rắn",
+      "topic": "Bể UASB",
+      "units": [
+        {
+          "id": "p-1fcf9cc3",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Từ Slide 16 đến Slide 18, chương học trình bày nguyên lý cấu tạo của bể phản ứng kỵ khí dòng chảy ngược qua tầng bùn (UASB) và cơ chế hình thành bùn hạt (granular sludge) [Page 4]. Nước thải được phân phối đều từ đáy bể và chảy ngược lên trên qua tầng bùn hạt kỵ khí đặc (dense sludge bed) có nồng độ sinh khối lên tới $35,000\\text{ g/m}^3$ đến $40,000\\text{ g/m}^3$, tiếp theo là vùng chăn bùn khuếch tán (sludge blanket) có nồng độ từ $10,000\\text{ g/m}^3$ đến $30,000\\text{ g/m}^3$ [Page 4]. Phía trên đỉnh bể lắp đặt bộ tách ba pha khí-lỏng-rắn (gas-liquid-solid separator hay GLSS) gồm chụp thu khí (gas cap), tấm hướng dòng (baffle), vùng lắng (settling zone) và máng răng cưa thu nước (weir) để thu hồi khí sinh học và giữ hạt bùn tự lắng trở lại vùng phản ứng [Page 5]. Quá trình phát triển bùn hạt diễn ra qua bốn bước gồm vi khuẩn bám dính lên hạt nhân trơ, hấp phụ thuận nghịch các hạt keo hoặc vi khuẩn khác, kết dính không thuận nghịch nhờ polymer ngoại bào (EPS) và nhân đôi tế bào khi cơ chất khuếch tán vào bên trong cấu trúc hạt [Page 5].",
+          "sentences": [
+            "Từ Slide 16 đến Slide 18, chương học trình bày nguyên lý cấu tạo của bể phản ứng kỵ khí dòng chảy ngược qua tầng bùn (UASB) và cơ chế hình thành bùn hạt (granular sludge) [Page 4].",
+            "Nước thải được phân phối đều từ đáy bể và chảy ngược lên trên qua tầng bùn hạt kỵ khí đặc (dense sludge bed) có nồng độ sinh khối lên tới $35,000\\text{ g/m}^3$ đến $40,000\\text{ g/m}^3$, tiếp theo là vùng chăn bùn khuếch tán (sludge blanket) có nồng độ từ $10,000\\text{ g/m}^3$ đến $30,000\\text{ g/m}^3$ [Page 4].",
+            "Phía trên đỉnh bể lắp đặt bộ tách ba pha khí-lỏng-rắn (gas-liquid-solid separator hay GLSS) gồm chụp thu khí (gas cap), tấm hướng dòng (baffle), vùng lắng (settling zone) và máng răng cưa thu nước (weir) để thu hồi khí sinh học và giữ hạt bùn tự lắng trở lại vùng phản ứng [Page 5].",
+            "Quá trình phát triển bùn hạt diễn ra qua bốn bước gồm vi khuẩn bám dính lên hạt nhân trơ, hấp phụ thuận nghịch các hạt keo hoặc vi khuẩn khác, kết dính không thuận nghịch nhờ polymer ngoại bào (EPS) và nhân đôi tế bào khi cơ chất khuếch tán vào bên trong cấu trúc hạt [Page 5]."
+          ],
+          "brief": [
+            "Nước thải được phân phối đều từ đáy bể và chảy ngược lên trên qua tầng bùn hạt kỵ khí đặc (dense sludge bed) có nồng độ sinh khối lên tới $35,000\\text{ g/m}^3$ đến $40,000\\text{ g/m}^3$, tiếp theo là vùng chăn bùn khuếch tán (sludge blanket) có nồng độ từ $10,000\\text{ g/m}^3$ đến $30,000\\text{ g/m}^3$ [Page 4].",
+            "Phía trên đỉnh bể lắp đặt bộ tách ba pha khí-lỏng-rắn (gas-liquid-solid separator hay GLSS) gồm chụp thu khí (gas cap), tấm hướng dòng (baffle), vùng lắng (settling zone) và máng răng cưa thu nước (weir) để thu hồi khí sinh học và giữ hạt bùn tự lắng trở lại vùng phản ứng [Page 5]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Bể UASB dẫn nước chảy ngược qua tầng bùn hạt $35,000\\text{ g/m}^3$ đến $40,000\\text{ g/m}^3$ và bộ GLSS. Bộ tách ba pha trên đỉnh bể thu hồi khí sinh học và giữ hạt bùn tự lắng về vùng phản ứng.",
+          "takeaway": "Bể UASB dẫn nước chảy ngược qua tầng bùn hạt $35,000\\text{ g/m}^3$ đến $40,000\\text{ g/m}^3$ và bộ GLSS",
+          "topic": "tầng bùn hạt"
+        },
+        {
+          "id": "p-3f79f00d",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Các bảng thông số thiết kế chuẩn của bể UASB trên Slide 19 và Slide 20 quy định tuổi bùn khuyến cáo, vận tốc dòng chảy ngược (upflow velocity $v = \\frac{Q}{A}$), chiều cao bể và tải trọng hữu cơ thể tích ($\\text{OLR} = \\frac{Q S_0}{V}$) [Page 6]. Thời gian lưu bùn (SRT) khuyến cáo để bể UASB vận hành ổn định lần lượt là $25\\text{ d}$ ở $35^\\circ\\text{C}$, $30\\text{ d}$ ở $30^\\circ\\text{C}$, $60\\text{ d}$ ở $25^\\circ\\text{C}$, $100\\text{ d}$ ở $20^\\circ\\text{C}$ và $140\\text{ d}$ ở $15^\\circ\\text{C}$ [Page 6]. Đối với nước thải có COD gần như hòa tan $100\\%$ (COD near $100\\%$ soluble), vận tốc dòng chảy ngược nằm trong dải từ $1.0\\text{ m/h}$ đến $3.0\\text{ m/h}$ (điển hình $1.5\\text{ m/h}$) và chiều cao vùng phản ứng từ $6\\text{ m}$ đến $10\\text{ m}$ (điển hình $8\\text{ m}$) [Page 6]. Đối với nước thải có COD hòa tan một phần (COD partially soluble), vận tốc dòng chảy ngược nằm trong dải từ $1.0\\text{ m/h}$ đến $1.25\\text{ m/h}$ (điển hình $1.0\\text{ m/h}$) và chiều cao từ $3\\text{ m}$ đến $7\\text{ m}$ (điển hình $6\\text{ m}$), trong khi nước thải sinh hoạt (domestic wastewater) có vận tốc từ $0.8\\text{ m/h}$ đến $1.0\\text{ m/h}$ (điển hình $0.7\\text{ m/h}$), chiều cao từ $3\\text{ m}$ đến $5\\text{ m}$ (điển hình $5\\text{ m}$) và tải trọng hữu cơ OLR thường từ $5\\text{ kg COD/m}^3\\cdot\\text{d}$ đến $15\\text{ kg COD/m}^3\\cdot\\text{d}$ [Page 6].",
+          "sentences": [
+            "Các bảng thông số thiết kế chuẩn của bể UASB trên Slide 19 và Slide 20 quy định tuổi bùn khuyến cáo, vận tốc dòng chảy ngược (upflow velocity $v = \\frac{Q}{A}$), chiều cao bể và tải trọng hữu cơ thể tích ($\\text{OLR} = \\frac{Q S_0}{V}$) [Page 6].",
+            "Thời gian lưu bùn (SRT) khuyến cáo để bể UASB vận hành ổn định lần lượt là $25\\text{ d}$ ở $35^\\circ\\text{C}$, $30\\text{ d}$ ở $30^\\circ\\text{C}$, $60\\text{ d}$ ở $25^\\circ\\text{C}$, $100\\text{ d}$ ở $20^\\circ\\text{C}$ và $140\\text{ d}$ ở $15^\\circ\\text{C}$ [Page 6]. Đối với nước thải có COD gần như hòa tan $100\\%$ (COD near $100\\%$ soluble), vận tốc dòng chảy ngược nằm trong dải từ $1.0\\text{ m/h}$ đến $3.0\\text{ m/h}$ (điển hình $1.5\\text{ m/h}$) và chiều cao vùng phản ứng từ $6\\text{ m}$ đến $10\\text{ m}$ (điển hình $8\\text{ m}$) [Page 6]. Đối với nước thải có COD hòa tan một phần (COD partially soluble), vận tốc dòng chảy ngược nằm trong dải từ $1.0\\text{ m/h}$ đến $1.25\\text{ m/h}$ (điển hình $1.0\\text{ m/h}$) và chiều cao từ $3\\text{ m}$ đến $7\\text{ m}$ (điển hình $6\\text{ m}$), trong khi nước thải sinh hoạt (domestic wastewater) có vận tốc từ $0.8\\text{ m/h}$ đến $1.0\\text{ m/h}$ (điển hình $0.7\\text{ m/h}$), chiều cao từ $3\\text{ m}$ đến $5\\text{ m}$ (điển hình $5\\text{ m}$) và tải trọng hữu cơ OLR thường từ $5\\text{ kg COD/m}^3\\cdot\\text{d}$ đến $15\\text{ kg COD/m}^3\\cdot\\text{d}$ [Page 6]."
+          ],
+          "brief": [
+            "Các bảng thông số thiết kế chuẩn của bể UASB trên Slide 19 và Slide 20 quy định tuổi bùn khuyến cáo, vận tốc dòng chảy ngược (upflow velocity $v = \\frac{Q}{A}$), chiều cao bể và tải trọng hữu cơ thể tích ($\\text{OLR} = \\frac{Q S_0}{V}$) [Page 6].",
+            "Thời gian lưu bùn (SRT) khuyến cáo để bể UASB vận hành ổn định lần lượt là $25\\text{ d}$ ở $35^\\circ\\text{C}$, $30\\text{ d}$ ở $30^\\circ\\text{C}$, $60\\text{ d}$ ở $25^\\circ\\text{C}$, $100\\text{ d}$ ở $20^\\circ\\text{C}$ và $140\\text{ d}$ ở $15^\\circ\\text{C}$ [Page 6]. Đối với nước thải có COD gần như hòa tan $100\\%$ (COD near $100\\%$ soluble), vận tốc dòng chảy ngược nằm trong dải từ $1.0\\text{ m/h}$ đến $3.0\\text{ m/h}$ (điển hình $1.5\\text{ m/h}$) và chiều cao vùng phản ứng từ $6\\text{ m}$ đến $10\\text{ m}$ (điển hình $8\\text{ m}$) [Page 6]. Đối với nước thải có COD hòa tan một phần (COD partially soluble), vận tốc dòng chảy ngược nằm trong dải từ $1.0\\text{ m/h}$ đến $1.25\\text{ m/h}$ (điển hình $1.0\\text{ m/h}$) và chiều cao từ $3\\text{ m}$ đến $7\\text{ m}$ (điển hình $6\\text{ m}$), trong khi nước thải sinh hoạt (domestic wastewater) có vận tốc từ $0.8\\text{ m/h}$ đến $1.0\\text{ m/h}$ (điển hình $0.7\\text{ m/h}$), chiều cao từ $3\\text{ m}$ đến $5\\text{ m}$ (điển hình $5\\text{ m}$) và tải trọng hữu cơ OLR thường từ $5\\text{ kg COD/m}^3\\cdot\\text{d}$ đến $15\\text{ kg COD/m}^3\\cdot\\text{d}$ [Page 6]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Ở $25^\\circ\\text{C}$, bể UASB cần $\\text{SRT} = 60\\text{ d}$, vận tốc $0.7\\text{ m/h}$ đến $1.5\\text{ m/h}$ và OLR $5$ đến $15\\text{ kg COD/m}^3\\cdot\\text{d}$. Vận tốc dòng chảy ngược thích hợp giúp rửa trôi vi sinh vật lơ lửng và chọn lọc bùn hạt nặng.",
+          "takeaway": "Ở $25^\\circ\\text{C}$, bể UASB cần $\\text{SRT} = 60\\text{ d}$, vận tốc $0.7\\text{ m/h}$ đến $1.5\\text{ m/h}$ và OLR $5$ đến $15\\text{ kg COD/m}^3\\cdot\\text{d}$",
+          "topic": "bể UASB cần"
+        }
+      ]
+    },
+    {
+      "id": "sec-5-lời-giải-chi-tiết-bài-tập-2-ch08_ex02-và-kiểm-soát-vận-hành-bể-uasb",
+      "num": "5",
+      "title": "Lời giải Chi tiết Bài tập 2 (ch08_ex02) và Kiểm soát Vận hành Bể UASB",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch08_ex02-slide-21-trang-7-thiết-kế-bể-phản-ứng-kỵ-khí-dòng-chảy-ngược-qua-tầng-bùn-uasb",
+      "num": "",
+      "title": "Bài tập ch08_ex02 (Slide 21, Trang 7): Thiết kế Bể Phản ứng Kỵ khí Dòng chảy Ngược qua Tầng Bùn (UASB)",
+      "depth": 2,
+      "takeaway": "Thiết kế bể UASB đạt thể tích $V_p = 750.0\\text{ m}^3$, diện tích $A = 125.0\\text{ m}^2$ và khí $V_{\\text{gas}} = 2999.7\\text{ m}^3/\\text{d}$",
+      "topic": "Thiết kế bể",
+      "units": [
+        {
+          "id": "p-fe93bf74",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 19–21): Thiết kế công trình xử lý kỵ khí dòng chảy ngược qua tầng bùn (UASB) cho lưu lượng $Q = 500\\text{ m}^3/\\text{d}$ ở nhiệt độ $T = 25^\\circ\\text{C}$ với nồng độ đầu vào $\\text{COD} = 12,000\\text{ g/m}^3$, $\\text{TSS} = 600\\text{ g/m}^3$, $\\text{nbVSS} = 500\\text{ g/m}^3$, tải trọng thiết kế $\\text{OLR} = 8\\text{ kg COD/m}^3\\cdot\\text{d}$ và hiệu suất khử $E = 90\\%$ [Page 7].",
+          "sentences": [
+            "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 19–21): Thiết kế công trình xử lý kỵ khí dòng chảy ngược qua tầng bùn (UASB) cho lưu lượng $Q = 500\\text{ m}^3/\\text{d}$ ở nhiệt độ $T = 25^\\circ\\text{C}$ với nồng độ đầu vào $\\text{COD} = 12,000\\text{ g/m}^3$, $\\text{TSS} = 600\\text{ g/m}^3$, $\\text{nbVSS} = 500\\text{ g/m}^3$, tải trọng thiết kế $\\text{OLR} = 8\\text{ kg COD/m}^3\\cdot\\text{d}$ và hiệu suất khử $E = 90\\%$ [Page 7]."
+          ],
+          "brief": [
+            "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 19–21): Thiết kế công trình xử lý kỵ khí dòng chảy ngược qua tầng bùn (UASB) cho lưu lượng $Q = 500\\text{ m}^3/\\text{d}$ ở nhiệt độ $T = 25^\\circ\\text{C}$ với nồng độ đầu vào $\\text{COD} = 12,000\\text{ g/m}^3$, $\\text{TSS} = 600\\text{ g/m}^3$, $\\text{nbVSS} = 500\\text{ g/m}^3$, tải trọng thiết kế $\\text{OLR} = 8\\text{ kg COD/m}^3\\cdot\\text{d}$ và hiệu suất khử $E = 90\\%$ [Page 7]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài thiết kế bể UASB cho $Q = 500\\text{ m}^3/\\text{d}$, $\\text{COD} = 12,000\\text{ g/m}^3$ tại $\\text{OLR} = 8\\text{ kg COD/m}^3\\cdot\\text{d}$.",
+          "takeaway": "Đề bài thiết kế bể UASB cho $Q = 500\\text{ m}^3/\\text{d}$, $\\text{COD} = 12,000\\text{ g/m}^3$ tại $\\text{OLR} = 8\\text{ kg COD/m}^3\\cdot\\text{d}$",
+          "topic": "thiết kế bể"
+        },
+        {
+          "id": "p-dd43fa6b",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Xác định thể tích vùng phản ứng và diện tích mặt cắt ngang: Tổng tải lượng hữu cơ đầu vào đạt $6000\\text{ kg COD/d}$, nên tại tải trọng $\\text{OLR}$ bằng $8\\text{ kg COD/m}^3\\text{d}$ thể tích vùng phản ứng $V_p$ bằng $750\\text{ m}^3$. Với chiều cao vùng phản ứng $H_p = 6.0\\text{ m}$, diện tích mặt bằng bể $A$ đạt $125\\text{ m}^2$ [Page 7].",
+          "sentences": [
+            "Bước 1 - Xác định thể tích vùng phản ứng và diện tích mặt cắt ngang: Tổng tải lượng hữu cơ đầu vào đạt $6000\\text{ kg COD/d}$, nên tại tải trọng $\\text{OLR}$ bằng $8\\text{ kg COD/m}^3\\text{d}$ thể tích vùng phản ứng $V_p$ bằng $750\\text{ m}^3$.",
+            "Với chiều cao vùng phản ứng $H_p = 6.0\\text{ m}$, diện tích mặt bằng bể $A$ đạt $125\\text{ m}^2$ [Page 7]."
+          ],
+          "brief": [
+            "Bước 1 - Xác định thể tích vùng phản ứng và diện tích mặt cắt ngang: Tổng tải lượng hữu cơ đầu vào đạt $6000\\text{ kg COD/d}$, nên tại tải trọng $\\text{OLR}$ bằng $8\\text{ kg COD/m}^3\\text{d}$ thể tích vùng phản ứng $V_p$ bằng $750\\text{ m}^3$.",
+            "Với chiều cao vùng phản ứng $H_p = 6.0\\text{ m}$, diện tích mặt bằng bể $A$ đạt $125\\text{ m}^2$ [Page 7]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Thể tích vùng phản ứng đạt $V_p = 750\\text{ m}^3$ và diện tích mặt bằng bể đạt $A = 125\\text{ m}^2$. Tổng tải lượng hữu cơ đầu vào bằng $6000\\text{ kg COD/d}$ ứng với chiều cao vùng phản ứng $H_p = 6.0\\text{ m}$.",
+          "takeaway": "Thể tích vùng phản ứng đạt $V_p = 750\\text{ m}^3$ và diện tích mặt bằng bể đạt $A = 125\\text{ m}^2$",
+          "topic": "Thể tích vùng"
+        },
+        {
+          "id": "p-11778bc7",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính kích thước hình học bể và kiểm tra vận tốc dòng chảy ngược: Với tỷ số chiều dài trên chiều rộng $L/W = 2$, chiều rộng bể $W$ bằng $7.91\\text{ m}$ (chọn $8.0\\text{ m}$), chiều dài $L$ bằng $15.81\\text{ m}$ (chọn $16.0\\text{ m}$) và tổng chiều cao $H_{\\text{tot}}$ bằng $7.5\\text{ m}$. Vận tốc dòng chảy ngược $v$ đạt $0.167\\text{ m/h}$ [Page 6].",
+          "sentences": [
+            "Bước 2 - Tính kích thước hình học bể và kiểm tra vận tốc dòng chảy ngược: Với tỷ số chiều dài trên chiều rộng $L/W = 2$, chiều rộng bể $W$ bằng $7.91\\text{ m}$ (chọn $8.0\\text{ m}$), chiều dài $L$ bằng $15.81\\text{ m}$ (chọn $16.0\\text{ m}$) và tổng chiều cao $H_{\\text{tot}}$ bằng $7.5\\text{ m}$.",
+            "Vận tốc dòng chảy ngược $v$ đạt $0.167\\text{ m/h}$ [Page 6]."
+          ],
+          "brief": [
+            "Bước 2 - Tính kích thước hình học bể và kiểm tra vận tốc dòng chảy ngược: Với tỷ số chiều dài trên chiều rộng $L/W = 2$, chiều rộng bể $W$ bằng $7.91\\text{ m}$ (chọn $8.0\\text{ m}$), chiều dài $L$ bằng $15.81\\text{ m}$ (chọn $16.0\\text{ m}$) và tổng chiều cao $H_{\\text{tot}}$ bằng $7.5\\text{ m}$.",
+            "Vận tốc dòng chảy ngược $v$ đạt $0.167\\text{ m/h}$ [Page 6]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Bể rộng $W = 7.91\\text{ m}$, dài $L = 15.81\\text{ m}$, cao $H_{\\text{tot}} = 7.5\\text{ m}$ và có vận tốc $v = 0.167\\text{ m/h}$. Tỷ số chiều dài trên chiều rộng bằng $L/W = 2$ giúp vận tốc dòng lên nhỏ hơn giới hạn $1.0\\text{ m/h}$.",
+          "takeaway": "Bể rộng $W = 7.91\\text{ m}$, dài $L = 15.81\\text{ m}$, cao $H_{\\text{tot}} = 7.5\\text{ m}$ và có vận tốc $v = 0.167\\text{ m/h}$",
+          "topic": "vận tốc"
+        },
+        {
+          "id": "p-3e884754",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính thể tích tầng bùn và tổng khối lượng sinh khối lưu giữ: Trừ chiều cao vùng nước trong $H_{\\text{clear}}$ bằng $0.5\\text{ m}$, chiều cao thực tế của tầng bùn $H_{\\text{sb}}$ bằng $5.5\\text{ m}$ và thể tích tầng bùn $V_{\\text{sb}}$ đạt $687.5\\text{ m}^3$. Ở nồng độ $X_{\\text{MLVSS}}$ bằng $30\\text{ kg/m}^3$, tổng khối lượng bùn giữ trong bể $M_{\\text{VSS}}$ đạt $20,625\\text{ kg}$ [Page 7].",
+          "sentences": [
+            "Bước 3 - Tính thể tích tầng bùn và tổng khối lượng sinh khối lưu giữ: Trừ chiều cao vùng nước trong $H_{\\text{clear}}$ bằng $0.5\\text{ m}$, chiều cao thực tế của tầng bùn $H_{\\text{sb}}$ bằng $5.5\\text{ m}$ và thể tích tầng bùn $V_{\\text{sb}}$ đạt $687.5\\text{ m}^3$. Ở nồng độ $X_{\\text{MLVSS}}$ bằng $30\\text{ kg/m}^3$, tổng khối lượng bùn giữ trong bể $M_{\\text{VSS}}$ đạt $20,625\\text{ kg}$ [Page 7]."
+          ],
+          "brief": [
+            "Bước 3 - Tính thể tích tầng bùn và tổng khối lượng sinh khối lưu giữ: Trừ chiều cao vùng nước trong $H_{\\text{clear}}$ bằng $0.5\\text{ m}$, chiều cao thực tế của tầng bùn $H_{\\text{sb}}$ bằng $5.5\\text{ m}$ và thể tích tầng bùn $V_{\\text{sb}}$ đạt $687.5\\text{ m}^3$. Ở nồng độ $X_{\\text{MLVSS}}$ bằng $30\\text{ kg/m}^3$, tổng khối lượng bùn giữ trong bể $M_{\\text{VSS}}$ đạt $20,625\\text{ kg}$ [Page 7]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tầng bùn cao $H_{\\text{sb}} = 5.5\\text{ m}$ có thể tích $V_{\\text{sb}} = 687.5\\text{ m}^3$ và giữ $M_{\\text{VSS}} = 20,625\\text{ kg}$ bùn.",
+          "takeaway": "Tầng bùn cao $H_{\\text{sb}} = 5.5\\text{ m}$ có thể tích $V_{\\text{sb}} = 687.5\\text{ m}^3$ và giữ $M_{\\text{VSS}} = 20,625\\text{ kg}$ bùn",
+          "topic": "Tầng bùn"
+        },
+        {
+          "id": "p-0e67c1b6",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Xác định tuổi bùn $\\theta_c$, sản lượng bùn và lượng bùn dư xả bỏ: Lượng chất hữu cơ khử mỗi ngày $\\Delta\\text{COD}$ bằng $5400\\text{ kg/d}$ và lượng cặn trơ vào bể bằng $250\\text{ kg/d}$. Giải phương trình cân bằng khối lượng bùn cho tuổi bùn $\\theta_c = 45.0\\text{ d}$, sản lượng sinh khối $P_{x,\\text{bio}}$ bằng $208.7\\text{ kg/d}$, tổng bùn $P_{x,\\text{VSS}}$ bằng $458.7\\text{ kg/d}$ và bùn xả bỏ $W_{\\text{waste}}$ bằng $398.7\\text{ kg/d}$ [Page 6].",
+          "sentences": [
+            "Bước 4 - Xác định tuổi bùn $\\theta_c$, sản lượng bùn và lượng bùn dư xả bỏ: Lượng chất hữu cơ khử mỗi ngày $\\Delta\\text{COD}$ bằng $5400\\text{ kg/d}$ và lượng cặn trơ vào bể bằng $250\\text{ kg/d}$.",
+            "Giải phương trình cân bằng khối lượng bùn cho tuổi bùn $\\theta_c = 45.0\\text{ d}$, sản lượng sinh khối $P_{x,\\text{bio}}$ bằng $208.7\\text{ kg/d}$, tổng bùn $P_{x,\\text{VSS}}$ bằng $458.7\\text{ kg/d}$ và bùn xả bỏ $W_{\\text{waste}}$ bằng $398.7\\text{ kg/d}$ [Page 6]."
+          ],
+          "brief": [
+            "Bước 4 - Xác định tuổi bùn $\\theta_c$, sản lượng bùn và lượng bùn dư xả bỏ: Lượng chất hữu cơ khử mỗi ngày $\\Delta\\text{COD}$ bằng $5400\\text{ kg/d}$ và lượng cặn trơ vào bể bằng $250\\text{ kg/d}$.",
+            "Giải phương trình cân bằng khối lượng bùn cho tuổi bùn $\\theta_c = 45.0\\text{ d}$, sản lượng sinh khối $P_{x,\\text{bio}}$ bằng $208.7\\text{ kg/d}$, tổng bùn $P_{x,\\text{VSS}}$ bằng $458.7\\text{ kg/d}$ và bùn xả bỏ $W_{\\text{waste}}$ bằng $398.7\\text{ kg/d}$ [Page 6]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tuổi bùn thực tế đạt $\\theta_c = 45.0\\text{ d}$ với tổng bùn $P_{x,\\text{VSS}} = 458.7\\text{ kg/d}$ và xả $W_{\\text{waste}} = 398.7\\text{ kg/d}$. Lượng chất hữu cơ khử mỗi ngày bằng $\\Delta\\text{COD} = 5400\\text{ kg/d}$ tạo ra sinh khối $P_{x,\\text{bio}} = 208.7\\text{ kg/d}$.",
+          "takeaway": "Tuổi bùn thực tế đạt $\\theta_c = 45.0\\text{ d}$ với tổng bùn $P_{x,\\text{VSS}} = 458.7\\text{ kg/d}$ và xả $W_{\\text{waste}} = 398.7\\text{ kg/d}$",
+          "topic": "Tuổi bùn"
+        },
+        {
+          "id": "p-8189fbe9",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 5 - Tính sản lượng khí metan và tổng lưu lượng khí sinh học ở $25^\\circ\\text{C}$: Lượng $\\text{COD}$ chuyển hóa thành khí metan $\\text{COD}_{\\text{CH}_4}$ đạt $5103.7\\text{ kg/d}$. Quy đổi hệ số $0.35\\text{ m}^3/\\text{kg}$ sang nhiệt độ vận hành $25^\\circ\\text{C}$, lưu lượng khí metan $V_{\\text{CH}_4}$ đạt $1949.8\\text{ m}^3/\\text{d}$ và tổng lưu lượng khí sinh học $V_{\\text{gas}}$ đạt $2999.7\\text{ m}^3/\\text{d}$ [Page 7].",
+          "sentences": [
+            "Bước 5 - Tính sản lượng khí metan và tổng lưu lượng khí sinh học ở $25^\\circ\\text{C}$: Lượng $\\text{COD}$ chuyển hóa thành khí metan $\\text{COD}_{\\text{CH}_4}$ đạt $5103.7\\text{ kg/d}$.",
+            "Quy đổi hệ số $0.35\\text{ m}^3/\\text{kg}$ sang nhiệt độ vận hành $25^\\circ\\text{C}$, lưu lượng khí metan $V_{\\text{CH}_4}$ đạt $1949.8\\text{ m}^3/\\text{d}$ và tổng lưu lượng khí sinh học $V_{\\text{gas}}$ đạt $2999.7\\text{ m}^3/\\text{d}$ [Page 7]."
+          ],
+          "brief": [
+            "Bước 5 - Tính sản lượng khí metan và tổng lưu lượng khí sinh học ở $25^\\circ\\text{C}$: Lượng $\\text{COD}$ chuyển hóa thành khí metan $\\text{COD}_{\\text{CH}_4}$ đạt $5103.7\\text{ kg/d}$.",
+            "Quy đổi hệ số $0.35\\text{ m}^3/\\text{kg}$ sang nhiệt độ vận hành $25^\\circ\\text{C}$, lưu lượng khí metan $V_{\\text{CH}_4}$ đạt $1949.8\\text{ m}^3/\\text{d}$ và tổng lưu lượng khí sinh học $V_{\\text{gas}}$ đạt $2999.7\\text{ m}^3/\\text{d}$ [Page 7]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Lưu lượng khí metan ở $25^\\circ\\text{C}$ đạt $V_{\\text{CH}_4} = 1949.8\\text{ m}^3/\\text{d}$ và tổng khí đạt $V_{\\text{gas}} = 2999.7\\text{ m}^3/\\text{d}$. Lượng chất hữu cơ chuyển hóa thành khí metan đạt $\\text{COD}_{\\text{CH}_4} = 5103.7\\text{ kg/d}$ tại hiệu suất $90\\%$.",
+          "takeaway": "Lưu lượng khí metan ở $25^\\circ\\text{C}$ đạt $V_{\\text{CH}_4} = 1949.8\\text{ m}^3/\\text{d}$ và tổng khí đạt $V_{\\text{gas}} = 2999.7\\text{ m}^3/\\text{d}$",
+          "topic": "Lưu lượng khí"
+        },
+        {
+          "id": "p-a3a788f2",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 6 - Kiểm tra nhu cầu dinh dưỡng tối thiểu và độ kiềm bổ sung: Theo tỷ lệ chuẩn $625:5:1:1$ của $(\\text{COD}/Y)$ đối với $\\text{N}$, $\\text{P}$ và $\\text{S}$ trên Slide 29, nồng độ tối thiểu cần duy trì là $\\text{N}_{\\min}$ bằng $96\\text{ g/m}^3$ và $\\text{P}_{\\min}$ bằng $\\text{S}_{\\min}$ bằng $19.2\\text{ g/m}^3$. Lượng độ kiềm cần bổ sung $M_{\\text{Alk}}$ bằng $1000\\text{ kg CaCO}_3/\\text{d}$ [Page 7].",
+          "sentences": [
+            "Bước 6 - Kiểm tra nhu cầu dinh dưỡng tối thiểu và độ kiềm bổ sung: Theo tỷ lệ chuẩn $625:5:1:1$ của $(\\text{COD}/Y)$ đối với $\\text{N}$, $\\text{P}$ và $\\text{S}$ trên Slide 29, nồng độ tối thiểu cần duy trì là $\\text{N}_{\\min}$ bằng $96\\text{ g/m}^3$ và $\\text{P}_{\\min}$ bằng $\\text{S}_{\\min}$ bằng $19.2\\text{ g/m}^3$.",
+            "Lượng độ kiềm cần bổ sung $M_{\\text{Alk}}$ bằng $1000\\text{ kg CaCO}_3/\\text{d}$ [Page 7]."
+          ],
+          "brief": [
+            "Bước 6 - Kiểm tra nhu cầu dinh dưỡng tối thiểu và độ kiềm bổ sung: Theo tỷ lệ chuẩn $625:5:1:1$ của $(\\text{COD}/Y)$ đối với $\\text{N}$, $\\text{P}$ và $\\text{S}$ trên Slide 29, nồng độ tối thiểu cần duy trì là $\\text{N}_{\\min}$ bằng $96\\text{ g/m}^3$ và $\\text{P}_{\\min}$ bằng $\\text{S}_{\\min}$ bằng $19.2\\text{ g/m}^3$.",
+            "Lượng độ kiềm cần bổ sung $M_{\\text{Alk}}$ bằng $1000\\text{ kg CaCO}_3/\\text{d}$ [Page 7]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Nồng độ dinh dưỡng tối thiểu cần $\\text{N}_{\\min} = 96\\text{ g/m}^3$, $\\text{P}_{\\min} = 19.2\\text{ g/m}^3$ và độ kiềm $M_{\\text{Alk}} = 1000\\text{ kg CaCO}_3/\\text{d}$. Tỷ lệ dinh dưỡng tối thiểu tuân theo định mức chuẩn $625:5:1:1$ giữa $(\\text{COD}/Y)$ với $\\text{N}$, $\\text{P}$ và $\\text{S}$.",
+          "takeaway": "Nồng độ dinh dưỡng tối thiểu cần $\\text{N}_{\\min} = 96\\text{ g/m}^3$, $\\text{P}_{\\min} = 19.2\\text{ g/m}^3$ và độ kiềm $M_{\\text{Alk}} = 1000\\text{ kg CaCO}_3/\\text{d}$",
+          "topic": "Nồng độ dinh"
+        },
+        {
+          "id": "p-47659d61-2",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Toàn bộ thông số thiết kế của bể UASB thỏa mãn giới hạn tiêu chuẩn. Các thông số thủy lực, tuổi bùn và tải trọng đều nằm trong vùng vận hành an toàn.",
+          "takeaway": "Toàn bộ thông số thiết kế của bể UASB thỏa mãn giới hạn tiêu chuẩn",
+          "topic": "thông số thiết"
+        },
+        {
+          "id": "p-27a8d8fe",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích vùng phản ứng và diện tích bể ($V_p,\\; A$): $750.0\\text{ m}^3,\\; 125.0\\text{ m}^2$ (Kiểm tra: $\\text{OLR} = 8.0\\text{ kg COD/m}^3\\cdot\\text{d} \\in [5,\\; 15]\\text{ - Đạt chuẩn Slide 20}$)",
+          "sentences": [
+            "Thể tích vùng phản ứng và diện tích bể ($V_p,\\; A$): $750.0\\text{ m}^3,\\; 125.0\\text{ m}^2$ (Kiểm tra: $\\text{OLR} = 8.0\\text{ kg COD/m}^3\\cdot\\text{d} \\in [5,\\; 15]\\text{ - Đạt chuẩn Slide 20}$)"
+          ],
+          "brief": [
+            "Thể tích vùng phản ứng và diện tích bể ($V_p,\\; A$): $750.0\\text{ m}^3,\\; 125.0\\text{ m}^2$ (Kiểm tra: $\\text{OLR} = 8.0\\text{ kg COD/m}^3\\cdot\\text{d} \\in [5,\\; 15]\\text{ - Đạt chuẩn Slide 20}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích vùng phản ứng đạt $V_p = 750.0\\text{ m}^3$ và diện tích bể đạt $A = 125.0\\text{ m}^2$.",
+          "takeaway": "Thể tích vùng phản ứng đạt $V_p = 750.0\\text{ m}^3$ và diện tích bể đạt $A = 125.0\\text{ m}^2$",
+          "topic": "Thể tích vùng"
+        },
+        {
+          "id": "p-c37e3274",
+          "kind": "list item",
+          "role": "result",
+          "full": "Kích thước hình học bể UASB ($W \\times L \\times H_{\\text{tot}}$): $7.91\\text{ m} \\times 15.81\\text{ m} \\times 7.5\\text{ m}$ (Kiểm tra: $H_p = 6.0\\text{ m} \\in [3,\\; 7]\\text{ m}\\text{ - Đạt chuẩn Slide 19}$)",
+          "sentences": [
+            "Kích thước hình học bể UASB ($W \\times L \\times H_{\\text{tot}}$): $7.91\\text{ m} \\times 15.81\\text{ m} \\times 7.5\\text{ m}$ (Kiểm tra: $H_p = 6.0\\text{ m} \\in [3,\\; 7]\\text{ m}\\text{ - Đạt chuẩn Slide 19}$)"
+          ],
+          "brief": [
+            "Kích thước hình học bể UASB ($W \\times L \\times H_{\\text{tot}}$): $7.91\\text{ m} \\times 15.81\\text{ m} \\times 7.5\\text{ m}$ (Kiểm tra: $H_p = 6.0\\text{ m} \\in [3,\\; 7]\\text{ m}\\text{ - Đạt chuẩn Slide 19}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Kích thước hình học bể UASB đạt $7.91\\text{ m} \\times 15.81\\text{ m} \\times 7.5\\text{ m}$ với $H_p = 6.0\\text{ m}$.",
+          "takeaway": "Kích thước hình học bể UASB đạt $7.91\\text{ m} \\times 15.81\\text{ m} \\times 7.5\\text{ m}$ với $H_p = 6.0\\text{ m}$",
+          "topic": "Kích thước hình"
+        },
+        {
+          "id": "p-34796032",
+          "kind": "list item",
+          "role": "result",
+          "full": "Vận tốc dòng chảy ngược ($v$): $0.167\\text{ m/h}$ (Kiểm tra: $v < 1.0\\text{ m/h}\\text{ cho nước thải có cặn - Đạt chuẩn Slide 19}$)",
+          "sentences": [
+            "Vận tốc dòng chảy ngược ($v$): $0.167\\text{ m/h}$ (Kiểm tra: $v < 1.0\\text{ m/h}\\text{ cho nước thải có cặn - Đạt chuẩn Slide 19}$)"
+          ],
+          "brief": [
+            "Vận tốc dòng chảy ngược ($v$): $0.167\\text{ m/h}$ (Kiểm tra: $v < 1.0\\text{ m/h}\\text{ cho nước thải có cặn - Đạt chuẩn Slide 19}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Vận tốc dòng chảy ngược đạt $v = 0.167\\text{ m/h}$ nhỏ hơn giới hạn $1.0\\text{ m/h}$.",
+          "takeaway": "Vận tốc dòng chảy ngược đạt $v = 0.167\\text{ m/h}$ nhỏ hơn giới hạn $1.0\\text{ m/h}$",
+          "topic": "Vận tốc dòng"
+        },
+        {
+          "id": "p-a286d03c",
+          "kind": "list item",
+          "role": "result",
+          "full": "Khối lượng bùn và tuổi bùn thực tế ($M_{\\text{VSS}},\\; \\theta_c$): $20,625\\text{ kg VSS},\\; 45.0\\text{ d}$ (Kiểm tra: $\\theta_c \\in [30,\\; 60]\\text{ d}\\text{ - Đạt chuẩn Slide 19}$)",
+          "sentences": [
+            "Khối lượng bùn và tuổi bùn thực tế ($M_{\\text{VSS}},\\; \\theta_c$): $20,625\\text{ kg VSS},\\; 45.0\\text{ d}$ (Kiểm tra: $\\theta_c \\in [30,\\; 60]\\text{ d}\\text{ - Đạt chuẩn Slide 19}$)"
+          ],
+          "brief": [
+            "Khối lượng bùn và tuổi bùn thực tế ($M_{\\text{VSS}},\\; \\theta_c$): $20,625\\text{ kg VSS},\\; 45.0\\text{ d}$ (Kiểm tra: $\\theta_c \\in [30,\\; 60]\\text{ d}\\text{ - Đạt chuẩn Slide 19}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khối lượng bùn lưu giữ đạt $M_{\\text{VSS}} = 20,625\\text{ kg VSS}$ ứng với tuổi bùn $\\theta_c = 45.0\\text{ d}$.",
+          "takeaway": "Khối lượng bùn lưu giữ đạt $M_{\\text{VSS}} = 20,625\\text{ kg VSS}$ ứng với tuổi bùn $\\theta_c = 45.0\\text{ d}$",
+          "topic": "Khối lượng bùn"
+        },
+        {
+          "id": "p-a00c6dfb",
+          "kind": "list item",
+          "role": "result",
+          "full": "Sản lượng bùn và lượng bùn xả bỏ ($P_{x,\\text{VSS}},\\; W_{\\text{waste}}$): $458.7\\text{ kg VSS/d},\\; 398.7\\text{ kg VSS/d}$ (Kiểm tra: $\\text{VSS}_e = 120\\text{ g/m}^3\\text{ - Đạt chuẩn Slide 21}$)",
+          "sentences": [
+            "Sản lượng bùn và lượng bùn xả bỏ ($P_{x,\\text{VSS}},\\; W_{\\text{waste}}$): $458.7\\text{ kg VSS/d},\\; 398.7\\text{ kg VSS/d}$ (Kiểm tra: $\\text{VSS}_e = 120\\text{ g/m}^3\\text{ - Đạt chuẩn Slide 21}$)"
+          ],
+          "brief": [
+            "Sản lượng bùn và lượng bùn xả bỏ ($P_{x,\\text{VSS}},\\; W_{\\text{waste}}$): $458.7\\text{ kg VSS/d},\\; 398.7\\text{ kg VSS/d}$ (Kiểm tra: $\\text{VSS}_e = 120\\text{ g/m}^3\\text{ - Đạt chuẩn Slide 21}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sản lượng bùn đạt $P_{x,\\text{VSS}} = 458.7\\text{ kg VSS/d}$ và lượng bùn xả đạt $W_{\\text{waste}} = 398.7\\text{ kg VSS/d}$.",
+          "takeaway": "Sản lượng bùn đạt $P_{x,\\text{VSS}} = 458.7\\text{ kg VSS/d}$ và lượng bùn xả đạt $W_{\\text{waste}} = 398.7\\text{ kg VSS/d}$",
+          "topic": "Sản lượng bùn"
+        },
+        {
+          "id": "p-89214f1b",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng khí metan và tổng khí sinh học ($V_{\\text{CH}_4},\\; V_{\\text{gas}}$): $1949.8\\text{ m}^3/\\text{d},\\; 2999.7\\text{ m}^3/\\text{d}$ (Kiểm tra: $\\%_{\\text{CH}_4} = 65\\%\\text{ ở } 25^\\circ\\text{C}\\text{ - Đạt chuẩn Slide 21}$)",
+          "sentences": [
+            "Lưu lượng khí metan và tổng khí sinh học ($V_{\\text{CH}_4},\\; V_{\\text{gas}}$): $1949.8\\text{ m}^3/\\text{d},\\; 2999.7\\text{ m}^3/\\text{d}$ (Kiểm tra: $\\%_{\\text{CH}_4} = 65\\%\\text{ ở } 25^\\circ\\text{C}\\text{ - Đạt chuẩn Slide 21}$)"
+          ],
+          "brief": [
+            "Lưu lượng khí metan và tổng khí sinh học ($V_{\\text{CH}_4},\\; V_{\\text{gas}}$): $1949.8\\text{ m}^3/\\text{d},\\; 2999.7\\text{ m}^3/\\text{d}$ (Kiểm tra: $\\%_{\\text{CH}_4} = 65\\%\\text{ ở } 25^\\circ\\text{C}\\text{ - Đạt chuẩn Slide 21}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng khí metan đạt $V_{\\text{CH}_4} = 1949.8\\text{ m}^3/\\text{d}$ và tổng khí đạt $V_{\\text{gas}} = 2999.7\\text{ m}^3/\\text{d}$.",
+          "takeaway": "Lưu lượng khí metan đạt $V_{\\text{CH}_4} = 1949.8\\text{ m}^3/\\text{d}$ và tổng khí đạt $V_{\\text{gas}} = 2999.7\\text{ m}^3/\\text{d}$",
+          "topic": "Lưu lượng khí"
+        },
+        {
+          "id": "p-4737ad71",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Các yêu cầu kiểm soát vận hành bể UASB trên Slide 29 và sơ đồ quyết định trên Slide 30 đặt ra các ngưỡng giới hạn nghiêm ngặt về độ kiềm, chất dinh dưỡng và độc chất [Page 7]. Hệ thống cần duy trì tỷ lệ nồng độ chất dinh dưỡng tối thiểu theo công thức $(\\text{COD}/Y) \\text{ đối với } \\text{N}, \\text{P và S} = (50/Y) \\text{ tương ứng với } 5, 1 \\text{ và } 1$, đồng thời bổ sung $1000\\text{ kg CaCO}_3/\\text{d}$ để duy trì độ kiềm cân bằng với $35\\%\\text{ CO}_2$ và kiểm soát nồng độ các chất gây ức chế dưới ngưỡng độc ($\\text{NH}_3\\text{-N} \\le 1500\\text{ mg/L}$, $\\text{S}^{2-} \\le 200\\text{ mg/L}$ và $\\text{Cl}^- \\le 15,000\\text{ mg/L}$) [Page 7]. Theo lưu đồ vận hành trên Slide 30, khi tải trọng hữu cơ nhỏ hơn $5\\text{ kg COD/m}^3\\cdot\\text{d}$ thì bể không cần tuần hoàn nước đầu ra, còn khi tải trọng nằm trong khoảng từ $5$ đến $20\\text{ kg COD/m}^3\\cdot\\text{d}$ thì người vận hành cần kiểm tra nồng độ sunfua ($\\text{S}^{2-}$) [Page 8]. Nếu $\\text{S}^{2-} < 200\\text{ mg/L}$ thì không cần tuần hoàn, nhưng nếu $\\text{S}^{2-} > 200\\text{ mg/L}$ thì phải tuần hoàn nước sau xử lý cho đến khi nồng độ $\\text{S}^{2-} < 100\\text{ mg/L}$ hoặc pha loãng dòng vào về mức tải trọng $5\\text{ kg COD/m}^3\\cdot\\text{d}$, và khi tải trọng vượt quá $20\\text{ kg COD/m}^3\\cdot\\text{d}$ thì bắt buộc phải pha loãng nước thải đầu vào [Page 8].",
+          "sentences": [
+            "Các yêu cầu kiểm soát vận hành bể UASB trên Slide 29 và sơ đồ quyết định trên Slide 30 đặt ra các ngưỡng giới hạn nghiêm ngặt về độ kiềm, chất dinh dưỡng và độc chất [Page 7].",
+            "Hệ thống cần duy trì tỷ lệ nồng độ chất dinh dưỡng tối thiểu theo công thức $(\\text{COD}/Y) \\text{ đối với } \\text{N}, \\text{P và S} = (50/Y) \\text{ tương ứng với } 5, 1 \\text{ và } 1$, đồng thời bổ sung $1000\\text{ kg CaCO}_3/\\text{d}$ để duy trì độ kiềm cân bằng với $35\\%\\text{ CO}_2$ và kiểm soát nồng độ các chất gây ức chế dưới ngưỡng độc ($\\text{NH}_3\\text{-N} \\le 1500\\text{ mg/L}$, $\\text{S}^{2-} \\le 200\\text{ mg/L}$ và $\\text{Cl}^- \\le 15,000\\text{ mg/L}$) [Page 7].",
+            "Theo lưu đồ vận hành trên Slide 30, khi tải trọng hữu cơ nhỏ hơn $5\\text{ kg COD/m}^3\\cdot\\text{d}$ thì bể không cần tuần hoàn nước đầu ra, còn khi tải trọng nằm trong khoảng từ $5$ đến $20\\text{ kg COD/m}^3\\cdot\\text{d}$ thì người vận hành cần kiểm tra nồng độ sunfua ($\\text{S}^{2-}$) [Page 8].",
+            "Nếu $\\text{S}^{2-} < 200\\text{ mg/L}$ thì không cần tuần hoàn, nhưng nếu $\\text{S}^{2-} > 200\\text{ mg/L}$ thì phải tuần hoàn nước sau xử lý cho đến khi nồng độ $\\text{S}^{2-} < 100\\text{ mg/L}$ hoặc pha loãng dòng vào về mức tải trọng $5\\text{ kg COD/m}^3\\cdot\\text{d}$, và khi tải trọng vượt quá $20\\text{ kg COD/m}^3\\cdot\\text{d}$ thì bắt buộc phải pha loãng nước thải đầu vào [Page 8]."
+          ],
+          "brief": [
+            "Hệ thống cần duy trì tỷ lệ nồng độ chất dinh dưỡng tối thiểu theo công thức $(\\text{COD}/Y) \\text{ đối với } \\text{N}, \\text{P và S} = (50/Y) \\text{ tương ứng với } 5, 1 \\text{ và } 1$, đồng thời bổ sung $1000\\text{ kg CaCO}_3/\\text{d}$ để duy trì độ kiềm cân bằng với $35\\%\\text{ CO}_2$ và kiểm soát nồng độ các chất gây ức chế dưới ngưỡng độc ($\\text{NH}_3\\text{-N} \\le 1500\\text{ mg/L}$, $\\text{S}^{2-} \\le 200\\text{ mg/L}$ và $\\text{Cl}^- \\le 15,000\\text{ mg/L}$) [Page 7].",
+            "Nếu $\\text{S}^{2-} < 200\\text{ mg/L}$ thì không cần tuần hoàn, nhưng nếu $\\text{S}^{2-} > 200\\text{ mg/L}$ thì phải tuần hoàn nước sau xử lý cho đến khi nồng độ $\\text{S}^{2-} < 100\\text{ mg/L}$ hoặc pha loãng dòng vào về mức tải trọng $5\\text{ kg COD/m}^3\\cdot\\text{d}$, và khi tải trọng vượt quá $20\\text{ kg COD/m}^3\\cdot\\text{d}$ thì bắt buộc phải pha loãng nước thải đầu vào [Page 8]."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Vận hành bể UASB cần kiểm soát độ kiềm, dinh dưỡng và ngưỡng độc sunfua $\\text{S}^{2-}$. Khi nồng độ $\\text{S}^{2-} > 200\\text{ mg/L}$ hoặc tải trọng vượt $20\\text{ kg COD/m}^3\\cdot\\text{d}$ thì phải tuần hoàn hoặc pha loãng.",
+          "takeaway": "Vận hành bể UASB cần kiểm soát độ kiềm, dinh dưỡng và ngưỡng độc sunfua $\\text{S}^{2-}$",
+          "topic": "Vận hành bể"
+        },
+        {
+          "id": "p-83bc80e2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 1 (Page 2)",
+          "sentences": [
+            "Figure 1 (Page 2)"
+          ],
+          "brief": [
+            "Figure 1 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 1 trang 2 vẽ sơ đồ bể kỵ khí khuấy trộn hoàn toàn để tách khí.",
+          "takeaway": "Hình 1 trang 2 vẽ sơ đồ bể kỵ khí khuấy trộn hoàn toàn để tách khí",
+          "topic": "Hình 1"
+        },
+        {
+          "id": "p-18eb3e10",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 2 (Page 2)",
+          "sentences": [
+            "Figure 2 (Page 2)"
+          ],
+          "brief": [
+            "Figure 2 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 2 trang 2 vẽ cụm bể phản ứng và buồng tách khí để thu metan.",
+          "takeaway": "Hình 2 trang 2 vẽ cụm bể phản ứng và buồng tách khí để thu metan",
+          "topic": "Hình 2"
+        },
+        {
+          "id": "p-ae99f2b3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 3 (Page 2)",
+          "sentences": [
+            "Figure 3 (Page 2)"
+          ],
+          "brief": [
+            "Figure 3 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 3 trang 2 vẽ bể lắng thứ cấp để tuần hoàn bùn kỵ khí.",
+          "takeaway": "Hình 3 trang 2 vẽ bể lắng thứ cấp để tuần hoàn bùn kỵ khí",
+          "topic": "Hình 3"
+        },
+        {
+          "id": "p-7952bbcc",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 4 (Page 3)",
+          "sentences": [
+            "Figure 4 (Page 3)"
+          ],
+          "brief": [
+            "Figure 4 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 4 trang 3 quy định bảng hệ số động học để tính toán bể kỵ khí.",
+          "takeaway": "Hình 4 trang 3 quy định bảng hệ số động học để tính toán bể kỵ khí",
+          "topic": "Hình 4"
+        },
+        {
+          "id": "p-fe3c2928",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 5 (Page 4)",
+          "sentences": [
+            "Figure 5 (Page 4)"
+          ],
+          "brief": [
+            "Figure 5 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 5 trang 4 quy định bảng số liệu đầu vào để giải bài tập 1.",
+          "takeaway": "Hình 5 trang 4 quy định bảng số liệu đầu vào để giải bài tập 1",
+          "topic": "Hình 5"
+        },
+        {
+          "id": "p-e211cbe3",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 6 (Page 4)",
+          "sentences": [
+            "Figure 6 (Page 4)"
+          ],
+          "brief": [
+            "Figure 6 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 6 trang 4 vẽ cấu tạo bể UASB để tách ba pha khí-lỏng-rắn.",
+          "takeaway": "Hình 6 trang 4 vẽ cấu tạo bể UASB để tách ba pha khí-lỏng-rắn",
+          "topic": "Hình 6"
+        },
+        {
+          "id": "p-44e08b02",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 7 (Page 5)",
+          "sentences": [
+            "Figure 7 (Page 5)"
+          ],
+          "brief": [
+            "Figure 7 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 7 trang 5 vẽ vùng chăn bùn và chụp thu khí để giữ bùn hạt.",
+          "takeaway": "Hình 7 trang 5 vẽ vùng chăn bùn và chụp thu khí để giữ bùn hạt",
+          "topic": "Hình 7"
+        },
+        {
+          "id": "p-5d80bd1e",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 8 (Page 5)",
+          "sentences": [
+            "Figure 8 (Page 5)"
+          ],
+          "brief": [
+            "Figure 8 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 8 trang 5 vẽ bốn bước kết tụ để hình thành hạt bùn kỵ khí.",
+          "takeaway": "Hình 8 trang 5 vẽ bốn bước kết tụ để hình thành hạt bùn kỵ khí",
+          "topic": "Hình 8"
+        },
+        {
+          "id": "p-5080dc41",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 9 (Page 6)",
+          "sentences": [
+            "Figure 9 (Page 6)"
+          ],
+          "brief": [
+            "Figure 9 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 9 trang 6 quy định tuổi bùn SRT theo nhiệt độ để thiết kế UASB.",
+          "takeaway": "Hình 9 trang 6 quy định tuổi bùn SRT theo nhiệt độ để thiết kế UASB",
+          "topic": "Hình 9"
+        },
+        {
+          "id": "p-7269c17d",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 10 (Page 6)",
+          "sentences": [
+            "Figure 10 (Page 6)"
+          ],
+          "brief": [
+            "Figure 10 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 10 trang 6 quy định vận tốc dòng lên và chiều cao để thiết kế UASB.",
+          "takeaway": "Hình 10 trang 6 quy định vận tốc dòng lên và chiều cao để thiết kế UASB",
+          "topic": "Hình 10"
+        },
+        {
+          "id": "p-baf86e71",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 11 (Page 6)",
+          "sentences": [
+            "Figure 11 (Page 6)"
+          ],
+          "brief": [
+            "Figure 11 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 11 trang 6 vẽ đồ thị nhiệt độ và tải trọng OLR để chọn thể tích.",
+          "takeaway": "Hình 11 trang 6 vẽ đồ thị nhiệt độ và tải trọng OLR để chọn thể tích",
+          "topic": "Hình 11"
+        },
+        {
+          "id": "p-6e5a795e",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 12 (Page 7)",
+          "sentences": [
+            "Figure 12 (Page 7)"
+          ],
+          "brief": [
+            "Figure 12 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 12 trang 7 quy định bảng thông số đầu vào để giải bài tập UASB.",
+          "takeaway": "Hình 12 trang 7 quy định bảng thông số đầu vào để giải bài tập UASB",
+          "topic": "Hình 12"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

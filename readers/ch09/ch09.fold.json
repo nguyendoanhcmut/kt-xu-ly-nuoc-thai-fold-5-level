@@ -1,0 +1,1035 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-9-c-ng-tr-nh-kh-photpho-sinh-h-c-0e0657dc",
+  "lang": "vi",
+  "title": "Chương 9 - Công trình Khử Photpho Sinh học (Chapter 9 - Biological Phosphorus Removal Unit)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch09_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:44:17Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-07T23:41:58",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-tổng-quan-cơ-chế-khử-photpho-sinh-học-tăng-cường-ebpr-mechanism-and-paos",
+      "num": "1",
+      "title": "Tổng quan Cơ chế Khử Photpho Sinh học Tăng cường (EBPR Mechanism and PAOs)",
+      "depth": 1,
+      "takeaway": "Vi khuẩn PAOs luân chuyển qua vùng kỵ khí và hiếu khí để tích lũy polyphosphate",
+      "topic": "Vi khuẩn PAOs",
+      "units": [
+        {
+          "id": "p-da22586d",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Chương 9 trình bày cơ sở vi sinh vật học, các sơ đồ công nghệ dòng chính (A/O, A2O, UCT) và phương pháp tính toán thiết kế công trình khử photpho sinh học tăng cường (Enhanced Biological Phosphorus Removal hay EBPR) [Page 1]. Hệ thống EBPR sử dụng nhóm vi khuẩn tích lũy photpho (Phosphorus Accumulating Organisms hay PAOs) có khả năng dự trữ lượng lớn photpho bên trong tế bào dưới dạng hạt polyphosphate rồi loại bỏ ra khỏi hệ thống qua đường xả bùn dư (sludge wasting) [Page 3]. Để tạo lợi thế cạnh tranh cho vi khuẩn PAOs so với các vi khuẩn dị dưỡng thông thường, cấu hình EBPR luôn bố trí một bể kỵ khí (anaerobic selector tank) có thời gian lưu nước ngắn từ $0.5\\text{ h}$ đến $1.0\\text{ h}$ đặt ngay phía trước bể hiếu khí [Page 3]. Trong khi sinh khối vi khuẩn thông thường sinh ra từ quá trình khử BOD chỉ chứa khoảng $0.015\\text{ g P/g VSS}$ đến $0.02\\text{ g P/g VSS}$, sinh khối vi khuẩn PAOs tích lũy tới $0.20\\text{ g P/g VSS}$ đến $0.30\\text{ g P/g VSS}$ ở $20^\\circ\\text{C}$ [Page 3].",
+          "sentences": [
+            "Chương 9 trình bày cơ sở vi sinh vật học, các sơ đồ công nghệ dòng chính (A/O, A2O, UCT) và phương pháp tính toán thiết kế công trình khử photpho sinh học tăng cường (Enhanced Biological Phosphorus Removal hay EBPR) [Page 1].",
+            "Hệ thống EBPR sử dụng nhóm vi khuẩn tích lũy photpho (Phosphorus Accumulating Organisms hay PAOs) có khả năng dự trữ lượng lớn photpho bên trong tế bào dưới dạng hạt polyphosphate rồi loại bỏ ra khỏi hệ thống qua đường xả bùn dư (sludge wasting) [Page 3]. Để tạo lợi thế cạnh tranh cho vi khuẩn PAOs so với các vi khuẩn dị dưỡng thông thường, cấu hình EBPR luôn bố trí một bể kỵ khí (anaerobic selector tank) có thời gian lưu nước ngắn từ $0.5\\text{ h}$ đến $1.0\\text{ h}$ đặt ngay phía trước bể hiếu khí [Page 3].",
+            "Trong khi sinh khối vi khuẩn thông thường sinh ra từ quá trình khử BOD chỉ chứa khoảng $0.015\\text{ g P/g VSS}$ đến $0.02\\text{ g P/g VSS}$, sinh khối vi khuẩn PAOs tích lũy tới $0.20\\text{ g P/g VSS}$ đến $0.30\\text{ g P/g VSS}$ ở $20^\\circ\\text{C}$ [Page 3]."
+          ],
+          "brief": [
+            "Hệ thống EBPR sử dụng nhóm vi khuẩn tích lũy photpho (Phosphorus Accumulating Organisms hay PAOs) có khả năng dự trữ lượng lớn photpho bên trong tế bào dưới dạng hạt polyphosphate rồi loại bỏ ra khỏi hệ thống qua đường xả bùn dư (sludge wasting) [Page 3]. Để tạo lợi thế cạnh tranh cho vi khuẩn PAOs so với các vi khuẩn dị dưỡng thông thường, cấu hình EBPR luôn bố trí một bể kỵ khí (anaerobic selector tank) có thời gian lưu nước ngắn từ $0.5\\text{ h}$ đến $1.0\\text{ h}$ đặt ngay phía trước bể hiếu khí [Page 3].",
+            "Trong khi sinh khối vi khuẩn thông thường sinh ra từ quá trình khử BOD chỉ chứa khoảng $0.015\\text{ g P/g VSS}$ đến $0.02\\text{ g P/g VSS}$, sinh khối vi khuẩn PAOs tích lũy tới $0.20\\text{ g P/g VSS}$ đến $0.30\\text{ g P/g VSS}$ ở $20^\\circ\\text{C}$ [Page 3]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Vi khuẩn PAOs tích lũy $0.20\\text{ g P/g VSS}$ đến $0.30\\text{ g P/g VSS}$ nhờ bể chọn lọc kỵ khí. Bể kỵ khí có thời gian lưu $0.5\\text{ h}$ đến $1.0\\text{ h}$ tạo lợi thế cạnh tranh cho PAOs trước bể hiếu khí.",
+          "takeaway": "Vi khuẩn PAOs tích lũy $0.20\\text{ g P/g VSS}$ đến $0.30\\text{ g P/g VSS}$ nhờ bể chọn lọc kỵ khí",
+          "topic": "Vi khuẩn PAOs"
+        },
+        {
+          "id": "p-974d94ec",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Cơ chế sinh hóa của vi khuẩn PAOs diễn ra luân phiên qua hai môi trường kỵ khí (anaerobic) và hiếu khí (aerobic) nối tiếp nhau [Page 4]. Tại vùng kỵ khí, nơi hoàn toàn không có oxy hòa tan ($\\text{O}_2$) và không có nitrat hoặc nitrit ($\\text{NO}_3^-$ hoặc $\\text{NO}_2^-$), vi khuẩn PAOs thủy phân chuỗi polyphosphate nội bào thành orthophosphate ($\\text{PO}_4^{3-}$) giải phóng ra ngoài môi trường nước để lấy năng lượng đồng hóa các axit béo dễ bay hơi (VFAs như axit axetic và axit propionic từ $\\text{rbCOD}$) thành hạt dự trữ nội bào poly-$\\beta$-hydroxyalkanoate (PHA, gồm PHB và PHV) [Page 4]. Các vi khuẩn dị dưỡng khác không thể tiêu thụ $\\text{rbCOD}$ trong bể kỵ khí do thiếu chất nhận điện tử (electron acceptors) [Page 3]. Khi hỗn hợp bùn chuyển sang bể hiếu khí, vi khuẩn PAOs oxy hóa lượng PHA dự trữ để sinh trưởng tế bào mới và nạp lại năng lượng, bởi vì năng lượng giải phóng từ quá trình oxy hóa PHB lớn gấp $24$ đến $36$ lần năng lượng tiêu tốn khi tổng hợp PHB [Page 5]. Nhờ nguồn năng lượng dồi dào này, vi khuẩn PAOs hấp thụ mạnh mẽ photpho hòa tan ($\\text{PO}_4^{3-}$) từ nước thải để tái tổng hợp polyphosphate dự trữ ở mức cao gấp nhiều lần lượng đã giải phóng, và lượng photpho này được tách khỏi hệ thống khi xả bùn hoạt tính dư [Page 5].",
+          "sentences": [
+            "Cơ chế sinh hóa của vi khuẩn PAOs diễn ra luân phiên qua hai môi trường kỵ khí (anaerobic) và hiếu khí (aerobic) nối tiếp nhau [Page 4].",
+            "Tại vùng kỵ khí, nơi hoàn toàn không có oxy hòa tan ($\\text{O}_2$) và không có nitrat hoặc nitrit ($\\text{NO}_3^-$ hoặc $\\text{NO}_2^-$), vi khuẩn PAOs thủy phân chuỗi polyphosphate nội bào thành orthophosphate ($\\text{PO}_4^{3-}$) giải phóng ra ngoài môi trường nước để lấy năng lượng đồng hóa các axit béo dễ bay hơi (VFAs như axit axetic và axit propionic từ $\\text{rbCOD}$) thành hạt dự trữ nội bào poly-$\\beta$-hydroxyalkanoate (PHA, gồm PHB và PHV) [Page 4].",
+            "Các vi khuẩn dị dưỡng khác không thể tiêu thụ $\\text{rbCOD}$ trong bể kỵ khí do thiếu chất nhận điện tử (electron acceptors) [Page 3].",
+            "Khi hỗn hợp bùn chuyển sang bể hiếu khí, vi khuẩn PAOs oxy hóa lượng PHA dự trữ để sinh trưởng tế bào mới và nạp lại năng lượng, bởi vì năng lượng giải phóng từ quá trình oxy hóa PHB lớn gấp $24$ đến $36$ lần năng lượng tiêu tốn khi tổng hợp PHB [Page 5].",
+            "Nhờ nguồn năng lượng dồi dào này, vi khuẩn PAOs hấp thụ mạnh mẽ photpho hòa tan ($\\text{PO}_4^{3-}$) từ nước thải để tái tổng hợp polyphosphate dự trữ ở mức cao gấp nhiều lần lượng đã giải phóng, và lượng photpho này được tách khỏi hệ thống khi xả bùn hoạt tính dư [Page 5]."
+          ],
+          "brief": [
+            "Tại vùng kỵ khí, nơi hoàn toàn không có oxy hòa tan ($\\text{O}_2$) và không có nitrat hoặc nitrit ($\\text{NO}_3^-$ hoặc $\\text{NO}_2^-$), vi khuẩn PAOs thủy phân chuỗi polyphosphate nội bào thành orthophosphate ($\\text{PO}_4^{3-}$) giải phóng ra ngoài môi trường nước để lấy năng lượng đồng hóa các axit béo dễ bay hơi (VFAs như axit axetic và axit propionic từ $\\text{rbCOD}$) thành hạt dự trữ nội bào poly-$\\beta$-hydroxyalkanoate (PHA, gồm PHB và PHV) [Page 4].",
+            "Khi hỗn hợp bùn chuyển sang bể hiếu khí, vi khuẩn PAOs oxy hóa lượng PHA dự trữ để sinh trưởng tế bào mới và nạp lại năng lượng, bởi vì năng lượng giải phóng từ quá trình oxy hóa PHB lớn gấp $24$ đến $36$ lần năng lượng tiêu tốn khi tổng hợp PHB [Page 5]."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "PAOs thủy phân polyphosphate để tích trữ PHA kỵ khí rồi oxy hóa PHA để thu P. Năng lượng oxy hóa PHB lớn gấp $24$ đến $36$ lần giúp PAOs hấp thụ vượt mức photpho hòa tan.",
+          "takeaway": "PAOs thủy phân polyphosphate để tích trữ PHA kỵ khí rồi oxy hóa PHA để thu P",
+          "topic": "tích trữ PHA"
+        },
+        {
+          "id": "p-c0f700c3",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Các yếu tố vận hành ảnh hưởng trực tiếp đến hiệu quả của quá trình EBPR được tổng hợp trên Slide 11 [Page 6]. Sự hiện diện của oxy hòa tan hoặc nitrat trong bể chọn lọc kỵ khí sẽ làm suy giảm hiệu suất khử photpho do vi khuẩn dị dưỡng thường dùng $\\text{O}_2$ và $\\text{NO}_3^-$ để tiêu thụ mất nguồn VFA của PAOs [Page 6]. Việc vận hành ở tuổi bùn (SRT) quá dài nhằm mục đích nitrat hóa cũng làm giảm hiệu quả khử photpho do tăng phân hủy nội bào và giải phóng photpho thứ cấp [Page 6]. Sinh khối giàu vi khuẩn PAOs có tỷ số $\\text{VSS/TSS}$ thấp từ $60\\%$ đến $65\\%$ do chứa nhiều muối vô cơ polyphosphate, so với tỷ số $\\text{VSS/TSS}$ từ $80\\%$ đến $85\\%$ của vi khuẩn dị dưỡng thông thường [Page 6]. Ngoài ra, quá trình tổng hợp polyphosphate đòi hỏi các cation đồng vận chuyển theo tỷ lệ mol khuyến cáo $\\text{P} / \\text{Mg} / \\text{K} / \\text{Ca} = 1 / 0.28 / 0.26 / 0.09$, và hệ thống cần tiêu thụ từ $7\\text{ g rbCOD}$ đến $11\\text{ g rbCOD}$ để loại bỏ được $1\\text{ g P}$ theo cơ chế EBPR [Page 6].",
+          "sentences": [
+            "Các yếu tố vận hành ảnh hưởng trực tiếp đến hiệu quả của quá trình EBPR được tổng hợp trên Slide 11 [Page 6].",
+            "Sự hiện diện của oxy hòa tan hoặc nitrat trong bể chọn lọc kỵ khí sẽ làm suy giảm hiệu suất khử photpho do vi khuẩn dị dưỡng thường dùng $\\text{O}_2$ và $\\text{NO}_3^-$ để tiêu thụ mất nguồn VFA của PAOs [Page 6].",
+            "Việc vận hành ở tuổi bùn (SRT) quá dài nhằm mục đích nitrat hóa cũng làm giảm hiệu quả khử photpho do tăng phân hủy nội bào và giải phóng photpho thứ cấp [Page 6].",
+            "Sinh khối giàu vi khuẩn PAOs có tỷ số $\\text{VSS/TSS}$ thấp từ $60\\%$ đến $65\\%$ do chứa nhiều muối vô cơ polyphosphate, so với tỷ số $\\text{VSS/TSS}$ từ $80\\%$ đến $85\\%$ của vi khuẩn dị dưỡng thông thường [Page 6].",
+            "Ngoài ra, quá trình tổng hợp polyphosphate đòi hỏi các cation đồng vận chuyển theo tỷ lệ mol khuyến cáo $\\text{P} / \\text{Mg} / \\text{K} / \\text{Ca} = 1 / 0.28 / 0.26 / 0.09$, và hệ thống cần tiêu thụ từ $7\\text{ g rbCOD}$ đến $11\\text{ g rbCOD}$ để loại bỏ được $1\\text{ g P}$ theo cơ chế EBPR [Page 6]."
+          ],
+          "brief": [
+            "Sự hiện diện của oxy hòa tan hoặc nitrat trong bể chọn lọc kỵ khí sẽ làm suy giảm hiệu suất khử photpho do vi khuẩn dị dưỡng thường dùng $\\text{O}_2$ và $\\text{NO}_3^-$ để tiêu thụ mất nguồn VFA của PAOs [Page 6].",
+            "Ngoài ra, quá trình tổng hợp polyphosphate đòi hỏi các cation đồng vận chuyển theo tỷ lệ mol khuyến cáo $\\text{P} / \\text{Mg} / \\text{K} / \\text{Ca} = 1 / 0.28 / 0.26 / 0.09$, và hệ thống cần tiêu thụ từ $7\\text{ g rbCOD}$ đến $11\\text{ g rbCOD}$ để loại bỏ được $1\\text{ g P}$ theo cơ chế EBPR [Page 6]."
+          ],
+          "evidence": [
+            1,
+            4
+          ],
+          "key": "Quá trình EBPR cần $7\\text{ g rbCOD}$ đến $11\\text{ g rbCOD}$ cho mỗi gam P và ngăn oxy cùng nitrat. Sinh khối PAOs có tỷ số VSS/TSS thấp từ $60\\%$ đến $65\\%$ và cần đủ các ion Mg, K, Ca.",
+          "takeaway": "Quá trình EBPR cần $7\\text{ g rbCOD}$ đến $11\\text{ g rbCOD}$ cho mỗi gam P và ngăn oxy cùng nitrat",
+          "topic": "Quá trình EBPR"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-lời-giải-chi-tiết-bài-tập-1-ch09_ex01---ước-tính-lượng-photpho-khử-sinh-học",
+      "num": "2",
+      "title": "Lời giải Chi tiết Bài tập 1 (ch09_ex01) - Ước tính Lượng Photpho Khử Sinh học",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch09_ex01-slide-12-trang-6-ước-tính-lượng-photpho-loại-bỏ-bằng-quá-trình-sinh-học-tăng-cường-ebpr",
+      "num": "",
+      "title": "Bài tập ch09_ex01 (Slide 12, Trang 6): Ước tính Lượng Photpho Loại bỏ bằng Quá trình Sinh học Tăng cường (EBPR)",
+      "depth": 2,
+      "takeaway": "Hệ thống EBPR hấp thụ $\\text{P}_{\\text{uptake}} = 5.34\\text{ g P/m}^3$ và giảm photpho hòa tan xuống $\\text{P}_{\\text{sol,e}} = 0.66\\text{ g P/m}^3$",
+      "topic": "Hệ thống EBPR",
+      "units": [
+        {
+          "id": "p-15181e75",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 11–12): Ước tính lượng photpho được loại bỏ và nồng độ photpho đầu ra của hệ thống khử photpho sinh học tăng cường (EBPR) vận hành ở tuổi bùn $\\theta_c = 5\\text{ d}$ xử lý dòng nước thải có tổng $\\text{COD} = 300\\text{ g/m}^3$, $\\text{bCOD} = 200\\text{ g/m}^3$, $\\text{rbCOD} = 50\\text{ g/m}^3$ và tổng photpho đầu vào $\\text{P}_0 = 6.0\\text{ g/m}^3$ [Page 6].",
+          "sentences": [
+            "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 11–12): Ước tính lượng photpho được loại bỏ và nồng độ photpho đầu ra của hệ thống khử photpho sinh học tăng cường (EBPR) vận hành ở tuổi bùn $\\theta_c = 5\\text{ d}$ xử lý dòng nước thải có tổng $\\text{COD} = 300\\text{ g/m}^3$, $\\text{bCOD} = 200\\text{ g/m}^3$, $\\text{rbCOD} = 50\\text{ g/m}^3$ và tổng photpho đầu vào $\\text{P}_0 = 6.0\\text{ g/m}^3$ [Page 6]."
+          ],
+          "brief": [
+            "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 11–12): Ước tính lượng photpho được loại bỏ và nồng độ photpho đầu ra của hệ thống khử photpho sinh học tăng cường (EBPR) vận hành ở tuổi bùn $\\theta_c = 5\\text{ d}$ xử lý dòng nước thải có tổng $\\text{COD} = 300\\text{ g/m}^3$, $\\text{bCOD} = 200\\text{ g/m}^3$, $\\text{rbCOD} = 50\\text{ g/m}^3$ và tổng photpho đầu vào $\\text{P}_0 = 6.0\\text{ g/m}^3$ [Page 6]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài ước tính khử P ở $\\theta_c = 5\\text{ d}$ cho $\\text{bCOD} = 200\\text{ g/m}^3$, $\\text{rbCOD} = 50\\text{ g/m}^3$ và $\\text{P}_0 = 6.0\\text{ g/m}^3$.",
+          "takeaway": "Đề bài ước tính khử P ở $\\theta_c = 5\\text{ d}$ cho $\\text{bCOD} = 200\\text{ g/m}^3$, $\\text{rbCOD} = 50\\text{ g/m}^3$ và $\\text{P}_0 = 6.0\\text{ g/m}^3$",
+          "topic": "ước tính khử"
+        },
+        {
+          "id": "p-8b7ff3ba",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Xác định hệ số sản lượng quan sát $Y_{\\text{obs}}$ và phân bố cơ chất: Ở tuổi bùn $\\theta_c = 5\\text{ d}$, hệ số sản lượng sinh khối quan sát $Y_{\\text{obs}}$ đạt $0.3214\\text{ g VSS/g bCOD}$. Lượng cơ chất $\\text{bCOD}_{\\text{PAO}}$ do vi khuẩn PAOs hấp thụ dưới dạng axetat bằng $45.0\\text{ g/m}^3$, và phần còn lại $\\text{bCOD}_{\\text{other}}$ cho vi khuẩn dị dưỡng khác bằng $155.0\\text{ g/m}^3$ [Page 6].",
+          "sentences": [
+            "Bước 1 - Xác định hệ số sản lượng quan sát $Y_{\\text{obs}}$ và phân bố cơ chất: Ở tuổi bùn $\\theta_c = 5\\text{ d}$, hệ số sản lượng sinh khối quan sát $Y_{\\text{obs}}$ đạt $0.3214\\text{ g VSS/g bCOD}$.",
+            "Lượng cơ chất $\\text{bCOD}_{\\text{PAO}}$ do vi khuẩn PAOs hấp thụ dưới dạng axetat bằng $45.0\\text{ g/m}^3$, và phần còn lại $\\text{bCOD}_{\\text{other}}$ cho vi khuẩn dị dưỡng khác bằng $155.0\\text{ g/m}^3$ [Page 6]."
+          ],
+          "brief": [
+            "Bước 1 - Xác định hệ số sản lượng quan sát $Y_{\\text{obs}}$ và phân bố cơ chất: Ở tuổi bùn $\\theta_c = 5\\text{ d}$, hệ số sản lượng sinh khối quan sát $Y_{\\text{obs}}$ đạt $0.3214\\text{ g VSS/g bCOD}$.",
+            "Lượng cơ chất $\\text{bCOD}_{\\text{PAO}}$ do vi khuẩn PAOs hấp thụ dưới dạng axetat bằng $45.0\\text{ g/m}^3$, và phần còn lại $\\text{bCOD}_{\\text{other}}$ cho vi khuẩn dị dưỡng khác bằng $155.0\\text{ g/m}^3$ [Page 6]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Hệ số sản lượng quan sát đạt $Y_{\\text{obs}} = 0.3214\\text{ g VSS/g bCOD}$ với $\\text{bCOD}_{\\text{PAO}} = 45.0\\text{ g/m}^3$. Phần cơ chất dễ phân hủy còn lại cho các vi khuẩn dị dưỡng khác bằng $\\text{bCOD}_{\\text{other}} = 155.0\\text{ g/m}^3$.",
+          "takeaway": "Hệ số sản lượng quan sát đạt $Y_{\\text{obs}} = 0.3214\\text{ g VSS/g bCOD}$ với $\\text{bCOD}_{\\text{PAO}} = 45.0\\text{ g/m}^3$",
+          "topic": "sản lượng quan"
+        },
+        {
+          "id": "p-2ba15787",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính nồng độ sinh khối tạo thành trên một đơn vị lưu lượng: Sinh khối vi khuẩn tích lũy photpho tạo thành $\\Delta X_{\\text{PAO}}$ đạt $14.46\\text{ g VSS/m}^3$ và sinh khối vi khuẩn dị dưỡng khác $\\Delta X_{\\text{other}}$ đạt $49.82\\text{ g VSS/m}^3$. Tổng nồng độ sinh khối tạo thành $\\Delta X_{\\text{tot}}$ bằng $64.29\\text{ g VSS/m}^3$ [Page 6].",
+          "sentences": [
+            "Bước 2 - Tính nồng độ sinh khối tạo thành trên một đơn vị lưu lượng: Sinh khối vi khuẩn tích lũy photpho tạo thành $\\Delta X_{\\text{PAO}}$ đạt $14.46\\text{ g VSS/m}^3$ và sinh khối vi khuẩn dị dưỡng khác $\\Delta X_{\\text{other}}$ đạt $49.82\\text{ g VSS/m}^3$.",
+            "Tổng nồng độ sinh khối tạo thành $\\Delta X_{\\text{tot}}$ bằng $64.29\\text{ g VSS/m}^3$ [Page 6]."
+          ],
+          "brief": [
+            "Bước 2 - Tính nồng độ sinh khối tạo thành trên một đơn vị lưu lượng: Sinh khối vi khuẩn tích lũy photpho tạo thành $\\Delta X_{\\text{PAO}}$ đạt $14.46\\text{ g VSS/m}^3$ và sinh khối vi khuẩn dị dưỡng khác $\\Delta X_{\\text{other}}$ đạt $49.82\\text{ g VSS/m}^3$.",
+            "Tổng nồng độ sinh khối tạo thành $\\Delta X_{\\text{tot}}$ bằng $64.29\\text{ g VSS/m}^3$ [Page 6]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Sinh khối PAOs đạt $\\Delta X_{\\text{PAO}} = 14.46\\text{ g VSS/m}^3$ và vi khuẩn khác đạt $\\Delta X_{\\text{other}} = 49.82\\text{ g VSS/m}^3$. Tổng nồng độ sinh khối tạo thành trên một đơn vị lưu lượng bằng $\\Delta X_{\\text{tot}} = 64.29\\text{ g VSS/m}^3$.",
+          "takeaway": "Sinh khối PAOs đạt $\\Delta X_{\\text{PAO}} = 14.46\\text{ g VSS/m}^3$ và vi khuẩn khác đạt $\\Delta X_{\\text{other}} = 49.82\\text{ g VSS/m}^3$",
+          "topic": "Sinh khối PAOs"
+        },
+        {
+          "id": "p-a3b26936",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính lượng photpho hấp thụ bởi vi khuẩn PAOs và vi khuẩn khác: Lượng photpho được loại bỏ nhờ cơ chế tích lũy polyphosphate của PAOs đạt $\\text{P}_{\\text{PAO}}$ bằng $4.34\\text{ g P/m}^3$, và lượng photpho đồng hóa bởi các vi khuẩn khác đạt $\\text{P}_{\\text{other}}$ bằng $1.00\\text{ g P/m}^3$. Tổng lượng photpho hòa tan được sinh khối hấp thụ $\\text{P}_{\\text{uptake}}$ đạt $5.34\\text{ g P/m}^3$ [Page 6].",
+          "sentences": [
+            "Bước 3 - Tính lượng photpho hấp thụ bởi vi khuẩn PAOs và vi khuẩn khác: Lượng photpho được loại bỏ nhờ cơ chế tích lũy polyphosphate của PAOs đạt $\\text{P}_{\\text{PAO}}$ bằng $4.34\\text{ g P/m}^3$, và lượng photpho đồng hóa bởi các vi khuẩn khác đạt $\\text{P}_{\\text{other}}$ bằng $1.00\\text{ g P/m}^3$.",
+            "Tổng lượng photpho hòa tan được sinh khối hấp thụ $\\text{P}_{\\text{uptake}}$ đạt $5.34\\text{ g P/m}^3$ [Page 6]."
+          ],
+          "brief": [
+            "Bước 3 - Tính lượng photpho hấp thụ bởi vi khuẩn PAOs và vi khuẩn khác: Lượng photpho được loại bỏ nhờ cơ chế tích lũy polyphosphate của PAOs đạt $\\text{P}_{\\text{PAO}}$ bằng $4.34\\text{ g P/m}^3$, và lượng photpho đồng hóa bởi các vi khuẩn khác đạt $\\text{P}_{\\text{other}}$ bằng $1.00\\text{ g P/m}^3$.",
+            "Tổng lượng photpho hòa tan được sinh khối hấp thụ $\\text{P}_{\\text{uptake}}$ đạt $5.34\\text{ g P/m}^3$ [Page 6]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Vi khuẩn PAOs khử $\\text{P}_{\\text{PAO}} = 4.34\\text{ g P/m}^3$ và tổng photpho hấp thụ đạt $\\text{P}_{\\text{uptake}} = 5.34\\text{ g P/m}^3$. Các vi khuẩn dị dưỡng khác đồng hóa thêm lượng photpho bằng $\\text{P}_{\\text{other}} = 1.00\\text{ g P/m}^3$ để xây dựng tế bào.",
+          "takeaway": "Vi khuẩn PAOs khử $\\text{P}_{\\text{PAO}} = 4.34\\text{ g P/m}^3$ và tổng photpho hấp thụ đạt $\\text{P}_{\\text{uptake}} = 5.34\\text{ g P/m}^3$",
+          "topic": "tổng photpho hấp"
+        },
+        {
+          "id": "p-17436f1a",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Xác định nồng độ photpho hòa tan và tổng photpho ở dòng ra: Nồng độ photpho hòa tan còn lại ở dòng ra $\\text{P}_{\\text{sol,e}}$ bằng $0.66\\text{ g P/m}^3$. Với hàm lượng photpho trung bình trong bùn $f_{\\text{P,avg}}$ bằng $0.083\\text{ g P/g VSS}$, lượng photpho dạng hạt trôi theo $\\text{VSS}_e$ bằng $8.0\\text{ g/m}^3$ là $\\text{P}_{\\text{part,e}}$ bằng $0.66\\text{ g P/m}^3$ và tổng photpho đầu ra $\\text{P}_{\\text{tot,e}}$ bằng $1.32\\text{ g P/m}^3$ [Page 6].",
+          "sentences": [
+            "Bước 4 - Xác định nồng độ photpho hòa tan và tổng photpho ở dòng ra: Nồng độ photpho hòa tan còn lại ở dòng ra $\\text{P}_{\\text{sol,e}}$ bằng $0.66\\text{ g P/m}^3$.",
+            "Với hàm lượng photpho trung bình trong bùn $f_{\\text{P,avg}}$ bằng $0.083\\text{ g P/g VSS}$, lượng photpho dạng hạt trôi theo $\\text{VSS}_e$ bằng $8.0\\text{ g/m}^3$ là $\\text{P}_{\\text{part,e}}$ bằng $0.66\\text{ g P/m}^3$ và tổng photpho đầu ra $\\text{P}_{\\text{tot,e}}$ bằng $1.32\\text{ g P/m}^3$ [Page 6]."
+          ],
+          "brief": [
+            "Bước 4 - Xác định nồng độ photpho hòa tan và tổng photpho ở dòng ra: Nồng độ photpho hòa tan còn lại ở dòng ra $\\text{P}_{\\text{sol,e}}$ bằng $0.66\\text{ g P/m}^3$.",
+            "Với hàm lượng photpho trung bình trong bùn $f_{\\text{P,avg}}$ bằng $0.083\\text{ g P/g VSS}$, lượng photpho dạng hạt trôi theo $\\text{VSS}_e$ bằng $8.0\\text{ g/m}^3$ là $\\text{P}_{\\text{part,e}}$ bằng $0.66\\text{ g P/m}^3$ và tổng photpho đầu ra $\\text{P}_{\\text{tot,e}}$ bằng $1.32\\text{ g P/m}^3$ [Page 6]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Photpho hòa tan đầu ra còn $\\text{P}_{\\text{sol,e}} = 0.66\\text{ g P/m}^3$ và tổng photpho đầu ra bằng $\\text{P}_{\\text{tot,e}} = 1.32\\text{ g P/m}^3$. Cặn lơ lửng đầu ra $\\text{VSS}_e = 8.0\\text{ g/m}^3$ có hàm lượng $f_{\\text{P,avg}} = 0.083\\text{ g P/g VSS}$ mang theo $0.66\\text{ g P/m}^3$.",
+          "takeaway": "Photpho hòa tan đầu ra còn $\\text{P}_{\\text{sol,e}} = 0.66\\text{ g P/m}^3$ và tổng photpho đầu ra bằng $\\text{P}_{\\text{tot,e}} = 1.32\\text{ g P/m}^3$",
+          "topic": "Photpho hòa tan"
+        },
+        {
+          "id": "p-47659d61",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Toàn bộ thông số thiết kế của hệ thống EBPR thỏa mãn giới hạn tiêu chuẩn. Nồng độ photpho hòa tan đầu ra đạt mức nhỏ hơn ngưỡng $1.0 ext{ g P/m}^3$ theo yêu cầu.",
+          "takeaway": "Toàn bộ thông số thiết kế của hệ thống EBPR thỏa mãn giới hạn tiêu chuẩn",
+          "topic": "thông số thiết"
+        },
+        {
+          "id": "p-4b3600a4",
+          "kind": "list item",
+          "role": "result",
+          "full": "Hệ số sản lượng sinh khối quan sát ($Y_{\\text{obs}}$): $0.3214\\text{ g VSS/g bCOD}$ (Kiểm tra: $\\theta_c = 5.0\\text{ d} \\in [2,\\; 5]\\text{ d cho hệ A/O - Đạt chuẩn Slide 21}$)",
+          "sentences": [
+            "Hệ số sản lượng sinh khối quan sát ($Y_{\\text{obs}}$): $0.3214\\text{ g VSS/g bCOD}$ (Kiểm tra: $\\theta_c = 5.0\\text{ d} \\in [2,\\; 5]\\text{ d cho hệ A/O - Đạt chuẩn Slide 21}$)"
+          ],
+          "brief": [
+            "Hệ số sản lượng sinh khối quan sát ($Y_{\\text{obs}}$): $0.3214\\text{ g VSS/g bCOD}$ (Kiểm tra: $\\theta_c = 5.0\\text{ d} \\in [2,\\; 5]\\text{ d cho hệ A/O - Đạt chuẩn Slide 21}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hệ số sản lượng quan sát đạt $Y_{\\text{obs}} = 0.3214\\text{ g VSS/g bCOD}$ tại tuổi bùn $\\theta_c = 5.0\\text{ d}$.",
+          "takeaway": "Hệ số sản lượng quan sát đạt $Y_{\\text{obs}} = 0.3214\\text{ g VSS/g bCOD}$ tại tuổi bùn $\\theta_c = 5.0\\text{ d}$",
+          "topic": "sản lượng quan"
+        },
+        {
+          "id": "p-e766e4be",
+          "kind": "list item",
+          "role": "result",
+          "full": "Sinh khối PAOs và vi khuẩn khác ($\\Delta X_{\\text{PAO}},\\; \\Delta X_{\\text{other}}$): $14.46\\text{ g VSS/m}^3,\\; 49.82\\text{ g VSS/m}^3$ (Kiểm tra: $\\Delta X_{\\text{tot}} = 64.29\\text{ g VSS/m}^3\\text{ - Đạt chuẩn Slide 12}$)",
+          "sentences": [
+            "Sinh khối PAOs và vi khuẩn khác ($\\Delta X_{\\text{PAO}},\\; \\Delta X_{\\text{other}}$): $14.46\\text{ g VSS/m}^3,\\; 49.82\\text{ g VSS/m}^3$ (Kiểm tra: $\\Delta X_{\\text{tot}} = 64.29\\text{ g VSS/m}^3\\text{ - Đạt chuẩn Slide 12}$)"
+          ],
+          "brief": [
+            "Sinh khối PAOs và vi khuẩn khác ($\\Delta X_{\\text{PAO}},\\; \\Delta X_{\\text{other}}$): $14.46\\text{ g VSS/m}^3,\\; 49.82\\text{ g VSS/m}^3$ (Kiểm tra: $\\Delta X_{\\text{tot}} = 64.29\\text{ g VSS/m}^3\\text{ - Đạt chuẩn Slide 12}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sinh khối tạo thành gồm $\\Delta X_{\\text{PAO}} = 14.46\\text{ g VSS/m}^3$ và $\\Delta X_{\\text{other}} = 49.82\\text{ g VSS/m}^3$.",
+          "takeaway": "Sinh khối tạo thành gồm $\\Delta X_{\\text{PAO}} = 14.46\\text{ g VSS/m}^3$ và $\\Delta X_{\\text{other}} = 49.82\\text{ g VSS/m}^3$",
+          "topic": "Sinh khối tạo"
+        },
+        {
+          "id": "p-484411c3",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổng lượng photpho hấp thụ vào sinh khối ($\\text{P}_{\\text{uptake}}$): $5.34\\text{ g P/m}^3$ (Kiểm tra: $\\text{rbCOD}/\\text{P}_{\\text{PAO}} = 11.5\\text{ g/g}\\text{ - Đạt chuẩn Slide 11}$)",
+          "sentences": [
+            "Tổng lượng photpho hấp thụ vào sinh khối ($\\text{P}_{\\text{uptake}}$): $5.34\\text{ g P/m}^3$ (Kiểm tra: $\\text{rbCOD}/\\text{P}_{\\text{PAO}} = 11.5\\text{ g/g}\\text{ - Đạt chuẩn Slide 11}$)"
+          ],
+          "brief": [
+            "Tổng lượng photpho hấp thụ vào sinh khối ($\\text{P}_{\\text{uptake}}$): $5.34\\text{ g P/m}^3$ (Kiểm tra: $\\text{rbCOD}/\\text{P}_{\\text{PAO}} = 11.5\\text{ g/g}\\text{ - Đạt chuẩn Slide 11}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng lượng photpho hấp thụ đạt $\\text{P}_{\\text{uptake}} = 5.34\\text{ g P/m}^3$ với tỷ số $\\text{rbCOD}/\\text{P}_{\\text{PAO}} = 11.5\\text{ g/g}$.",
+          "takeaway": "Tổng lượng photpho hấp thụ đạt $\\text{P}_{\\text{uptake}} = 5.34\\text{ g P/m}^3$ với tỷ số $\\text{rbCOD}/\\text{P}_{\\text{PAO}} = 11.5\\text{ g/g}$",
+          "topic": "photpho hấp thụ"
+        },
+        {
+          "id": "p-a599ade2",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ photpho hòa tan đầu ra ($\\text{P}_{\\text{sol,e}}$): $0.66\\text{ g P/m}^3$ (Kiểm tra: $\\text{P}_{\\text{sol,e}} < 1.0\\text{ g P/m}^3\\text{ - Đạt chuẩn Slide 12}$)",
+          "sentences": [
+            "Nồng độ photpho hòa tan đầu ra ($\\text{P}_{\\text{sol,e}}$): $0.66\\text{ g P/m}^3$ (Kiểm tra: $\\text{P}_{\\text{sol,e}} < 1.0\\text{ g P/m}^3\\text{ - Đạt chuẩn Slide 12}$)"
+          ],
+          "brief": [
+            "Nồng độ photpho hòa tan đầu ra ($\\text{P}_{\\text{sol,e}}$): $0.66\\text{ g P/m}^3$ (Kiểm tra: $\\text{P}_{\\text{sol,e}} < 1.0\\text{ g P/m}^3\\text{ - Đạt chuẩn Slide 12}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ photpho hòa tan đầu ra đạt $\\text{P}_{\\text{sol,e}} = 0.66\\text{ g P/m}^3$ nhỏ hơn $1.0\\text{ g P/m}^3$.",
+          "takeaway": "Nồng độ photpho hòa tan đầu ra đạt $\\text{P}_{\\text{sol,e}} = 0.66\\text{ g P/m}^3$ nhỏ hơn $1.0\\text{ g P/m}^3$",
+          "topic": "photpho hòa tan"
+        },
+        {
+          "id": "p-bb8e3d48",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ photpho tổng cộng đầu ra ($\\text{P}_{\\text{tot,e}}$): $1.32\\text{ g P/m}^3$ (Kiểm tra: $\\text{P}_{\\text{net}} = 4.68\\text{ g P/m}^3\\text{ - Đạt chuẩn Slide 12}$)",
+          "sentences": [
+            "Nồng độ photpho tổng cộng đầu ra ($\\text{P}_{\\text{tot,e}}$): $1.32\\text{ g P/m}^3$ (Kiểm tra: $\\text{P}_{\\text{net}} = 4.68\\text{ g P/m}^3\\text{ - Đạt chuẩn Slide 12}$)"
+          ],
+          "brief": [
+            "Nồng độ photpho tổng cộng đầu ra ($\\text{P}_{\\text{tot,e}}$): $1.32\\text{ g P/m}^3$ (Kiểm tra: $\\text{P}_{\\text{net}} = 4.68\\text{ g P/m}^3\\text{ - Đạt chuẩn Slide 12}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ photpho tổng cộng đầu ra bằng $\\text{P}_{\\text{tot,e}} = 1.32\\text{ g P/m}^3$ ứng với $\\text{P}_{\\text{net}} = 4.68\\text{ g P/m}^3$.",
+          "takeaway": "Nồng độ photpho tổng cộng đầu ra bằng $\\text{P}_{\\text{tot,e}} = 1.32\\text{ g P/m}^3$ ứng với $\\text{P}_{\\text{net}} = 4.68\\text{ g P/m}^3$",
+          "topic": "photpho tổng cộng"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-các-sơ-đồ-công-nghệ-ebpr-dòng-chính-ao-a2o-và-uct-configurations",
+      "num": "3",
+      "title": "Các Sơ đồ Công nghệ EBPR Dòng chính (A/O, A2O và UCT Configurations)",
+      "depth": 1,
+      "takeaway": "Ba sơ đồ A/O, A2O và UCT tối ưu hóa khử photpho theo tỷ số BOD/P",
+      "topic": "Ba sơ đồ",
+      "units": [
+        {
+          "id": "p-28050152",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Từ Slide 15 đến Slide 18, chương học phân tích ba cấu hình công nghệ EBPR dòng chính gồm quá trình A/O (Anaerobic/Oxic), quá trình A2O (Anaerobic-Anoxic-Oxic) và quá trình UCT (University of Cape Town) [Page 7]. Quá trình A/O (còn gọi là Phoredox) là sơ đồ cơ bản nhất để khử photpho sinh học mà không thực hiện nitrat hóa, vận hành ở tuổi bùn hiếu khí thấp từ $2\\text{ d}$ đến $4\\text{ d}$ và thời gian tiếp xúc kỵ khí từ $0.5\\text{ h}$ đến $1.0\\text{ h}$ [Page 7]. Quá trình A2O kết hợp đồng thời nitrat hóa, khử nitrat và khử photpho cho nước thải có tỷ số $\\text{BOD/P} > 30$ bằng cách đặt thêm bể thiếu khí (anoxic zone) ở giữa bể kỵ khí và bể hiếu khí (hoặc tích hợp màng lọc MBR trong sơ đồ A2O MBR), trong đó dòng tuần hoàn nội bộ ($\\text{NO}_x$ recycle) đưa nitrat từ cuối bể hiếu khí về bể thiếu khí để khử nitrat trước khi bùn lắng ở bể lắng thứ cấp được tuần hoàn (RAS) về đầu bể kỵ khí [Page 7].",
+          "sentences": [
+            "Từ Slide 15 đến Slide 18, chương học phân tích ba cấu hình công nghệ EBPR dòng chính gồm quá trình A/O (Anaerobic/Oxic), quá trình A2O (Anaerobic-Anoxic-Oxic) và quá trình UCT (University of Cape Town) [Page 7].",
+            "Quá trình A/O (còn gọi là Phoredox) là sơ đồ cơ bản nhất để khử photpho sinh học mà không thực hiện nitrat hóa, vận hành ở tuổi bùn hiếu khí thấp từ $2\\text{ d}$ đến $4\\text{ d}$ và thời gian tiếp xúc kỵ khí từ $0.5\\text{ h}$ đến $1.0\\text{ h}$ [Page 7].",
+            "Quá trình A2O kết hợp đồng thời nitrat hóa, khử nitrat và khử photpho cho nước thải có tỷ số $\\text{BOD/P} > 30$ bằng cách đặt thêm bể thiếu khí (anoxic zone) ở giữa bể kỵ khí và bể hiếu khí (hoặc tích hợp màng lọc MBR trong sơ đồ A2O MBR), trong đó dòng tuần hoàn nội bộ ($\\text{NO}_x$ recycle) đưa nitrat từ cuối bể hiếu khí về bể thiếu khí để khử nitrat trước khi bùn lắng ở bể lắng thứ cấp được tuần hoàn (RAS) về đầu bể kỵ khí [Page 7]."
+          ],
+          "brief": [
+            "Quá trình A/O (còn gọi là Phoredox) là sơ đồ cơ bản nhất để khử photpho sinh học mà không thực hiện nitrat hóa, vận hành ở tuổi bùn hiếu khí thấp từ $2\\text{ d}$ đến $4\\text{ d}$ và thời gian tiếp xúc kỵ khí từ $0.5\\text{ h}$ đến $1.0\\text{ h}$ [Page 7].",
+            "Quá trình A2O kết hợp đồng thời nitrat hóa, khử nitrat và khử photpho cho nước thải có tỷ số $\\text{BOD/P} > 30$ bằng cách đặt thêm bể thiếu khí (anoxic zone) ở giữa bể kỵ khí và bể hiếu khí (hoặc tích hợp màng lọc MBR trong sơ đồ A2O MBR), trong đó dòng tuần hoàn nội bộ ($\\text{NO}_x$ recycle) đưa nitrat từ cuối bể hiếu khí về bể thiếu khí để khử nitrat trước khi bùn lắng ở bể lắng thứ cấp được tuần hoàn (RAS) về đầu bể kỵ khí [Page 7]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Sơ đồ A/O khử P ở SRT ngắn, còn A2O thêm ngăn thiếu khí để khử N. Quá trình A2O phù hợp khi tỷ số $\\text{BOD/P} > 30$ nhờ dòng tuần hoàn nội bộ đưa nitrat về bể thiếu khí.",
+          "takeaway": "Sơ đồ A/O khử P ở SRT ngắn, còn A2O thêm ngăn thiếu khí để khử N",
+          "topic": "Sơ đồ A/O"
+        },
+        {
+          "id": "p-6ff0ff84",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Quá trình UCT và UCT MBR trên Slide 17 được thiết kế chuyên biệt cho nước thải có tỷ số $\\text{BOD/P}$ thấp cần thực hiện đồng thời quá trình nitrat hóa [Page 8]. Thay vì đưa bùn tuần hoàn (RAS) chứa nitrat từ bể lắng thứ cấp trực tiếp về bể kỵ khí như sơ đồ A2O, công nghệ UCT đưa dòng RAS về bể thiếu khí (anoxic zone) để khử hết nitrat, sau đó mới bơm tuần hoàn hỗn hợp bùn đã khử nitrat từ bể thiếu khí về bể kỵ khí (MLSS anaerobic recycle) với lưu lượng điển hình bằng $2$ lần lưu lượng trung bình và thời gian lưu kỵ khí kéo dài từ $1\\text{ h}$ đến $2\\text{ h}$ [Page 8]. Bảng so sánh ưu nhược điểm trên Slide 18 chỉ rõ công nghệ A/O vận hành đơn giản, HRT ngắn và tạo bùn lắng tốt nhưng hiệu suất khử P giảm mạnh nếu xảy ra nitrat hóa ở vùng khí hậu ấm [Page 8]. Công nghệ A2O khử đồng thời N và P, thu hồi độ kiềm, tiết kiệm năng lượng và tương thích với MBR nhưng dòng RAS vẫn mang một phần nitrat về bể kỵ khí nên đòi hỏi tỷ số $\\text{BOD/P}$ cao hơn A/O, còn công nghệ UCT loại bỏ hoàn toàn tải lượng nitrat đi vào bể kỵ khí giúp nâng cao hiệu quả khử P cho nước thải yếu nhưng đòi hỏi thêm hệ thống bơm tuần hoàn nội bộ thứ hai và vận hành phức tạp hơn [Page 8].",
+          "sentences": [
+            "Quá trình UCT và UCT MBR trên Slide 17 được thiết kế chuyên biệt cho nước thải có tỷ số $\\text{BOD/P}$ thấp cần thực hiện đồng thời quá trình nitrat hóa [Page 8].",
+            "Thay vì đưa bùn tuần hoàn (RAS) chứa nitrat từ bể lắng thứ cấp trực tiếp về bể kỵ khí như sơ đồ A2O, công nghệ UCT đưa dòng RAS về bể thiếu khí (anoxic zone) để khử hết nitrat, sau đó mới bơm tuần hoàn hỗn hợp bùn đã khử nitrat từ bể thiếu khí về bể kỵ khí (MLSS anaerobic recycle) với lưu lượng điển hình bằng $2$ lần lưu lượng trung bình và thời gian lưu kỵ khí kéo dài từ $1\\text{ h}$ đến $2\\text{ h}$ [Page 8].",
+            "Bảng so sánh ưu nhược điểm trên Slide 18 chỉ rõ công nghệ A/O vận hành đơn giản, HRT ngắn và tạo bùn lắng tốt nhưng hiệu suất khử P giảm mạnh nếu xảy ra nitrat hóa ở vùng khí hậu ấm [Page 8].",
+            "Công nghệ A2O khử đồng thời N và P, thu hồi độ kiềm, tiết kiệm năng lượng và tương thích với MBR nhưng dòng RAS vẫn mang một phần nitrat về bể kỵ khí nên đòi hỏi tỷ số $\\text{BOD/P}$ cao hơn A/O, còn công nghệ UCT loại bỏ hoàn toàn tải lượng nitrat đi vào bể kỵ khí giúp nâng cao hiệu quả khử P cho nước thải yếu nhưng đòi hỏi thêm hệ thống bơm tuần hoàn nội bộ thứ hai và vận hành phức tạp hơn [Page 8]."
+          ],
+          "brief": [
+            "Thay vì đưa bùn tuần hoàn (RAS) chứa nitrat từ bể lắng thứ cấp trực tiếp về bể kỵ khí như sơ đồ A2O, công nghệ UCT đưa dòng RAS về bể thiếu khí (anoxic zone) để khử hết nitrat, sau đó mới bơm tuần hoàn hỗn hợp bùn đã khử nitrat từ bể thiếu khí về bể kỵ khí (MLSS anaerobic recycle) với lưu lượng điển hình bằng $2$ lần lưu lượng trung bình và thời gian lưu kỵ khí kéo dài từ $1\\text{ h}$ đến $2\\text{ h}$ [Page 8].",
+            "Công nghệ A2O khử đồng thời N và P, thu hồi độ kiềm, tiết kiệm năng lượng và tương thích với MBR nhưng dòng RAS vẫn mang một phần nitrat về bể kỵ khí nên đòi hỏi tỷ số $\\text{BOD/P}$ cao hơn A/O, còn công nghệ UCT loại bỏ hoàn toàn tải lượng nitrat đi vào bể kỵ khí giúp nâng cao hiệu quả khử P cho nước thải yếu nhưng đòi hỏi thêm hệ thống bơm tuần hoàn nội bộ thứ hai và vận hành phức tạp hơn [Page 8]."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Sơ đồ UCT đưa bùn RAS về ngăn thiếu khí để ngăn nitrat vào bể kỵ khí. Thiết kế này bảo vệ nguồn VFA cho vi khuẩn PAOs khi xử lý nước thải có tỷ số BOD/P thấp.",
+          "takeaway": "Sơ đồ UCT đưa bùn RAS về ngăn thiếu khí để ngăn nitrat vào bể kỵ khí",
+          "topic": "Sơ đồ UCT"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-đặc-tính-nước-thải-tác-động-của-nitratoxy-và-bảng-thông-số-thiết-kế-chuẩn-ebpr",
+      "num": "4",
+      "title": "Đặc tính Nước thải, Tác động của Nitrat/Oxy và Bảng Thông số Thiết kế Chuẩn EBPR",
+      "depth": 1,
+      "takeaway": "Mỗi gam nitrat vào bể kỵ khí tiêu tốn $5.2\\text{ g rbCOD}$ của vi khuẩn PAOs",
+      "topic": "bể kỵ khí",
+      "units": [
+        {
+          "id": "p-bdafb925",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Slide 19 và Slide 20 cung cấp các tiêu chuẩn đánh giá khả năng khử photpho của nước thải đầu vào và định lượng mức tiêu hao $\\text{rbCOD}$ do các chất nhận điện tử ngoại lai xâm nhập vào vùng kỵ khí [Page 9]. Để đạt nồng độ photpho hòa tan đầu ra nhỏ hơn $0.50\\text{ g/m}^3$ bằng cơ chế EBPR, bảng tỷ số tối thiểu trên Slide 19 yêu cầu tỷ số $\\text{VFA:P} \\ge 8$, $\\text{rbCOD:P} \\ge 18$, $\\text{BOD:P} \\ge 30$ và $\\text{COD:P} \\ge 60$, đồng thời khuyến nghị có thể bổ sung thêm nguồn VFA từ quá trình lên men bùn tươi sơ cấp [Page 9]. Đồ thị trên Slide 19 biểu diễn sự phụ thuộc của tỷ số $\\text{rbCOD}$ tiêu thụ trên mỗi gam P khử được ($\\text{rbCOD/P}$) vào tỷ số $\\text{VFA/rbCOD}$ của dòng vào, trong đó khi $\\text{VFA/rbCOD}$ tăng từ $0.10$ lên $0.20$, $0.40$ và $0.80$ thì tỷ số $\\text{rbCOD/P}$ giảm tương ứng từ khoảng $20.0\\text{ g/g}$ xuống $14.5\\text{ g/g}$ (hoặc $15.0\\text{ g/g}$), $10.5\\text{ g/g}$ và $8.0\\text{ g/g}$ [Page 9]. Ngoài ra, giá trị $\\text{pH}$ trong bể cần duy trì lớn hơn $7.0$ (tối ưu khi $\\text{pH} > 7.5$), và cứ mỗi $1\\text{ g NO}_3\\text{-N}$ đi vào vùng kỵ khí sẽ tiêu tốn mất $5.2\\text{ g rbCOD}$, còn mỗi $1\\text{ g O}_2$ đi vào vùng kỵ khí sẽ tiêu tốn mất $2.8\\text{ g rbCOD}$ [Page 9].",
+          "sentences": [
+            "Slide 19 và Slide 20 cung cấp các tiêu chuẩn đánh giá khả năng khử photpho của nước thải đầu vào và định lượng mức tiêu hao $\\text{rbCOD}$ do các chất nhận điện tử ngoại lai xâm nhập vào vùng kỵ khí [Page 9]. Để đạt nồng độ photpho hòa tan đầu ra nhỏ hơn $0.50\\text{ g/m}^3$ bằng cơ chế EBPR, bảng tỷ số tối thiểu trên Slide 19 yêu cầu tỷ số $\\text{VFA:P} \\ge 8$, $\\text{rbCOD:P} \\ge 18$, $\\text{BOD:P} \\ge 30$ và $\\text{COD:P} \\ge 60$, đồng thời khuyến nghị có thể bổ sung thêm nguồn VFA từ quá trình lên men bùn tươi sơ cấp [Page 9]. Đồ thị trên Slide 19 biểu diễn sự phụ thuộc của tỷ số $\\text{rbCOD}$ tiêu thụ trên mỗi gam P khử được ($\\text{rbCOD/P}$) vào tỷ số $\\text{VFA/rbCOD}$ của dòng vào, trong đó khi $\\text{VFA/rbCOD}$ tăng từ $0.10$ lên $0.20$, $0.40$ và $0.80$ thì tỷ số $\\text{rbCOD/P}$ giảm tương ứng từ khoảng $20.0\\text{ g/g}$ xuống $14.5\\text{ g/g}$ (hoặc $15.0\\text{ g/g}$), $10.5\\text{ g/g}$ và $8.0\\text{ g/g}$ [Page 9].",
+            "Ngoài ra, giá trị $\\text{pH}$ trong bể cần duy trì lớn hơn $7.0$ (tối ưu khi $\\text{pH} > 7.5$), và cứ mỗi $1\\text{ g NO}_3\\text{-N}$ đi vào vùng kỵ khí sẽ tiêu tốn mất $5.2\\text{ g rbCOD}$, còn mỗi $1\\text{ g O}_2$ đi vào vùng kỵ khí sẽ tiêu tốn mất $2.8\\text{ g rbCOD}$ [Page 9]."
+          ],
+          "brief": [
+            "Slide 19 và Slide 20 cung cấp các tiêu chuẩn đánh giá khả năng khử photpho của nước thải đầu vào và định lượng mức tiêu hao $\\text{rbCOD}$ do các chất nhận điện tử ngoại lai xâm nhập vào vùng kỵ khí [Page 9]. Để đạt nồng độ photpho hòa tan đầu ra nhỏ hơn $0.50\\text{ g/m}^3$ bằng cơ chế EBPR, bảng tỷ số tối thiểu trên Slide 19 yêu cầu tỷ số $\\text{VFA:P} \\ge 8$, $\\text{rbCOD:P} \\ge 18$, $\\text{BOD:P} \\ge 30$ và $\\text{COD:P} \\ge 60$, đồng thời khuyến nghị có thể bổ sung thêm nguồn VFA từ quá trình lên men bùn tươi sơ cấp [Page 9]. Đồ thị trên Slide 19 biểu diễn sự phụ thuộc của tỷ số $\\text{rbCOD}$ tiêu thụ trên mỗi gam P khử được ($\\text{rbCOD/P}$) vào tỷ số $\\text{VFA/rbCOD}$ của dòng vào, trong đó khi $\\text{VFA/rbCOD}$ tăng từ $0.10$ lên $0.20$, $0.40$ và $0.80$ thì tỷ số $\\text{rbCOD/P}$ giảm tương ứng từ khoảng $20.0\\text{ g/g}$ xuống $14.5\\text{ g/g}$ (hoặc $15.0\\text{ g/g}$), $10.5\\text{ g/g}$ và $8.0\\text{ g/g}$ [Page 9].",
+            "Ngoài ra, giá trị $\\text{pH}$ trong bể cần duy trì lớn hơn $7.0$ (tối ưu khi $\\text{pH} > 7.5$), và cứ mỗi $1\\text{ g NO}_3\\text{-N}$ đi vào vùng kỵ khí sẽ tiêu tốn mất $5.2\\text{ g rbCOD}$, còn mỗi $1\\text{ g O}_2$ đi vào vùng kỵ khí sẽ tiêu tốn mất $2.8\\text{ g rbCOD}$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đạt $\\text{P} < 0.50\\text{ g/m}^3$ cần $\\text{rbCOD:P} \\ge 18$, còn $1\\text{ g NO}_3\\text{-N}$ tiêu tốn $5.2\\text{ g rbCOD}$. Khi tỷ số $\\text{VFA/rbCOD} = 0.20$ thì định mức tiêu thụ cơ chất trên đồ thị bằng $14.5\\text{ g/g}$.",
+          "takeaway": "Đạt $\\text{P} < 0.50\\text{ g/m}^3$ cần $\\text{rbCOD:P} \\ge 18$, còn $1\\text{ g NO}_3\\text{-N}$ tiêu tốn $5.2\\text{ g rbCOD}$",
+          "topic": "tiêu tốn"
+        },
+        {
+          "id": "p-be261b4f",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Bảng thông số thiết kế điển hình cho các quy trình EBPR phổ biến (Typical design parameters for common EBPR processes) được chuẩn hóa trên Slide 21 [Page 10]. Đối với quy trình A/O, thời gian lưu bùn $\\text{SRT}$ nằm trong khoảng từ $2\\text{ d}$ đến $5\\text{ d}$, nồng độ $\\text{MLSS}$ từ $3000\\text{ mg/L}$ đến $4000\\text{ mg/L}$, thời gian lưu nước vùng kỵ khí ($\\tau_{\\text{anaerobic}}$) từ $0.5\\text{ h}$ đến $1.5\\text{ h}$, không có vùng thiếu khí, thời gian lưu nước vùng hiếu khí ($\\tau_{\\text{aerobic}}$) từ $1\\text{ h}$ đến $3\\text{ h}$, tỷ lệ bùn tuần hoàn $\\text{RAS}$ từ $25\\%$ đến $100\\%$ lưu lượng dòng vào và không có tuần hoàn nội bộ [Page 10]. Đối với quy trình A2O, $\\text{SRT}$ từ $5\\text{ d}$ đến $25\\text{ d}$, $\\text{MLSS}$ từ $3000\\text{ mg/L}$ đến $4000\\text{ mg/L}$, $\\tau_{\\text{anaerobic}}$ từ $0.5\\text{ h}$ đến $1.5\\text{ h}$, $\\tau_{\\text{anoxic}}$ từ $1\\text{ h}$ đến $3\\text{ h}$, $\\tau_{\\text{aerobic}}$ từ $4\\text{ h}$ đến $8\\text{ h}$, tỷ lệ $\\text{RAS}$ từ $25\\%$ đến $100\\%$ và tuần hoàn nội bộ (internal recycle) từ $100\\%$ đến $400\\%$ lưu lượng dòng vào [Page 10]. Đối với quy trình UCT, $\\text{SRT}$ từ $10\\text{ d}$ đến $25\\text{ d}$, $\\text{MLSS}$ từ $3000\\text{ mg/L}$ đến $4000\\text{ mg/L}$, $\\tau_{\\text{anaerobic}}$ từ $1\\text{ h}$ đến $2\\text{ h}$, $\\tau_{\\text{anoxic}}$ từ $2\\text{ h}$ đến $4\\text{ h}$, $\\tau_{\\text{aerobic}}$ từ $4\\text{ h}$ đến $12\\text{ h}$, tỷ lệ $\\text{RAS}$ từ $80\\%$ đến $100\\%$, tuần hoàn nội bộ thiếu khí từ $200\\%$ đến $400\\%$ và tuần hoàn nội bộ hiếu khí từ $100\\%$ đến $300\\%$ lưu lượng dòng vào [Page 10].",
+          "sentences": [
+            "Bảng thông số thiết kế điển hình cho các quy trình EBPR phổ biến (Typical design parameters for common EBPR processes) được chuẩn hóa trên Slide 21 [Page 10]. Đối với quy trình A/O, thời gian lưu bùn $\\text{SRT}$ nằm trong khoảng từ $2\\text{ d}$ đến $5\\text{ d}$, nồng độ $\\text{MLSS}$ từ $3000\\text{ mg/L}$ đến $4000\\text{ mg/L}$, thời gian lưu nước vùng kỵ khí ($\\tau_{\\text{anaerobic}}$) từ $0.5\\text{ h}$ đến $1.5\\text{ h}$, không có vùng thiếu khí, thời gian lưu nước vùng hiếu khí ($\\tau_{\\text{aerobic}}$) từ $1\\text{ h}$ đến $3\\text{ h}$, tỷ lệ bùn tuần hoàn $\\text{RAS}$ từ $25\\%$ đến $100\\%$ lưu lượng dòng vào và không có tuần hoàn nội bộ [Page 10]. Đối với quy trình A2O, $\\text{SRT}$ từ $5\\text{ d}$ đến $25\\text{ d}$, $\\text{MLSS}$ từ $3000\\text{ mg/L}$ đến $4000\\text{ mg/L}$, $\\tau_{\\text{anaerobic}}$ từ $0.5\\text{ h}$ đến $1.5\\text{ h}$, $\\tau_{\\text{anoxic}}$ từ $1\\text{ h}$ đến $3\\text{ h}$, $\\tau_{\\text{aerobic}}$ từ $4\\text{ h}$ đến $8\\text{ h}$, tỷ lệ $\\text{RAS}$ từ $25\\%$ đến $100\\%$ và tuần hoàn nội bộ (internal recycle) từ $100\\%$ đến $400\\%$ lưu lượng dòng vào [Page 10]. Đối với quy trình UCT, $\\text{SRT}$ từ $10\\text{ d}$ đến $25\\text{ d}$, $\\text{MLSS}$ từ $3000\\text{ mg/L}$ đến $4000\\text{ mg/L}$, $\\tau_{\\text{anaerobic}}$ từ $1\\text{ h}$ đến $2\\text{ h}$, $\\tau_{\\text{anoxic}}$ từ $2\\text{ h}$ đến $4\\text{ h}$, $\\tau_{\\text{aerobic}}$ từ $4\\text{ h}$ đến $12\\text{ h}$, tỷ lệ $\\text{RAS}$ từ $80\\%$ đến $100\\%$, tuần hoàn nội bộ thiếu khí từ $200\\%$ đến $400\\%$ và tuần hoàn nội bộ hiếu khí từ $100\\%$ đến $300\\%$ lưu lượng dòng vào [Page 10]."
+          ],
+          "brief": [
+            "Bảng thông số thiết kế điển hình cho các quy trình EBPR phổ biến (Typical design parameters for common EBPR processes) được chuẩn hóa trên Slide 21 [Page 10]. Đối với quy trình A/O, thời gian lưu bùn $\\text{SRT}$ nằm trong khoảng từ $2\\text{ d}$ đến $5\\text{ d}$, nồng độ $\\text{MLSS}$ từ $3000\\text{ mg/L}$ đến $4000\\text{ mg/L}$, thời gian lưu nước vùng kỵ khí ($\\tau_{\\text{anaerobic}}$) từ $0.5\\text{ h}$ đến $1.5\\text{ h}$, không có vùng thiếu khí, thời gian lưu nước vùng hiếu khí ($\\tau_{\\text{aerobic}}$) từ $1\\text{ h}$ đến $3\\text{ h}$, tỷ lệ bùn tuần hoàn $\\text{RAS}$ từ $25\\%$ đến $100\\%$ lưu lượng dòng vào và không có tuần hoàn nội bộ [Page 10]. Đối với quy trình A2O, $\\text{SRT}$ từ $5\\text{ d}$ đến $25\\text{ d}$, $\\text{MLSS}$ từ $3000\\text{ mg/L}$ đến $4000\\text{ mg/L}$, $\\tau_{\\text{anaerobic}}$ từ $0.5\\text{ h}$ đến $1.5\\text{ h}$, $\\tau_{\\text{anoxic}}$ từ $1\\text{ h}$ đến $3\\text{ h}$, $\\tau_{\\text{aerobic}}$ từ $4\\text{ h}$ đến $8\\text{ h}$, tỷ lệ $\\text{RAS}$ từ $25\\%$ đến $100\\%$ và tuần hoàn nội bộ (internal recycle) từ $100\\%$ đến $400\\%$ lưu lượng dòng vào [Page 10]. Đối với quy trình UCT, $\\text{SRT}$ từ $10\\text{ d}$ đến $25\\text{ d}$, $\\text{MLSS}$ từ $3000\\text{ mg/L}$ đến $4000\\text{ mg/L}$, $\\tau_{\\text{anaerobic}}$ từ $1\\text{ h}$ đến $2\\text{ h}$, $\\tau_{\\text{anoxic}}$ từ $2\\text{ h}$ đến $4\\text{ h}$, $\\tau_{\\text{aerobic}}$ từ $4\\text{ h}$ đến $12\\text{ h}$, tỷ lệ $\\text{RAS}$ từ $80\\%$ đến $100\\%$, tuần hoàn nội bộ thiếu khí từ $200\\%$ đến $400\\%$ và tuần hoàn nội bộ hiếu khí từ $100\\%$ đến $300\\%$ lưu lượng dòng vào [Page 10]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bảng thông số chuẩn quy định SRT, MLSS, HRT và tuần hoàn cho A/O, A2O, UCT. Hệ thống A2O vận hành ở $\\text{SRT}$ từ $5\\text{ d}$ đến $25\\text{ d}$ với tỷ lệ tuần hoàn bùn RAS từ $25\\%$ đến $100\\%$.",
+          "takeaway": "Bảng thông số chuẩn quy định SRT, MLSS, HRT và tuần hoàn cho A/O, A2O, UCT",
+          "topic": "Bảng thông số"
+        }
+      ]
+    },
+    {
+      "id": "sec-5-lời-giải-chi-tiết-bài-tập-2-ch09_ex02---thiết-kế-và-kiểm-tra-hiệu-quả-khử-photpho-hệ-a2o",
+      "num": "5",
+      "title": "Lời giải Chi tiết Bài tập 2 (ch09_ex02) - Thiết kế và Kiểm tra Hiệu quả Khử Photpho Hệ A2O",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch09_ex02-slide-2223-trang-1011-xác-định-nồng-độ-photpho-đầu-ra-và-hàm-lượng-photpho-trong-bùn-thải-hệ-a2o",
+      "num": "",
+      "title": "Bài tập ch09_ex02 (Slide 22–23, Trang 10–11): Xác định Nồng độ Photpho Đầu ra và Hàm lượng Photpho trong Bùn Thải Hệ A2O",
+      "depth": 2,
+      "takeaway": "Hệ thống A2O đạt photpho đầu ra $\\text{P}_e = 1.05\\text{ g P/m}^3$ và bùn thải chứa $4.96\\%\\text{ P/VSS}$",
+      "topic": "Hệ thống A2O",
+      "units": [
+        {
+          "id": "p-b12e35ee",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 19–23): Hệ thống xử lý sinh học A2O công suất $Q = 4000\\text{ m}^3/\\text{d}$ vận hành ở nhiệt độ $T = 12^\\circ\\text{C}$, tuổi bùn $\\theta_c = 8\\text{ d}$ và tỷ lệ tuần hoàn bùn $R = 0.5$. Hãy xác định nồng độ photpho hòa tan đầu ra $\\text{P}_e$ và hàm lượng phần trăm photpho trong bùn dư xả bỏ [Page 10].",
+          "sentences": [
+            "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 19–23): Hệ thống xử lý sinh học A2O công suất $Q = 4000\\text{ m}^3/\\text{d}$ vận hành ở nhiệt độ $T = 12^\\circ\\text{C}$, tuổi bùn $\\theta_c = 8\\text{ d}$ và tỷ lệ tuần hoàn bùn $R = 0.5$.",
+            "Hãy xác định nồng độ photpho hòa tan đầu ra $\\text{P}_e$ và hàm lượng phần trăm photpho trong bùn dư xả bỏ [Page 10]."
+          ],
+          "brief": [
+            "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 19–23): Hệ thống xử lý sinh học A2O công suất $Q = 4000\\text{ m}^3/\\text{d}$ vận hành ở nhiệt độ $T = 12^\\circ\\text{C}$, tuổi bùn $\\theta_c = 8\\text{ d}$ và tỷ lệ tuần hoàn bùn $R = 0.5$.",
+            "Hãy xác định nồng độ photpho hòa tan đầu ra $\\text{P}_e$ và hàm lượng phần trăm photpho trong bùn dư xả bỏ [Page 10]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài tính hệ A2O cho $Q = 4000\\text{ m}^3/\\text{d}$ ở $T = 12^\\circ\\text{C}$, $\\theta_c = 8\\text{ d}$ và tỷ lệ tuần hoàn $R = 0.5$. Bài toán yêu cầu xác định nồng độ photpho hòa tan đầu ra $\\text{P}_e$ và phần trăm photpho trong bùn dư.",
+          "takeaway": "Đề bài tính hệ A2O cho $Q = 4000\\text{ m}^3/\\text{d}$ ở $T = 12^\\circ\\text{C}$, $\\theta_c = 8\\text{ d}$ và tỷ lệ tuần hoàn $R = 0.5$",
+          "topic": "tính hệ A2O"
+        },
+        {
+          "id": "p-25b35d4a",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính lượng $\\text{rbCOD}$ bị tiêu hao bởi nitrat tuần hoàn vào bể kỵ khí: Dòng bùn tuần hoàn $R = 0.5$ mang nitrat ở nồng độ $\\text{NO}_{x,e}$ bằng $6.0\\text{ g/m}^3$ về bể kỵ khí, tương ứng tải lượng $3.0\\text{ g/m}^3$ dòng vào. Với định mức $5.2\\text{ g/g}$ trên Slide 20, lượng $\\text{rbCOD}$ còn lại cho PAOs đạt $59.4\\text{ g/m}^3$ [Page 9].",
+          "sentences": [
+            "Bước 1 - Tính lượng $\\text{rbCOD}$ bị tiêu hao bởi nitrat tuần hoàn vào bể kỵ khí: Dòng bùn tuần hoàn $R = 0.5$ mang nitrat ở nồng độ $\\text{NO}_{x,e}$ bằng $6.0\\text{ g/m}^3$ về bể kỵ khí, tương ứng tải lượng $3.0\\text{ g/m}^3$ dòng vào.",
+            "Với định mức $5.2\\text{ g/g}$ trên Slide 20, lượng $\\text{rbCOD}$ còn lại cho PAOs đạt $59.4\\text{ g/m}^3$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 1 - Tính lượng $\\text{rbCOD}$ bị tiêu hao bởi nitrat tuần hoàn vào bể kỵ khí: Dòng bùn tuần hoàn $R = 0.5$ mang nitrat ở nồng độ $\\text{NO}_{x,e}$ bằng $6.0\\text{ g/m}^3$ về bể kỵ khí, tương ứng tải lượng $3.0\\text{ g/m}^3$ dòng vào.",
+            "Với định mức $5.2\\text{ g/g}$ trên Slide 20, lượng $\\text{rbCOD}$ còn lại cho PAOs đạt $59.4\\text{ g/m}^3$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Nitrat tuần hoàn tiêu tốn $15.6\\text{ g/m}^3$, để lại lượng cơ chất $\\text{rbCOD}_{\\text{EBPR}} = 59.4\\text{ g/m}^3$ cho PAOs. Dòng bùn tuần hoàn $R = 0.5$ đưa tải lượng nitrat $3.0\\text{ g/m}^3$ vào bể kỵ khí với định mức $5.2\\text{ g/g}$.",
+          "takeaway": "Nitrat tuần hoàn tiêu tốn $15.6\\text{ g/m}^3$, để lại lượng cơ chất $\\text{rbCOD}_{\\text{EBPR}} = 59.4\\text{ g/m}^3$ cho PAOs",
+          "topic": "Nitrat tuần hoàn"
+        },
+        {
+          "id": "p-218ed6ee",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Xác định lượng photpho loại bỏ nhờ cơ chế EBPR của vi khuẩn PAOs: Tỷ số $\\text{VFA}/\\text{rbCOD}$ đầu vào bằng $0.20$. Tra đồ thị trên Slide 19 tại $\\text{VFA}/\\text{rbCOD} = 0.20$ được định mức tiêu thụ cơ chất bằng $14.5\\text{ g rbCOD/g P}$ (hoặc $15.0\\text{ g/g}$), suy ra lượng photpho khử bởi PAOs đạt $\\text{P}_{\\text{EBPR}}$ bằng $4.10\\text{ g P/m}^3$ [Page 9].",
+          "sentences": [
+            "Bước 2 - Xác định lượng photpho loại bỏ nhờ cơ chế EBPR của vi khuẩn PAOs: Tỷ số $\\text{VFA}/\\text{rbCOD}$ đầu vào bằng $0.20$.",
+            "Tra đồ thị trên Slide 19 tại $\\text{VFA}/\\text{rbCOD} = 0.20$ được định mức tiêu thụ cơ chất bằng $14.5\\text{ g rbCOD/g P}$ (hoặc $15.0\\text{ g/g}$), suy ra lượng photpho khử bởi PAOs đạt $\\text{P}_{\\text{EBPR}}$ bằng $4.10\\text{ g P/m}^3$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 2 - Xác định lượng photpho loại bỏ nhờ cơ chế EBPR của vi khuẩn PAOs: Tỷ số $\\text{VFA}/\\text{rbCOD}$ đầu vào bằng $0.20$.",
+            "Tra đồ thị trên Slide 19 tại $\\text{VFA}/\\text{rbCOD} = 0.20$ được định mức tiêu thụ cơ chất bằng $14.5\\text{ g rbCOD/g P}$ (hoặc $15.0\\text{ g/g}$), suy ra lượng photpho khử bởi PAOs đạt $\\text{P}_{\\text{EBPR}}$ bằng $4.10\\text{ g P/m}^3$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tại tỷ số $\\text{VFA}/\\text{rbCOD} = 0.20$, vi khuẩn PAOs khử được lượng photpho $\\text{P}_{\\text{EBPR}} = 4.10\\text{ g P/m}^3$. Đồ thị thiết kế cho định mức tiêu thụ cơ chất bằng $14.5\\text{ g rbCOD/g P}$ (hoặc $15.0\\text{ g/g}$).",
+          "takeaway": "Tại tỷ số $\\text{VFA}/\\text{rbCOD} = 0.20$, vi khuẩn PAOs khử được lượng photpho $\\text{P}_{\\text{EBPR}} = 4.10\\text{ g P/m}^3$",
+          "topic": "vi khuẩn PAOs"
+        },
+        {
+          "id": "p-da7e0d54",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính lượng photpho đồng hóa bởi vi khuẩn dị dưỡng khác và nitrat hóa ở $12^\\circ\\text{C}$: Hiệu chỉnh nhiệt độ về $12^\\circ\\text{C}$ cho $k_{d,H} = 0.0731\\text{ d}^{-1}$ và $k_{d,n} = 0.0585\\text{ d}^{-1}$. Sinh khối hoạt động của vi khuẩn dị dưỡng khác $\\Delta X_{H,\\text{act}}$ đạt $54.13\\text{ g/m}^3$ và vi khuẩn nitrat hóa $\\Delta X_{n,\\text{act}}$ đạt $2.29\\text{ g/m}^3$, tiêu thụ lượng photpho tổng hợp tế bào $\\text{P}_{\\text{synth}}$ bằng $0.85\\text{ g P/m}^3$ [Page 11].",
+          "sentences": [
+            "Bước 3 - Tính lượng photpho đồng hóa bởi vi khuẩn dị dưỡng khác và nitrat hóa ở $12^\\circ\\text{C}$: Hiệu chỉnh nhiệt độ về $12^\\circ\\text{C}$ cho $k_{d,H} = 0.0731\\text{ d}^{-1}$ và $k_{d,n} = 0.0585\\text{ d}^{-1}$.",
+            "Sinh khối hoạt động của vi khuẩn dị dưỡng khác $\\Delta X_{H,\\text{act}}$ đạt $54.13\\text{ g/m}^3$ và vi khuẩn nitrat hóa $\\Delta X_{n,\\text{act}}$ đạt $2.29\\text{ g/m}^3$, tiêu thụ lượng photpho tổng hợp tế bào $\\text{P}_{\\text{synth}}$ bằng $0.85\\text{ g P/m}^3$ [Page 11]."
+          ],
+          "brief": [
+            "Bước 3 - Tính lượng photpho đồng hóa bởi vi khuẩn dị dưỡng khác và nitrat hóa ở $12^\\circ\\text{C}$: Hiệu chỉnh nhiệt độ về $12^\\circ\\text{C}$ cho $k_{d,H} = 0.0731\\text{ d}^{-1}$ và $k_{d,n} = 0.0585\\text{ d}^{-1}$.",
+            "Sinh khối hoạt động của vi khuẩn dị dưỡng khác $\\Delta X_{H,\\text{act}}$ đạt $54.13\\text{ g/m}^3$ và vi khuẩn nitrat hóa $\\Delta X_{n,\\text{act}}$ đạt $2.29\\text{ g/m}^3$, tiêu thụ lượng photpho tổng hợp tế bào $\\text{P}_{\\text{synth}}$ bằng $0.85\\text{ g P/m}^3$ [Page 11]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Ở $12^\\circ\\text{C}$, sinh khối vi khuẩn khác và nitrat hóa đồng hóa thêm $\\text{P}_{\\text{synth}} = 0.85\\text{ g P/m}^3$. Sinh khối dị dưỡng hoạt động đạt $\\Delta X_{H,\\text{act}} = 54.13\\text{ g/m}^3$ và sinh khối nitrat hóa đạt $\\Delta X_{n,\\text{act}} = 2.29\\text{ g/m}^3$.",
+          "takeaway": "Ở $12^\\circ\\text{C}$, sinh khối vi khuẩn khác và nitrat hóa đồng hóa thêm $\\text{P}_{\\text{synth}} = 0.85\\text{ g P/m}^3$",
+          "topic": "sinh khối vi"
+        },
+        {
+          "id": "p-921885c0",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Xác định nồng độ photpho đầu ra $\\text{P}_e$ và khối lượng photpho thu hồi: Tổng lượng photpho loại bỏ $\\text{P}_{\\text{rem}}$ đạt $4.95\\text{ g P/m}^3$, nên nồng độ photpho hòa tan còn lại ở dòng ra $\\text{P}_e$ bằng $1.05\\text{ g P/m}^3$ (hoặc $1.19\\text{ g P/m}^3$ nếu lấy tỷ số bằng $15.0$). Khối lượng photpho tích lũy trong bùn dư mỗi ngày $M_{\\text{P}}$ đạt $19.80\\text{ kg P/d}$ [Page 11].",
+          "sentences": [
+            "Bước 4 - Xác định nồng độ photpho đầu ra $\\text{P}_e$ và khối lượng photpho thu hồi: Tổng lượng photpho loại bỏ $\\text{P}_{\\text{rem}}$ đạt $4.95\\text{ g P/m}^3$, nên nồng độ photpho hòa tan còn lại ở dòng ra $\\text{P}_e$ bằng $1.05\\text{ g P/m}^3$ (hoặc $1.19\\text{ g P/m}^3$ nếu lấy tỷ số bằng $15.0$).",
+            "Khối lượng photpho tích lũy trong bùn dư mỗi ngày $M_{\\text{P}}$ đạt $19.80\\text{ kg P/d}$ [Page 11]."
+          ],
+          "brief": [
+            "Bước 4 - Xác định nồng độ photpho đầu ra $\\text{P}_e$ và khối lượng photpho thu hồi: Tổng lượng photpho loại bỏ $\\text{P}_{\\text{rem}}$ đạt $4.95\\text{ g P/m}^3$, nên nồng độ photpho hòa tan còn lại ở dòng ra $\\text{P}_e$ bằng $1.05\\text{ g P/m}^3$ (hoặc $1.19\\text{ g P/m}^3$ nếu lấy tỷ số bằng $15.0$).",
+            "Khối lượng photpho tích lũy trong bùn dư mỗi ngày $M_{\\text{P}}$ đạt $19.80\\text{ kg P/d}$ [Page 11]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng photpho khử đạt $\\text{P}_{\\text{rem}} = 4.95\\text{ g P/m}^3$, đầu ra còn $\\text{P}_e = 1.05\\text{ g P/m}^3$ và thu $M_{\\text{P}} = 19.80\\text{ kg P/d}$. Nếu chọn định mức $15.0\\text{ g/g}$ trên đồ thị thì nồng độ photpho hòa tan đầu ra bằng $1.19\\text{ g P/m}^3$.",
+          "takeaway": "Tổng photpho khử đạt $\\text{P}_{\\text{rem}} = 4.95\\text{ g P/m}^3$, đầu ra còn $\\text{P}_e = 1.05\\text{ g P/m}^3$ và thu $M_{\\text{P}} = 19.80\\text{ kg P/d}$",
+          "topic": "Tổng photpho khử"
+        },
+        {
+          "id": "p-ee63296e",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 5 - Tính tổng lượng bùn thải và hàm lượng phần trăm photpho trong bùn: Cộng toàn bộ sinh khối tạo thành $P_{x,\\text{bio}}$ bằng $318.7\\text{ kg VSS/d}$ với $\\text{nbVSS}$ ($80.0\\text{ kg/d}$) và $\\text{iTSS}$ ($40.0\\text{ kg/d}$), tổng lượng bùn thải đạt $P_{x,\\text{VSS}}$ bằng $398.7\\text{ kg VSS/d}$ và $P_{x,\\text{TSS}}$ bằng $494.9\\text{ kg TSS/d}$. Hàm lượng photpho trong bùn thải đạt $4.96\\%\\text{ P/VSS}$ và $4.00\\%\\text{ P/TSS}$ [Page 11].",
+          "sentences": [
+            "Bước 5 - Tính tổng lượng bùn thải và hàm lượng phần trăm photpho trong bùn: Cộng toàn bộ sinh khối tạo thành $P_{x,\\text{bio}}$ bằng $318.7\\text{ kg VSS/d}$ với $\\text{nbVSS}$ ($80.0\\text{ kg/d}$) và $\\text{iTSS}$ ($40.0\\text{ kg/d}$), tổng lượng bùn thải đạt $P_{x,\\text{VSS}}$ bằng $398.7\\text{ kg VSS/d}$ và $P_{x,\\text{TSS}}$ bằng $494.9\\text{ kg TSS/d}$.",
+            "Hàm lượng photpho trong bùn thải đạt $4.96\\%\\text{ P/VSS}$ và $4.00\\%\\text{ P/TSS}$ [Page 11]."
+          ],
+          "brief": [
+            "Bước 5 - Tính tổng lượng bùn thải và hàm lượng phần trăm photpho trong bùn: Cộng toàn bộ sinh khối tạo thành $P_{x,\\text{bio}}$ bằng $318.7\\text{ kg VSS/d}$ với $\\text{nbVSS}$ ($80.0\\text{ kg/d}$) và $\\text{iTSS}$ ($40.0\\text{ kg/d}$), tổng lượng bùn thải đạt $P_{x,\\text{VSS}}$ bằng $398.7\\text{ kg VSS/d}$ và $P_{x,\\text{TSS}}$ bằng $494.9\\text{ kg TSS/d}$.",
+            "Hàm lượng photpho trong bùn thải đạt $4.96\\%\\text{ P/VSS}$ và $4.00\\%\\text{ P/TSS}$ [Page 11]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng bùn thải đạt $P_{x,\\text{VSS}} = 398.7\\text{ kg VSS/d}$ với hàm lượng photpho đạt $4.96\\%\\text{ P/VSS}$ và $4.00\\%\\text{ P/TSS}$. Tổng lượng chất rắn lơ lửng xả bỏ mỗi ngày bằng $P_{x,\\text{TSS}} = 494.9\\text{ kg TSS/d}$ chứa $19.80\\text{ kg P/d}$.",
+          "takeaway": "Tổng bùn thải đạt $P_{x,\\text{VSS}} = 398.7\\text{ kg VSS/d}$ với hàm lượng photpho đạt $4.96\\%\\text{ P/VSS}$ và $4.00\\%\\text{ P/TSS}$",
+          "topic": "Tổng bùn thải"
+        },
+        {
+          "id": "p-47659d61-2",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Toàn bộ thông số vận hành và kết quả khử photpho của hệ A2O đạt chuẩn. Tỷ lệ tuần hoàn bùn và tuổi bùn thiết kế đều nằm trong khoảng khuyến cáo của quy trình A2O.",
+          "takeaway": "Toàn bộ thông số vận hành và kết quả khử photpho của hệ A2O đạt chuẩn",
+          "topic": "thông số vận"
+        },
+        {
+          "id": "p-4ee66e9a",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ số $\\text{BOD}/\\text{P}$ và thông số vận hành ($R,\\; \\theta_c$): $\\text{BOD}/\\text{P} = 26.7,\\; R = 50\\%,\\; \\theta_c = 8.0\\text{ d}$ (Kiểm tra: $R \\in [25\\%,\\; 100\\%],\\; \\theta_c \\in [5,\\; 25]\\text{ d - Đạt chuẩn Slide 21}$)",
+          "sentences": [
+            "Tỷ số $\\text{BOD}/\\text{P}$ và thông số vận hành ($R,\\; \\theta_c$): $\\text{BOD}/\\text{P} = 26.7,\\; R = 50\\%,\\; \\theta_c = 8.0\\text{ d}$ (Kiểm tra: $R \\in [25\\%,\\; 100\\%],\\; \\theta_c \\in [5,\\; 25]\\text{ d - Đạt chuẩn Slide 21}$)"
+          ],
+          "brief": [
+            "Tỷ số $\\text{BOD}/\\text{P}$ và thông số vận hành ($R,\\; \\theta_c$): $\\text{BOD}/\\text{P} = 26.7,\\; R = 50\\%,\\; \\theta_c = 8.0\\text{ d}$ (Kiểm tra: $R \\in [25\\%,\\; 100\\%],\\; \\theta_c \\in [5,\\; 25]\\text{ d - Đạt chuẩn Slide 21}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ lệ tuần hoàn $R = 50\\%$ và tuổi bùn $\\theta_c = 8.0\\text{ d}$ thỏa mãn chuẩn A2O.",
+          "takeaway": "Tỷ lệ tuần hoàn $R = 50\\%$ và tuổi bùn $\\theta_c = 8.0\\text{ d}$ thỏa mãn chuẩn A2O",
+          "topic": "tuổi bùn"
+        },
+        {
+          "id": "p-853677fd",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lượng $\\text{rbCOD}$ hữu hiệu cho PAOs ($\\text{rbCOD}_{\\text{EBPR}}$): $59.4\\text{ g/m}^3$ (Kiểm tra: $\\text{rbCOD}_{\\text{NO}_3} = 15.6\\text{ g/m}^3\\text{ - Đạt chuẩn Slide 20}$)",
+          "sentences": [
+            "Lượng $\\text{rbCOD}$ hữu hiệu cho PAOs ($\\text{rbCOD}_{\\text{EBPR}}$): $59.4\\text{ g/m}^3$ (Kiểm tra: $\\text{rbCOD}_{\\text{NO}_3} = 15.6\\text{ g/m}^3\\text{ - Đạt chuẩn Slide 20}$)"
+          ],
+          "brief": [
+            "Lượng $\\text{rbCOD}$ hữu hiệu cho PAOs ($\\text{rbCOD}_{\\text{EBPR}}$): $59.4\\text{ g/m}^3$ (Kiểm tra: $\\text{rbCOD}_{\\text{NO}_3} = 15.6\\text{ g/m}^3\\text{ - Đạt chuẩn Slide 20}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lượng cơ chất hữu hiệu cho PAOs đạt $\\text{rbCOD}_{\\text{EBPR}} = 59.4\\text{ g/m}^3$ sau khi trừ $\\text{rbCOD}_{\\text{NO}_3} = 15.6\\text{ g/m}^3$.",
+          "takeaway": "Lượng cơ chất hữu hiệu cho PAOs đạt $\\text{rbCOD}_{\\text{EBPR}} = 59.4\\text{ g/m}^3$ sau khi trừ $\\text{rbCOD}_{\\text{NO}_3} = 15.6\\text{ g/m}^3$",
+          "topic": "Lượng cơ chất"
+        },
+        {
+          "id": "p-71f61cef",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổng lượng photpho được loại bỏ ($\\text{P}_{\\text{rem}},\\; M_{\\text{P}}$): $4.95\\text{ g P/m}^3,\\; 19.80\\text{ kg P/d}$ (Kiểm tra: $\\text{P}_{\\text{EBPR}} = 4.10\\text{ g/m}^3,\\; \\text{P}_{\\text{synth}} = 0.85\\text{ g/m}^3\\text{ - Đạt chuẩn Slide 19}$)",
+          "sentences": [
+            "Tổng lượng photpho được loại bỏ ($\\text{P}_{\\text{rem}},\\; M_{\\text{P}}$): $4.95\\text{ g P/m}^3,\\; 19.80\\text{ kg P/d}$ (Kiểm tra: $\\text{P}_{\\text{EBPR}} = 4.10\\text{ g/m}^3,\\; \\text{P}_{\\text{synth}} = 0.85\\text{ g/m}^3\\text{ - Đạt chuẩn Slide 19}$)"
+          ],
+          "brief": [
+            "Tổng lượng photpho được loại bỏ ($\\text{P}_{\\text{rem}},\\; M_{\\text{P}}$): $4.95\\text{ g P/m}^3,\\; 19.80\\text{ kg P/d}$ (Kiểm tra: $\\text{P}_{\\text{EBPR}} = 4.10\\text{ g/m}^3,\\; \\text{P}_{\\text{synth}} = 0.85\\text{ g/m}^3\\text{ - Đạt chuẩn Slide 19}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng lượng photpho loại bỏ đạt $\\text{P}_{\\text{rem}} = 4.95\\text{ g P/m}^3$, tương ứng khối lượng $M_{\\text{P}} = 19.80\\text{ kg P/d}$.",
+          "takeaway": "Tổng lượng photpho loại bỏ đạt $\\text{P}_{\\text{rem}} = 4.95\\text{ g P/m}^3$, tương ứng khối lượng $M_{\\text{P}} = 19.80\\text{ kg P/d}$",
+          "topic": "photpho loại bỏ"
+        },
+        {
+          "id": "p-cd2e5016",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ photpho hòa tan đầu ra ($\\text{P}_e$): $1.05\\text{ g P/m}^3$ (Kiểm tra: $\\text{Hiệu suất khử P} = 82.5\\%\\text{ - Đạt chuẩn Slide 23}$)",
+          "sentences": [
+            "Nồng độ photpho hòa tan đầu ra ($\\text{P}_e$): $1.05\\text{ g P/m}^3$ (Kiểm tra: $\\text{Hiệu suất khử P} = 82.5\\%\\text{ - Đạt chuẩn Slide 23}$)"
+          ],
+          "brief": [
+            "Nồng độ photpho hòa tan đầu ra ($\\text{P}_e$): $1.05\\text{ g P/m}^3$ (Kiểm tra: $\\text{Hiệu suất khử P} = 82.5\\%\\text{ - Đạt chuẩn Slide 23}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ photpho hòa tan đầu ra đạt $\\text{P}_e = 1.05\\text{ g P/m}^3$ ứng với hiệu suất $82.5\\%$.",
+          "takeaway": "Nồng độ photpho hòa tan đầu ra đạt $\\text{P}_e = 1.05\\text{ g P/m}^3$ ứng với hiệu suất $82.5\\%$",
+          "topic": "photpho hòa tan"
+        },
+        {
+          "id": "p-bc8d910a",
+          "kind": "list item",
+          "role": "result",
+          "full": "Hàm lượng photpho trong bùn dư xả bỏ ($\\%\\text{P}_{\\text{VSS}},\\; \\%\\text{P}_{\\text{TSS}}$): $4.96\\%\\text{ P/VSS},\\; 4.00\\%\\text{ P/TSS}$ (Kiểm tra: $P_{x,\\text{VSS}} = 398.7\\text{ kg/d},\\; P_{x,\\text{TSS}} = 494.9\\text{ kg/d - Đạt chuẩn Slide 23}$)",
+          "sentences": [
+            "Hàm lượng photpho trong bùn dư xả bỏ ($\\%\\text{P}_{\\text{VSS}},\\; \\%\\text{P}_{\\text{TSS}}$): $4.96\\%\\text{ P/VSS},\\; 4.00\\%\\text{ P/TSS}$ (Kiểm tra: $P_{x,\\text{VSS}} = 398.7\\text{ kg/d},\\; P_{x,\\text{TSS}} = 494.9\\text{ kg/d - Đạt chuẩn Slide 23}$)"
+          ],
+          "brief": [
+            "Hàm lượng photpho trong bùn dư xả bỏ ($\\%\\text{P}_{\\text{VSS}},\\; \\%\\text{P}_{\\text{TSS}}$): $4.96\\%\\text{ P/VSS},\\; 4.00\\%\\text{ P/TSS}$ (Kiểm tra: $P_{x,\\text{VSS}} = 398.7\\text{ kg/d},\\; P_{x,\\text{TSS}} = 494.9\\text{ kg/d - Đạt chuẩn Slide 23}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hàm lượng photpho trong bùn dư xả bỏ đạt $4.96\\%\\text{ P/VSS}$ và $4.00\\%\\text{ P/TSS}$.",
+          "takeaway": "Hàm lượng photpho trong bùn dư xả bỏ đạt $4.96\\%\\text{ P/VSS}$ và $4.00\\%\\text{ P/TSS}$",
+          "topic": "Hàm lượng photpho"
+        },
+        {
+          "id": "p-865b07d9",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 1 (Page 4)",
+          "sentences": [
+            "Figure 1 (Page 4)"
+          ],
+          "brief": [
+            "Figure 1 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 1 trang 4 vẽ bể kỵ khí nối tiếp bể hiếu khí để chọn lọc PAOs.",
+          "takeaway": "Hình 1 trang 4 vẽ bể kỵ khí nối tiếp bể hiếu khí để chọn lọc PAOs",
+          "topic": "Hình 1"
+        },
+        {
+          "id": "p-cf515b28",
+          "kind": "caption",
+          "role": "analysis",
+          "full": "Figure 2 (Page 4)",
+          "sentences": [
+            "Figure 2 (Page 4)"
+          ],
+          "brief": [
+            "Figure 2 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 2 trang 4 vẽ biến thiên rbCOD và orthophosphate để chứng minh cơ chế nhả-thu P.",
+          "takeaway": "Hình 2 trang 4 vẽ biến thiên rbCOD và orthophosphate để chứng minh cơ chế nhả-thu P",
+          "topic": "Hình 2"
+        },
+        {
+          "id": "p-8ead22fa",
+          "kind": "caption",
+          "role": "analysis",
+          "full": "Figure 3 (Page 5)",
+          "sentences": [
+            "Figure 3 (Page 5)"
+          ],
+          "brief": [
+            "Figure 3 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 3 trang 5 vẽ biến thiên PHA, glycogen và P để làm rõ chu trình EBPR.",
+          "takeaway": "Hình 3 trang 5 vẽ biến thiên PHA, glycogen và P để làm rõ chu trình EBPR",
+          "topic": "Hình 3"
+        },
+        {
+          "id": "p-f07c9392",
+          "kind": "caption",
+          "role": "analysis",
+          "full": "Figure 4 (Page 5)",
+          "sentences": [
+            "Figure 4 (Page 5)"
+          ],
+          "brief": [
+            "Figure 4 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 4 trang 5 vẽ trao đổi chất nội bào của PAOs để giải thích tích trữ PHA.",
+          "takeaway": "Hình 4 trang 5 vẽ trao đổi chất nội bào của PAOs để giải thích tích trữ PHA",
+          "topic": "Hình 4"
+        },
+        {
+          "id": "p-3e540e54",
+          "kind": "caption",
+          "role": "analysis",
+          "full": "Figure 5 (Page 5)",
+          "sentences": [
+            "Figure 5 (Page 5)"
+          ],
+          "brief": [
+            "Figure 5 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 5 trang 5 vẽ chu trình nạp-xả polyphosphate để giải thích năng lượng PAOs.",
+          "takeaway": "Hình 5 trang 5 vẽ chu trình nạp-xả polyphosphate để giải thích năng lượng PAOs",
+          "topic": "Hình 5"
+        },
+        {
+          "id": "p-8b560851",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 6 (Page 6)",
+          "sentences": [
+            "Figure 6 (Page 6)"
+          ],
+          "brief": [
+            "Figure 6 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 6 trang 6 quy định bảng nồng độ nước thải để giải bài tập ch09_ex01.",
+          "takeaway": "Hình 6 trang 6 quy định bảng nồng độ nước thải để giải bài tập ch09_ex01",
+          "topic": "Hình 6"
+        },
+        {
+          "id": "p-6fa79562",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 7 (Page 7)",
+          "sentences": [
+            "Figure 7 (Page 7)"
+          ],
+          "brief": [
+            "Figure 7 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 7 trang 7 vẽ sơ đồ A/O dòng chính để khử photpho ở tuổi bùn ngắn.",
+          "takeaway": "Hình 7 trang 7 vẽ sơ đồ A/O dòng chính để khử photpho ở tuổi bùn ngắn",
+          "topic": "Hình 7"
+        },
+        {
+          "id": "p-cd695ea0",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 8 (Page 7)",
+          "sentences": [
+            "Figure 8 (Page 7)"
+          ],
+          "brief": [
+            "Figure 8 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 8 trang 7 vẽ sơ đồ A2O có bể lắng để khử đồng thời N và P.",
+          "takeaway": "Hình 8 trang 7 vẽ sơ đồ A2O có bể lắng để khử đồng thời N và P",
+          "topic": "Hình 8"
+        },
+        {
+          "id": "p-aa32aa53",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 9 (Page 7)",
+          "sentences": [
+            "Figure 9 (Page 7)"
+          ],
+          "brief": [
+            "Figure 9 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 9 trang 7 vẽ sơ đồ A2O tích hợp màng MBR để giữ nồng độ bùn cao.",
+          "takeaway": "Hình 9 trang 7 vẽ sơ đồ A2O tích hợp màng MBR để giữ nồng độ bùn cao",
+          "topic": "Hình 9"
+        },
+        {
+          "id": "p-2f791670",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 10 (Page 8)",
+          "sentences": [
+            "Figure 10 (Page 8)"
+          ],
+          "brief": [
+            "Figure 10 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 10 trang 8 vẽ sơ đồ UCT hai vòng tuần hoàn để bảo vệ vùng kỵ khí.",
+          "takeaway": "Hình 10 trang 8 vẽ sơ đồ UCT hai vòng tuần hoàn để bảo vệ vùng kỵ khí",
+          "topic": "Hình 10"
+        },
+        {
+          "id": "p-cef26d08",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 11 (Page 8)",
+          "sentences": [
+            "Figure 11 (Page 8)"
+          ],
+          "brief": [
+            "Figure 11 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 11 trang 8 vẽ sơ đồ UCT kết hợp màng MBR để tách bùn triệt để.",
+          "takeaway": "Hình 11 trang 8 vẽ sơ đồ UCT kết hợp màng MBR để tách bùn triệt để",
+          "topic": "Hình 11"
+        },
+        {
+          "id": "p-d7980517",
+          "kind": "caption",
+          "role": "analysis",
+          "full": "Figure 12 (Page 8)",
+          "sentences": [
+            "Figure 12 (Page 8)"
+          ],
+          "brief": [
+            "Figure 12 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 12 trang 8 đối chiếu ưu nhược điểm của A/O, A2O, UCT để chọn công nghệ.",
+          "takeaway": "Hình 12 trang 8 đối chiếu ưu nhược điểm của A/O, A2O, UCT để chọn công nghệ",
+          "topic": "Hình 12"
+        },
+        {
+          "id": "p-4dea7543",
+          "kind": "caption",
+          "role": "analysis",
+          "full": "Figure 13 (Page 8)",
+          "sentences": [
+            "Figure 13 (Page 8)"
+          ],
+          "brief": [
+            "Figure 13 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 13 trang 8 xác định đặc tính quy trình UCT để áp dụng khi BOD/P thấp.",
+          "takeaway": "Hình 13 trang 8 xác định đặc tính quy trình UCT để áp dụng khi BOD/P thấp",
+          "topic": "Hình 13"
+        },
+        {
+          "id": "p-c93a2c49",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 14 (Page 9)",
+          "sentences": [
+            "Figure 14 (Page 9)"
+          ],
+          "brief": [
+            "Figure 14 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 14 trang 9 quy định tỷ số cơ chất trên P để đánh giá khả năng EBPR.",
+          "takeaway": "Hình 14 trang 9 quy định tỷ số cơ chất trên P để đánh giá khả năng EBPR",
+          "topic": "Hình 14"
+        },
+        {
+          "id": "p-ecf42f7e",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 15 (Page 9)",
+          "sentences": [
+            "Figure 15 (Page 9)"
+          ],
+          "brief": [
+            "Figure 15 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 15 trang 9 vẽ quan hệ VFA/rbCOD và rbCOD/P để tra định mức khử P.",
+          "takeaway": "Hình 15 trang 9 vẽ quan hệ VFA/rbCOD và rbCOD/P để tra định mức khử P",
+          "topic": "Hình 15"
+        },
+        {
+          "id": "p-a6b0d67b",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 16 (Page 10)",
+          "sentences": [
+            "Figure 16 (Page 10)"
+          ],
+          "brief": [
+            "Figure 16 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 16 trang 10 quy định bảng thông số chuẩn để thiết kế A/O, A2O và UCT.",
+          "takeaway": "Hình 16 trang 10 quy định bảng thông số chuẩn để thiết kế A/O, A2O và UCT",
+          "topic": "Hình 16"
+        },
+        {
+          "id": "p-4817287e",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 17 (Page 10)",
+          "sentences": [
+            "Figure 17 (Page 10)"
+          ],
+          "brief": [
+            "Figure 17 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 17 trang 10 vẽ sơ đồ hệ thống A2O để tính toán bài tập ch09_ex02.",
+          "takeaway": "Hình 17 trang 10 vẽ sơ đồ hệ thống A2O để tính toán bài tập ch09_ex02",
+          "topic": "Hình 17"
+        },
+        {
+          "id": "p-503bec84",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 18 (Page 10)",
+          "sentences": [
+            "Figure 18 (Page 10)"
+          ],
+          "brief": [
+            "Figure 18 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 18 trang 10 quy định bảng thông số đầu vào để giải bài tập ch09_ex02.",
+          "takeaway": "Hình 18 trang 10 quy định bảng thông số đầu vào để giải bài tập ch09_ex02",
+          "topic": "Hình 18"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

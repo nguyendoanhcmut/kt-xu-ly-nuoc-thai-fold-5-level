@@ -1,0 +1,1782 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-4-2-qu-tr-nh-t-o-b-ng-trong-x-l-n-e02330d4",
+  "lang": "vi",
+  "title": "Chương 4.2 - Quá trình Tạo bông trong Xử lý Nước thải (Chapter 4.2 - Flocculation)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch04_2_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:43:35Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-08T00:43:34",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-tổng-quan-cơ-chế-tạo-bông-và-chất-trợ-keo-tụ-polymer-hữu-cơ-overview-mechanism-and-organic-polymers",
+      "num": "1",
+      "title": "Tổng quan, Cơ chế Tạo bông và Chất Trợ keo tụ Polymer Hữu cơ (Overview, Mechanism, and Organic Polymers)",
+      "depth": 1,
+      "takeaway": "Polymer hữu cơ kết tụ hạt keo thành bông cặn ở liều $0.005$ đến $10\\text{ mg/L}$",
+      "topic": "Polymer hữu cơ",
+      "units": [
+        {
+          "id": "p-bddcebc8",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Quá trình tạo bông (Flocculation) là bước bổ sung các hóa chất polymer hữu cơ (Organic polymers) vào nước thải để kết tụ các hạt keo đã mất ổn định thành các bông cặn lớn hơn (Flocs) mà bể lắng dễ tách bỏ [Page 1] [Page 2]. Công đoạn tạo bông luôn diễn ra ngay sau quá trình keo tụ (Coagulation) và phá hủy trạng thái ổn định của hạt keo trong dây chuyền xử lý hóa lý [Page 2] [Page 3]. Mục tiêu kỹ thuật của quá trình tạo bông là nâng cao khả năng lắng trọng lực (Settleability) và khả năng lọc (Filterability) của các bông cặn trước khi dòng nước đi qua bể lắng, bể tuyển nổi hoặc bể lọc. Toàn bộ tổ hợp keo tụ và tạo bông gồm ba bước nối tiếp là bước làm mất ổn định hạt bằng phèn (Destabilization), bước kết tụ các hạt nhỏ thành bông lớn bằng chất trợ keo tụ (Aggregation) và bước tách pha rắn bằng lắng, tuyển nổi hoặc lọc (Separation) [Page 2] [Page 3].",
+          "sentences": [
+            "Quá trình tạo bông (Flocculation) là bước bổ sung các hóa chất polymer hữu cơ (Organic polymers) vào nước thải để kết tụ các hạt keo đã mất ổn định thành các bông cặn lớn hơn (Flocs) mà bể lắng dễ tách bỏ [Page 1] [Page 2].",
+            "Công đoạn tạo bông luôn diễn ra ngay sau quá trình keo tụ (Coagulation) và phá hủy trạng thái ổn định của hạt keo trong dây chuyền xử lý hóa lý [Page 2] [Page 3].",
+            "Mục tiêu kỹ thuật của quá trình tạo bông là nâng cao khả năng lắng trọng lực (Settleability) và khả năng lọc (Filterability) của các bông cặn trước khi dòng nước đi qua bể lắng, bể tuyển nổi hoặc bể lọc.",
+            "Toàn bộ tổ hợp keo tụ và tạo bông gồm ba bước nối tiếp là bước làm mất ổn định hạt bằng phèn (Destabilization), bước kết tụ các hạt nhỏ thành bông lớn bằng chất trợ keo tụ (Aggregation) và bước tách pha rắn bằng lắng, tuyển nổi hoặc lọc (Separation) [Page 2] [Page 3]."
+          ],
+          "brief": [
+            "Quá trình tạo bông (Flocculation) là bước bổ sung các hóa chất polymer hữu cơ (Organic polymers) vào nước thải để kết tụ các hạt keo đã mất ổn định thành các bông cặn lớn hơn (Flocs) mà bể lắng dễ tách bỏ [Page 1] [Page 2].",
+            "Mục tiêu kỹ thuật của quá trình tạo bông là nâng cao khả năng lắng trọng lực (Settleability) và khả năng lọc (Filterability) của các bông cặn trước khi dòng nước đi qua bể lắng, bể tuyển nổi hoặc bể lọc."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Quá trình tạo bông châm polymer hữu cơ để kết tụ hạt keo sau keo tụ. Bông cặn kích thước lớn tăng tốc độ lắng trọng lực và hiệu quả giữ cặn tại bể lọc.",
+          "takeaway": "Quá trình tạo bông châm polymer hữu cơ để kết tụ hạt keo sau keo tụ",
+          "topic": "Quá trình tạo bông"
+        },
+        {
+          "id": "p-272652a4",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Cơ chế vật lý của quá trình tạo bông bao gồm hai giai đoạn kế tiếp là tạo bông vi mô (Microflocculation) và tạo bông vĩ mô (Macroflocculation) [Page 2]. Giai đoạn tạo bông vi mô xảy ra do chuyển động Brown ngẫu nhiên (Random Brownian motion) của các hạt keo siêu mịn ngay sau khi trung hòa điện tích. Giai đoạn tạo bông vĩ mô hình thành nhờ chế độ khuấy trộn cưỡng bức và sự chênh lệch gradien vận tốc (Velocity gradients) trong lòng chất lỏng để gia tăng tần suất va chạm giữa các hạt. Khi các hạt vi bông va chạm và bám dính vào nhau nhờ cầu nối polymer, kích thước và khối lượng bông cặn tăng nhanh để thắng lực cản thủy lực trong bể lắng [Page 2] [Page 3].",
+          "sentences": [
+            "Cơ chế vật lý của quá trình tạo bông bao gồm hai giai đoạn kế tiếp là tạo bông vi mô (Microflocculation) và tạo bông vĩ mô (Macroflocculation) [Page 2].",
+            "Giai đoạn tạo bông vi mô xảy ra do chuyển động Brown ngẫu nhiên (Random Brownian motion) của các hạt keo siêu mịn ngay sau khi trung hòa điện tích.",
+            "Giai đoạn tạo bông vĩ mô hình thành nhờ chế độ khuấy trộn cưỡng bức và sự chênh lệch gradien vận tốc (Velocity gradients) trong lòng chất lỏng để gia tăng tần suất va chạm giữa các hạt.",
+            "Khi các hạt vi bông va chạm và bám dính vào nhau nhờ cầu nối polymer, kích thước và khối lượng bông cặn tăng nhanh để thắng lực cản thủy lực trong bể lắng [Page 2] [Page 3]."
+          ],
+          "brief": [
+            "Cơ chế vật lý của quá trình tạo bông bao gồm hai giai đoạn kế tiếp là tạo bông vi mô (Microflocculation) và tạo bông vĩ mô (Macroflocculation) [Page 2].",
+            "Giai đoạn tạo bông vĩ mô hình thành nhờ chế độ khuấy trộn cưỡng bức và sự chênh lệch gradien vận tốc (Velocity gradients) trong lòng chất lỏng để gia tăng tần suất va chạm giữa các hạt."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Tạo bông gồm giai đoạn vi mô do chuyển động Brown và vĩ mô do khuấy trộn. Gradien vận tốc cưỡng bức giúp các vi bông va chạm qua cầu nối polymer thành bông lớn.",
+          "takeaway": "Tạo bông gồm giai đoạn vi mô do chuyển động Brown và vĩ mô do khuấy trộn",
+          "topic": "giai đoạn vi mô"
+        },
+        {
+          "id": "p-bfcb2012",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Các nhà máy xử lý nước thải sử dụng polymer tổng hợp (Synthetic polymers) phổ biến hơn nhiều so với polymer tự nhiên (Natural polymers) vì polymer tổng hợp có giá thành rẻ hơn và đạt hiệu quả tạo bông cao ở liều lượng rất thấp [Page 3]. Đối với dây chuyền tạo bông phục vụ bể lắng hoặc bể tuyển nổi (Sedimentation or flotation), liều lượng polymer hữu cơ tiêu chuẩn nằm trong khoảng từ $1\\text{ mg/L}$ đến $10\\text{ mg/L}$. Đối với dây chuyền tạo bông phục vụ trực tiếp cho bể lọc (Filtration), liều lượng polymer hữu cơ chỉ nằm trong khoảng từ $0.005\\text{ mg/L}$ đến $0.05\\text{ mg/L}$ để tránh làm bít tắc lớp vật liệu lọc [Page 3].",
+          "sentences": [
+            "Các nhà máy xử lý nước thải sử dụng polymer tổng hợp (Synthetic polymers) phổ biến hơn nhiều so với polymer tự nhiên (Natural polymers) vì polymer tổng hợp có giá thành rẻ hơn và đạt hiệu quả tạo bông cao ở liều lượng rất thấp [Page 3]. Đối với dây chuyền tạo bông phục vụ bể lắng hoặc bể tuyển nổi (Sedimentation or flotation), liều lượng polymer hữu cơ tiêu chuẩn nằm trong khoảng từ $1\\text{ mg/L}$ đến $10\\text{ mg/L}$. Đối với dây chuyền tạo bông phục vụ trực tiếp cho bể lọc (Filtration), liều lượng polymer hữu cơ chỉ nằm trong khoảng từ $0.005\\text{ mg/L}$ đến $0.05\\text{ mg/L}$ để tránh làm bít tắc lớp vật liệu lọc [Page 3]."
+          ],
+          "brief": [
+            "Các nhà máy xử lý nước thải sử dụng polymer tổng hợp (Synthetic polymers) phổ biến hơn nhiều so với polymer tự nhiên (Natural polymers) vì polymer tổng hợp có giá thành rẻ hơn và đạt hiệu quả tạo bông cao ở liều lượng rất thấp [Page 3]. Đối với dây chuyền tạo bông phục vụ bể lắng hoặc bể tuyển nổi (Sedimentation or flotation), liều lượng polymer hữu cơ tiêu chuẩn nằm trong khoảng từ $1\\text{ mg/L}$ đến $10\\text{ mg/L}$. Đối với dây chuyền tạo bông phục vụ trực tiếp cho bể lọc (Filtration), liều lượng polymer hữu cơ chỉ nằm trong khoảng từ $0.005\\text{ mg/L}$ đến $0.05\\text{ mg/L}$ để tránh làm bít tắc lớp vật liệu lọc [Page 3]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Liều polymer tổng hợp đạt $1$ đến $10\\text{ mg/L}$ cho lắng và $0.005$ đến $0.05\\text{ mg/L}$ cho lọc. Liều lượng thấp ở bể lọc ngăn ngừa hiện tượng bít tắc lớp vật liệu lọc.",
+          "takeaway": "Liều polymer tổng hợp đạt $1$ đến $10\\text{ mg/L}$ cho lắng và $0.005$ đến $0.05\\text{ mg/L}$ cho lọc",
+          "topic": "polymer tổng hợp"
+        },
+        {
+          "id": "p-5aa852c5",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Bảng phân loại trên Slide 7 chia các chất trợ keo tụ polymer hữu cơ thành bốn nhóm chính dựa theo điện tích và nguồn gốc cấu tạo [Page 4]. Nhóm polymer anion (Anionic polymer) mang điện tích âm (Negative charge), có khối lượng phân tử từ $10^4\\text{ g/mol}$ đến $10^7\\text{ g/mol}$ với đại diện điển hình là polyacrylamide thủy phân (Hydrolyzed polyacrylamides). Nhóm polymer cation (Cationic polymer) mang điện tích dương (Positive charge), có khối lượng phân tử từ $10^4\\text{ g/mol}$ đến $10^7\\text{ g/mol}$ với hai hợp chất tiêu biểu là epichlorohydrin dimethylamine (epi-DMA) và polydiallyldimethyl ammonium chloride (poly-DADMAC). Nhóm polymer không phân cực (Nonionic polymer) mang điện tích trung hòa (Neutral charge), có khối lượng phân tử từ $10^4\\text{ g/mol}$ đến $10^7\\text{ g/mol}$ như polyacrylamide thuần, trong khi nhóm polymer tự nhiên (Natural polymer) gồm sodium alginate, chitosan và tinh bột (Starches) có khối lượng phân tử cùng điện tích biến thiên theo nguồn nguyên liệu [Page 4].",
+          "sentences": [
+            "Bảng phân loại trên Slide 7 chia các chất trợ keo tụ polymer hữu cơ thành bốn nhóm chính dựa theo điện tích và nguồn gốc cấu tạo [Page 4].",
+            "Nhóm polymer anion (Anionic polymer) mang điện tích âm (Negative charge), có khối lượng phân tử từ $10^4\\text{ g/mol}$ đến $10^7\\text{ g/mol}$ với đại diện điển hình là polyacrylamide thủy phân (Hydrolyzed polyacrylamides).",
+            "Nhóm polymer cation (Cationic polymer) mang điện tích dương (Positive charge), có khối lượng phân tử từ $10^4\\text{ g/mol}$ đến $10^7\\text{ g/mol}$ với hai hợp chất tiêu biểu là epichlorohydrin dimethylamine (epi-DMA) và polydiallyldimethyl ammonium chloride (poly-DADMAC).",
+            "Nhóm polymer không phân cực (Nonionic polymer) mang điện tích trung hòa (Neutral charge), có khối lượng phân tử từ $10^4\\text{ g/mol}$ đến $10^7\\text{ g/mol}$ như polyacrylamide thuần, trong khi nhóm polymer tự nhiên (Natural polymer) gồm sodium alginate, chitosan và tinh bột (Starches) có khối lượng phân tử cùng điện tích biến thiên theo nguồn nguyên liệu [Page 4]."
+          ],
+          "brief": [
+            "Bảng phân loại trên Slide 7 chia các chất trợ keo tụ polymer hữu cơ thành bốn nhóm chính dựa theo điện tích và nguồn gốc cấu tạo [Page 4].",
+            "Nhóm polymer anion (Anionic polymer) mang điện tích âm (Negative charge), có khối lượng phân tử từ $10^4\\text{ g/mol}$ đến $10^7\\text{ g/mol}$ với đại diện điển hình là polyacrylamide thủy phân (Hydrolyzed polyacrylamides)."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Chất trợ keo tụ gồm bốn nhóm: polymer anion, cation, không phân cực và tự nhiên. Các polymer tổng hợp có khối lượng phân tử lớn từ $10^4\\text{ g/mol}$ đến $10^7\\text{ g/mol}$.",
+          "takeaway": "Chất trợ keo tụ gồm bốn nhóm: polymer anion, cation, không phân cực và tự nhiên",
+          "topic": "Chất trợ keo tụ"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-phương-pháp-khuấy-trộn-tạo-bông-và-tiêu-chuẩn-thiết-kế-năng-lượng-khuấy-flocculation-practices-and-design-criteria",
+      "num": "2",
+      "title": "Phương pháp Khuấy trộn Tạo bông và Tiêu chuẩn Thiết kế Năng lượng Khuấy (Flocculation Practices and Design Criteria)",
+      "depth": 1,
+      "takeaway": "Hệ thống tạo bông giảm dần công suất khuấy $P = G^2 \\mu V$ qua các ngăn nối tiếp",
+      "topic": "Hệ thống tạo bông",
+      "units": [
+        {
+          "id": "p-f89f0ca2",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Hệ thống khuấy trộn tạo bông trong thực tế gồm hai nhóm công nghệ chính là hệ thống khuấy thủy lực (Hydraulic system) và hệ thống khuấy cơ khí (Mechanical system) [Page 4] [Page 5]. Trong hệ thống khuấy cơ khí, kỹ sư thường sử dụng bể khuấy guồng cánh trục ngang (Horizontal shaft with paddles system) hoặc bể khuấy tuabin trục đứng (Vertical shaft turbine system) [Page 5]. Để tạo ra các bông cặn kích thước lớn mà không làm vỡ bông, hệ thống cơ khí giảm dần công suất khuấy trộn qua các ngăn tạo bông nối tiếp (Tapering down the power input) bằng bộ truyền động hai hoặc ba cấp tốc độ như $v = 75\\text{ rpm}$, $v = 50\\text{ rpm}$ và $v = 25\\text{ rpm}$ [Page 6]. Trong bể tạo bông vách ngăn thủy lực (Hydraulic baffle flocculation tank), người thiết kế tăng dần khoảng cách giữa các vách ngăn dọc theo chiều dòng chảy để giảm vận tốc dòng chảy và giảm cường độ khuấy ở các ngăn cuối [Page 6].",
+          "sentences": [
+            "Hệ thống khuấy trộn tạo bông trong thực tế gồm hai nhóm công nghệ chính là hệ thống khuấy thủy lực (Hydraulic system) và hệ thống khuấy cơ khí (Mechanical system) [Page 4] [Page 5].",
+            "Trong hệ thống khuấy cơ khí, kỹ sư thường sử dụng bể khuấy guồng cánh trục ngang (Horizontal shaft with paddles system) hoặc bể khuấy tuabin trục đứng (Vertical shaft turbine system) [Page 5]. Để tạo ra các bông cặn kích thước lớn mà không làm vỡ bông, hệ thống cơ khí giảm dần công suất khuấy trộn qua các ngăn tạo bông nối tiếp (Tapering down the power input) bằng bộ truyền động hai hoặc ba cấp tốc độ như $v = 75\\text{ rpm}$, $v = 50\\text{ rpm}$ và $v = 25\\text{ rpm}$ [Page 6].",
+            "Trong bể tạo bông vách ngăn thủy lực (Hydraulic baffle flocculation tank), người thiết kế tăng dần khoảng cách giữa các vách ngăn dọc theo chiều dòng chảy để giảm vận tốc dòng chảy và giảm cường độ khuấy ở các ngăn cuối [Page 6]."
+          ],
+          "brief": [
+            "Trong hệ thống khuấy cơ khí, kỹ sư thường sử dụng bể khuấy guồng cánh trục ngang (Horizontal shaft with paddles system) hoặc bể khuấy tuabin trục đứng (Vertical shaft turbine system) [Page 5]. Để tạo ra các bông cặn kích thước lớn mà không làm vỡ bông, hệ thống cơ khí giảm dần công suất khuấy trộn qua các ngăn tạo bông nối tiếp (Tapering down the power input) bằng bộ truyền động hai hoặc ba cấp tốc độ như $v = 75\\text{ rpm}$, $v = 50\\text{ rpm}$ và $v = 25\\text{ rpm}$ [Page 6].",
+            "Trong bể tạo bông vách ngăn thủy lực (Hydraulic baffle flocculation tank), người thiết kế tăng dần khoảng cách giữa các vách ngăn dọc theo chiều dòng chảy để giảm vận tốc dòng chảy và giảm cường độ khuấy ở các ngăn cuối [Page 6]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Bể tạo bông giảm dần tốc độ khuấy từ $75\\text{ rpm}$ xuống $25\\text{ rpm}$ qua các ngăn. Bể vách ngăn thủy lực mở rộng dần khoảng cách vách ngăn dọc theo dòng chảy để tránh vỡ bông.",
+          "takeaway": "Bể tạo bông giảm dần tốc độ khuấy từ $75\\text{ rpm}$ xuống $25\\text{ rpm}$ qua các ngăn",
+          "topic": "Bể tạo bông"
+        },
+        {
+          "id": "p-199bd27b",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Bảng so sánh kỹ thuật trên Slide 13 đánh giá toàn diện ba phương án tạo bông thủy lực, tạo bông trục đứng và tạo bông trục ngang [Page 7]. Tạo bông thủy lực tạo ra bông cặn rất lớn và xốp (Very large and fluffy), gây tổn thất cột nước từ $0.05\\text{ m}$ đến $0.15\\text{ m}$, có chi phí đầu tư và bảo trì thấp nhưng độ linh hoạt vận hành kém. Tạo bông tuabin trục đứng tạo ra bông cặn nhỏ đến trung bình và chắc đặc (Small to medium, dense), không gây tổn thất thủy lực, đạt độ linh hoạt vận hành xuất sắc và chịu được năng lượng khuấy cao nhất, nhưng đòi hỏi chọn cánh khuấy chính xác. Tạo bông guồng cánh trục ngang tạo ra bông cặn lớn và xốp (Large and fluffy), không gây tổn thất cột nước và vận hành tin cậy ở vùng gradien vận tốc $G$ thấp, nhưng có chi phí đầu tư cao và dễ gặp sự cố gãy trục khi khởi động do mô-men xoắn ban đầu lớn [Page 7].",
+          "sentences": [
+            "Bảng so sánh kỹ thuật trên Slide 13 đánh giá toàn diện ba phương án tạo bông thủy lực, tạo bông trục đứng và tạo bông trục ngang [Page 7].",
+            "Tạo bông thủy lực tạo ra bông cặn rất lớn và xốp (Very large and fluffy), gây tổn thất cột nước từ $0.05\\text{ m}$ đến $0.15\\text{ m}$, có chi phí đầu tư và bảo trì thấp nhưng độ linh hoạt vận hành kém.",
+            "Tạo bông tuabin trục đứng tạo ra bông cặn nhỏ đến trung bình và chắc đặc (Small to medium, dense), không gây tổn thất thủy lực, đạt độ linh hoạt vận hành xuất sắc và chịu được năng lượng khuấy cao nhất, nhưng đòi hỏi chọn cánh khuấy chính xác.",
+            "Tạo bông guồng cánh trục ngang tạo ra bông cặn lớn và xốp (Large and fluffy), không gây tổn thất cột nước và vận hành tin cậy ở vùng gradien vận tốc $G$ thấp, nhưng có chi phí đầu tư cao và dễ gặp sự cố gãy trục khi khởi động do mô-men xoắn ban đầu lớn [Page 7]."
+          ],
+          "brief": [
+            "Tạo bông thủy lực tạo ra bông cặn rất lớn và xốp (Very large and fluffy), gây tổn thất cột nước từ $0.05\\text{ m}$ đến $0.15\\text{ m}$, có chi phí đầu tư và bảo trì thấp nhưng độ linh hoạt vận hành kém.",
+            "Tạo bông tuabin trục đứng tạo ra bông cặn nhỏ đến trung bình và chắc đặc (Small to medium, dense), không gây tổn thất thủy lực, đạt độ linh hoạt vận hành xuất sắc và chịu được năng lượng khuấy cao nhất, nhưng đòi hỏi chọn cánh khuấy chính xác."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Tuabin trục đứng tạo bông chắc đặc, còn guồng cánh trục ngang tạo bông xốp. Khuấy thủy lực tốn cột nước $0.05$ đến $0.15\\text{ m}$, còn khuấy trục ngang cần mô-men khởi động lớn.",
+          "takeaway": "Tuabin trục đứng tạo bông chắc đặc, còn guồng cánh trục ngang tạo bông xốp",
+          "topic": "Tuabin trục đứng"
+        },
+        {
+          "id": "p-2e0b4d95",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Công suất lý thuyết cần thiết để khuấy trộn tạo bông tuân theo phương trình Camp và Stein là $P = G^2 \\mu V$ [Page 7]. Trong công thức này, $P$ là công suất khuấy yêu cầu tính bằng đơn vị $\\text{W}$, $G$ là gradien vận tốc trung bình tính bằng đơn vị $\\text{s}^{-1}$, $\\mu$ là độ nhớt động lực học của nước tính bằng đơn vị $\\text{Pa}\\cdot\\text{s}$ và $V$ là thể tích vùng khuấy trộn tính bằng đơn vị $\\text{m}^3$. Theo bảng thông số thiết kế chuẩn trên Slide 14, quá trình tạo bông phục vụ bể lắng hoặc tuyển nổi (Flocculation for sedimentation or flotation) sử dụng thời gian lưu nước từ $30\\text{ phút}$ đến $60\\text{ phút}$ và giá trị $G$ từ $50\\text{ s}^{-1}$ đến $100\\text{ s}^{-1}$. Ngược lại, quá trình tạo bông phục vụ bể lọc (Flocculation for filtration) sử dụng thời gian lưu nước ngắn từ $2\\text{ phút}$ đến $10\\text{ phút}$ và giá trị $G$ rộng từ $25\\text{ s}^{-1}$ đến $150\\text{ s}^{-1}$ [Page 7].",
+          "sentences": [
+            "Công suất lý thuyết cần thiết để khuấy trộn tạo bông tuân theo phương trình Camp và Stein là $P = G^2 \\mu V$ [Page 7].",
+            "Trong công thức này, $P$ là công suất khuấy yêu cầu tính bằng đơn vị $\\text{W}$, $G$ là gradien vận tốc trung bình tính bằng đơn vị $\\text{s}^{-1}$, $\\mu$ là độ nhớt động lực học của nước tính bằng đơn vị $\\text{Pa}\\cdot\\text{s}$ và $V$ là thể tích vùng khuấy trộn tính bằng đơn vị $\\text{m}^3$.",
+            "Theo bảng thông số thiết kế chuẩn trên Slide 14, quá trình tạo bông phục vụ bể lắng hoặc tuyển nổi (Flocculation for sedimentation or flotation) sử dụng thời gian lưu nước từ $30\\text{ phút}$ đến $60\\text{ phút}$ và giá trị $G$ từ $50\\text{ s}^{-1}$ đến $100\\text{ s}^{-1}$.",
+            "Ngược lại, quá trình tạo bông phục vụ bể lọc (Flocculation for filtration) sử dụng thời gian lưu nước ngắn từ $2\\text{ phút}$ đến $10\\text{ phút}$ và giá trị $G$ rộng từ $25\\text{ s}^{-1}$ đến $150\\text{ s}^{-1}$ [Page 7]."
+          ],
+          "brief": [
+            "Công suất lý thuyết cần thiết để khuấy trộn tạo bông tuân theo phương trình Camp và Stein là $P = G^2 \\mu V$ [Page 7].",
+            "Theo bảng thông số thiết kế chuẩn trên Slide 14, quá trình tạo bông phục vụ bể lắng hoặc tuyển nổi (Flocculation for sedimentation or flotation) sử dụng thời gian lưu nước từ $30\\text{ phút}$ đến $60\\text{ phút}$ và giá trị $G$ từ $50\\text{ s}^{-1}$ đến $100\\text{ s}^{-1}$."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Công suất khuấy tuân theo $P = G^2 \\mu V$ với $G = 50$ đến $100\\text{ s}^{-1}$ cho bể lắng. Thời gian lưu đạt $30$ đến $60\\text{ phút}$ cho lắng và $2$ đến $10\\text{ phút}$ cho lọc.",
+          "takeaway": "Công suất khuấy tuân theo $P = G^2 \\mu V$ với $G = 50$ đến $100\\text{ s}^{-1}$ cho bể lắng",
+          "topic": "Công suất khuấy"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-thiết-kế-bể-tạo-bông-tuabin-trục-đứng-vertical-shaft-turbine-flocculator",
+      "num": "3",
+      "title": "Thiết kế Bể Tạo bông Tuabin Trục đứng (Vertical Shaft Turbine Flocculator)",
+      "depth": 1,
+      "takeaway": "Tuabin trục đứng vận hành ở $\\text{Re} \\ge 10,000$, tỷ số $D/T_e = 0.4$ và $v_{\\text{tip}} = 2$ đến $3\\text{ m/s}$",
+      "topic": "Tuabin trục đứng",
+      "units": [
+        {
+          "id": "p-49dd9eed",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bể tạo bông tuabin trục đứng sử dụng hai kiểu cánh khuấy cơ bản là cánh khuấy dòng hướng trục (Axial flow impeller) và cánh khuấy dòng hướng kính (Radial flow impeller) [Page 8]. Cánh khuấy dòng hướng kính đẩy nước theo phương ngang từ tâm ra thành bể và tạo thành hai vòng tuần hoàn riêng biệt nằm phía trên và phía dưới mặt phẳng cánh khuấy. Cánh khuấy dòng hướng trục đẩy nước song song với trục quay và tạo thành một vòng tuần hoàn duy nhất đi từ đáy bể lên mặt nước rồi quay lại tâm cánh khuấy [Page 8]. Bảng thông số cánh khuấy trên Slide 16 quy định tuabin cánh phẳng (Flat-bladed turbine, FBT) có chuẩn số công suất $N_p = 3.6$ và chuẩn số bơm $N_Q = 0.9$, tuabin Rushton $6\\text{ cánh}$ (Rushton turbine, 6 blades) có $N_p = 4.5\\text{–}5.5$ và $N_Q = 0.72$, tuabin cánh nghiêng $45^\\circ$ ($45^\\circ$ Pitched-blade turbine, PBT) có $N_p = 1.26$ và $N_Q = 0.75$, còn tuabin cánh thủy lực $3\\text{ cánh}$ có độ cong (Hydrofoil, 3 blades) có $N_p = 0.2\\text{–}0.3$ và $N_Q = 0.45\\text{–}0.55$ [Page 8].",
+          "sentences": [
+            "Bể tạo bông tuabin trục đứng sử dụng hai kiểu cánh khuấy cơ bản là cánh khuấy dòng hướng trục (Axial flow impeller) và cánh khuấy dòng hướng kính (Radial flow impeller) [Page 8].",
+            "Cánh khuấy dòng hướng kính đẩy nước theo phương ngang từ tâm ra thành bể và tạo thành hai vòng tuần hoàn riêng biệt nằm phía trên và phía dưới mặt phẳng cánh khuấy.",
+            "Cánh khuấy dòng hướng trục đẩy nước song song với trục quay và tạo thành một vòng tuần hoàn duy nhất đi từ đáy bể lên mặt nước rồi quay lại tâm cánh khuấy [Page 8].",
+            "Bảng thông số cánh khuấy trên Slide 16 quy định tuabin cánh phẳng (Flat-bladed turbine, FBT) có chuẩn số công suất $N_p = 3.6$ và chuẩn số bơm $N_Q = 0.9$, tuabin Rushton $6\\text{ cánh}$ (Rushton turbine, 6 blades) có $N_p = 4.5\\text{–}5.5$ và $N_Q = 0.72$, tuabin cánh nghiêng $45^\\circ$ ($45^\\circ$ Pitched-blade turbine, PBT) có $N_p = 1.26$ và $N_Q = 0.75$, còn tuabin cánh thủy lực $3\\text{ cánh}$ có độ cong (Hydrofoil, 3 blades) có $N_p = 0.2\\text{–}0.3$ và $N_Q = 0.45\\text{–}0.55$ [Page 8]."
+          ],
+          "brief": [
+            "Bể tạo bông tuabin trục đứng sử dụng hai kiểu cánh khuấy cơ bản là cánh khuấy dòng hướng trục (Axial flow impeller) và cánh khuấy dòng hướng kính (Radial flow impeller) [Page 8].",
+            "Bảng thông số cánh khuấy trên Slide 16 quy định tuabin cánh phẳng (Flat-bladed turbine, FBT) có chuẩn số công suất $N_p = 3.6$ và chuẩn số bơm $N_Q = 0.9$, tuabin Rushton $6\\text{ cánh}$ (Rushton turbine, 6 blades) có $N_p = 4.5\\text{–}5.5$ và $N_Q = 0.72$, tuabin cánh nghiêng $45^\\circ$ ($45^\\circ$ Pitched-blade turbine, PBT) có $N_p = 1.26$ và $N_Q = 0.75$, còn tuabin cánh thủy lực $3\\text{ cánh}$ có độ cong (Hydrofoil, 3 blades) có $N_p = 0.2\\text{–}0.3$ và $N_Q = 0.45\\text{–}0.55$ [Page 8]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Cánh khuấy hydrofoil $3\\text{ cánh}$ có chuẩn số công suất $N_p = 0.2$ đến $0.3$. Cánh hướng trục tạo một vòng tuần hoàn toàn bể, còn cánh Rushton có $N_p = 4.5$ đến $5.5$.",
+          "takeaway": "Cánh khuấy hydrofoil $3\\text{ cánh}$ có chuẩn số công suất $N_p = 0.2$ đến $0.3$",
+          "topic": "Cánh khuấy"
+        },
+        {
+          "id": "p-2d2d6bac",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Chế độ thủy động lực học của bể tạo bông tuabin trục đứng được kiểm soát thông qua chuẩn số Reynolds, chuẩn số công suất và chuẩn số bơm [Page 9]. Chuẩn số Reynolds của tuabin được xác định bởi công thức $\\text{Re} = \\frac{D^2 N \\rho}{\\mu}$, trong đó $D$ là đường kính cánh khuấy ($\\text{m}$), $N$ là tốc độ quay của cánh khuấy ($\\text{rev/s}$), $\\rho$ là khối lượng riêng của nước ($\\text{kg/m}^3$) và $\\mu$ là độ nhớt động lực học của nước ($\\text{Pa}\\cdot\\text{s}$). Để đạt chế độ chảy rối hoàn toàn (Full turbulence), giá trị chuẩn số Reynolds phải thỏa mãn điều kiện $\\text{Re} \\ge 10,000$ [Page 9]. Công suất truyền vào nước tính theo chuẩn số công suất $N_p = \\frac{P}{\\rho N^3 D^5}$ (suy ra $P = N_p \\rho N^3 D^5$) và lưu lượng tuần hoàn qua cánh khuấy tính theo chuẩn số bơm $N_Q = \\frac{Q}{N D^3}$ (suy ra $Q = N_Q N D^3$) [Page 9].",
+          "sentences": [
+            "Chế độ thủy động lực học của bể tạo bông tuabin trục đứng được kiểm soát thông qua chuẩn số Reynolds, chuẩn số công suất và chuẩn số bơm [Page 9].",
+            "Chuẩn số Reynolds của tuabin được xác định bởi công thức $\\text{Re} = \\frac{D^2 N \\rho}{\\mu}$, trong đó $D$ là đường kính cánh khuấy ($\\text{m}$), $N$ là tốc độ quay của cánh khuấy ($\\text{rev/s}$), $\\rho$ là khối lượng riêng của nước ($\\text{kg/m}^3$) và $\\mu$ là độ nhớt động lực học của nước ($\\text{Pa}\\cdot\\text{s}$). Để đạt chế độ chảy rối hoàn toàn (Full turbulence), giá trị chuẩn số Reynolds phải thỏa mãn điều kiện $\\text{Re} \\ge 10,000$ [Page 9].",
+            "Công suất truyền vào nước tính theo chuẩn số công suất $N_p = \\frac{P}{\\rho N^3 D^5}$ (suy ra $P = N_p \\rho N^3 D^5$) và lưu lượng tuần hoàn qua cánh khuấy tính theo chuẩn số bơm $N_Q = \\frac{Q}{N D^3}$ (suy ra $Q = N_Q N D^3$) [Page 9]."
+          ],
+          "brief": [
+            "Chuẩn số Reynolds của tuabin được xác định bởi công thức $\\text{Re} = \\frac{D^2 N \\rho}{\\mu}$, trong đó $D$ là đường kính cánh khuấy ($\\text{m}$), $N$ là tốc độ quay của cánh khuấy ($\\text{rev/s}$), $\\rho$ là khối lượng riêng của nước ($\\text{kg/m}^3$) và $\\mu$ là độ nhớt động lực học của nước ($\\text{Pa}\\cdot\\text{s}$). Để đạt chế độ chảy rối hoàn toàn (Full turbulence), giá trị chuẩn số Reynolds phải thỏa mãn điều kiện $\\text{Re} \\ge 10,000$ [Page 9].",
+            "Công suất truyền vào nước tính theo chuẩn số công suất $N_p = \\frac{P}{\\rho N^3 D^5}$ (suy ra $P = N_p \\rho N^3 D^5$) và lưu lượng tuần hoàn qua cánh khuấy tính theo chuẩn số bơm $N_Q = \\frac{Q}{N D^3}$ (suy ra $Q = N_Q N D^3$) [Page 9]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Chế độ chảy rối yêu cầu $\\text{Re} \\ge 10,000$ với công suất $P = N_p \\rho N^3 D^5$. Lưu lượng tuần hoàn qua cánh khuấy tỉ lệ với lập phương đường kính theo $Q = N_Q N D^3$.",
+          "takeaway": "Chế độ chảy rối yêu cầu $\\text{Re} \\ge 10,000$ với công suất $P = N_p \\rho N^3 D^5$",
+          "topic": "Chế độ chảy rối"
+        },
+        {
+          "id": "p-2422550d",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Để ngăn ngừa hiện tượng xoáy mặt nước quanh trục khuấy (Vortexing), bể hình trụ tròn phải lắp đặt $4\\text{ tấm chắn}$ (Baffles) và bể hình chữ nhật phải lắp đặt ít nhất $2\\text{ tấm chắn}$ có bề rộng bằng khoảng $8.25\\%$ đến $10\\%$ đường kính hoặc chiều dài cạnh bể [Page 10]. Vị trí đặt cánh khuấy nằm ở độ sâu bằng $\\frac{2}{3}$ chiều sâu nước (tức cách đáy bể một khoảng $C = \\frac{1}{3}H$ đến $\\frac{1}{2}H$), và hình dạng mỗi ngăn tạo bông nên tiếp cận hình lập phương có $L = W = D$ với tỷ lệ khuyến nghị $1 \\le L/W \\le 1.25$ [Page 8] [Page 10]. Bảng tiêu chuẩn thiết kế trên Slide 20 quy định đường kính tương đương mặt bằng là $T_e = \\sqrt{\\frac{4 A_{\\text{plan}}}{\\pi}}$, tỷ số đường kính cánh khuấy $D/T_e = 0.3\\text{–}0.6$ (ưu tiên $0.4\\text{–}0.5$), tỷ số chiều sâu nước $H/T_e = 0.9\\text{–}1.1$, tỷ số khoảng hở đáy $C/H = 0.5\\text{–}0.33$, tốc độ quay $N = 10\\text{–}30\\text{ rev/min}$ và vận tốc đầu cánh (Tip speed) nằm trong giới hạn $2\\text{ m/s}$ đến $3\\text{ m/s}$ [Page 10].",
+          "sentences": [
+            "Để ngăn ngừa hiện tượng xoáy mặt nước quanh trục khuấy (Vortexing), bể hình trụ tròn phải lắp đặt $4\\text{ tấm chắn}$ (Baffles) và bể hình chữ nhật phải lắp đặt ít nhất $2\\text{ tấm chắn}$ có bề rộng bằng khoảng $8.25\\%$ đến $10\\%$ đường kính hoặc chiều dài cạnh bể [Page 10].",
+            "Vị trí đặt cánh khuấy nằm ở độ sâu bằng $\\frac{2}{3}$ chiều sâu nước (tức cách đáy bể một khoảng $C = \\frac{1}{3}H$ đến $\\frac{1}{2}H$), và hình dạng mỗi ngăn tạo bông nên tiếp cận hình lập phương có $L = W = D$ với tỷ lệ khuyến nghị $1 \\le L/W \\le 1.25$ [Page 8] [Page 10].",
+            "Bảng tiêu chuẩn thiết kế trên Slide 20 quy định đường kính tương đương mặt bằng là $T_e = \\sqrt{\\frac{4 A_{\\text{plan}}}{\\pi}}$, tỷ số đường kính cánh khuấy $D/T_e = 0.3\\text{–}0.6$ (ưu tiên $0.4\\text{–}0.5$), tỷ số chiều sâu nước $H/T_e = 0.9\\text{–}1.1$, tỷ số khoảng hở đáy $C/H = 0.5\\text{–}0.33$, tốc độ quay $N = 10\\text{–}30\\text{ rev/min}$ và vận tốc đầu cánh (Tip speed) nằm trong giới hạn $2\\text{ m/s}$ đến $3\\text{ m/s}$ [Page 10]."
+          ],
+          "brief": [
+            "Để ngăn ngừa hiện tượng xoáy mặt nước quanh trục khuấy (Vortexing), bể hình trụ tròn phải lắp đặt $4\\text{ tấm chắn}$ (Baffles) và bể hình chữ nhật phải lắp đặt ít nhất $2\\text{ tấm chắn}$ có bề rộng bằng khoảng $8.25\\%$ đến $10\\%$ đường kính hoặc chiều dài cạnh bể [Page 10].",
+            "Bảng tiêu chuẩn thiết kế trên Slide 20 quy định đường kính tương đương mặt bằng là $T_e = \\sqrt{\\frac{4 A_{\\text{plan}}}{\\pi}}$, tỷ số đường kính cánh khuấy $D/T_e = 0.3\\text{–}0.6$ (ưu tiên $0.4\\text{–}0.5$), tỷ số chiều sâu nước $H/T_e = 0.9\\text{–}1.1$, tỷ số khoảng hở đáy $C/H = 0.5\\text{–}0.33$, tốc độ quay $N = 10\\text{–}30\\text{ rev/min}$ và vận tốc đầu cánh (Tip speed) nằm trong giới hạn $2\\text{ m/s}$ đến $3\\text{ m/s}$ [Page 10]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Cánh khuấy đặt ở độ sâu $\\frac{2}{3}H$ với $D/T_e = 0.4$ và $v_{\\text{tip}} = 2$ đến $3\\text{ m/s}$. Bể lắp $2$ đến $4\\text{ tấm chắn}$ rộng $8.25\\%$ đến $10\\%$ cạnh bể để triệt tiêu xoáy mặt nước.",
+          "takeaway": "Cánh khuấy đặt ở độ sâu $\\frac{2}{3}H$ với $D/T_e = 0.4$ và $v_{\\text{tip}} = 2$ đến $3\\text{ m/s}$",
+          "topic": "Cánh khuấy"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-thiết-kế-bể-tạo-bông-guồng-cánh-trục-ngang-horizontal-paddle-wheel-flocculator",
+      "num": "4",
+      "title": "Thiết kế Bể Tạo bông Guồng cánh Trục ngang (Horizontal Paddle Wheel Flocculator)",
+      "depth": 1,
+      "takeaway": "Guồng cánh trục ngang thiết kế ở $G = 5$ đến $40\\text{ s}^{-1}$, $v_{\\text{tip}} < 0.5\\text{ m/s}$ và $A_P/A_{\\text{sec}} < 20\\%$",
+      "topic": "Guồng cánh",
+      "units": [
+        {
+          "id": "p-50d25846",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bể tạo bông guồng cánh trục ngang sử dụng các khung cánh khuấy gắn đồng trục quay quanh một trục ngang đặt vuông góc hoặc song song với hướng dòng chảy qua các ngăn nối tiếp [Page 11] [Page 12]. Chuẩn số Reynolds của guồng khuấy trục ngang được tính theo công thức $\\text{Re} = \\frac{D^2 N \\rho}{\\mu}$, trong đó $D$ là đường kính ngoài của guồng khuấy ($\\text{m}$) và $N$ là tốc độ quay của trục ($\\text{rev/s}$) [Page 12]. Để duy trì điều kiện khuấy trộn chảy rối hoàn toàn trong ngăn bể, chuẩn số Reynolds của guồng khuấy phải đạt giá trị từ $10,000$ trở lên ($\\text{Re} \\ge 10,000$) [Page 12].",
+          "sentences": [
+            "Bể tạo bông guồng cánh trục ngang sử dụng các khung cánh khuấy gắn đồng trục quay quanh một trục ngang đặt vuông góc hoặc song song với hướng dòng chảy qua các ngăn nối tiếp [Page 11] [Page 12].",
+            "Chuẩn số Reynolds của guồng khuấy trục ngang được tính theo công thức $\\text{Re} = \\frac{D^2 N \\rho}{\\mu}$, trong đó $D$ là đường kính ngoài của guồng khuấy ($\\text{m}$) và $N$ là tốc độ quay của trục ($\\text{rev/s}$) [Page 12]. Để duy trì điều kiện khuấy trộn chảy rối hoàn toàn trong ngăn bể, chuẩn số Reynolds của guồng khuấy phải đạt giá trị từ $10,000$ trở lên ($\\text{Re} \\ge 10,000$) [Page 12]."
+          ],
+          "brief": [
+            "Bể tạo bông guồng cánh trục ngang sử dụng các khung cánh khuấy gắn đồng trục quay quanh một trục ngang đặt vuông góc hoặc song song với hướng dòng chảy qua các ngăn nối tiếp [Page 11] [Page 12].",
+            "Chuẩn số Reynolds của guồng khuấy trục ngang được tính theo công thức $\\text{Re} = \\frac{D^2 N \\rho}{\\mu}$, trong đó $D$ là đường kính ngoài của guồng khuấy ($\\text{m}$) và $N$ là tốc độ quay của trục ($\\text{rev/s}$) [Page 12]. Để duy trì điều kiện khuấy trộn chảy rối hoàn toàn trong ngăn bể, chuẩn số Reynolds của guồng khuấy phải đạt giá trị từ $10,000$ trở lên ($\\text{Re} \\ge 10,000$) [Page 12]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Guồng cánh trục ngang yêu cầu chuẩn số Reynolds $\\text{Re} = \\frac{D^2 N \\rho}{\\mu} \\ge 10,000$. Các khung cánh gắn đồng trục quay chậm trong các ngăn nối tiếp để duy trì khuấy trộn chảy rối.",
+          "takeaway": "Guồng cánh trục ngang yêu cầu chuẩn số Reynolds $\\text{Re} = \\frac{D^2 N \\rho}{\\mu} \\ge 10,000$",
+          "topic": "Guồng cánh"
+        },
+        {
+          "id": "p-3799ba57",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Công suất thủy lực cần thiết để quay các thanh cánh khuấy trong nước được xác định từ lực cản thủy động theo công thức $P = \\frac{C_d A_P \\rho v_R^3}{2}$ [Page 13]. Trong phương trình này, $C_d$ là hệ số cản của thanh cánh khuấy (Drag coefficient), $A_P$ là diện tích hình chiếu của các thanh cánh khuấy vuông góc với phương chuyển động ($\\text{m}^2$), $\\rho$ là khối lượng riêng của nước ($\\text{kg/m}^3$) và $v_R$ là vận tốc tương đối của thanh cánh khuấy so với chất lỏng ($\\text{m/s}$). Khi bể không lắp vách ngăn (Without baffles), vận tốc tương đối $v_R$ chỉ bằng $70\\%$ đến $80\\%$ vận tốc dài của thanh cánh khuấy do nước chuyển động cuốn theo guồng quay. Khi bể có lắp vách ngăn (With baffles), vận tốc tương đối $v_R$ được lấy bằng $100\\%$ vận tốc dài của thanh cánh khuấy theo công thức $v_R = 2\\pi R N$, với $R$ là khoảng cách từ tâm trục quay đến tâm tiết diện thanh cánh khuấy [Page 13] [Page 14].",
+          "sentences": [
+            "Công suất thủy lực cần thiết để quay các thanh cánh khuấy trong nước được xác định từ lực cản thủy động theo công thức $P = \\frac{C_d A_P \\rho v_R^3}{2}$ [Page 13].",
+            "Trong phương trình này, $C_d$ là hệ số cản của thanh cánh khuấy (Drag coefficient), $A_P$ là diện tích hình chiếu của các thanh cánh khuấy vuông góc với phương chuyển động ($\\text{m}^2$), $\\rho$ là khối lượng riêng của nước ($\\text{kg/m}^3$) và $v_R$ là vận tốc tương đối của thanh cánh khuấy so với chất lỏng ($\\text{m/s}$).",
+            "Khi bể không lắp vách ngăn (Without baffles), vận tốc tương đối $v_R$ chỉ bằng $70\\%$ đến $80\\%$ vận tốc dài của thanh cánh khuấy do nước chuyển động cuốn theo guồng quay.",
+            "Khi bể có lắp vách ngăn (With baffles), vận tốc tương đối $v_R$ được lấy bằng $100\\%$ vận tốc dài của thanh cánh khuấy theo công thức $v_R = 2\\pi R N$, với $R$ là khoảng cách từ tâm trục quay đến tâm tiết diện thanh cánh khuấy [Page 13] [Page 14]."
+          ],
+          "brief": [
+            "Công suất thủy lực cần thiết để quay các thanh cánh khuấy trong nước được xác định từ lực cản thủy động theo công thức $P = \\frac{C_d A_P \\rho v_R^3}{2}$ [Page 13].",
+            "Khi bể có lắp vách ngăn (With baffles), vận tốc tương đối $v_R$ được lấy bằng $100\\%$ vận tốc dài của thanh cánh khuấy theo công thức $v_R = 2\\pi R N$, với $R$ là khoảng cách từ tâm trục quay đến tâm tiết diện thanh cánh khuấy [Page 13] [Page 14]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Công suất cản thủy động của thanh cánh tuân theo $P = \\frac{C_d A_P \\rho v_R^3}{2}$. Vận tốc tương đối $v_R$ bằng $100\\%$ vận tốc dài $2\\pi R N$ khi có vách ngăn và $70\\%$ đến $80\\%$ khi không vách ngăn.",
+          "takeaway": "Công suất cản thủy động của thanh cánh tuân theo $P = \\frac{C_d A_P \\rho v_R^3}{2}$",
+          "topic": "Công suất cản"
+        },
+        {
+          "id": "p-f3168b53",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Bảng tiêu chuẩn thiết kế guồng khuấy trục ngang trên Slide 30 quy định đường kính guồng khuấy (Diameter of wheel) từ $3\\text{ m}$ đến $4\\text{ m}$, tiết diện thanh gỗ cánh khuấy (Paddle board section) là $100\\text{ mm} \\times 150\\text{ mm}$ và chiều dài mỗi thanh cánh khuấy (Paddle board length) từ $2\\text{ m}$ đến $3.5\\text{ m}$ [Page 13]. Tổng diện tích hình chiếu cánh khuấy trên diện tích mặt cắt ngang bể ($A_P/A_{\\text{sec}}$) phải nhỏ hơn $20\\%$ để tránh hiện tượng khối nước quay tròn như vật rắn. Hệ số cản $C_D$ phụ thuộc vào tỷ số chiều dài trên chiều rộng thanh cánh ($L/W$) với $C_D = 1.16$ khi $L/W = 1$, $C_D = 1.20$ khi $L/W = 5$, $C_D = 1.5$ khi $L/W = 20$ và $C_D = 1.90$ khi $L/W \\gg 20$. Khoảng cách giữa hai guồng khuấy trên cùng một trục là $1\\text{ m}$, khoảng hở từ guồng khuấy đến thành bể là $0.7\\text{ m}$, khoảng hở giữa các bậc khuấy là $1\\text{ m}$ và chiều sâu nước tối thiểu bằng đường kính guồng cộng thêm $1\\text{ m}$. Gradien vận tốc thiết kế $G$ nằm trong khoảng $5\\text{ s}^{-1}$ đến $40\\text{ s}^{-1}$, vận tốc đầu cánh cực đại nhỏ hơn $0.5\\text{ m/s}$, tốc độ quay trục từ $0.5\\text{ rev/min}$ đến $3\\text{ rev/min}$, chiều rộng ngăn từ $3\\text{ m}$ đến $25\\text{ m}$, chiều dài ngăn từ $3\\text{ m}$ đến $8\\text{ m}$ và số bậc nối tiếp từ $2$ đến $6\\text{ ngăn}$ [Page 13].",
+          "sentences": [
+            "Bảng tiêu chuẩn thiết kế guồng khuấy trục ngang trên Slide 30 quy định đường kính guồng khuấy (Diameter of wheel) từ $3\\text{ m}$ đến $4\\text{ m}$, tiết diện thanh gỗ cánh khuấy (Paddle board section) là $100\\text{ mm} \\times 150\\text{ mm}$ và chiều dài mỗi thanh cánh khuấy (Paddle board length) từ $2\\text{ m}$ đến $3.5\\text{ m}$ [Page 13].",
+            "Tổng diện tích hình chiếu cánh khuấy trên diện tích mặt cắt ngang bể ($A_P/A_{\\text{sec}}$) phải nhỏ hơn $20\\%$ để tránh hiện tượng khối nước quay tròn như vật rắn.",
+            "Hệ số cản $C_D$ phụ thuộc vào tỷ số chiều dài trên chiều rộng thanh cánh ($L/W$) với $C_D = 1.16$ khi $L/W = 1$, $C_D = 1.20$ khi $L/W = 5$, $C_D = 1.5$ khi $L/W = 20$ và $C_D = 1.90$ khi $L/W \\gg 20$.",
+            "Khoảng cách giữa hai guồng khuấy trên cùng một trục là $1\\text{ m}$, khoảng hở từ guồng khuấy đến thành bể là $0.7\\text{ m}$, khoảng hở giữa các bậc khuấy là $1\\text{ m}$ và chiều sâu nước tối thiểu bằng đường kính guồng cộng thêm $1\\text{ m}$.",
+            "Gradien vận tốc thiết kế $G$ nằm trong khoảng $5\\text{ s}^{-1}$ đến $40\\text{ s}^{-1}$, vận tốc đầu cánh cực đại nhỏ hơn $0.5\\text{ m/s}$, tốc độ quay trục từ $0.5\\text{ rev/min}$ đến $3\\text{ rev/min}$, chiều rộng ngăn từ $3\\text{ m}$ đến $25\\text{ m}$, chiều dài ngăn từ $3\\text{ m}$ đến $8\\text{ m}$ và số bậc nối tiếp từ $2$ đến $6\\text{ ngăn}$ [Page 13]."
+          ],
+          "brief": [
+            "Bảng tiêu chuẩn thiết kế guồng khuấy trục ngang trên Slide 30 quy định đường kính guồng khuấy (Diameter of wheel) từ $3\\text{ m}$ đến $4\\text{ m}$, tiết diện thanh gỗ cánh khuấy (Paddle board section) là $100\\text{ mm} \\times 150\\text{ mm}$ và chiều dài mỗi thanh cánh khuấy (Paddle board length) từ $2\\text{ m}$ đến $3.5\\text{ m}$ [Page 13].",
+            "Gradien vận tốc thiết kế $G$ nằm trong khoảng $5\\text{ s}^{-1}$ đến $40\\text{ s}^{-1}$, vận tốc đầu cánh cực đại nhỏ hơn $0.5\\text{ m/s}$, tốc độ quay trục từ $0.5\\text{ rev/min}$ đến $3\\text{ rev/min}$, chiều rộng ngăn từ $3\\text{ m}$ đến $25\\text{ m}$, chiều dài ngăn từ $3\\text{ m}$ đến $8\\text{ m}$ và số bậc nối tiếp từ $2$ đến $6\\text{ ngăn}$ [Page 13]."
+          ],
+          "evidence": [
+            0,
+            4
+          ],
+          "key": "Đường kính guồng đạt $3$ đến $4\\text{ m}$, cánh dài $2$ đến $3.5\\text{ m}$ và diện tích dưới $20\\%$. Hệ số cản đạt $C_D = 1.90$ khi $L/W \\gg 20$, khoảng hở tường $0.7\\text{ m}$ và khoảng cách giữa hai guồng là $1\\text{ m}$.",
+          "takeaway": "Đường kính guồng đạt $3$ đến $4\\text{ m}$, cánh dài $2$ đến $3.5\\text{ m}$ và diện tích dưới $20\\%$",
+          "topic": "Đường kính guồng"
+        }
+      ]
+    },
+    {
+      "id": "sec-5-hệ-thống-bài-tập-ví-dụ-và-bài-tập-về-nhà-worked-examples-and-homework",
+      "num": "5",
+      "title": "Hệ thống Bài tập Ví dụ và Bài tập Về nhà (Worked Examples and Homework)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch04_2_ex01-slide-2125-ảnh-6366-thiết-kế-bể-tạo-bông-dùng-tuabin-trục-đứng-3-ngăn-nối-tiếp",
+      "num": "",
+      "title": "Bài tập ch04_2_ex01 (Slide 21–25, Ảnh #63–#66): Thiết kế Bể Tạo bông Dùng Tuabin Trục đứng 3 Ngăn Nối tiếp",
+      "depth": 2,
+      "takeaway": "Bể tạo bông tuabin trục đứng $3\\text{ ngăn}$ có $V_{\\text{chamber}} = 62.5\\text{ m}^3$, $P = 707\\text{ W}$ và $G = 106\\text{ s}^{-1}$",
+      "topic": "Bể tạo bông",
+      "units": [
+        {
+          "id": "p-63784210",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Thiết kế bể tạo bông dùng tuabin trục đứng gồm $N_{\\text{stage}} = 3\\text{ ngăn}$ nối tiếp cho nhà máy xử lý nước thải có lưu lượng $Q = 9,000\\text{ m}^3\\text{/ngày}$ và thời gian lưu nước tổng cộng $t = 30\\text{ phút}$ [Page 11]. Tại nhiệt độ vận hành $T = 20^\\circ\\text{C}$, nước thải có khối lượng riêng $\\rho = 998.2\\text{ kg/m}^3$ và độ nhớt động lực học $\\mu$ bằng $1.002 \\times 10^{-3}\\text{ Pa}\\cdot\\text{s}$ [Page 11].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Thiết kế bể tạo bông dùng tuabin trục đứng gồm $N_{\\text{stage}} = 3\\text{ ngăn}$ nối tiếp cho nhà máy xử lý nước thải có lưu lượng $Q = 9,000\\text{ m}^3\\text{/ngày}$ và thời gian lưu nước tổng cộng $t = 30\\text{ phút}$ [Page 11].",
+            "Tại nhiệt độ vận hành $T = 20^\\circ\\text{C}$, nước thải có khối lượng riêng $\\rho = 998.2\\text{ kg/m}^3$ và độ nhớt động lực học $\\mu$ bằng $1.002 \\times 10^{-3}\\text{ Pa}\\cdot\\text{s}$ [Page 11]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Thiết kế bể tạo bông dùng tuabin trục đứng gồm $N_{\\text{stage}} = 3\\text{ ngăn}$ nối tiếp cho nhà máy xử lý nước thải có lưu lượng $Q = 9,000\\text{ m}^3\\text{/ngày}$ và thời gian lưu nước tổng cộng $t = 30\\text{ phút}$ [Page 11].",
+            "Tại nhiệt độ vận hành $T = 20^\\circ\\text{C}$, nước thải có khối lượng riêng $\\rho = 998.2\\text{ kg/m}^3$ và độ nhớt động lực học $\\mu$ bằng $1.002 \\times 10^{-3}\\text{ Pa}\\cdot\\text{s}$ [Page 11]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài thiết kế bể tuabin trục đứng $3\\text{ ngăn}$ cho lưu lượng $Q = 9,000\\text{ m}^3\\text{/ngày}$. Thời gian lưu tổng cộng đạt $t = 30\\text{ phút}$ ở nhiệt độ nước $T = 20^\\circ\\text{C}$ với $\\rho = 998.2\\text{ kg/m}^3$.",
+          "takeaway": "Đề bài thiết kế bể tuabin trục đứng $3\\text{ ngăn}$ cho lưu lượng $Q = 9,000\\text{ m}^3\\text{/ngày}$",
+          "topic": "Đề bài thiết kế"
+        },
+        {
+          "id": "p-c751c1d6",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính tổng thể tích bể tạo bông và thể tích mỗi ngăn: Từ lưu lượng $Q = 9,000\\text{ m}^3\\text{/ngày}$ và thời gian lưu $t = 30\\text{ phút}$, ta xác định tổng thể tích bể đạt $V_{\\text{total}} = 187.5\\text{ m}^3$ và thể tích mỗi ngăn trong $3\\text{ ngăn}$ nối tiếp đạt $V_{\\text{chamber}} = 62.5\\text{ m}^3$ [Page 11].",
+          "sentences": [
+            "Bước 1 - Tính tổng thể tích bể tạo bông và thể tích mỗi ngăn: Từ lưu lượng $Q = 9,000\\text{ m}^3\\text{/ngày}$ và thời gian lưu $t = 30\\text{ phút}$, ta xác định tổng thể tích bể đạt $V_{\\text{total}} = 187.5\\text{ m}^3$ và thể tích mỗi ngăn trong $3\\text{ ngăn}$ nối tiếp đạt $V_{\\text{chamber}} = 62.5\\text{ m}^3$ [Page 11]."
+          ],
+          "brief": [
+            "Bước 1 - Tính tổng thể tích bể tạo bông và thể tích mỗi ngăn: Từ lưu lượng $Q = 9,000\\text{ m}^3\\text{/ngày}$ và thời gian lưu $t = 30\\text{ phút}$, ta xác định tổng thể tích bể đạt $V_{\\text{total}} = 187.5\\text{ m}^3$ và thể tích mỗi ngăn trong $3\\text{ ngăn}$ nối tiếp đạt $V_{\\text{chamber}} = 62.5\\text{ m}^3$ [Page 11]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng thể tích bể đạt $V_{\\text{total}} = 187.5\\text{ m}^3$ và mỗi ngăn đạt $V_{\\text{chamber}} = 62.5\\text{ m}^3$.",
+          "takeaway": "Tổng thể tích bể đạt $V_{\\text{total}} = 187.5\\text{ m}^3$ và mỗi ngăn đạt $V_{\\text{chamber}} = 62.5\\text{ m}^3$",
+          "topic": "Tổng thể tích"
+        },
+        {
+          "id": "p-877e6eb7",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính kích thước hình học ngăn bể và vị trí lắp đặt cánh khuấy: Khi chọn mặt bằng hình vuông có $L = 4\\text{ m}$ và $W = 4\\text{ m}$ cùng chiều cao bảo vệ $H_{\\text{fb}} = 0.6\\text{ m}$, chiều sâu nước đạt $D_{\\text{tank}} = 3.9\\text{ m}$, tổng chiều cao bể đạt $H_{\\text{tank}} = 4.5\\text{ m}$ và vị trí đặt cánh khuấy nằm ở độ sâu $h_{\\text{imp}} = 2.6\\text{ m}$ dưới mặt nước (cách đáy bể $1.3\\text{ m}$) [Page 8] [Page 10].",
+          "sentences": [
+            "Bước 2 - Tính kích thước hình học ngăn bể và vị trí lắp đặt cánh khuấy: Khi chọn mặt bằng hình vuông có $L = 4\\text{ m}$ và $W = 4\\text{ m}$ cùng chiều cao bảo vệ $H_{\\text{fb}} = 0.6\\text{ m}$, chiều sâu nước đạt $D_{\\text{tank}} = 3.9\\text{ m}$, tổng chiều cao bể đạt $H_{\\text{tank}} = 4.5\\text{ m}$ và vị trí đặt cánh khuấy nằm ở độ sâu $h_{\\text{imp}} = 2.6\\text{ m}$ dưới mặt nước (cách đáy bể $1.3\\text{ m}$) [Page 8] [Page 10]."
+          ],
+          "brief": [
+            "Bước 2 - Tính kích thước hình học ngăn bể và vị trí lắp đặt cánh khuấy: Khi chọn mặt bằng hình vuông có $L = 4\\text{ m}$ và $W = 4\\text{ m}$ cùng chiều cao bảo vệ $H_{\\text{fb}} = 0.6\\text{ m}$, chiều sâu nước đạt $D_{\\text{tank}} = 3.9\\text{ m}$, tổng chiều cao bể đạt $H_{\\text{tank}} = 4.5\\text{ m}$ và vị trí đặt cánh khuấy nằm ở độ sâu $h_{\\text{imp}} = 2.6\\text{ m}$ dưới mặt nước (cách đáy bể $1.3\\text{ m}$) [Page 8] [Page 10]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Ngăn bể $4\\text{ m} \\times 4\\text{ m}$ có sâu nước $D_{\\text{tank}} = 3.9\\text{ m}$ và đặt cánh ở $h_{\\text{imp}} = 2.6\\text{ m}$.",
+          "takeaway": "Ngăn bể $4\\text{ m} \\times 4\\text{ m}$ có sâu nước $D_{\\text{tank}} = 3.9\\text{ m}$ và đặt cánh ở $h_{\\text{imp}} = 2.6\\text{ m}$",
+          "topic": "Ngăn bể"
+        },
+        {
+          "id": "p-79e5b8ac",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính đường kính tương đương mặt bằng và đường kính cánh khuấy: Từ diện tích mặt bằng ngăn bể $A_{\\text{plan}} = 16\\text{ m}^2$, đường kính tương đương của ngăn bể đạt $T_e = 4.5\\text{ m}$ và đường kính cánh khuấy theo tỷ số ưu tiên $D/T_e = 0.4$ đạt $D = 1.8\\text{ m}$ [Page 10].",
+          "sentences": [
+            "Bước 3 - Tính đường kính tương đương mặt bằng và đường kính cánh khuấy: Từ diện tích mặt bằng ngăn bể $A_{\\text{plan}} = 16\\text{ m}^2$, đường kính tương đương của ngăn bể đạt $T_e = 4.5\\text{ m}$ và đường kính cánh khuấy theo tỷ số ưu tiên $D/T_e = 0.4$ đạt $D = 1.8\\text{ m}$ [Page 10]."
+          ],
+          "brief": [
+            "Bước 3 - Tính đường kính tương đương mặt bằng và đường kính cánh khuấy: Từ diện tích mặt bằng ngăn bể $A_{\\text{plan}} = 16\\text{ m}^2$, đường kính tương đương của ngăn bể đạt $T_e = 4.5\\text{ m}$ và đường kính cánh khuấy theo tỷ số ưu tiên $D/T_e = 0.4$ đạt $D = 1.8\\text{ m}$ [Page 10]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đường kính tương đương ngăn bể đạt $T_e = 4.5\\text{ m}$ và cánh khuấy đạt $D = 1.8\\text{ m}$.",
+          "takeaway": "Đường kính tương đương ngăn bể đạt $T_e = 4.5\\text{ m}$ và cánh khuấy đạt $D = 1.8\\text{ m}$",
+          "topic": "cánh khuấy"
+        },
+        {
+          "id": "p-6581e002",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Kiểm tra chuẩn số Reynolds và vận tốc dài ở đầu cánh khuấy: Với tốc độ quay ở ngăn đầu tiên chọn là $N = 30\\text{ vòng/phút}$ (tức $0.5\\text{ vòng/s}$), chuẩn số Reynolds đạt $\\text{Re} = 1,613,856 > 10,000$ và vận tốc đầu cánh đạt $v_{\\text{tip}} = 2.8\\text{ m/s}$ thỏa mãn tiêu chuẩn thiết kế [Page 9] [Page 10].",
+          "sentences": [
+            "Bước 4 - Kiểm tra chuẩn số Reynolds và vận tốc dài ở đầu cánh khuấy: Với tốc độ quay ở ngăn đầu tiên chọn là $N = 30\\text{ vòng/phút}$ (tức $0.5\\text{ vòng/s}$), chuẩn số Reynolds đạt $\\text{Re} = 1,613,856 > 10,000$ và vận tốc đầu cánh đạt $v_{\\text{tip}} = 2.8\\text{ m/s}$ thỏa mãn tiêu chuẩn thiết kế [Page 9] [Page 10]."
+          ],
+          "brief": [
+            "Bước 4 - Kiểm tra chuẩn số Reynolds và vận tốc dài ở đầu cánh khuấy: Với tốc độ quay ở ngăn đầu tiên chọn là $N = 30\\text{ vòng/phút}$ (tức $0.5\\text{ vòng/s}$), chuẩn số Reynolds đạt $\\text{Re} = 1,613,856 > 10,000$ và vận tốc đầu cánh đạt $v_{\\text{tip}} = 2.8\\text{ m/s}$ thỏa mãn tiêu chuẩn thiết kế [Page 9] [Page 10]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tại $N = 0.5\\text{ vòng/s}$, số Reynolds đạt $\\text{Re} = 1,613,856$ và vận tốc đầu cánh đạt $v_{\\text{tip}} = 2.8\\text{ m/s}$.",
+          "takeaway": "Tại $N = 0.5\\text{ vòng/s}$, số Reynolds đạt $\\text{Re} = 1,613,856$ và vận tốc đầu cánh đạt $v_{\\text{tip}} = 2.8\\text{ m/s}$",
+          "topic": "vận tốc đầu cánh"
+        },
+        {
+          "id": "p-0a17caed",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 5 - Tính công suất khuấy trộn và kiểm tra gradien vận tốc: Áp dụng chuẩn số công suất $N_p = 0.3$ cho cánh khuấy hydrofoil $3\\text{ cánh}$, công suất khuấy yêu cầu ở ngăn đầu tiên đạt $P = 707\\text{ W}$ và tạo ra gradien vận tốc trung bình đạt $G = 106\\text{ s}^{-1}$ [Page 8] [Page 9].",
+          "sentences": [
+            "Bước 5 - Tính công suất khuấy trộn và kiểm tra gradien vận tốc: Áp dụng chuẩn số công suất $N_p = 0.3$ cho cánh khuấy hydrofoil $3\\text{ cánh}$, công suất khuấy yêu cầu ở ngăn đầu tiên đạt $P = 707\\text{ W}$ và tạo ra gradien vận tốc trung bình đạt $G = 106\\text{ s}^{-1}$ [Page 8] [Page 9]."
+          ],
+          "brief": [
+            "Bước 5 - Tính công suất khuấy trộn và kiểm tra gradien vận tốc: Áp dụng chuẩn số công suất $N_p = 0.3$ cho cánh khuấy hydrofoil $3\\text{ cánh}$, công suất khuấy yêu cầu ở ngăn đầu tiên đạt $P = 707\\text{ W}$ và tạo ra gradien vận tốc trung bình đạt $G = 106\\text{ s}^{-1}$ [Page 8] [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Công suất khuấy ngăn đầu đạt $P = 707\\text{ W}$ và gradien vận tốc đạt $G = 106\\text{ s}^{-1}$.",
+          "takeaway": "Công suất khuấy ngăn đầu đạt $P = 707\\text{ W}$ và gradien vận tốc đạt $G = 106\\text{ s}^{-1}$",
+          "topic": "Công suất khuấy"
+        },
+        {
+          "id": "p-51875a93",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 6 - Tính lưu lượng tuần hoàn qua cánh khuấy và thời gian một vòng tuần hoàn: Với chuẩn số bơm $N_Q = 0.5$, lưu lượng dòng chảy do cánh khuấy tạo ra đạt $Q_{\\text{imp}} = 1.46\\text{ m}^3\\text{/s}$ và thời gian tuần hoàn toàn bộ thể tích ngăn bể đạt $t_c = 42.8\\text{ s}$ [Page 9].",
+          "sentences": [
+            "Bước 6 - Tính lưu lượng tuần hoàn qua cánh khuấy và thời gian một vòng tuần hoàn: Với chuẩn số bơm $N_Q = 0.5$, lưu lượng dòng chảy do cánh khuấy tạo ra đạt $Q_{\\text{imp}} = 1.46\\text{ m}^3\\text{/s}$ và thời gian tuần hoàn toàn bộ thể tích ngăn bể đạt $t_c = 42.8\\text{ s}$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 6 - Tính lưu lượng tuần hoàn qua cánh khuấy và thời gian một vòng tuần hoàn: Với chuẩn số bơm $N_Q = 0.5$, lưu lượng dòng chảy do cánh khuấy tạo ra đạt $Q_{\\text{imp}} = 1.46\\text{ m}^3\\text{/s}$ và thời gian tuần hoàn toàn bộ thể tích ngăn bể đạt $t_c = 42.8\\text{ s}$ [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng tuần hoàn qua cánh khuấy đạt $Q_{\\text{imp}} = 1.46\\text{ m}^3\\text{/s}$ với chu kỳ $t_c = 42.8\\text{ s}$.",
+          "takeaway": "Lưu lượng tuần hoàn qua cánh khuấy đạt $Q_{\\text{imp}} = 1.46\\text{ m}^3\\text{/s}$ với chu kỳ $t_c = 42.8\\text{ s}$",
+          "topic": "Lưu lượng tuần hoàn"
+        },
+        {
+          "id": "p-47659d61",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Toàn bộ thông số thiết kế của bể tuabin trục đứng thỏa mãn tiêu chuẩn bài giảng. Các chỉ tiêu hình học và thủy động lực học đều nằm trong vùng khuyến nghị của giáo trình.",
+          "takeaway": "Toàn bộ thông số thiết kế của bể tuabin trục đứng thỏa mãn tiêu chuẩn bài giảng",
+          "topic": "thông số thiết kế"
+        },
+        {
+          "id": "p-4cf4c326",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổng thể tích bể tạo bông ($V_{\\text{total}}$): $187.5\\text{ m}^3$ cho $3\\text{ ngăn}$, mỗi ngăn $V_{\\text{chamber}} = 62.5\\text{ m}^3$ (Kiểm tra: $t = 30\\text{ phút} \\in [30, 60]\\text{ phút — Đạt chuẩn Slide } 14$).",
+          "sentences": [
+            "Tổng thể tích bể tạo bông ($V_{\\text{total}}$): $187.5\\text{ m}^3$ cho $3\\text{ ngăn}$, mỗi ngăn $V_{\\text{chamber}} = 62.5\\text{ m}^3$ (Kiểm tra: $t = 30\\text{ phút} \\in [30, 60]\\text{ phút — Đạt chuẩn Slide } 14$)."
+          ],
+          "brief": [
+            "Tổng thể tích bể tạo bông ($V_{\\text{total}}$): $187.5\\text{ m}^3$ cho $3\\text{ ngăn}$, mỗi ngăn $V_{\\text{chamber}} = 62.5\\text{ m}^3$ (Kiểm tra: $t = 30\\text{ phút} \\in [30, 60]\\text{ phút — Đạt chuẩn Slide } 14$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích tổng cộng $V_{\\text{total}} = 187.5\\text{ m}^3$ và mỗi ngăn $62.5\\text{ m}^3$ thỏa mãn $t = 30\\text{ phút}$.",
+          "takeaway": "Thể tích tổng cộng $V_{\\text{total}} = 187.5\\text{ m}^3$ và mỗi ngăn $62.5\\text{ m}^3$ thỏa mãn $t = 30\\text{ phút}$",
+          "topic": "Thể tích tổng cộng"
+        },
+        {
+          "id": "p-f006e5a5",
+          "kind": "list item",
+          "role": "result",
+          "full": "Kích thước mỗi ngăn bể ($L \\times W \\times D_{\\text{tank}}$): $4\\text{ m} \\times 4\\text{ m} \\times 3.9\\text{ m}$, cao $H_{\\text{tank}} = 4.5\\text{ m}$ (Kiểm tra: $L/W = 1.0 \\in [1.0, 1.25]\\text{ — Đạt chuẩn Slide } 16, 20$).",
+          "sentences": [
+            "Kích thước mỗi ngăn bể ($L \\times W \\times D_{\\text{tank}}$): $4\\text{ m} \\times 4\\text{ m} \\times 3.9\\text{ m}$, cao $H_{\\text{tank}} = 4.5\\text{ m}$ (Kiểm tra: $L/W = 1.0 \\in [1.0, 1.25]\\text{ — Đạt chuẩn Slide } 16, 20$)."
+          ],
+          "brief": [
+            "Kích thước mỗi ngăn bể ($L \\times W \\times D_{\\text{tank}}$): $4\\text{ m} \\times 4\\text{ m} \\times 3.9\\text{ m}$, cao $H_{\\text{tank}} = 4.5\\text{ m}$ (Kiểm tra: $L/W = 1.0 \\in [1.0, 1.25]\\text{ — Đạt chuẩn Slide } 16, 20$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Kích thước ngăn bể $4\\text{ m} \\times 4\\text{ m} \\times 3.9\\text{ m}$ đạt tỷ số $L/W = 1.0$.",
+          "takeaway": "Kích thước ngăn bể $4\\text{ m} \\times 4\\text{ m} \\times 3.9\\text{ m}$ đạt tỷ số $L/W = 1.0$",
+          "topic": "Kích thước ngăn bể"
+        },
+        {
+          "id": "p-8ec65071",
+          "kind": "list item",
+          "role": "result",
+          "full": "Đường kính cánh khuấy hydrofoil ($D$): $1.8\\text{ m}$ đặt sâu $h_{\\text{imp}} = 2.6\\text{ m}$, cách đáy $1.3\\text{ m}$ (Kiểm tra: $D/T_e = 0.4 \\in [0.3, 0.6]\\text{ — Đạt chuẩn Slide } 20$).",
+          "sentences": [
+            "Đường kính cánh khuấy hydrofoil ($D$): $1.8\\text{ m}$ đặt sâu $h_{\\text{imp}} = 2.6\\text{ m}$, cách đáy $1.3\\text{ m}$ (Kiểm tra: $D/T_e = 0.4 \\in [0.3, 0.6]\\text{ — Đạt chuẩn Slide } 20$)."
+          ],
+          "brief": [
+            "Đường kính cánh khuấy hydrofoil ($D$): $1.8\\text{ m}$ đặt sâu $h_{\\text{imp}} = 2.6\\text{ m}$, cách đáy $1.3\\text{ m}$ (Kiểm tra: $D/T_e = 0.4 \\in [0.3, 0.6]\\text{ — Đạt chuẩn Slide } 20$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đường kính cánh khuấy $D = 1.8\\text{ m}$ đặt sâu $2.6\\text{ m}$ thỏa mãn $D/T_e = 0.4$.",
+          "takeaway": "Đường kính cánh khuấy $D = 1.8\\text{ m}$ đặt sâu $2.6\\text{ m}$ thỏa mãn $D/T_e = 0.4$",
+          "topic": "cánh khuấy"
+        },
+        {
+          "id": "p-edbf8bd7",
+          "kind": "list item",
+          "role": "result",
+          "full": "Chuẩn số Reynolds ($\\text{Re}$): $1,613,856$ tại tốc độ quay $N = 30\\text{ vòng/phút}$ (Kiểm tra: $\\text{Re} = 1,613,856 > 10,000\\text{ — Đạt chuẩn Slide } 17, 24$).",
+          "sentences": [
+            "Chuẩn số Reynolds ($\\text{Re}$): $1,613,856$ tại tốc độ quay $N = 30\\text{ vòng/phút}$ (Kiểm tra: $\\text{Re} = 1,613,856 > 10,000\\text{ — Đạt chuẩn Slide } 17, 24$)."
+          ],
+          "brief": [
+            "Chuẩn số Reynolds ($\\text{Re}$): $1,613,856$ tại tốc độ quay $N = 30\\text{ vòng/phút}$ (Kiểm tra: $\\text{Re} = 1,613,856 > 10,000\\text{ — Đạt chuẩn Slide } 17, 24$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Chuẩn số Reynolds đạt $\\text{Re} = 1,613,856 > 10,000$ tại tốc độ quay $N = 30\\text{ vòng/phút}$.",
+          "takeaway": "Chuẩn số Reynolds đạt $\\text{Re} = 1,613,856 > 10,000$ tại tốc độ quay $N = 30\\text{ vòng/phút}$",
+          "topic": "Chuẩn số Reynolds"
+        },
+        {
+          "id": "p-6f104a33",
+          "kind": "list item",
+          "role": "result",
+          "full": "Vận tốc dài ở đầu cánh khuấy ($v_{\\text{tip}}$): $2.8\\text{ m/s}$ (Kiểm tra: $v_{\\text{tip}} = 2.8\\text{ m/s} \\in [2.0, 3.0]\\text{ m/s — Đạt chuẩn Slide } 20, 24$).",
+          "sentences": [
+            "Vận tốc dài ở đầu cánh khuấy ($v_{\\text{tip}}$): $2.8\\text{ m/s}$ (Kiểm tra: $v_{\\text{tip}} = 2.8\\text{ m/s} \\in [2.0, 3.0]\\text{ m/s — Đạt chuẩn Slide } 20, 24$)."
+          ],
+          "brief": [
+            "Vận tốc dài ở đầu cánh khuấy ($v_{\\text{tip}}$): $2.8\\text{ m/s}$ (Kiểm tra: $v_{\\text{tip}} = 2.8\\text{ m/s} \\in [2.0, 3.0]\\text{ m/s — Đạt chuẩn Slide } 20, 24$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Vận tốc đầu cánh $v_{\\text{tip}} = 2.8\\text{ m/s}$ nằm trong giới hạn $2.0$ đến $3.0\\text{ m/s}$.",
+          "takeaway": "Vận tốc đầu cánh $v_{\\text{tip}} = 2.8\\text{ m/s}$ nằm trong giới hạn $2.0$ đến $3.0\\text{ m/s}$",
+          "topic": "Vận tốc đầu cánh"
+        },
+        {
+          "id": "p-fd6899b6",
+          "kind": "list item",
+          "role": "result",
+          "full": "Công suất khuấy và gradien vận tốc ngăn đầu ($P, G$): $P = 707\\text{ W}$ và $G = 106\\text{ s}^{-1}$ (Kiểm tra: $G = 106\\text{ s}^{-1}\\text{ cấp đầu vào — Đạt chuẩn Slide } 6, 25$).",
+          "sentences": [
+            "Công suất khuấy và gradien vận tốc ngăn đầu ($P, G$): $P = 707\\text{ W}$ và $G = 106\\text{ s}^{-1}$ (Kiểm tra: $G = 106\\text{ s}^{-1}\\text{ cấp đầu vào — Đạt chuẩn Slide } 6, 25$)."
+          ],
+          "brief": [
+            "Công suất khuấy và gradien vận tốc ngăn đầu ($P, G$): $P = 707\\text{ W}$ và $G = 106\\text{ s}^{-1}$ (Kiểm tra: $G = 106\\text{ s}^{-1}\\text{ cấp đầu vào — Đạt chuẩn Slide } 6, 25$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Công suất khuấy $P = 707\\text{ W}$ và gradien vận tốc $G = 106\\text{ s}^{-1}$ đạt chuẩn ngăn đầu.",
+          "takeaway": "Công suất khuấy $P = 707\\text{ W}$ và gradien vận tốc $G = 106\\text{ s}^{-1}$ đạt chuẩn ngăn đầu",
+          "topic": "Công suất khuấy"
+        },
+        {
+          "id": "p-b596008a",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng bơm và chu kỳ tuần hoàn ($Q_{\\text{imp}}, t_c$): $Q_{\\text{imp}} = 1.46\\text{ m}^3\\text{/s}$ và $t_c = 42.8\\text{ s}$ (Kiểm tra: $t_c = 42.8\\text{ s} \\ll 600\\text{ s — Đạt chuẩn Slide } 18, 25$).",
+          "sentences": [
+            "Lưu lượng bơm và chu kỳ tuần hoàn ($Q_{\\text{imp}}, t_c$): $Q_{\\text{imp}} = 1.46\\text{ m}^3\\text{/s}$ và $t_c = 42.8\\text{ s}$ (Kiểm tra: $t_c = 42.8\\text{ s} \\ll 600\\text{ s — Đạt chuẩn Slide } 18, 25$)."
+          ],
+          "brief": [
+            "Lưu lượng bơm và chu kỳ tuần hoàn ($Q_{\\text{imp}}, t_c$): $Q_{\\text{imp}} = 1.46\\text{ m}^3\\text{/s}$ và $t_c = 42.8\\text{ s}$ (Kiểm tra: $t_c = 42.8\\text{ s} \\ll 600\\text{ s — Đạt chuẩn Slide } 18, 25$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng bơm $Q_{\\text{imp}} = 1.46\\text{ m}^3\\text{/s}$ hoàn tất vòng tuần hoàn trong $t_c = 42.8\\text{ s}$.",
+          "takeaway": "Lưu lượng bơm $Q_{\\text{imp}} = 1.46\\text{ m}^3\\text{/s}$ hoàn tất vòng tuần hoàn trong $t_c = 42.8\\text{ s}$",
+          "topic": "Lưu lượng bơm"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch04_2_ex02-slide-3239-ảnh-6773-và-116130-thiết-kế-bể-tạo-bông-dùng-guồng-khuấy-trục-ngang-3-ngăn-nối-tiếp",
+      "num": "",
+      "title": "Bài tập ch04_2_ex02 (Slide 32–39, Ảnh #67–#73 và #116–#130): Thiết kế Bể Tạo bông Dùng Guồng Khuấy Trục ngang 3 Ngăn Nối tiếp",
+      "depth": 2,
+      "takeaway": "Bể guồng cánh trục ngang dùng $3\\text{ guồng/trục}$ dài $3.5\\text{ m}$, đạt $P = 591\\text{ W}$ và $G = 40\\text{ s}^{-1}$",
+      "topic": "guồng cánh",
+      "units": [
+        {
+          "id": "p-05705d1e",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Thiết kế bể tạo bông dùng guồng khuấy trục ngang gồm $N_{\\text{stage}} = 3\\text{ ngăn}$ nối tiếp cho lưu lượng $Q = 54,000\\text{ m}^3\\text{/ngày}$ và thời gian lưu nước $t = 30\\text{ phút}$ [Page 14]. Mỗi tay guồng lắp $3\\text{ thanh}$ cánh khuấy có mép ngoài đặt cách tâm trục quay tại các bán kính $r_1 = 0.67\\text{ m}$, $r_2 = 1.33\\text{ m}$ và $r_3 = 2.0\\text{ m}$ [Page 14]. Tại nhiệt độ $T = 20^\\circ\\text{C}$, nước có khối lượng riêng $\\rho = 998.2\\text{ kg/m}^3$ và độ nhớt động lực học $\\mu$ bằng $1.002 \\times 10^{-3}\\text{ Pa}\\cdot\\text{s}$ [Page 14].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Thiết kế bể tạo bông dùng guồng khuấy trục ngang gồm $N_{\\text{stage}} = 3\\text{ ngăn}$ nối tiếp cho lưu lượng $Q = 54,000\\text{ m}^3\\text{/ngày}$ và thời gian lưu nước $t = 30\\text{ phút}$ [Page 14].",
+            "Mỗi tay guồng lắp $3\\text{ thanh}$ cánh khuấy có mép ngoài đặt cách tâm trục quay tại các bán kính $r_1 = 0.67\\text{ m}$, $r_2 = 1.33\\text{ m}$ và $r_3 = 2.0\\text{ m}$ [Page 14].",
+            "Tại nhiệt độ $T = 20^\\circ\\text{C}$, nước có khối lượng riêng $\\rho = 998.2\\text{ kg/m}^3$ và độ nhớt động lực học $\\mu$ bằng $1.002 \\times 10^{-3}\\text{ Pa}\\cdot\\text{s}$ [Page 14]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Thiết kế bể tạo bông dùng guồng khuấy trục ngang gồm $N_{\\text{stage}} = 3\\text{ ngăn}$ nối tiếp cho lưu lượng $Q = 54,000\\text{ m}^3\\text{/ngày}$ và thời gian lưu nước $t = 30\\text{ phút}$ [Page 14].",
+            "Mỗi tay guồng lắp $3\\text{ thanh}$ cánh khuấy có mép ngoài đặt cách tâm trục quay tại các bán kính $r_1 = 0.67\\text{ m}$, $r_2 = 1.33\\text{ m}$ và $r_3 = 2.0\\text{ m}$ [Page 14]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài thiết kế bể guồng khuấy trục ngang $3\\text{ ngăn}$ cho $Q = 54,000\\text{ m}^3\\text{/ngày}$. Mỗi tay guồng lắp $3\\text{ thanh}$ cánh tại các bán kính $r_1 = 0.67\\text{ m}$, $r_2 = 1.33\\text{ m}$ và $r_3 = 2.0\\text{ m}$.",
+          "takeaway": "Đề bài thiết kế bể guồng khuấy trục ngang $3\\text{ ngăn}$ cho $Q = 54,000\\text{ m}^3\\text{/ngày}$",
+          "topic": "Đề bài thiết kế"
+        },
+        {
+          "id": "p-e76fab2d",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính tổng thể tích bể tạo bông và thể tích mỗi ngăn: Từ lưu lượng $Q = 54,000\\text{ m}^3\\text{/ngày}$ và thời gian lưu $t = 30\\text{ phút}$, tổng thể tích bể tạo bông đạt $V_{\\text{total}} = 1,125\\text{ m}^3$ và thể tích mỗi ngăn trong $3\\text{ ngăn}$ nối tiếp đạt $V_{\\text{chamber}} = 375\\text{ m}^3$ [Page 14].",
+          "sentences": [
+            "Bước 1 - Tính tổng thể tích bể tạo bông và thể tích mỗi ngăn: Từ lưu lượng $Q = 54,000\\text{ m}^3\\text{/ngày}$ và thời gian lưu $t = 30\\text{ phút}$, tổng thể tích bể tạo bông đạt $V_{\\text{total}} = 1,125\\text{ m}^3$ và thể tích mỗi ngăn trong $3\\text{ ngăn}$ nối tiếp đạt $V_{\\text{chamber}} = 375\\text{ m}^3$ [Page 14]."
+          ],
+          "brief": [
+            "Bước 1 - Tính tổng thể tích bể tạo bông và thể tích mỗi ngăn: Từ lưu lượng $Q = 54,000\\text{ m}^3\\text{/ngày}$ và thời gian lưu $t = 30\\text{ phút}$, tổng thể tích bể tạo bông đạt $V_{\\text{total}} = 1,125\\text{ m}^3$ và thể tích mỗi ngăn trong $3\\text{ ngăn}$ nối tiếp đạt $V_{\\text{chamber}} = 375\\text{ m}^3$ [Page 14]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng thể tích bể đạt $V_{\\text{total}} = 1,125\\text{ m}^3$ và mỗi ngăn đạt $V_{\\text{chamber}} = 375\\text{ m}^3$.",
+          "takeaway": "Tổng thể tích bể đạt $V_{\\text{total}} = 1,125\\text{ m}^3$ và mỗi ngăn đạt $V_{\\text{chamber}} = 375\\text{ m}^3$",
+          "topic": "Tổng thể tích"
+        },
+        {
+          "id": "p-03fe6108",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính đường kính guồng khuấy và kích thước hình học của mỗi ngăn: Đường kính ngoài của guồng khuấy bằng hai lần bán kính $r_3 = 2.0\\text{ m}$ nên đạt $D_{\\text{wheel}} = 4\\text{ m}$ [Page 13] [Page 14]. Cộng khoảng hở thành bể $0.7\\text{ m}$ mỗi bên và chiều sâu vượt đường kính guồng $1.0\\text{ m}$, mỗi ngăn có chiều dài $L_c = 5.4\\text{ m}$, chiều sâu nước $D_c = 5\\text{ m}$ (cao $H_c = 5.5\\text{ m}$) và chiều rộng $W_c = 13.9\\text{ m}$ [Page 13].",
+          "sentences": [
+            "Bước 2 - Tính đường kính guồng khuấy và kích thước hình học của mỗi ngăn: Đường kính ngoài của guồng khuấy bằng hai lần bán kính $r_3 = 2.0\\text{ m}$ nên đạt $D_{\\text{wheel}} = 4\\text{ m}$ [Page 13] [Page 14].",
+            "Cộng khoảng hở thành bể $0.7\\text{ m}$ mỗi bên và chiều sâu vượt đường kính guồng $1.0\\text{ m}$, mỗi ngăn có chiều dài $L_c = 5.4\\text{ m}$, chiều sâu nước $D_c = 5\\text{ m}$ (cao $H_c = 5.5\\text{ m}$) và chiều rộng $W_c = 13.9\\text{ m}$ [Page 13]."
+          ],
+          "brief": [
+            "Bước 2 - Tính đường kính guồng khuấy và kích thước hình học của mỗi ngăn: Đường kính ngoài của guồng khuấy bằng hai lần bán kính $r_3 = 2.0\\text{ m}$ nên đạt $D_{\\text{wheel}} = 4\\text{ m}$ [Page 13] [Page 14].",
+            "Cộng khoảng hở thành bể $0.7\\text{ m}$ mỗi bên và chiều sâu vượt đường kính guồng $1.0\\text{ m}$, mỗi ngăn có chiều dài $L_c = 5.4\\text{ m}$, chiều sâu nước $D_c = 5\\text{ m}$ (cao $H_c = 5.5\\text{ m}$) và chiều rộng $W_c = 13.9\\text{ m}$ [Page 13]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Guồng khuấy có đường kính $D_{\\text{wheel}} = 4\\text{ m}$ trong ngăn bể $5.4\\text{ m} \\times 5\\text{ m} \\times 13.9\\text{ m}$. Kích thước ngăn bể đã cộng khoảng hở thành bể $0.7\\text{ m}$ mỗi bên và chiều cao bảo vệ $0.5\\text{ m}$.",
+          "takeaway": "Guồng khuấy có đường kính $D_{\\text{wheel}} = 4\\text{ m}$ trong ngăn bể $5.4\\text{ m} \\times 5\\text{ m} \\times 13.9\\text{ m}$",
+          "topic": "Guồng khuấy"
+        },
+        {
+          "id": "p-74f2da3d",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Thử chọn số lượng guồng khuấy trên trục và chọn lại theo giới hạn chiều dài cánh: Khi thử chọn $N_{\\text{wheel}} = 2\\text{ guồng}$, chiều dài mỗi thanh cánh đạt $l_p = 5.75\\text{ m}$ vượt quá giới hạn tối đa $3.5\\text{ m}$ trên bảng Slide $30$ nên không thỏa mãn [Page 13]. Khi chọn lại $N_{\\text{wheel}} = 3\\text{ guồng}$ với tổng khoảng hở $c_{\\text{req}} = 3.4\\text{ m}$, chiều dài mỗi thanh cánh đạt $l_p = 3.5\\text{ m}$ thỏa mãn hoàn toàn tiêu chuẩn thiết kế [Page 13].",
+          "sentences": [
+            "Bước 3 - Thử chọn số lượng guồng khuấy trên trục và chọn lại theo giới hạn chiều dài cánh: Khi thử chọn $N_{\\text{wheel}} = 2\\text{ guồng}$, chiều dài mỗi thanh cánh đạt $l_p = 5.75\\text{ m}$ vượt quá giới hạn tối đa $3.5\\text{ m}$ trên bảng Slide $30$ nên không thỏa mãn [Page 13].",
+            "Khi chọn lại $N_{\\text{wheel}} = 3\\text{ guồng}$ với tổng khoảng hở $c_{\\text{req}} = 3.4\\text{ m}$, chiều dài mỗi thanh cánh đạt $l_p = 3.5\\text{ m}$ thỏa mãn hoàn toàn tiêu chuẩn thiết kế [Page 13]."
+          ],
+          "brief": [
+            "Bước 3 - Thử chọn số lượng guồng khuấy trên trục và chọn lại theo giới hạn chiều dài cánh: Khi thử chọn $N_{\\text{wheel}} = 2\\text{ guồng}$, chiều dài mỗi thanh cánh đạt $l_p = 5.75\\text{ m}$ vượt quá giới hạn tối đa $3.5\\text{ m}$ trên bảng Slide $30$ nên không thỏa mãn [Page 13].",
+            "Khi chọn lại $N_{\\text{wheel}} = 3\\text{ guồng}$ với tổng khoảng hở $c_{\\text{req}} = 3.4\\text{ m}$, chiều dài mỗi thanh cánh đạt $l_p = 3.5\\text{ m}$ thỏa mãn hoàn toàn tiêu chuẩn thiết kế [Page 13]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Chọn lại $N_{\\text{wheel}} = 3\\text{ guồng/trục}$ giúp chiều dài cánh đạt $l_p = 3.5\\text{ m}$ đúng chuẩn. Phương án $2\\text{ guồng}$ bị loại vì chiều dài cánh đạt $5.75\\text{ m}$ vượt giới hạn tối đa $3.5\\text{ m}$.",
+          "takeaway": "Chọn lại $N_{\\text{wheel}} = 3\\text{ guồng/trục}$ giúp chiều dài cánh đạt $l_p = 3.5\\text{ m}$ đúng chuẩn",
+          "topic": "chiều dài cánh"
+        },
+        {
+          "id": "p-4c9ad5bd",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính diện tích thanh cánh ở mỗi bậc bán kính và vận tốc tương đối của từng thanh cánh: Với thanh cánh dài $l_p = 3.5\\text{ m}$ và rộng $w_p = 0.15\\text{ m}$, tỷ số $l_p/w_p = 23.3$ ứng với hệ số cản $C_d = 1.9$ và diện tích cánh ở mỗi vị trí bán kính ($1, 2, 3$) trên $3\\text{ guồng}$ đạt $A_p = 6.3\\text{ m}^2$ [Page 13]. Ở tốc độ quay $N = 0.035\\text{ vòng/s}$, vận tốc dài tại tâm ba thanh cánh lần lượt đạt $v_{R1} = 0.131\\text{ m/s}$, $v_{R2} = 0.276\\text{ m/s}$, $v_{R3} = 0.423\\text{ m/s}$ và vận tốc mép ngoài đạt $v_{\\text{tip}} = 0.44\\text{ m/s}$ [Page 13].",
+          "sentences": [
+            "Bước 4 - Tính diện tích thanh cánh ở mỗi bậc bán kính và vận tốc tương đối của từng thanh cánh: Với thanh cánh dài $l_p = 3.5\\text{ m}$ và rộng $w_p = 0.15\\text{ m}$, tỷ số $l_p/w_p = 23.3$ ứng với hệ số cản $C_d = 1.9$ và diện tích cánh ở mỗi vị trí bán kính ($1, 2, 3$) trên $3\\text{ guồng}$ đạt $A_p = 6.3\\text{ m}^2$ [Page 13]. Ở tốc độ quay $N = 0.035\\text{ vòng/s}$, vận tốc dài tại tâm ba thanh cánh lần lượt đạt $v_{R1} = 0.131\\text{ m/s}$, $v_{R2} = 0.276\\text{ m/s}$, $v_{R3} = 0.423\\text{ m/s}$ và vận tốc mép ngoài đạt $v_{\\text{tip}} = 0.44\\text{ m/s}$ [Page 13]."
+          ],
+          "brief": [
+            "Bước 4 - Tính diện tích thanh cánh ở mỗi bậc bán kính và vận tốc tương đối của từng thanh cánh: Với thanh cánh dài $l_p = 3.5\\text{ m}$ và rộng $w_p = 0.15\\text{ m}$, tỷ số $l_p/w_p = 23.3$ ứng với hệ số cản $C_d = 1.9$ và diện tích cánh ở mỗi vị trí bán kính ($1, 2, 3$) trên $3\\text{ guồng}$ đạt $A_p = 6.3\\text{ m}^2$ [Page 13]. Ở tốc độ quay $N = 0.035\\text{ vòng/s}$, vận tốc dài tại tâm ba thanh cánh lần lượt đạt $v_{R1} = 0.131\\text{ m/s}$, $v_{R2} = 0.276\\text{ m/s}$, $v_{R3} = 0.423\\text{ m/s}$ và vận tốc mép ngoài đạt $v_{\\text{tip}} = 0.44\\text{ m/s}$ [Page 13]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Vận tốc ba hàng cánh đạt $0.131$, $0.276$, $0.423\\text{ m/s}$ và đầu cánh đạt $v_{\\text{tip}} = 0.44\\text{ m/s}$.",
+          "takeaway": "Vận tốc ba hàng cánh đạt $0.131$, $0.276$, $0.423\\text{ m/s}$ và đầu cánh đạt $v_{\\text{tip}} = 0.44\\text{ m/s}$",
+          "topic": "Vận tốc"
+        },
+        {
+          "id": "p-94eeb163",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 5 - Tính công suất khuấy trộn và kiểm tra gradien vận tốc, số Reynolds cùng tỷ lệ diện tích cánh: Tổng công suất khuấy của cả $3\\text{ vị trí}$ cánh đạt $P = 591\\text{ W}$, tạo ra gradien vận tốc $G = 40\\text{ s}^{-1}$ và chuẩn số Reynolds đạt $\\text{Re} = 557,876 > 10,000$ [Page 12] [Page 13]. Tổng diện tích mặt quạt cánh khuấy trên một mặt phẳng đứng đạt $A_P = 9.45\\text{ m}^2$, chiếm tỷ lệ $13.6\\%$ so với diện tích mặt cắt ngang ngăn bể $A_{\\text{sec}} = 69.5\\text{ m}^2$ [Page 13].",
+          "sentences": [
+            "Bước 5 - Tính công suất khuấy trộn và kiểm tra gradien vận tốc, số Reynolds cùng tỷ lệ diện tích cánh: Tổng công suất khuấy của cả $3\\text{ vị trí}$ cánh đạt $P = 591\\text{ W}$, tạo ra gradien vận tốc $G = 40\\text{ s}^{-1}$ và chuẩn số Reynolds đạt $\\text{Re} = 557,876 > 10,000$ [Page 12] [Page 13].",
+            "Tổng diện tích mặt quạt cánh khuấy trên một mặt phẳng đứng đạt $A_P = 9.45\\text{ m}^2$, chiếm tỷ lệ $13.6\\%$ so với diện tích mặt cắt ngang ngăn bể $A_{\\text{sec}} = 69.5\\text{ m}^2$ [Page 13]."
+          ],
+          "brief": [
+            "Bước 5 - Tính công suất khuấy trộn và kiểm tra gradien vận tốc, số Reynolds cùng tỷ lệ diện tích cánh: Tổng công suất khuấy của cả $3\\text{ vị trí}$ cánh đạt $P = 591\\text{ W}$, tạo ra gradien vận tốc $G = 40\\text{ s}^{-1}$ và chuẩn số Reynolds đạt $\\text{Re} = 557,876 > 10,000$ [Page 12] [Page 13].",
+            "Tổng diện tích mặt quạt cánh khuấy trên một mặt phẳng đứng đạt $A_P = 9.45\\text{ m}^2$, chiếm tỷ lệ $13.6\\%$ so với diện tích mặt cắt ngang ngăn bể $A_{\\text{sec}} = 69.5\\text{ m}^2$ [Page 13]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng công suất khuấy đạt $P = 591\\text{ W}$, tạo ra $G = 40\\text{ s}^{-1}$ và diện tích cánh $13.6\\%$. Chuẩn số Reynolds đạt $\\text{Re} = 557,876 > 10,000$ và diện tích mặt quạt $A_P = 9.45\\text{ m}^2$ nhỏ hơn $20\\%$ mặt cắt bể.",
+          "takeaway": "Tổng công suất khuấy đạt $P = 591\\text{ W}$, tạo ra $G = 40\\text{ s}^{-1}$ và diện tích cánh $13.6\\%$",
+          "topic": "Tổng công suất"
+        },
+        {
+          "id": "p-47659d61-2",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Toàn bộ thông số thiết kế của bể guồng khuấy trục ngang thỏa mãn chuẩn bài giảng. Kích thước hình học và chế độ thủy lực của guồng khuấy đáp ứng đầy đủ giới hạn cho phép.",
+          "takeaway": "Toàn bộ thông số thiết kế của bể guồng khuấy trục ngang thỏa mãn chuẩn bài giảng",
+          "topic": "thông số thiết kế"
+        },
+        {
+          "id": "p-c83495f4",
+          "kind": "list item",
+          "role": "result",
+          "full": "Kích thước mỗi ngăn bể ($H_c \\times L_c \\times W_c$): $5.5\\text{ m} \\times 5.4\\text{ m} \\times 13.9\\text{ m}$, sâu nước $D_c = 5\\text{ m}$ (Kiểm tra: $L_c \\in [3, 8]\\text{ m}, W_c \\in [3, 25]\\text{ m — Đạt chuẩn Slide } 30, 36$).",
+          "sentences": [
+            "Kích thước mỗi ngăn bể ($H_c \\times L_c \\times W_c$): $5.5\\text{ m} \\times 5.4\\text{ m} \\times 13.9\\text{ m}$, sâu nước $D_c = 5\\text{ m}$ (Kiểm tra: $L_c \\in [3, 8]\\text{ m}, W_c \\in [3, 25]\\text{ m — Đạt chuẩn Slide } 30, 36$)."
+          ],
+          "brief": [
+            "Kích thước mỗi ngăn bể ($H_c \\times L_c \\times W_c$): $5.5\\text{ m} \\times 5.4\\text{ m} \\times 13.9\\text{ m}$, sâu nước $D_c = 5\\text{ m}$ (Kiểm tra: $L_c \\in [3, 8]\\text{ m}, W_c \\in [3, 25]\\text{ m — Đạt chuẩn Slide } 30, 36$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Kích thước mỗi ngăn bể đạt $5.5\\text{ m} \\times 5.4\\text{ m} \\times 13.9\\text{ m}$ với sâu nước $D_c = 5\\text{ m}$.",
+          "takeaway": "Kích thước mỗi ngăn bể đạt $5.5\\text{ m} \\times 5.4\\text{ m} \\times 13.9\\text{ m}$ với sâu nước $D_c = 5\\text{ m}$",
+          "topic": "mỗi ngăn bể"
+        },
+        {
+          "id": "p-18b91b16",
+          "kind": "list item",
+          "role": "result",
+          "full": "Cấu hình guồng khuấy ($N_{\\text{wheel}}, D_{\\text{wheel}}, l_p$): $3\\text{ guồng/trục}$, đường kính $D_{\\text{wheel}} = 4\\text{ m}$, cánh dài $l_p = 3.5\\text{ m}$ (Kiểm tra: $l_p = 3.5\\text{ m} \\in [2, 3.5]\\text{ m — Đạt chuẩn Slide } 30, 35$).",
+          "sentences": [
+            "Cấu hình guồng khuấy ($N_{\\text{wheel}}, D_{\\text{wheel}}, l_p$): $3\\text{ guồng/trục}$, đường kính $D_{\\text{wheel}} = 4\\text{ m}$, cánh dài $l_p = 3.5\\text{ m}$ (Kiểm tra: $l_p = 3.5\\text{ m} \\in [2, 3.5]\\text{ m — Đạt chuẩn Slide } 30, 35$)."
+          ],
+          "brief": [
+            "Cấu hình guồng khuấy ($N_{\\text{wheel}}, D_{\\text{wheel}}, l_p$): $3\\text{ guồng/trục}$, đường kính $D_{\\text{wheel}} = 4\\text{ m}$, cánh dài $l_p = 3.5\\text{ m}$ (Kiểm tra: $l_p = 3.5\\text{ m} \\in [2, 3.5]\\text{ m — Đạt chuẩn Slide } 30, 35$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Cấu hình $3\\text{ guồng/trục}$ đường kính $4\\text{ m}$ có chiều dài cánh $l_p = 3.5\\text{ m}$ đạt chuẩn.",
+          "takeaway": "Cấu hình $3\\text{ guồng/trục}$ đường kính $4\\text{ m}$ có chiều dài cánh $l_p = 3.5\\text{ m}$ đạt chuẩn",
+          "topic": "chiều dài cánh"
+        },
+        {
+          "id": "p-d313e499",
+          "kind": "list item",
+          "role": "result",
+          "full": "Vận tốc đầu cánh cực đại ($v_{\\text{tip}}$): $0.44\\text{ m/s}$ tại tốc độ quay $N = 2.1\\text{ vòng/phút}$ (Kiểm tra: $v_{\\text{tip}} = 0.44\\text{ m/s} < 0.5\\text{ m/s — Đạt chuẩn Slide } 30, 38$).",
+          "sentences": [
+            "Vận tốc đầu cánh cực đại ($v_{\\text{tip}}$): $0.44\\text{ m/s}$ tại tốc độ quay $N = 2.1\\text{ vòng/phút}$ (Kiểm tra: $v_{\\text{tip}} = 0.44\\text{ m/s} < 0.5\\text{ m/s — Đạt chuẩn Slide } 30, 38$)."
+          ],
+          "brief": [
+            "Vận tốc đầu cánh cực đại ($v_{\\text{tip}}$): $0.44\\text{ m/s}$ tại tốc độ quay $N = 2.1\\text{ vòng/phút}$ (Kiểm tra: $v_{\\text{tip}} = 0.44\\text{ m/s} < 0.5\\text{ m/s — Đạt chuẩn Slide } 30, 38$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Vận tốc đầu cánh cực đại đạt $v_{\\text{tip}} = 0.44\\text{ m/s} < 0.5\\text{ m/s}$ tại $N = 2.1\\text{ vòng/phút}$.",
+          "takeaway": "Vận tốc đầu cánh cực đại đạt $v_{\\text{tip}} = 0.44\\text{ m/s} < 0.5\\text{ m/s}$ tại $N = 2.1\\text{ vòng/phút}$",
+          "topic": "Vận tốc đầu cánh"
+        },
+        {
+          "id": "p-c01640af",
+          "kind": "list item",
+          "role": "result",
+          "full": "Công suất khuấy và gradien vận tốc ($P, G$): $P = 591\\text{ W}$ và $G = 40\\text{ s}^{-1}$ (Kiểm tra: $G = 40\\text{ s}^{-1} \\in [5, 40]\\text{ s}^{-1}\\text{ — Đạt chuẩn Slide } 30, 39$).",
+          "sentences": [
+            "Công suất khuấy và gradien vận tốc ($P, G$): $P = 591\\text{ W}$ và $G = 40\\text{ s}^{-1}$ (Kiểm tra: $G = 40\\text{ s}^{-1} \\in [5, 40]\\text{ s}^{-1}\\text{ — Đạt chuẩn Slide } 30, 39$)."
+          ],
+          "brief": [
+            "Công suất khuấy và gradien vận tốc ($P, G$): $P = 591\\text{ W}$ và $G = 40\\text{ s}^{-1}$ (Kiểm tra: $G = 40\\text{ s}^{-1} \\in [5, 40]\\text{ s}^{-1}\\text{ — Đạt chuẩn Slide } 30, 39$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Công suất khuấy $P = 591\\text{ W}$ tạo ra gradien vận tốc $G = 40\\text{ s}^{-1}$ đạt chuẩn thiết kế.",
+          "takeaway": "Công suất khuấy $P = 591\\text{ W}$ tạo ra gradien vận tốc $G = 40\\text{ s}^{-1}$ đạt chuẩn thiết kế",
+          "topic": "Công suất khuấy"
+        },
+        {
+          "id": "p-bebf0748",
+          "kind": "list item",
+          "role": "result",
+          "full": "Chuẩn số Reynolds ($\\text{Re}$): $557,876$ (Kiểm tra: $\\text{Re} = 557,876 > 10,000\\text{ — Đạt chuẩn Slide } 28, 39$).",
+          "sentences": [
+            "Chuẩn số Reynolds ($\\text{Re}$): $557,876$ (Kiểm tra: $\\text{Re} = 557,876 > 10,000\\text{ — Đạt chuẩn Slide } 28, 39$)."
+          ],
+          "brief": [
+            "Chuẩn số Reynolds ($\\text{Re}$): $557,876$ (Kiểm tra: $\\text{Re} = 557,876 > 10,000\\text{ — Đạt chuẩn Slide } 28, 39$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Chuẩn số Reynolds của guồng khuấy đạt $\\text{Re} = 557,876 > 10,000$ thỏa mãn chảy rối.",
+          "takeaway": "Chuẩn số Reynolds của guồng khuấy đạt $\\text{Re} = 557,876 > 10,000$ thỏa mãn chảy rối",
+          "topic": "Chuẩn số Reynolds"
+        },
+        {
+          "id": "p-da021ba0",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ lệ diện tích cánh trên mặt cắt ngang bể ($A_P/A_{\\text{sec}}$): $13.6\\%$ với $A_P = 9.45\\text{ m}^2$ và $A_{\\text{sec}} = 69.5\\text{ m}^2$ (Kiểm tra: $13.6\\% < 20\\%\\text{ — Đạt chuẩn Slide } 30, 39$).",
+          "sentences": [
+            "Tỷ lệ diện tích cánh trên mặt cắt ngang bể ($A_P/A_{\\text{sec}}$): $13.6\\%$ với $A_P = 9.45\\text{ m}^2$ và $A_{\\text{sec}} = 69.5\\text{ m}^2$ (Kiểm tra: $13.6\\% < 20\\%\\text{ — Đạt chuẩn Slide } 30, 39$)."
+          ],
+          "brief": [
+            "Tỷ lệ diện tích cánh trên mặt cắt ngang bể ($A_P/A_{\\text{sec}}$): $13.6\\%$ với $A_P = 9.45\\text{ m}^2$ và $A_{\\text{sec}} = 69.5\\text{ m}^2$ (Kiểm tra: $13.6\\% < 20\\%\\text{ — Đạt chuẩn Slide } 30, 39$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ lệ diện tích cánh trên mặt cắt ngang bể đạt $A_P/A_{\\text{sec}} = 13.6\\% < 20\\%$.",
+          "takeaway": "Tỷ lệ diện tích cánh trên mặt cắt ngang bể đạt $A_P/A_{\\text{sec}} = 13.6\\% < 20\\%$",
+          "topic": "diện tích cánh"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-proj_ch04_2_hw01-slide-4043-ảnh-74-và-129134-tính-toán-chi-phí-hóa-chất-bơm-định-lượng-và-bồn-pha-pac-và-polymer-anion",
+      "num": "",
+      "title": "Bài tập proj_ch04_2_hw01 (Slide 40–43, Ảnh #74 và #129–#134): Tính toán Chi phí Hóa chất, Bơm Định lượng và Bồn Pha PAC và Polymer Anion",
+      "depth": 2,
+      "takeaway": "Trạm $Q = 1,000\\text{ m}^3\\text{/ngày}$ tốn $1,080,000\\text{ VND/ngày}$ hóa chất, bơm $84$ và $125\\text{ L/h}$, bồn $1,500\\text{ L}$",
+      "topic": "hóa chất",
+      "units": [
+        {
+          "id": "p-a60c8d8c",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Một trạm xử lý nước thải có công suất $Q = 1,000\\text{ m}^3\\text{/ngày}$ vận hành liên tục $24\\text{ giờ/ngày}$ [Page 3]. Bằng phương pháp Jartest, liều lượng hóa chất châm vào bể keo tụ là $\\text{PAC}$ ở mức $D_{\\text{PAC}} = 150\\text{ g/m}^3$ (đơn giá $6,000\\text{ VND/kg}$, pha dung dịch nồng độ $C_{\\text{PAC}} = 7.5\\%\\text{ m/V}$) và châm vào bể tạo bông là Polymer Anion ở mức $D_{\\text{Poly}} = 3\\text{ g/m}^3$ (đơn giá $60,000\\text{ VND/kg}$, pha dung dịch nồng độ $C_{\\text{Poly}} = 0.1\\%\\text{ m/V}$). Công nhân pha hóa chất $N_{\\text{batch}} = 2\\text{ lần/ngày}$. Hãy tính chi phí hóa chất trong $1\\text{ ngày}$, lưu lượng bơm định lượng ($\\text{L/h}$) và dung tích bồn pha hóa chất ($\\text{L}$) [Page 3].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Một trạm xử lý nước thải có công suất $Q = 1,000\\text{ m}^3\\text{/ngày}$ vận hành liên tục $24\\text{ giờ/ngày}$ [Page 3].",
+            "Bằng phương pháp Jartest, liều lượng hóa chất châm vào bể keo tụ là $\\text{PAC}$ ở mức $D_{\\text{PAC}} = 150\\text{ g/m}^3$ (đơn giá $6,000\\text{ VND/kg}$, pha dung dịch nồng độ $C_{\\text{PAC}} = 7.5\\%\\text{ m/V}$) và châm vào bể tạo bông là Polymer Anion ở mức $D_{\\text{Poly}} = 3\\text{ g/m}^3$ (đơn giá $60,000\\text{ VND/kg}$, pha dung dịch nồng độ $C_{\\text{Poly}} = 0.1\\%\\text{ m/V}$).",
+            "Công nhân pha hóa chất $N_{\\text{batch}} = 2\\text{ lần/ngày}$.",
+            "Hãy tính chi phí hóa chất trong $1\\text{ ngày}$, lưu lượng bơm định lượng ($\\text{L/h}$) và dung tích bồn pha hóa chất ($\\text{L}$) [Page 3]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Một trạm xử lý nước thải có công suất $Q = 1,000\\text{ m}^3\\text{/ngày}$ vận hành liên tục $24\\text{ giờ/ngày}$ [Page 3].",
+            "Bằng phương pháp Jartest, liều lượng hóa chất châm vào bể keo tụ là $\\text{PAC}$ ở mức $D_{\\text{PAC}} = 150\\text{ g/m}^3$ (đơn giá $6,000\\text{ VND/kg}$, pha dung dịch nồng độ $C_{\\text{PAC}} = 7.5\\%\\text{ m/V}$) và châm vào bể tạo bông là Polymer Anion ở mức $D_{\\text{Poly}} = 3\\text{ g/m}^3$ (đơn giá $60,000\\text{ VND/kg}$, pha dung dịch nồng độ $C_{\\text{Poly}} = 0.1\\%\\text{ m/V}$)."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Trạm $Q = 1,000\\text{ m}^3\\text{/ngày}$ châm $\\text{PAC}$ liều $150\\text{ g/m}^3$ và Polymer liều $3\\text{ g/m}^3$. Dung dịch $\\text{PAC}$ pha ở nồng độ $7.5\\%$, còn Polymer Anion pha ở nồng độ $0.1\\%$ với tần suất $2\\text{ lần/ngày}$.",
+          "takeaway": "Trạm $Q = 1,000\\text{ m}^3\\text{/ngày}$ châm $\\text{PAC}$ liều $150\\text{ g/m}^3$ và Polymer liều $3\\text{ g/m}^3$",
+          "topic": "Trạm"
+        },
+        {
+          "id": "p-4bae24cc",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính khối lượng và tổng chi phí hóa chất PAC và Polymer Anion trong 1 ngày (Câu a): Khối lượng bột $\\text{PAC}$ dùng trong $1\\text{ ngày}$ đạt $M_{\\text{PAC}} = 150\\text{ kg/ngày}$ (chi phí $900,000\\text{ VND/ngày}$) và khối lượng bột Polymer Anion đạt $M_{\\text{Poly}} = 3\\text{ kg/ngày}$ (chi phí $180,000\\text{ VND/ngày}$), suy ra tổng chi phí hóa chất đạt $\\text{Cost}_{\\text{total}} = 1,080,000\\text{ VND/ngày}$ [Page 3].",
+          "sentences": [
+            "Bước 1 - Tính khối lượng và tổng chi phí hóa chất PAC và Polymer Anion trong 1 ngày (Câu a): Khối lượng bột $\\text{PAC}$ dùng trong $1\\text{ ngày}$ đạt $M_{\\text{PAC}} = 150\\text{ kg/ngày}$ (chi phí $900,000\\text{ VND/ngày}$) và khối lượng bột Polymer Anion đạt $M_{\\text{Poly}} = 3\\text{ kg/ngày}$ (chi phí $180,000\\text{ VND/ngày}$), suy ra tổng chi phí hóa chất đạt $\\text{Cost}_{\\text{total}} = 1,080,000\\text{ VND/ngày}$ [Page 3]."
+          ],
+          "brief": [
+            "Bước 1 - Tính khối lượng và tổng chi phí hóa chất PAC và Polymer Anion trong 1 ngày (Câu a): Khối lượng bột $\\text{PAC}$ dùng trong $1\\text{ ngày}$ đạt $M_{\\text{PAC}} = 150\\text{ kg/ngày}$ (chi phí $900,000\\text{ VND/ngày}$) và khối lượng bột Polymer Anion đạt $M_{\\text{Poly}} = 3\\text{ kg/ngày}$ (chi phí $180,000\\text{ VND/ngày}$), suy ra tổng chi phí hóa chất đạt $\\text{Cost}_{\\text{total}} = 1,080,000\\text{ VND/ngày}$ [Page 3]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng chi phí hóa chất đạt $1,080,000\\text{ VND/ngày}$ cho $150\\text{ kg PAC}$ và $3\\text{ kg}$ Polymer.",
+          "takeaway": "Tổng chi phí hóa chất đạt $1,080,000\\text{ VND/ngày}$ cho $150\\text{ kg PAC}$ và $3\\text{ kg}$ Polymer",
+          "topic": "chi phí hóa chất"
+        },
+        {
+          "id": "p-90669de5",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính thể tích dung dịch mỗi ngày và lưu lượng bơm định lượng vận hành 24/24 (Câu b): Thể tích dung dịch $\\text{PAC}$ nồng độ $7.5\\%$ cần dùng mỗi ngày là $V_{\\text{PAC}} = 2,000\\text{ L/ngày}$ ứng với lưu lượng bơm định lượng $Q_{\\text{pump,PAC}} = 84\\text{ L/h}$, còn thể tích dung dịch Polymer Anion nồng độ $0.1\\%$ là $V_{\\text{Poly}} = 3,000\\text{ L/ngày}$ ứng với lưu lượng bơm $Q_{\\text{pump,Poly}} = 125\\text{ L/h}$ [Page 3].",
+          "sentences": [
+            "Bước 2 - Tính thể tích dung dịch mỗi ngày và lưu lượng bơm định lượng vận hành 24/24 (Câu b): Thể tích dung dịch $\\text{PAC}$ nồng độ $7.5\\%$ cần dùng mỗi ngày là $V_{\\text{PAC}} = 2,000\\text{ L/ngày}$ ứng với lưu lượng bơm định lượng $Q_{\\text{pump,PAC}} = 84\\text{ L/h}$, còn thể tích dung dịch Polymer Anion nồng độ $0.1\\%$ là $V_{\\text{Poly}} = 3,000\\text{ L/ngày}$ ứng với lưu lượng bơm $Q_{\\text{pump,Poly}} = 125\\text{ L/h}$ [Page 3]."
+          ],
+          "brief": [
+            "Bước 2 - Tính thể tích dung dịch mỗi ngày và lưu lượng bơm định lượng vận hành 24/24 (Câu b): Thể tích dung dịch $\\text{PAC}$ nồng độ $7.5\\%$ cần dùng mỗi ngày là $V_{\\text{PAC}} = 2,000\\text{ L/ngày}$ ứng với lưu lượng bơm định lượng $Q_{\\text{pump,PAC}} = 84\\text{ L/h}$, còn thể tích dung dịch Polymer Anion nồng độ $0.1\\%$ là $V_{\\text{Poly}} = 3,000\\text{ L/ngày}$ ứng với lưu lượng bơm $Q_{\\text{pump,Poly}} = 125\\text{ L/h}$ [Page 3]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng bơm định lượng đạt $84\\text{ L/h}$ cho $\\text{PAC}$ và $125\\text{ L/h}$ cho Polymer.",
+          "takeaway": "Lưu lượng bơm định lượng đạt $84\\text{ L/h}$ cho $\\text{PAC}$ và $125\\text{ L/h}$ cho Polymer",
+          "topic": "bơm định lượng"
+        },
+        {
+          "id": "p-f486e275",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính thể tích bồn pha hóa chất khi pha 2 lần mỗi ngày (Câu c): Do công nhân pha hóa chất $2\\text{ lần/ngày}$, thể tích cần thiết mỗi mẻ của bồn $\\text{PAC}$ là $V_{\\text{tank,PAC}} = 1,000\\text{ L}$ và của bồn Polymer Anion là $V_{\\text{tank,Poly}} = 1,500\\text{ L}$, nên người thiết kế chọn $1\\text{ bồn}$ tiêu chuẩn dung tích $1,500\\text{ L}$ cho mỗi loại hóa chất [Page 3].",
+          "sentences": [
+            "Bước 3 - Tính thể tích bồn pha hóa chất khi pha 2 lần mỗi ngày (Câu c): Do công nhân pha hóa chất $2\\text{ lần/ngày}$, thể tích cần thiết mỗi mẻ của bồn $\\text{PAC}$ là $V_{\\text{tank,PAC}} = 1,000\\text{ L}$ và của bồn Polymer Anion là $V_{\\text{tank,Poly}} = 1,500\\text{ L}$, nên người thiết kế chọn $1\\text{ bồn}$ tiêu chuẩn dung tích $1,500\\text{ L}$ cho mỗi loại hóa chất [Page 3]."
+          ],
+          "brief": [
+            "Bước 3 - Tính thể tích bồn pha hóa chất khi pha 2 lần mỗi ngày (Câu c): Do công nhân pha hóa chất $2\\text{ lần/ngày}$, thể tích cần thiết mỗi mẻ của bồn $\\text{PAC}$ là $V_{\\text{tank,PAC}} = 1,000\\text{ L}$ và của bồn Polymer Anion là $V_{\\text{tank,Poly}} = 1,500\\text{ L}$, nên người thiết kế chọn $1\\text{ bồn}$ tiêu chuẩn dung tích $1,500\\text{ L}$ cho mỗi loại hóa chất [Page 3]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bồn pha chọn đồng bộ $1,500\\text{ L}$ cho mỗi hóa chất khi pha $2\\text{ mẻ/ngày}$.",
+          "takeaway": "Thể tích bồn pha chọn đồng bộ $1,500\\text{ L}$ cho mỗi hóa chất khi pha $2\\text{ mẻ/ngày}$",
+          "topic": "bồn pha"
+        },
+        {
+          "id": "p-47659d61-3",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Toàn bộ thông số chi phí, bơm định lượng và bồn pha đạt chuẩn bài giảng. Các kết quả tính toán khớp hoàn toàn với lời giải trên slide của giảng viên.",
+          "takeaway": "Toàn bộ thông số chi phí, bơm định lượng và bồn pha đạt chuẩn bài giảng",
+          "topic": "bơm định lượng"
+        },
+        {
+          "id": "p-259e5a2a",
+          "kind": "list item",
+          "role": "result",
+          "full": "Khối lượng và chi phí $\\text{PAC}$ hàng ngày ($M_{\\text{PAC}}, \\text{Cost}_{\\text{PAC}}$): $150\\text{ kg/ngày}$ và $900,000\\text{ VND/ngày}$ (Kiểm tra: $M_{\\text{PAC}} = 150\\text{ kg/ngày — Đạt chuẩn Slide } 41$).",
+          "sentences": [
+            "Khối lượng và chi phí $\\text{PAC}$ hàng ngày ($M_{\\text{PAC}}, \\text{Cost}_{\\text{PAC}}$): $150\\text{ kg/ngày}$ và $900,000\\text{ VND/ngày}$ (Kiểm tra: $M_{\\text{PAC}} = 150\\text{ kg/ngày — Đạt chuẩn Slide } 41$)."
+          ],
+          "brief": [
+            "Khối lượng và chi phí $\\text{PAC}$ hàng ngày ($M_{\\text{PAC}}, \\text{Cost}_{\\text{PAC}}$): $150\\text{ kg/ngày}$ và $900,000\\text{ VND/ngày}$ (Kiểm tra: $M_{\\text{PAC}} = 150\\text{ kg/ngày — Đạt chuẩn Slide } 41$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khối lượng $\\text{PAC}$ hàng ngày đạt $150\\text{ kg/ngày}$ với chi phí $900,000\\text{ VND/ngày}$.",
+          "takeaway": "Khối lượng $\\text{PAC}$ hàng ngày đạt $150\\text{ kg/ngày}$ với chi phí $900,000\\text{ VND/ngày}$",
+          "topic": "Khối lượng"
+        },
+        {
+          "id": "p-fa2b2de6",
+          "kind": "list item",
+          "role": "result",
+          "full": "Khối lượng và chi phí Polymer Anion hàng ngày ($M_{\\text{Poly}}, \\text{Cost}_{\\text{Poly}}$): $3\\text{ kg/ngày}$ và $180,000\\text{ VND/ngày}$ (Kiểm tra: $D_{\\text{Poly}} = 3\\text{ mg/L} \\in [1, 10]\\text{ mg/L — Đạt chuẩn Slide } 6, 41$).",
+          "sentences": [
+            "Khối lượng và chi phí Polymer Anion hàng ngày ($M_{\\text{Poly}}, \\text{Cost}_{\\text{Poly}}$): $3\\text{ kg/ngày}$ và $180,000\\text{ VND/ngày}$ (Kiểm tra: $D_{\\text{Poly}} = 3\\text{ mg/L} \\in [1, 10]\\text{ mg/L — Đạt chuẩn Slide } 6, 41$)."
+          ],
+          "brief": [
+            "Khối lượng và chi phí Polymer Anion hàng ngày ($M_{\\text{Poly}}, \\text{Cost}_{\\text{Poly}}$): $3\\text{ kg/ngày}$ và $180,000\\text{ VND/ngày}$ (Kiểm tra: $D_{\\text{Poly}} = 3\\text{ mg/L} \\in [1, 10]\\text{ mg/L — Đạt chuẩn Slide } 6, 41$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khối lượng Polymer Anion hàng ngày đạt $3\\text{ kg/ngày}$ với chi phí $180,000\\text{ VND/ngày}$.",
+          "takeaway": "Khối lượng Polymer Anion hàng ngày đạt $3\\text{ kg/ngày}$ với chi phí $180,000\\text{ VND/ngày}$",
+          "topic": "Polymer Anion"
+        },
+        {
+          "id": "p-7e2f384c",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổng chi phí hóa chất hàng ngày ($\\text{Cost}_{\\text{total}}$): $1,080,000\\text{ VND/ngày}$ (Kiểm tra: $900,000 + 180,000 = 1,080,000\\text{ VND/ngày — Đạt chuẩn Slide } 41$).",
+          "sentences": [
+            "Tổng chi phí hóa chất hàng ngày ($\\text{Cost}_{\\text{total}}$): $1,080,000\\text{ VND/ngày}$ (Kiểm tra: $900,000 + 180,000 = 1,080,000\\text{ VND/ngày — Đạt chuẩn Slide } 41$)."
+          ],
+          "brief": [
+            "Tổng chi phí hóa chất hàng ngày ($\\text{Cost}_{\\text{total}}$): $1,080,000\\text{ VND/ngày}$ (Kiểm tra: $900,000 + 180,000 = 1,080,000\\text{ VND/ngày — Đạt chuẩn Slide } 41$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng chi phí hóa chất hàng ngày của trạm đạt $\\text{Cost}_{\\text{total}} = 1,080,000\\text{ VND/ngày}$.",
+          "takeaway": "Tổng chi phí hóa chất hàng ngày của trạm đạt $\\text{Cost}_{\\text{total}} = 1,080,000\\text{ VND/ngày}$",
+          "topic": "chi phí hóa chất"
+        },
+        {
+          "id": "p-b18eb014",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng bơm định lượng ($Q_{\\text{pump,PAC}}, Q_{\\text{pump,Poly}}$): Bơm $\\text{PAC}$ đạt $84\\text{ L/h}$ và bơm Polymer đạt $125\\text{ L/h}$ (Kiểm tra: $Q_{\\text{pump}} \\times 24\\text{ h} \\ge V_{\\text{sol}}\\text{ — Đạt chuẩn Slide } 42$).",
+          "sentences": [
+            "Lưu lượng bơm định lượng ($Q_{\\text{pump,PAC}}, Q_{\\text{pump,Poly}}$): Bơm $\\text{PAC}$ đạt $84\\text{ L/h}$ và bơm Polymer đạt $125\\text{ L/h}$ (Kiểm tra: $Q_{\\text{pump}} \\times 24\\text{ h} \\ge V_{\\text{sol}}\\text{ — Đạt chuẩn Slide } 42$)."
+          ],
+          "brief": [
+            "Lưu lượng bơm định lượng ($Q_{\\text{pump,PAC}}, Q_{\\text{pump,Poly}}$): Bơm $\\text{PAC}$ đạt $84\\text{ L/h}$ và bơm Polymer đạt $125\\text{ L/h}$ (Kiểm tra: $Q_{\\text{pump}} \\times 24\\text{ h} \\ge V_{\\text{sol}}\\text{ — Đạt chuẩn Slide } 42$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Công suất bơm định lượng đạt $Q_{\\text{pump,PAC}} = 84\\text{ L/h}$ và $Q_{\\text{pump,Poly}} = 125\\text{ L/h}$.",
+          "takeaway": "Công suất bơm định lượng đạt $Q_{\\text{pump,PAC}} = 84\\text{ L/h}$ và $Q_{\\text{pump,Poly}} = 125\\text{ L/h}$",
+          "topic": "bơm định lượng"
+        },
+        {
+          "id": "p-4e31a6ab",
+          "kind": "list item",
+          "role": "result",
+          "full": "Dung tích bồn pha hóa chất ($V_{\\text{tank,chosen}}$): Chọn đồng bộ $1\\text{ bồn } 1,500\\text{ L}$ cho mỗi hóa chất (Kiểm tra: $1,500\\text{ L} \\ge 1,000\\text{ L}, 1,500\\text{ L — Đạt chuẩn Slide } 43$).",
+          "sentences": [
+            "Dung tích bồn pha hóa chất ($V_{\\text{tank,chosen}}$): Chọn đồng bộ $1\\text{ bồn } 1,500\\text{ L}$ cho mỗi hóa chất (Kiểm tra: $1,500\\text{ L} \\ge 1,000\\text{ L}, 1,500\\text{ L — Đạt chuẩn Slide } 43$)."
+          ],
+          "brief": [
+            "Dung tích bồn pha hóa chất ($V_{\\text{tank,chosen}}$): Chọn đồng bộ $1\\text{ bồn } 1,500\\text{ L}$ cho mỗi hóa chất (Kiểm tra: $1,500\\text{ L} \\ge 1,000\\text{ L}, 1,500\\text{ L — Đạt chuẩn Slide } 43$)."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Dung tích bồn pha hóa chất chọn đồng bộ là $V_{\\text{tank,chosen}} = 1,500\\text{ L}$.",
+          "takeaway": "Dung tích bồn pha hóa chất chọn đồng bộ là $V_{\\text{tank,chosen}} = 1,500\\text{ L}$",
+          "topic": "bồn pha"
+        },
+        {
+          "id": "p-83bc80e2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 1 (Page 2)",
+          "sentences": [
+            "Figure 1 (Page 2)"
+          ],
+          "brief": [
+            "Figure 1 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $1$ minh họa sơ đồ dây chuyền keo tụ, tạo bông và lắng cặn.",
+          "takeaway": "Hình $1$ minh họa sơ đồ dây chuyền keo tụ, tạo bông và lắng cặn",
+          "topic": "sơ đồ dây chuyền"
+        },
+        {
+          "id": "p-18eb3e10",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 2 (Page 2)",
+          "sentences": [
+            "Figure 2 (Page 2)"
+          ],
+          "brief": [
+            "Figure 2 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $2$ biểu diễn cơ chế tạo bông vi mô nhờ chuyển động Brown.",
+          "takeaway": "Hình $2$ biểu diễn cơ chế tạo bông vi mô nhờ chuyển động Brown",
+          "topic": "tạo bông vi mô"
+        },
+        {
+          "id": "p-ae99f2b3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 3 (Page 2)",
+          "sentences": [
+            "Figure 3 (Page 2)"
+          ],
+          "brief": [
+            "Figure 3 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $3$ biểu diễn cơ chế tạo bông vĩ mô nhờ gradien vận tốc.",
+          "takeaway": "Hình $3$ biểu diễn cơ chế tạo bông vĩ mô nhờ gradien vận tốc",
+          "topic": "tạo bông vĩ mô"
+        },
+        {
+          "id": "p-3fdce783",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 4 (Page 2)",
+          "sentences": [
+            "Figure 4 (Page 2)"
+          ],
+          "brief": [
+            "Figure 4 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $4$ minh họa cấu trúc hạt keo trước khi châm polymer hữu cơ.",
+          "takeaway": "Hình $4$ minh họa cấu trúc hạt keo trước khi châm polymer hữu cơ",
+          "topic": "hạt keo"
+        },
+        {
+          "id": "p-2cf940b7",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 5 (Page 2)",
+          "sentences": [
+            "Figure 5 (Page 2)"
+          ],
+          "brief": [
+            "Figure 5 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $5$ minh họa bông cặn kết tụ lớn qua cầu nối chuỗi polymer.",
+          "takeaway": "Hình $5$ minh họa bông cặn kết tụ lớn qua cầu nối chuỗi polymer",
+          "topic": "bông cặn"
+        },
+        {
+          "id": "p-1216493d",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 6 (Page 3)",
+          "sentences": [
+            "Figure 6 (Page 3)"
+          ],
+          "brief": [
+            "Figure 6 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $6$ trình bày công thức cấu tạo của polymer anion polyacrylamide.",
+          "takeaway": "Hình $6$ trình bày công thức cấu tạo của polymer anion polyacrylamide",
+          "topic": "polymer anion"
+        },
+        {
+          "id": "p-e7f33075",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 7 (Page 3)",
+          "sentences": [
+            "Figure 7 (Page 3)"
+          ],
+          "brief": [
+            "Figure 7 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $7$ trình bày công thức cấu tạo của polymer cation epi-DMA.",
+          "takeaway": "Hình $7$ trình bày công thức cấu tạo của polymer cation epi-DMA",
+          "topic": "polymer cation"
+        },
+        {
+          "id": "p-9fd8ccad",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 8 (Page 3)",
+          "sentences": [
+            "Figure 8 (Page 3)"
+          ],
+          "brief": [
+            "Figure 8 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $8$ trình bày công thức cấu tạo của polymer cation poly-DADMAC.",
+          "takeaway": "Hình $8$ trình bày công thức cấu tạo của polymer cation poly-DADMAC",
+          "topic": "polymer cation"
+        },
+        {
+          "id": "p-c01f58fb",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 9 (Page 3)",
+          "sentences": [
+            "Figure 9 (Page 3)"
+          ],
+          "brief": [
+            "Figure 9 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $9$ trình bày công thức cấu tạo của polymer không phân cực.",
+          "takeaway": "Hình $9$ trình bày công thức cấu tạo của polymer không phân cực",
+          "topic": "công thức cấu tạo"
+        },
+        {
+          "id": "p-7815c41c",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 10 (Page 4)",
+          "sentences": [
+            "Figure 10 (Page 4)"
+          ],
+          "brief": [
+            "Figure 10 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $10$ minh họa bể tạo bông thủy lực vách ngăn ngang zích-zắc.",
+          "takeaway": "Hình $10$ minh họa bể tạo bông thủy lực vách ngăn ngang zích-zắc",
+          "topic": "bể tạo bông"
+        },
+        {
+          "id": "p-ff7c6981",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 11 (Page 4)",
+          "sentences": [
+            "Figure 11 (Page 4)"
+          ],
+          "brief": [
+            "Figure 11 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $11$ minh họa bể tạo bông thủy lực vách ngăn đứng lên xuống.",
+          "takeaway": "Hình $11$ minh họa bể tạo bông thủy lực vách ngăn đứng lên xuống",
+          "topic": "vách ngăn đứng"
+        },
+        {
+          "id": "p-ab8f3431",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 12 (Page 4)",
+          "sentences": [
+            "Figure 12 (Page 4)"
+          ],
+          "brief": [
+            "Figure 12 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $12$ minh họa bể tạo bông thủy lực kiểu Alabama có vòi hướng dòng.",
+          "takeaway": "Hình $12$ minh họa bể tạo bông thủy lực kiểu Alabama có vòi hướng dòng",
+          "topic": "kiểu Alabama"
+        },
+        {
+          "id": "p-bfda34de",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 13 (Page 4)",
+          "sentences": [
+            "Figure 13 (Page 4)"
+          ],
+          "brief": [
+            "Figure 13 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $13$ minh họa bể tạo bông thủy lực xoáy hình trụ kèm ngăn lắng.",
+          "takeaway": "Hình $13$ minh họa bể tạo bông thủy lực xoáy hình trụ kèm ngăn lắng",
+          "topic": "bể tạo bông"
+        },
+        {
+          "id": "p-b6d16eb6",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 14 (Page 5)",
+          "sentences": [
+            "Figure 14 (Page 5)"
+          ],
+          "brief": [
+            "Figure 14 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $14$ minh họa bể tạo bông cơ khí dùng guồng cánh trục ngang.",
+          "takeaway": "Hình $14$ minh họa bể tạo bông cơ khí dùng guồng cánh trục ngang",
+          "topic": "guồng cánh"
+        },
+        {
+          "id": "p-89df7d20",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 15 (Page 5)",
+          "sentences": [
+            "Figure 15 (Page 5)"
+          ],
+          "brief": [
+            "Figure 15 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $15$ minh họa bể tạo bông cơ khí dùng tuabin trục đứng.",
+          "takeaway": "Hình $15$ minh họa bể tạo bông cơ khí dùng tuabin trục đứng",
+          "topic": "tuabin trục đứng"
+        },
+        {
+          "id": "p-d39e2410",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 16 (Page 5)",
+          "sentences": [
+            "Figure 16 (Page 5)"
+          ],
+          "brief": [
+            "Figure 16 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $16$ minh họa cánh khuấy tuabin trục đứng lắp trong ngăn tạo bông.",
+          "takeaway": "Hình $16$ minh họa cánh khuấy tuabin trục đứng lắp trong ngăn tạo bông",
+          "topic": "cánh khuấy"
+        },
+        {
+          "id": "p-de062234",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 17 (Page 5)",
+          "sentences": [
+            "Figure 17 (Page 5)"
+          ],
+          "brief": [
+            "Figure 17 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $17$ minh họa hệ truyền động guồng khuấy trục ngang nhiều bậc.",
+          "takeaway": "Hình $17$ minh họa hệ truyền động guồng khuấy trục ngang nhiều bậc",
+          "topic": "guồng khuấy"
+        },
+        {
+          "id": "p-bef4fa83",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 18 (Page 5)",
+          "sentences": [
+            "Figure 18 (Page 5)"
+          ],
+          "brief": [
+            "Figure 18 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $18$ minh họa mặt cắt dọc bể tạo bông giảm dần cường độ khuấy.",
+          "takeaway": "Hình $18$ minh họa mặt cắt dọc bể tạo bông giảm dần cường độ khuấy",
+          "topic": "mặt cắt dọc"
+        },
+        {
+          "id": "p-997afd3d",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 19 (Page 6)",
+          "sentences": [
+            "Figure 19 (Page 6)"
+          ],
+          "brief": [
+            "Figure 19 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $19$ minh họa bố trí guồng khuấy trục ngang tại công trình thực tế.",
+          "takeaway": "Hình $19$ minh họa bố trí guồng khuấy trục ngang tại công trình thực tế",
+          "topic": "guồng khuấy"
+        },
+        {
+          "id": "p-7ca20afa",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 20 (Page 6)",
+          "sentences": [
+            "Figure 20 (Page 6)"
+          ],
+          "brief": [
+            "Figure 20 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $20$ minh họa bố trí các ngăn tạo bông tuabin trục đứng nối tiếp.",
+          "takeaway": "Hình $20$ minh họa bố trí các ngăn tạo bông tuabin trục đứng nối tiếp",
+          "topic": "tuabin trục đứng"
+        },
+        {
+          "id": "p-060f323a",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 21 (Page 6)",
+          "sentences": [
+            "Figure 21 (Page 6)"
+          ],
+          "brief": [
+            "Figure 21 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $21$ minh họa sơ đồ giảm tốc độ quay $75$, $50$ và $25\\text{ rpm}$.",
+          "takeaway": "Hình $21$ minh họa sơ đồ giảm tốc độ quay $75$, $50$ và $25\\text{ rpm}$",
+          "topic": "tốc độ quay"
+        },
+        {
+          "id": "p-3c9c6fe4",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 22 (Page 6)",
+          "sentences": [
+            "Figure 22 (Page 6)"
+          ],
+          "brief": [
+            "Figure 22 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $22$ minh họa mặt bằng bể vách ngăn ngang có khoảng cách tăng dần.",
+          "takeaway": "Hình $22$ minh họa mặt bằng bể vách ngăn ngang có khoảng cách tăng dần",
+          "topic": "vách ngăn ngang"
+        },
+        {
+          "id": "p-b9ff8076",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 23 (Page 6)",
+          "sentences": [
+            "Figure 23 (Page 6)"
+          ],
+          "brief": [
+            "Figure 23 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $23$ minh họa mặt cắt bể vách ngăn đứng có khoảng cách tăng dần.",
+          "takeaway": "Hình $23$ minh họa mặt cắt bể vách ngăn đứng có khoảng cách tăng dần",
+          "topic": "vách ngăn đứng"
+        },
+        {
+          "id": "p-7f9bbc0f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 24 (Page 6)",
+          "sentences": [
+            "Figure 24 (Page 6)"
+          ],
+          "brief": [
+            "Figure 24 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $24$ minh họa ảnh chụp thực tế bể tạo bông vách ngăn thủy lực.",
+          "takeaway": "Hình $24$ minh họa ảnh chụp thực tế bể tạo bông vách ngăn thủy lực",
+          "topic": "vách ngăn"
+        },
+        {
+          "id": "p-a566b4ab",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 25 (Page 8)",
+          "sentences": [
+            "Figure 25 (Page 8)"
+          ],
+          "brief": [
+            "Figure 25 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $25$ minh họa trường dòng chảy của cánh khuấy hướng trục và hướng kính.",
+          "takeaway": "Hình $25$ minh họa trường dòng chảy của cánh khuấy hướng trục và hướng kính",
+          "topic": "trường dòng chảy"
+        },
+        {
+          "id": "p-438040d2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 26 (Page 8)",
+          "sentences": [
+            "Figure 26 (Page 8)"
+          ],
+          "brief": [
+            "Figure 26 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $26$ minh họa vòng tuần hoàn nước của tuabin hướng trục và hướng kính.",
+          "takeaway": "Hình $26$ minh họa vòng tuần hoàn nước của tuabin hướng trục và hướng kính",
+          "topic": "vòng tuần hoàn"
+        },
+        {
+          "id": "p-639cd676",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 27 (Page 8)",
+          "sentences": [
+            "Figure 27 (Page 8)"
+          ],
+          "brief": [
+            "Figure 27 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $27$ minh họa cánh phẳng, Rushton, cánh nghiêng $45^\\circ$ và hydrofoil.",
+          "takeaway": "Hình $27$ minh họa cánh phẳng, Rushton, cánh nghiêng $45^\\circ$ và hydrofoil",
+          "topic": "cánh phẳng"
+        },
+        {
+          "id": "p-358077e1",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 28 (Page 8)",
+          "sentences": [
+            "Figure 28 (Page 8)"
+          ],
+          "brief": [
+            "Figure 28 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $28$ minh họa lắp đặt cánh khuấy tuabin trục đứng ở độ sâu $\\frac{2}{3}H$.",
+          "takeaway": "Hình $28$ minh họa lắp đặt cánh khuấy tuabin trục đứng ở độ sâu $\\frac{2}{3}H$",
+          "topic": "cánh khuấy"
+        },
+        {
+          "id": "p-fe1daab1",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 29 (Page 10)",
+          "sentences": [
+            "Figure 29 (Page 10)"
+          ],
+          "brief": [
+            "Figure 29 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $29$ minh họa bố trí $4\\text{ tấm chắn}$ chống xoáy trong bể khuấy.",
+          "takeaway": "Hình $29$ minh họa bố trí $4\\text{ tấm chắn}$ chống xoáy trong bể khuấy",
+          "topic": "tấm chắn"
+        },
+        {
+          "id": "p-d40ab46e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 30 (Page 10)",
+          "sentences": [
+            "Figure 30 (Page 10)"
+          ],
+          "brief": [
+            "Figure 30 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $30$ minh họa thông số hình học chuẩn của bể tuabin trục đứng.",
+          "takeaway": "Hình $30$ minh họa thông số hình học chuẩn của bể tuabin trục đứng",
+          "topic": "thông số hình học"
+        },
+        {
+          "id": "p-af6682a3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 31 (Page 11)",
+          "sentences": [
+            "Figure 31 (Page 11)"
+          ],
+          "brief": [
+            "Figure 31 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $31$ minh họa sơ đồ $3\\text{ ngăn}$ tạo bông tuabin trục đứng nối tiếp.",
+          "takeaway": "Hình $31$ minh họa sơ đồ $3\\text{ ngăn}$ tạo bông tuabin trục đứng nối tiếp",
+          "topic": "tuabin trục đứng"
+        },
+        {
+          "id": "p-fa666aae",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 32 (Page 11)",
+          "sentences": [
+            "Figure 32 (Page 11)"
+          ],
+          "brief": [
+            "Figure 32 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $32$ minh họa hình chiếu đứng ngăn bể tuabin rộng $4\\text{ m} \\times 4\\text{ m}$.",
+          "takeaway": "Hình $32$ minh họa hình chiếu đứng ngăn bể tuabin rộng $4\\text{ m} \\times 4\\text{ m}$",
+          "topic": "hình chiếu đứng"
+        },
+        {
+          "id": "p-7aea1633",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 33 (Page 12)",
+          "sentences": [
+            "Figure 33 (Page 12)"
+          ],
+          "brief": [
+            "Figure 33 (Page 12)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $33$ minh họa cấu tạo guồng khuấy trục ngang và vách ngăn giữa các bậc.",
+          "takeaway": "Hình $33$ minh họa cấu tạo guồng khuấy trục ngang và vách ngăn giữa các bậc",
+          "topic": "guồng khuấy"
+        },
+        {
+          "id": "p-cf2ebf37",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 34 (Page 13)",
+          "sentences": [
+            "Figure 34 (Page 13)"
+          ],
+          "brief": [
+            "Figure 34 (Page 13)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $34$ minh họa hai phương án bố trí trục guồng khuấy dọc và ngang.",
+          "takeaway": "Hình $34$ minh họa hai phương án bố trí trục guồng khuấy dọc và ngang",
+          "topic": "trục guồng khuấy"
+        },
+        {
+          "id": "p-0b398693",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 35 (Page 13)",
+          "sentences": [
+            "Figure 35 (Page 13)"
+          ],
+          "brief": [
+            "Figure 35 (Page 13)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $35$ minh họa cấu tạo chi tiết các thanh gỗ trên tay guồng khuấy.",
+          "takeaway": "Hình $35$ minh họa cấu tạo chi tiết các thanh gỗ trên tay guồng khuấy",
+          "topic": "tay guồng khuấy"
+        },
+        {
+          "id": "p-5fa76be2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 36 (Page 13)",
+          "sentences": [
+            "Figure 36 (Page 13)"
+          ],
+          "brief": [
+            "Figure 36 (Page 13)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $36$ minh họa sơ đồ kích thước $3\\text{ thanh}$ cánh ở bán kính $r_1, r_2, r_3$.",
+          "takeaway": "Hình $36$ minh họa sơ đồ kích thước $3\\text{ thanh}$ cánh ở bán kính $r_1, r_2, r_3$",
+          "topic": "sơ đồ kích thước"
+        },
+        {
+          "id": "p-6e6149a5",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 37 (Page 14)",
+          "sentences": [
+            "Figure 37 (Page 14)"
+          ],
+          "brief": [
+            "Figure 37 (Page 14)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $37$ minh họa mặt cắt guồng khuấy bán kính $0.67$, $1.33$ và $2.0\\text{ m}$.",
+          "takeaway": "Hình $37$ minh họa mặt cắt guồng khuấy bán kính $0.67$, $1.33$ và $2.0\\text{ m}$",
+          "topic": "guồng khuấy"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

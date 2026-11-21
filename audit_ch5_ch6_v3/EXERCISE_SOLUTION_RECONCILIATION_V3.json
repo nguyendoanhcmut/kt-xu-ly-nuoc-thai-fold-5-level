@@ -1,0 +1,2011 @@
+{
+  "brief_id": "c56b3047",
+  "summary_counts": {
+    "total_pdf_files": 17,
+    "wave1_root_classroom_photos": 74,
+    "wave2_duynguyen_classroom_photos": 85,
+    "wave3_duynguyen_classroom_photos": 47,
+    "total_classroom_photos": 206,
+    "homework_folder_photos_14_11_2026": 3,
+    "cross_batch_sha_overlaps": 0,
+    "batch3_chapter_photo_counts": {
+      "ch05_1": 13,
+      "ch05_2": 2,
+      "ch06": 32
+    },
+    "pdf_exercises_total": 39,
+    "pdf_exercises_complete_wave2": 13,
+    "pdf_exercises_partial_wave2": 4,
+    "pdf_exercises_missing_wave2": 22,
+    "pdf_exercises_complete_wave3": 15,
+    "pdf_exercises_partial_wave3": 9,
+    "pdf_exercises_missing_wave3": 15,
+    "pdf_exercises_wave3_transitions": {
+      "MISSING_to_COMPLETE": [
+        "ch05_1_ex02",
+        "ch05_1_ex03"
+      ],
+      "MISSING_to_PARTIAL": [
+        "ch05_1_ex01",
+        "ch05_2_ex01",
+        "ch06_ex01",
+        "ch06_ex02",
+        "ch06_ex04"
+      ],
+      "STAYED_MISSING_IN_CH5_6": [
+        "ch05_2_ex02",
+        "ch06_ex03"
+      ]
+    },
+    "projector_only_problems_total_wave2": 15,
+    "projector_only_problems_total_wave3": 17,
+    "projector_only_problems_complete_wave3": 6,
+    "projector_only_problems_partial_wave3": 0,
+    "projector_only_problems_missing_wave3": 11,
+    "projector_only_wave3_transitions": {
+      "NEW_DISCOVERED_MISSING_PHOTOS_SOLVED_IN_BTVN": [
+        "proj_ch06_hw01",
+        "proj_ch06_hw02"
+      ]
+    },
+    "total_course_exercises_wave3": 56
+  },
+  "pdf_exercise_reconciliation": {
+    "ch01_ex01": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 51 bị ẩn trong file PDF và chưa có ảnh chụp lớp học.",
+      "wave2_status": "MISSING"
+    },
+    "ch01_ex02": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 53 bị ẩn trong file PDF và chưa có ảnh chụp lớp học.",
+      "wave2_status": "MISSING"
+    },
+    "ch01_ex03": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 82 trở đi ở cuối chương bị ẩn trong file PDF và chưa có ảnh chụp lớp học.",
+      "wave2_status": "MISSING"
+    },
+    "ch02_ex01": {
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "root_photos": [
+        2,
+        3,
+        4
+      ],
+      "dn_photos": [],
+      "all_photos": [
+        2,
+        3,
+        4
+      ],
+      "missing_detail": "Đủ lời giải từ đợt 1 trên các ảnh #02, #03, #04 (Slide 18 đến 21, tính V = 4918 m3, P = 39 kW, Q_air = 49 m3/phút).",
+      "wave2_status": "COMPLETE"
+    },
+    "ch02_ex02": {
+      "wave1_status": "PARTIAL",
+      "status": "PARTIAL",
+      "root_photos": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "dn_photos": [],
+      "all_photos": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "missing_detail": "Có đề bài (#05, #06), công thức và tính mẫu giờ 8-9 đến 11-N (#07, #08) cùng bảng kết quả cuối ở Slide 32 (#09, #10), nhưng vẫn thiếu các slide trung gian 28, 29, 30, 31.",
+      "wave2_status": "PARTIAL"
+    },
+    "ch03_1_ex01": {
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "root_photos": [
+        19,
+        20
+      ],
+      "dn_photos": [],
+      "all_photos": [
+        19,
+        20
+      ],
+      "missing_detail": "Đủ lời giải từ đợt 1 trên các ảnh #19, #20 (Slide 31, 32, tính W = 1.5 m, D = 0.5 m, 29 thanh, 30 khe, h_L sạch = 5.4 mm, h_L tắc 50% = 60 mm).",
+      "wave2_status": "COMPLETE"
+    },
+    "ch03_1_ex02": {
+      "wave1_status": "MISSING",
+      "status": "PARTIAL",
+      "root_photos": [],
+      "dn_photos": [
+        139
+      ],
+      "all_photos": [
+        139
+      ],
+      "missing_detail": "Mới bổ sung được 1 phần từ ảnh #139 (dn_index 39, chụp Slide 34 tính góc nghiêng 50 độ cho ra Space area = 0.78 m2, Total area = 0.98 m2, v_thru = 0.35 m/s, v_approach = 0.28 m/s, h_L = 3.2 mm). Vẫn thiếu các slide tính góc nghiêng 55 độ, 60 độ và nhận xét (Slide 35 đến 37).",
+      "wave2_status": "PARTIAL"
+    },
+    "ch03_2_ex01": {
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "root_photos": [
+        22,
+        23
+      ],
+      "dn_photos": [
+        142,
+        143
+      ],
+      "all_photos": [
+        22,
+        23,
+        142,
+        143
+      ],
+      "missing_detail": "Đủ lời giải từ đợt 1 (#22, #23 cho Slide 9, 10) và có thêm ảnh #142, #143 (Slide 8, 9) trong bộ ảnh Duy Nguyên.",
+      "wave2_status": "COMPLETE"
+    },
+    "ch03_2_ex02": {
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "root_photos": [
+        24,
+        25
+      ],
+      "dn_photos": [
+        144,
+        145
+      ],
+      "all_photos": [
+        24,
+        25,
+        144,
+        145
+      ],
+      "missing_detail": "Đủ lời giải trên cả 2 bộ ảnh (#24, #25 và #144, #145 cho Slide 17, 18).",
+      "wave2_status": "COMPLETE"
+    },
+    "ch03_3_ex01": {
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "root_photos": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "dn_photos": [
+        159,
+        160,
+        161,
+        162,
+        163
+      ],
+      "all_photos": [
+        35,
+        36,
+        37,
+        38,
+        159,
+        160,
+        161,
+        162,
+        163
+      ],
+      "missing_detail": "Đủ lời giải trên cả 2 bộ ảnh (#35..#38 và #159..#163 cho Slide 29..33).",
+      "wave2_status": "COMPLETE"
+    },
+    "ch03_3_ex02": {
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "root_photos": [
+        39,
+        40,
+        41
+      ],
+      "dn_photos": [
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "all_photos": [
+        39,
+        40,
+        41,
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "missing_detail": "Đủ lời giải khi gộp 2 bộ ảnh (#39..#41 chụp Slide 40..42 và #164..#168 chụp rõ Slide 40, 41).",
+      "wave2_status": "COMPLETE"
+    },
+    "ch03_4_ex01": {
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "root_photos": [
+        45,
+        46,
+        47
+      ],
+      "dn_photos": [
+        179,
+        180,
+        181
+      ],
+      "all_photos": [
+        45,
+        46,
+        47,
+        179,
+        180,
+        181
+      ],
+      "missing_detail": "Đủ lời giải trên cả 2 bộ ảnh (#45..#47 và #179..#181 cho Slide 19..21, kèm sơ đồ dòng chảy trên bảng phấn ở #180, #181).",
+      "wave2_status": "COMPLETE"
+    },
+    "ch03_5_ex01": {
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "root_photos": [
+        50,
+        51,
+        52
+      ],
+      "dn_photos": [],
+      "all_photos": [
+        50,
+        51,
+        52
+      ],
+      "missing_detail": "Đủ lời giải từ đợt 1 trên các ảnh #50 (#51 trùng SHA) và #52 (Slide 14, 15, tính h_L = 0.5 m).",
+      "wave2_status": "COMPLETE"
+    },
+    "ch03_5_ex02": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 19, 20 kiểm tra rửa trôi hạt d = 0.1 mm ở v_bw = 50 m/h bị ẩn trong file PDF và chưa có ảnh chụp.",
+      "wave2_status": "MISSING"
+    },
+    "ch03_5_ex03": {
+      "wave1_status": "PARTIAL",
+      "status": "COMPLETE",
+      "root_photos": [
+        53
+      ],
+      "dn_photos": [
+        184,
+        185
+      ],
+      "all_photos": [
+        53,
+        184,
+        185
+      ],
+      "missing_detail": "ĐÃ ĐỦ LỜI GIẢI SAU ĐỢT 2. Ảnh #185 (dn_index 85) bổ sung đúng Slide 24 bị thiếu ở đợt 1 (nêu thông số ở 15 độ C, v_bw = 40 m/h = 0.011 m/s, d = 0.5 mm, rho_P = 2650 kg/m3, k_V = 112, k_I = 2.25, epsilon_F = 0.42), ghép khớp hoàn chỉnh với ảnh #53 (Slide 25 tính X = 0.1921, Y = 0.1168, epsilon_E = 0.57, L_E = 1.21 m, giãn nở 34%) và ảnh bảng phấn #184 (dn_index 84).",
+      "wave2_status": "COMPLETE"
+    },
+    "ch03_5_ex04": {
+      "wave1_status": "PARTIAL",
+      "status": "PARTIAL",
+      "root_photos": [
+        54,
+        55,
+        56
+      ],
+      "dn_photos": [],
+      "all_photos": [
+        54,
+        55,
+        56
+      ],
+      "missing_detail": "Có ảnh #54 (Slide 28), #55 (Slide 29) và #56 (Slide 31), nhưng vẫn thiếu Slide 30 ở giữa #55 và #56.",
+      "wave2_status": "PARTIAL"
+    },
+    "ch04_1_ex01": {
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "root_photos": [
+        57,
+        58,
+        59
+      ],
+      "dn_photos": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        108
+      ],
+      "all_photos": [
+        57,
+        58,
+        59,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        108
+      ],
+      "missing_detail": "Đủ lời giải trên cả 2 bộ ảnh (#57..#59 và #101..#106, #108 cho Slide 14..17).",
+      "wave2_status": "COMPLETE"
+    },
+    "ch04_1_ex02": {
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "root_photos": [
+        60,
+        61
+      ],
+      "dn_photos": [
+        107,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "all_photos": [
+        60,
+        61,
+        107,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115
+      ],
+      "missing_detail": "Đủ lời giải khi gộp 2 bộ ảnh (#60 chụp Slide 22 câu a, #61 và #107, #109..#115 chụp rõ Slide 23 câu b, c kèm ghi chú bảng phấn).",
+      "wave2_status": "COMPLETE"
+    },
+    "ch04_2_ex01": {
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "root_photos": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "dn_photos": [],
+      "all_photos": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "missing_detail": "Đủ lời giải từ đợt 1 trên các ảnh #63..#66 (Slide 22..25).",
+      "wave2_status": "COMPLETE"
+    },
+    "ch04_2_ex02": {
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "root_photos": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "dn_photos": [
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        130
+      ],
+      "all_photos": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        130
+      ],
+      "missing_detail": "Đủ lời giải trên cả 2 bộ ảnh (#67..#73 và #116..#128, #130 cho Slide 33..39).",
+      "wave2_status": "COMPLETE"
+    },
+    "ch04_3_ex01": {
+      "wave1_status": "MISSING",
+      "status": "PARTIAL",
+      "root_photos": [],
+      "dn_photos": [
+        135,
+        136,
+        137
+      ],
+      "all_photos": [
+        135,
+        136,
+        137
+      ],
+      "missing_detail": "Mới bổ sung được lời giải từ bộ ảnh Duy Nguyên gồm ảnh #135, #136 (chụp Slide 38 tính tổng liều clo yêu cầu = 15.2 + 2 + 3 = 20.2 mg/L as Cl2 với t = 30 phút) và ảnh #137 (chụp Slide 40 tính thể tích bể khử trùng V = 62.5 m3, sâu 1.5 m, rộng 2 m, dài 21 m chia 3 kênh 7 m, kèm bảng phấn bên trái quy đổi 63.6 kg NaClO/ngày ra 0.5 m3 = 500 L dung dịch NaClO 10%/ngày). Tuy nhiên vẫn thiếu ảnh chụp trực tiếp màn chiếu Slide 39 nằm giữa Slide 38 và Slide 40.",
+      "wave2_status": "PARTIAL"
+    },
+    "ch05_1_ex01": {
+      "wave1_status": "MISSING",
+      "status": "PARTIAL",
+      "root_photos": [],
+      "dn_photos": [
+        186,
+        187,
+        191
+      ],
+      "all_photos": [
+        186,
+        187,
+        191
+      ],
+      "missing_detail": "Đợt 3 bổ sung Slide 25 (#186, #187, #191) giải phần 2 (O2 required = 206,000 g O2/d và 0.42 g O2/g COD removed). Vẫn THIẾU Slide 24 giải phần 1 (tính Y_obs = 0.41 g VSS/g COD).",
+      "wave2_status": "MISSING",
+      "covered_solution_slides": [
+        25
+      ],
+      "missing_solution_slides": [
+        24
+      ]
+    },
+    "ch05_1_ex02": {
+      "wave1_status": "MISSING",
+      "status": "COMPLETE",
+      "root_photos": [],
+      "dn_photos": [
+        189,
+        192,
+        193
+      ],
+      "all_photos": [
+        189,
+        192,
+        193
+      ],
+      "missing_detail": "ĐÃ ĐỦ LỜI GIẢI SAU ĐỢT 3. Slide 37 (#192) và Slide 38 (#189, #193) dùng động học Monod với K_s = 15 g/m3 (r_su = 1655.2 g bsCOD/m3.d, r_X = 544.8 g VSS/m3.d, Y_bio = 0.33, r_{X_T,VSS} = 714 g VSS/m3.d, Y_obs = 0.43, F_{X,act} = 0.76).",
+      "wave2_status": "MISSING",
+      "covered_solution_slides": [
+        37,
+        38
+      ],
+      "missing_solution_slides": []
+    },
+    "ch05_1_ex03": {
+      "wave1_status": "MISSING",
+      "status": "COMPLETE",
+      "root_photos": [],
+      "dn_photos": [
+        195,
+        196,
+        197,
+        198
+      ],
+      "all_photos": [
+        195,
+        196,
+        197,
+        198
+      ],
+      "missing_detail": "ĐÃ ĐỦ LỜI GIẢI SAU ĐỢT 3. Các Slide 54 (#195, #196), Slide 55 (#197) và Slide 56 (#198) giải đủ 5 câu (S = 0.56 g/m3, V = 197.2 m3, HRT = 4.7 h, P_{X_T,VSS} = 82.1 kg/d, P_{X,TSS} = 101.4 kg/d, X = 1456 g/m3, Biomass Fraction = 0.58, R_o = 117.44 kg/d).",
+      "wave2_status": "MISSING",
+      "covered_solution_slides": [
+        54,
+        55,
+        56
+      ],
+      "missing_solution_slides": []
+    },
+    "ch05_2_ex01": {
+      "wave1_status": "MISSING",
+      "status": "PARTIAL",
+      "root_photos": [],
+      "dn_photos": [
+        200
+      ],
+      "all_photos": [
+        200
+      ],
+      "missing_detail": "Đợt 3 bổ sung Slide 15 (#200) giải trường hợp DO = 2 mg/L (NH4-N ghi 0.18 g/m3 trên slide dù tính đúng phân số là 0.40 g/m3, NO2-N = 0.16 g/m3). Vẫn THIẾU Slide 16 giải trường hợp DO = 0.4 mg/L.",
+      "wave2_status": "MISSING",
+      "covered_solution_slides": [
+        15
+      ],
+      "missing_solution_slides": [
+        16
+      ]
+    },
+    "ch05_2_ex02": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Vẫn THIẾU toàn bộ ảnh lời giải (Slide 38 trở đi ở cuối PDF Chương 5.2 chưa có trong đợt 3).",
+      "wave2_status": "MISSING",
+      "covered_solution_slides": [],
+      "missing_solution_slides": [
+        "38+"
+      ]
+    },
+    "ch06_ex01": {
+      "wave1_status": "MISSING",
+      "status": "PARTIAL",
+      "root_photos": [],
+      "dn_photos": [
+        201,
+        202,
+        203,
+        204
+      ],
+      "all_photos": [
+        201,
+        202,
+        203,
+        204
+      ],
+      "missing_detail": "Đợt 3 bổ sung phần cuối gồm Slide 23 (#201: V = 4445.7 m3, HRT = 4.7 h, MLVSS = 2400 g/m3), Slide 24 (#202: R_o = 2671 kg/d = 111.3 kg/h) và Slide 25 (#203, #204: SOTR = 343.6 kg/h, Air = 60.6 m3/min tại E = 35%). Vẫn THIẾU 5 slide đầu của lời giải là Slide 18, 19, 20, 21 và 22.",
+      "wave2_status": "MISSING",
+      "covered_solution_slides": [
+        23,
+        24,
+        25
+      ],
+      "missing_solution_slides": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    "ch06_ex02": {
+      "wave1_status": "MISSING",
+      "status": "PARTIAL",
+      "root_photos": [],
+      "dn_photos": [
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "all_photos": [
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "missing_detail": "Đợt 3 bổ sung 9/11 slide giải (Slide 27..29 và Slide 32..37, kèm đề Slide 26 ở #205 và bảng phấn #209). Vẫn THIẾU 2 slide trung gian là Slide 30 và Slide 31 (tính P_{X,VSS}, P_{X,TSS}, Mass MLVSS/MLSS, thể tích V = 13,418 m3 và HRT).",
+      "wave2_status": "MISSING",
+      "covered_solution_slides": [
+        27,
+        28,
+        29,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "missing_solution_slides": [
+        30,
+        31
+      ]
+    },
+    "ch06_ex03": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Vẫn THIẾU Slide 44 giải bài MBR (Slide 43 trong PDF, chưa có ảnh chụp trong đợt 3).",
+      "wave2_status": "MISSING",
+      "covered_solution_slides": [],
+      "missing_solution_slides": [
+        44
+      ]
+    },
+    "ch06_ex04": {
+      "wave1_status": "MISSING",
+      "status": "PARTIAL",
+      "root_photos": [],
+      "dn_photos": [
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "all_photos": [
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "missing_detail": "Đợt 3 bổ sung 9/13 slide giải SBR (Slide 55..61 và Slide 63..64, tính theo 1 bể Q = 3785 m3/d). Vẫn THIẾU 4 slide là Slide 52, 53, 54 (phân đoạn nước thải, tỷ lệ làm đầy và tính V_F = 946.3 m3) và Slide 62 (tính thời gian phản ứng nitrat hóa t).",
+      "wave2_status": "MISSING",
+      "covered_solution_slides": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        63,
+        64
+      ],
+      "missing_solution_slides": [
+        52,
+        53,
+        54,
+        62
+      ]
+    },
+    "ch07_ex01": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 7..11 bị ẩn trong file PDF và chưa có ảnh chụp Chương 7.",
+      "wave2_status": "MISSING"
+    },
+    "ch07_ex02": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 13..18 bị ẩn trong file PDF và chưa có ảnh chụp Chương 7.",
+      "wave2_status": "MISSING"
+    },
+    "ch07_ex03": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 21..24 bị ẩn trong file PDF và chưa có ảnh chụp Chương 7.",
+      "wave2_status": "MISSING"
+    },
+    "ch08_ex01": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 8..15 bị ẩn trong file PDF và chưa có ảnh chụp Chương 8.",
+      "wave2_status": "MISSING"
+    },
+    "ch08_ex02": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 22..28 bị ẩn trong file PDF và chưa có ảnh chụp Chương 8.",
+      "wave2_status": "MISSING"
+    },
+    "ch09_ex01": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 13, 14 bị ẩn trong file PDF và chưa có ảnh chụp Chương 9.",
+      "wave2_status": "MISSING"
+    },
+    "ch09_ex02": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 24 trở đi ở cuối chương bị ẩn trong file PDF và chưa có ảnh chụp Chương 9.",
+      "wave2_status": "MISSING"
+    },
+    "ch10_ex01": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 19..21 bị ẩn trong file PDF và chưa có ảnh chụp Chương 10.",
+      "wave2_status": "MISSING"
+    },
+    "ch10_ex02": {
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "root_photos": [],
+      "dn_photos": [],
+      "all_photos": [],
+      "missing_detail": "Thiếu toàn bộ lời giải. Slide 36 trở đi ở cuối chương bị ẩn trong file PDF và chưa có ảnh chụp Chương 10.",
+      "wave2_status": "MISSING"
+    }
+  },
+  "projector_only_problems": [
+    {
+      "id": "proj_ch02_hw01",
+      "chapter_slug": "ch02",
+      "slide_banner": "4. Design practice / Homework",
+      "slide_number": 33,
+      "problem_photos": [
+        11
+      ],
+      "solution_photos": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "summary": "Nhà máy làm việc 2 ca (8 giờ/ca, 1000 công nhân/ca, 45 L/người.ca, rửa xưởng 3 m3/ca). Đã có đủ lời giải trên slide (#14..#17) và ảnh bảng phấn (#18) từ đợt 1 (Q = 96 m3/ngày, V = 38.4 m3, Q_air = 0.46 m3/phút).",
+      "wave2_status": "COMPLETE"
+    },
+    {
+      "id": "proj_ch02_ex01",
+      "chapter_slug": "ch02",
+      "slide_banner": "4. Design practice / Exercise 1",
+      "slide_number": 39,
+      "problem_photos": [
+        12
+      ],
+      "solution_photos": [],
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "summary": "Tính thể tích bể điều hòa cho thành phố từ bảng lưu lượng theo giờ (m3/s). Chỉ có ảnh chụp đề (#12), chưa có ảnh lời giải.",
+      "wave2_status": "MISSING"
+    },
+    {
+      "id": "proj_ch02_ex02",
+      "chapter_slug": "ch02",
+      "slide_banner": "4. Design practice / Exercise 2",
+      "slide_number": 40,
+      "problem_photos": [
+        13
+      ],
+      "solution_photos": [],
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "summary": "Tính thể tích bể điều hòa, BOD sau điều hòa và TSS sau điều hòa theo chu kỳ 2 giờ. Chỉ có ảnh chụp đề (#13), chưa có ảnh lời giải.",
+      "wave2_status": "MISSING"
+    },
+    {
+      "id": "proj_ch03_1_hw01",
+      "chapter_slug": "ch03_1",
+      "slide_banner": "1. Screening / Homework",
+      "slide_number": "35 / 38",
+      "problem_photos": [
+        21,
+        140,
+        141
+      ],
+      "solution_photos": [],
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "summary": "Thiết kế kênh đặt song chắn rác thô cào cơ giới cho Q = 40,000 m3/ngày, góc nghiêng 75 độ, khe hở 12 mm, thanh dày 12 mm, v > 0.4 m/s. Chỉ có ảnh chụp đề (#21 đợt 1 và #140, #141 đợt 2), chưa có ảnh lời giải.",
+      "wave2_status": "MISSING"
+    },
+    {
+      "id": "proj_ch03_2_hw01",
+      "chapter_slug": "ch03_2",
+      "slide_banner": "2. Grit chamber / Homework 1",
+      "slide_number": 24,
+      "problem_photos": [
+        27,
+        146,
+        148,
+        150
+      ],
+      "solution_photos": [
+        30,
+        31,
+        32,
+        153,
+        154,
+        155,
+        156
+      ],
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "summary": "Thiết kế bể lắng cát ngang cho Q_avg = 0.3 m3/s, Q_peak = 1.0 m3/s, cỡ hạt 120 mesh (0.125 mm), Ss = 2.5. Đã có đủ lời giải trên cả 2 bộ ảnh (#30..#32 và #153..#156: v_s = 0.018 m/s, v_H = 0.27 m/s, V = 60 m3, kích thước thực tế 20 m x 3.7 m x 1.5 m).",
+      "wave2_status": "COMPLETE"
+    },
+    {
+      "id": "proj_ch03_2_hw02",
+      "chapter_slug": "ch03_2",
+      "slide_banner": "2. Grit chamber / Homework 2",
+      "slide_number": "25-26",
+      "problem_photos": [
+        26,
+        28,
+        29,
+        147,
+        149,
+        151,
+        152
+      ],
+      "solution_photos": [
+        33,
+        34,
+        157,
+        158
+      ],
+      "wave1_status": "COMPLETE",
+      "status": "COMPLETE",
+      "summary": "Thiết kế bể lắng cát thổi khí Q_avg = 15,000 m3/d, Q_peak = 40,000 m3/d, chọn máy thổi khí và tính tiền điện hàng tháng. Đã có đủ lời giải các câu a, b, c, d trên cả 2 bộ ảnh (#33, #34 và #157, #158: mỗi bể 9.5 m x 3.0 m x 2.5 m, Q_air = 5.7 m3/phút, H = 2.85 m, máy TSR2-80 công suất 5.5 kW, tiền điện 1,320 USD/tháng).",
+      "wave2_status": "COMPLETE"
+    },
+    {
+      "id": "proj_ch03_api_hw01",
+      "chapter_slug": "ch03_3",
+      "slide_banner": "4. API oil separator design / Homework",
+      "slide_number": 32,
+      "problem_photos": [
+        1
+      ],
+      "solution_photos": [],
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "summary": "Thiết kế bể tách dầu API cho trạm bảo dưỡng đầu máy xe lửa (Q = 180 m3/h, t = 20 độ C, rho_o = 900 kg/m3, v = 4.5 m/h, V = 45 m/h). Chỉ có ảnh chụp đề (#01), chưa có ảnh lời giải.",
+      "wave2_status": "MISSING"
+    },
+    {
+      "id": "proj_ch03_3_hw01",
+      "chapter_slug": "ch03_3",
+      "slide_banner": "3. Sedimentation tank / Homework 1",
+      "slide_number": "42 / 43",
+      "problem_photos": [
+        42,
+        169,
+        170,
+        171
+      ],
+      "solution_photos": [
+        176
+      ],
+      "wave1_status": "MISSING",
+      "status": "COMPLETE",
+      "summary": "ĐÃ ĐỦ LỜI GIẢI SAU ĐỢT 2. Thiết kế bể lắng tròn dòng hướng tâm cho thị trấn 45,000 dân (400 L/người.ngày, HRT = 2 giờ, SLR = 40 m3/m2.ngày). Ảnh #176 (dn_index 76, Slide 44 kèm bảng phấn) giải đầy đủ: Q = 18,000 m3/ngày, A_s = 450 m2, V = 1,500 m3, D = 23.9 m -> chọn D = 24 m, H = 3.3 m -> chọn H = 3.5 m.",
+      "wave2_status": "COMPLETE"
+    },
+    {
+      "id": "proj_ch03_3_hw02",
+      "chapter_slug": "ch03_3",
+      "slide_banner": "3. Sedimentation tank / Homework 2",
+      "slide_number": "43 / 44",
+      "problem_photos": [
+        43,
+        172
+      ],
+      "solution_photos": [
+        177,
+        178
+      ],
+      "wave1_status": "MISSING",
+      "status": "COMPLETE",
+      "summary": "ĐÃ ĐỦ LỜI GIẢI SAU ĐỢT 2. Bể lắng ngang chữ nhật SLR = 30 m3/m2.ngày, sâu 2.75 m, rộng 6 m, dài 15 m, kiểm tra cuốn trôi hạt d = 0.1 mm, Ss = 2.5 (f = 0.03, k = 0.04). Ảnh #177 và #178 (dn_index 77, 78, Slide 46) giải đầy đủ: V_h = 0.0019 m/s, vận tốc cuốn trôi = 0.0125 m/s (trên slide thay số s = 1.25), kết luận V_h < vận tốc cuốn trôi nên hạt không bị cuốn trôi.",
+      "wave2_status": "COMPLETE"
+    },
+    {
+      "id": "proj_ch03_3_hw03",
+      "chapter_slug": "ch03_3",
+      "slide_banner": "3. Sedimentation tank / Homework 3",
+      "slide_number": 45,
+      "problem_photos": [
+        44,
+        173,
+        174,
+        175
+      ],
+      "solution_photos": [],
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "summary": "Câu hỏi lý thuyết đánh giá các yếu tố lựa chọn và ưu nhược điểm giữa bể lắng sơ cấp hình tròn và hình chữ nhật cho nhà máy quy mô vừa (trích dẫn ít nhất 3 tài liệu từ năm 2000). Chỉ có ảnh chụp đề (#44 và #173..#175), chưa có ảnh lời giải.",
+      "wave2_status": "MISSING"
+    },
+    {
+      "id": "proj_ch03_4_hw01",
+      "chapter_slug": "ch03_4",
+      "slide_banner": "4. Dissolved-Air Flotation system / Homework 1",
+      "slide_number": 22,
+      "problem_photos": [
+        48,
+        183
+      ],
+      "solution_photos": [],
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "summary": "So sánh tuyển nổi DAF với bể lắng theo 5 thông số: (a) thời gian lưu, (b) tải trọng bề mặt, (c) công suất tiêu thụ, (d) hiệu suất, (e) ứng dụng phù hợp nhất. Chỉ có ảnh chụp đề (#48 và #183), chưa có ảnh lời giải.",
+      "wave2_status": "MISSING"
+    },
+    {
+      "id": "proj_ch03_4_hw02",
+      "chapter_slug": "ch03_4",
+      "slide_banner": "4. Dissolved-Air Flotation system / Homework 2",
+      "slide_number": 23,
+      "problem_photos": [
+        49,
+        182
+      ],
+      "solution_photos": [],
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "summary": "Thiết kế hệ thống DAF có tuần hoàn khí áp lực (A/S = 0.015 mg/mg, t = 20 độ C, s_a = 18.7 mL/L, P = 5 atm, f = 0.5, SLR = 100 m3/m2.ngày, Q = 4,000 m3/ngày, SS = 1,000 mg/L): tính (a) tỷ lệ tuần hoàn, (b) diện tích bể tuyển nổi, (c) lượng khí nén yêu cầu. Chỉ có ảnh chụp đề (#49 và #182), chưa có ảnh lời giải.",
+      "wave2_status": "MISSING"
+    },
+    {
+      "id": "proj_ch04_1_hw01",
+      "chapter_slug": "ch04_1",
+      "slide_banner": "1. Coagulation / Homework",
+      "slide_number": 24,
+      "problem_photos": [
+        62
+      ],
+      "solution_photos": [],
+      "wave1_status": "MISSING",
+      "status": "MISSING",
+      "summary": "Châm liều lượng 45 mg/L AlCl3 cho nhà máy Q = 10,000 m3/ngày (3 câu a, b, c với dung dịch 10%, d = 1.2 kg/L, SS vào 250 mg/L, SS ra 50 mg/L). Chỉ có ảnh chụp đề (#62), chưa có ảnh lời giải.",
+      "wave2_status": "MISSING"
+    },
+    {
+      "id": "proj_ch04_2_hw01",
+      "chapter_slug": "ch04_2",
+      "slide_banner": "2. Flocculation / Homework",
+      "slide_number": 40,
+      "problem_photos": [
+        74,
+        129
+      ],
+      "solution_photos": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "wave1_status": "MISSING",
+      "status": "COMPLETE",
+      "summary": "ĐÃ ĐỦ LỜI GIẢI SAU ĐỢT 2. Nhà máy Q = 1000 m3/ngày dùng PAC 150 g/m3 (6,000 đ/kg, pha 7.5%) và Polymer Anion 3 g/m3 (60,000 đ/kg, pha 0.1%). Các ảnh #131 (#133 trùng, Slide 41), #132 (Slide 42) và #134 (Slide 43) giải đủ 3 câu: (a) chi phí PAC = 900,000 đ/ngày, Polymer = 180,000 đ/ngày, tổng = 1,080,000 đ/ngày; (b) bơm PAC = 84 L/h (2000 L/ngày), bơm Polymer = 125 L/h (3000 L/ngày); (c) pha 2 lần/ngày nên bồn PAC cần 1000 L, bồn Polymer cần 1500 L, chọn mỗi bồn 1500 L.",
+      "wave2_status": "COMPLETE"
+    },
+    {
+      "id": "proj_ch04_3_hw01",
+      "chapter_slug": "ch04_3",
+      "slide_banner": "3. Disinfection / Home work",
+      "slide_number": 61,
+      "problem_photos": [
+        138
+      ],
+      "solution_photos": [],
+      "wave1_status": "NOT_IN_WAVE1",
+      "status": "MISSING",
+      "summary": "PHÁT HIỆN MỚI TRONG ĐỢT 2. Nhà máy Q = 1,000 m3/ngày châm liều clo 10 mg/L, tổng Coliform trước khử trùng = 10^7 MPN/100 mL, tiêu chuẩn xả = 5,000 MPN/100 mL, lượng clo phân hủy = 2.0 mg/L: tính (a) lượng clo dùng trong 1 ngày (kg), (b) thời gian tiếp xúc cần thiết (phút), (c) thể tích bể khử trùng (m3). Chỉ có ảnh chụp đề (#138, dn_index 38, Slide 61), chưa có ảnh lời giải.",
+      "wave2_status": "MISSING"
+    },
+    {
+      "id": "proj_ch06_hw01",
+      "chapter_slug": "ch06",
+      "slide_banner": "Homework / 1/",
+      "slide_number": 76,
+      "problem_photos": [
+        228
+      ],
+      "solution_photos": [],
+      "wave1_status": "NOT_IN_WAVE1",
+      "wave2_status": "NOT_IN_WAVE2",
+      "status": "MISSING",
+      "summary": "PHÁT HIỆN MỚI TRONG ĐỢT 3 (trùng ảnh #1 trong thư mục bài tập về nhà 14-11-2026). Thiết kế CMAS chỉ khử BOD (SRT = 8 d, Q = 15,000 m3/d, bCOD = 250 mg/L, nbVSS = 25 mg/L, iTSS = 15 mg/L, T = 20C, MLSS = 3,500 mg/L). Mới có ảnh chụp đề bài Slide 76; lời giải đã được lập và kiểm định trong btvn_ch06_solutions.json (V = 4,016.4 m3, R_o = 2,348.2 kg/d)."
+    },
+    {
+      "id": "proj_ch06_hw02",
+      "chapter_slug": "ch06",
+      "slide_banner": "Homework / 2/",
+      "slide_number": "77-78",
+      "problem_photos": [
+        227,
+        229,
+        231
+      ],
+      "solution_photos": [],
+      "wave1_status": "NOT_IN_WAVE1",
+      "wave2_status": "NOT_IN_WAVE2",
+      "status": "MISSING",
+      "summary": "PHÁT HIỆN MỚI TRONG ĐỢT 3 (trùng ảnh #2, #3 trong thư mục bài tập về nhà 14-11-2026; bảng phấn #230 ghi hạn nộp 19h thứ Hai tuần sau). Thiết kế CMAS khử BOD và nitrat hóa (Q = 12,000 m3/d, bCOD_in = 300, bCOD_e = 4.0, nbVSS = 15, TKN = 40, NH4-N_e = 1.5, HRT = 6 h, SRT = 12 d). Mới có ảnh chụp đề bài Slide 77-78; lời giải đã được lập và kiểm định trong btvn_ch06_solutions.json (P_X,bio = 833.99 kg/d, R_o = 4,021.7 kg/d, MLVSS = 4,056 mg/L)."
+    }
+  ],
+  "fold_v1_discrepancies": [
+    {
+      "exercise_id": "ch05_1_ex02",
+      "fold_v1_provenance": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "fold_v1_values": {
+        "r_su": "888.4 g bsCOD/m3.d (or 888.9 g bsCOD/m3.d)",
+        "r_X": "199.8 g VSS/m3.d (or 200.0 g VSS/m3.d)",
+        "r_XT_VSS": "369.1 g VSS/m3.d (or 369.3 g VSS/m3.d)",
+        "Y_bio": "0.225 g VSS/g bsCOD",
+        "Y_obs": "0.415 g VSS/g bsCOD",
+        "F_X_act": "0.541 (54.1%)"
+      },
+      "professor_slide_values": {
+        "slides": [
+          37,
+          38
+        ],
+        "K_s": "15 g/m3 (Slide 31 bsCOD)",
+        "r_su": "1655.2 g bsCOD/m3.d (Monod k*S*X/(Ks+S))",
+        "r_X": "544.8 g VSS/m3.d",
+        "Y_bio": "0.33 g VSS/g bsCOD",
+        "r_XT_VSS": "714 g VSS/m3.d",
+        "Y_obs": "0.43 g VSS/g bsCOD",
+        "F_X_act": "0.76 (76%)"
+      },
+      "difference_summary": "index.html tính r_su = Q(S0-S)/V = 888.4 (nên Y_bio = 0.225, Y_obs = 0.415, F_X,act = 54.1%); slide của thầy (Slide 37-38) tính r_su theo động học Monod với K_s = 15 g/m3 cho ra 1655.2, dẫn đến Y_bio = 0.33, Y_obs = 0.43 và F_X,act = 76%."
+    },
+    {
+      "exercise_id": "ch05_1_ex03",
+      "fold_v1_provenance": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "fold_v1_values": {
+        "effluent_bsCOD_S": "0.56 g/m3",
+        "reactor_volume_V": "197.2 m3",
+        "HRT": "0.197 d (4.73 h)",
+        "PX_VSS": "82.17 kg VSS/d",
+        "PX_TSS": "101.37 kg TSS/d (or 91.37 kg TSS/d without influent FSS)",
+        "biomass_fraction_in_MLVSS": "0.582 (58.2% active biomass; 63.5% total biological VSS)",
+        "oxygen_requirement_Ro": "117.36 kg O2/d"
+      },
+      "professor_slide_values": {
+        "slides": [
+          54,
+          55,
+          56
+        ],
+        "S": "0.56 g/m3",
+        "V_HRT": "197.2 m3, 0.1972 d = 4.7 h",
+        "PX_T_VSS": "82,166 g/d = 82.1 kg/d",
+        "PX_TSS": "101.4 kg/d",
+        "X_and_Biomass_Fraction": "1456 g/m3, 0.58",
+        "R_o": "117.44 kg/d (191.44 - 74)"
+      },
+      "difference_summary": "Trùng khớp phương pháp hoàn toàn; chỉ khác nhẹ ở bước làm tròn (82.1 vs 82.17 kg/d, 101.4 vs 101.37 kg/d, 117.44 vs 117.36 kg/d)."
+    },
+    {
+      "exercise_id": "ch05_2_ex01",
+      "fold_v1_provenance": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "fold_v1_values": {
+        "DO_2_mg_L_effluent_NH4_N": "0.40 mg/L",
+        "DO_2_mg_L_effluent_NO2_N": "0.16 mg/L (exact 0.157 mg/L)",
+        "DO_0_4_mg_L_effluent_NH4_N": "2.01 mg/L",
+        "DO_0_4_mg_L_effluent_NO2_N": "13.74 mg/L (or 12.33 mg/L if µm,NOB,DO rounded to 0.188 d^-1)"
+      },
+      "professor_slide_values": {
+        "slides": [
+          15
+        ],
+        "DO_2_NH4_N": "0.18 g/m3 (in trên slide; công thức in bên trái tính chính xác bằng 0.400 g/m3)",
+        "DO_2_NO2_N": "0.16 g/m3"
+      },
+      "difference_summary": "Slide 15 (#200) in đáp số NH4-N = 0.18 g/m3 trong khi phép tính từ biểu thức ngay bên trái là 0.40 g/m3 (như index.html). Chưa có ảnh Slide 16 cho DO = 0.4 mg/L."
+    },
+    {
+      "exercise_id": "ch06_ex01",
+      "fold_v1_provenance": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "fold_v1_values": {
+        "S_effluent_bCOD_g_m3": "0.72 g/m3",
+        "Px_bio_kg_d": "1,688.2 kg/d",
+        "PX_VSS_kg_d": "2,142.2 kg/d",
+        "PX_TSS_kg_d": "2,667.1 kg/d",
+        "Mass_MLVSS_kg": "10,711 kg",
+        "Mass_MLSS_kg": "13,336 kg",
+        "V_aerotank_m3": "4,445 m3",
+        "HRT_h": "4.70 h",
+        "Ro_kg_O2_d": "2,671.3 kg O2/d (111.3 kg O2/h)",
+        "SOTR_kg_O2_h": "342.5 kg O2/h",
+        "Air_flowrate_m3_min": "70.5 m3/min (at E = 30%)"
+      },
+      "professor_slide_values": {
+        "slides": [
+          23,
+          24,
+          25
+        ],
+        "Mass_MLSS": "13,337 kg",
+        "V_aerotank": "4445.7 m3 (HRT = 0.196 d = 4.7 h)",
+        "MLVSS": "Fraction 0.8, MLVSS = 2400 g/m3",
+        "R_o": "2671 kg/d = 111.3 kg/h (dùng S = 0.7 g/m3, P_X,bio = 1688.5 kg/d)",
+        "SOTR_and_Air": "SOTR = 343.6 kg/h, E = 35% -> Air = 60.6 m3/min"
+      },
+      "difference_summary": "index.html chọn hiệu suất đĩa khí E = 30% (ra 70.5 m3/min); Slide 25 của thầy chọn E = 35% (ra 60.6 m3/min) và dùng MLVSS = 2400 g/m3 (index.html dùng 2409 g/m3)."
+    },
+    {
+      "exercise_id": "ch06_ex02",
+      "fold_v1_provenance": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "fold_v1_values": {
+        "SRT_d": "21 d",
+        "Px_bio_kg_d": "1,050.4 kg/d",
+        "PX_VSS_kg_d": "1,504.4 kg/d",
+        "PX_TSS_kg_d": "1,916.8 kg/d",
+        "Mass_MLVSS_kg": "31,592 kg",
+        "Mass_MLSS_kg": "40,253 kg",
+        "Fraction_MLVSS_MLSS": "0.785",
+        "V_aerotank_m3": "13,418 m3",
+        "HRT_h": "14.2 h",
+        "NOx_g_m3": "28.95 g/m3 (29.0 g/m3)",
+        "Ro_kg_O2_d": "6,588.9 kg O2/d (274.5 kg O2/h)",
+        "SOTR_kg_O2_h": "649.6 kg O2/h",
+        "Air_flowrate_m3_min": "133.7 m3/min"
+      },
+      "professor_slide_values": {
+        "slides": [
+          27,
+          28,
+          29,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "NO_x": "28.9 g/m3",
+        "R_o": "6584 kg/d = 274 kg/h",
+        "SOTR_and_Air": "SOTR = 650.6 kg/h, E = 35% -> Air = 115 m3/min",
+        "Alkalinity": "Mục tiêu 70 g/m3 -> Alk add = 136 g/m3 -> NaHCO3 = 5176 kg/d",
+        "Clarifier_and_Qw": "X_R = 8000 g/m3, R = 0.6, A = 946 m2, SLR = 4.8 kg/m2.h, Q_w = 197.4 m3/d"
+      },
+      "difference_summary": "index.html chọn E = 30% (Air = 133.7 m3/min), mục tiêu kiềm 80 g/m3 (Alk add = 146.7 g/m3) và chưa trình bày thiết kế bể lắng thứ cấp (A = 946 m2) cùng lưu lượng xả bùn Q_w = 197.4 m3/d trên Slide 35-37."
+    },
+    {
+      "exercise_id": "ch06_ex04",
+      "fold_v1_provenance": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "fold_v1_values": {
+        "N_tanks": "2 tanks",
+        "VF_fill_volume_m3": "946.25 m3/cycle",
+        "VT_tank_volume_m3": "4,731.25 m3/tank (9,462.5 m3 total)",
+        "HRT_h": "30.0 h",
+        "SRT_d": "26.5 d",
+        "Cycle_schedule": "6.0 h cycle (2.0 h mixed fill, 1.0 h aerated fill, 2.0 h react, 0.5 h settle, 0.5 h decant)",
+        "NOx_g_m3": "26.2 g/m3",
+        "PX_TSS_kg_d": "1,248.4 kg/d",
+        "Ro_kg_O2_d": "2,869.7 kg O2/d",
+        "Decant_rate_m3_min": "31.5 m3/min"
+      },
+      "professor_slide_values": {
+        "slides": [
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          63,
+          64
+        ],
+        "V_tank": "4732 m3/tank (V_F = 946.3 m3)",
+        "NO_x_SRT_assumption": "Slide 56 giả sử NO_x = 28 g/m3, b_n,12 = 0.082 d^-1; Slide 57 có lỗi in 4732 thay vì 3785 cho ra P_X,TSS = 625 kg/d.tank (1250 kg/d)",
+        "P_X_bio_and_MLVSS": "248 kg/d.tank, P_X,VSS = 505 kg/d.tank, Fraction 0.8, MLVSS = 2800 g/m3",
+        "BOD_reaction_time": "Slide 59-60 kiểm tra t_BOD = 0.55 h < 2 h (satisfy)",
+        "NO_x_and_N0": "NO_x = 26.1 g/m3, N_o = 6 g/m3",
+        "Aeration_and_Blower": "8 h/d sục khí -> R_o = 1431 kg/d.tank, OTR_f = 179 kg/h, D_f = 5.5 m, E = 35% -> SOTR = 422 kg/h.tank, Air = 74.4 m3/min.tank"
+      },
+      "difference_summary": "Thầy tính theo từng bể (Q = 3785 m3/d), có bước kiểm tra thời gian khử BOD (0.55 h), và tính SOTR = 422 kg/h cùng Air = 74.4 m3/min dựa trên 8 giờ sục khí/ngày (4 mẻ x 2 giờ); index.html gộp cả 2 bể và chưa có bước tính BOD time check hay SOTR/Air của SBR."
+    },
+    {
+      "exercise_id": "proj_ch06_hw01_and_hw02",
+      "fold_v1_provenance": "Chưa có trong 54 bài của index.html",
+      "fold_v1_values": null,
+      "professor_slide_values": {
+        "proj_ch06_hw01_slide76": {
+          "a_reactor_volume_m3": 4016.4,
+          "a_reactor_volume_rounded_m3": 4016,
+          "b_oxygen_requirement_kg_d": 2348.2,
+          "b_oxygen_requirement_rounded_kg_d": 2348
+        },
+        "proj_ch06_hw02_slide77_78": {
+          "a_PX_bio_slide29_iter_kg_d": 833.98,
+          "a_PX_bio_exact_kg_d": 833.99,
+          "b_Ro_slide29_iter_kg_d": 4021.1,
+          "b_Ro_exact_kg_d": 4021.7,
+          "c_MLVSS_slide29_iter_mg_L": 4055.9,
+          "c_MLVSS_exact_mg_L": 4056.0,
+          "c_MLVSS_rounded_mg_L": 4056
+        }
+      },
+      "difference_summary": "Hai bài Homework trên Slide 76-78 chưa tồn tại trong 54 bài của fold_5_level_v1/index.html."
+    }
+  ],
+  "duynguyen_batch3_photo_mapping": [
+    {
+      "index": 186,
+      "dn_index": 86,
+      "filename": "1794734873548_7625724096045709777_7625724096045709777_9defd647d1ee823efdeed07993661d3d.jpg",
+      "sha": "4a279fd435d433bc",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "2. Bacterial growth and decay",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": null,
+      "inferred_slide_number": 25,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch05_1_ex01"
+    },
+    {
+      "index": 187,
+      "dn_index": 87,
+      "filename": "1794734873586_7625724096045709777_7625724096045709777_790db8484abe55b3974081411cf8b78b.jpg",
+      "sha": "b4a4514000477922",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "2. Bacterial growth and decay",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": null,
+      "inferred_slide_number": 25,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": 186,
+      "mapped_exercise_id": "ch05_1_ex01"
+    },
+    {
+      "index": 188,
+      "dn_index": 88,
+      "filename": "1794734873600_7625724096045709777_7625724096045709777_efa73b40cf4142ca5052ecdca8ec2b3b.jpg",
+      "sha": "25ce2cbd75356f32",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "2. Bacterial growth and decay",
+      "slide_sub_heading": "Estimate biomass yield",
+      "slide_number": 16,
+      "inferred_slide_number": 16,
+      "category": "problem_and_solution",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch05_1_theory_s16"
+    },
+    {
+      "index": 189,
+      "dn_index": 89,
+      "filename": "1794734873609_7625724096045709777_7625724096045709777_398edd094895015389093d236c8552f0.jpg",
+      "sha": "50df57da14ebb9b2",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "3. Microbial growth kinetics",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 38,
+      "inferred_slide_number": 38,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch05_1_ex02"
+    },
+    {
+      "index": 190,
+      "dn_index": 90,
+      "filename": "1794734873617_7625724096045709777_7625724096045709777_f6ad6cc53d9121db47702fea09832488.jpg",
+      "sha": "25ce2cbd75356f32",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "2. Bacterial growth and decay",
+      "slide_sub_heading": "Estimate biomass yield",
+      "slide_number": 16,
+      "inferred_slide_number": 16,
+      "category": "problem_and_solution",
+      "exact_duplicate_of": "dn#88:1794734873600_7625724096045709777_7625724096045709777_efa73b40cf4142ca5052ecdca8ec2b3b.jpg",
+      "visual_duplicate_of_index": 188,
+      "mapped_exercise_id": "ch05_1_theory_s16"
+    },
+    {
+      "index": 191,
+      "dn_index": 91,
+      "filename": "1794734873624_7625724096045709777_7625724096045709777_404cd6a19073f0c7de90c3e2a8b8dae6.jpg",
+      "sha": "464f93cc723ff088",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "2. Bacterial growth and decay",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 25,
+      "inferred_slide_number": 25,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": 186,
+      "mapped_exercise_id": "ch05_1_ex01"
+    },
+    {
+      "index": 192,
+      "dn_index": 92,
+      "filename": "1794734873631_7625724096045709777_7625724096045709777_dcddf19d21d3554473e6fce764c56636.jpg",
+      "sha": "aa905a7cfe6c9321",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "3. Microbial growth kinetics",
+      "slide_sub_heading": "Solution",
+      "slide_number": 37,
+      "inferred_slide_number": 37,
+      "category": "solution_start",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch05_1_ex02"
+    },
+    {
+      "index": 193,
+      "dn_index": 93,
+      "filename": "1794734873637_7625724096045709777_7625724096045709777_c66d682fdf279fb88f7e86877de7f0c0.jpg",
+      "sha": "66870d7a17c7eed0",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "3. Microbial growth kinetics",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": null,
+      "inferred_slide_number": 38,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": 189,
+      "mapped_exercise_id": "ch05_1_ex02"
+    },
+    {
+      "index": 194,
+      "dn_index": 94,
+      "filename": "1794734873644_7625724096045709777_7625724096045709777_2994f0f1443dd95b83423d4bf674efac.jpg",
+      "sha": "868a32a3c1d44135",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "chalkboard",
+      "slide_sub_heading": "",
+      "slide_number": null,
+      "inferred_slide_number": null,
+      "category": "handwritten_or_board_solution",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch05_1_board_srt"
+    },
+    {
+      "index": 195,
+      "dn_index": 95,
+      "filename": "1794734873650_7625724096045709777_7625724096045709777_147095a25fabd4405cd16ced01279cae.jpg",
+      "sha": "d002cfe375ca7e9d",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "4. Suspended growth treatment process",
+      "slide_sub_heading": "Solution",
+      "slide_number": null,
+      "inferred_slide_number": 54,
+      "category": "solution_start",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch05_1_ex03"
+    },
+    {
+      "index": 196,
+      "dn_index": 96,
+      "filename": "1794734873656_7625724096045709777_7625724096045709777_cd0c4c472970b0779527f258c0393b36.jpg",
+      "sha": "5244931a239343d3",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "4. Suspended growth treatment process",
+      "slide_sub_heading": "Solution",
+      "slide_number": 54,
+      "inferred_slide_number": 54,
+      "category": "solution_start",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch05_1_ex03"
+    },
+    {
+      "index": 197,
+      "dn_index": 97,
+      "filename": "1794734873662_7625724096045709777_7625724096045709777_de516a17bbb34642acd6f5e3aedf3c71.jpg",
+      "sha": "b91c93d2d2d564e5",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "4. Suspended growth treatment process",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 55,
+      "inferred_slide_number": 55,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch05_1_ex03"
+    },
+    {
+      "index": 198,
+      "dn_index": 98,
+      "filename": "1794734873668_7625724096045709777_7625724096045709777_c8fa91ccd0558b9acd497b8fcab55bc8.jpg",
+      "sha": "95e3e75d780a0adc",
+      "mapped_chapter_slug": "ch05_1",
+      "slide_top_banner": "4. Suspended growth treatment process",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 56,
+      "inferred_slide_number": 56,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch05_1_ex03"
+    },
+    {
+      "index": 199,
+      "dn_index": 99,
+      "filename": "1794734873674_7625724096045709777_7625724096045709777_9ea406cf4f11e9f7b8b648125184257d.jpg",
+      "sha": "011be857d0518d6d",
+      "mapped_chapter_slug": "ch05_2",
+      "slide_top_banner": "...c nitrogen oxidation [from: 5. Biological inorganic nitrogen oxidation]",
+      "slide_sub_heading": "chalkboard",
+      "slide_number": null,
+      "inferred_slide_number": null,
+      "category": "handwritten_or_board_solution",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch05_2_board_nitrif"
+    },
+    {
+      "index": 200,
+      "dn_index": 100,
+      "filename": "1794734873680_7625724096045709777_7625724096045709777_b4c396ee4b4d757f874de986f61f1616.jpg",
+      "sha": "7dc555b308c59b52",
+      "mapped_chapter_slug": "ch05_2",
+      "slide_top_banner": "5. Biological inorganic nitrogen oxidation",
+      "slide_sub_heading": "Solution",
+      "slide_number": 15,
+      "inferred_slide_number": 15,
+      "category": "solution_start",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch05_2_ex01"
+    },
+    {
+      "index": 201,
+      "dn_index": 101,
+      "filename": "1794734884527_7625724096045709777_7625724096045709777_4e87e4c03dab4d5cdb7ef54a22d5061b.jpg",
+      "sha": "017b31e88f4927f6",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 23,
+      "inferred_slide_number": 23,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex01"
+    },
+    {
+      "index": 202,
+      "dn_index": 102,
+      "filename": "1794734884550_7625724096045709777_7625724096045709777_317c045c205e365ba9fc10885e4600c9.jpg",
+      "sha": "bfb38254ea10cb77",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 24,
+      "inferred_slide_number": 24,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex01"
+    },
+    {
+      "index": 203,
+      "dn_index": 103,
+      "filename": "1794734884567_7625724096045709777_7625724096045709777_41c6b030227586eb459850051aff5596.jpg",
+      "sha": "75b4dde3645d0c63",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 25,
+      "inferred_slide_number": 25,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex01"
+    },
+    {
+      "index": 204,
+      "dn_index": 104,
+      "filename": "1794734884580_7625724096045709777_7625724096045709777_7468d8e92b7bd083da3bc1e26df5a80d.jpg",
+      "sha": "5e3f65d90c9dbc69",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 25,
+      "inferred_slide_number": 25,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": 203,
+      "mapped_exercise_id": "ch06_ex01"
+    },
+    {
+      "index": 205,
+      "dn_index": 105,
+      "filename": "1794734884591_7625724096045709777_7625724096045709777_2d965ad46dc7c2820b75eaaf305fbebd.jpg",
+      "sha": "0df9c4c49c7f5b55",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Example 2",
+      "slide_number": 26,
+      "inferred_slide_number": 26,
+      "category": "problem_only",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex02"
+    },
+    {
+      "index": 206,
+      "dn_index": 106,
+      "filename": "1794734884599_7625724096045709777_7625724096045709777_02592a5d41ecfcbe79e29c6c357b033f.jpg",
+      "sha": "f6d6d0acb683d58f",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution",
+      "slide_number": 27,
+      "inferred_slide_number": 27,
+      "category": "solution_start",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex02"
+    },
+    {
+      "index": 207,
+      "dn_index": 107,
+      "filename": "1794734884607_7625724096045709777_7625724096045709777_b2ce6068bc5106050a25764fb6cda2f6.jpg",
+      "sha": "17140c1bc9999acd",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": null,
+      "inferred_slide_number": 28,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex02"
+    },
+    {
+      "index": 208,
+      "dn_index": 108,
+      "filename": "1794734884613_7625724096045709777_7625724096045709777_6e32b2b8efd4c561fce7dfba97903fca.jpg",
+      "sha": "eddb089b9ab1649c",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 29,
+      "inferred_slide_number": 29,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex02"
+    },
+    {
+      "index": 209,
+      "dn_index": 109,
+      "filename": "1794734884620_7625724096045709777_7625724096045709777_798f617907d81df7e46912157371e398.jpg",
+      "sha": "72652e15bc54c812",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "chalkboard",
+      "slide_sub_heading": "",
+      "slide_number": null,
+      "inferred_slide_number": null,
+      "category": "handwritten_or_board_solution",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex02_board"
+    },
+    {
+      "index": 210,
+      "dn_index": 110,
+      "filename": "1794734884626_7625724096045709777_7625724096045709777_d8b6eff2417942af8a4df14c07fb2c67.jpg",
+      "sha": "b864b6cd478f9bdd",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 32,
+      "inferred_slide_number": 32,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex02"
+    },
+    {
+      "index": 211,
+      "dn_index": 111,
+      "filename": "1794734884632_7625724096045709777_7625724096045709777_a8ebc2ca8abdfdc27f4c7f0ae690d818.jpg",
+      "sha": "b53fae824f792bde",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 33,
+      "inferred_slide_number": 33,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex02"
+    },
+    {
+      "index": 212,
+      "dn_index": 112,
+      "filename": "1794734884638_7625724096045709777_7625724096045709777_cfc81d4bd96da5c089fb54a9af8a8616.jpg",
+      "sha": "db20d64ce553b67a",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 34,
+      "inferred_slide_number": 34,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex02"
+    },
+    {
+      "index": 213,
+      "dn_index": 113,
+      "filename": "1794734884645_7625724096045709777_7625724096045709777_d9e3f778159a0174651edf501cfa0570.jpg",
+      "sha": "18d315d8f58a11d4",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 35,
+      "inferred_slide_number": 35,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex02"
+    },
+    {
+      "index": 214,
+      "dn_index": 114,
+      "filename": "1794734884651_7625724096045709777_7625724096045709777_cb9373ec0ba6ecef16554e6bced031ea.jpg",
+      "sha": "a0559f4f10c448d8",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 36,
+      "inferred_slide_number": 36,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex02"
+    },
+    {
+      "index": 215,
+      "dn_index": 115,
+      "filename": "1794734884657_7625724096045709777_7625724096045709777_a8caa460b4b1d821f129c733dc9411c1.jpg",
+      "sha": "10f9dfa6ca167010",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "2. CMAS reactor design",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 37,
+      "inferred_slide_number": 37,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex02"
+    },
+    {
+      "index": 216,
+      "dn_index": 116,
+      "filename": "1794734884663_7625724096045709777_7625724096045709777_b043d424afbae4b96e24a6a328118857.jpg",
+      "sha": "cd7320a7a6229774",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "4. Sequencing batch reactor",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": null,
+      "inferred_slide_number": 55,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex04"
+    },
+    {
+      "index": 217,
+      "dn_index": 117,
+      "filename": "1794734884670_7625724096045709777_7625724096045709777_2d607635581bbd5d84e9cdeafab92877.jpg",
+      "sha": "74c01c14c17f9b64",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "4. Sequencing batch reactor",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 56,
+      "inferred_slide_number": 56,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex04"
+    },
+    {
+      "index": 218,
+      "dn_index": 118,
+      "filename": "1794734884676_7625724096045709777_7625724096045709777_ae1128cba70bbda657712449f7b6fd33.jpg",
+      "sha": "e5ef68bc4d25acf0",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "4. Sequencing batch reactor",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 57,
+      "inferred_slide_number": 57,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex04"
+    },
+    {
+      "index": 219,
+      "dn_index": 119,
+      "filename": "1794734884682_7625724096045709777_7625724096045709777_f61bb707a91c560518a78bc7189dcf7a.jpg",
+      "sha": "3cee520e813cca1d",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "4. Sequencing batch reactor",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 57,
+      "inferred_slide_number": 57,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": 218,
+      "mapped_exercise_id": "ch06_ex04"
+    },
+    {
+      "index": 220,
+      "dn_index": 120,
+      "filename": "1794734884688_7625724096045709777_7625724096045709777_7da3b9d699952d51d434544e40762185.jpg",
+      "sha": "6a0f848c7f3e9ae8",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "4. Sequencing batch reactor",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": null,
+      "inferred_slide_number": 58,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex04"
+    },
+    {
+      "index": 221,
+      "dn_index": 121,
+      "filename": "1794734884694_7625724096045709777_7625724096045709777_d12d0dc805038f6253cc0e581a7a0d0a.jpg",
+      "sha": "f186c6ac5d1523a1",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "4. Sequencing batch reactor",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 58,
+      "inferred_slide_number": 58,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": 220,
+      "mapped_exercise_id": "ch06_ex04"
+    },
+    {
+      "index": 222,
+      "dn_index": 122,
+      "filename": "1794734884700_7625724096045709777_7625724096045709777_cb8bf1391d2fd53fc114c10138443eab.jpg",
+      "sha": "9c3bb9500bcc0edd",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "4. Sequencing batch reactor",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": null,
+      "inferred_slide_number": 59,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex04"
+    },
+    {
+      "index": 223,
+      "dn_index": 123,
+      "filename": "1794734884706_7625724096045709777_7625724096045709777_3e5d45891c8a05b7b752da73f428c4cf.jpg",
+      "sha": "d6f126f33431a80e",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "4. Sequencing batch reactor",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 60,
+      "inferred_slide_number": 60,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex04"
+    },
+    {
+      "index": 224,
+      "dn_index": 124,
+      "filename": "1794734884712_7625724096045709777_7625724096045709777_ccb616e179ba31514221d39e5e9dccef.jpg",
+      "sha": "d2c148e620798040",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "4. Sequencing batch reactor",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 61,
+      "inferred_slide_number": 61,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex04"
+    },
+    {
+      "index": 225,
+      "dn_index": 125,
+      "filename": "1794734884718_7625724096045709777_7625724096045709777_b9f9d2323c87e74cdd71f902aace5385.jpg",
+      "sha": "03be58d053dbce49",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "4. Sequencing batch reactor",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 63,
+      "inferred_slide_number": 63,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex04"
+    },
+    {
+      "index": 226,
+      "dn_index": 126,
+      "filename": "1794734884724_7625724096045709777_7625724096045709777_c7f90418cd8196fe257088fede713cfd.jpg",
+      "sha": "b620596dee46449b",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "4. Sequencing batch reactor",
+      "slide_sub_heading": "Solution (continue)",
+      "slide_number": 64,
+      "inferred_slide_number": 64,
+      "category": "solution_continue",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_ex04"
+    },
+    {
+      "index": 227,
+      "dn_index": 127,
+      "filename": "1794734884730_7625724096045709777_7625724096045709777_223c5f3f8a7d1422b4cbbb8a3fe6334a.jpg",
+      "sha": "1cfcc9322e1f8c41",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "Homework",
+      "slide_sub_heading": "2/",
+      "slide_number": 77,
+      "inferred_slide_number": 77,
+      "category": "problem_only",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "proj_ch06_hw02"
+    },
+    {
+      "index": 228,
+      "dn_index": 128,
+      "filename": "1794734884736_7625724096045709777_7625724096045709777_b2ea0d46bd1dc1dba18fe6f3ce9fb1f3.jpg",
+      "sha": "9e4b73bd62166f3a",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "Homework",
+      "slide_sub_heading": "1/",
+      "slide_number": 76,
+      "inferred_slide_number": 76,
+      "category": "problem_only",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "proj_ch06_hw01"
+    },
+    {
+      "index": 229,
+      "dn_index": 129,
+      "filename": "1794734884743_7625724096045709777_7625724096045709777_28cac7f31de4a0157bc2e407f27b43a1.jpg",
+      "sha": "b724b00719109d0e",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "Homework",
+      "slide_sub_heading": "2/",
+      "slide_number": 77,
+      "inferred_slide_number": 77,
+      "category": "problem_only",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": 227,
+      "mapped_exercise_id": "proj_ch06_hw02"
+    },
+    {
+      "index": 230,
+      "dn_index": 130,
+      "filename": "1794734884749_7625724096045709777_7625724096045709777_486a23a802986e29d294468aee1b46ca.jpg",
+      "sha": "be788725e5056190",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "chalkboard",
+      "slide_sub_heading": "Chalkboard",
+      "slide_number": null,
+      "inferred_slide_number": null,
+      "category": "handwritten_or_board_solution",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "proj_ch06_hw_board_left"
+    },
+    {
+      "index": 231,
+      "dn_index": 131,
+      "filename": "1794734884755_7625724096045709777_7625724096045709777_b56c287f8832638accbe3c5fd844a550.jpg",
+      "sha": "a56079fb88127e21",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "Homework",
+      "slide_sub_heading": "The following information (cont.) is given:",
+      "slide_number": 78,
+      "inferred_slide_number": 78,
+      "category": "problem_only",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "proj_ch06_hw02"
+    },
+    {
+      "index": 232,
+      "dn_index": 132,
+      "filename": "1794734884761_7625724096045709777_7625724096045709777_744b64f35b5d92a0bf38f09edf6c9ed9.jpg",
+      "sha": "5d0ff5f206b27e93",
+      "mapped_chapter_slug": "ch06",
+      "slide_top_banner": "chalkboard",
+      "slide_sub_heading": "Chalkboard",
+      "slide_number": null,
+      "inferred_slide_number": null,
+      "category": "handwritten_or_board_solution",
+      "exact_duplicate_of": null,
+      "visual_duplicate_of_index": null,
+      "mapped_exercise_id": "ch06_board_right"
+    }
+  ]
+}

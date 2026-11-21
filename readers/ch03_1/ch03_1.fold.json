@@ -1,0 +1,1864 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-3-1-c-c-qu-tr-nh-x-l-v-t-l-song-ch-6b58d1fa",
+  "lang": "vi",
+  "title": "Chương 3.1. Các Quá Trình Xử Lý Vật Lý - Song Chắn Rác (Chapter 3 Physical Unit Processes - 1. Screening)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch03_1_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:42:53Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-08T00:42:53",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-tổng-quan-và-phân-loại-song-chắn-rác-overview-and-classification-of-screening",
+      "num": "1",
+      "title": "Tổng quan và phân loại song chắn rác (Overview and Classification of Screening)",
+      "depth": 1,
+      "takeaway": "Song chắn rác tách vật rắn lớn và phân loại theo kích thước khe hở $e$",
+      "topic": "Song chắn rác",
+      "units": [
+        {
+          "id": "p-1f3fed2e",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Song chắn rác (screening) là công trình đơn vị đầu tiên trong dây chuyền công nghệ của trạm xử lý nước thải [Page 1] [Page 2]. Thiết bị này giữ lại các tạp chất rắn có kích thước lớn mà dòng nước thải cuốn theo từ mạng lưới thoát nước [Page 2]. Quá trình tách rác sớm bảo vệ các máy bơm, van và thiết bị công nghệ phía sau khỏi hư hỏng cơ học hoặc tắc nghẽn đường ống [Page 2]. Ngoài ra, công đoạn chắn rác giúp nâng cao độ tin cậy và hiệu quả xử lý của toàn bộ nhà máy xử lý nước thải [Page 2]. Tuy nhiên, rác tươi thu gom tại khu vực song chắn rác dễ phân hủy hữu cơ và phát sinh mùi hôi nếu hệ thống không thông gió và thu gom kịp thời [Page 2].",
+          "sentences": [
+            "Song chắn rác (screening) là công trình đơn vị đầu tiên trong dây chuyền công nghệ của trạm xử lý nước thải [Page 1] [Page 2].",
+            "Thiết bị này giữ lại các tạp chất rắn có kích thước lớn mà dòng nước thải cuốn theo từ mạng lưới thoát nước [Page 2].",
+            "Quá trình tách rác sớm bảo vệ các máy bơm, van và thiết bị công nghệ phía sau khỏi hư hỏng cơ học hoặc tắc nghẽn đường ống [Page 2].",
+            "Ngoài ra, công đoạn chắn rác giúp nâng cao độ tin cậy và hiệu quả xử lý của toàn bộ nhà máy xử lý nước thải [Page 2].",
+            "Tuy nhiên, rác tươi thu gom tại khu vực song chắn rác dễ phân hủy hữu cơ và phát sinh mùi hôi nếu hệ thống không thông gió và thu gom kịp thời [Page 2]."
+          ],
+          "brief": [
+            "Song chắn rác (screening) là công trình đơn vị đầu tiên trong dây chuyền công nghệ của trạm xử lý nước thải [Page 1] [Page 2].",
+            "Quá trình tách rác sớm bảo vệ các máy bơm, van và thiết bị công nghệ phía sau khỏi hư hỏng cơ học hoặc tắc nghẽn đường ống [Page 2]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Song chắn rác giữ lại vật rắn lớn để bảo vệ thiết bị phía sau. Việc tách rác sớm ngăn tắc nghẽn đường ống nhưng cần kiểm soát mùi hôi.",
+          "takeaway": "Song chắn rác giữ lại vật rắn lớn để bảo vệ thiết bị phía sau",
+          "topic": "Song chắn rác"
+        },
+        {
+          "id": "p-388b3e3d",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Kỹ sư môi trường phân loại thiết bị chắn rác thành song chắn rác thô (coarse screens) và lưới chắn rác tinh (fine screens) dựa trên kích thước khe hở [Page 3]. Song chắn rác thô có khe hở từ 6 mm trở lên để giữ lại đá sỏi, cành cây, mảnh nhựa lớn, lá cây, giấy vụn, chai lọ và vỏ lon trong nước thải thô [Page 3]. Lưới chắn rác tinh có kích thước khe hở nhỏ hơn 6 mm để tách các mảnh giẻ nhỏ, sợi nhựa mảnh và cặn thức ăn còn sót lại sau song chắn rác thô [Page 3]. Theo phương thức thu gom rác, song chắn rác thô gồm hai nhóm chính là loại cào rác thủ công (manually cleaned) và loại cào rác cơ giới tự động (mechanically cleaned) [Page 3].",
+          "sentences": [
+            "Kỹ sư môi trường phân loại thiết bị chắn rác thành song chắn rác thô (coarse screens) và lưới chắn rác tinh (fine screens) dựa trên kích thước khe hở [Page 3].",
+            "Song chắn rác thô có khe hở từ 6 mm trở lên để giữ lại đá sỏi, cành cây, mảnh nhựa lớn, lá cây, giấy vụn, chai lọ và vỏ lon trong nước thải thô [Page 3].",
+            "Lưới chắn rác tinh có kích thước khe hở nhỏ hơn 6 mm để tách các mảnh giẻ nhỏ, sợi nhựa mảnh và cặn thức ăn còn sót lại sau song chắn rác thô [Page 3].",
+            "Theo phương thức thu gom rác, song chắn rác thô gồm hai nhóm chính là loại cào rác thủ công (manually cleaned) và loại cào rác cơ giới tự động (mechanically cleaned) [Page 3]."
+          ],
+          "brief": [
+            "Kỹ sư môi trường phân loại thiết bị chắn rác thành song chắn rác thô (coarse screens) và lưới chắn rác tinh (fine screens) dựa trên kích thước khe hở [Page 3].",
+            "Song chắn rác thô có khe hở từ 6 mm trở lên để giữ lại đá sỏi, cành cây, mảnh nhựa lớn, lá cây, giấy vụn, chai lọ và vỏ lon trong nước thải thô [Page 3]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Thiết bị chắn rác gồm song chắn thô và lưới chắn tinh. Song chắn thô có khe hở từ $6\\text{ mm}$ đến $150\\text{ mm}$, còn lưới tinh dưới $6\\text{ mm}$.",
+          "takeaway": "Thiết bị chắn rác gồm song chắn thô và lưới chắn tinh",
+          "topic": "Thiết bị chắn rác"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-song-chắn-rác-thô-cào-thủ-công-và-cào-cơ-giới-coarse-screens",
+      "num": "2",
+      "title": "Song chắn rác thô cào thủ công và cào cơ giới (Coarse Screens)",
+      "depth": 1,
+      "takeaway": "Song chắn rác thô dùng bàn cào thủ công hoặc bốn cơ cấu cào cơ giới",
+      "topic": "Song chắn rác",
+      "units": [
+        {
+          "id": "p-604630c8",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Song chắn rác thô cào thủ công thường phục vụ các trạm xử lý nước thải quy mô nhỏ đến trung bình có lượng rác phát sinh ít [Page 4]. Các trạm xử lý quy mô lớn cũng lắp đặt song chắn rác thủ công trên mương vòng (bypass channel) để vận hành dự phòng khi lưu lượng vượt tải hoặc khi thiết bị cơ giới đang bảo trì [Page 4]. Chiều dài thanh đan của song chắn rác thủ công không được vượt quá tầm cào thuận tiện của công nhân vận hành, với giá trị giới hạn thực tế khoảng 3 m [Page 4]. Các thanh thép đặt nghiêng một góc lớn so với phương đứng để công nhân dễ kéo bàn cào dọc theo mặt song chắn lên sàn thu gom rác [Page 4].",
+          "sentences": [
+            "Song chắn rác thô cào thủ công thường phục vụ các trạm xử lý nước thải quy mô nhỏ đến trung bình có lượng rác phát sinh ít [Page 4].",
+            "Các trạm xử lý quy mô lớn cũng lắp đặt song chắn rác thủ công trên mương vòng (bypass channel) để vận hành dự phòng khi lưu lượng vượt tải hoặc khi thiết bị cơ giới đang bảo trì [Page 4].",
+            "Chiều dài thanh đan của song chắn rác thủ công không được vượt quá tầm cào thuận tiện của công nhân vận hành, với giá trị giới hạn thực tế khoảng 3 m [Page 4].",
+            "Các thanh thép đặt nghiêng một góc lớn so với phương đứng để công nhân dễ kéo bàn cào dọc theo mặt song chắn lên sàn thu gom rác [Page 4]."
+          ],
+          "brief": [
+            "Song chắn rác thô cào thủ công thường phục vụ các trạm xử lý nước thải quy mô nhỏ đến trung bình có lượng rác phát sinh ít [Page 4].",
+            "Chiều dài thanh đan của song chắn rác thủ công không được vượt quá tầm cào thuận tiện của công nhân vận hành, với giá trị giới hạn thực tế khoảng 3 m [Page 4]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Song chắn thủ công phục vụ trạm nhỏ với chiều dài thanh dưới $3\\text{ m}$. Thanh thép đặt nghiêng từ $30^\\circ$ đến $45^\\circ$ giúp công nhân cào rác thuận tiện.",
+          "takeaway": "Song chắn thủ công phục vụ trạm nhỏ với chiều dài thanh dưới $3\\text{ m}$",
+          "topic": "Song chắn thủ công"
+        },
+        {
+          "id": "p-5ce43150",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Song chắn rác thô cào cơ giới bao gồm bốn cấu hình phổ biến là loại truyền động xích (chain-driven), loại lược cào tịnh tiến (reciprocating rake), loại dây xích trùng (catenary) và loại băng tải liên tục (continuous belt) [Page 5]. Thiết bị truyền động xích bố trí cơ cấu làm sạch phía trước và trả rác phía trước (front-cleaned, front-return) thông qua hệ thống xích kéo gắn nhiều lược cào quay vòng liên tục [Page 5]. Nhờ có nhiều phần tử cào hoạt động đồng thời nên chu kỳ làm sạch của loại truyền động xích rất ngắn, nhưng các chi tiết chuyển động ngập dưới nước đòi hỏi phải nhấc thiết bị khỏi mương khi bảo trì [Page 7]. Ngoài ra, lượng cát lắng đọng trước chân song chắn có thể cản trở chuyển động của lược cào dưới đáy mương [Page 7].",
+          "sentences": [
+            "Song chắn rác thô cào cơ giới bao gồm bốn cấu hình phổ biến là loại truyền động xích (chain-driven), loại lược cào tịnh tiến (reciprocating rake), loại dây xích trùng (catenary) và loại băng tải liên tục (continuous belt) [Page 5].",
+            "Thiết bị truyền động xích bố trí cơ cấu làm sạch phía trước và trả rác phía trước (front-cleaned, front-return) thông qua hệ thống xích kéo gắn nhiều lược cào quay vòng liên tục [Page 5].",
+            "Nhờ có nhiều phần tử cào hoạt động đồng thời nên chu kỳ làm sạch của loại truyền động xích rất ngắn, nhưng các chi tiết chuyển động ngập dưới nước đòi hỏi phải nhấc thiết bị khỏi mương khi bảo trì [Page 7].",
+            "Ngoài ra, lượng cát lắng đọng trước chân song chắn có thể cản trở chuyển động của lược cào dưới đáy mương [Page 7]."
+          ],
+          "brief": [
+            "Song chắn rác thô cào cơ giới bao gồm bốn cấu hình phổ biến là loại truyền động xích (chain-driven), loại lược cào tịnh tiến (reciprocating rake), loại dây xích trùng (catenary) và loại băng tải liên tục (continuous belt) [Page 5].",
+            "Nhờ có nhiều phần tử cào hoạt động đồng thời nên chu kỳ làm sạch của loại truyền động xích rất ngắn, nhưng các chi tiết chuyển động ngập dưới nước đòi hỏi phải nhấc thiết bị khỏi mương khi bảo trì [Page 7]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Song chắn truyền động xích cào nhanh nhưng có nhông xích ngập nước. Khi bảo trì phải nhấc thiết bị khỏi mương và cát lắng dễ kẹt lược cào.",
+          "takeaway": "Song chắn truyền động xích cào nhanh nhưng có nhông xích ngập nước",
+          "topic": "truyền động xích"
+        },
+        {
+          "id": "p-35e9b2e9",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Song chắn rác kiểu lược cào tịnh tiến mô phỏng thao tác cào rác của con người để gạt rác dọc theo các thanh chắn và xả rác hiệu quả ở đỉnh mương [Page 6] [Page 7]. Toàn bộ bộ phận truyền động nằm trên sàn vận hành và không có chi tiết chuyển động ngập nước nên việc sửa chữa rất thuận tiện, dù chu kỳ cào dài hơn và giá thành chế tạo bằng thép không gỉ khá cao [Page 7]. Song chắn rác kiểu dây xích trùng (catenary screen) giữ lược cào áp sát bề mặt thanh chắn nhờ trọng lượng bản thân của bộ xích nặng và cho phép lược cào trượt qua vật cản lớn mà không bị kẹt [Page 6]. Thiết bị dây xích trùng có đĩa xích đặt trên mặt sàn vận hành và chu kỳ làm sạch ngắn, nhưng bộ xích rất nặng và chiếm nhiều không gian lắp đặt [Page 7]. Song chắn rác kiểu băng tải liên tục (continuous belt screen) tự làm sạch liên tục để tách cả rác thô lẫn rác mịn và rất khó bị kẹt, nhưng công tác đại tu hoặc thay thế các móc lưới tốn nhiều thời gian và chi phí [Page 7].",
+          "sentences": [
+            "Song chắn rác kiểu lược cào tịnh tiến mô phỏng thao tác cào rác của con người để gạt rác dọc theo các thanh chắn và xả rác hiệu quả ở đỉnh mương [Page 6] [Page 7].",
+            "Toàn bộ bộ phận truyền động nằm trên sàn vận hành và không có chi tiết chuyển động ngập nước nên việc sửa chữa rất thuận tiện, dù chu kỳ cào dài hơn và giá thành chế tạo bằng thép không gỉ khá cao [Page 7].",
+            "Song chắn rác kiểu dây xích trùng (catenary screen) giữ lược cào áp sát bề mặt thanh chắn nhờ trọng lượng bản thân của bộ xích nặng và cho phép lược cào trượt qua vật cản lớn mà không bị kẹt [Page 6].",
+            "Thiết bị dây xích trùng có đĩa xích đặt trên mặt sàn vận hành và chu kỳ làm sạch ngắn, nhưng bộ xích rất nặng và chiếm nhiều không gian lắp đặt [Page 7].",
+            "Song chắn rác kiểu băng tải liên tục (continuous belt screen) tự làm sạch liên tục để tách cả rác thô lẫn rác mịn và rất khó bị kẹt, nhưng công tác đại tu hoặc thay thế các móc lưới tốn nhiều thời gian và chi phí [Page 7]."
+          ],
+          "brief": [
+            "Song chắn rác kiểu lược cào tịnh tiến mô phỏng thao tác cào rác của con người để gạt rác dọc theo các thanh chắn và xả rác hiệu quả ở đỉnh mương [Page 6] [Page 7].",
+            "Toàn bộ bộ phận truyền động nằm trên sàn vận hành và không có chi tiết chuyển động ngập nước nên việc sửa chữa rất thuận tiện, dù chu kỳ cào dài hơn và giá thành chế tạo bằng thép không gỉ khá cao [Page 7]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Kiểu lược cào tịnh tiến, xích trùng và băng tải đặt bộ truyền động trên sàn. Cấu tạo không có chi tiết ngập nước giúp sửa chữa dễ nhưng tốn diện tích.",
+          "takeaway": "Kiểu lược cào tịnh tiến, xích trùng và băng tải đặt bộ truyền động trên sàn",
+          "topic": "lược cào tịnh tiến"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-lưới-chắn-rác-tinh-và-đặc-tính-chọn-thiết-bị-fine-screens",
+      "num": "3",
+      "title": "Lưới chắn rác tinh và đặc tính chọn thiết bị (Fine Screens)",
+      "depth": 1,
+      "takeaway": "Lưới chắn rác tinh bảo vệ bể màng MBR và nâng cao chất lượng bùn",
+      "topic": "Lưới chắn rác",
+      "units": [
+        {
+          "id": "p-cfe84897",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Lưới chắn rác tinh được lắp đặt thay thế hoặc nối tiếp sau song chắn rác thô khi dây chuyền công nghệ yêu cầu hiệu suất tách chất rắn lơ lửng cao hơn [Page 8]. Thiết bị này bảo vệ các công trình nhạy cảm với rác sợi và hạt mịn như bể phản ứng sinh học màng (membrane bioreactors - MBR) khỏi hiện tượng tắc màng và quấn sợi [Page 8]. Đồng thời, việc loại bỏ triệt để tạp chất nhựa và vật liệu trơ giúp cải thiện chất lượng bùn sinh học (biosolids) để phục vụ mục đích tái sử dụng nông nghiệp [Page 8]. Bốn loại lưới chắn rác tinh thông dụng trong xử lý sơ bộ bao gồm lưới nêm tĩnh (static wedgewire), trống quay (drum screen), băng tải lưới (travel band screen) và lưới bậc thang (step screen) [Page 8] [Page 9] [Page 10].",
+          "sentences": [
+            "Lưới chắn rác tinh được lắp đặt thay thế hoặc nối tiếp sau song chắn rác thô khi dây chuyền công nghệ yêu cầu hiệu suất tách chất rắn lơ lửng cao hơn [Page 8].",
+            "Thiết bị này bảo vệ các công trình nhạy cảm với rác sợi và hạt mịn như bể phản ứng sinh học màng (membrane bioreactors - MBR) khỏi hiện tượng tắc màng và quấn sợi [Page 8]. Đồng thời, việc loại bỏ triệt để tạp chất nhựa và vật liệu trơ giúp cải thiện chất lượng bùn sinh học (biosolids) để phục vụ mục đích tái sử dụng nông nghiệp [Page 8].",
+            "Bốn loại lưới chắn rác tinh thông dụng trong xử lý sơ bộ bao gồm lưới nêm tĩnh (static wedgewire), trống quay (drum screen), băng tải lưới (travel band screen) và lưới bậc thang (step screen) [Page 8] [Page 9] [Page 10]."
+          ],
+          "brief": [
+            "Lưới chắn rác tinh được lắp đặt thay thế hoặc nối tiếp sau song chắn rác thô khi dây chuyền công nghệ yêu cầu hiệu suất tách chất rắn lơ lửng cao hơn [Page 8].",
+            "Thiết bị này bảo vệ các công trình nhạy cảm với rác sợi và hạt mịn như bể phản ứng sinh học màng (membrane bioreactors - MBR) khỏi hiện tượng tắc màng và quấn sợi [Page 8]. Đồng thời, việc loại bỏ triệt để tạp chất nhựa và vật liệu trơ giúp cải thiện chất lượng bùn sinh học (biosolids) để phục vụ mục đích tái sử dụng nông nghiệp [Page 8]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Lưới chắn tinh bảo vệ bể màng MBR và làm sạch bùn sinh học. Bốn thiết bị chính gồm lưới nêm tĩnh, trống quay, băng tải và lưới bậc thang.",
+          "takeaway": "Lưới chắn tinh bảo vệ bể màng MBR và làm sạch bùn sinh học",
+          "topic": "Lưới chắn tinh"
+        },
+        {
+          "id": "p-6dd4131e",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Mỗi loại lưới chắn rác tinh có ưu nhược điểm thủy lực và khả năng làm việc với dầu mỡ (FOG suitability) khác nhau [Page 11]. Lưới thanh (bar screen) có khe hở từ 2 đến 15 mm, khả năng thông수 rất tốt, thích hợp cho mương sâu và chịu được dầu mỡ, nhưng hiệu suất giữ cặn thấp [Page 11]. Lưới trống quay (drum screen) có khe hở từ 0.2 đến 6 mm, hiệu suất giữ cặn cao, tổn thất cột nước thấp và tích hợp rửa rác, nhưng không phù hợp cho mương sâu và các lỗ đục dễ bị bít tắc bởi dầu mỡ [Page 11]. Lưới băng tải cấp nước tâm (band, central flow) có khe hở từ 1 đến 10 mm, phù hợp với mương sâu và ít kéo theo rác sang phía sau, nhưng cần mở rộng mương tại vị trí đặt lưới và dễ bám mỡ [Page 11] [Page 12]. Lưới bậc thang (Step Screen) có khe hở từ 1 đến 6 mm, vận hành tốt với nước thải chứa dầu mỡ và phù hợp cho mương sâu, nhưng gây tổn thất cột nước lớn và đòi hỏi mương rộng hoặc nông [Page 11]. Đối với lưới băng tải đục lỗ cấp nước tâm, diện tích lỗ rỗng hiệu dụng (effective open area) tăng theo bước lỗ (hole spacing), lần lượt đạt 31% ở bước lỗ 1 mm, 35% ở bước lỗ 3 mm, 40% ở bước lỗ 6 mm và 55% ở bước lỗ 9 mm [Page 11].",
+          "sentences": [
+            "Mỗi loại lưới chắn rác tinh có ưu nhược điểm thủy lực và khả năng làm việc với dầu mỡ (FOG suitability) khác nhau [Page 11].",
+            "Lưới thanh (bar screen) có khe hở từ 2 đến 15 mm, khả năng thông수 rất tốt, thích hợp cho mương sâu và chịu được dầu mỡ, nhưng hiệu suất giữ cặn thấp [Page 11].",
+            "Lưới trống quay (drum screen) có khe hở từ 0.2 đến 6 mm, hiệu suất giữ cặn cao, tổn thất cột nước thấp và tích hợp rửa rác, nhưng không phù hợp cho mương sâu và các lỗ đục dễ bị bít tắc bởi dầu mỡ [Page 11].",
+            "Lưới băng tải cấp nước tâm (band, central flow) có khe hở từ 1 đến 10 mm, phù hợp với mương sâu và ít kéo theo rác sang phía sau, nhưng cần mở rộng mương tại vị trí đặt lưới và dễ bám mỡ [Page 11] [Page 12].",
+            "Lưới bậc thang (Step Screen) có khe hở từ 1 đến 6 mm, vận hành tốt với nước thải chứa dầu mỡ và phù hợp cho mương sâu, nhưng gây tổn thất cột nước lớn và đòi hỏi mương rộng hoặc nông [Page 11]. Đối với lưới băng tải đục lỗ cấp nước tâm, diện tích lỗ rỗng hiệu dụng (effective open area) tăng theo bước lỗ (hole spacing), lần lượt đạt 31% ở bước lỗ 1 mm, 35% ở bước lỗ 3 mm, 40% ở bước lỗ 6 mm và 55% ở bước lỗ 9 mm [Page 11]."
+          ],
+          "brief": [
+            "Mỗi loại lưới chắn rác tinh có ưu nhược điểm thủy lực và khả năng làm việc với dầu mỡ (FOG suitability) khác nhau [Page 11].",
+            "Lưới bậc thang (Step Screen) có khe hở từ 1 đến 6 mm, vận hành tốt với nước thải chứa dầu mỡ và phù hợp cho mương sâu, nhưng gây tổn thất cột nước lớn và đòi hỏi mương rộng hoặc nông [Page 11]. Đối với lưới băng tải đục lỗ cấp nước tâm, diện tích lỗ rỗng hiệu dụng (effective open area) tăng theo bước lỗ (hole spacing), lần lượt đạt 31% ở bước lỗ 1 mm, 35% ở bước lỗ 3 mm, 40% ở bước lỗ 6 mm và 55% ở bước lỗ 9 mm [Page 11]."
+          ],
+          "evidence": [
+            0,
+            4
+          ],
+          "key": "Việc chọn lưới chắn tinh phụ thuộc khe hở, cột nước và lượng dầu mỡ. Lưới bậc thang chịu dầu mỡ tốt nhưng gây tổn thất cột nước cao hơn.",
+          "takeaway": "Việc chọn lưới chắn tinh phụ thuộc khe hở, cột nước và lượng dầu mỡ",
+          "topic": "chọn lưới chắn"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-phương-trình-thủy-lực-và-thông-số-thiết-kế-chuẩn-cho-song-chắn-rác-design-considerations-and-typical-design-information",
+      "num": "4",
+      "title": "Phương trình thủy lực và thông số thiết kế chuẩn cho song chắn rác (Design Considerations and Typical Design Information)",
+      "depth": 1,
+      "takeaway": "Thiết kế thủy lực song chắn rác dùng phương trình Manning và phương trình lỗ chảy",
+      "topic": "Thiết kế thủy lực",
+      "units": [
+        {
+          "id": "p-2eefe3e6",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Khi bố trí mặt bằng trạm xử lý, kỹ sư đặt song chắn rác thô phía trước bể lắng cát và trạm bơm nước thải thô, còn lưới chắn rác tinh được đặt phía trước bể điều hòa [Page 13]. Mương dẫn đặt song chắn rác phải được thiết kế thủy lực hợp lý để ngăn ngừa hiện tượng lắng đọng cặn hữu cơ và cát dưới đáy mương [Page 13]. Vận tốc dòng chảy trong mương hở hình chữ nhật được xác định đồng thời từ phương trình liên tục $v = \\frac{Q}{A}$ hay $v = \\frac{Q}{W \\times D}$ và phương trình Manning $v = \\frac{1}{n} R^{2/3} S^{1/2}$ [Page 13]. Trong phương trình Manning, $v$ là vận tốc dòng chảy trong mương (m/s), $n = 0.012$ là hệ số nhám của bê tông trát nhẵn, $S$ là độ dốc đáy mương (m/m), $A = W \\times D$ là diện tích mặt cắt ướt ($\\text{m}^2$), và bán kính thủy lực tính theo công thức $R = \\frac{W \\times D}{W + 2D}$ (m) [Page 13].",
+          "sentences": [
+            "Khi bố trí mặt bằng trạm xử lý, kỹ sư đặt song chắn rác thô phía trước bể lắng cát và trạm bơm nước thải thô, còn lưới chắn rác tinh được đặt phía trước bể điều hòa [Page 13].",
+            "Mương dẫn đặt song chắn rác phải được thiết kế thủy lực hợp lý để ngăn ngừa hiện tượng lắng đọng cặn hữu cơ và cát dưới đáy mương [Page 13].",
+            "Vận tốc dòng chảy trong mương hở hình chữ nhật được xác định đồng thời từ phương trình liên tục $v = \\frac{Q}{A}$ hay $v = \\frac{Q}{W \\times D}$ và phương trình Manning $v = \\frac{1}{n} R^{2/3} S^{1/2}$ [Page 13].",
+            "Trong phương trình Manning, $v$ là vận tốc dòng chảy trong mương (m/s), $n = 0.012$ là hệ số nhám của bê tông trát nhẵn, $S$ là độ dốc đáy mương (m/m), $A = W \\times D$ là diện tích mặt cắt ướt ($\\text{m}^2$), và bán kính thủy lực tính theo công thức $R = \\frac{W \\times D}{W + 2D}$ (m) [Page 13]."
+          ],
+          "brief": [
+            "Vận tốc dòng chảy trong mương hở hình chữ nhật được xác định đồng thời từ phương trình liên tục $v = \\frac{Q}{A}$ hay $v = \\frac{Q}{W \\times D}$ và phương trình Manning $v = \\frac{1}{n} R^{2/3} S^{1/2}$ [Page 13].",
+            "Trong phương trình Manning, $v$ là vận tốc dòng chảy trong mương (m/s), $n = 0.012$ là hệ số nhám của bê tông trát nhẵn, $S$ là độ dốc đáy mương (m/m), $A = W \\times D$ là diện tích mặt cắt ướt ($\\text{m}^2$), và bán kính thủy lực tính theo công thức $R = \\frac{W \\times D}{W + 2D}$ (m) [Page 13]."
+          ],
+          "evidence": [
+            2,
+            3
+          ],
+          "key": "Vận tốc mương dẫn $v$ giải từ phương trình liên tục và phương trình Manning. Bán kính thủy lực $R$ của mương chữ nhật phụ thuộc bề rộng $W$ và chiều sâu $D$.",
+          "takeaway": "Vận tốc mương dẫn $v$ giải từ phương trình liên tục và phương trình Manning",
+          "topic": "phương trình liên tục"
+        },
+        {
+          "id": "p-0eab6e23",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Quan hệ hình học giữa bề rộng mương (Channel width), số thanh đan ($N_{\\text{bars}}$), bề rộng mỗi thanh (Bar width), số khe hở ($N_{\\text{spaces}}$) và bề rộng mỗi khe hở (Bar space) tuân theo phương trình $W = N_b b + N_s e$ [Page 14]. Vì hai thanh ngoài cùng cách thành mương một khe hở nên số khe hở luôn lớn hơn số thanh một đơn vị theo công thức $N_s = N_b + 1$, từ đó suy ra $W = N_b b + (N_b + 1) e$ và công thức tính số thanh là $N_b = \\frac{W - e}{b + e}$ [Page 14]. Tổn thất cột nước qua song chắn rác ($h_L$, tính bằng m) được xác định theo phương trình lỗ chảy (orifice equation) là $h_L = \\frac{v_t^2 - v_a^2}{2gC}$ [Page 14]. Trong đó, $v_{\\text{thru}}$ là vận tốc nước chảy qua khe hở của song chắn (m/s), $v_{\\text{approach}}$ là vận tốc dòng chảy tiếp cận phía thượng lưu trước song chắn (m/s), $g = 9.81\\text{ m/s}^2$, và hệ số lưu lượng thực nghiệm nhận giá trị $C = 0.7$ đối với song chắn sạch hoặc $C = 0.6$ đối với song chắn bị tắc nghẽn [Page 14].",
+          "sentences": [
+            "Quan hệ hình học giữa bề rộng mương (Channel width), số thanh đan ($N_{\\text{bars}}$), bề rộng mỗi thanh (Bar width), số khe hở ($N_{\\text{spaces}}$) và bề rộng mỗi khe hở (Bar space) tuân theo phương trình $W = N_b b + N_s e$ [Page 14].",
+            "Vì hai thanh ngoài cùng cách thành mương một khe hở nên số khe hở luôn lớn hơn số thanh một đơn vị theo công thức $N_s = N_b + 1$, từ đó suy ra $W = N_b b + (N_b + 1) e$ và công thức tính số thanh là $N_b = \\frac{W - e}{b + e}$ [Page 14].",
+            "Tổn thất cột nước qua song chắn rác ($h_L$, tính bằng m) được xác định theo phương trình lỗ chảy (orifice equation) là $h_L = \\frac{v_t^2 - v_a^2}{2gC}$ [Page 14].",
+            "Trong đó, $v_{\\text{thru}}$ là vận tốc nước chảy qua khe hở của song chắn (m/s), $v_{\\text{approach}}$ là vận tốc dòng chảy tiếp cận phía thượng lưu trước song chắn (m/s), $g = 9.81\\text{ m/s}^2$, và hệ số lưu lượng thực nghiệm nhận giá trị $C = 0.7$ đối với song chắn sạch hoặc $C = 0.6$ đối với song chắn bị tắc nghẽn [Page 14]."
+          ],
+          "brief": [
+            "Vì hai thanh ngoài cùng cách thành mương một khe hở nên số khe hở luôn lớn hơn số thanh một đơn vị theo công thức $N_s = N_b + 1$, từ đó suy ra $W = N_b b + (N_b + 1) e$ và công thức tính số thanh là $N_b = \\frac{W - e}{b + e}$ [Page 14].",
+            "Tổn thất cột nước qua song chắn rác ($h_L$, tính bằng m) được xác định theo phương trình lỗ chảy (orifice equation) là $h_L = \\frac{v_t^2 - v_a^2}{2gC}$ [Page 14]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Tổn thất cột nước $h_L$ qua khe song chắn tính theo phương trình lỗ chảy. Hệ số lưu lượng đạt $C = 0.7$ khi song chắn sạch và giảm còn $C = 0.6$ khi tắc $50\\%$.",
+          "takeaway": "Tổn thất cột nước $h_L$ qua khe song chắn tính theo phương trình lỗ chảy",
+          "topic": "Tổn thất cột nước"
+        },
+        {
+          "id": "p-d82a0500",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Bảng thông số thiết kế chuẩn trên Slide 29 (Typical design information for Bar racks) quy định dải giá trị cho phương pháp cào thủ công (Manual) và cào cơ giới (Mechanical) [Page 15]. Kích thước tiết diện thanh chắn (Bar size) của cả hai phương pháp đều có bề rộng thanh (Width) từ 5 đến 15 mm và chiều sâu tiết diện thanh (Depth) từ 25 đến 38 mm [Page 15]. Khoảng cách khe hở thông thủy giữa các thanh (Clear spacing between bars) nằm trong khoảng 25 đến 50 mm đối với song chắn cào thủ công và từ 15 đến 75 mm đối với song chắn cào cơ giới [Page 15]. Góc nghiêng của song chắn so với phương đứng (Slope from vertical) lấy từ 30 đến 45 độ cho loại thủ công và từ 0 đến 30 độ cho loại cơ giới [Page 15]. Vận tốc tiếp cận lớn nhất (Maximum approach velocity) cho loại thủ công là 0.3 đến 0.6 m/s với tổn thất cột nước cho phép (Allowable headloss) là 150 mm, trong khi loại cơ giới có vận tốc tiếp cận lớn nhất từ 0.6 đến 1.0 m/s, vận tốc tiếp cận nhỏ nhất (Minimum approach velocity) từ 0.3 đến 0.5 m/s và tổn thất cột nước cho phép từ 150 đến 600 mm [Page 15].",
+          "sentences": [
+            "Bảng thông số thiết kế chuẩn trên Slide 29 (Typical design information for Bar racks) quy định dải giá trị cho phương pháp cào thủ công (Manual) và cào cơ giới (Mechanical) [Page 15].",
+            "Kích thước tiết diện thanh chắn (Bar size) của cả hai phương pháp đều có bề rộng thanh (Width) từ 5 đến 15 mm và chiều sâu tiết diện thanh (Depth) từ 25 đến 38 mm [Page 15].",
+            "Khoảng cách khe hở thông thủy giữa các thanh (Clear spacing between bars) nằm trong khoảng 25 đến 50 mm đối với song chắn cào thủ công và từ 15 đến 75 mm đối với song chắn cào cơ giới [Page 15].",
+            "Góc nghiêng của song chắn so với phương đứng (Slope from vertical) lấy từ 30 đến 45 độ cho loại thủ công và từ 0 đến 30 độ cho loại cơ giới [Page 15].",
+            "Vận tốc tiếp cận lớn nhất (Maximum approach velocity) cho loại thủ công là 0.3 đến 0.6 m/s với tổn thất cột nước cho phép (Allowable headloss) là 150 mm, trong khi loại cơ giới có vận tốc tiếp cận lớn nhất từ 0.6 đến 1.0 m/s, vận tốc tiếp cận nhỏ nhất (Minimum approach velocity) từ 0.3 đến 0.5 m/s và tổn thất cột nước cho phép từ 150 đến 600 mm [Page 15]."
+          ],
+          "brief": [
+            "Bảng thông số thiết kế chuẩn trên Slide 29 (Typical design information for Bar racks) quy định dải giá trị cho phương pháp cào thủ công (Manual) và cào cơ giới (Mechanical) [Page 15].",
+            "Vận tốc tiếp cận lớn nhất (Maximum approach velocity) cho loại thủ công là 0.3 đến 0.6 m/s với tổn thất cột nước cho phép (Allowable headloss) là 150 mm, trong khi loại cơ giới có vận tốc tiếp cận lớn nhất từ 0.6 đến 1.0 m/s, vận tốc tiếp cận nhỏ nhất (Minimum approach velocity) từ 0.3 đến 0.5 m/s và tổn thất cột nước cho phép từ 150 đến 600 mm [Page 15]."
+          ],
+          "evidence": [
+            0,
+            4
+          ],
+          "key": "Bảng thông số chuẩn quy định kích thước thanh, khe hở $e$ và vận tốc $v_{\\text{thru}}$. Song chắn thủ công giới hạn tổn thất $150\\text{ mm}$ còn loại cơ giới cho phép đến $600\\text{ mm}$.",
+          "takeaway": "Bảng thông số chuẩn quy định kích thước thanh, khe hở $e$ và vận tốc $v_{\\text{thru}}$",
+          "topic": "Bảng thông số chuẩn"
+        }
+      ]
+    },
+    {
+      "id": "sec-5-lời-giải-chi-tiết-bài-tập-ví-dụ-và-bài-tập-góc-nghiêng-trong-slide-worked-slide-examples-ch03_1_ex01-ch03_1_ex02",
+      "num": "5",
+      "title": "Lời giải chi tiết bài tập ví dụ và bài tập góc nghiêng trong Slide (Worked Slide Examples: ch03_1_ex01 & ch03_1_ex02)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch03_1_ex01-slide-3032-thiết-kế-mương-dẫn-và-tính-tổn-thất-cột-nước-qua-song-chắn-rác-thẳng-đứng",
+      "num": "",
+      "title": "Bài tập ch03_1_ex01 (Slide 30–32): Thiết kế mương dẫn và tính tổn thất cột nước qua song chắn rác thẳng đứng",
+      "depth": 2,
+      "takeaway": "Thiết kế mương song chắn rác thẳng đứng đạt $W = 1.5\\text{ m}$, $D = 0.5\\text{ m}$ và $h_L = 5.4\\text{ mm}$",
+      "topic": "Thiết kế mương",
+      "units": [
+        {
+          "id": "p-b1fce9ab",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #19, #20, Slide 30–32): Thiết kế mương dẫn đặt song chắn rác cho lưu lượng giờ cao điểm $Q = 1,000\\text{ m}^3/\\text{h}$ ($0.278\\text{ m}^3/\\text{s}$) với độ dốc đáy mương $S = 0.0001\\text{ m/m}$ và chiều cao bảo vệ $h_{\\text{bv}} = 0.5\\text{ m}$ [Page 15]. Tính tổn thất cột nước qua song chắn rác khi sạch và khi bị tắc nghẽn $50\\%$ diện tích khe hở với bề rộng thanh chắn $b = 10\\text{ mm}$ ($0.01\\text{ m}$) và khe hở thông thủy $e = 40\\text{ mm}$ ($0.04\\text{ m}$) [Page 15].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #19, #20, Slide 30–32): Thiết kế mương dẫn đặt song chắn rác cho lưu lượng giờ cao điểm $Q = 1,000\\text{ m}^3/\\text{h}$ ($0.278\\text{ m}^3/\\text{s}$) với độ dốc đáy mương $S = 0.0001\\text{ m/m}$ và chiều cao bảo vệ $h_{\\text{bv}} = 0.5\\text{ m}$ [Page 15].",
+            "Tính tổn thất cột nước qua song chắn rác khi sạch và khi bị tắc nghẽn $50\\%$ diện tích khe hở với bề rộng thanh chắn $b = 10\\text{ mm}$ ($0.01\\text{ m}$) và khe hở thông thủy $e = 40\\text{ mm}$ ($0.04\\text{ m}$) [Page 15]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #19, #20, Slide 30–32): Thiết kế mương dẫn đặt song chắn rác cho lưu lượng giờ cao điểm $Q = 1,000\\text{ m}^3/\\text{h}$ ($0.278\\text{ m}^3/\\text{s}$) với độ dốc đáy mương $S = 0.0001\\text{ m/m}$ và chiều cao bảo vệ $h_{\\text{bv}} = 0.5\\text{ m}$ [Page 15].",
+            "Tính tổn thất cột nước qua song chắn rác khi sạch và khi bị tắc nghẽn $50\\%$ diện tích khe hở với bề rộng thanh chắn $b = 10\\text{ mm}$ ($0.01\\text{ m}$) và khe hở thông thủy $e = 40\\text{ mm}$ ($0.04\\text{ m}$) [Page 15]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài thiết kế mương song chắn rác cho lưu lượng $Q = 1,000\\text{ m}^3/\\text{h}$. Song chắn đặt thẳng đứng có bề rộng thanh $b = 10\\text{ mm}$ và khe hở $e = 40\\text{ mm}$.",
+          "takeaway": "Đề bài thiết kế mương song chắn rác cho lưu lượng $Q = 1,000\\text{ m}^3/\\text{h}$",
+          "topic": "mương song chắn"
+        },
+        {
+          "id": "p-9d758b1c",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bước 1 - Xác định chiều sâu mực nước và vận tốc tiếp cận trong mương dẫn: Áp dụng đồng thời phương trình liên tục và phương trình Manning với bề rộng mương chọn trước $W = 1.5\\text{ m}$ và độ nhám $n = 0.012$ [Page 13] [Page 15]. Giải hệ phương trình thu được chiều sâu dòng chảy $D = 0.5\\text{ m}$, vận tốc tiếp cận $v_{\\text{app}} = 0.37\\text{ m/s}$ và tổng chiều cao mương $H = 1.0\\text{ m}$.",
+          "sentences": [
+            "Bước 1 - Xác định chiều sâu mực nước và vận tốc tiếp cận trong mương dẫn: Áp dụng đồng thời phương trình liên tục và phương trình Manning với bề rộng mương chọn trước $W = 1.5\\text{ m}$ và độ nhám $n = 0.012$ [Page 13] [Page 15].",
+            "Giải hệ phương trình thu được chiều sâu dòng chảy $D = 0.5\\text{ m}$, vận tốc tiếp cận $v_{\\text{app}} = 0.37\\text{ m/s}$ và tổng chiều cao mương $H = 1.0\\text{ m}$."
+          ],
+          "brief": [
+            "Bước 1 - Xác định chiều sâu mực nước và vận tốc tiếp cận trong mương dẫn: Áp dụng đồng thời phương trình liên tục và phương trình Manning với bề rộng mương chọn trước $W = 1.5\\text{ m}$ và độ nhám $n = 0.012$ [Page 13] [Page 15].",
+            "Giải hệ phương trình thu được chiều sâu dòng chảy $D = 0.5\\text{ m}$, vận tốc tiếp cận $v_{\\text{app}} = 0.37\\text{ m/s}$ và tổng chiều cao mương $H = 1.0\\text{ m}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Bước giải Manning chọn bề rộng $W = 1.5\\text{ m}$ và tìm chiều sâu $D = 0.5\\text{ m}$. Vận tốc mương đạt $v_{\\text{app}} = 0.37\\text{ m/s}$ và tổng chiều cao mương là $H = 1.0\\text{ m}$.",
+          "takeaway": "Bước giải Manning chọn bề rộng $W = 1.5\\text{ m}$ và tìm chiều sâu $D = 0.5\\text{ m}$",
+          "topic": "Bước giải Manning"
+        },
+        {
+          "id": "p-323d6927",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính số thanh đan, số khe hở và diện tích khe hở ngập nước: Từ quan hệ hình học trên mặt cắt ngang mương rộng $W = 1,500\\text{ mm}$, tính được số thanh chắn $N_{\\text{bars}} = 29\\text{ thanh}$ và số khe hở thông thủy $N_{\\text{spaces}} = 30\\text{ khe}$ [Page 14]. Tổng diện tích khe hở ngập nước của song chắn đặt thẳng đứng đạt $A_{\\text{space}} = 0.6\\text{ m}^2$ và vận tốc dòng chảy qua khe lúc sạch đạt $v_{\\text{thru}} = 0.46\\text{ m/s}$.",
+          "sentences": [
+            "Bước 2 - Tính số thanh đan, số khe hở và diện tích khe hở ngập nước: Từ quan hệ hình học trên mặt cắt ngang mương rộng $W = 1,500\\text{ mm}$, tính được số thanh chắn $N_{\\text{bars}} = 29\\text{ thanh}$ và số khe hở thông thủy $N_{\\text{spaces}} = 30\\text{ khe}$ [Page 14].",
+            "Tổng diện tích khe hở ngập nước của song chắn đặt thẳng đứng đạt $A_{\\text{space}} = 0.6\\text{ m}^2$ và vận tốc dòng chảy qua khe lúc sạch đạt $v_{\\text{thru}} = 0.46\\text{ m/s}$."
+          ],
+          "brief": [
+            "Bước 2 - Tính số thanh đan, số khe hở và diện tích khe hở ngập nước: Từ quan hệ hình học trên mặt cắt ngang mương rộng $W = 1,500\\text{ mm}$, tính được số thanh chắn $N_{\\text{bars}} = 29\\text{ thanh}$ và số khe hở thông thủy $N_{\\text{spaces}} = 30\\text{ khe}$ [Page 14].",
+            "Tổng diện tích khe hở ngập nước của song chắn đặt thẳng đứng đạt $A_{\\text{space}} = 0.6\\text{ m}^2$ và vận tốc dòng chảy qua khe lúc sạch đạt $v_{\\text{thru}} = 0.46\\text{ m/s}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Mương lắp $N_{\\text{bars}} = 29\\text{ thanh}$ tạo $A_{\\text{space}} = 0.6\\text{ m}^2$ và $v_{\\text{thru}} = 0.46\\text{ m/s}$. Tổng cộng có $N_{\\text{spaces}} = 30\\text{ khe}$ giúp vận tốc qua khe tăng lên $0.92\\text{ m/s}$ khi tắc $50\\%$.",
+          "takeaway": "Mương lắp $N_{\\text{bars}} = 29\\text{ thanh}$ tạo $A_{\\text{space}} = 0.6\\text{ m}^2$ và $v_{\\text{thru}} = 0.46\\text{ m/s}$",
+          "topic": "Mương lắp"
+        },
+        {
+          "id": "p-ece0c36a",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính tổn thất cột nước qua song chắn rác khi sạch và khi bị tắc nghẽn $50\\%$: Thay vận tốc qua khe $v_{\\text{thru}} = 0.46\\text{ m/s}$ và vận tốc tiếp cận $v_{\\text{app}} = 0.37\\text{ m/s}$ vào phương trình lỗ chảy với $C_{\\text{clean}} = 0.7$, thu được tổn thất cột nước khi sạch là $h_{L,\\text{clean}} = 5.4\\text{ mm}$ [Page 14]. Khi song chắn bị tắc nghẽn $50\\%$ diện tích khe hở ($v_{\\text{clog}} = 0.92\\text{ m/s}$ và $C_{\\text{clog}} = 0.6$), tổn thất cột nước tăng lên $h_{L,\\text{clog}} = 60\\text{ mm}$.",
+          "sentences": [
+            "Bước 3 - Tính tổn thất cột nước qua song chắn rác khi sạch và khi bị tắc nghẽn $50\\%$: Thay vận tốc qua khe $v_{\\text{thru}} = 0.46\\text{ m/s}$ và vận tốc tiếp cận $v_{\\text{app}} = 0.37\\text{ m/s}$ vào phương trình lỗ chảy với $C_{\\text{clean}} = 0.7$, thu được tổn thất cột nước khi sạch là $h_{L,\\text{clean}} = 5.4\\text{ mm}$ [Page 14].",
+            "Khi song chắn bị tắc nghẽn $50\\%$ diện tích khe hở ($v_{\\text{clog}} = 0.92\\text{ m/s}$ và $C_{\\text{clog}} = 0.6$), tổn thất cột nước tăng lên $h_{L,\\text{clog}} = 60\\text{ mm}$."
+          ],
+          "brief": [
+            "Bước 3 - Tính tổn thất cột nước qua song chắn rác khi sạch và khi bị tắc nghẽn $50\\%$: Thay vận tốc qua khe $v_{\\text{thru}} = 0.46\\text{ m/s}$ và vận tốc tiếp cận $v_{\\text{app}} = 0.37\\text{ m/s}$ vào phương trình lỗ chảy với $C_{\\text{clean}} = 0.7$, thu được tổn thất cột nước khi sạch là $h_{L,\\text{clean}} = 5.4\\text{ mm}$ [Page 14].",
+            "Khi song chắn bị tắc nghẽn $50\\%$ diện tích khe hở ($v_{\\text{clog}} = 0.92\\text{ m/s}$ và $C_{\\text{clog}} = 0.6$), tổn thất cột nước tăng lên $h_{L,\\text{clog}} = 60\\text{ mm}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổn thất cột nước tính được $h_{L,\\text{clean}} = 5.4\\text{ mm}$ khi sạch và $h_{L,\\text{clog}} = 60\\text{ mm}$ khi tắc. Cả hai giá trị tổn thất đều thấp hơn nhiều so với giới hạn $150\\text{ mm}$.",
+          "takeaway": "Tổn thất cột nước tính được $h_{L,\\text{clean}} = 5.4\\text{ mm}$ khi sạch và $h_{L,\\text{clog}} = 60\\text{ mm}$ khi tắc",
+          "topic": "Tổn thất cột nước"
+        },
+        {
+          "id": "p-47659d61",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng hợp đáp số xác nhận toàn bộ thông số thỏa mãn giới hạn tiêu chuẩn. Các đại lượng thủy lực đều nằm trong khoảng quy định trên slide bài giảng.",
+          "takeaway": "Tổng hợp đáp số xác nhận toàn bộ thông số thỏa mãn giới hạn tiêu chuẩn",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-85e7db1b",
+          "kind": "list item",
+          "role": "result",
+          "full": "Kích thước mương dẫn ($W, D, H$): $W = 1.5\\text{ m}$, $D = 0.5\\text{ m}$, $H = 1.0\\text{ m}$ (Kiểm tra: $h_{\\text{bv}} = 0.5\\text{ m}$ — Đạt chuẩn Slide 30–31)",
+          "sentences": [
+            "Kích thước mương dẫn ($W, D, H$): $W = 1.5\\text{ m}$, $D = 0.5\\text{ m}$, $H = 1.0\\text{ m}$ (Kiểm tra: $h_{\\text{bv}} = 0.5\\text{ m}$ — Đạt chuẩn Slide 30–31)"
+          ],
+          "brief": [
+            "Kích thước mương dẫn ($W, D, H$): $W = 1.5\\text{ m}$, $D = 0.5\\text{ m}$, $H = 1.0\\text{ m}$ (Kiểm tra: $h_{\\text{bv}} = 0.5\\text{ m}$ — Đạt chuẩn Slide 30–31)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Kích thước mương dẫn đạt $W = 1.5\\text{ m}$, $D = 0.5\\text{ m}$, $H = 1.0\\text{ m}$ và $v_{\\text{app}} = 0.37\\text{ m/s}$.",
+          "takeaway": "Kích thước mương dẫn đạt $W = 1.5\\text{ m}$, $D = 0.5\\text{ m}$, $H = 1.0\\text{ m}$ và $v_{\\text{app}} = 0.37\\text{ m/s}$",
+          "topic": "Kích thước mương"
+        },
+        {
+          "id": "p-f2c00838",
+          "kind": "list item",
+          "role": "result",
+          "full": "Vận tốc dòng chảy tiếp cận ($v_{\\text{app}}$): $0.37\\text{ m/s}$ (Kiểm tra: $0.3 \\le 0.37 \\le 0.6\\text{ m/s}$ — Đạt chuẩn Slide 29)",
+          "sentences": [
+            "Vận tốc dòng chảy tiếp cận ($v_{\\text{app}}$): $0.37\\text{ m/s}$ (Kiểm tra: $0.3 \\le 0.37 \\le 0.6\\text{ m/s}$ — Đạt chuẩn Slide 29)"
+          ],
+          "brief": [
+            "Vận tốc dòng chảy tiếp cận ($v_{\\text{app}}$): $0.37\\text{ m/s}$ (Kiểm tra: $0.3 \\le 0.37 \\le 0.6\\text{ m/s}$ — Đạt chuẩn Slide 29)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Cấu hình song chắn gồm $N_{\\text{bars}} = 29\\text{ thanh}$, $N_{\\text{spaces}} = 30\\text{ khe}$ và $A_{\\text{space}} = 0.6\\text{ m}^2$.",
+          "takeaway": "Cấu hình song chắn gồm $N_{\\text{bars}} = 29\\text{ thanh}$, $N_{\\text{spaces}} = 30\\text{ khe}$ và $A_{\\text{space}} = 0.6\\text{ m}^2$",
+          "topic": "Cấu hình song chắn"
+        },
+        {
+          "id": "p-f3723085",
+          "kind": "list item",
+          "role": "result",
+          "full": "Số thanh, số khe và diện tích khe ($N_{\\text{bars}}$, $N_{\\text{spaces}}$, $A_{\\text{space}}$): $29\\text{ thanh}$, $30\\text{ khe}$, $0.6\\text{ m}^2$ (Kiểm tra: $v_{\\text{thru}} = 0.46\\text{ m/s}$ — Đạt chuẩn Slide 32)",
+          "sentences": [
+            "Số thanh, số khe và diện tích khe ($N_{\\text{bars}}$, $N_{\\text{spaces}}$, $A_{\\text{space}}$): $29\\text{ thanh}$, $30\\text{ khe}$, $0.6\\text{ m}^2$ (Kiểm tra: $v_{\\text{thru}} = 0.46\\text{ m/s}$ — Đạt chuẩn Slide 32)"
+          ],
+          "brief": [
+            "Số thanh, số khe và diện tích khe ($N_{\\text{bars}}$, $N_{\\text{spaces}}$, $A_{\\text{space}}$): $29\\text{ thanh}$, $30\\text{ khe}$, $0.6\\text{ m}^2$ (Kiểm tra: $v_{\\text{thru}} = 0.46\\text{ m/s}$ — Đạt chuẩn Slide 32)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khi song chắn sạch có vận tốc qua khe $v_{\\text{thru}} = 0.46\\text{ m/s}$ và $h_{L,\\text{clean}} = 5.4\\text{ mm}$.",
+          "takeaway": "Khi song chắn sạch có vận tốc qua khe $v_{\\text{thru}} = 0.46\\text{ m/s}$ và $h_{L,\\text{clean}} = 5.4\\text{ mm}$",
+          "topic": "song chắn sạch"
+        },
+        {
+          "id": "p-8f652fb8",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổn thất cột nước sạch và tắc $50\\%$ ($h_{L,\\text{clean}}$, $h_{L,\\text{clog}}$): $5.4\\text{ mm}$ và $60\\text{ mm}$ (Kiểm tra: $60\\text{ mm} < 150\\text{ mm}$ — Đạt chuẩn Slide 29)",
+          "sentences": [
+            "Tổn thất cột nước sạch và tắc $50\\%$ ($h_{L,\\text{clean}}$, $h_{L,\\text{clog}}$): $5.4\\text{ mm}$ và $60\\text{ mm}$ (Kiểm tra: $60\\text{ mm} < 150\\text{ mm}$ — Đạt chuẩn Slide 29)"
+          ],
+          "brief": [
+            "Tổn thất cột nước sạch và tắc $50\\%$ ($h_{L,\\text{clean}}$, $h_{L,\\text{clog}}$): $5.4\\text{ mm}$ và $60\\text{ mm}$ (Kiểm tra: $60\\text{ mm} < 150\\text{ mm}$ — Đạt chuẩn Slide 29)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khi tắc nghẽn $50\\%$ có vận tốc $v_{\\text{thru,clog}} = 0.92\\text{ m/s}$ và $h_{L,\\text{clog}} = 60\\text{ mm}$.",
+          "takeaway": "Khi tắc nghẽn $50\\%$ có vận tốc $v_{\\text{thru,clog}} = 0.92\\text{ m/s}$ và $h_{L,\\text{clog}} = 60\\text{ mm}$",
+          "topic": "Khi tắc nghẽn"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch03_1_ex02-slide-3337-tính-tổn-thất-cột-nước-qua-song-chắn-rác-đặt-nghiêng-góc-50-55-và-60",
+      "num": "",
+      "title": "Bài tập ch03_1_ex02 (Slide 33–37): Tính tổn thất cột nước qua song chắn rác đặt nghiêng góc 50°, 55° và 60°",
+      "depth": 2,
+      "takeaway": "Đặt nghiêng song chắn góc $50^\\circ$, $55^\\circ$, $60^\\circ$ làm giảm tổn thất cột nước xuống $3.2\\text{ mm}$",
+      "topic": "Đặt nghiêng song",
+      "units": [
+        {
+          "id": "p-8da7c54c",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy] cho góc $50^\\circ$ tại Ảnh #139 Slide 34 kết hợp [Lời giải khôi phục theo chuẩn slide của thầy] cho góc $55^\\circ, 60^\\circ$): Từ kết quả thiết kế mương dẫn của bài tập ch03_1_ex01 ($Q = 1,000\\text{ m}^3/\\text{h}$, $W = 1.5\\text{ m}$, $D = 0.5\\text{ m}$, $N_{\\text{spaces}} = 30\\text{ khe}$, $e = 0.04\\text{ m}$), hãy xác định lại vận tốc qua khe và tổn thất cột nước qua song chắn rác sạch khi đặt nghiêng góc $\\theta = 50^\\circ$, $\\theta = 55^\\circ$ và $\\theta = 60^\\circ$ so với phương ngang [Page 16]. Nhận xét ảnh hưởng của góc nghiêng $\\theta$ đến vận tốc dòng chảy qua khe và tổn thất cột nước [Page 16].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] cho góc $50^\\circ$ tại Ảnh #139 Slide 34 kết hợp [Lời giải khôi phục theo chuẩn slide của thầy] cho góc $55^\\circ, 60^\\circ$): Từ kết quả thiết kế mương dẫn của bài tập ch03_1_ex01 ($Q = 1,000\\text{ m}^3/\\text{h}$, $W = 1.5\\text{ m}$, $D = 0.5\\text{ m}$, $N_{\\text{spaces}} = 30\\text{ khe}$, $e = 0.04\\text{ m}$), hãy xác định lại vận tốc qua khe và tổn thất cột nước qua song chắn rác sạch khi đặt nghiêng góc $\\theta = 50^\\circ$, $\\theta = 55^\\circ$ và $\\theta = 60^\\circ$ so với phương ngang [Page 16].",
+            "Nhận xét ảnh hưởng của góc nghiêng $\\theta$ đến vận tốc dòng chảy qua khe và tổn thất cột nước [Page 16]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] cho góc $50^\\circ$ tại Ảnh #139 Slide 34 kết hợp [Lời giải khôi phục theo chuẩn slide của thầy] cho góc $55^\\circ, 60^\\circ$): Từ kết quả thiết kế mương dẫn của bài tập ch03_1_ex01 ($Q = 1,000\\text{ m}^3/\\text{h}$, $W = 1.5\\text{ m}$, $D = 0.5\\text{ m}$, $N_{\\text{spaces}} = 30\\text{ khe}$, $e = 0.04\\text{ m}$), hãy xác định lại vận tốc qua khe và tổn thất cột nước qua song chắn rác sạch khi đặt nghiêng góc $\\theta = 50^\\circ$, $\\theta = 55^\\circ$ và $\\theta = 60^\\circ$ so với phương ngang [Page 16].",
+            "Nhận xét ảnh hưởng của góc nghiêng $\\theta$ đến vận tốc dòng chảy qua khe và tổn thất cột nước [Page 16]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài yêu cầu tính tổn thất cột nước qua song chắn nghiêng $50^\\circ$, $55^\\circ$ và $60^\\circ$. Bài toán kế thừa thông số $Q = 1,000\\text{ m}^3/\\text{h}$, $W = 1.5\\text{ m}$ và $D = 0.5\\text{ m}$.",
+          "takeaway": "Đề bài yêu cầu tính tổn thất cột nước qua song chắn nghiêng $50^\\circ$, $55^\\circ$ và $60^\\circ$",
+          "topic": "tổn thất cột nước"
+        },
+        {
+          "id": "p-d78ff419",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính diện tích ngập nước, vận tốc và tổn thất cột nước tại góc nghiêng $\\theta = 50^\\circ$: Khi đặt nghiêng góc $\\theta = 50^\\circ$ so với phương ngang, chiều dài ngập nước của thanh chắn tăng theo tỷ số $SL = \\frac{D}{\\sin 50^\\circ}$ nên diện tích khe hở đạt $A_{\\text{space}} = 0.78\\text{ m}^2$ và diện tích mặt nghiêng đạt $A_{\\text{total}} = 0.98\\text{ m}^2$ [Page 16]. Từ đó tính được vận tốc qua khe $v_{\\text{thru}} = 0.35\\text{ m/s}$, vận tốc tới gần $v_{\\text{app}} = 0.28\\text{ m/s}$ và tổn thất cột nước $h_L(50^\\circ) = 3.2\\text{ mm}$.",
+          "sentences": [
+            "Bước 1 - Tính diện tích ngập nước, vận tốc và tổn thất cột nước tại góc nghiêng $\\theta = 50^\\circ$: Khi đặt nghiêng góc $\\theta = 50^\\circ$ so với phương ngang, chiều dài ngập nước của thanh chắn tăng theo tỷ số $SL = \\frac{D}{\\sin 50^\\circ}$ nên diện tích khe hở đạt $A_{\\text{space}} = 0.78\\text{ m}^2$ và diện tích mặt nghiêng đạt $A_{\\text{total}} = 0.98\\text{ m}^2$ [Page 16].",
+            "Từ đó tính được vận tốc qua khe $v_{\\text{thru}} = 0.35\\text{ m/s}$, vận tốc tới gần $v_{\\text{app}} = 0.28\\text{ m/s}$ và tổn thất cột nước $h_L(50^\\circ) = 3.2\\text{ mm}$."
+          ],
+          "brief": [
+            "Bước 1 - Tính diện tích ngập nước, vận tốc và tổn thất cột nước tại góc nghiêng $\\theta = 50^\\circ$: Khi đặt nghiêng góc $\\theta = 50^\\circ$ so với phương ngang, chiều dài ngập nước của thanh chắn tăng theo tỷ số $SL = \\frac{D}{\\sin 50^\\circ}$ nên diện tích khe hở đạt $A_{\\text{space}} = 0.78\\text{ m}^2$ và diện tích mặt nghiêng đạt $A_{\\text{total}} = 0.98\\text{ m}^2$ [Page 16].",
+            "Từ đó tính được vận tốc qua khe $v_{\\text{thru}} = 0.35\\text{ m/s}$, vận tốc tới gần $v_{\\text{app}} = 0.28\\text{ m/s}$ và tổn thất cột nước $h_L(50^\\circ) = 3.2\\text{ mm}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tại góc nghiêng $\\theta = 50^\\circ$, diện tích khe tăng lên $A_{\\text{space}} = 0.78\\text{ m}^2$ và $h_L = 3.2\\text{ mm}$. Vận tốc qua khe giảm còn $v_{\\text{thru}} = 0.35\\text{ m/s}$ và vận tốc tới gần đạt $v_{\\text{app}} = 0.28\\text{ m/s}$.",
+          "takeaway": "Tại góc nghiêng $\\theta = 50^\\circ$, diện tích khe tăng lên $A_{\\text{space}} = 0.78\\text{ m}^2$ và $h_L = 3.2\\text{ mm}$",
+          "topic": "diện tích khe"
+        },
+        {
+          "id": "p-3ed6381e",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính diện tích ngập nước, vận tốc và tổn thất cột nước tại góc nghiêng $\\theta = 55^\\circ$: Áp dụng công thức hình học mặt nghiêng tại góc $\\theta = 55^\\circ$, thu được diện tích khe hở ngập nước $A_{\\text{space}} = 0.73\\text{ m}^2$ và diện tích mặt nghiêng $A_{\\text{total}} = 0.92\\text{ m}^2$ [Page 16]. Vận tốc qua khe đạt $v_{\\text{thru}} = 0.38\\text{ m/s}$, vận tốc tới gần đạt $v_{\\text{app}} = 0.30\\text{ m/s}$ và tổn thất cột nước đạt $h_L(55^\\circ) = 4.0\\text{ mm}$.",
+          "sentences": [
+            "Bước 2 - Tính diện tích ngập nước, vận tốc và tổn thất cột nước tại góc nghiêng $\\theta = 55^\\circ$: Áp dụng công thức hình học mặt nghiêng tại góc $\\theta = 55^\\circ$, thu được diện tích khe hở ngập nước $A_{\\text{space}} = 0.73\\text{ m}^2$ và diện tích mặt nghiêng $A_{\\text{total}} = 0.92\\text{ m}^2$ [Page 16].",
+            "Vận tốc qua khe đạt $v_{\\text{thru}} = 0.38\\text{ m/s}$, vận tốc tới gần đạt $v_{\\text{app}} = 0.30\\text{ m/s}$ và tổn thất cột nước đạt $h_L(55^\\circ) = 4.0\\text{ mm}$."
+          ],
+          "brief": [
+            "Bước 2 - Tính diện tích ngập nước, vận tốc và tổn thất cột nước tại góc nghiêng $\\theta = 55^\\circ$: Áp dụng công thức hình học mặt nghiêng tại góc $\\theta = 55^\\circ$, thu được diện tích khe hở ngập nước $A_{\\text{space}} = 0.73\\text{ m}^2$ và diện tích mặt nghiêng $A_{\\text{total}} = 0.92\\text{ m}^2$ [Page 16].",
+            "Vận tốc qua khe đạt $v_{\\text{thru}} = 0.38\\text{ m/s}$, vận tốc tới gần đạt $v_{\\text{app}} = 0.30\\text{ m/s}$ và tổn thất cột nước đạt $h_L(55^\\circ) = 4.0\\text{ mm}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tại góc nghiêng $\\theta = 55^\\circ$, diện tích khe đạt $A_{\\text{space}} = 0.73\\text{ m}^2$ và $h_L = 4.0\\text{ mm}$. Vận tốc qua khe bằng $v_{\\text{thru}} = 0.38\\text{ m/s}$ và vận tốc tới gần bằng $v_{\\text{app}} = 0.30\\text{ m/s}$.",
+          "takeaway": "Tại góc nghiêng $\\theta = 55^\\circ$, diện tích khe đạt $A_{\\text{space}} = 0.73\\text{ m}^2$ và $h_L = 4.0\\text{ mm}$",
+          "topic": "Tại góc nghiêng"
+        },
+        {
+          "id": "p-d1f77796",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính diện tích ngập nước, vận tốc và tổn thất cột nước tại góc nghiêng $\\theta = 60^\\circ$: Tại góc nghiêng $\\theta = 60^\\circ$ so với phương ngang, diện tích khe hở ngập nước bằng $A_{\\text{space}} = 0.69\\text{ m}^2$ và tổng diện tích mặt nghiêng bằng $A_{\\text{total}} = 0.87\\text{ m}^2$ [Page 16]. Vận tốc dòng chảy qua khe bằng $v_{\\text{thru}} = 0.40\\text{ m/s}$, vận tốc tới gần bằng $v_{\\text{app}} = 0.32\\text{ m/s}$ và tổn thất cột nước bằng $h_L(60^\\circ) = 4.2\\text{ mm}$.",
+          "sentences": [
+            "Bước 3 - Tính diện tích ngập nước, vận tốc và tổn thất cột nước tại góc nghiêng $\\theta = 60^\\circ$: Tại góc nghiêng $\\theta = 60^\\circ$ so với phương ngang, diện tích khe hở ngập nước bằng $A_{\\text{space}} = 0.69\\text{ m}^2$ và tổng diện tích mặt nghiêng bằng $A_{\\text{total}} = 0.87\\text{ m}^2$ [Page 16].",
+            "Vận tốc dòng chảy qua khe bằng $v_{\\text{thru}} = 0.40\\text{ m/s}$, vận tốc tới gần bằng $v_{\\text{app}} = 0.32\\text{ m/s}$ và tổn thất cột nước bằng $h_L(60^\\circ) = 4.2\\text{ mm}$."
+          ],
+          "brief": [
+            "Bước 3 - Tính diện tích ngập nước, vận tốc và tổn thất cột nước tại góc nghiêng $\\theta = 60^\\circ$: Tại góc nghiêng $\\theta = 60^\\circ$ so với phương ngang, diện tích khe hở ngập nước bằng $A_{\\text{space}} = 0.69\\text{ m}^2$ và tổng diện tích mặt nghiêng bằng $A_{\\text{total}} = 0.87\\text{ m}^2$ [Page 16].",
+            "Vận tốc dòng chảy qua khe bằng $v_{\\text{thru}} = 0.40\\text{ m/s}$, vận tốc tới gần bằng $v_{\\text{app}} = 0.32\\text{ m/s}$ và tổn thất cột nước bằng $h_L(60^\\circ) = 4.2\\text{ mm}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tại góc nghiêng $\\theta = 60^\\circ$, diện tích khe đạt $A_{\\text{space}} = 0.69\\text{ m}^2$ và $h_L = 4.2\\text{ mm}$. Vận tốc qua khe bằng $v_{\\text{thru}} = 0.40\\text{ m/s}$ và vận tốc tới gần bằng $v_{\\text{app}} = 0.32\\text{ m/s}$.",
+          "takeaway": "Tại góc nghiêng $\\theta = 60^\\circ$, diện tích khe đạt $A_{\\text{space}} = 0.69\\text{ m}^2$ và $h_L = 4.2\\text{ mm}$",
+          "topic": "diện tích khe"
+        },
+        {
+          "id": "p-912cec5b",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Bước 4 - Bảng đối chiếu tổng hợp và nhận xét ảnh hưởng của góc nghiêng $\\theta$: Khi giảm góc nghiêng $\\theta$ so với phương ngang từ $90^\\circ$ xuống $50^\\circ$, chiều dài ngập nước $SL = \\frac{D}{\\sin\\theta}$ tăng lên làm mở rộng diện tích khe hở $A_{\\text{space}}$, nhờ đó làm giảm vận tốc qua khe $v_{\\text{thru}}$ và giảm tổn thất cột nước $h_L$ qua song chắn rác.",
+          "sentences": [
+            "Bước 4 - Bảng đối chiếu tổng hợp và nhận xét ảnh hưởng của góc nghiêng $\\theta$: Khi giảm góc nghiêng $\\theta$ so với phương ngang từ $90^\\circ$ xuống $50^\\circ$, chiều dài ngập nước $SL = \\frac{D}{\\sin\\theta}$ tăng lên làm mở rộng diện tích khe hở $A_{\\text{space}}$, nhờ đó làm giảm vận tốc qua khe $v_{\\text{thru}}$ và giảm tổn thất cột nước $h_L$ qua song chắn rác."
+          ],
+          "brief": [
+            "Bước 4 - Bảng đối chiếu tổng hợp và nhận xét ảnh hưởng của góc nghiêng $\\theta$: Khi giảm góc nghiêng $\\theta$ so với phương ngang từ $90^\\circ$ xuống $50^\\circ$, chiều dài ngập nước $SL = \\frac{D}{\\sin\\theta}$ tăng lên làm mở rộng diện tích khe hở $A_{\\text{space}}$, nhờ đó làm giảm vận tốc qua khe $v_{\\text{thru}}$ và giảm tổn thất cột nước $h_L$ qua song chắn rác."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Giảm góc nghiêng $\\theta$ từ $90^\\circ$ xuống $50^\\circ$ làm tăng $A_{\\text{space}}$ và giảm tổn thất $h_L$.",
+          "takeaway": "Giảm góc nghiêng $\\theta$ từ $90^\\circ$ xuống $50^\\circ$ làm tăng $A_{\\text{space}}$ và giảm tổn thất $h_L$",
+          "topic": "Giảm góc nghiêng"
+        },
+        {
+          "id": "p-47659d61-2",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng hợp đáp số xác nhận tổn thất cột nước giảm dần khi hạ góc nghiêng. Mọi phương án góc nghiêng đều thỏa mãn giới hạn tổn thất $h_L \\le 150\\text{ mm}$.",
+          "takeaway": "Tổng hợp đáp số xác nhận tổn thất cột nước giảm dần khi hạ góc nghiêng",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-8de78f0f",
+          "kind": "list item",
+          "role": "result",
+          "full": "Phương án góc nghiêng $\\theta = 50^\\circ$ ($h_L(50^\\circ)$): $3.2\\text{ mm}$ với $v_{\\text{thru}} = 0.35\\text{ m/s}$ (Kiểm tra: $3.2\\text{ mm} < 150\\text{ mm}$ — Đạt chuẩn Slide 29 & 34)",
+          "sentences": [
+            "Phương án góc nghiêng $\\theta = 50^\\circ$ ($h_L(50^\\circ)$): $3.2\\text{ mm}$ với $v_{\\text{thru}} = 0.35\\text{ m/s}$ (Kiểm tra: $3.2\\text{ mm} < 150\\text{ mm}$ — Đạt chuẩn Slide 29 & 34)"
+          ],
+          "brief": [
+            "Phương án góc nghiêng $\\theta = 50^\\circ$ ($h_L(50^\\circ)$): $3.2\\text{ mm}$ với $v_{\\text{thru}} = 0.35\\text{ m/s}$ (Kiểm tra: $3.2\\text{ mm} < 150\\text{ mm}$ — Đạt chuẩn Slide 29 & 34)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Phương án góc $\\theta = 50^\\circ$ cho $A_{\\text{space}} = 0.78\\text{ m}^2$, $v_{\\text{thru}} = 0.35\\text{ m/s}$ và $h_L = 3.2\\text{ mm}$.",
+          "takeaway": "Phương án góc $\\theta = 50^\\circ$ cho $A_{\\text{space}} = 0.78\\text{ m}^2$, $v_{\\text{thru}} = 0.35\\text{ m/s}$ và $h_L = 3.2\\text{ mm}$",
+          "topic": "Phương án góc"
+        },
+        {
+          "id": "p-e7122b4e",
+          "kind": "list item",
+          "role": "result",
+          "full": "Phương án góc nghiêng $\\theta = 55^\\circ$ ($h_L(55^\\circ)$): $4.0\\text{ mm}$ với $v_{\\text{thru}} = 0.38\\text{ m/s}$ (Kiểm tra: $4.0\\text{ mm} < 150\\text{ mm}$ — Đạt chuẩn Slide 29)",
+          "sentences": [
+            "Phương án góc nghiêng $\\theta = 55^\\circ$ ($h_L(55^\\circ)$): $4.0\\text{ mm}$ với $v_{\\text{thru}} = 0.38\\text{ m/s}$ (Kiểm tra: $4.0\\text{ mm} < 150\\text{ mm}$ — Đạt chuẩn Slide 29)"
+          ],
+          "brief": [
+            "Phương án góc nghiêng $\\theta = 55^\\circ$ ($h_L(55^\\circ)$): $4.0\\text{ mm}$ với $v_{\\text{thru}} = 0.38\\text{ m/s}$ (Kiểm tra: $4.0\\text{ mm} < 150\\text{ mm}$ — Đạt chuẩn Slide 29)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Phương án góc $\\theta = 55^\\circ$ cho $A_{\\text{space}} = 0.73\\text{ m}^2$, $v_{\\text{thru}} = 0.38\\text{ m/s}$ và $h_L = 4.0\\text{ mm}$.",
+          "takeaway": "Phương án góc $\\theta = 55^\\circ$ cho $A_{\\text{space}} = 0.73\\text{ m}^2$, $v_{\\text{thru}} = 0.38\\text{ m/s}$ và $h_L = 4.0\\text{ mm}$",
+          "topic": "Phương án góc"
+        },
+        {
+          "id": "p-29805470",
+          "kind": "list item",
+          "role": "result",
+          "full": "Phương án góc nghiêng $\\theta = 60^\\circ$ ($h_L(60^\\circ)$): $4.2\\text{ mm}$ với $v_{\\text{thru}} = 0.40\\text{ m/s}$ (Kiểm tra: $4.2\\text{ mm} < 150\\text{ mm}$ — Đạt chuẩn Slide 29)",
+          "sentences": [
+            "Phương án góc nghiêng $\\theta = 60^\\circ$ ($h_L(60^\\circ)$): $4.2\\text{ mm}$ với $v_{\\text{thru}} = 0.40\\text{ m/s}$ (Kiểm tra: $4.2\\text{ mm} < 150\\text{ mm}$ — Đạt chuẩn Slide 29)"
+          ],
+          "brief": [
+            "Phương án góc nghiêng $\\theta = 60^\\circ$ ($h_L(60^\\circ)$): $4.2\\text{ mm}$ với $v_{\\text{thru}} = 0.40\\text{ m/s}$ (Kiểm tra: $4.2\\text{ mm} < 150\\text{ mm}$ — Đạt chuẩn Slide 29)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Phương án góc $\\theta = 60^\\circ$ cho $A_{\\text{space}} = 0.69\\text{ m}^2$, $v_{\\text{thru}} = 0.40\\text{ m/s}$ và $h_L = 4.2\\text{ mm}$.",
+          "takeaway": "Phương án góc $\\theta = 60^\\circ$ cho $A_{\\text{space}} = 0.69\\text{ m}^2$, $v_{\\text{thru}} = 0.40\\text{ m/s}$ và $h_L = 4.2\\text{ mm}$",
+          "topic": "Phương án góc"
+        },
+        {
+          "id": "p-917e11b8",
+          "kind": "list item",
+          "role": "context",
+          "full": "Quy luật thủy lực khi giảm góc nghiêng ($\\theta$): $h_L(50^\\circ) < h_L(55^\\circ)$ và $h_L(55^\\circ) < h_L(60^\\circ)$ (Kiểm tra: giảm $\\theta$ giúp giảm $v_{\\text{thru}}$ và $h_L$ — Đạt yêu cầu)",
+          "sentences": [
+            "Quy luật thủy lực khi giảm góc nghiêng ($\\theta$): $h_L(50^\\circ) < h_L(55^\\circ)$ và $h_L(55^\\circ) < h_L(60^\\circ)$ (Kiểm tra: giảm $\\theta$ giúp giảm $v_{\\text{thru}}$ và $h_L$ — Đạt yêu cầu)"
+          ],
+          "brief": [
+            "Quy luật thủy lực khi giảm góc nghiêng ($\\theta$): $h_L(50^\\circ) < h_L(55^\\circ)$ và $h_L(55^\\circ) < h_L(60^\\circ)$ (Kiểm tra: giảm $\\theta$ giúp giảm $v_{\\text{thru}}$ và $h_L$ — Đạt yêu cầu)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Quy luật thủy lực chứng minh $h_L(50^\\circ) = 3.2\\text{ mm} < h_L(60^\\circ) = 4.2\\text{ mm} < h_L(90^\\circ) = 5.4\\text{ mm}$.",
+          "takeaway": "Quy luật thủy lực chứng minh $h_L(50^\\circ) = 3.2\\text{ mm} < h_L(60^\\circ) = 4.2\\text{ mm} < h_L(90^\\circ) = 5.4\\text{ mm}$",
+          "topic": "Quy luật thủy lực"
+        }
+      ]
+    },
+    {
+      "id": "sec-6-lời-giải-chi-tiết-bài-tập-homework-chiếu-trên-lớp-worked-classroom-homework-proj_ch03_1_hw01",
+      "num": "6",
+      "title": "Lời giải chi tiết bài tập Homework chiếu trên lớp (Worked Classroom Homework: proj_ch03_1_hw01)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-proj_ch03_1_hw01-slide-3538---homework-thiết-kế-mương-dẫn-đặt-song-chắn-rác-thô-cào-cơ-giới-nghiêng-75",
+      "num": "",
+      "title": "Bài tập proj_ch03_1_hw01 (Slide 35/38 - Homework): Thiết kế mương dẫn đặt song chắn rác thô cào cơ giới nghiêng 75°",
+      "depth": 2,
+      "takeaway": "Thiết kế song chắn cơ giới nghiêng $75^\\circ$ cho $Q = 40,000\\text{ m}^3/\\text{d}$ đạt $h_L = 38\\text{ mm}$",
+      "topic": "Thiết kế song chắn",
+      "units": [
+        {
+          "id": "p-4c64397c",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy] — Ảnh đề bài lớp học #21, #140, #141, Slide 35/38): Xác định kích thước mương dẫn cho song chắn rác thô cào cơ giới phục vụ lưu lượng thiết kế $Q = 40,000\\text{ m}^3/\\text{d}$ ($0.463\\text{ m}^3/\\text{s}$) [Page 14] [Page 15]. Song chắn rác đặt nghiêng góc $\\theta = 75^\\circ$ so với phương ngang, sử dụng các thanh chắn có bề rộng $b = 12\\text{ mm}$ ($0.012\\text{ m}$), khoảng cách khe hở thông thủy $e = 12\\text{ mm}$ ($0.012\\text{ m}$) và vận tốc dòng chảy thượng lưu phải lớn hơn $0.4\\text{ m/s}$. Tính tổn thất cột nước qua song chắn rác khi sạch và khi bị tắc nghẽn $50\\%$.",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy] — Ảnh đề bài lớp học #21, #140, #141, Slide 35/38): Xác định kích thước mương dẫn cho song chắn rác thô cào cơ giới phục vụ lưu lượng thiết kế $Q = 40,000\\text{ m}^3/\\text{d}$ ($0.463\\text{ m}^3/\\text{s}$) [Page 14] [Page 15].",
+            "Song chắn rác đặt nghiêng góc $\\theta = 75^\\circ$ so với phương ngang, sử dụng các thanh chắn có bề rộng $b = 12\\text{ mm}$ ($0.012\\text{ m}$), khoảng cách khe hở thông thủy $e = 12\\text{ mm}$ ($0.012\\text{ m}$) và vận tốc dòng chảy thượng lưu phải lớn hơn $0.4\\text{ m/s}$.",
+            "Tính tổn thất cột nước qua song chắn rác khi sạch và khi bị tắc nghẽn $50\\%$."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy] — Ảnh đề bài lớp học #21, #140, #141, Slide 35/38): Xác định kích thước mương dẫn cho song chắn rác thô cào cơ giới phục vụ lưu lượng thiết kế $Q = 40,000\\text{ m}^3/\\text{d}$ ($0.463\\text{ m}^3/\\text{s}$) [Page 14] [Page 15].",
+            "Song chắn rác đặt nghiêng góc $\\theta = 75^\\circ$ so với phương ngang, sử dụng các thanh chắn có bề rộng $b = 12\\text{ mm}$ ($0.012\\text{ m}$), khoảng cách khe hở thông thủy $e = 12\\text{ mm}$ ($0.012\\text{ m}$) và vận tốc dòng chảy thượng lưu phải lớn hơn $0.4\\text{ m/s}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài thiết kế song chắn cơ giới nghiêng $\\theta = 75^\\circ$ cho lưu lượng $Q = 40,000\\text{ m}^3/\\text{d}$. Song chắn có khe hở $e = 12\\text{ mm}$, thanh dày $b = 12\\text{ mm}$ và yêu cầu $v > 0.4\\text{ m/s}$.",
+          "takeaway": "Đề bài thiết kế song chắn cơ giới nghiêng $\\theta = 75^\\circ$ cho lưu lượng $Q = 40,000\\text{ m}^3/\\text{d}$",
+          "topic": "song chắn cơ giới"
+        },
+        {
+          "id": "p-95fbb1e0",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bước 1 - Tính chiều sâu mực nước và vận tốc dòng chảy trong mương thượng lưu: Giải đồng thời phương trình liên tục và phương trình Manning với bề rộng mương $W = 1.5\\text{ m}$, độ dốc đáy $S = 0.0001\\text{ m/m}$ và hệ số nhám $n = 0.012$ [Page 13]. Thu được chiều sâu mực nước $D = 0.72\\text{ m}$, vận tốc dòng chảy thượng lưu $v = 0.43\\text{ m/s}$ và tổng chiều cao mương $H = 1.22\\text{ m}$.",
+          "sentences": [
+            "Bước 1 - Tính chiều sâu mực nước và vận tốc dòng chảy trong mương thượng lưu: Giải đồng thời phương trình liên tục và phương trình Manning với bề rộng mương $W = 1.5\\text{ m}$, độ dốc đáy $S = 0.0001\\text{ m/m}$ và hệ số nhám $n = 0.012$ [Page 13].",
+            "Thu được chiều sâu mực nước $D = 0.72\\text{ m}$, vận tốc dòng chảy thượng lưu $v = 0.43\\text{ m/s}$ và tổng chiều cao mương $H = 1.22\\text{ m}$."
+          ],
+          "brief": [
+            "Bước 1 - Tính chiều sâu mực nước và vận tốc dòng chảy trong mương thượng lưu: Giải đồng thời phương trình liên tục và phương trình Manning với bề rộng mương $W = 1.5\\text{ m}$, độ dốc đáy $S = 0.0001\\text{ m/m}$ và hệ số nhám $n = 0.012$ [Page 13].",
+            "Thu được chiều sâu mực nước $D = 0.72\\text{ m}$, vận tốc dòng chảy thượng lưu $v = 0.43\\text{ m/s}$ và tổng chiều cao mương $H = 1.22\\text{ m}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Bước giải Manning chọn bề rộng $W = 1.5\\text{ m}$ và tìm chiều sâu $D = 0.72\\text{ m}$. Vận tốc mương đạt $v = 0.43\\text{ m/s} > 0.4\\text{ m/s}$ với tổng chiều cao $H = 1.22\\text{ m}$.",
+          "takeaway": "Bước giải Manning chọn bề rộng $W = 1.5\\text{ m}$ và tìm chiều sâu $D = 0.72\\text{ m}$",
+          "topic": "Bước giải Manning"
+        },
+        {
+          "id": "p-7a22df1f",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính số thanh chắn, diện tích mặt nghiêng và vận tốc qua khe: Với bề rộng mương $W = 1,500\\text{ mm}$, số thanh chắn tính được vừa tròn $N_{\\text{bars}} = 62\\text{ thanh}$ và số khe hở là $N_{\\text{spaces}} = 63\\text{ khe}$ [Page 14]. Tại góc nghiêng $\\theta = 75^\\circ$, diện tích khe hở ngập nước đạt $A_{\\text{space}} = 0.56\\text{ m}^2$, tổng diện tích mặt nghiêng đạt $A_{\\text{total}} = 1.12\\text{ m}^2$, vận tốc qua khe đạt $v_{\\text{thru}} = 0.83\\text{ m/s}$ và vận tốc tới gần đạt $v_{\\text{app}} = 0.41\\text{ m/s}$.",
+          "sentences": [
+            "Bước 2 - Tính số thanh chắn, diện tích mặt nghiêng và vận tốc qua khe: Với bề rộng mương $W = 1,500\\text{ mm}$, số thanh chắn tính được vừa tròn $N_{\\text{bars}} = 62\\text{ thanh}$ và số khe hở là $N_{\\text{spaces}} = 63\\text{ khe}$ [Page 14].",
+            "Tại góc nghiêng $\\theta = 75^\\circ$, diện tích khe hở ngập nước đạt $A_{\\text{space}} = 0.56\\text{ m}^2$, tổng diện tích mặt nghiêng đạt $A_{\\text{total}} = 1.12\\text{ m}^2$, vận tốc qua khe đạt $v_{\\text{thru}} = 0.83\\text{ m/s}$ và vận tốc tới gần đạt $v_{\\text{app}} = 0.41\\text{ m/s}$."
+          ],
+          "brief": [
+            "Bước 2 - Tính số thanh chắn, diện tích mặt nghiêng và vận tốc qua khe: Với bề rộng mương $W = 1,500\\text{ mm}$, số thanh chắn tính được vừa tròn $N_{\\text{bars}} = 62\\text{ thanh}$ và số khe hở là $N_{\\text{spaces}} = 63\\text{ khe}$ [Page 14].",
+            "Tại góc nghiêng $\\theta = 75^\\circ$, diện tích khe hở ngập nước đạt $A_{\\text{space}} = 0.56\\text{ m}^2$, tổng diện tích mặt nghiêng đạt $A_{\\text{total}} = 1.12\\text{ m}^2$, vận tốc qua khe đạt $v_{\\text{thru}} = 0.83\\text{ m/s}$ và vận tốc tới gần đạt $v_{\\text{app}} = 0.41\\text{ m/s}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Mương lắp $N_{\\text{bars}} = 62\\text{ thanh}$ tạo $A_{\\text{space}} = 0.56\\text{ m}^2$ và $v_{\\text{thru}} = 0.83\\text{ m/s}$. Vận tốc tới gần theo mặt nghiêng đạt $v_{\\text{app}} = 0.41\\text{ m/s}$ và $v_{\\text{thru,clog}} = 1.66\\text{ m/s}$.",
+          "takeaway": "Mương lắp $N_{\\text{bars}} = 62\\text{ thanh}$ tạo $A_{\\text{space}} = 0.56\\text{ m}^2$ và $v_{\\text{thru}} = 0.83\\text{ m/s}$",
+          "topic": "Mương lắp"
+        },
+        {
+          "id": "p-6405a715",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính tổn thất cột nước qua song chắn cơ giới khi sạch và khi tắc nghẽn $50\\%$: Áp dụng phương trình lỗ chảy, tổn thất cột nước qua song chắn sạch ($C_{\\text{clean}} = 0.7$) bằng $h_{L,\\text{clean}} = 38\\text{ mm}$ [Page 14]. Khi bị tắc nghẽn $50\\%$ diện tích khe hở ($v_{\\text{clog}} = 1.66\\text{ m/s}$ và $C_{\\text{clog}} = 0.6$), tổn thất cột nước bằng $h_{L,\\text{clog}} = 220\\text{ mm}$.",
+          "sentences": [
+            "Bước 3 - Tính tổn thất cột nước qua song chắn cơ giới khi sạch và khi tắc nghẽn $50\\%$: Áp dụng phương trình lỗ chảy, tổn thất cột nước qua song chắn sạch ($C_{\\text{clean}} = 0.7$) bằng $h_{L,\\text{clean}} = 38\\text{ mm}$ [Page 14].",
+            "Khi bị tắc nghẽn $50\\%$ diện tích khe hở ($v_{\\text{clog}} = 1.66\\text{ m/s}$ và $C_{\\text{clog}} = 0.6$), tổn thất cột nước bằng $h_{L,\\text{clog}} = 220\\text{ mm}$."
+          ],
+          "brief": [
+            "Bước 3 - Tính tổn thất cột nước qua song chắn cơ giới khi sạch và khi tắc nghẽn $50\\%$: Áp dụng phương trình lỗ chảy, tổn thất cột nước qua song chắn sạch ($C_{\\text{clean}} = 0.7$) bằng $h_{L,\\text{clean}} = 38\\text{ mm}$ [Page 14].",
+            "Khi bị tắc nghẽn $50\\%$ diện tích khe hở ($v_{\\text{clog}} = 1.66\\text{ m/s}$ và $C_{\\text{clog}} = 0.6$), tổn thất cột nước bằng $h_{L,\\text{clog}} = 220\\text{ mm}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổn thất cột nước tính được $h_{L,\\text{clean}} = 38\\text{ mm}$ khi sạch và $h_{L,\\text{clog}} = 220\\text{ mm}$ khi tắc. Cả hai giá trị đều nằm trong giới hạn cho phép từ $150\\text{ mm}$ đến $600\\text{ mm}$ của máy cào.",
+          "takeaway": "Tổn thất cột nước tính được $h_{L,\\text{clean}} = 38\\text{ mm}$ khi sạch và $h_{L,\\text{clog}} = 220\\text{ mm}$ khi tắc",
+          "topic": "Tổn thất cột nước"
+        },
+        {
+          "id": "p-47659d61-3",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng hợp đáp số xác nhận phương án thiết kế thỏa mãn tiêu chuẩn bài giảng. Vận tốc và tổn thất cột nước đều đạt chuẩn song chắn rác cào cơ giới.",
+          "takeaway": "Tổng hợp đáp số xác nhận phương án thiết kế thỏa mãn tiêu chuẩn bài giảng",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-896c58b8",
+          "kind": "list item",
+          "role": "result",
+          "full": "Kích thước mương dẫn ($W, D, H$): $W = 1.5\\text{ m}$, $D = 0.72\\text{ m}$, $H = 1.22\\text{ m}$ (Kiểm tra: $h_{\\text{bv}} = 0.5\\text{ m}$ — Đạt chuẩn Slide 30)",
+          "sentences": [
+            "Kích thước mương dẫn ($W, D, H$): $W = 1.5\\text{ m}$, $D = 0.72\\text{ m}$, $H = 1.22\\text{ m}$ (Kiểm tra: $h_{\\text{bv}} = 0.5\\text{ m}$ — Đạt chuẩn Slide 30)"
+          ],
+          "brief": [
+            "Kích thước mương dẫn ($W, D, H$): $W = 1.5\\text{ m}$, $D = 0.72\\text{ m}$, $H = 1.22\\text{ m}$ (Kiểm tra: $h_{\\text{bv}} = 0.5\\text{ m}$ — Đạt chuẩn Slide 30)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Kích thước mương dẫn đạt $W = 1.5\\text{ m}$, $D = 0.72\\text{ m}$, $H = 1.22\\text{ m}$ và $v = 0.43\\text{ m/s}$.",
+          "takeaway": "Kích thước mương dẫn đạt $W = 1.5\\text{ m}$, $D = 0.72\\text{ m}$, $H = 1.22\\text{ m}$ và $v = 0.43\\text{ m/s}$",
+          "topic": "Kích thước mương"
+        },
+        {
+          "id": "p-78cae2ff",
+          "kind": "list item",
+          "role": "result",
+          "full": "Vận tốc dòng chảy thượng lưu và tới gần ($v$, $v_{\\text{app}}$): $0.43\\text{ m/s}$ và $0.41\\text{ m/s}$ (Kiểm tra: $v > 0.4\\text{ m/s}$ — Đạt yêu cầu đề bài và Slide 29)",
+          "sentences": [
+            "Vận tốc dòng chảy thượng lưu và tới gần ($v$, $v_{\\text{app}}$): $0.43\\text{ m/s}$ và $0.41\\text{ m/s}$ (Kiểm tra: $v > 0.4\\text{ m/s}$ — Đạt yêu cầu đề bài và Slide 29)"
+          ],
+          "brief": [
+            "Vận tốc dòng chảy thượng lưu và tới gần ($v$, $v_{\\text{app}}$): $0.43\\text{ m/s}$ và $0.41\\text{ m/s}$ (Kiểm tra: $v > 0.4\\text{ m/s}$ — Đạt yêu cầu đề bài và Slide 29)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Cấu hình song chắn nghiêng $\\theta = 75^\\circ$ gồm $N_{\\text{bars}} = 62\\text{ thanh}$ và $A_{\\text{space}} = 0.56\\text{ m}^2$.",
+          "takeaway": "Cấu hình song chắn nghiêng $\\theta = 75^\\circ$ gồm $N_{\\text{bars}} = 62\\text{ thanh}$ và $A_{\\text{space}} = 0.56\\text{ m}^2$",
+          "topic": "Cấu hình song chắn"
+        },
+        {
+          "id": "p-b3394c79",
+          "kind": "list item",
+          "role": "result",
+          "full": "Số lượng thanh đan và số khe hở ($N_{\\text{bars}}$, $N_{\\text{spaces}}$): $62\\text{ thanh}$ và $63\\text{ khe}$ (Kiểm tra: $A_{\\text{space}} = 0.56\\text{ m}^2$ — Đạt chuẩn Slide 27)",
+          "sentences": [
+            "Số lượng thanh đan và số khe hở ($N_{\\text{bars}}$, $N_{\\text{spaces}}$): $62\\text{ thanh}$ và $63\\text{ khe}$ (Kiểm tra: $A_{\\text{space}} = 0.56\\text{ m}^2$ — Đạt chuẩn Slide 27)"
+          ],
+          "brief": [
+            "Số lượng thanh đan và số khe hở ($N_{\\text{bars}}$, $N_{\\text{spaces}}$): $62\\text{ thanh}$ và $63\\text{ khe}$ (Kiểm tra: $A_{\\text{space}} = 0.56\\text{ m}^2$ — Đạt chuẩn Slide 27)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khi song chắn sạch có $v_{\\text{thru}} = 0.83\\text{ m/s}$, $v_{\\text{app}} = 0.41\\text{ m/s}$ và $h_{L,\\text{clean}} = 38\\text{ mm}$.",
+          "takeaway": "Khi song chắn sạch có $v_{\\text{thru}} = 0.83\\text{ m/s}$, $v_{\\text{app}} = 0.41\\text{ m/s}$ và $h_{L,\\text{clean}} = 38\\text{ mm}$",
+          "topic": "song chắn sạch"
+        },
+        {
+          "id": "p-945ffe7e",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổn thất cột nước sạch và tắc $50\\%$ ($h_{L,\\text{clean}}$, $h_{L,\\text{clog}}$): $38\\text{ mm}$ và $220\\text{ mm}$ (Kiểm tra: $150 \\le 220 \\le 600\\text{ mm}$ — Đạt chuẩn cơ giới Slide 29)",
+          "sentences": [
+            "Tổn thất cột nước sạch và tắc $50\\%$ ($h_{L,\\text{clean}}$, $h_{L,\\text{clog}}$): $38\\text{ mm}$ và $220\\text{ mm}$ (Kiểm tra: $150 \\le 220 \\le 600\\text{ mm}$ — Đạt chuẩn cơ giới Slide 29)"
+          ],
+          "brief": [
+            "Tổn thất cột nước sạch và tắc $50\\%$ ($h_{L,\\text{clean}}$, $h_{L,\\text{clog}}$): $38\\text{ mm}$ và $220\\text{ mm}$ (Kiểm tra: $150 \\le 220 \\le 600\\text{ mm}$ — Đạt chuẩn cơ giới Slide 29)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khi tắc nghẽn $50\\%$ có vận tốc $v_{\\text{thru,clog}} = 1.66\\text{ m/s}$ và tổn thất $h_{L,\\text{clog}} = 220\\text{ mm}$.",
+          "takeaway": "Khi tắc nghẽn $50\\%$ có vận tốc $v_{\\text{thru,clog}} = 1.66\\text{ m/s}$ và tổn thất $h_{L,\\text{clog}} = 220\\text{ mm}$",
+          "topic": "Khi tắc nghẽn"
+        },
+        {
+          "id": "p-83bc80e2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 1 (Page 2)",
+          "sentences": [
+            "Figure 1 (Page 2)"
+          ],
+          "brief": [
+            "Figure 1 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $1$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $1$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-18eb3e10",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 2 (Page 2)",
+          "sentences": [
+            "Figure 2 (Page 2)"
+          ],
+          "brief": [
+            "Figure 2 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $2$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $2$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-ae99f2b3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 3 (Page 2)",
+          "sentences": [
+            "Figure 3 (Page 2)"
+          ],
+          "brief": [
+            "Figure 3 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $3$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $3$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-7952bbcc",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 4 (Page 3)",
+          "sentences": [
+            "Figure 4 (Page 3)"
+          ],
+          "brief": [
+            "Figure 4 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $4$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $4$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-3ddce6aa",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 5 (Page 3)",
+          "sentences": [
+            "Figure 5 (Page 3)"
+          ],
+          "brief": [
+            "Figure 5 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $5$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $5$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-1216493d",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 6 (Page 3)",
+          "sentences": [
+            "Figure 6 (Page 3)"
+          ],
+          "brief": [
+            "Figure 6 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $6$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $6$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-e7f33075",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 7 (Page 3)",
+          "sentences": [
+            "Figure 7 (Page 3)"
+          ],
+          "brief": [
+            "Figure 7 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $7$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $7$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-9fd8ccad",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 8 (Page 3)",
+          "sentences": [
+            "Figure 8 (Page 3)"
+          ],
+          "brief": [
+            "Figure 8 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $8$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $8$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-de91b6e8",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 9 (Page 4)",
+          "sentences": [
+            "Figure 9 (Page 4)"
+          ],
+          "brief": [
+            "Figure 9 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $9$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $9$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-7815c41c",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 10 (Page 4)",
+          "sentences": [
+            "Figure 10 (Page 4)"
+          ],
+          "brief": [
+            "Figure 10 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $10$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $10$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-ff7c6981",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 11 (Page 4)",
+          "sentences": [
+            "Figure 11 (Page 4)"
+          ],
+          "brief": [
+            "Figure 11 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $11$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $11$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-ab8f3431",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 12 (Page 4)",
+          "sentences": [
+            "Figure 12 (Page 4)"
+          ],
+          "brief": [
+            "Figure 12 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $12$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $12$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-bfda34de",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 13 (Page 4)",
+          "sentences": [
+            "Figure 13 (Page 4)"
+          ],
+          "brief": [
+            "Figure 13 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $13$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $13$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-05464711",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 14 (Page 4)",
+          "sentences": [
+            "Figure 14 (Page 4)"
+          ],
+          "brief": [
+            "Figure 14 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $14$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $14$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-89df7d20",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 15 (Page 5)",
+          "sentences": [
+            "Figure 15 (Page 5)"
+          ],
+          "brief": [
+            "Figure 15 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $15$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $15$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-d39e2410",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 16 (Page 5)",
+          "sentences": [
+            "Figure 16 (Page 5)"
+          ],
+          "brief": [
+            "Figure 16 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $16$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $16$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-de062234",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 17 (Page 5)",
+          "sentences": [
+            "Figure 17 (Page 5)"
+          ],
+          "brief": [
+            "Figure 17 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $17$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $17$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-bef4fa83",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 18 (Page 5)",
+          "sentences": [
+            "Figure 18 (Page 5)"
+          ],
+          "brief": [
+            "Figure 18 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $18$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $18$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-d7212582",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 19 (Page 5)",
+          "sentences": [
+            "Figure 19 (Page 5)"
+          ],
+          "brief": [
+            "Figure 19 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $19$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $19$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-0a52103a",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 20 (Page 5)",
+          "sentences": [
+            "Figure 20 (Page 5)"
+          ],
+          "brief": [
+            "Figure 20 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $20$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $20$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-060f323a",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 21 (Page 6)",
+          "sentences": [
+            "Figure 21 (Page 6)"
+          ],
+          "brief": [
+            "Figure 21 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $21$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $21$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-3c9c6fe4",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 22 (Page 6)",
+          "sentences": [
+            "Figure 22 (Page 6)"
+          ],
+          "brief": [
+            "Figure 22 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $22$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $22$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-b9ff8076",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 23 (Page 6)",
+          "sentences": [
+            "Figure 23 (Page 6)"
+          ],
+          "brief": [
+            "Figure 23 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $23$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $23$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-7f9bbc0f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 24 (Page 6)",
+          "sentences": [
+            "Figure 24 (Page 6)"
+          ],
+          "brief": [
+            "Figure 24 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $24$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $24$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-fcbfff06",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 25 (Page 7)",
+          "sentences": [
+            "Figure 25 (Page 7)"
+          ],
+          "brief": [
+            "Figure 25 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $25$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $25$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-64a34c4b",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 26 (Page 7)",
+          "sentences": [
+            "Figure 26 (Page 7)"
+          ],
+          "brief": [
+            "Figure 26 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $26$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $26$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-639cd676",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 27 (Page 8)",
+          "sentences": [
+            "Figure 27 (Page 8)"
+          ],
+          "brief": [
+            "Figure 27 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $27$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $27$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-358077e1",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 28 (Page 8)",
+          "sentences": [
+            "Figure 28 (Page 8)"
+          ],
+          "brief": [
+            "Figure 28 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $28$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $28$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-1accdac4",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 29 (Page 8)",
+          "sentences": [
+            "Figure 29 (Page 8)"
+          ],
+          "brief": [
+            "Figure 29 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $29$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $29$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-9ffb0745",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 30 (Page 9)",
+          "sentences": [
+            "Figure 30 (Page 9)"
+          ],
+          "brief": [
+            "Figure 30 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $30$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $30$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-dee55184",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 31 (Page 9)",
+          "sentences": [
+            "Figure 31 (Page 9)"
+          ],
+          "brief": [
+            "Figure 31 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $31$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $31$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-c454def3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 32 (Page 9)",
+          "sentences": [
+            "Figure 32 (Page 9)"
+          ],
+          "brief": [
+            "Figure 32 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $32$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $32$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-f47bc460",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 33 (Page 9)",
+          "sentences": [
+            "Figure 33 (Page 9)"
+          ],
+          "brief": [
+            "Figure 33 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $33$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $33$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-cf288a24",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 34 (Page 9)",
+          "sentences": [
+            "Figure 34 (Page 9)"
+          ],
+          "brief": [
+            "Figure 34 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $34$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $34$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-36299203",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 35 (Page 9)",
+          "sentences": [
+            "Figure 35 (Page 9)"
+          ],
+          "brief": [
+            "Figure 35 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $35$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $35$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-15a609ac",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 36 (Page 9)",
+          "sentences": [
+            "Figure 36 (Page 9)"
+          ],
+          "brief": [
+            "Figure 36 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $36$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $36$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-89b90803",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 37 (Page 9)",
+          "sentences": [
+            "Figure 37 (Page 9)"
+          ],
+          "brief": [
+            "Figure 37 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $37$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $37$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-677843ac",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 38 (Page 10)",
+          "sentences": [
+            "Figure 38 (Page 10)"
+          ],
+          "brief": [
+            "Figure 38 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $38$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $38$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-3510aa86",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 39 (Page 10)",
+          "sentences": [
+            "Figure 39 (Page 10)"
+          ],
+          "brief": [
+            "Figure 39 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $39$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $39$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-babcdbd6",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 40 (Page 10)",
+          "sentences": [
+            "Figure 40 (Page 10)"
+          ],
+          "brief": [
+            "Figure 40 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $40$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $40$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-5eb5e555",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 41 (Page 10)",
+          "sentences": [
+            "Figure 41 (Page 10)"
+          ],
+          "brief": [
+            "Figure 41 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $41$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $41$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-36be9a1f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 42 (Page 10)",
+          "sentences": [
+            "Figure 42 (Page 10)"
+          ],
+          "brief": [
+            "Figure 42 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $42$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $42$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-0c910870",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 43 (Page 11)",
+          "sentences": [
+            "Figure 43 (Page 11)"
+          ],
+          "brief": [
+            "Figure 43 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $43$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $43$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-50e8a55e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 44 (Page 12)",
+          "sentences": [
+            "Figure 44 (Page 12)"
+          ],
+          "brief": [
+            "Figure 44 (Page 12)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $44$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $44$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-81de5a7b",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 45 (Page 12)",
+          "sentences": [
+            "Figure 45 (Page 12)"
+          ],
+          "brief": [
+            "Figure 45 (Page 12)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $45$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $45$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-73662c2f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 46 (Page 13)",
+          "sentences": [
+            "Figure 46 (Page 13)"
+          ],
+          "brief": [
+            "Figure 46 (Page 13)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $46$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $46$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-8801a49c",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 47 (Page 14)",
+          "sentences": [
+            "Figure 47 (Page 14)"
+          ],
+          "brief": [
+            "Figure 47 (Page 14)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $47$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $47$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-8f9e69b0",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 48 (Page 14)",
+          "sentences": [
+            "Figure 48 (Page 14)"
+          ],
+          "brief": [
+            "Figure 48 (Page 14)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $48$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $48$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-b5ae1460",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 49 (Page 14)",
+          "sentences": [
+            "Figure 49 (Page 14)"
+          ],
+          "brief": [
+            "Figure 49 (Page 14)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $49$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $49$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-f17830b0",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 50 (Page 14)",
+          "sentences": [
+            "Figure 50 (Page 14)"
+          ],
+          "brief": [
+            "Figure 50 (Page 14)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $50$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $50$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-6c22de34",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 51 (Page 15)",
+          "sentences": [
+            "Figure 51 (Page 15)"
+          ],
+          "brief": [
+            "Figure 51 (Page 15)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $51$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $51$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-f2c333b7",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 52 (Page 15)",
+          "sentences": [
+            "Figure 52 (Page 15)"
+          ],
+          "brief": [
+            "Figure 52 (Page 15)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $52$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $52$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-c35d51ee",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 53 (Page 16)",
+          "sentences": [
+            "Figure 53 (Page 16)"
+          ],
+          "brief": [
+            "Figure 53 (Page 16)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa số $53$ trích xuất từ slide bài giảng phần song chắn rác.",
+          "takeaway": "Hình minh họa số $53$ trích xuất từ slide bài giảng phần song chắn rác",
+          "topic": "Hình minh họa"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

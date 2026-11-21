@@ -1,0 +1,959 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-10-x-l-b-n-c-n-n-c-th-i-chapter-10-dcc22b2f",
+  "lang": "vi",
+  "title": "Chương 10 - Xử lý Bùn Cặn Nước thải (Chapter 10 - Sludge Treatment)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch10_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:44:21Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-07T23:42:05",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-tầm-quan-trọng-nguồn-phát-sinh-và-phân-loại-bùn-cặn-nước-thải-sludge-sources-and-classification",
+      "num": "1",
+      "title": "Tầm quan trọng, Nguồn phát sinh và Phân loại Bùn Cặn Nước thải (Sludge Sources and Classification)",
+      "depth": 1,
+      "takeaway": "Xử lý bùn cặn chiếm tới $50\\%$ chi phí vận hành do độ ẩm $95\\%$ đến $99.5\\%$",
+      "topic": "Xử lý bùn",
+      "units": [
+        {
+          "id": "p-9019e7c8",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Chương 10 trình bày tổng quan về nguồn gốc, tính chất lý hóa, quan hệ thể tích và khối lượng, dây chuyền công nghệ xử lý bùn và phương pháp thiết kế bể nén bùn trọng lực (Gravity Thickener) [Page 1]. Xử lý bùn cặn là một thách thức kỹ thuật và kinh tế lớn trong trạm xử lý nước thải vì dòng bùn tập trung hầu hết các chất ô nhiễm tách ra từ pha nước và chiếm tới $50\\%$ tổng chi phí vận hành của toàn nhà máy [Page 2]. Công tác quản lý bùn cặn phức tạp do ba đặc tính cốt lõi gồm chứa các hợp chất gây mùi hôi thối từ nước thải thô, chứa hàm lượng hữu cơ đậm đặc tiếp tục phân hủy sinh học gây ô nhiễm thứ cấp, và có độ ẩm rất cao từ $95\\%$ đến $99.5\\%$ (chỉ có $0.5\\%$ đến $5\\%$ là chất rắn khô) làm cho thể tích bùn cần xử lý cực kỳ lớn [Page 3].",
+          "sentences": [
+            "Chương 10 trình bày tổng quan về nguồn gốc, tính chất lý hóa, quan hệ thể tích và khối lượng, dây chuyền công nghệ xử lý bùn và phương pháp thiết kế bể nén bùn trọng lực (Gravity Thickener) [Page 1].",
+            "Xử lý bùn cặn là một thách thức kỹ thuật và kinh tế lớn trong trạm xử lý nước thải vì dòng bùn tập trung hầu hết các chất ô nhiễm tách ra từ pha nước và chiếm tới $50\\%$ tổng chi phí vận hành của toàn nhà máy [Page 2].",
+            "Công tác quản lý bùn cặn phức tạp do ba đặc tính cốt lõi gồm chứa các hợp chất gây mùi hôi thối từ nước thải thô, chứa hàm lượng hữu cơ đậm đặc tiếp tục phân hủy sinh học gây ô nhiễm thứ cấp, và có độ ẩm rất cao từ $95\\%$ đến $99.5\\%$ (chỉ có $0.5\\%$ đến $5\\%$ là chất rắn khô) làm cho thể tích bùn cần xử lý cực kỳ lớn [Page 3]."
+          ],
+          "brief": [
+            "Xử lý bùn cặn là một thách thức kỹ thuật và kinh tế lớn trong trạm xử lý nước thải vì dòng bùn tập trung hầu hết các chất ô nhiễm tách ra từ pha nước và chiếm tới $50\\%$ tổng chi phí vận hành của toàn nhà máy [Page 2].",
+            "Công tác quản lý bùn cặn phức tạp do ba đặc tính cốt lõi gồm chứa các hợp chất gây mùi hôi thối từ nước thải thô, chứa hàm lượng hữu cơ đậm đặc tiếp tục phân hủy sinh học gây ô nhiễm thứ cấp, và có độ ẩm rất cao từ $95\\%$ đến $99.5\\%$ (chỉ có $0.5\\%$ đến $5\\%$ là chất rắn khô) làm cho thể tích bùn cần xử lý cực kỳ lớn [Page 3]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Bùn cặn chứa chất ô nhiễm tách ra và chiếm tới $50\\%$ chi phí vận hành. Độ ẩm rất cao từ $95\\%$ đến $99.5\\%$ làm thể tích dòng bùn cần xử lý cực kỳ lớn.",
+          "takeaway": "Bùn cặn chứa chất ô nhiễm tách ra và chiếm tới $50\\%$ chi phí vận hành",
+          "topic": "Bùn cặn chứa"
+        },
+        {
+          "id": "p-f6d61f6c",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Trong nhà máy xử lý nước thải, bùn cặn phát sinh từ nhiều công đoạn xử lý khác nhau và được phân loại theo nguồn gốc hoặc theo trạng thái công nghệ [Page 3]. Ở bậc xử lý sơ cấp, bể lắng đợt một tạo ra bùn tươi sơ cấp (primary sludge) có hàm lượng hữu cơ cao, dễ phân hủy và mùi rất khó chịu cùng với lớp váng nổi (scum) gồm dầu mỡ, chất béo và vật liệu nhẹ có tỷ trọng nhỏ hơn nước [Page 3]. Ở bậc xử lý thứ cấp và nâng cao, hệ thống tạo ra bùn hoạt tính dư (waste activated sludge hay WAS) có độ ẩm rất cao và khó lắng, bùn màng sinh học (humus sludge) rửa trôi từ bể lọc sinh học và bùn hóa lý (chemical sludge) sinh ra khi châm phèn nhôm, muối sắt hoặc vôi để kết tủa photpho và cặn lơ lửng mịn [Page 4]. Nếu phân loại theo trạng thái chế biến, bùn cặn bao gồm bùn thô (raw sludge), bùn đã nén (thickened sludge), bùn đã ổn định hoặc phân hủy (stabilized/digested sludge), bánh bùn đã làm khô cơ học (dewatered sludge/cake) và bùn sấy khô dạng viên (dried sludge/pellets) [Page 4].",
+          "sentences": [
+            "Trong nhà máy xử lý nước thải, bùn cặn phát sinh từ nhiều công đoạn xử lý khác nhau và được phân loại theo nguồn gốc hoặc theo trạng thái công nghệ [Page 3]. Ở bậc xử lý sơ cấp, bể lắng đợt một tạo ra bùn tươi sơ cấp (primary sludge) có hàm lượng hữu cơ cao, dễ phân hủy và mùi rất khó chịu cùng với lớp váng nổi (scum) gồm dầu mỡ, chất béo và vật liệu nhẹ có tỷ trọng nhỏ hơn nước [Page 3]. Ở bậc xử lý thứ cấp và nâng cao, hệ thống tạo ra bùn hoạt tính dư (waste activated sludge hay WAS) có độ ẩm rất cao và khó lắng, bùn màng sinh học (humus sludge) rửa trôi từ bể lọc sinh học và bùn hóa lý (chemical sludge) sinh ra khi châm phèn nhôm, muối sắt hoặc vôi để kết tủa photpho và cặn lơ lửng mịn [Page 4].",
+            "Nếu phân loại theo trạng thái chế biến, bùn cặn bao gồm bùn thô (raw sludge), bùn đã nén (thickened sludge), bùn đã ổn định hoặc phân hủy (stabilized/digested sludge), bánh bùn đã làm khô cơ học (dewatered sludge/cake) và bùn sấy khô dạng viên (dried sludge/pellets) [Page 4]."
+          ],
+          "brief": [
+            "Trong nhà máy xử lý nước thải, bùn cặn phát sinh từ nhiều công đoạn xử lý khác nhau và được phân loại theo nguồn gốc hoặc theo trạng thái công nghệ [Page 3]. Ở bậc xử lý sơ cấp, bể lắng đợt một tạo ra bùn tươi sơ cấp (primary sludge) có hàm lượng hữu cơ cao, dễ phân hủy và mùi rất khó chịu cùng với lớp váng nổi (scum) gồm dầu mỡ, chất béo và vật liệu nhẹ có tỷ trọng nhỏ hơn nước [Page 3]. Ở bậc xử lý thứ cấp và nâng cao, hệ thống tạo ra bùn hoạt tính dư (waste activated sludge hay WAS) có độ ẩm rất cao và khó lắng, bùn màng sinh học (humus sludge) rửa trôi từ bể lọc sinh học và bùn hóa lý (chemical sludge) sinh ra khi châm phèn nhôm, muối sắt hoặc vôi để kết tủa photpho và cặn lơ lửng mịn [Page 4].",
+            "Nếu phân loại theo trạng thái chế biến, bùn cặn bao gồm bùn thô (raw sludge), bùn đã nén (thickened sludge), bùn đã ổn định hoặc phân hủy (stabilized/digested sludge), bánh bùn đã làm khô cơ học (dewatered sludge/cake) và bùn sấy khô dạng viên (dried sludge/pellets) [Page 4]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Bùn phát sinh từ lắng sơ cấp, xử lý sinh học và kết tủa hóa học. Theo trạng thái chế biến, bùn gồm bùn thô, bùn nén, bùn phân hủy, bánh bùn ép và viên bùn khô.",
+          "takeaway": "Bùn phát sinh từ lắng sơ cấp, xử lý sinh học và kết tủa hóa học",
+          "topic": "Bùn phát sinh"
+        },
+        {
+          "id": "p-0f2c7034",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Công nghệ xử lý nước thải áp dụng ở dòng chính quyết định trực tiếp đến khối lượng và khả năng tách nước của bùn thải [Page 5]. Các hệ thống bể phản ứng sinh học màng (MBR) hoặc khử dinh dưỡng sinh học (BNR) vận hành ở tuổi bùn (SRT) dài nên tạo ra ít lượng bùn dư hơn so với bùn hoạt tính truyền thống, nhưng bùn sinh ra lại khó xử lý hơn nhiều [Page 5]. Nguyên nhân là thời gian lưu bùn dài làm sinh khối phân hủy nội bào thành các hạt kích thước siêu mịn và tiết ra nhiều hợp chất polymer ngoại bào (EPS) giữ chặt các phân tử nước, khiến bùn rất khó làm khô và khó phân hủy tiếp [Page 5]. Bảng mô tả cảm quan trên Slide 10 cho biết bùn sơ cấp có màu xám nhớt và mùi hôi nồng, bùn kết tủa hóa học có màu sẫm hoặc đỏ nâu (khi dùng muối sắt) và kết cấu keo, bùn hoạt tính tươi có dạng bông màu nâu và mùi đất nhẹ nhưng nhanh chóng chuyển sang màu đen khi bị yếm khí, bùn phân hủy hiếu khí có màu nâu sẫm dễ làm khô trên sân phơi, còn bùn phân hủy kỵ khí hoàn toàn có màu đen chứa nhiều khí và mùi nhựa đường nhẹ [Page 5].",
+          "sentences": [
+            "Công nghệ xử lý nước thải áp dụng ở dòng chính quyết định trực tiếp đến khối lượng và khả năng tách nước của bùn thải [Page 5].",
+            "Các hệ thống bể phản ứng sinh học màng (MBR) hoặc khử dinh dưỡng sinh học (BNR) vận hành ở tuổi bùn (SRT) dài nên tạo ra ít lượng bùn dư hơn so với bùn hoạt tính truyền thống, nhưng bùn sinh ra lại khó xử lý hơn nhiều [Page 5].",
+            "Nguyên nhân là thời gian lưu bùn dài làm sinh khối phân hủy nội bào thành các hạt kích thước siêu mịn và tiết ra nhiều hợp chất polymer ngoại bào (EPS) giữ chặt các phân tử nước, khiến bùn rất khó làm khô và khó phân hủy tiếp [Page 5].",
+            "Bảng mô tả cảm quan trên Slide 10 cho biết bùn sơ cấp có màu xám nhớt và mùi hôi nồng, bùn kết tủa hóa học có màu sẫm hoặc đỏ nâu (khi dùng muối sắt) và kết cấu keo, bùn hoạt tính tươi có dạng bông màu nâu và mùi đất nhẹ nhưng nhanh chóng chuyển sang màu đen khi bị yếm khí, bùn phân hủy hiếu khí có màu nâu sẫm dễ làm khô trên sân phơi, còn bùn phân hủy kỵ khí hoàn toàn có màu đen chứa nhiều khí và mùi nhựa đường nhẹ [Page 5]."
+          ],
+          "brief": [
+            "Các hệ thống bể phản ứng sinh học màng (MBR) hoặc khử dinh dưỡng sinh học (BNR) vận hành ở tuổi bùn (SRT) dài nên tạo ra ít lượng bùn dư hơn so với bùn hoạt tính truyền thống, nhưng bùn sinh ra lại khó xử lý hơn nhiều [Page 5].",
+            "Nguyên nhân là thời gian lưu bùn dài làm sinh khối phân hủy nội bào thành các hạt kích thước siêu mịn và tiết ra nhiều hợp chất polymer ngoại bào (EPS) giữ chặt các phân tử nước, khiến bùn rất khó làm khô và khó phân hủy tiếp [Page 5]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Hệ thống MBR và BNR ở SRT dài tạo hạt mịn giàu EPS nên khó tách nước. Các hợp chất polymer ngoại bào giữ chặt nước làm tăng chi phí điều hòa và làm khô bùn.",
+          "takeaway": "Hệ thống MBR và BNR ở SRT dài tạo hạt mịn giàu EPS nên khó tách nước",
+          "topic": "SRT dài"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-đặc-tính-hóa-lý-quan-hệ-thể-tích---khối-lượng-và-bài-tập-1-ch10_ex01",
+      "num": "2",
+      "title": "Đặc tính Hóa lý, Quan hệ Thể tích - Khối lượng và Bài tập 1 (ch10_ex01)",
+      "depth": 1,
+      "takeaway": "Phương trình thể tích và khối lượng liên kết chất rắn khô $W_s$ với tỷ trọng bùn $S_{\\text{sl}}$",
+      "topic": "tỷ trọng bùn",
+      "units": [
+        {
+          "id": "p-e4ffe174",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Các bảng dữ liệu chuẩn từ Slide 11 đến Slide 14 định lượng thành phần hóa học, hàm lượng dinh dưỡng, tỷ trọng và nồng độ chất rắn khô của các loại bùn cặn [Page 6]. Theo bảng thành phần hóa học trên Slide 11, bùn sơ cấp chưa xử lý (untreated primary sludge) có tổng chất rắn khô (TS) điển hình là $3\\%$ (dải từ $1\\%$ đến $6\\%$), chất rắn bay hơi (VS) chiếm $75\\%\\text{ TS}$ (dải từ $60\\%$ đến $85\\%$), dầu mỡ chiếm $6\\%\\text{ TS}$, protein chiếm $25\\%\\text{ TS}$, nitơ chiếm $2.5\\%\\text{ TS}$, photpho ($\\text{P}_2\\text{O}_5$) chiếm $1.6\\%\\text{ TS}$, kali ($\\text{K}_2\\text{O}$) chiếm $0.4\\%\\text{ TS}$, xenlulozơ chiếm $10\\%\\text{ TS}$, độ pH điển hình bằng $6.0$, độ kiềm $600\\text{ mg/L as CaCO}_3$, axit hữu cơ $500\\text{ mg/L as HAc}$ và nhiệt trị đạt $25,000\\text{ kJ/kg VSS}$ [Page 6]. Trong khi đó, bùn hoạt tính chưa xử lý (untreated activated sludge) có TS điển hình là $0.8\\%$ (dải từ $0.4\\%$ đến $1.2\\%$), VS chiếm $70\\%\\text{ TS}$ (dải từ $60\\%$ đến $85\\%$), protein chiếm $36\\%\\text{ TS}$, nitơ chiếm $3.8\\%\\text{ TS}$, photpho chiếm $5.5\\%\\text{ TS}$, pH điển hình bằng $7.1$, độ kiềm $790\\text{ mg/L as CaCO}_3$, axit hữu cơ $1350\\text{ mg/L as HAc}$ và nhiệt trị đạt $20,000\\text{ kJ/kg VSS}$, còn bùn sinh học đã ổn định trên Slide 12 chứa $3.3\\%\\text{ N}$, $2.3\\%\\text{ P}$ và $0.3\\%\\text{ K}$ so với phân bón nông nghiệp thương mại chứa $5\\%\\text{ N}$, $10\\%\\text{ P}$ và $10\\%\\text{ K}$ [Page 6].",
+          "sentences": [
+            "Các bảng dữ liệu chuẩn từ Slide 11 đến Slide 14 định lượng thành phần hóa học, hàm lượng dinh dưỡng, tỷ trọng và nồng độ chất rắn khô của các loại bùn cặn [Page 6].",
+            "Theo bảng thành phần hóa học trên Slide 11, bùn sơ cấp chưa xử lý (untreated primary sludge) có tổng chất rắn khô (TS) điển hình là $3\\%$ (dải từ $1\\%$ đến $6\\%$), chất rắn bay hơi (VS) chiếm $75\\%\\text{ TS}$ (dải từ $60\\%$ đến $85\\%$), dầu mỡ chiếm $6\\%\\text{ TS}$, protein chiếm $25\\%\\text{ TS}$, nitơ chiếm $2.5\\%\\text{ TS}$, photpho ($\\text{P}_2\\text{O}_5$) chiếm $1.6\\%\\text{ TS}$, kali ($\\text{K}_2\\text{O}$) chiếm $0.4\\%\\text{ TS}$, xenlulozơ chiếm $10\\%\\text{ TS}$, độ pH điển hình bằng $6.0$, độ kiềm $600\\text{ mg/L as CaCO}_3$, axit hữu cơ $500\\text{ mg/L as HAc}$ và nhiệt trị đạt $25,000\\text{ kJ/kg VSS}$ [Page 6].",
+            "Trong khi đó, bùn hoạt tính chưa xử lý (untreated activated sludge) có TS điển hình là $0.8\\%$ (dải từ $0.4\\%$ đến $1.2\\%$), VS chiếm $70\\%\\text{ TS}$ (dải từ $60\\%$ đến $85\\%$), protein chiếm $36\\%\\text{ TS}$, nitơ chiếm $3.8\\%\\text{ TS}$, photpho chiếm $5.5\\%\\text{ TS}$, pH điển hình bằng $7.1$, độ kiềm $790\\text{ mg/L as CaCO}_3$, axit hữu cơ $1350\\text{ mg/L as HAc}$ và nhiệt trị đạt $20,000\\text{ kJ/kg VSS}$, còn bùn sinh học đã ổn định trên Slide 12 chứa $3.3\\%\\text{ N}$, $2.3\\%\\text{ P}$ và $0.3\\%\\text{ K}$ so với phân bón nông nghiệp thương mại chứa $5\\%\\text{ N}$, $10\\%\\text{ P}$ và $10\\%\\text{ K}$ [Page 6]."
+          ],
+          "brief": [
+            "Theo bảng thành phần hóa học trên Slide 11, bùn sơ cấp chưa xử lý (untreated primary sludge) có tổng chất rắn khô (TS) điển hình là $3\\%$ (dải từ $1\\%$ đến $6\\%$), chất rắn bay hơi (VS) chiếm $75\\%\\text{ TS}$ (dải từ $60\\%$ đến $85\\%$), dầu mỡ chiếm $6\\%\\text{ TS}$, protein chiếm $25\\%\\text{ TS}$, nitơ chiếm $2.5\\%\\text{ TS}$, photpho ($\\text{P}_2\\text{O}_5$) chiếm $1.6\\%\\text{ TS}$, kali ($\\text{K}_2\\text{O}$) chiếm $0.4\\%\\text{ TS}$, xenlulozơ chiếm $10\\%\\text{ TS}$, độ pH điển hình bằng $6.0$, độ kiềm $600\\text{ mg/L as CaCO}_3$, axit hữu cơ $500\\text{ mg/L as HAc}$ và nhiệt trị đạt $25,000\\text{ kJ/kg VSS}$ [Page 6].",
+            "Trong khi đó, bùn hoạt tính chưa xử lý (untreated activated sludge) có TS điển hình là $0.8\\%$ (dải từ $0.4\\%$ đến $1.2\\%$), VS chiếm $70\\%\\text{ TS}$ (dải từ $60\\%$ đến $85\\%$), protein chiếm $36\\%\\text{ TS}$, nitơ chiếm $3.8\\%\\text{ TS}$, photpho chiếm $5.5\\%\\text{ TS}$, pH điển hình bằng $7.1$, độ kiềm $790\\text{ mg/L as CaCO}_3$, axit hữu cơ $1350\\text{ mg/L as HAc}$ và nhiệt trị đạt $20,000\\text{ kJ/kg VSS}$, còn bùn sinh học đã ổn định trên Slide 12 chứa $3.3\\%\\text{ N}$, $2.3\\%\\text{ P}$ và $0.3\\%\\text{ K}$ so với phân bón nông nghiệp thương mại chứa $5\\%\\text{ N}$, $10\\%\\text{ P}$ và $10\\%\\text{ K}$ [Page 6]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Bùn sơ cấp có độ đặc $3\\%$ ($75\\%$ VS), còn bùn hoạt tính có độ đặc $0.8\\%$. Bùn sinh học đã ổn định chứa $3.3\\%\\text{ N}$, $2.3\\%\\text{ P}$ và $0.3\\%\\text{ K}$ có giá trị cải tạo đất.",
+          "takeaway": "Bùn sơ cấp có độ đặc $3\\%$ ($75\\%$ VS), còn bùn hoạt tính có độ đặc $0.8\\%$",
+          "topic": "Bùn sơ cấp"
+        },
+        {
+          "id": "p-9f117ec8",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Bảng đặc tính vật lý trên Slide 13 và bảng nồng độ chất rắn khô trên Slide 14 cung cấp thông số đầu vào cho tính toán cân bằng khối lượng bùn [Page 7]. Trên Slide 13, bùn lắng sơ cấp có tỷ trọng hạt rắn $S_s = 1.4$, tỷ trọng bùn ướt $S_{\\text{sludge}} = 1.02$ và lượng bùn khô điển hình đạt $150\\text{ kg}/10^3\\text{ m}^3$ nước thải (dải từ $110$ đến $170$), bùn hoạt tính có $S_s = 1.25$, $S_{\\text{sludge}} = 1.05$ và lượng bùn khô điển hình đạt $80\\text{ kg}/10^3\\text{ m}^3$ (dải từ $70$ đến $100$), còn bùn lọc sinh học có $S_s = 1.45$, $S_{\\text{sludge}} = 1.025$ và lượng bùn khô điển hình là $70\\text{ kg}/10^3\\text{ m}^3$ [Page 7]. Trên Slide 14, nồng độ chất rắn khô điển hình của bùn thu từ bể lắng sơ cấp là $3\\%$ (hoặc $2\\%$ khi châm sắt, $4\\%$ khi châm vôi thấp và $10\\%$ khi châm vôi cao), từ bể lắng thứ cấp là $0.8\\%$ cho WAS có lắng sơ cấp và $1.3\\%$ cho WAS không có lắng sơ cấp, từ bể nén trọng lực là $5\\%$ cho bùn sơ cấp riêng rẽ và $3.5\\%$ cho hỗn hợp bùn sơ cấp trộn WAS, và từ bể tuyển nổi áp lực (DAF) là $5\\%$ khi có polymer và $4\\%$ khi không có polymer [Page 7]. Về hệ số tải thiết kế trên Slide 15, bể phân hủy bùn được tính theo tải lượng tháng lớn nhất với thời gian lưu tối thiểu $15\\text{ d}$, hệ thống làm khô bùn sau nén tính theo sản lượng bùn cực đại $1\\text{ d}$ hoặc $3\\text{ d}$, còn trạm bơm và bể nén bùn tính theo tải lượng ngày lớn nhất [Page 8].",
+          "sentences": [
+            "Bảng đặc tính vật lý trên Slide 13 và bảng nồng độ chất rắn khô trên Slide 14 cung cấp thông số đầu vào cho tính toán cân bằng khối lượng bùn [Page 7].",
+            "Trên Slide 13, bùn lắng sơ cấp có tỷ trọng hạt rắn $S_s = 1.4$, tỷ trọng bùn ướt $S_{\\text{sludge}} = 1.02$ và lượng bùn khô điển hình đạt $150\\text{ kg}/10^3\\text{ m}^3$ nước thải (dải từ $110$ đến $170$), bùn hoạt tính có $S_s = 1.25$, $S_{\\text{sludge}} = 1.05$ và lượng bùn khô điển hình đạt $80\\text{ kg}/10^3\\text{ m}^3$ (dải từ $70$ đến $100$), còn bùn lọc sinh học có $S_s = 1.45$, $S_{\\text{sludge}} = 1.025$ và lượng bùn khô điển hình là $70\\text{ kg}/10^3\\text{ m}^3$ [Page 7].",
+            "Trên Slide 14, nồng độ chất rắn khô điển hình của bùn thu từ bể lắng sơ cấp là $3\\%$ (hoặc $2\\%$ khi châm sắt, $4\\%$ khi châm vôi thấp và $10\\%$ khi châm vôi cao), từ bể lắng thứ cấp là $0.8\\%$ cho WAS có lắng sơ cấp và $1.3\\%$ cho WAS không có lắng sơ cấp, từ bể nén trọng lực là $5\\%$ cho bùn sơ cấp riêng rẽ và $3.5\\%$ cho hỗn hợp bùn sơ cấp trộn WAS, và từ bể tuyển nổi áp lực (DAF) là $5\\%$ khi có polymer và $4\\%$ khi không có polymer [Page 7].",
+            "Về hệ số tải thiết kế trên Slide 15, bể phân hủy bùn được tính theo tải lượng tháng lớn nhất với thời gian lưu tối thiểu $15\\text{ d}$, hệ thống làm khô bùn sau nén tính theo sản lượng bùn cực đại $1\\text{ d}$ hoặc $3\\text{ d}$, còn trạm bơm và bể nén bùn tính theo tải lượng ngày lớn nhất [Page 8]."
+          ],
+          "brief": [
+            "Trên Slide 14, nồng độ chất rắn khô điển hình của bùn thu từ bể lắng sơ cấp là $3\\%$ (hoặc $2\\%$ khi châm sắt, $4\\%$ khi châm vôi thấp và $10\\%$ khi châm vôi cao), từ bể lắng thứ cấp là $0.8\\%$ cho WAS có lắng sơ cấp và $1.3\\%$ cho WAS không có lắng sơ cấp, từ bể nén trọng lực là $5\\%$ cho bùn sơ cấp riêng rẽ và $3.5\\%$ cho hỗn hợp bùn sơ cấp trộn WAS, và từ bể tuyển nổi áp lực (DAF) là $5\\%$ khi có polymer và $4\\%$ khi không có polymer [Page 7].",
+            "Về hệ số tải thiết kế trên Slide 15, bể phân hủy bùn được tính theo tải lượng tháng lớn nhất với thời gian lưu tối thiểu $15\\text{ d}$, hệ thống làm khô bùn sau nén tính theo sản lượng bùn cực đại $1\\text{ d}$ hoặc $3\\text{ d}$, còn trạm bơm và bể nén bùn tính theo tải lượng ngày lớn nhất [Page 8]."
+          ],
+          "evidence": [
+            2,
+            3
+          ],
+          "key": "Bể nén trọng lực nâng bùn sơ cấp lên $5\\%$ và bùn trộn WAS lên $3.5\\%$. Trạm bơm và bể nén bùn được thiết kế theo tải lượng chất rắn ngày lớn nhất của nhà máy.",
+          "takeaway": "Bể nén trọng lực nâng bùn sơ cấp lên $5\\%$ và bùn trộn WAS lên $3.5\\%$",
+          "topic": "Bể nén trọng"
+        },
+        {
+          "id": "p-9ae77108",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Các phương trình quan hệ thể tích và khối lượng bùn trên Slide 16 và Slide 17 liên kết khối lượng chất rắn khô ($W_s$) với tỷ trọng chất rắn cố định ($S_f = 2.5$), tỷ trọng chất rắn bay hơi ($S_v = 1.0$) và tỷ trọng nước ($S_w = 1.0$, $\\rho_w = 1000\\text{ kg/m}^3$) [Page 8]. Tỷ trọng tổng chất rắn khô ($S_s$) được xác định từ phương trình $\\frac{W_s}{S_s} = \\frac{W_f}{S_f} + \\frac{W_v}{S_v}$, và tỷ trọng hỗn hợp bùn ướt ($S_{\\text{sl}}$) có phần trăm chất rắn khô $P_s$ được xác định từ phương trình $\\frac{1}{S_{\\text{sl}}} = \\frac{P_s}{S_s} + \\frac{1 - P_s}{S_w}$, từ đó tính được thể tích bùn là $V_{\\text{sl}} = \\frac{W_s}{S_{\\text{sl}} \\times \\rho_w \\times P_s}$ [Page 9].",
+          "sentences": [
+            "Các phương trình quan hệ thể tích và khối lượng bùn trên Slide 16 và Slide 17 liên kết khối lượng chất rắn khô ($W_s$) với tỷ trọng chất rắn cố định ($S_f = 2.5$), tỷ trọng chất rắn bay hơi ($S_v = 1.0$) và tỷ trọng nước ($S_w = 1.0$, $\\rho_w = 1000\\text{ kg/m}^3$) [Page 8].",
+            "Tỷ trọng tổng chất rắn khô ($S_s$) được xác định từ phương trình $\\frac{W_s}{S_s} = \\frac{W_f}{S_f} + \\frac{W_v}{S_v}$, và tỷ trọng hỗn hợp bùn ướt ($S_{\\text{sl}}$) có phần trăm chất rắn khô $P_s$ được xác định từ phương trình $\\frac{1}{S_{\\text{sl}}} = \\frac{P_s}{S_s} + \\frac{1 - P_s}{S_w}$, từ đó tính được thể tích bùn là $V_{\\text{sl}} = \\frac{W_s}{S_{\\text{sl}} \\times \\rho_w \\times P_s}$ [Page 9]."
+          ],
+          "brief": [
+            "Các phương trình quan hệ thể tích và khối lượng bùn trên Slide 16 và Slide 17 liên kết khối lượng chất rắn khô ($W_s$) với tỷ trọng chất rắn cố định ($S_f = 2.5$), tỷ trọng chất rắn bay hơi ($S_v = 1.0$) và tỷ trọng nước ($S_w = 1.0$, $\\rho_w = 1000\\text{ kg/m}^3$) [Page 8].",
+            "Tỷ trọng tổng chất rắn khô ($S_s$) được xác định từ phương trình $\\frac{W_s}{S_s} = \\frac{W_f}{S_f} + \\frac{W_v}{S_v}$, và tỷ trọng hỗn hợp bùn ướt ($S_{\\text{sl}}$) có phần trăm chất rắn khô $P_s$ được xác định từ phương trình $\\frac{1}{S_{\\text{sl}}} = \\frac{P_s}{S_s} + \\frac{1 - P_s}{S_w}$, từ đó tính được thể tích bùn là $V_{\\text{sl}} = \\frac{W_s}{S_{\\text{sl}} \\times \\rho_w \\times P_s}$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Thể tích bùn ướt được tính theo công thức $V_{\\text{sl}} = \\frac{W_s}{S_{\\text{sl}} \\times \\rho_w \\times P_s}$. Tỷ trọng chất rắn khô $S_s$ phụ thuộc vào tỷ trọng phần cố định $S_f = 2.5$ và phần bay hơi $S_v = 1.0$.",
+          "takeaway": "Thể tích bùn ướt được tính theo công thức $V_{\\text{sl}} = \\frac{W_s}{S_{\\text{sl}} \\times \\rho_w \\times P_s}$",
+          "topic": "Thể tích bùn"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch10_ex01-slide-18-trang-9-tính-thể-tích-bùn-cặn-trước-và-sau-quá-trình-phân-hủy-kỵ-khí",
+      "num": "",
+      "title": "Bài tập ch10_ex01 (Slide 18, Trang 9): Tính Thể tích Bùn Cặn Trước và Sau Quá trình Phân hủy Kỵ khí",
+      "depth": 2,
+      "takeaway": "Quá trình phân hủy kỵ khí giảm $87.5\\%$ thể tích bùn từ $V_{\\text{sl},1} = 9.94\\text{ m}^3$ xuống $V_{\\text{sl},2} = 1.24\\text{ m}^3$",
+      "topic": "thể tích bùn",
+      "units": [
+        {
+          "id": "p-ff251ab3",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 16–18): Xác định thể tích của lượng bùn chứa $W_{s,1} = 500\\text{ kg}$ chất rắn khô trước và sau khi phân hủy kỵ khí. Trước phân hủy, bùn có nồng độ chất rắn khô $P_{s,1} = 5\\%$ và hàm lượng chất bay hơi chiếm $80\\%$; sau phân hủy, nồng độ chất rắn khô đạt $P_{s,2} = 20\\%$ và $60\\%$ chất rắn bay hơi đã bị phân hủy [Page 9].",
+          "sentences": [
+            "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 16–18): Xác định thể tích của lượng bùn chứa $W_{s,1} = 500\\text{ kg}$ chất rắn khô trước và sau khi phân hủy kỵ khí.",
+            "Trước phân hủy, bùn có nồng độ chất rắn khô $P_{s,1} = 5\\%$ và hàm lượng chất bay hơi chiếm $80\\%$; sau phân hủy, nồng độ chất rắn khô đạt $P_{s,2} = 20\\%$ và $60\\%$ chất rắn bay hơi đã bị phân hủy [Page 9]."
+          ],
+          "brief": [
+            "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 16–18): Xác định thể tích của lượng bùn chứa $W_{s,1} = 500\\text{ kg}$ chất rắn khô trước và sau khi phân hủy kỵ khí.",
+            "Trước phân hủy, bùn có nồng độ chất rắn khô $P_{s,1} = 5\\%$ và hàm lượng chất bay hơi chiếm $80\\%$; sau phân hủy, nồng độ chất rắn khô đạt $P_{s,2} = 20\\%$ và $60\\%$ chất rắn bay hơi đã bị phân hủy [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài tính thể tích của $W_{s,1} = 500\\text{ kg}$ chất rắn khô trước ($P_{s,1} = 5\\%$) và sau phân hủy ($P_{s,2} = 20\\%$). Quá trình phân hủy kỵ khí phá hủy $60\\%$ lượng chất rắn bay hơi ban đầu của bùn.",
+          "takeaway": "Đề bài tính thể tích của $W_{s,1} = 500\\text{ kg}$ chất rắn khô trước ($P_{s,1} = 5\\%$) và sau phân hủy ($P_{s,2} = 20\\%$)",
+          "topic": "tính thể tích"
+        },
+        {
+          "id": "p-31e9094b",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính khối lượng và tỷ trọng hạt rắn khô trước phân hủy $S_{s,1}$: Trong $500\\text{ kg}$ chất rắn khô ban đầu, khối lượng chất rắn cố định $W_{f,1}$ bằng $100\\text{ kg}$ và chất rắn bay hơi $W_{v,1}$ bằng $400\\text{ kg}$. Áp dụng công thức tỷ trọng hỗn hợp hạt rắn trên Slide 16, tỷ trọng chất rắn khô $S_{s,1}$ đạt $1.136$ [Page 8].",
+          "sentences": [
+            "Bước 1 - Tính khối lượng và tỷ trọng hạt rắn khô trước phân hủy $S_{s,1}$: Trong $500\\text{ kg}$ chất rắn khô ban đầu, khối lượng chất rắn cố định $W_{f,1}$ bằng $100\\text{ kg}$ và chất rắn bay hơi $W_{v,1}$ bằng $400\\text{ kg}$. Áp dụng công thức tỷ trọng hỗn hợp hạt rắn trên Slide 16, tỷ trọng chất rắn khô $S_{s,1}$ đạt $1.136$ [Page 8]."
+          ],
+          "brief": [
+            "Bước 1 - Tính khối lượng và tỷ trọng hạt rắn khô trước phân hủy $S_{s,1}$: Trong $500\\text{ kg}$ chất rắn khô ban đầu, khối lượng chất rắn cố định $W_{f,1}$ bằng $100\\text{ kg}$ và chất rắn bay hơi $W_{v,1}$ bằng $400\\text{ kg}$. Áp dụng công thức tỷ trọng hỗn hợp hạt rắn trên Slide 16, tỷ trọng chất rắn khô $S_{s,1}$ đạt $1.136$ [Page 8]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Trước phân hủy, bùn có $W_{f,1} = 100\\text{ kg}$, $W_{v,1} = 400\\text{ kg}$ và tỷ trọng hạt rắn khô đạt $S_{s,1} = 1.136$.",
+          "takeaway": "Trước phân hủy, bùn có $W_{f,1} = 100\\text{ kg}$, $W_{v,1} = 400\\text{ kg}$ và tỷ trọng hạt rắn khô đạt $S_{s,1} = 1.136$",
+          "topic": "Trước phân hủy"
+        },
+        {
+          "id": "p-6cb8995c",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính tỷ trọng bùn ướt $S_{\\text{sl},1}$ và thể tích bùn trước phân hủy $V_{\\text{sl},1}$: Với nồng độ chất rắn khô $P_{s,1} = 0.05$ và độ ẩm $1 - P_{s,1} = 0.95$, tỷ trọng bùn ướt trước phân hủy $S_{\\text{sl},1}$ bằng $1.006$. Thể tích bùn trước phân hủy $V_{\\text{sl},1}$ đạt $9.94\\text{ m}^3$ [Page 9].",
+          "sentences": [
+            "Bước 2 - Tính tỷ trọng bùn ướt $S_{\\text{sl},1}$ và thể tích bùn trước phân hủy $V_{\\text{sl},1}$: Với nồng độ chất rắn khô $P_{s,1} = 0.05$ và độ ẩm $1 - P_{s,1} = 0.95$, tỷ trọng bùn ướt trước phân hủy $S_{\\text{sl},1}$ bằng $1.006$.",
+            "Thể tích bùn trước phân hủy $V_{\\text{sl},1}$ đạt $9.94\\text{ m}^3$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 2 - Tính tỷ trọng bùn ướt $S_{\\text{sl},1}$ và thể tích bùn trước phân hủy $V_{\\text{sl},1}$: Với nồng độ chất rắn khô $P_{s,1} = 0.05$ và độ ẩm $1 - P_{s,1} = 0.95$, tỷ trọng bùn ướt trước phân hủy $S_{\\text{sl},1}$ bằng $1.006$.",
+            "Thể tích bùn trước phân hủy $V_{\\text{sl},1}$ đạt $9.94\\text{ m}^3$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tỷ trọng bùn ướt trước phân hủy bằng $S_{\\text{sl},1} = 1.006$ và thể tích bùn đạt $V_{\\text{sl},1} = 9.94\\text{ m}^3$. Nồng độ chất rắn khô $P_{s,1} = 0.05$ ứng với hàm lượng nước chiếm $95\\%$ khối lượng bùn.",
+          "takeaway": "Tỷ trọng bùn ướt trước phân hủy bằng $S_{\\text{sl},1} = 1.006$ và thể tích bùn đạt $V_{\\text{sl},1} = 9.94\\text{ m}^3$",
+          "topic": "thể tích bùn"
+        },
+        {
+          "id": "p-71bf54da",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính khối lượng chất rắn còn lại và tỷ trọng hạt rắn sau phân hủy $S_{s,2}$: Khi $60\\%$ chất rắn bay hơi bị phân hủy, khối lượng chất bay hơi còn lại $W_{v,2}$ bằng $160\\text{ kg}$, chất cố định giữ nguyên $W_{f,2} = 100\\text{ kg}$ và tổng chất rắn khô còn lại $W_{s,2}$ bằng $260\\text{ kg}$. Tỷ trọng hạt rắn khô sau phân hủy $S_{s,2}$ tăng lên $1.30$ [Page 9].",
+          "sentences": [
+            "Bước 3 - Tính khối lượng chất rắn còn lại và tỷ trọng hạt rắn sau phân hủy $S_{s,2}$: Khi $60\\%$ chất rắn bay hơi bị phân hủy, khối lượng chất bay hơi còn lại $W_{v,2}$ bằng $160\\text{ kg}$, chất cố định giữ nguyên $W_{f,2} = 100\\text{ kg}$ và tổng chất rắn khô còn lại $W_{s,2}$ bằng $260\\text{ kg}$.",
+            "Tỷ trọng hạt rắn khô sau phân hủy $S_{s,2}$ tăng lên $1.30$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 3 - Tính khối lượng chất rắn còn lại và tỷ trọng hạt rắn sau phân hủy $S_{s,2}$: Khi $60\\%$ chất rắn bay hơi bị phân hủy, khối lượng chất bay hơi còn lại $W_{v,2}$ bằng $160\\text{ kg}$, chất cố định giữ nguyên $W_{f,2} = 100\\text{ kg}$ và tổng chất rắn khô còn lại $W_{s,2}$ bằng $260\\text{ kg}$.",
+            "Tỷ trọng hạt rắn khô sau phân hủy $S_{s,2}$ tăng lên $1.30$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Sau phân hủy, tổng chất rắn khô còn $W_{s,2} = 260\\text{ kg}$ và tỷ trọng hạt rắn tăng lên $S_{s,2} = 1.30$. Lượng chất rắn bay hơi giảm $60\\%$ xuống còn $W_{v,2} = 160\\text{ kg}$ trong khi chất cố định giữ nguyên $100\\text{ kg}$.",
+          "takeaway": "Sau phân hủy, tổng chất rắn khô còn $W_{s,2} = 260\\text{ kg}$ và tỷ trọng hạt rắn tăng lên $S_{s,2} = 1.30$",
+          "topic": "Sau phân hủy"
+        },
+        {
+          "id": "p-b4226c6c",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính tỷ trọng bùn $S_{\\text{sl},2}$ và thể tích bùn sau phân hủy $V_{\\text{sl},2}$: Ở nồng độ chất rắn khô sau phân hủy $P_{s,2} = 0.20$, tỷ trọng bùn $S_{\\text{sl},2}$ đạt $1.048$. Thể tích bùn sau phân hủy $V_{\\text{sl},2}$ giảm xuống còn $1.24\\text{ m}^3$, tương ứng mức giảm thể tích $\\Delta V = 87.5\\%$ [Page 9].",
+          "sentences": [
+            "Bước 4 - Tính tỷ trọng bùn $S_{\\text{sl},2}$ và thể tích bùn sau phân hủy $V_{\\text{sl},2}$: Ở nồng độ chất rắn khô sau phân hủy $P_{s,2} = 0.20$, tỷ trọng bùn $S_{\\text{sl},2}$ đạt $1.048$.",
+            "Thể tích bùn sau phân hủy $V_{\\text{sl},2}$ giảm xuống còn $1.24\\text{ m}^3$, tương ứng mức giảm thể tích $\\Delta V = 87.5\\%$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 4 - Tính tỷ trọng bùn $S_{\\text{sl},2}$ và thể tích bùn sau phân hủy $V_{\\text{sl},2}$: Ở nồng độ chất rắn khô sau phân hủy $P_{s,2} = 0.20$, tỷ trọng bùn $S_{\\text{sl},2}$ đạt $1.048$.",
+            "Thể tích bùn sau phân hủy $V_{\\text{sl},2}$ giảm xuống còn $1.24\\text{ m}^3$, tương ứng mức giảm thể tích $\\Delta V = 87.5\\%$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tỷ trọng bùn sau phân hủy đạt $S_{\\text{sl},2} = 1.048$ và thể tích giảm còn $V_{\\text{sl},2} = 1.24\\text{ m}^3$ ($\\Delta V = 87.5\\%$). Việc nâng độ đặc chất rắn lên $P_{s,2} = 0.20$ kết hợp phân hủy chất hữu cơ làm giảm mạnh thể tích.",
+          "takeaway": "Tỷ trọng bùn sau phân hủy đạt $S_{\\text{sl},2} = 1.048$ và thể tích giảm còn $V_{\\text{sl},2} = 1.24\\text{ m}^3$ ($\\Delta V = 87.5\\%$)",
+          "topic": "Tỷ trọng bùn"
+        },
+        {
+          "id": "p-47659d61",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Toàn bộ kết quả cân bằng khối lượng và thể tích bùn thỏa mãn tiêu chuẩn. Quá trình phân hủy và tách nước giúp giảm gần tám lần dung tích công trình phía sau.",
+          "takeaway": "Toàn bộ kết quả cân bằng khối lượng và thể tích bùn thỏa mãn tiêu chuẩn",
+          "topic": "kết quả cân"
+        },
+        {
+          "id": "p-d8ca83c2",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ trọng chất rắn khô và bùn trước phân hủy ($S_{s,1},\\; S_{\\text{sl},1}$): $1.136,\\; 1.006$ (Kiểm tra: $W_{s,1} = 500.0\\text{ kg},\\; P_{s,1} = 5.0\\%\\text{ - Đạt chuẩn Slide 16}$)",
+          "sentences": [
+            "Tỷ trọng chất rắn khô và bùn trước phân hủy ($S_{s,1},\\; S_{\\text{sl},1}$): $1.136,\\; 1.006$ (Kiểm tra: $W_{s,1} = 500.0\\text{ kg},\\; P_{s,1} = 5.0\\%\\text{ - Đạt chuẩn Slide 16}$)"
+          ],
+          "brief": [
+            "Tỷ trọng chất rắn khô và bùn trước phân hủy ($S_{s,1},\\; S_{\\text{sl},1}$): $1.136,\\; 1.006$ (Kiểm tra: $W_{s,1} = 500.0\\text{ kg},\\; P_{s,1} = 5.0\\%\\text{ - Đạt chuẩn Slide 16}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Trước phân hủy, tỷ trọng hạt rắn khô đạt $S_{s,1} = 1.136$ và tỷ trọng bùn đạt $S_{\\text{sl},1} = 1.006$.",
+          "takeaway": "Trước phân hủy, tỷ trọng hạt rắn khô đạt $S_{s,1} = 1.136$ và tỷ trọng bùn đạt $S_{\\text{sl},1} = 1.006$",
+          "topic": "tỷ trọng bùn"
+        },
+        {
+          "id": "p-ef4de120",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bùn ướt trước phân hủy ($V_{\\text{sl},1}$): $9.94\\text{ m}^3$ (Kiểm tra: $\\rho_{\\text{sl},1} = 1006\\text{ kg/m}^3\\text{ - Đạt chuẩn Slide 17}$)",
+          "sentences": [
+            "Thể tích bùn ướt trước phân hủy ($V_{\\text{sl},1}$): $9.94\\text{ m}^3$ (Kiểm tra: $\\rho_{\\text{sl},1} = 1006\\text{ kg/m}^3\\text{ - Đạt chuẩn Slide 17}$)"
+          ],
+          "brief": [
+            "Thể tích bùn ướt trước phân hủy ($V_{\\text{sl},1}$): $9.94\\text{ m}^3$ (Kiểm tra: $\\rho_{\\text{sl},1} = 1006\\text{ kg/m}^3\\text{ - Đạt chuẩn Slide 17}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bùn ướt trước phân hủy đạt $V_{\\text{sl},1} = 9.94\\text{ m}^3$ ứng với $\\rho_{\\text{sl},1} = 1006\\text{ kg/m}^3$.",
+          "takeaway": "Thể tích bùn ướt trước phân hủy đạt $V_{\\text{sl},1} = 9.94\\text{ m}^3$ ứng với $\\rho_{\\text{sl},1} = 1006\\text{ kg/m}^3$",
+          "topic": "Thể tích bùn"
+        },
+        {
+          "id": "p-56cbf665",
+          "kind": "list item",
+          "role": "result",
+          "full": "Khối lượng và tỷ trọng chất rắn sau phân hủy ($W_{s,2},\\; S_{s,2},\\; S_{\\text{sl},2}$): $260.0\\text{ kg},\\; 1.30,\\; 1.048$ (Kiểm tra: $W_{v,2} = 160.0\\text{ kg}\\text{ - Đạt chuẩn Slide 18}$)",
+          "sentences": [
+            "Khối lượng và tỷ trọng chất rắn sau phân hủy ($W_{s,2},\\; S_{s,2},\\; S_{\\text{sl},2}$): $260.0\\text{ kg},\\; 1.30,\\; 1.048$ (Kiểm tra: $W_{v,2} = 160.0\\text{ kg}\\text{ - Đạt chuẩn Slide 18}$)"
+          ],
+          "brief": [
+            "Khối lượng và tỷ trọng chất rắn sau phân hủy ($W_{s,2},\\; S_{s,2},\\; S_{\\text{sl},2}$): $260.0\\text{ kg},\\; 1.30,\\; 1.048$ (Kiểm tra: $W_{v,2} = 160.0\\text{ kg}\\text{ - Đạt chuẩn Slide 18}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sau phân hủy, chất rắn khô còn $W_{s,2} = 260.0\\text{ kg}$ với $S_{s,2} = 1.30$ và $S_{\\text{sl},2} = 1.048$.",
+          "takeaway": "Sau phân hủy, chất rắn khô còn $W_{s,2} = 260.0\\text{ kg}$ với $S_{s,2} = 1.30$ và $S_{\\text{sl},2} = 1.048$",
+          "topic": "chất rắn khô"
+        },
+        {
+          "id": "p-a0f433cf",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bùn sau phân hủy và tỷ lệ giảm thể tích ($V_{\\text{sl},2},\\; \\Delta V$): $1.24\\text{ m}^3,\\; 87.5\\%$ (Kiểm tra: $V_{\\text{sl},2} \\ll V_{\\text{sl},1}\\text{ - Đạt chuẩn Slide 18}$)",
+          "sentences": [
+            "Thể tích bùn sau phân hủy và tỷ lệ giảm thể tích ($V_{\\text{sl},2},\\; \\Delta V$): $1.24\\text{ m}^3,\\; 87.5\\%$ (Kiểm tra: $V_{\\text{sl},2} \\ll V_{\\text{sl},1}\\text{ - Đạt chuẩn Slide 18}$)"
+          ],
+          "brief": [
+            "Thể tích bùn sau phân hủy và tỷ lệ giảm thể tích ($V_{\\text{sl},2},\\; \\Delta V$): $1.24\\text{ m}^3,\\; 87.5\\%$ (Kiểm tra: $V_{\\text{sl},2} \\ll V_{\\text{sl},1}\\text{ - Đạt chuẩn Slide 18}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bùn sau phân hủy giảm xuống $V_{\\text{sl},2} = 1.24\\text{ m}^3$, đạt hiệu suất giảm $\\Delta V = 87.5\\%$.",
+          "takeaway": "Thể tích bùn sau phân hủy giảm xuống $V_{\\text{sl},2} = 1.24\\text{ m}^3$, đạt hiệu suất giảm $\\Delta V = 87.5\\%$",
+          "topic": "sau phân hủy"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-sơ-đồ-dây-chuyền-xử-lý-bùn-và-các-phương-pháp-nén-bùn-sludge-processing-flowsheets-and-thickening-methods",
+      "num": "3",
+      "title": "Sơ đồ Dây chuyền Xử lý Bùn và Các Phương pháp Nén Bùn (Sludge Processing Flowsheets and Thickening Methods)",
+      "depth": 1,
+      "takeaway": "Nén bùn tách nước tự do giúp giảm mạnh thể tích cho công đoạn phân hủy",
+      "topic": "Nén bùn tách",
+      "units": [
+        {
+          "id": "p-50dd9702",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Từ Slide 22 đến Slide 25, chương học trình bày các sơ đồ dây chuyền công nghệ xử lý bùn từ công đoạn tiền xử lý, ổn định, khử nước đến tiêu hủy hoặc tái sử dụng cuối cùng [Page 10]. Quy trình tổng quát trên Slide 22 và Slide 23 bao gồm tiền xử lý (thủy phân nhiệt, thủy phân enzyme, thanh trùng hoặc tiền xử lý siêu âm), ổn định bùn (phân hủy kỵ khí, phân hủy hiếu khí, ổn định bằng vôi, ủ компост hoặc sấy tạo viên), hậu xử lý khử nước (băng tải ép bùn, máy ly tâm hoặc sân phơi bùn) và tận dụng cuối cùng (bón đất nông nghiệp, làm phân bón, thu hồi năng lượng qua đốt/khí hóa hoặc chôn lấp hợp vệ sinh) [Page 10]. Tại Việt Nam, hầu hết các nhà máy xử lý nước thải quy mô nhỏ và vừa (Slide 25) áp dụng dây chuyền rút gọn gồm hai bậc chính là bể nén bùn (Sludge Thickener) và thiết bị làm khô bùn cơ học (máy ép bùn băng tải hoặc máy ly tâm) có châm polymer tạo bông trước khi vận chuyển bùn đi xử lý cuối cùng, đồng thời dẫn toàn bộ nước tách bùn (supernatant và centrate) quay lại đầu trạm xử lý nước thải [Page 11].",
+          "sentences": [
+            "Từ Slide 22 đến Slide 25, chương học trình bày các sơ đồ dây chuyền công nghệ xử lý bùn từ công đoạn tiền xử lý, ổn định, khử nước đến tiêu hủy hoặc tái sử dụng cuối cùng [Page 10].",
+            "Quy trình tổng quát trên Slide 22 và Slide 23 bao gồm tiền xử lý (thủy phân nhiệt, thủy phân enzyme, thanh trùng hoặc tiền xử lý siêu âm), ổn định bùn (phân hủy kỵ khí, phân hủy hiếu khí, ổn định bằng vôi, ủ компост hoặc sấy tạo viên), hậu xử lý khử nước (băng tải ép bùn, máy ly tâm hoặc sân phơi bùn) và tận dụng cuối cùng (bón đất nông nghiệp, làm phân bón, thu hồi năng lượng qua đốt/khí hóa hoặc chôn lấp hợp vệ sinh) [Page 10].",
+            "Tại Việt Nam, hầu hết các nhà máy xử lý nước thải quy mô nhỏ và vừa (Slide 25) áp dụng dây chuyền rút gọn gồm hai bậc chính là bể nén bùn (Sludge Thickener) và thiết bị làm khô bùn cơ học (máy ép bùn băng tải hoặc máy ly tâm) có châm polymer tạo bông trước khi vận chuyển bùn đi xử lý cuối cùng, đồng thời dẫn toàn bộ nước tách bùn (supernatant và centrate) quay lại đầu trạm xử lý nước thải [Page 11]."
+          ],
+          "brief": [
+            "Quy trình tổng quát trên Slide 22 và Slide 23 bao gồm tiền xử lý (thủy phân nhiệt, thủy phân enzyme, thanh trùng hoặc tiền xử lý siêu âm), ổn định bùn (phân hủy kỵ khí, phân hủy hiếu khí, ổn định bằng vôi, ủ компост hoặc sấy tạo viên), hậu xử lý khử nước (băng tải ép bùn, máy ly tâm hoặc sân phơi bùn) và tận dụng cuối cùng (bón đất nông nghiệp, làm phân bón, thu hồi năng lượng qua đốt/khí hóa hoặc chôn lấp hợp vệ sinh) [Page 10].",
+            "Tại Việt Nam, hầu hết các nhà máy xử lý nước thải quy mô nhỏ và vừa (Slide 25) áp dụng dây chuyền rút gọn gồm hai bậc chính là bể nén bùn (Sludge Thickener) và thiết bị làm khô bùn cơ học (máy ép bùn băng tải hoặc máy ly tâm) có châm polymer tạo bông trước khi vận chuyển bùn đi xử lý cuối cùng, đồng thời dẫn toàn bộ nước tách bùn (supernatant và centrate) quay lại đầu trạm xử lý nước thải [Page 11]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Các trạm vừa và nhỏ tại Việt Nam dùng hai bậc nén bùn và ép bùn. Toàn bộ nước tách bùn từ bể nén và máy ép bùn phải được dẫn tuần hoàn về đầu trạm.",
+          "takeaway": "Các trạm vừa và nhỏ tại Việt Nam dùng hai bậc nén bùn và ép bùn",
+          "topic": "nén bùn"
+        },
+        {
+          "id": "p-1bf4b5db",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Nguyên lý và phân loại các phương pháp nén bùn (Sludge Thickening) được trình bày chi tiết từ Slide 26 đến Slide 30 [Page 12]. Nén bùn là bước tách bớt nước tự do để nâng nồng độ chất rắn khô (ví dụ nén bùn từ $1\\%$ lên $5\\%$ chất rắn giúp giảm tới $5$ lần thể tích bùn), từ đó giảm đáng kể dung tích bể phân hủy, giảm lượng hóa chất điều hòa và giảm nhiệt năng đun nóng bùn [Page 12]. Sáu phương pháp nén bùn chính trên Slide 27 và bảng đánh giá trên Slide 28 bao gồm đồng lắng trong bể lắng sơ cấp (co-settling, lưu bùn từ $12\\text{ h}$ đến $24\\text{ h}$ để đạt $3\\%$ đến $5\\%$ chất rắn cho dòng bùn loãng dưới $1\\%$), nén trọng lực trong bể riêng (gravity thickening, rất hiệu quả cho bùn sơ cấp đạt $4\\%$ đến $6\\%$ chất rắn tại các trạm nhỏ và vừa), tuyển nổi áp lực (DAF thickening, đạt $3.5\\%$ đến $5\\%$ chất rắn cho WAS), ly tâm nén bùn (solid bowl centrifuge, đạt $4\\%$ đến $6\\%$ chất rắn cho WAS ở trạm lớn), băng tải trọng lực (gravity belt thickener, đạt $3\\%$ đến $6\\%$ chất rắn) và trống quay (rotary drum thickener, đạt $5\\%$ đến $9\\%$ chất rắn) [Page 13]. Khi thiết kế công trình nén bùn, kỹ sư cần đảm bảo đủ công suất cho tải lượng đỉnh, ngăn ngừa điều kiện yếm khí phát sinh mùi hôi và kiểm soát tải lượng ô nhiễm của dòng nước dư (supernatant) tuần hoàn về đầu nhà máy [Page 14].",
+          "sentences": [
+            "Nguyên lý và phân loại các phương pháp nén bùn (Sludge Thickening) được trình bày chi tiết từ Slide 26 đến Slide 30 [Page 12].",
+            "Nén bùn là bước tách bớt nước tự do để nâng nồng độ chất rắn khô (ví dụ nén bùn từ $1\\%$ lên $5\\%$ chất rắn giúp giảm tới $5$ lần thể tích bùn), từ đó giảm đáng kể dung tích bể phân hủy, giảm lượng hóa chất điều hòa và giảm nhiệt năng đun nóng bùn [Page 12].",
+            "Sáu phương pháp nén bùn chính trên Slide 27 và bảng đánh giá trên Slide 28 bao gồm đồng lắng trong bể lắng sơ cấp (co-settling, lưu bùn từ $12\\text{ h}$ đến $24\\text{ h}$ để đạt $3\\%$ đến $5\\%$ chất rắn cho dòng bùn loãng dưới $1\\%$), nén trọng lực trong bể riêng (gravity thickening, rất hiệu quả cho bùn sơ cấp đạt $4\\%$ đến $6\\%$ chất rắn tại các trạm nhỏ và vừa), tuyển nổi áp lực (DAF thickening, đạt $3.5\\%$ đến $5\\%$ chất rắn cho WAS), ly tâm nén bùn (solid bowl centrifuge, đạt $4\\%$ đến $6\\%$ chất rắn cho WAS ở trạm lớn), băng tải trọng lực (gravity belt thickener, đạt $3\\%$ đến $6\\%$ chất rắn) và trống quay (rotary drum thickener, đạt $5\\%$ đến $9\\%$ chất rắn) [Page 13].",
+            "Khi thiết kế công trình nén bùn, kỹ sư cần đảm bảo đủ công suất cho tải lượng đỉnh, ngăn ngừa điều kiện yếm khí phát sinh mùi hôi và kiểm soát tải lượng ô nhiễm của dòng nước dư (supernatant) tuần hoàn về đầu nhà máy [Page 14]."
+          ],
+          "brief": [
+            "Nén bùn là bước tách bớt nước tự do để nâng nồng độ chất rắn khô (ví dụ nén bùn từ $1\\%$ lên $5\\%$ chất rắn giúp giảm tới $5$ lần thể tích bùn), từ đó giảm đáng kể dung tích bể phân hủy, giảm lượng hóa chất điều hòa và giảm nhiệt năng đun nóng bùn [Page 12].",
+            "Khi thiết kế công trình nén bùn, kỹ sư cần đảm bảo đủ công suất cho tải lượng đỉnh, ngăn ngừa điều kiện yếm khí phát sinh mùi hôi và kiểm soát tải lượng ô nhiễm của dòng nước dư (supernatant) tuần hoàn về đầu nhà máy [Page 14]."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Nén bùn từ $1\\%$ lên $5\\%$ chất rắn giúp giảm $5$ lần thể tích dòng bùn. Thiết kế bể nén phải đáp ứng tải lượng đỉnh, ngăn yếm khí gây mùi và kiểm soát dòng nước dư.",
+          "takeaway": "Nén bùn từ $1\\%$ lên $5\\%$ chất rắn giúp giảm $5$ lần thể tích dòng bùn",
+          "topic": "chất rắn"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-thông-số-thiết-kế-bể-nén-bùn-trọng-lực-và-lời-giải-chi-tiết-bài-tập-2-ch10_ex02",
+      "num": "4",
+      "title": "Thông số Thiết kế Bể Nén Bùn Trọng lực và Lời giải Chi tiết Bài tập 2 (ch10_ex02)",
+      "depth": 1,
+      "takeaway": "Bể nén trọng lực cho bùn trộn cần tải thủy lực từ $6\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đến $12\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ và SLR từ $25\\text{ kg/m}^2\\cdot\\text{d}$ đến $70\\text{ kg/m}^2\\cdot\\text{d}$",
+      "topic": "Bể nén trọng",
+      "units": [
+        {
+          "id": "p-1ae4e1dc",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Từ Slide 31 đến Slide 34, chương học quy định cấu tạo và bảng thông số thiết kế chuẩn cho bể nén bùn trọng lực (Gravity Thickener) [Page 15]. Bể nén bùn trọng lực có dạng hình tròn tương tự bể lắng truyền thống với ống phân phối trung tâm (feed well), dàn cào bùn đáy (rake arm và squeegees) giữ chiều sâu lớp bùn nén từ $0.5\\text{ m}$ đến $2.5\\text{ m}$ và máng tràn thu nước trong phía trên [Page 15]. Theo Slide 33, tải trọng bề mặt thủy lực (overflow rate hay hydraulic loading rate) phải duy trì từ $15\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đến $30\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đối với bùn sơ cấp, từ $4\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đến $8\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đối với bùn hoạt tính dư (WAS), và từ $6\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đến $12\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đối với hỗn hợp bùn sơ cấp trộn bùn hoạt tính dư để tránh rửa trôi cặn khi tải quá cao hoặc phát sinh yếm khí và bùn nổi khi tải quá thấp [Page 15]. Theo bảng thông số thiết kế trên Slide 34, bùn sơ cấp có nồng độ đầu vào $1\\%$ đến $6\\%$, sau nén đạt $3\\%$ đến $10\\%$ với tải trọng chất rắn (solids loading rate hay SLR) từ $100\\text{ kg/m}^2\\cdot\\text{d}$ đến $150\\text{ kg/m}^2\\cdot\\text{d}$, bùn hoạt tính có đầu vào $0.5\\%$ đến $1.5\\%$, sau nén đạt $2\\%$ đến $3\\%$ với SLR từ $20\\text{ kg/m}^2\\cdot\\text{d}$ đến $40\\text{ kg/m}^2\\cdot\\text{d}$, còn hỗn hợp bùn sơ cấp và WAS có hai dải gồm đầu vào $0.5\\%$ đến $1.5\\%$ (sau nén đạt $2\\%$ đến $6\\%$, SLR từ $25\\text{ kg/m}^2\\cdot\\text{d}$ đến $70\\text{ kg/m}^2\\cdot\\text{d}$) và đầu vào $2.5\\%$ đến $4.0\\%$ (sau nén đạt $4\\%$ đến $7\\%$, SLR từ $40\\text{ kg/m}^2\\cdot\\text{d}$ đến $80\\text{ kg/m}^2\\cdot\\text{d}$) [Page 16].",
+          "sentences": [
+            "Từ Slide 31 đến Slide 34, chương học quy định cấu tạo và bảng thông số thiết kế chuẩn cho bể nén bùn trọng lực (Gravity Thickener) [Page 15].",
+            "Bể nén bùn trọng lực có dạng hình tròn tương tự bể lắng truyền thống với ống phân phối trung tâm (feed well), dàn cào bùn đáy (rake arm và squeegees) giữ chiều sâu lớp bùn nén từ $0.5\\text{ m}$ đến $2.5\\text{ m}$ và máng tràn thu nước trong phía trên [Page 15].",
+            "Theo Slide 33, tải trọng bề mặt thủy lực (overflow rate hay hydraulic loading rate) phải duy trì từ $15\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đến $30\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đối với bùn sơ cấp, từ $4\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đến $8\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đối với bùn hoạt tính dư (WAS), và từ $6\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đến $12\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đối với hỗn hợp bùn sơ cấp trộn bùn hoạt tính dư để tránh rửa trôi cặn khi tải quá cao hoặc phát sinh yếm khí và bùn nổi khi tải quá thấp [Page 15].",
+            "Theo bảng thông số thiết kế trên Slide 34, bùn sơ cấp có nồng độ đầu vào $1\\%$ đến $6\\%$, sau nén đạt $3\\%$ đến $10\\%$ với tải trọng chất rắn (solids loading rate hay SLR) từ $100\\text{ kg/m}^2\\cdot\\text{d}$ đến $150\\text{ kg/m}^2\\cdot\\text{d}$, bùn hoạt tính có đầu vào $0.5\\%$ đến $1.5\\%$, sau nén đạt $2\\%$ đến $3\\%$ với SLR từ $20\\text{ kg/m}^2\\cdot\\text{d}$ đến $40\\text{ kg/m}^2\\cdot\\text{d}$, còn hỗn hợp bùn sơ cấp và WAS có hai dải gồm đầu vào $0.5\\%$ đến $1.5\\%$ (sau nén đạt $2\\%$ đến $6\\%$, SLR từ $25\\text{ kg/m}^2\\cdot\\text{d}$ đến $70\\text{ kg/m}^2\\cdot\\text{d}$) và đầu vào $2.5\\%$ đến $4.0\\%$ (sau nén đạt $4\\%$ đến $7\\%$, SLR từ $40\\text{ kg/m}^2\\cdot\\text{d}$ đến $80\\text{ kg/m}^2\\cdot\\text{d}$) [Page 16]."
+          ],
+          "brief": [
+            "Theo Slide 33, tải trọng bề mặt thủy lực (overflow rate hay hydraulic loading rate) phải duy trì từ $15\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đến $30\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đối với bùn sơ cấp, từ $4\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đến $8\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đối với bùn hoạt tính dư (WAS), và từ $6\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đến $12\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đối với hỗn hợp bùn sơ cấp trộn bùn hoạt tính dư để tránh rửa trôi cặn khi tải quá cao hoặc phát sinh yếm khí và bùn nổi khi tải quá thấp [Page 15].",
+            "Theo bảng thông số thiết kế trên Slide 34, bùn sơ cấp có nồng độ đầu vào $1\\%$ đến $6\\%$, sau nén đạt $3\\%$ đến $10\\%$ với tải trọng chất rắn (solids loading rate hay SLR) từ $100\\text{ kg/m}^2\\cdot\\text{d}$ đến $150\\text{ kg/m}^2\\cdot\\text{d}$, bùn hoạt tính có đầu vào $0.5\\%$ đến $1.5\\%$, sau nén đạt $2\\%$ đến $3\\%$ với SLR từ $20\\text{ kg/m}^2\\cdot\\text{d}$ đến $40\\text{ kg/m}^2\\cdot\\text{d}$, còn hỗn hợp bùn sơ cấp và WAS có hai dải gồm đầu vào $0.5\\%$ đến $1.5\\%$ (sau nén đạt $2\\%$ đến $6\\%$, SLR từ $25\\text{ kg/m}^2\\cdot\\text{d}$ đến $70\\text{ kg/m}^2\\cdot\\text{d}$) và đầu vào $2.5\\%$ đến $4.0\\%$ (sau nén đạt $4\\%$ đến $7\\%$, SLR từ $40\\text{ kg/m}^2\\cdot\\text{d}$ đến $80\\text{ kg/m}^2\\cdot\\text{d}$) [Page 16]."
+          ],
+          "evidence": [
+            2,
+            3
+          ],
+          "key": "Hỗn hợp bùn sơ cấp và WAS cần tải thủy lực $6\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đến $12\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ và SLR $25\\text{ kg/m}^2\\cdot\\text{d}$ đến $70\\text{ kg/m}^2\\cdot\\text{d}$. Duy trì tải trọng thủy lực trong ngưỡng chuẩn giúp ngăn rửa trôi cặn và tránh yếm khí làm nổi bùn.",
+          "takeaway": "Hỗn hợp bùn sơ cấp và WAS cần tải thủy lực $6\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ đến $12\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ và SLR $25\\text{ kg/m}^2\\cdot\\text{d}$ đến $70\\text{ kg/m}^2\\cdot\\text{d}$",
+          "topic": "Hỗn hợp bùn"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch10_ex02-slide-35-trang-16-thiết-kế-bể-nén-bùn-trọng-lực-cho-hỗn-hợp-bùn-tươi-sơ-cấp-và-bùn-hoạt-tính-dư",
+      "num": "",
+      "title": "Bài tập ch10_ex02 (Slide 35, Trang 16): Thiết kế Bể Nén Bùn Trọng lực cho Hỗn hợp Bùn Tươi Sơ cấp và Bùn Hoạt tính Dư",
+      "depth": 2,
+      "takeaway": "Thiết kế hai bể nén trọng lực đường kính $D = 16.2\\text{ m}$ tại $\\text{SLR} = 50\\text{ kg/m}^2\\text{d}$ và $\\text{OFR} = 7.13\\text{ m}^3/\\text{m}^2\\text{d}$",
+      "topic": "bể nén trọng",
+      "units": [
+        {
+          "id": "p-5a7ba538",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 33–35): Thiết kế bể nén bùn trọng lực (Gravity Thickener) để nén hỗn hợp gồm bùn tươi sơ cấp ($Q_p = 420\\text{ m}^3/\\text{d}$, $S_p = 1.03$, $P_{s,p} = 3.4\\%$) và bùn hoạt tính dư ($Q_{\\text{WAS}} = 2500\\text{ m}^3/\\text{d}$, $S_{\\text{WAS}} = 1.005$, $P_{s,\\text{WAS}} = 0.23\\%$) [Page 16].",
+          "sentences": [
+            "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 33–35): Thiết kế bể nén bùn trọng lực (Gravity Thickener) để nén hỗn hợp gồm bùn tươi sơ cấp ($Q_p = 420\\text{ m}^3/\\text{d}$, $S_p = 1.03$, $P_{s,p} = 3.4\\%$) và bùn hoạt tính dư ($Q_{\\text{WAS}} = 2500\\text{ m}^3/\\text{d}$, $S_{\\text{WAS}} = 1.005$, $P_{s,\\text{WAS}} = 0.23\\%$) [Page 16]."
+          ],
+          "brief": [
+            "Đề bài (Lời giải khôi phục theo chuẩn slide của thầy từ Slide 33–35): Thiết kế bể nén bùn trọng lực (Gravity Thickener) để nén hỗn hợp gồm bùn tươi sơ cấp ($Q_p = 420\\text{ m}^3/\\text{d}$, $S_p = 1.03$, $P_{s,p} = 3.4\\%$) và bùn hoạt tính dư ($Q_{\\text{WAS}} = 2500\\text{ m}^3/\\text{d}$, $S_{\\text{WAS}} = 1.005$, $P_{s,\\text{WAS}} = 0.23\\%$) [Page 16]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài thiết kế bể nén trọng lực cho bùn sơ cấp ($Q_p = 420\\text{ m}^3/\\text{d}$) trộn WAS ($Q_{\\text{WAS}} = 2500\\text{ m}^3/\\text{d}$).",
+          "takeaway": "Đề bài thiết kế bể nén trọng lực cho bùn sơ cấp ($Q_p = 420\\text{ m}^3/\\text{d}$) trộn WAS ($Q_{\\text{WAS}} = 2500\\text{ m}^3/\\text{d}$)",
+          "topic": "thiết kế bể"
+        },
+        {
+          "id": "p-fc636016",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính khối lượng chất rắn khô và nồng độ hỗn hợp bùn đầu vào: Khối lượng chất rắn khô của bùn sơ cấp $M_p$ đạt $14,708.4\\text{ kg/d}$ và của bùn hoạt tính dư $M_{\\text{WAS}}$ đạt $5778.8\\text{ kg/d}$. Tổng chất rắn khô $M_{\\text{tot}}$ bằng $20,487.2\\text{ kg/d}$, tổng lưu lượng $Q_{\\text{tot}}$ bằng $2920\\text{ m}^3/\\text{d}$ và độ đặc hỗn hợp $P_{s,\\text{mix}}$ bằng $0.70\\%$ [Page 16].",
+          "sentences": [
+            "Bước 1 - Tính khối lượng chất rắn khô và nồng độ hỗn hợp bùn đầu vào: Khối lượng chất rắn khô của bùn sơ cấp $M_p$ đạt $14,708.4\\text{ kg/d}$ và của bùn hoạt tính dư $M_{\\text{WAS}}$ đạt $5778.8\\text{ kg/d}$.",
+            "Tổng chất rắn khô $M_{\\text{tot}}$ bằng $20,487.2\\text{ kg/d}$, tổng lưu lượng $Q_{\\text{tot}}$ bằng $2920\\text{ m}^3/\\text{d}$ và độ đặc hỗn hợp $P_{s,\\text{mix}}$ bằng $0.70\\%$ [Page 16]."
+          ],
+          "brief": [
+            "Bước 1 - Tính khối lượng chất rắn khô và nồng độ hỗn hợp bùn đầu vào: Khối lượng chất rắn khô của bùn sơ cấp $M_p$ đạt $14,708.4\\text{ kg/d}$ và của bùn hoạt tính dư $M_{\\text{WAS}}$ đạt $5778.8\\text{ kg/d}$.",
+            "Tổng chất rắn khô $M_{\\text{tot}}$ bằng $20,487.2\\text{ kg/d}$, tổng lưu lượng $Q_{\\text{tot}}$ bằng $2920\\text{ m}^3/\\text{d}$ và độ đặc hỗn hợp $P_{s,\\text{mix}}$ bằng $0.70\\%$ [Page 16]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng chất rắn khô vào bể đạt $M_{\\text{tot}} = 20,487.2\\text{ kg/d}$ với lưu lượng $Q_{\\text{tot}} = 2920\\text{ m}^3/\\text{d}$ và $P_{s,\\text{mix}} = 0.70\\%$. Bùn tươi sơ cấp đóng góp $M_p = 14,708.4\\text{ kg/d}$ và bùn hoạt tính dư đóng góp $M_{\\text{WAS}} = 5778.8\\text{ kg/d}$.",
+          "takeaway": "Tổng chất rắn khô vào bể đạt $M_{\\text{tot}} = 20,487.2\\text{ kg/d}$ với lưu lượng $Q_{\\text{tot}} = 2920\\text{ m}^3/\\text{d}$ và $P_{s,\\text{mix}} = 0.70\\%$",
+          "topic": "Tổng chất rắn"
+        },
+        {
+          "id": "p-8c6236a9",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Thử nghiệm tải trọng chất rắn $\\text{SLR}_1$ bằng $40\\text{ kg/m}^2\\text{d}$ và kiểm tra thủy lực: Với $P_{s,\\text{mix}}$ bằng $0.70\\% \\in [0.5\\%,\\; 1.5\\%]$, nếu chọn $\\text{SLR}_1$ bằng $40\\text{ kg/m}^2\\text{d}$ thì diện tích bể $A_1$ bằng $512.2\\text{ m}^2$. Khi đó tải trọng thủy lực $\\text{OFR}_1$ chỉ đạt $5.70\\text{ m}^3/\\text{m}^2\\text{d}$ nhỏ hơn $6.0\\text{ m}^3/\\text{m}^2\\text{d}$ nên không đạt yêu cầu chống yếm khí [Page 15].",
+          "sentences": [
+            "Bước 2 - Thử nghiệm tải trọng chất rắn $\\text{SLR}_1$ bằng $40\\text{ kg/m}^2\\text{d}$ và kiểm tra thủy lực: Với $P_{s,\\text{mix}}$ bằng $0.70\\% \\in [0.5\\%,\\; 1.5\\%]$, nếu chọn $\\text{SLR}_1$ bằng $40\\text{ kg/m}^2\\text{d}$ thì diện tích bể $A_1$ bằng $512.2\\text{ m}^2$.",
+            "Khi đó tải trọng thủy lực $\\text{OFR}_1$ chỉ đạt $5.70\\text{ m}^3/\\text{m}^2\\text{d}$ nhỏ hơn $6.0\\text{ m}^3/\\text{m}^2\\text{d}$ nên không đạt yêu cầu chống yếm khí [Page 15]."
+          ],
+          "brief": [
+            "Bước 2 - Thử nghiệm tải trọng chất rắn $\\text{SLR}_1$ bằng $40\\text{ kg/m}^2\\text{d}$ và kiểm tra thủy lực: Với $P_{s,\\text{mix}}$ bằng $0.70\\% \\in [0.5\\%,\\; 1.5\\%]$, nếu chọn $\\text{SLR}_1$ bằng $40\\text{ kg/m}^2\\text{d}$ thì diện tích bể $A_1$ bằng $512.2\\text{ m}^2$.",
+            "Khi đó tải trọng thủy lực $\\text{OFR}_1$ chỉ đạt $5.70\\text{ m}^3/\\text{m}^2\\text{d}$ nhỏ hơn $6.0\\text{ m}^3/\\text{m}^2\\text{d}$ nên không đạt yêu cầu chống yếm khí [Page 15]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Thử nghiệm $\\text{SLR}_1 = 40\\text{ kg/m}^2\\text{d}$ cho $\\text{OFR}_1 = 5.70\\text{ m}^3/\\text{m}^2\\text{d}$ nhỏ hơn ngưỡng $6.0\\text{ m}^3/\\text{m}^2\\text{d}$ nên bị loại. Diện tích $A_1 = 512.2\\text{ m}^2$ làm vận tốc nạp thủy lực quá thấp và dễ gây yếm khí trong bể nén.",
+          "takeaway": "Thử nghiệm $\\text{SLR}_1 = 40\\text{ kg/m}^2\\text{d}$ cho $\\text{OFR}_1 = 5.70\\text{ m}^3/\\text{m}^2\\text{d}$ nhỏ hơn ngưỡng $6.0\\text{ m}^3/\\text{m}^2\\text{d}$ nên bị loại",
+          "topic": "Thử nghiệm"
+        },
+        {
+          "id": "p-f514fe44",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Chọn lại tải trọng $\\text{SLR}$ bằng $50\\text{ kg/m}^2\\text{d}$ và xác định kích thước bể: Chọn lại tải trọng chất rắn thiết kế $\\text{SLR}$ bằng $50\\text{ kg/m}^2\\text{d}$ thuộc $[25,\\; 70]\\text{ kg/m}^2\\text{d}$ cho tổng diện tích mặt bằng $A = 409.7\\text{ m}^2$ và tải trọng thủy lực $\\text{OFR}$ bằng $7.13\\text{ m}^3/\\text{m}^2\\text{d}$. Thiết kế $N = 2$ bể tròn song song có đường kính mỗi bể $D = 16.2\\text{ m}$ và chiều sâu $H = 3.0\\text{ m}$ [Page 16].",
+          "sentences": [
+            "Bước 3 - Chọn lại tải trọng $\\text{SLR}$ bằng $50\\text{ kg/m}^2\\text{d}$ và xác định kích thước bể: Chọn lại tải trọng chất rắn thiết kế $\\text{SLR}$ bằng $50\\text{ kg/m}^2\\text{d}$ thuộc $[25,\\; 70]\\text{ kg/m}^2\\text{d}$ cho tổng diện tích mặt bằng $A = 409.7\\text{ m}^2$ và tải trọng thủy lực $\\text{OFR}$ bằng $7.13\\text{ m}^3/\\text{m}^2\\text{d}$.",
+            "Thiết kế $N = 2$ bể tròn song song có đường kính mỗi bể $D = 16.2\\text{ m}$ và chiều sâu $H = 3.0\\text{ m}$ [Page 16]."
+          ],
+          "brief": [
+            "Bước 3 - Chọn lại tải trọng $\\text{SLR}$ bằng $50\\text{ kg/m}^2\\text{d}$ và xác định kích thước bể: Chọn lại tải trọng chất rắn thiết kế $\\text{SLR}$ bằng $50\\text{ kg/m}^2\\text{d}$ thuộc $[25,\\; 70]\\text{ kg/m}^2\\text{d}$ cho tổng diện tích mặt bằng $A = 409.7\\text{ m}^2$ và tải trọng thủy lực $\\text{OFR}$ bằng $7.13\\text{ m}^3/\\text{m}^2\\text{d}$.",
+            "Thiết kế $N = 2$ bể tròn song song có đường kính mỗi bể $D = 16.2\\text{ m}$ và chiều sâu $H = 3.0\\text{ m}$ [Page 16]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Chọn $\\text{SLR} = 50\\text{ kg/m}^2\\text{d}$ cho tổng diện tích $A = 409.7\\text{ m}^2$, $\\text{OFR} = 7.13\\text{ m}^3/\\text{m}^2\\text{d}$ và $N = 2$ bể $D = 16.2\\text{ m}$. Tải trọng thủy lực đạt chuẩn từ $6\\text{ m}^3/\\text{m}^2\\text{d}$ đến $12\\text{ m}^3/\\text{m}^2\\text{d}$ với chiều sâu thành bể $H = 3.0\\text{ m}$.",
+          "takeaway": "Chọn $\\text{SLR} = 50\\text{ kg/m}^2\\text{d}$ cho tổng diện tích $A = 409.7\\text{ m}^2$, $\\text{OFR} = 7.13\\text{ m}^3/\\text{m}^2\\text{d}$ và $N = 2$ bể $D = 16.2\\text{ m}$",
+          "topic": "tổng diện tích"
+        },
+        {
+          "id": "p-1e257f2f",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính lưu lượng bùn đặc rút ở đáy bể và lưu lượng nước tách bùn: Với nồng độ bùn sau nén $P_{s,\\text{th}} = 4.0\\%$ và tỷ trọng $S_{\\text{th}} = 1.01$, lưu lượng bùn đặc rút ra ở đáy bể $Q_u$ bằng $507.1\\text{ m}^3/\\text{d}$ (hoặc $456.4\\text{ m}^3/\\text{d}$ khi thu hồi cặn $90\\%$). Lưu lượng nước dư tuần hoàn về đầu trạm $Q_{\\text{sup}}$ bằng $2412.9\\text{ m}^3/\\text{d}$ [Page 16].",
+          "sentences": [
+            "Bước 4 - Tính lưu lượng bùn đặc rút ở đáy bể và lưu lượng nước tách bùn: Với nồng độ bùn sau nén $P_{s,\\text{th}} = 4.0\\%$ và tỷ trọng $S_{\\text{th}} = 1.01$, lưu lượng bùn đặc rút ra ở đáy bể $Q_u$ bằng $507.1\\text{ m}^3/\\text{d}$ (hoặc $456.4\\text{ m}^3/\\text{d}$ khi thu hồi cặn $90\\%$).",
+            "Lưu lượng nước dư tuần hoàn về đầu trạm $Q_{\\text{sup}}$ bằng $2412.9\\text{ m}^3/\\text{d}$ [Page 16]."
+          ],
+          "brief": [
+            "Bước 4 - Tính lưu lượng bùn đặc rút ở đáy bể và lưu lượng nước tách bùn: Với nồng độ bùn sau nén $P_{s,\\text{th}} = 4.0\\%$ và tỷ trọng $S_{\\text{th}} = 1.01$, lưu lượng bùn đặc rút ra ở đáy bể $Q_u$ bằng $507.1\\text{ m}^3/\\text{d}$ (hoặc $456.4\\text{ m}^3/\\text{d}$ khi thu hồi cặn $90\\%$).",
+            "Lưu lượng nước dư tuần hoàn về đầu trạm $Q_{\\text{sup}}$ bằng $2412.9\\text{ m}^3/\\text{d}$ [Page 16]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Lưu lượng bùn đặc rút ra ở đáy đạt $Q_u = 507.1\\text{ m}^3/\\text{d}$ và nước tách bùn đạt $Q_{\\text{sup}} = 2412.9\\text{ m}^3/\\text{d}$. Bùn sau nén có độ đặc $P_{s,\\text{th}} = 4.0\\%$ và tỷ trọng $S_{\\text{th}} = 1.01$ (hoặc $456.4\\text{ m}^3/\\text{d}$ khi thu hồi $90\\%$).",
+          "takeaway": "Lưu lượng bùn đặc rút ra ở đáy đạt $Q_u = 507.1\\text{ m}^3/\\text{d}$ và nước tách bùn đạt $Q_{\\text{sup}} = 2412.9\\text{ m}^3/\\text{d}$",
+          "topic": "Lưu lượng bùn"
+        },
+        {
+          "id": "p-47659d61-2",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Toàn bộ thông số thiết kế của bể nén bùn trọng lực thỏa mãn giới hạn tiêu chuẩn. Cả tải trọng chất rắn bề mặt và tải trọng thủy lực đều nằm trong vùng làm việc tối ưu.",
+          "takeaway": "Toàn bộ thông số thiết kế của bể nén bùn trọng lực thỏa mãn giới hạn tiêu chuẩn",
+          "topic": "thông số thiết"
+        },
+        {
+          "id": "p-1ff9c244",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổng tải lượng chất rắn và lưu lượng vào bể ($M_{\\text{tot}},\\; Q_{\\text{tot}}$): $20,487.2\\text{ kg/d},\\; 2920.0\\text{ m}^3/\\text{d}$ (Kiểm tra: $P_{s,\\text{mix}} = 0.70\\% \\in [0.5\\%,\\; 1.5\\%]\\text{ - Đạt chuẩn Slide 34}$)",
+          "sentences": [
+            "Tổng tải lượng chất rắn và lưu lượng vào bể ($M_{\\text{tot}},\\; Q_{\\text{tot}}$): $20,487.2\\text{ kg/d},\\; 2920.0\\text{ m}^3/\\text{d}$ (Kiểm tra: $P_{s,\\text{mix}} = 0.70\\% \\in [0.5\\%,\\; 1.5\\%]\\text{ - Đạt chuẩn Slide 34}$)"
+          ],
+          "brief": [
+            "Tổng tải lượng chất rắn và lưu lượng vào bể ($M_{\\text{tot}},\\; Q_{\\text{tot}}$): $20,487.2\\text{ kg/d},\\; 2920.0\\text{ m}^3/\\text{d}$ (Kiểm tra: $P_{s,\\text{mix}} = 0.70\\% \\in [0.5\\%,\\; 1.5\\%]\\text{ - Đạt chuẩn Slide 34}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng tải lượng chất rắn đạt $M_{\\text{tot}} = 20,487.2\\text{ kg/d}$ và lưu lượng đạt $Q_{\\text{tot}} = 2920.0\\text{ m}^3/\\text{d}$ ($P_{s,\\text{mix}} = 0.70\\%$).",
+          "takeaway": "Tổng tải lượng chất rắn đạt $M_{\\text{tot}} = 20,487.2\\text{ kg/d}$ và lưu lượng đạt $Q_{\\text{tot}} = 2920.0\\text{ m}^3/\\text{d}$ ($P_{s,\\text{mix}} = 0.70\\%$)",
+          "topic": "tải lượng chất"
+        },
+        {
+          "id": "p-10f41683",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tải trọng chất rắn bề mặt thiết kế ($\\text{SLR}$): $50.0\\text{ kg/m}^2\\cdot\\text{d}$ (Kiểm tra: $25\\text{ kg/m}^2\\cdot\\text{d} \\le \\text{SLR} \\le 70\\text{ kg/m}^2\\cdot\\text{d}\\text{ - Đạt chuẩn Slide 34}$)",
+          "sentences": [
+            "Tải trọng chất rắn bề mặt thiết kế ($\\text{SLR}$): $50.0\\text{ kg/m}^2\\cdot\\text{d}$ (Kiểm tra: $25\\text{ kg/m}^2\\cdot\\text{d} \\le \\text{SLR} \\le 70\\text{ kg/m}^2\\cdot\\text{d}\\text{ - Đạt chuẩn Slide 34}$)"
+          ],
+          "brief": [
+            "Tải trọng chất rắn bề mặt thiết kế ($\\text{SLR}$): $50.0\\text{ kg/m}^2\\cdot\\text{d}$ (Kiểm tra: $25\\text{ kg/m}^2\\cdot\\text{d} \\le \\text{SLR} \\le 70\\text{ kg/m}^2\\cdot\\text{d}\\text{ - Đạt chuẩn Slide 34}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tải trọng chất rắn bề mặt thiết kế đạt $\\text{SLR} = 50.0\\text{ kg/m}^2\\cdot\\text{d}$ nằm trong dải $25$ đến $70\\text{ kg/m}^2\\cdot\\text{d}$.",
+          "takeaway": "Tải trọng chất rắn bề mặt thiết kế đạt $\\text{SLR} = 50.0\\text{ kg/m}^2\\cdot\\text{d}$ nằm trong dải $25$ đến $70\\text{ kg/m}^2\\cdot\\text{d}$",
+          "topic": "Tải trọng chất"
+        },
+        {
+          "id": "p-70823c3b",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổng diện tích và đường kính $2$ bể nén ($A,\\; D$): $409.7\\text{ m}^2,\\; D = 16.2\\text{ m/bể}$ (Kiểm tra: $A_{\\text{each}} = 204.9\\text{ m}^2,\\; H = 3.0\\text{ m - Đạt chuẩn Slide 32}$)",
+          "sentences": [
+            "Tổng diện tích và đường kính $2$ bể nén ($A,\\; D$): $409.7\\text{ m}^2,\\; D = 16.2\\text{ m/bể}$ (Kiểm tra: $A_{\\text{each}} = 204.9\\text{ m}^2,\\; H = 3.0\\text{ m - Đạt chuẩn Slide 32}$)"
+          ],
+          "brief": [
+            "Tổng diện tích và đường kính $2$ bể nén ($A,\\; D$): $409.7\\text{ m}^2,\\; D = 16.2\\text{ m/bể}$ (Kiểm tra: $A_{\\text{each}} = 204.9\\text{ m}^2,\\; H = 3.0\\text{ m - Đạt chuẩn Slide 32}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng diện tích bằng $A = 409.7\\text{ m}^2$ chia làm hai bể nén có đường kính $D = 16.2\\text{ m/bể}$.",
+          "takeaway": "Tổng diện tích bằng $A = 409.7\\text{ m}^2$ chia làm hai bể nén có đường kính $D = 16.2\\text{ m/bể}$",
+          "topic": "Tổng diện tích"
+        },
+        {
+          "id": "p-6b1ad418",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tải trọng bề mặt thủy lực ($\\text{OFR}$): $7.13\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ (Kiểm tra: $6.0\\text{ m}^3/\\text{m}^2\\cdot\\text{d} \\le \\text{OFR} \\le 12.0\\text{ m}^3/\\text{m}^2\\cdot\\text{d}\\text{ - Đạt chuẩn Slide 33}$)",
+          "sentences": [
+            "Tải trọng bề mặt thủy lực ($\\text{OFR}$): $7.13\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ (Kiểm tra: $6.0\\text{ m}^3/\\text{m}^2\\cdot\\text{d} \\le \\text{OFR} \\le 12.0\\text{ m}^3/\\text{m}^2\\cdot\\text{d}\\text{ - Đạt chuẩn Slide 33}$)"
+          ],
+          "brief": [
+            "Tải trọng bề mặt thủy lực ($\\text{OFR}$): $7.13\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ (Kiểm tra: $6.0\\text{ m}^3/\\text{m}^2\\cdot\\text{d} \\le \\text{OFR} \\le 12.0\\text{ m}^3/\\text{m}^2\\cdot\\text{d}\\text{ - Đạt chuẩn Slide 33}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tải trọng bề mặt thủy lực đạt $\\text{OFR} = 7.13\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ thỏa mãn dải $6.0$ đến $12.0\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$.",
+          "takeaway": "Tải trọng bề mặt thủy lực đạt $\\text{OFR} = 7.13\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$ thỏa mãn dải $6.0$ đến $12.0\\text{ m}^3/\\text{m}^2\\cdot\\text{d}$",
+          "topic": "bề mặt thủy"
+        },
+        {
+          "id": "p-65f051e6",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng bùn sau nén và nước dư tuần hoàn ($Q_u,\\; Q_{\\text{sup}}$): $507.1\\text{ m}^3/\\text{d},\\; 2412.9\\text{ m}^3/\\text{d}$ (Kiểm tra: $P_{s,\\text{th}} = 4.0\\% \\in [2.0\\%,\\; 6.0\\%]\\text{ - Đạt chuẩn Slide 34}$)",
+          "sentences": [
+            "Lưu lượng bùn sau nén và nước dư tuần hoàn ($Q_u,\\; Q_{\\text{sup}}$): $507.1\\text{ m}^3/\\text{d},\\; 2412.9\\text{ m}^3/\\text{d}$ (Kiểm tra: $P_{s,\\text{th}} = 4.0\\% \\in [2.0\\%,\\; 6.0\\%]\\text{ - Đạt chuẩn Slide 34}$)"
+          ],
+          "brief": [
+            "Lưu lượng bùn sau nén và nước dư tuần hoàn ($Q_u,\\; Q_{\\text{sup}}$): $507.1\\text{ m}^3/\\text{d},\\; 2412.9\\text{ m}^3/\\text{d}$ (Kiểm tra: $P_{s,\\text{th}} = 4.0\\% \\in [2.0\\%,\\; 6.0\\%]\\text{ - Đạt chuẩn Slide 34}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng bùn sau nén đạt $Q_u = 507.1\\text{ m}^3/\\text{d}$ và nước dư tuần hoàn đạt $Q_{\\text{sup}} = 2412.9\\text{ m}^3/\\text{d}$.",
+          "takeaway": "Lưu lượng bùn sau nén đạt $Q_u = 507.1\\text{ m}^3/\\text{d}$ và nước dư tuần hoàn đạt $Q_{\\text{sup}} = 2412.9\\text{ m}^3/\\text{d}$",
+          "topic": "Lưu lượng bùn"
+        },
+        {
+          "id": "p-a89eae1e",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 1 (Page 6)",
+          "sentences": [
+            "Figure 1 (Page 6)"
+          ],
+          "brief": [
+            "Figure 1 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 1 trang 6 quy định thành phần bùn tươi và bùn hoạt tính để tính toán.",
+          "takeaway": "Hình 1 trang 6 quy định thành phần bùn tươi và bùn hoạt tính để tính toán",
+          "topic": "Hình 1"
+        },
+        {
+          "id": "p-2ff5fbad",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 2 (Page 7)",
+          "sentences": [
+            "Figure 2 (Page 7)"
+          ],
+          "brief": [
+            "Figure 2 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 2 trang 7 quy định tỷ trọng và lượng bùn khô để thiết kế.",
+          "takeaway": "Hình 2 trang 7 quy định tỷ trọng và lượng bùn khô để thiết kế",
+          "topic": "Hình 2"
+        },
+        {
+          "id": "p-9f6057cf",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 3 (Page 7)",
+          "sentences": [
+            "Figure 3 (Page 7)"
+          ],
+          "brief": [
+            "Figure 3 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 3 trang 7 quy định độ đặc chất rắn khô để chọn công trình.",
+          "takeaway": "Hình 3 trang 7 quy định độ đặc chất rắn khô để chọn công trình",
+          "topic": "Hình 3"
+        },
+        {
+          "id": "p-846cf9a6",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 4 (Page 8)",
+          "sentences": [
+            "Figure 4 (Page 8)"
+          ],
+          "brief": [
+            "Figure 4 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 4 trang 8 viết công thức tỷ trọng chất rắn và bùn để tính thể tích.",
+          "takeaway": "Hình 4 trang 8 viết công thức tỷ trọng chất rắn và bùn để tính thể tích",
+          "topic": "Hình 4"
+        },
+        {
+          "id": "p-7f108be5",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 5 (Page 10)",
+          "sentences": [
+            "Figure 5 (Page 10)"
+          ],
+          "brief": [
+            "Figure 5 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 5 trang 10 vẽ sơ đồ tổng quát các công đoạn để xử lý bùn.",
+          "takeaway": "Hình 5 trang 10 vẽ sơ đồ tổng quát các công đoạn để xử lý bùn",
+          "topic": "Hình 5"
+        },
+        {
+          "id": "p-28837b4c",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 6 (Page 10)",
+          "sentences": [
+            "Figure 6 (Page 10)"
+          ],
+          "brief": [
+            "Figure 6 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 6 trang 10 vẽ ba dây chuyền nén và phân hủy để làm khô bùn.",
+          "takeaway": "Hình 6 trang 10 vẽ ba dây chuyền nén và phân hủy để làm khô bùn",
+          "topic": "Hình 6"
+        },
+        {
+          "id": "p-7bbbc81f",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 7 (Page 11)",
+          "sentences": [
+            "Figure 7 (Page 11)"
+          ],
+          "brief": [
+            "Figure 7 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 7 trang 11 vẽ cụm bể lắng sơ cấp và bể DAF để nén bùn.",
+          "takeaway": "Hình 7 trang 11 vẽ cụm bể lắng sơ cấp và bể DAF để nén bùn",
+          "topic": "Hình 7"
+        },
+        {
+          "id": "p-c92cf67d",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 8 (Page 11)",
+          "sentences": [
+            "Figure 8 (Page 11)"
+          ],
+          "brief": [
+            "Figure 8 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 8 trang 11 vẽ dây chuyền có bể phân hủy để ổn định bùn.",
+          "takeaway": "Hình 8 trang 11 vẽ dây chuyền có bể phân hủy để ổn định bùn",
+          "topic": "Hình 8"
+        },
+        {
+          "id": "p-ff9b5556",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 9 (Page 11)",
+          "sentences": [
+            "Figure 9 (Page 11)"
+          ],
+          "brief": [
+            "Figure 9 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 9 trang 11 vẽ sơ đồ hai bậc nén-ép để xử lý bùn tại Việt Nam.",
+          "takeaway": "Hình 9 trang 11 vẽ sơ đồ hai bậc nén-ép để xử lý bùn tại Việt Nam",
+          "topic": "Hình 9"
+        },
+        {
+          "id": "p-511ac0f0",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 10 (Page 11)",
+          "sentences": [
+            "Figure 10 (Page 11)"
+          ],
+          "brief": [
+            "Figure 10 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 10 trang 11 vẽ cụm trộn polymer và máy ép để tách nước bùn.",
+          "takeaway": "Hình 10 trang 11 vẽ cụm trộn polymer và máy ép để tách nước bùn",
+          "topic": "Hình 10"
+        },
+        {
+          "id": "p-6abd3e84",
+          "kind": "caption",
+          "role": "analysis",
+          "full": "Figure 11 (Page 13)",
+          "sentences": [
+            "Figure 11 (Page 13)"
+          ],
+          "brief": [
+            "Figure 11 (Page 13)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 11 trang 13 đối chiếu phạm vi áp dụng để chọn phương pháp nén bùn.",
+          "takeaway": "Hình 11 trang 13 đối chiếu phạm vi áp dụng để chọn phương pháp nén bùn",
+          "topic": "Hình 11"
+        },
+        {
+          "id": "p-19fe08bb",
+          "kind": "caption",
+          "role": "analysis",
+          "full": "Figure 12 (Page 13)",
+          "sentences": [
+            "Figure 12 (Page 13)"
+          ],
+          "brief": [
+            "Figure 12 (Page 13)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 12 trang 13 đối chiếu ly tâm, băng tải và trống quay để nén bùn.",
+          "takeaway": "Hình 12 trang 13 đối chiếu ly tâm, băng tải và trống quay để nén bùn",
+          "topic": "Hình 12"
+        },
+        {
+          "id": "p-6f8723a0",
+          "kind": "caption",
+          "role": "method",
+          "full": "Figure 13 (Page 15)",
+          "sentences": [
+            "Figure 13 (Page 15)"
+          ],
+          "brief": [
+            "Figure 13 (Page 15)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 13 trang 15 vẽ mặt bằng và mặt cắt để cấu tạo bể nén trọng lực.",
+          "takeaway": "Hình 13 trang 15 vẽ mặt bằng và mặt cắt để cấu tạo bể nén trọng lực",
+          "topic": "Hình 13"
+        },
+        {
+          "id": "p-895b66df",
+          "kind": "caption",
+          "role": "setup",
+          "full": "Figure 14 (Page 16)",
+          "sentences": [
+            "Figure 14 (Page 16)"
+          ],
+          "brief": [
+            "Figure 14 (Page 16)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 14 trang 16 quy định bảng thông số đầu vào để giải bài tập bể nén.",
+          "takeaway": "Hình 14 trang 16 quy định bảng thông số đầu vào để giải bài tập bể nén",
+          "topic": "Hình 14"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

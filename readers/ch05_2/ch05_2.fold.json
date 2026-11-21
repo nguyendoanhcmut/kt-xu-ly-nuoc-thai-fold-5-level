@@ -1,0 +1,943 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-5-ph-n-2-qu-tr-nh-nitrat-h-a-kh-4540c632",
+  "lang": "vi",
+  "title": "Chương 5 (Phần 2) Quá trình Nitrat hóa, Khử Nitrat và Oxy hóa Kỵ khí (Chapter 5 Part 2 Biological Nitrogen Oxidation, Denitrification, and Anaerobic Oxidation)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch05_2_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:43:57Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-08T00:43:56",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-quá-trình-oxy-hóa-nitơ-vô-cơ-sinh-học-và-nhu-cầu-oxy-độ-kiềm-biological-inorganic-nitrogen-oxidation-oxygen-and-alkalinity-requirements",
+      "num": "1",
+      "title": "Quá trình Oxy hóa Nitơ Vô cơ Sinh học và Nhu cầu Oxy, Độ Kiềm (Biological Inorganic Nitrogen Oxidation, Oxygen, and Alkalinity Requirements)",
+      "depth": 1,
+      "takeaway": "Quá trình nitrat hóa tiêu thụ $4.57\\text{ g O}_2$ và $7.14\\text{ g CaCO}_3$ cho mỗi gam amoni",
+      "topic": "nitrat hóa",
+      "units": [
+        {
+          "id": "p-6a2b89c9",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Quá trình oxy hóa sinh học nitơ vô cơ (nitrification) chuyển hóa amoni thành nitrat qua hai bước phản ứng nối tiếp nhờ vi khuẩn tự dưỡng hiếu khí [Page 1] [Page 2] [Page 3] [Page 4]. Ở Bước 1 (Nitritation), nhóm vi khuẩn oxy hóa amoni (Ammonia-oxidizing bacteria AOB thuộc các chi Nitrosomonas và Nitrosospira trong phân lớp $\\beta$-Proteobacteria) oxy hóa amoni thành nitrit theo phương trình $2\\text{NH}_4^+ + 3\\text{O}_2 \\rightarrow 2\\text{NO}_2^- + 4\\text{H}^+ + 2\\text{H}_2\\text{O}$. Ở Bước 2 (Nitratation), nhóm vi khuẩn oxy hóa nitrit (Nitrite-oxidizing bacteria NOB thuộc các chi Nitrobacter trong phân lớp $\\alpha$-Proteobacteria, Nitrococcus trong $\\gamma$-Proteobacteria, Nitrospina và Nitrospira trong $\\delta$-Proteobacteria) oxy hóa nitrit thành nitrat theo phương trình $2\\text{NO}_2^- + \\text{O}_2 \\rightarrow 2\\text{NO}_3^-$. Phương trình oxy hóa tổng cộng được viết dưới dạng $\\text{NH}_4^+ + 2\\text{O}_2 \\rightarrow \\text{NO}_3^- + 2\\text{H}^+ + \\text{H}_2\\text{O}$. Vì vi khuẩn nitrat hóa là các vi sinh vật tự dưỡng hiếu khí (aerobic autotrophic microorganisms) dùng $\\text{CO}_2$ làm nguồn cacbon và có hệ số sản lượng sinh khối ($Y = 0.12\\text{ g VSS/g NH}_4\\text{-N}$) thấp hơn nhiều so với vi khuẩn dị dưỡng hiếu khí ($Y = 0.45\\text{ g VSS/g COD}$), hệ thống bắt buộc phải duy trì thời gian lưu bùn (SRT) dài hơn và có thể cấu hình theo sơ đồ một bùn (single-sludge process kết hợp khử BOD và nitrat hóa trong cùng một bể) hoặc sơ đồ hai bùn (two-sludge process tách riêng bể khử BOD và bể nitrat hóa kèm tuyến by-pass hỗ trợ tạo bông lắng).",
+          "sentences": [
+            "Quá trình oxy hóa sinh học nitơ vô cơ (nitrification) chuyển hóa amoni thành nitrat qua hai bước phản ứng nối tiếp nhờ vi khuẩn tự dưỡng hiếu khí [Page 1] [Page 2] [Page 3] [Page 4]. Ở Bước 1 (Nitritation), nhóm vi khuẩn oxy hóa amoni (Ammonia-oxidizing bacteria AOB thuộc các chi Nitrosomonas và Nitrosospira trong phân lớp $\\beta$-Proteobacteria) oxy hóa amoni thành nitrit theo phương trình $2\\text{NH}_4^+ + 3\\text{O}_2 \\rightarrow 2\\text{NO}_2^- + 4\\text{H}^+ + 2\\text{H}_2\\text{O}$. Ở Bước 2 (Nitratation), nhóm vi khuẩn oxy hóa nitrit (Nitrite-oxidizing bacteria NOB thuộc các chi Nitrobacter trong phân lớp $\\alpha$-Proteobacteria, Nitrococcus trong $\\gamma$-Proteobacteria, Nitrospina và Nitrospira trong $\\delta$-Proteobacteria) oxy hóa nitrit thành nitrat theo phương trình $2\\text{NO}_2^- + \\text{O}_2 \\rightarrow 2\\text{NO}_3^-$.",
+            "Phương trình oxy hóa tổng cộng được viết dưới dạng $\\text{NH}_4^+ + 2\\text{O}_2 \\rightarrow \\text{NO}_3^- + 2\\text{H}^+ + \\text{H}_2\\text{O}$.",
+            "Vì vi khuẩn nitrat hóa là các vi sinh vật tự dưỡng hiếu khí (aerobic autotrophic microorganisms) dùng $\\text{CO}_2$ làm nguồn cacbon và có hệ số sản lượng sinh khối ($Y = 0.12\\text{ g VSS/g NH}_4\\text{-N}$) thấp hơn nhiều so với vi khuẩn dị dưỡng hiếu khí ($Y = 0.45\\text{ g VSS/g COD}$), hệ thống bắt buộc phải duy trì thời gian lưu bùn (SRT) dài hơn và có thể cấu hình theo sơ đồ một bùn (single-sludge process kết hợp khử BOD và nitrat hóa trong cùng một bể) hoặc sơ đồ hai bùn (two-sludge process tách riêng bể khử BOD và bể nitrat hóa kèm tuyến by-pass hỗ trợ tạo bông lắng)."
+          ],
+          "brief": [
+            "Quá trình oxy hóa sinh học nitơ vô cơ (nitrification) chuyển hóa amoni thành nitrat qua hai bước phản ứng nối tiếp nhờ vi khuẩn tự dưỡng hiếu khí [Page 1] [Page 2] [Page 3] [Page 4]. Ở Bước 1 (Nitritation), nhóm vi khuẩn oxy hóa amoni (Ammonia-oxidizing bacteria AOB thuộc các chi Nitrosomonas và Nitrosospira trong phân lớp $\\beta$-Proteobacteria) oxy hóa amoni thành nitrit theo phương trình $2\\text{NH}_4^+ + 3\\text{O}_2 \\rightarrow 2\\text{NO}_2^- + 4\\text{H}^+ + 2\\text{H}_2\\text{O}$. Ở Bước 2 (Nitratation), nhóm vi khuẩn oxy hóa nitrit (Nitrite-oxidizing bacteria NOB thuộc các chi Nitrobacter trong phân lớp $\\alpha$-Proteobacteria, Nitrococcus trong $\\gamma$-Proteobacteria, Nitrospina và Nitrospira trong $\\delta$-Proteobacteria) oxy hóa nitrit thành nitrat theo phương trình $2\\text{NO}_2^- + \\text{O}_2 \\rightarrow 2\\text{NO}_3^-$.",
+            "Vì vi khuẩn nitrat hóa là các vi sinh vật tự dưỡng hiếu khí (aerobic autotrophic microorganisms) dùng $\\text{CO}_2$ làm nguồn cacbon và có hệ số sản lượng sinh khối ($Y = 0.12\\text{ g VSS/g NH}_4\\text{-N}$) thấp hơn nhiều so với vi khuẩn dị dưỡng hiếu khí ($Y = 0.45\\text{ g VSS/g COD}$), hệ thống bắt buộc phải duy trì thời gian lưu bùn (SRT) dài hơn và có thể cấu hình theo sơ đồ một bùn (single-sludge process kết hợp khử BOD và nitrat hóa trong cùng một bể) hoặc sơ đồ hai bùn (two-sludge process tách riêng bể khử BOD và bể nitrat hóa kèm tuyến by-pass hỗ trợ tạo bông lắng)."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Vi khuẩn tự dưỡng $\\text{AOB}$ và $\\text{NOB}$ oxy hóa $\\text{NH}_4^+$ qua $\\text{NO}_2^-$ thành $\\text{NO}_3^-$. Hệ số sản lượng thấp $Y = 0.12\\text{ g VSS/g NH}_4\\text{-N}$ đòi hỏi thời gian lưu bùn $\\text{SRT}$ dài.",
+          "takeaway": "Vi khuẩn tự dưỡng $\\text{AOB}$ và $\\text{NOB}$ oxy hóa $\\text{NH}_4^+$ qua $\\text{NO}_2^-$ thành $\\text{NO}_3^-$",
+          "topic": "Vi khuẩn"
+        },
+        {
+          "id": "p-c09d8d75",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Nhu cầu oxy tiêu thụ cho quá trình nitrat hóa và tổng nhu cầu oxy của bể hiếu khí được thiết lập từ tỷ lượng phản ứng oxy hóa amoni và cân bằng khối lượng nitơ [Page 5]. Trong phản ứng nitrit hóa $2\\text{NH}_4^+ + 3\\text{O}_2 \\rightarrow 2\\text{NO}_2^- + 4\\text{H}^+ + 2\\text{H}_2\\text{O}$, việc oxy hóa $2 \\times 14 = 28\\text{ g NH}_4^+\\text{-N}$ cần $3 \\times 32 = 96\\text{ g O}_2$ nên mỗi gam $\\text{NH}_4^+\\text{-N}$ chuyển thành $\\text{NO}_2^-\\text{-N}$ tiêu thụ $\\frac{96}{28} = 3.43\\text{ g O}_2$. Trong phản ứng nitrat hóa $2\\text{NO}_2^- + \\text{O}_2 \\rightarrow 2\\text{NO}_3^-$, việc oxy hóa $2 \\times 14 = 28\\text{ g NO}_2^-\\text{-N}$ cần $32\\text{ g O}_2$ nên mỗi gam $\\text{NO}_2^-\\text{-N}$ chuyển thành $\\text{NO}_3^-\\text{-N}$ tiêu thụ $\\frac{32}{28} = 1.14\\text{ g O}_2$, do đó quá trình oxy hóa hoàn toàn $1\\text{ g NH}_4^+\\text{-N}$ thành $\\text{NO}_3^-\\text{-N}$ cần tổng cộng $3.43 + 1.14 = 4.57\\text{ g O}_2$. Khi kết hợp khử BOD và nitrat hóa, tổng lượng oxy yêu cầu mỗi ngày là $R_o = Q(S_0 - S) - 1.42 P_{X,\\text{bio}} + 4.57 Q(\\text{NO}_x)$, trong đó $\\text{NO}_x$ là nồng độ $\\text{NO}_3\\text{-N}$ sinh ra từ quá trình nitrat hóa ($\\text{mg/L}$ hoặc $\\text{g/m}^3$). Từ cân bằng khối lượng nitơ ($\\text{Nitrogen oxidized} = \\text{Influent Nitrogen} - \\text{Effluent Nitrogen} - \\text{Nitrogen in biomass}$) và công thức tế bào $\\text{C}_5\\text{H}_7\\text{NO}_2$ chứa $\\frac{14}{113} = 0.12\\text{ g N/g VSS}$, lượng nitơ bị oxy hóa mỗi ngày bằng $Q(\\text{NO}_x) = Q(\\text{TKN}_0) - Q N_e - 0.12 P_{X,\\text{bio}}$, hay viết theo nồng độ là $\\text{NO}_x = \\text{TKN}_0 - N_e - \\frac{0.12 P_{X,\\text{bio}}}{Q}$ với $\\text{TKN}_0$ là nồng độ tổng nitơ Kjeldahl đầu vào và $N_e$ là nồng độ $\\text{NH}_4\\text{-N}$ đầu ra.",
+          "sentences": [
+            "Nhu cầu oxy tiêu thụ cho quá trình nitrat hóa và tổng nhu cầu oxy của bể hiếu khí được thiết lập từ tỷ lượng phản ứng oxy hóa amoni và cân bằng khối lượng nitơ [Page 5].",
+            "Trong phản ứng nitrit hóa $2\\text{NH}_4^+ + 3\\text{O}_2 \\rightarrow 2\\text{NO}_2^- + 4\\text{H}^+ + 2\\text{H}_2\\text{O}$, việc oxy hóa $2 \\times 14 = 28\\text{ g NH}_4^+\\text{-N}$ cần $3 \\times 32 = 96\\text{ g O}_2$ nên mỗi gam $\\text{NH}_4^+\\text{-N}$ chuyển thành $\\text{NO}_2^-\\text{-N}$ tiêu thụ $\\frac{96}{28} = 3.43\\text{ g O}_2$.",
+            "Trong phản ứng nitrat hóa $2\\text{NO}_2^- + \\text{O}_2 \\rightarrow 2\\text{NO}_3^-$, việc oxy hóa $2 \\times 14 = 28\\text{ g NO}_2^-\\text{-N}$ cần $32\\text{ g O}_2$ nên mỗi gam $\\text{NO}_2^-\\text{-N}$ chuyển thành $\\text{NO}_3^-\\text{-N}$ tiêu thụ $\\frac{32}{28} = 1.14\\text{ g O}_2$, do đó quá trình oxy hóa hoàn toàn $1\\text{ g NH}_4^+\\text{-N}$ thành $\\text{NO}_3^-\\text{-N}$ cần tổng cộng $3.43 + 1.14 = 4.57\\text{ g O}_2$.",
+            "Khi kết hợp khử BOD và nitrat hóa, tổng lượng oxy yêu cầu mỗi ngày là $R_o = Q(S_0 - S) - 1.42 P_{X,\\text{bio}} + 4.57 Q(\\text{NO}_x)$, trong đó $\\text{NO}_x$ là nồng độ $\\text{NO}_3\\text{-N}$ sinh ra từ quá trình nitrat hóa ($\\text{mg/L}$ hoặc $\\text{g/m}^3$).",
+            "Từ cân bằng khối lượng nitơ ($\\text{Nitrogen oxidized} = \\text{Influent Nitrogen} - \\text{Effluent Nitrogen} - \\text{Nitrogen in biomass}$) và công thức tế bào $\\text{C}_5\\text{H}_7\\text{NO}_2$ chứa $\\frac{14}{113} = 0.12\\text{ g N/g VSS}$, lượng nitơ bị oxy hóa mỗi ngày bằng $Q(\\text{NO}_x) = Q(\\text{TKN}_0) - Q N_e - 0.12 P_{X,\\text{bio}}$, hay viết theo nồng độ là $\\text{NO}_x = \\text{TKN}_0 - N_e - \\frac{0.12 P_{X,\\text{bio}}}{Q}$ với $\\text{TKN}_0$ là nồng độ tổng nitơ Kjeldahl đầu vào và $N_e$ là nồng độ $\\text{NH}_4\\text{-N}$ đầu ra."
+          ],
+          "brief": [
+            "Trong phản ứng nitrat hóa $2\\text{NO}_2^- + \\text{O}_2 \\rightarrow 2\\text{NO}_3^-$, việc oxy hóa $2 \\times 14 = 28\\text{ g NO}_2^-\\text{-N}$ cần $32\\text{ g O}_2$ nên mỗi gam $\\text{NO}_2^-\\text{-N}$ chuyển thành $\\text{NO}_3^-\\text{-N}$ tiêu thụ $\\frac{32}{28} = 1.14\\text{ g O}_2$, do đó quá trình oxy hóa hoàn toàn $1\\text{ g NH}_4^+\\text{-N}$ thành $\\text{NO}_3^-\\text{-N}$ cần tổng cộng $3.43 + 1.14 = 4.57\\text{ g O}_2$.",
+            "Khi kết hợp khử BOD và nitrat hóa, tổng lượng oxy yêu cầu mỗi ngày là $R_o = Q(S_0 - S) - 1.42 P_{X,\\text{bio}} + 4.57 Q(\\text{NO}_x)$, trong đó $\\text{NO}_x$ là nồng độ $\\text{NO}_3\\text{-N}$ sinh ra từ quá trình nitrat hóa ($\\text{mg/L}$ hoặc $\\text{g/m}^3$)."
+          ],
+          "evidence": [
+            2,
+            3
+          ],
+          "key": "Quá trình oxy hóa hoàn toàn $1\\text{ g NH}_4^+\\text{-N}$ thành $\\text{NO}_3^-\\text{-N}$ tiêu thụ $4.57\\text{ g O}_2$. Bước nitrit hóa cần $3.43\\text{ g O}_2/\\text{g N}$ và bước nitrat hóa cần $1.14\\text{ g O}_2/\\text{g N}$.",
+          "takeaway": "Quá trình oxy hóa hoàn toàn $1\\text{ g NH}_4^+\\text{-N}$ thành $\\text{NO}_3^-\\text{-N}$ tiêu thụ $4.57\\text{ g O}_2$",
+          "topic": "oxy hóa"
+        },
+        {
+          "id": "p-8eadc4da",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Nhu cầu độ kiềm (alkalinity requirement), phương trình động học hai nhân tố Monod cho AOB và NOB cùng các yếu tố môi trường ảnh hưởng đến quá trình nitrat hóa được quy định trên Slide 11, Slide 12 và Slide 13 [Page 6] [Page 7]. Theo phương trình tổng $\\text{NH}_4^+ + 2\\text{O}_2 \\rightarrow \\text{NO}_3^- + 2\\text{H}^+ + \\text{H}_2\\text{O}$, sự oxy hóa hoàn toàn $1\\text{ mole NH}_4^+\\text{-N}$ ($14\\text{ g}$) sinh ra $2\\text{ mole H}^+$ nên cần $2\\text{ mole}$ đương lượng kiềm ($2 \\times 50\\text{ g CaCO}_3$) để trung hòa, tương ứng với định mức tiêu thụ độ kiềm bằng $\\frac{2 \\times 50\\text{ g CaCO}_3}{14\\text{ g NH}_4^+\\text{-N}} = 7.14\\text{ g CaCO}_3\\text{ per g NH}_4^+\\text{-N oxidized}$. Để kiểm soát giá trị pH ổn định trong khoảng $6.8$ đến $7.0$, nước thải trong bể phải duy trì độ kiềm dư (residual alkalinity) khoảng $70\\text{ g CaCO}_3/\\text{m}^3$ và kỹ sư thường bổ sung kiềm dưới dạng xút ($\\text{NaOH}$) hoặc natri bicacbonat ($\\text{NaHCO}_3$). Tốc độ tăng trưởng riêng của vi khuẩn AOB và NOB chịu ảnh hưởng đồng thời của nồng độ cơ chất ($S_{\\text{NH}_4}, S_{\\text{NO}_2}$) và nồng độ oxy hòa tan ($S_o = \\text{DO}$) theo phương trình $\\mu_{\\text{AOB}} = \\mu_{\\max,\\text{AOB}}\\left(\\frac{S_o}{K_{o,\\text{AOB}} + S_o}\\right)\\left(\\frac{S_{\\text{NH}_4}}{K_{\\text{NH}_4} + S_{\\text{NH}_4}}\\right) - b_{\\text{AOB}}$ và $\\mu_{\\text{NOB}} = \\mu_{\\max,\\text{NOB}}\\left(\\frac{S_o}{K_{o,\\text{NOB}} + S_o}\\right)\\left(\\frac{S_{\\text{NO}_2}}{K_{\\text{NO}_2} + S_{\\text{NO}_2}}\\right) - b_{\\text{NOB}}$. Nồng độ oxy hòa tan tối ưu cho nitrat hóa nằm trong khoảng $2.0$ đến $4.0\\text{ mg/L}$ và khoảng pH tối ưu là $7.5$ đến $8.0$ (pH thấp hơn $6.8$ ức chế mạnh quá trình nitrat hóa), đặc biệt khi DO thấp thì vi khuẩn NOB bị ức chế mạnh hơn vi khuẩn AOB dẫn đến hiện tượng nitrat hóa không hoàn toàn và tích tụ nitrit.",
+          "sentences": [
+            "Nhu cầu độ kiềm (alkalinity requirement), phương trình động học hai nhân tố Monod cho AOB và NOB cùng các yếu tố môi trường ảnh hưởng đến quá trình nitrat hóa được quy định trên Slide 11, Slide 12 và Slide 13 [Page 6] [Page 7].",
+            "Theo phương trình tổng $\\text{NH}_4^+ + 2\\text{O}_2 \\rightarrow \\text{NO}_3^- + 2\\text{H}^+ + \\text{H}_2\\text{O}$, sự oxy hóa hoàn toàn $1\\text{ mole NH}_4^+\\text{-N}$ ($14\\text{ g}$) sinh ra $2\\text{ mole H}^+$ nên cần $2\\text{ mole}$ đương lượng kiềm ($2 \\times 50\\text{ g CaCO}_3$) để trung hòa, tương ứng với định mức tiêu thụ độ kiềm bằng $\\frac{2 \\times 50\\text{ g CaCO}_3}{14\\text{ g NH}_4^+\\text{-N}} = 7.14\\text{ g CaCO}_3\\text{ per g NH}_4^+\\text{-N oxidized}$. Để kiểm soát giá trị pH ổn định trong khoảng $6.8$ đến $7.0$, nước thải trong bể phải duy trì độ kiềm dư (residual alkalinity) khoảng $70\\text{ g CaCO}_3/\\text{m}^3$ và kỹ sư thường bổ sung kiềm dưới dạng xút ($\\text{NaOH}$) hoặc natri bicacbonat ($\\text{NaHCO}_3$).",
+            "Tốc độ tăng trưởng riêng của vi khuẩn AOB và NOB chịu ảnh hưởng đồng thời của nồng độ cơ chất ($S_{\\text{NH}_4}, S_{\\text{NO}_2}$) và nồng độ oxy hòa tan ($S_o = \\text{DO}$) theo phương trình $\\mu_{\\text{AOB}} = \\mu_{\\max,\\text{AOB}}\\left(\\frac{S_o}{K_{o,\\text{AOB}} + S_o}\\right)\\left(\\frac{S_{\\text{NH}_4}}{K_{\\text{NH}_4} + S_{\\text{NH}_4}}\\right) - b_{\\text{AOB}}$ và $\\mu_{\\text{NOB}} = \\mu_{\\max,\\text{NOB}}\\left(\\frac{S_o}{K_{o,\\text{NOB}} + S_o}\\right)\\left(\\frac{S_{\\text{NO}_2}}{K_{\\text{NO}_2} + S_{\\text{NO}_2}}\\right) - b_{\\text{NOB}}$.",
+            "Nồng độ oxy hòa tan tối ưu cho nitrat hóa nằm trong khoảng $2.0$ đến $4.0\\text{ mg/L}$ và khoảng pH tối ưu là $7.5$ đến $8.0$ (pH thấp hơn $6.8$ ức chế mạnh quá trình nitrat hóa), đặc biệt khi DO thấp thì vi khuẩn NOB bị ức chế mạnh hơn vi khuẩn AOB dẫn đến hiện tượng nitrat hóa không hoàn toàn và tích tụ nitrit."
+          ],
+          "brief": [
+            "Theo phương trình tổng $\\text{NH}_4^+ + 2\\text{O}_2 \\rightarrow \\text{NO}_3^- + 2\\text{H}^+ + \\text{H}_2\\text{O}$, sự oxy hóa hoàn toàn $1\\text{ mole NH}_4^+\\text{-N}$ ($14\\text{ g}$) sinh ra $2\\text{ mole H}^+$ nên cần $2\\text{ mole}$ đương lượng kiềm ($2 \\times 50\\text{ g CaCO}_3$) để trung hòa, tương ứng với định mức tiêu thụ độ kiềm bằng $\\frac{2 \\times 50\\text{ g CaCO}_3}{14\\text{ g NH}_4^+\\text{-N}} = 7.14\\text{ g CaCO}_3\\text{ per g NH}_4^+\\text{-N oxidized}$. Để kiểm soát giá trị pH ổn định trong khoảng $6.8$ đến $7.0$, nước thải trong bể phải duy trì độ kiềm dư (residual alkalinity) khoảng $70\\text{ g CaCO}_3/\\text{m}^3$ và kỹ sư thường bổ sung kiềm dưới dạng xút ($\\text{NaOH}$) hoặc natri bicacbonat ($\\text{NaHCO}_3$).",
+            "Nồng độ oxy hòa tan tối ưu cho nitrat hóa nằm trong khoảng $2.0$ đến $4.0\\text{ mg/L}$ và khoảng pH tối ưu là $7.5$ đến $8.0$ (pH thấp hơn $6.8$ ức chế mạnh quá trình nitrat hóa), đặc biệt khi DO thấp thì vi khuẩn NOB bị ức chế mạnh hơn vi khuẩn AOB dẫn đến hiện tượng nitrat hóa không hoàn toàn và tích tụ nitrit."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Sự oxy hóa $1\\text{ g NH}_4^+\\text{-N}$ tiêu thụ $7.14\\text{ g CaCO}_3$ và cần giữ kiềm dư $70\\text{ g/m}^3$. Nồng độ oxy hòa tan thấp ức chế $\\text{NOB}$ mạnh hơn $\\text{AOB}$ nên gây tích tụ nitrit.",
+          "takeaway": "Sự oxy hóa $1\\text{ g NH}_4^+\\text{-N}$ tiêu thụ $7.14\\text{ g CaCO}_3$ và cần giữ kiềm dư $70\\text{ g/m}^3$",
+          "topic": "kiềm dư"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-quá-trình-khử-nitrat-sinh-học-và-động-học-sdnr-biological-denitrification-and-sdnr-kinetics",
+      "num": "2",
+      "title": "Quá trình Khử Nitrat Sinh học và Động học SDNR (Biological Denitrification and SDNR Kinetics)",
+      "depth": 1,
+      "takeaway": "Khử nitrat sinh học thiếu khí thu hồi $3.57\\text{ g CaCO}_3/\\text{g N}$ và thiết kế theo $\\text{SDNR}$",
+      "topic": "thiếu khí",
+      "units": [
+        {
+          "id": "p-0c8411fa",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Quá trình khử nitrat sinh học (biological denitrification) khử nitrat ($\\text{NO}_3^-$) hoặc nitrit ($\\text{NO}_2^-$) thành khí nitơ phân tử ($\\text{N}_2$) để hoàn tất chu trình khử nitơ sinh học (BNR) [Page 8] [Page 9] [Page 10]. Nhóm vi sinh vật chủ đạo thực hiện quá trình này là các vi khuẩn dị dưỡng tùy nghi (facultative heterotrophic bacteria) như Pseudomonas và Paracoccus trong điều kiện thiếu khí (anoxic conditions, nồng độ oxy hòa tan $\\text{DO} \\le 0.2\\text{ mg/L}$ vì $\\text{DO} > 0.2\\text{ mg/L}$ sẽ ức chế enzyme khử nitrat) và pH tối ưu từ $7.0$ đến $8.0$ (pH dưới $7.0$ làm giảm tốc độ khử nitrat). Sơ đồ khử nitrat thiếu khí đặt trước bể hiếu khí (preanoxic denitrification) tận dụng trực tiếp chất hữu cơ BOD trong nước thải đầu vào làm chất cho điện tử (electron donor) và nhận dòng tuần hoàn nội bộ (internal recycle) chứa nitrat từ cuối bể hiếu khí quay về đầu bể thiếu khí, trong khi sơ đồ thiếu khí đặt sau (postanoxic denitrification) phải dựa vào phân hủy nội bào có tốc độ chậm hoặc phải châm thêm nguồn cacbon ngoại lai (exogenous carbon source như methanol). Theo phương trình phản ứng khử nitrat dùng chất hữu cơ nước thải $\\text{C}_{10}\\text{H}_{19}\\text{O}_3\\text{N} + 10\\text{NO}_3^- \\rightarrow 5\\text{N}_2 + 10\\text{CO}_2 + 3\\text{H}_2\\text{O} + \\text{NH}_3 + 10\\text{OH}^-$, sự khử mỗi đương lượng $\\text{NO}_3^-\\text{-N}$ tạo ra $1\\text{ mole OH}^-$ nên quá trình khử nitrat phục hồi lại đúng một nửa lượng độ kiềm đã mất trong quá trình nitrat hóa, tương ứng với mức thu hồi độ kiềm bằng $3.57\\text{ g CaCO}_3\\text{ per g NO}_3\\text{-N reduced}$. Để giữ bùn lơ lửng mà không cuốn khí oxy vào nước, bể thiếu khí sử dụng máy khuấy tốc độ cao với định mức công suất khuấy trộn bằng $8\\text{ W/m}^3$ thể tích bể thiếu khí.",
+          "sentences": [
+            "Quá trình khử nitrat sinh học (biological denitrification) khử nitrat ($\\text{NO}_3^-$) hoặc nitrit ($\\text{NO}_2^-$) thành khí nitơ phân tử ($\\text{N}_2$) để hoàn tất chu trình khử nitơ sinh học (BNR) [Page 8] [Page 9] [Page 10].",
+            "Nhóm vi sinh vật chủ đạo thực hiện quá trình này là các vi khuẩn dị dưỡng tùy nghi (facultative heterotrophic bacteria) như Pseudomonas và Paracoccus trong điều kiện thiếu khí (anoxic conditions, nồng độ oxy hòa tan $\\text{DO} \\le 0.2\\text{ mg/L}$ vì $\\text{DO} > 0.2\\text{ mg/L}$ sẽ ức chế enzyme khử nitrat) và pH tối ưu từ $7.0$ đến $8.0$ (pH dưới $7.0$ làm giảm tốc độ khử nitrat).",
+            "Sơ đồ khử nitrat thiếu khí đặt trước bể hiếu khí (preanoxic denitrification) tận dụng trực tiếp chất hữu cơ BOD trong nước thải đầu vào làm chất cho điện tử (electron donor) và nhận dòng tuần hoàn nội bộ (internal recycle) chứa nitrat từ cuối bể hiếu khí quay về đầu bể thiếu khí, trong khi sơ đồ thiếu khí đặt sau (postanoxic denitrification) phải dựa vào phân hủy nội bào có tốc độ chậm hoặc phải châm thêm nguồn cacbon ngoại lai (exogenous carbon source như methanol).",
+            "Theo phương trình phản ứng khử nitrat dùng chất hữu cơ nước thải $\\text{C}_{10}\\text{H}_{19}\\text{O}_3\\text{N} + 10\\text{NO}_3^- \\rightarrow 5\\text{N}_2 + 10\\text{CO}_2 + 3\\text{H}_2\\text{O} + \\text{NH}_3 + 10\\text{OH}^-$, sự khử mỗi đương lượng $\\text{NO}_3^-\\text{-N}$ tạo ra $1\\text{ mole OH}^-$ nên quá trình khử nitrat phục hồi lại đúng một nửa lượng độ kiềm đã mất trong quá trình nitrat hóa, tương ứng với mức thu hồi độ kiềm bằng $3.57\\text{ g CaCO}_3\\text{ per g NO}_3\\text{-N reduced}$. Để giữ bùn lơ lửng mà không cuốn khí oxy vào nước, bể thiếu khí sử dụng máy khuấy tốc độ cao với định mức công suất khuấy trộn bằng $8\\text{ W/m}^3$ thể tích bể thiếu khí."
+          ],
+          "brief": [
+            "Nhóm vi sinh vật chủ đạo thực hiện quá trình này là các vi khuẩn dị dưỡng tùy nghi (facultative heterotrophic bacteria) như Pseudomonas và Paracoccus trong điều kiện thiếu khí (anoxic conditions, nồng độ oxy hòa tan $\\text{DO} \\le 0.2\\text{ mg/L}$ vì $\\text{DO} > 0.2\\text{ mg/L}$ sẽ ức chế enzyme khử nitrat) và pH tối ưu từ $7.0$ đến $8.0$ (pH dưới $7.0$ làm giảm tốc độ khử nitrat).",
+            "Theo phương trình phản ứng khử nitrat dùng chất hữu cơ nước thải $\\text{C}_{10}\\text{H}_{19}\\text{O}_3\\text{N} + 10\\text{NO}_3^- \\rightarrow 5\\text{N}_2 + 10\\text{CO}_2 + 3\\text{H}_2\\text{O} + \\text{NH}_3 + 10\\text{OH}^-$, sự khử mỗi đương lượng $\\text{NO}_3^-\\text{-N}$ tạo ra $1\\text{ mole OH}^-$ nên quá trình khử nitrat phục hồi lại đúng một nửa lượng độ kiềm đã mất trong quá trình nitrat hóa, tương ứng với mức thu hồi độ kiềm bằng $3.57\\text{ g CaCO}_3\\text{ per g NO}_3\\text{-N reduced}$. Để giữ bùn lơ lửng mà không cuốn khí oxy vào nước, bể thiếu khí sử dụng máy khuấy tốc độ cao với định mức công suất khuấy trộn bằng $8\\text{ W/m}^3$ thể tích bể thiếu khí."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Khử nitrat thiếu khí tạo khí $\\text{N}_2$ và phục hồi $3.57\\text{ g CaCO}_3$ trên mỗi gam $\\text{NO}_3\\text{-N}$. Vi khuẩn dị dưỡng tùy nghi hoạt động khi $\\text{DO} \\le 0.2\\text{ mg/L}$ với công suất khuấy $8\\text{ W/m}^3$.",
+          "takeaway": "Khử nitrat thiếu khí tạo khí $\\text{N}_2$ và phục hồi $3.57\\text{ g CaCO}_3$ trên mỗi gam $\\text{NO}_3\\text{-N}$",
+          "topic": "Khử nitrat"
+        },
+        {
+          "id": "p-a657fff1",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Động học khử nitrat được thiết kế thông qua tốc độ khử nitrat riêng (Specific Denitrification Rate SDNR) và tỷ số $F/M_b$ của vùng thiếu khí [Page 11] [Page 12]. Tốc độ khử nitrat riêng $\\text{SDNR}$ ($\\text{g NO}_3\\text{-N/g biomass}\\cdot\\text{d}$) được định nghĩa bằng công thức $\\text{SDNR} = \\frac{\\text{NO}_r}{V_{\\text{anoxic}} \\times X_b}$, trong đó $\\text{NO}_r$ là tốc độ khử nitrat-nitơ mỗi ngày ($\\text{g/d}$), $V_{\\text{anoxic}}$ là thể tích bể thiếu khí ($\\text{m}^3$) và $X_b = \\frac{Q \\times \\text{SRT} \\times Y_H(S_0 - S)}{V(1 + b_H \\times \\text{SRT})}$ là nồng độ sinh khối dị dưỡng hoạt tính trong vùng thiếu khí ($\\text{g/m}^3$). Giá trị $\\text{SDNR}$ điển hình nằm trong khoảng $0.04$ đến $0.25\\text{ g/g}\\cdot\\text{d}$ đối với bể thiếu khí đặt trước (preanoxic) và từ $0.01$ đến $0.03\\text{ g/g}\\cdot\\text{d}$ đối với bể thiếu khí đặt sau không bổ sung cacbon ngoại lai. Tỷ số thức ăn trên vi sinh vật hoạt tính trong bể thiếu khí được tính bằng $F/M_b = \\frac{Q S_0}{V_{\\text{anoxic}} \\times X_b}$ ($\\text{g BOD/g biomass}\\cdot\\text{d}$). Ở nhiệt độ $20^\\circ\\text{C}$, khi $F/M_b > 0.5$ thì $\\text{SDNR}_{20} = b_0 + b_1 \\ln(F/M_b)$ và khi $F/M_b \\le 0.5$ thì $\\text{SDNR}_{20} = 0.24 \\times (F/M_b)$, trong đó bảng hệ số thực nghiệm trên Slide 25 theo tỷ lệ phần trăm $\\text{rbCOD}/\\text{bCOD}$ quy định cụ thể tại mức $10\\%\\text{ rbCOD}$ có $b_0 = 0.186, b_1 = 0.078$, tại mức $20\\%\\text{ rbCOD}$ có $b_0 = 0.213, b_1 = 0.118$, tại mức $30\\%\\text{ rbCOD}$ có $b_0 = 0.235, b_1 = 0.141$, tại mức $40\\%\\text{ rbCOD}$ có $b_0 = 0.242, b_1 = 0.152$, và tại mức $50\\%\\text{ rbCOD}$ có $b_0 = 0.270, b_1 = 0.162$. Giá trị $\\text{SDNR}$ được hiệu chỉnh theo nhiệt độ bằng công thức $\\text{SDNR}_T = \\text{SDNR}_{20} \\theta^{(T - 20)}$ với $\\theta = 1.026$, và được hiệu chỉnh theo tỷ số tuần hoàn nội bộ $\\text{IR}$ theo công thức $\\text{SDNR}_{\\text{adj}} = \\text{SDNR} - 0.0166 \\ln(F/M_b) - 0.078$ khi $\\text{IR} = 2$ hoặc $\\text{SDNR}_{\\text{adj}} = \\text{SDNR} - 0.029 \\ln(F/M_b) - 0.012$ khi $\\text{IR} = 3\\text{ đến }4$.",
+          "sentences": [
+            "Động học khử nitrat được thiết kế thông qua tốc độ khử nitrat riêng (Specific Denitrification Rate SDNR) và tỷ số $F/M_b$ của vùng thiếu khí [Page 11] [Page 12].",
+            "Tốc độ khử nitrat riêng $\\text{SDNR}$ ($\\text{g NO}_3\\text{-N/g biomass}\\cdot\\text{d}$) được định nghĩa bằng công thức $\\text{SDNR} = \\frac{\\text{NO}_r}{V_{\\text{anoxic}} \\times X_b}$, trong đó $\\text{NO}_r$ là tốc độ khử nitrat-nitơ mỗi ngày ($\\text{g/d}$), $V_{\\text{anoxic}}$ là thể tích bể thiếu khí ($\\text{m}^3$) và $X_b = \\frac{Q \\times \\text{SRT} \\times Y_H(S_0 - S)}{V(1 + b_H \\times \\text{SRT})}$ là nồng độ sinh khối dị dưỡng hoạt tính trong vùng thiếu khí ($\\text{g/m}^3$).",
+            "Giá trị $\\text{SDNR}$ điển hình nằm trong khoảng $0.04$ đến $0.25\\text{ g/g}\\cdot\\text{d}$ đối với bể thiếu khí đặt trước (preanoxic) và từ $0.01$ đến $0.03\\text{ g/g}\\cdot\\text{d}$ đối với bể thiếu khí đặt sau không bổ sung cacbon ngoại lai.",
+            "Tỷ số thức ăn trên vi sinh vật hoạt tính trong bể thiếu khí được tính bằng $F/M_b = \\frac{Q S_0}{V_{\\text{anoxic}} \\times X_b}$ ($\\text{g BOD/g biomass}\\cdot\\text{d}$). Ở nhiệt độ $20^\\circ\\text{C}$, khi $F/M_b > 0.5$ thì $\\text{SDNR}_{20} = b_0 + b_1 \\ln(F/M_b)$ và khi $F/M_b \\le 0.5$ thì $\\text{SDNR}_{20} = 0.24 \\times (F/M_b)$, trong đó bảng hệ số thực nghiệm trên Slide 25 theo tỷ lệ phần trăm $\\text{rbCOD}/\\text{bCOD}$ quy định cụ thể tại mức $10\\%\\text{ rbCOD}$ có $b_0 = 0.186, b_1 = 0.078$, tại mức $20\\%\\text{ rbCOD}$ có $b_0 = 0.213, b_1 = 0.118$, tại mức $30\\%\\text{ rbCOD}$ có $b_0 = 0.235, b_1 = 0.141$, tại mức $40\\%\\text{ rbCOD}$ có $b_0 = 0.242, b_1 = 0.152$, và tại mức $50\\%\\text{ rbCOD}$ có $b_0 = 0.270, b_1 = 0.162$.",
+            "Giá trị $\\text{SDNR}$ được hiệu chỉnh theo nhiệt độ bằng công thức $\\text{SDNR}_T = \\text{SDNR}_{20} \\theta^{(T - 20)}$ với $\\theta = 1.026$, và được hiệu chỉnh theo tỷ số tuần hoàn nội bộ $\\text{IR}$ theo công thức $\\text{SDNR}_{\\text{adj}} = \\text{SDNR} - 0.0166 \\ln(F/M_b) - 0.078$ khi $\\text{IR} = 2$ hoặc $\\text{SDNR}_{\\text{adj}} = \\text{SDNR} - 0.029 \\ln(F/M_b) - 0.012$ khi $\\text{IR} = 3\\text{ đến }4$."
+          ],
+          "brief": [
+            "Tốc độ khử nitrat riêng $\\text{SDNR}$ ($\\text{g NO}_3\\text{-N/g biomass}\\cdot\\text{d}$) được định nghĩa bằng công thức $\\text{SDNR} = \\frac{\\text{NO}_r}{V_{\\text{anoxic}} \\times X_b}$, trong đó $\\text{NO}_r$ là tốc độ khử nitrat-nitơ mỗi ngày ($\\text{g/d}$), $V_{\\text{anoxic}}$ là thể tích bể thiếu khí ($\\text{m}^3$) và $X_b = \\frac{Q \\times \\text{SRT} \\times Y_H(S_0 - S)}{V(1 + b_H \\times \\text{SRT})}$ là nồng độ sinh khối dị dưỡng hoạt tính trong vùng thiếu khí ($\\text{g/m}^3$).",
+            "Tỷ số thức ăn trên vi sinh vật hoạt tính trong bể thiếu khí được tính bằng $F/M_b = \\frac{Q S_0}{V_{\\text{anoxic}} \\times X_b}$ ($\\text{g BOD/g biomass}\\cdot\\text{d}$). Ở nhiệt độ $20^\\circ\\text{C}$, khi $F/M_b > 0.5$ thì $\\text{SDNR}_{20} = b_0 + b_1 \\ln(F/M_b)$ và khi $F/M_b \\le 0.5$ thì $\\text{SDNR}_{20} = 0.24 \\times (F/M_b)$, trong đó bảng hệ số thực nghiệm trên Slide 25 theo tỷ lệ phần trăm $\\text{rbCOD}/\\text{bCOD}$ quy định cụ thể tại mức $10\\%\\text{ rbCOD}$ có $b_0 = 0.186, b_1 = 0.078$, tại mức $20\\%\\text{ rbCOD}$ có $b_0 = 0.213, b_1 = 0.118$, tại mức $30\\%\\text{ rbCOD}$ có $b_0 = 0.235, b_1 = 0.141$, tại mức $40\\%\\text{ rbCOD}$ có $b_0 = 0.242, b_1 = 0.152$, và tại mức $50\\%\\text{ rbCOD}$ có $b_0 = 0.270, b_1 = 0.162$."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Tốc độ khử nitrat riêng $\\text{SDNR}$ phụ thuộc vào tỷ số $F/M_b$, tỷ phần $\\text{rbCOD}$ và nhiệt độ. Khi $F/M_b > 0.5$ thì $\\text{SDNR}_{20} = b_0 + b_1 \\ln(F/M_b)$ và hiệu chỉnh theo tuần hoàn nội bộ $\\text{IR}$.",
+          "takeaway": "Tốc độ khử nitrat riêng $\\text{SDNR}$ phụ thuộc vào tỷ số $F/M_b$, tỷ phần $\\text{rbCOD}$ và nhiệt độ",
+          "topic": "nhiệt độ"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-quá-trình-oxy-hóa-kỵ-khí-bảng-srt-khuyến-nghị-và-sản-lượng-khí-sinh-học-anaerobic-oxidation-recommended-srt-and-biogas-production",
+      "num": "3",
+      "title": "Quá trình Oxy hóa Kỵ khí, Bảng SRT Khuyến nghị và Sản lượng Khí Sinh học (Anaerobic Oxidation, Recommended SRT, and Biogas Production)",
+      "depth": 1,
+      "takeaway": "Phân hủy kỵ khí chuyển hóa $1\\text{ g COD}$ thành $0.4\\text{ L CH}_4$ ở $35^\\circ\\text{C}$ và cần kiểm soát kiềm",
+      "topic": "Phân hủy kỵ khí",
+      "units": [
+        {
+          "id": "p-eb43fa9d",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Quá trình oxy hóa kỵ khí (anaerobic oxidation) phân hủy chất hữu cơ trong điều kiện hoàn toàn không có oxy qua bốn giai đoạn nối tiếp để xử lý nước thải công nghiệp nồng độ cao [Page 13] [Page 14] [Page 15]. Giai đoạn 1 là thủy phân (hydrolysis) chuyển hóa các vật chất dạng hạt cao phân tử thành các hợp chất hòa tan đơn giản. Giai đoạn 2 là lên men axit (acidogenesis hoặc fermentation) chuyển hóa các hợp chất hòa tan thành các axit béo bay hơi (VFAs), khí $\\text{H}_2$ và $\\text{CO}_2$, tiếp theo là Giai đoạn 3 (acetogenesis) chuyển hóa các VFAs mạch dài thành axit axetic ($\\text{CH}_3\\text{COOH}$), $\\text{H}_2$ và $\\text{CO}_2$. Giai đoạn 4 là quá trình sinh mêtan (methanogenesis) tạo ra khí $\\text{CH}_4$ nhờ hai nhóm vi sinh vật gồm nhóm phân giải axetat (aceticlastic methanogens thực hiện phản ứng $\\text{CH}_3\\text{COOH} \\rightarrow \\text{CH}_4 + \\text{CO}_2$) và nhóm sử dụng hydro (hydrogenotrophic methanogens thực hiện phản ứng $4\\text{H}_2 + \\text{CO}_2 \\rightarrow \\text{CH}_4 + 2\\text{H}_2\\text{O}$). So với xử lý hiếu khí, công nghệ kỵ khí có các ưu điểm vượt trội gồm thu hồi năng lượng từ khí sinh học ($\\text{CH}_4$), lượng bùn dư sinh ra thấp hơn từ $6$ đến $8$ lần giúp giảm chi phí xử lý bùn, nhu cầu dinh dưỡng thấp ($\\text{COD:N:P} = 300:5:1$ so với $150:5:1$ của hiếu khí) và chịu được tải trọng hữu cơ rất cao từ $3.2$ đến $32\\text{ kg COD/m}^3\\cdot\\text{d}$ (so với $0.5$ đến $3.2\\text{ kg COD/m}^3\\cdot\\text{d}$ của hiếu khí), nhưng có nhược điểm là thời gian khởi động kéo dài nhiều tháng, nhạy cảm với độc chất, cần độ kiềm cao để giữ pH và nước đầu ra còn $\\text{BOD}$ từ $50$ đến $150\\text{ mg/L}$ nên cần xử lý hiếu khí bậc sau.",
+          "sentences": [
+            "Quá trình oxy hóa kỵ khí (anaerobic oxidation) phân hủy chất hữu cơ trong điều kiện hoàn toàn không có oxy qua bốn giai đoạn nối tiếp để xử lý nước thải công nghiệp nồng độ cao [Page 13] [Page 14] [Page 15].",
+            "Giai đoạn 1 là thủy phân (hydrolysis) chuyển hóa các vật chất dạng hạt cao phân tử thành các hợp chất hòa tan đơn giản.",
+            "Giai đoạn 2 là lên men axit (acidogenesis hoặc fermentation) chuyển hóa các hợp chất hòa tan thành các axit béo bay hơi (VFAs), khí $\\text{H}_2$ và $\\text{CO}_2$, tiếp theo là Giai đoạn 3 (acetogenesis) chuyển hóa các VFAs mạch dài thành axit axetic ($\\text{CH}_3\\text{COOH}$), $\\text{H}_2$ và $\\text{CO}_2$.",
+            "Giai đoạn 4 là quá trình sinh mêtan (methanogenesis) tạo ra khí $\\text{CH}_4$ nhờ hai nhóm vi sinh vật gồm nhóm phân giải axetat (aceticlastic methanogens thực hiện phản ứng $\\text{CH}_3\\text{COOH} \\rightarrow \\text{CH}_4 + \\text{CO}_2$) và nhóm sử dụng hydro (hydrogenotrophic methanogens thực hiện phản ứng $4\\text{H}_2 + \\text{CO}_2 \\rightarrow \\text{CH}_4 + 2\\text{H}_2\\text{O}$).",
+            "So với xử lý hiếu khí, công nghệ kỵ khí có các ưu điểm vượt trội gồm thu hồi năng lượng từ khí sinh học ($\\text{CH}_4$), lượng bùn dư sinh ra thấp hơn từ $6$ đến $8$ lần giúp giảm chi phí xử lý bùn, nhu cầu dinh dưỡng thấp ($\\text{COD:N:P} = 300:5:1$ so với $150:5:1$ của hiếu khí) và chịu được tải trọng hữu cơ rất cao từ $3.2$ đến $32\\text{ kg COD/m}^3\\cdot\\text{d}$ (so với $0.5$ đến $3.2\\text{ kg COD/m}^3\\cdot\\text{d}$ của hiếu khí), nhưng có nhược điểm là thời gian khởi động kéo dài nhiều tháng, nhạy cảm với độc chất, cần độ kiềm cao để giữ pH và nước đầu ra còn $\\text{BOD}$ từ $50$ đến $150\\text{ mg/L}$ nên cần xử lý hiếu khí bậc sau."
+          ],
+          "brief": [
+            "Quá trình oxy hóa kỵ khí (anaerobic oxidation) phân hủy chất hữu cơ trong điều kiện hoàn toàn không có oxy qua bốn giai đoạn nối tiếp để xử lý nước thải công nghiệp nồng độ cao [Page 13] [Page 14] [Page 15].",
+            "So với xử lý hiếu khí, công nghệ kỵ khí có các ưu điểm vượt trội gồm thu hồi năng lượng từ khí sinh học ($\\text{CH}_4$), lượng bùn dư sinh ra thấp hơn từ $6$ đến $8$ lần giúp giảm chi phí xử lý bùn, nhu cầu dinh dưỡng thấp ($\\text{COD:N:P} = 300:5:1$ so với $150:5:1$ của hiếu khí) và chịu được tải trọng hữu cơ rất cao từ $3.2$ đến $32\\text{ kg COD/m}^3\\cdot\\text{d}$ (so với $0.5$ đến $3.2\\text{ kg COD/m}^3\\cdot\\text{d}$ của hiếu khí), nhưng có nhược điểm là thời gian khởi động kéo dài nhiều tháng, nhạy cảm với độc chất, cần độ kiềm cao để giữ pH và nước đầu ra còn $\\text{BOD}$ từ $50$ đến $150\\text{ mg/L}$ nên cần xử lý hiếu khí bậc sau."
+          ],
+          "evidence": [
+            0,
+            4
+          ],
+          "key": "Quá trình kỵ khí gồm bốn giai đoạn thủy phân, lên men axit, axetat hóa và sinh mêtan. Công nghệ kỵ khí chịu tải trọng $3.2$ đến $32\\text{ kg COD/m}^3\\cdot\\text{d}$ và giảm bùn dư $6$ đến $8$ lần.",
+          "takeaway": "Quá trình kỵ khí gồm bốn giai đoạn thủy phân, lên men axit, axetat hóa và sinh mêtan",
+          "topic": "sinh mêtan"
+        },
+        {
+          "id": "p-7a66f53a",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Động học quá trình kỵ khí, bảng thời gian lưu bùn SRT khuyến nghị và công thức tính sản lượng khí mêtan trên Slide 34 và Slide 35 cung cấp cơ sở tính toán thiết kế bể kỵ khí [Page 16] [Page 17]. Do vi khuẩn kỵ khí có hệ số sản lượng sinh khối rất thấp nên bể phản ứng cần thời gian lưu bùn (SRT) dài theo bảng khuyến nghị trên Slide 34 (Recommend SRT for anaerobic treatment), cụ thể ở nhiệt độ $35^\\circ\\text{C}$ cần $\\text{SRT} = 25\\text{ d}$, ở $30^\\circ\\text{C}$ cần $\\text{SRT} = 30\\text{ d}$, ở $25^\\circ\\text{C}$ cần $\\text{SRT} = 60\\text{ d}$, ở $20^\\circ\\text{C}$ cần $\\text{SRT} = 100\\text{ d}$ và ở $15^\\circ\\text{C}$ cần $\\text{SRT} = 140\\text{ d}$. Pha khí sinh học (biogas) thu được bao gồm $\\text{CH}_4$, $\\text{CO}_2$, $\\text{H}_2\\text{S}$, $\\text{N}_2$, $\\text{H}_2$ và hơi nước, trong đó khí $\\text{CH}_4$ chiếm khoảng $65\\%$ tổng thể tích khí và khí $\\text{CO}_2$ chiếm $35\\%$ còn lại. Phương trình cân bằng COD của bể kỵ khí được viết dưới dạng $\\text{COD}_{\\text{removed}} = \\text{COD of CH}_4 + \\text{COD of biomass}$, với lượng COD tích lũy trong sinh khối bằng $\\text{COD of biomass} = 1.42 \\times P_{X,\\text{bio}}$. Từ phản ứng đốt cháy mêtan $\\text{CH}_4 + 2\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\text{H}_2\\text{O}$, mỗi mole $\\text{CH}_4$ tương đương với $2 \\times 32 = 64\\text{ g COD/mole CH}_4$; vì $1\\text{ mole CH}_4$ ở điều kiện tiêu chuẩn ($0^\\circ\\text{C}, 1\\text{ atm}$) chiếm thể tích $22.4\\text{ L}$ nên $1\\text{ g COD}$ chuyển hóa thành $\\text{CH}_4$ tương đương với $\\frac{22.4}{64} = 0.35\\text{ L CH}_4$, còn ở điều kiện vận hành ấm ($35^\\circ\\text{C}, 1\\text{ atm}$) thể tích $1\\text{ mole CH}_4$ bằng $25.29\\text{ L}$ nên $1\\text{ g COD}$ tương đương với $\\frac{25.29}{64} = 0.4\\text{ L CH}_4$ ($= 0.4\\text{ m}^3\\text{ CH}_4/\\text{kg COD}$).",
+          "sentences": [
+            "Động học quá trình kỵ khí, bảng thời gian lưu bùn SRT khuyến nghị và công thức tính sản lượng khí mêtan trên Slide 34 và Slide 35 cung cấp cơ sở tính toán thiết kế bể kỵ khí [Page 16] [Page 17].",
+            "Do vi khuẩn kỵ khí có hệ số sản lượng sinh khối rất thấp nên bể phản ứng cần thời gian lưu bùn (SRT) dài theo bảng khuyến nghị trên Slide 34 (Recommend SRT for anaerobic treatment), cụ thể ở nhiệt độ $35^\\circ\\text{C}$ cần $\\text{SRT} = 25\\text{ d}$, ở $30^\\circ\\text{C}$ cần $\\text{SRT} = 30\\text{ d}$, ở $25^\\circ\\text{C}$ cần $\\text{SRT} = 60\\text{ d}$, ở $20^\\circ\\text{C}$ cần $\\text{SRT} = 100\\text{ d}$ và ở $15^\\circ\\text{C}$ cần $\\text{SRT} = 140\\text{ d}$.",
+            "Pha khí sinh học (biogas) thu được bao gồm $\\text{CH}_4$, $\\text{CO}_2$, $\\text{H}_2\\text{S}$, $\\text{N}_2$, $\\text{H}_2$ và hơi nước, trong đó khí $\\text{CH}_4$ chiếm khoảng $65\\%$ tổng thể tích khí và khí $\\text{CO}_2$ chiếm $35\\%$ còn lại.",
+            "Phương trình cân bằng COD của bể kỵ khí được viết dưới dạng $\\text{COD}_{\\text{removed}} = \\text{COD of CH}_4 + \\text{COD of biomass}$, với lượng COD tích lũy trong sinh khối bằng $\\text{COD of biomass} = 1.42 \\times P_{X,\\text{bio}}$.",
+            "Từ phản ứng đốt cháy mêtan $\\text{CH}_4 + 2\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\text{H}_2\\text{O}$, mỗi mole $\\text{CH}_4$ tương đương với $2 \\times 32 = 64\\text{ g COD/mole CH}_4$; vì $1\\text{ mole CH}_4$ ở điều kiện tiêu chuẩn ($0^\\circ\\text{C}, 1\\text{ atm}$) chiếm thể tích $22.4\\text{ L}$ nên $1\\text{ g COD}$ chuyển hóa thành $\\text{CH}_4$ tương đương với $\\frac{22.4}{64} = 0.35\\text{ L CH}_4$, còn ở điều kiện vận hành ấm ($35^\\circ\\text{C}, 1\\text{ atm}$) thể tích $1\\text{ mole CH}_4$ bằng $25.29\\text{ L}$ nên $1\\text{ g COD}$ tương đương với $\\frac{25.29}{64} = 0.4\\text{ L CH}_4$ ($= 0.4\\text{ m}^3\\text{ CH}_4/\\text{kg COD}$)."
+          ],
+          "brief": [
+            "Do vi khuẩn kỵ khí có hệ số sản lượng sinh khối rất thấp nên bể phản ứng cần thời gian lưu bùn (SRT) dài theo bảng khuyến nghị trên Slide 34 (Recommend SRT for anaerobic treatment), cụ thể ở nhiệt độ $35^\\circ\\text{C}$ cần $\\text{SRT} = 25\\text{ d}$, ở $30^\\circ\\text{C}$ cần $\\text{SRT} = 30\\text{ d}$, ở $25^\\circ\\text{C}$ cần $\\text{SRT} = 60\\text{ d}$, ở $20^\\circ\\text{C}$ cần $\\text{SRT} = 100\\text{ d}$ và ở $15^\\circ\\text{C}$ cần $\\text{SRT} = 140\\text{ d}$.",
+            "Từ phản ứng đốt cháy mêtan $\\text{CH}_4 + 2\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\text{H}_2\\text{O}$, mỗi mole $\\text{CH}_4$ tương đương với $2 \\times 32 = 64\\text{ g COD/mole CH}_4$; vì $1\\text{ mole CH}_4$ ở điều kiện tiêu chuẩn ($0^\\circ\\text{C}, 1\\text{ atm}$) chiếm thể tích $22.4\\text{ L}$ nên $1\\text{ g COD}$ chuyển hóa thành $\\text{CH}_4$ tương đương với $\\frac{22.4}{64} = 0.35\\text{ L CH}_4$, còn ở điều kiện vận hành ấm ($35^\\circ\\text{C}, 1\\text{ atm}$) thể tích $1\\text{ mole CH}_4$ bằng $25.29\\text{ L}$ nên $1\\text{ g COD}$ tương đương với $\\frac{25.29}{64} = 0.4\\text{ L CH}_4$ ($= 0.4\\text{ m}^3\\text{ CH}_4/\\text{kg COD}$)."
+          ],
+          "evidence": [
+            1,
+            4
+          ],
+          "key": "Mỗi gam $\\text{COD}$ chuyển thành $\\text{CH}_4$ tạo ra $0.35\\text{ L}$ ở $0^\\circ\\text{C}$ hoặc $0.4\\text{ L CH}_4$ ở $35^\\circ\\text{C}$. Khí sinh học chứa $65\\%\\text{ CH}_4$ và $35\\%\\text{ CO}_2$ với $\\text{SRT} = 25\\text{ d}$ ở $35^\\circ\\text{C}$.",
+          "takeaway": "Mỗi gam $\\text{COD}$ chuyển thành $\\text{CH}_4$ tạo ra $0.35\\text{ L}$ ở $0^\\circ\\text{C}$ hoặc $0.4\\text{ L CH}_4$ ở $35^\\circ\\text{C}$",
+          "topic": "Mỗi gam"
+        },
+        {
+          "id": "p-d029e192",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Các điều kiện môi trường, bảng độ kiềm yêu cầu để duy trì $\\text{pH} = 7.0$ và bảng ngưỡng nồng độ ức chế của các hợp chất vô cơ trên Slide 36 được dùng để kiểm soát vận hành bể kỵ khí [Page 17]. Nhiệt độ tối ưu cho vi sinh vật ưa ấm (mesophilic) nằm trong khoảng $30^\\circ\\text{C}$ đến $35^\\circ\\text{C}$ và cho vi sinh vật ưa nhiệt (thermophilic) nằm trong khoảng $50^\\circ\\text{C}$ đến $60^\\circ\\text{C}$, trong khi khoảng pH tối ưu là từ $6.8$ đến $7.2$. Bảng độ kiềm yêu cầu (Alkalinity mg/L as CaCO3 required to maintain a pH of 7.0) trên Slide 36 quy định nồng độ kiềm theo nhiệt độ và phần trăm $\\text{CO}_2$ trong pha khí, cụ thể ở $20^\\circ\\text{C}$ ứng với $25\\%, 30\\%, 35\\%, 40\\%\\text{ CO}_2$ cần lần lượt $2040, 2449, 2857, 3265\\text{ mg/L CaCO}_3$, ở $25^\\circ\\text{C}$ cần $1913, 2295, 2678, 3061\\text{ mg/L CaCO}_3$, ở $30^\\circ\\text{C}$ cần $1761, 2113, 2465, 2817\\text{ mg/L CaCO}_3$, ở $35^\\circ\\text{C}$ cần lần lượt $1609, 1931, 2253, 2575\\text{ mg/L CaCO}_3$, và ở $40^\\circ\\text{C}$ cần $1476, 1771, 2066, 2362\\text{ mg/L CaCO}_3$. Bảng các hợp chất vô cơ gây ức chế vừa phải (Moderately inhibitory concentration) trên Slide 36 cũng quy định ngưỡng nồng độ cho $\\text{Na}^+$ là $3500\\text{ đến }5500\\text{ mg/L}$, $\\text{K}^+$ là $2500\\text{ đến }4500\\text{ mg/L}$, $\\text{Ca}^{2+}$ là $2500\\text{ đến }4500\\text{ mg/L}$, $\\text{Mg}^{2+}$ là $1000\\text{ đến }1500\\text{ mg/L}$, $\\text{Ammonia-nitrogen}$ là $1500\\text{ đến }3000\\text{ mg/L}$ và $\\text{Sulfide } (\\text{S}^{2-})$ là $200\\text{ mg/L}$.",
+          "sentences": [
+            "Các điều kiện môi trường, bảng độ kiềm yêu cầu để duy trì $\\text{pH} = 7.0$ và bảng ngưỡng nồng độ ức chế của các hợp chất vô cơ trên Slide 36 được dùng để kiểm soát vận hành bể kỵ khí [Page 17].",
+            "Nhiệt độ tối ưu cho vi sinh vật ưa ấm (mesophilic) nằm trong khoảng $30^\\circ\\text{C}$ đến $35^\\circ\\text{C}$ và cho vi sinh vật ưa nhiệt (thermophilic) nằm trong khoảng $50^\\circ\\text{C}$ đến $60^\\circ\\text{C}$, trong khi khoảng pH tối ưu là từ $6.8$ đến $7.2$.",
+            "Bảng độ kiềm yêu cầu (Alkalinity mg/L as CaCO3 required to maintain a pH of 7.0) trên Slide 36 quy định nồng độ kiềm theo nhiệt độ và phần trăm $\\text{CO}_2$ trong pha khí, cụ thể ở $20^\\circ\\text{C}$ ứng với $25\\%, 30\\%, 35\\%, 40\\%\\text{ CO}_2$ cần lần lượt $2040, 2449, 2857, 3265\\text{ mg/L CaCO}_3$, ở $25^\\circ\\text{C}$ cần $1913, 2295, 2678, 3061\\text{ mg/L CaCO}_3$, ở $30^\\circ\\text{C}$ cần $1761, 2113, 2465, 2817\\text{ mg/L CaCO}_3$, ở $35^\\circ\\text{C}$ cần lần lượt $1609, 1931, 2253, 2575\\text{ mg/L CaCO}_3$, và ở $40^\\circ\\text{C}$ cần $1476, 1771, 2066, 2362\\text{ mg/L CaCO}_3$.",
+            "Bảng các hợp chất vô cơ gây ức chế vừa phải (Moderately inhibitory concentration) trên Slide 36 cũng quy định ngưỡng nồng độ cho $\\text{Na}^+$ là $3500\\text{ đến }5500\\text{ mg/L}$, $\\text{K}^+$ là $2500\\text{ đến }4500\\text{ mg/L}$, $\\text{Ca}^{2+}$ là $2500\\text{ đến }4500\\text{ mg/L}$, $\\text{Mg}^{2+}$ là $1000\\text{ đến }1500\\text{ mg/L}$, $\\text{Ammonia-nitrogen}$ là $1500\\text{ đến }3000\\text{ mg/L}$ và $\\text{Sulfide } (\\text{S}^{2-})$ là $200\\text{ mg/L}$."
+          ],
+          "brief": [
+            "Bảng độ kiềm yêu cầu (Alkalinity mg/L as CaCO3 required to maintain a pH of 7.0) trên Slide 36 quy định nồng độ kiềm theo nhiệt độ và phần trăm $\\text{CO}_2$ trong pha khí, cụ thể ở $20^\\circ\\text{C}$ ứng với $25\\%, 30\\%, 35\\%, 40\\%\\text{ CO}_2$ cần lần lượt $2040, 2449, 2857, 3265\\text{ mg/L CaCO}_3$, ở $25^\\circ\\text{C}$ cần $1913, 2295, 2678, 3061\\text{ mg/L CaCO}_3$, ở $30^\\circ\\text{C}$ cần $1761, 2113, 2465, 2817\\text{ mg/L CaCO}_3$, ở $35^\\circ\\text{C}$ cần lần lượt $1609, 1931, 2253, 2575\\text{ mg/L CaCO}_3$, và ở $40^\\circ\\text{C}$ cần $1476, 1771, 2066, 2362\\text{ mg/L CaCO}_3$.",
+            "Bảng các hợp chất vô cơ gây ức chế vừa phải (Moderately inhibitory concentration) trên Slide 36 cũng quy định ngưỡng nồng độ cho $\\text{Na}^+$ là $3500\\text{ đến }5500\\text{ mg/L}$, $\\text{K}^+$ là $2500\\text{ đến }4500\\text{ mg/L}$, $\\text{Ca}^{2+}$ là $2500\\text{ đến }4500\\text{ mg/L}$, $\\text{Mg}^{2+}$ là $1000\\text{ đến }1500\\text{ mg/L}$, $\\text{Ammonia-nitrogen}$ là $1500\\text{ đến }3000\\text{ mg/L}$ và $\\text{Sulfide } (\\text{S}^{2-})$ là $200\\text{ mg/L}$."
+          ],
+          "evidence": [
+            2,
+            3
+          ],
+          "key": "Bảng độ kiềm yêu cầu ở $35^\\circ\\text{C}$ và $35\\%\\text{ CO}_2$ quy định $2253\\text{ mg/L CaCO}_3$ để giữ $\\text{pH} = 7.0$. Các ion vô cơ như $\\text{Na}^+$, $\\text{K}^+$, $\\text{Ca}^{2+}$, $\\text{NH}_4^+$ và $\\text{S}^{2-}$ gây ức chế khi vượt ngưỡng cho phép.",
+          "takeaway": "Bảng độ kiềm yêu cầu ở $35^\\circ\\text{C}$ và $35\\%\\text{ CO}_2$ quy định $2253\\text{ mg/L CaCO}_3$ để giữ $\\text{pH} = 7.0$",
+          "topic": "Bảng độ kiềm"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-lời-giải-chi-tiết-bài-tập-chương-5-phần-2-worked-solutions-for-chapter-5-part-2-exercises",
+      "num": "4",
+      "title": "Lời giải Chi tiết Bài tập Chương 5 Phần 2 (Worked Solutions for Chapter 5 Part 2 Exercises)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch05_2_ex01-slide-14-trang-7-tính-nồng-độ-amoni-và-nitrit-đầu-ra-của-bể-nitrat-hóa-ở-hai-mức-oxy-hòa-tan",
+      "num": "",
+      "title": "Bài tập ch05_2_ex01 (Slide 14, Trang 7): Tính Nồng độ Amoni và Nitrit Đầu ra của Bể Nitrat hóa ở Hai Mức Oxy Hòa tan",
+      "depth": 2,
+      "takeaway": "Khi $\\text{DO}$ giảm từ $2.0$ xuống $0.4\\text{ mg/L}$, nồng độ nitrit đầu ra tăng từ $0.16$ lên $13.74\\text{ mg/L}$",
+      "topic": "nitrit đầu ra",
+      "units": [
+        {
+          "id": "p-3dac5df4",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một bể phản ứng sinh học nitrat hóa được thiết kế với thời gian lưu bùn $\\text{SRT} = 20\\text{ d}$ và vận hành ở nhiệt độ $T = 12^\\circ\\text{C}$ [Page 6] [Page 7]. Cho bộ hệ số động học ở $12^\\circ\\text{C}$ của vi khuẩn oxy hóa amoni ($\\text{AOB}$) và vi khuẩn oxy hóa nitrit ($\\text{NOB}$) gồm $\\mu_{m,\\text{AOB}} = 0.52\\text{ g VSS/g VSS}\\cdot\\text{d}$, $\\mu_{m,\\text{NOB}} = 0.61\\text{ g VSS/g VSS}\\cdot\\text{d}$, $K_{\\text{NH}_4} = 0.5\\text{ g/m}^3$, $K_{\\text{NO}_2} = 0.2\\text{ g/m}^3$, $K_{o,\\text{AOB}} = 0.5\\text{ mg/L}$, $K_{o,\\text{NOB}} = 0.9\\text{ mg/L}$, $b_{\\text{AOB}} = 0.135\\text{ g VSS/g VSS}\\cdot\\text{d}$ và $b_{\\text{NOB}} = 0.135\\text{ g VSS/g VSS}\\cdot\\text{d}$. Hãy xác định nồng độ $\\text{NH}_4\\text{-N}$ ($S_{\\text{NH}_4}$) và nồng độ $\\text{NO}_2\\text{-N}$ ($S_{\\text{NO}_2}$) ở dòng ra trong hai trường hợp là khi nồng độ oxy hòa tan trong bể bằng $S_o = 2\\text{ mg/L}$ và khi $S_o = 0.4\\text{ mg/L}$.",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một bể phản ứng sinh học nitrat hóa được thiết kế với thời gian lưu bùn $\\text{SRT} = 20\\text{ d}$ và vận hành ở nhiệt độ $T = 12^\\circ\\text{C}$ [Page 6] [Page 7].",
+            "Cho bộ hệ số động học ở $12^\\circ\\text{C}$ của vi khuẩn oxy hóa amoni ($\\text{AOB}$) và vi khuẩn oxy hóa nitrit ($\\text{NOB}$) gồm $\\mu_{m,\\text{AOB}} = 0.52\\text{ g VSS/g VSS}\\cdot\\text{d}$, $\\mu_{m,\\text{NOB}} = 0.61\\text{ g VSS/g VSS}\\cdot\\text{d}$, $K_{\\text{NH}_4} = 0.5\\text{ g/m}^3$, $K_{\\text{NO}_2} = 0.2\\text{ g/m}^3$, $K_{o,\\text{AOB}} = 0.5\\text{ mg/L}$, $K_{o,\\text{NOB}} = 0.9\\text{ mg/L}$, $b_{\\text{AOB}} = 0.135\\text{ g VSS/g VSS}\\cdot\\text{d}$ và $b_{\\text{NOB}} = 0.135\\text{ g VSS/g VSS}\\cdot\\text{d}$.",
+            "Hãy xác định nồng độ $\\text{NH}_4\\text{-N}$ ($S_{\\text{NH}_4}$) và nồng độ $\\text{NO}_2\\text{-N}$ ($S_{\\text{NO}_2}$) ở dòng ra trong hai trường hợp là khi nồng độ oxy hòa tan trong bể bằng $S_o = 2\\text{ mg/L}$ và khi $S_o = 0.4\\text{ mg/L}$."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một bể phản ứng sinh học nitrat hóa được thiết kế với thời gian lưu bùn $\\text{SRT} = 20\\text{ d}$ và vận hành ở nhiệt độ $T = 12^\\circ\\text{C}$ [Page 6] [Page 7].",
+            "Cho bộ hệ số động học ở $12^\\circ\\text{C}$ của vi khuẩn oxy hóa amoni ($\\text{AOB}$) và vi khuẩn oxy hóa nitrit ($\\text{NOB}$) gồm $\\mu_{m,\\text{AOB}} = 0.52\\text{ g VSS/g VSS}\\cdot\\text{d}$, $\\mu_{m,\\text{NOB}} = 0.61\\text{ g VSS/g VSS}\\cdot\\text{d}$, $K_{\\text{NH}_4} = 0.5\\text{ g/m}^3$, $K_{\\text{NO}_2} = 0.2\\text{ g/m}^3$, $K_{o,\\text{AOB}} = 0.5\\text{ mg/L}$, $K_{o,\\text{NOB}} = 0.9\\text{ mg/L}$, $b_{\\text{AOB}} = 0.135\\text{ g VSS/g VSS}\\cdot\\text{d}$ và $b_{\\text{NOB}} = 0.135\\text{ g VSS/g VSS}\\cdot\\text{d}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Bể nitrat hóa vận hành ở $\\text{SRT} = 20\\text{ d}$ và $12^\\circ\\text{C}$ khảo sát tại $S_o = 2$ và $0.4\\text{ mg/L}$. Vi khuẩn $\\text{AOB}$ và $\\text{NOB}$ có $K_{o,\\text{AOB}} = 0.5\\text{ mg/L}$, $K_{o,\\text{NOB}} = 0.9\\text{ mg/L}$ và $b = 0.135\\text{ d}^{-1}$.",
+          "takeaway": "Bể nitrat hóa vận hành ở $\\text{SRT} = 20\\text{ d}$ và $12^\\circ\\text{C}$ khảo sát tại $S_o = 2$ và $0.4\\text{ mg/L}$",
+          "topic": "Bể nitrat hóa"
+        },
+        {
+          "id": "p-df3accd2",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Xác định tốc độ tăng trưởng riêng yêu cầu ở trạng thái ổn định: Tại thời gian lưu bùn $\\text{SRT} = 20\\text{ d}$, tốc độ tăng trưởng riêng ròng của cả hai nhóm vi khuẩn $\\text{AOB}$ và $\\text{NOB}$ đều bằng $\\mu = 0.05\\text{ d}^{-1}$ [Page 6]. Tổng tốc độ tăng trưởng riêng cần thiết để bù đắp phần bùn xả bỏ và phân hủy nội bào bằng $0.185\\text{ d}^{-1}$.",
+          "sentences": [
+            "Bước 1 - Xác định tốc độ tăng trưởng riêng yêu cầu ở trạng thái ổn định: Tại thời gian lưu bùn $\\text{SRT} = 20\\text{ d}$, tốc độ tăng trưởng riêng ròng của cả hai nhóm vi khuẩn $\\text{AOB}$ và $\\text{NOB}$ đều bằng $\\mu = 0.05\\text{ d}^{-1}$ [Page 6].",
+            "Tổng tốc độ tăng trưởng riêng cần thiết để bù đắp phần bùn xả bỏ và phân hủy nội bào bằng $0.185\\text{ d}^{-1}$."
+          ],
+          "brief": [
+            "Bước 1 - Xác định tốc độ tăng trưởng riêng yêu cầu ở trạng thái ổn định: Tại thời gian lưu bùn $\\text{SRT} = 20\\text{ d}$, tốc độ tăng trưởng riêng ròng của cả hai nhóm vi khuẩn $\\text{AOB}$ và $\\text{NOB}$ đều bằng $\\mu = 0.05\\text{ d}^{-1}$ [Page 6].",
+            "Tổng tốc độ tăng trưởng riêng cần thiết để bù đắp phần bùn xả bỏ và phân hủy nội bào bằng $0.185\\text{ d}^{-1}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng tốc độ tăng trưởng riêng yêu cầu ở $\\text{SRT} = 20\\text{ d}$ bằng $\\frac{1}{\\text{SRT}} + b = 0.185\\text{ d}^{-1}$. Tốc độ tăng trưởng ròng $\\mu = 0.05\\text{ d}^{-1}$ cộng với hệ số phân hủy nội bào $b = 0.135\\text{ d}^{-1}$ bằng $0.185\\text{ d}^{-1}$.",
+          "takeaway": "Tổng tốc độ tăng trưởng riêng yêu cầu ở $\\text{SRT} = 20\\text{ d}$ bằng $\\frac{1}{\\text{SRT}} + b = 0.185\\text{ d}^{-1}$",
+          "topic": "tốc độ"
+        },
+        {
+          "id": "p-7da2d2eb",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính nồng độ amoni và nitrit đầu ra khi oxy hòa tan bằng 2 mg/L: Tại chế độ cấp khí chuẩn $S_o = 2.0\\text{ mg/L}$, hệ số tăng trưởng cực đại hiệu chỉnh theo oxy của $\\text{AOB}$ và $\\text{NOB}$ đạt lần lượt $0.416\\text{ d}^{-1}$ và $0.421\\text{ d}^{-1}$ [Page 6] [Page 7]. Thế vào phương trình động học hai nhân tố Monod trên Slide $12$ xác định được nồng độ dòng ra rất thấp là $S_{\\text{NH}_4} = 0.40\\text{ mg/L}$ và $S_{\\text{NO}_2} = 0.16\\text{ mg/L}$.",
+          "sentences": [
+            "Bước 2 - Tính nồng độ amoni và nitrit đầu ra khi oxy hòa tan bằng 2 mg/L: Tại chế độ cấp khí chuẩn $S_o = 2.0\\text{ mg/L}$, hệ số tăng trưởng cực đại hiệu chỉnh theo oxy của $\\text{AOB}$ và $\\text{NOB}$ đạt lần lượt $0.416\\text{ d}^{-1}$ và $0.421\\text{ d}^{-1}$ [Page 6] [Page 7].",
+            "Thế vào phương trình động học hai nhân tố Monod trên Slide $12$ xác định được nồng độ dòng ra rất thấp là $S_{\\text{NH}_4} = 0.40\\text{ mg/L}$ và $S_{\\text{NO}_2} = 0.16\\text{ mg/L}$."
+          ],
+          "brief": [
+            "Bước 2 - Tính nồng độ amoni và nitrit đầu ra khi oxy hòa tan bằng 2 mg/L: Tại chế độ cấp khí chuẩn $S_o = 2.0\\text{ mg/L}$, hệ số tăng trưởng cực đại hiệu chỉnh theo oxy của $\\text{AOB}$ và $\\text{NOB}$ đạt lần lượt $0.416\\text{ d}^{-1}$ và $0.421\\text{ d}^{-1}$ [Page 6] [Page 7].",
+            "Thế vào phương trình động học hai nhân tố Monod trên Slide $12$ xác định được nồng độ dòng ra rất thấp là $S_{\\text{NH}_4} = 0.40\\text{ mg/L}$ và $S_{\\text{NO}_2} = 0.16\\text{ mg/L}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tại $S_o = 2.0\\text{ mg/L}$, nồng độ dòng ra đạt $S_{\\text{NH}_4} = 0.40\\text{ mg/L}$ và $S_{\\text{NO}_2} = 0.16\\text{ mg/L}$. Tốc độ tăng trưởng cực đại hiệu chỉnh theo oxy đạt $0.416\\text{ d}^{-1}$ cho $\\text{AOB}$ và $0.421\\text{ d}^{-1}$ cho $\\text{NOB}$.",
+          "takeaway": "Tại $S_o = 2.0\\text{ mg/L}$, nồng độ dòng ra đạt $S_{\\text{NH}_4} = 0.40\\text{ mg/L}$ và $S_{\\text{NO}_2} = 0.16\\text{ mg/L}$",
+          "topic": "nồng độ dòng"
+        },
+        {
+          "id": "p-09438966",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính nồng độ amoni và nitrit đầu ra khi oxy hòa tan giảm xuống 0.4 mg/L: Tại chế độ thiếu hụt oxy $S_o = 0.4\\text{ mg/L}$, tốc độ tăng trưởng cực đại hiệu chỉnh của $\\text{AOB}$ giảm còn $0.231\\text{ d}^{-1}$ làm nồng độ amoni đầu ra tăng lên $S_{\\text{NH}_4} = 2.01\\text{ mg/L}$ [Page 6] [Page 7]. Tốc độ tăng trưởng cực đại hiệu chỉnh của $\\text{NOB}$ giảm sát ngưỡng rửa trôi xuống còn $0.1877\\text{ d}^{-1}$ làm nồng độ nitrit đầu ra vọt lên $S_{\\text{NO}_2} = 13.74\\text{ mg/L}$ (hoặc $12.33\\text{ mg/L}$ nếu làm tròn $\\mu_{m,\\text{NOB,DO}} = 0.188\\text{ d}^{-1}$).",
+          "sentences": [
+            "Bước 3 - Tính nồng độ amoni và nitrit đầu ra khi oxy hòa tan giảm xuống 0.4 mg/L: Tại chế độ thiếu hụt oxy $S_o = 0.4\\text{ mg/L}$, tốc độ tăng trưởng cực đại hiệu chỉnh của $\\text{AOB}$ giảm còn $0.231\\text{ d}^{-1}$ làm nồng độ amoni đầu ra tăng lên $S_{\\text{NH}_4} = 2.01\\text{ mg/L}$ [Page 6] [Page 7].",
+            "Tốc độ tăng trưởng cực đại hiệu chỉnh của $\\text{NOB}$ giảm sát ngưỡng rửa trôi xuống còn $0.1877\\text{ d}^{-1}$ làm nồng độ nitrit đầu ra vọt lên $S_{\\text{NO}_2} = 13.74\\text{ mg/L}$ (hoặc $12.33\\text{ mg/L}$ nếu làm tròn $\\mu_{m,\\text{NOB,DO}} = 0.188\\text{ d}^{-1}$)."
+          ],
+          "brief": [
+            "Bước 3 - Tính nồng độ amoni và nitrit đầu ra khi oxy hòa tan giảm xuống 0.4 mg/L: Tại chế độ thiếu hụt oxy $S_o = 0.4\\text{ mg/L}$, tốc độ tăng trưởng cực đại hiệu chỉnh của $\\text{AOB}$ giảm còn $0.231\\text{ d}^{-1}$ làm nồng độ amoni đầu ra tăng lên $S_{\\text{NH}_4} = 2.01\\text{ mg/L}$ [Page 6] [Page 7].",
+            "Tốc độ tăng trưởng cực đại hiệu chỉnh của $\\text{NOB}$ giảm sát ngưỡng rửa trôi xuống còn $0.1877\\text{ d}^{-1}$ làm nồng độ nitrit đầu ra vọt lên $S_{\\text{NO}_2} = 13.74\\text{ mg/L}$ (hoặc $12.33\\text{ mg/L}$ nếu làm tròn $\\mu_{m,\\text{NOB,DO}} = 0.188\\text{ d}^{-1}$)."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tại $S_o = 0.4\\text{ mg/L}$, dòng ra có $S_{\\text{NH}_4} = 2.01\\text{ mg/L}$ và tích tụ nitrit $S_{\\text{NO}_2} = 13.74\\text{ mg/L}$. Hệ số $\\mu_{m,\\text{NOB,DO}} = 0.1877\\text{ d}^{-1}$ giảm sát ngưỡng rửa trôi $0.185\\text{ d}^{-1}$ nên ức chế mạnh quá trình oxy hóa nitrit.",
+          "takeaway": "Tại $S_o = 0.4\\text{ mg/L}$, dòng ra có $S_{\\text{NH}_4} = 2.01\\text{ mg/L}$ và tích tụ nitrit $S_{\\text{NO}_2} = 13.74\\text{ mg/L}$",
+          "topic": "tích tụ nitrit"
+        },
+        {
+          "id": "p-47659d61",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Toàn bộ thông số của bể nitrat hóa thỏa mãn quy luật động học trên slide bài giảng. Kết quả tính toán chứng minh nồng độ oxy hòa tan thấp ức chế $\\text{NOB}$ nghiêm trọng hơn $\\text{AOB}$.",
+          "takeaway": "Toàn bộ thông số của bể nitrat hóa thỏa mãn quy luật động học trên slide bài giảng",
+          "topic": "thông số"
+        },
+        {
+          "id": "p-c3c2d485",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ $\\text{NH}_4\\text{-N}$ và $\\text{NO}_2\\text{-N}$ tại $\\text{DO} = 2.0\\text{ mg/L}$ ($S_{\\text{NH}_4}, S_{\\text{NO}_2}$): $S_{\\text{NH}_4} = 0.40\\text{ mg/L}$, $S_{\\text{NO}_2} = 0.16\\text{ mg/L}$ (Kiểm tra: $\\text{DO} \\in [2.0, 4.0]\\text{ mg/L}\\text{ — Đạt chuẩn Slide 13}$)",
+          "sentences": [
+            "Nồng độ $\\text{NH}_4\\text{-N}$ và $\\text{NO}_2\\text{-N}$ tại $\\text{DO} = 2.0\\text{ mg/L}$ ($S_{\\text{NH}_4}, S_{\\text{NO}_2}$): $S_{\\text{NH}_4} = 0.40\\text{ mg/L}$, $S_{\\text{NO}_2} = 0.16\\text{ mg/L}$ (Kiểm tra: $\\text{DO} \\in [2.0, 4.0]\\text{ mg/L}\\text{ — Đạt chuẩn Slide 13}$)"
+          ],
+          "brief": [
+            "Nồng độ $\\text{NH}_4\\text{-N}$ và $\\text{NO}_2\\text{-N}$ tại $\\text{DO} = 2.0\\text{ mg/L}$ ($S_{\\text{NH}_4}, S_{\\text{NO}_2}$): $S_{\\text{NH}_4} = 0.40\\text{ mg/L}$, $S_{\\text{NO}_2} = 0.16\\text{ mg/L}$ (Kiểm tra: $\\text{DO} \\in [2.0, 4.0]\\text{ mg/L}\\text{ — Đạt chuẩn Slide 13}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Chế độ cấp khí đủ oxy giữ dòng ra ở mức $S_{\\text{NH}_4} = 0.40\\text{ mg/L}$ và $S_{\\text{NO}_2} = 0.16\\text{ mg/L}$.",
+          "takeaway": "Chế độ cấp khí đủ oxy giữ dòng ra ở mức $S_{\\text{NH}_4} = 0.40\\text{ mg/L}$ và $S_{\\text{NO}_2} = 0.16\\text{ mg/L}$",
+          "topic": "Chế độ"
+        },
+        {
+          "id": "p-f431fdb0",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ $\\text{NH}_4\\text{-N}$ và $\\text{NO}_2\\text{-N}$ tại $\\text{DO} = 0.4\\text{ mg/L}$ ($S_{\\text{NH}_4}, S_{\\text{NO}_2}$): $S_{\\text{NH}_4} = 2.01\\text{ mg/L}$, $S_{\\text{NO}_2} = 13.74\\text{ mg/L}$ (Kiểm tra: $\\mu_{m,\\text{NOB,DO}} = 0.1877\\text{ d}^{-1} \\approx 0.185\\text{ d}^{-1}\\text{ — Đạt chuẩn Slide 13}$)",
+          "sentences": [
+            "Nồng độ $\\text{NH}_4\\text{-N}$ và $\\text{NO}_2\\text{-N}$ tại $\\text{DO} = 0.4\\text{ mg/L}$ ($S_{\\text{NH}_4}, S_{\\text{NO}_2}$): $S_{\\text{NH}_4} = 2.01\\text{ mg/L}$, $S_{\\text{NO}_2} = 13.74\\text{ mg/L}$ (Kiểm tra: $\\mu_{m,\\text{NOB,DO}} = 0.1877\\text{ d}^{-1} \\approx 0.185\\text{ d}^{-1}\\text{ — Đạt chuẩn Slide 13}$)"
+          ],
+          "brief": [
+            "Nồng độ $\\text{NH}_4\\text{-N}$ và $\\text{NO}_2\\text{-N}$ tại $\\text{DO} = 0.4\\text{ mg/L}$ ($S_{\\text{NH}_4}, S_{\\text{NO}_2}$): $S_{\\text{NH}_4} = 2.01\\text{ mg/L}$, $S_{\\text{NO}_2} = 13.74\\text{ mg/L}$ (Kiểm tra: $\\mu_{m,\\text{NOB,DO}} = 0.1877\\text{ d}^{-1} \\approx 0.185\\text{ d}^{-1}\\text{ — Đạt chuẩn Slide 13}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tình trạng thiếu oxy làm dòng ra tăng lên $S_{\\text{NH}_4} = 2.01\\text{ mg/L}$ và $S_{\\text{NO}_2} = 13.74\\text{ mg/L}$.",
+          "takeaway": "Tình trạng thiếu oxy làm dòng ra tăng lên $S_{\\text{NH}_4} = 2.01\\text{ mg/L}$ và $S_{\\text{NO}_2} = 13.74\\text{ mg/L}$",
+          "topic": "thiếu oxy"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch05_2_ex02-slide-37-trang-18-tính-tổng-lưu-lượng-khí-sinh-học-và-lượng-kiềm-bổ-sung-cho-bể-phản-ứng-kỵ-khí",
+      "num": "",
+      "title": "Bài tập ch05_2_ex02 (Slide 37, Trang 18): Tính Tổng Lưu lượng Khí Sinh học và Lượng Kiềm Bổ sung cho Bể Phản ứng Kỵ khí",
+      "depth": 2,
+      "takeaway": "Bể kỵ khí Ví dụ 2 sinh ra $8271.14\\text{ m}^3/\\text{d}$ khí sinh học và cần châm $9072\\text{ kg NaHCO}_3/\\text{d}$",
+      "topic": "Bể kỵ khí",
+      "units": [
+        {
+          "id": "p-ae7bb494",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một bể phản ứng kỵ khí vận hành ở nhiệt độ $T = 35^\\circ\\text{C}$ để xử lý lưu lượng nước thải $Q = 3000\\text{ m}^3/\\text{d}$ có nồng độ chất hữu cơ dễ phân hủy sinh học đầu vào $S_0 = 5000\\text{ g/m}^3$ [Page 17] [Page 18]. Hiệu suất khử $\\text{bCOD}$ của bể đạt $E = 95\\%$ và hệ số sản lượng sinh khối ròng bằng $Y_{\\text{bio}} = 0.04\\text{ g VSS/g COD}$. Hãy xác định: (1) tổng lưu lượng khí sinh học $V_{\\text{total gas}}$ ($\\text{m}^3/\\text{d}$) tạo thành ở $35^\\circ\\text{C}$, và (2) khối lượng natri bicacbonat $M_{\\text{NaHCO}_3}$ ($\\text{kg NaHCO}_3/\\text{d}$) cần bổ sung mỗi ngày để duy trì $\\text{pH} = 7.0$ khi độ kiềm đầu vào bằng $453\\text{ mg/L}$ tính theo $\\text{CaCO}_3$.",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một bể phản ứng kỵ khí vận hành ở nhiệt độ $T = 35^\\circ\\text{C}$ để xử lý lưu lượng nước thải $Q = 3000\\text{ m}^3/\\text{d}$ có nồng độ chất hữu cơ dễ phân hủy sinh học đầu vào $S_0 = 5000\\text{ g/m}^3$ [Page 17] [Page 18].",
+            "Hiệu suất khử $\\text{bCOD}$ của bể đạt $E = 95\\%$ và hệ số sản lượng sinh khối ròng bằng $Y_{\\text{bio}} = 0.04\\text{ g VSS/g COD}$.",
+            "Hãy xác định: (1) tổng lưu lượng khí sinh học $V_{\\text{total gas}}$ ($\\text{m}^3/\\text{d}$) tạo thành ở $35^\\circ\\text{C}$, và (2) khối lượng natri bicacbonat $M_{\\text{NaHCO}_3}$ ($\\text{kg NaHCO}_3/\\text{d}$) cần bổ sung mỗi ngày để duy trì $\\text{pH} = 7.0$ khi độ kiềm đầu vào bằng $453\\text{ mg/L}$ tính theo $\\text{CaCO}_3$."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một bể phản ứng kỵ khí vận hành ở nhiệt độ $T = 35^\\circ\\text{C}$ để xử lý lưu lượng nước thải $Q = 3000\\text{ m}^3/\\text{d}$ có nồng độ chất hữu cơ dễ phân hủy sinh học đầu vào $S_0 = 5000\\text{ g/m}^3$ [Page 17] [Page 18].",
+            "Hiệu suất khử $\\text{bCOD}$ của bể đạt $E = 95\\%$ và hệ số sản lượng sinh khối ròng bằng $Y_{\\text{bio}} = 0.04\\text{ g VSS/g COD}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Bể kỵ khí ở $35^\\circ\\text{C}$ xử lý $Q = 3000\\text{ m}^3/\\text{d}$ và $S_0 = 5000\\text{ g/m}^3$ với hiệu suất $E = 95\\%$. Hệ số sản lượng sinh khối ròng bằng $Y_{\\text{bio}} = 0.04\\text{ g VSS/g COD}$ và độ kiềm đầu vào bằng $453\\text{ mg/L}$.",
+          "takeaway": "Bể kỵ khí ở $35^\\circ\\text{C}$ xử lý $Q = 3000\\text{ m}^3/\\text{d}$ và $S_0 = 5000\\text{ g/m}^3$ với hiệu suất $E = 95\\%$",
+          "topic": "Bể kỵ khí"
+        },
+        {
+          "id": "p-575ac099",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính tải lượng cơ chất bị khử và khối lượng sinh khối kỵ khí sinh ra mỗi ngày: Nhân lưu lượng $Q$ với nồng độ đầu vào $S_0$ và hiệu suất $E = 95\\%$ cho tổng khối lượng $\\text{bCOD}$ bị khử mỗi ngày bằng $14,250\\text{ kg COD/d}$ [Page 17]. Khối lượng sinh khối kỵ khí sinh ra mỗi ngày đạt $P_{X,\\text{bio}} = 570\\text{ kg VSS/d}$, tương ứng với phần $\\text{COD}$ tích lũy trong tế bào bằng $809.4\\text{ kg COD/d}$.",
+          "sentences": [
+            "Bước 1 - Tính tải lượng cơ chất bị khử và khối lượng sinh khối kỵ khí sinh ra mỗi ngày: Nhân lưu lượng $Q$ với nồng độ đầu vào $S_0$ và hiệu suất $E = 95\\%$ cho tổng khối lượng $\\text{bCOD}$ bị khử mỗi ngày bằng $14,250\\text{ kg COD/d}$ [Page 17].",
+            "Khối lượng sinh khối kỵ khí sinh ra mỗi ngày đạt $P_{X,\\text{bio}} = 570\\text{ kg VSS/d}$, tương ứng với phần $\\text{COD}$ tích lũy trong tế bào bằng $809.4\\text{ kg COD/d}$."
+          ],
+          "brief": [
+            "Bước 1 - Tính tải lượng cơ chất bị khử và khối lượng sinh khối kỵ khí sinh ra mỗi ngày: Nhân lưu lượng $Q$ với nồng độ đầu vào $S_0$ và hiệu suất $E = 95\\%$ cho tổng khối lượng $\\text{bCOD}$ bị khử mỗi ngày bằng $14,250\\text{ kg COD/d}$ [Page 17].",
+            "Khối lượng sinh khối kỵ khí sinh ra mỗi ngày đạt $P_{X,\\text{bio}} = 570\\text{ kg VSS/d}$, tương ứng với phần $\\text{COD}$ tích lũy trong tế bào bằng $809.4\\text{ kg COD/d}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tải lượng cơ chất bị khử đạt $14,250\\text{ kg COD/d}$ và sinh ra $P_{X,\\text{bio}} = 570\\text{ kg VSS/d}$. Phần $\\text{COD}$ tích lũy trong tế bào sinh khối kỵ khí bằng $1.42 \\times 570 = 809.4\\text{ kg COD/d}$.",
+          "takeaway": "Tải lượng cơ chất bị khử đạt $14,250\\text{ kg COD/d}$ và sinh ra $P_{X,\\text{bio}} = 570\\text{ kg VSS/d}$",
+          "topic": "Tải lượng"
+        },
+        {
+          "id": "p-5508eec7",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính lưu lượng khí mêtan và tổng lưu lượng khí sinh học ở 35 độ C: Hiệu số giữa $\\text{COD}_{\\text{removed}}$ và $\\text{COD}_{\\text{biomass}}$ xác định lượng cơ chất chuyển hóa thành khí mêtan bằng $13,440.6\\text{ kg COD/d}$ [Page 17]. Nhân với hệ số $0.40\\text{ m}^3\\text{ CH}_4/\\text{kg COD}$ ở $35^\\circ\\text{C}$ và chia cho tỷ phần $65\\%\\text{ CH}_4$ thu được tổng lưu lượng khí sinh học $V_{\\text{total gas}} = 8271.14\\text{ m}^3/\\text{d}$.",
+          "sentences": [
+            "Bước 2 - Tính lưu lượng khí mêtan và tổng lưu lượng khí sinh học ở 35 độ C: Hiệu số giữa $\\text{COD}_{\\text{removed}}$ và $\\text{COD}_{\\text{biomass}}$ xác định lượng cơ chất chuyển hóa thành khí mêtan bằng $13,440.6\\text{ kg COD/d}$ [Page 17].",
+            "Nhân với hệ số $0.40\\text{ m}^3\\text{ CH}_4/\\text{kg COD}$ ở $35^\\circ\\text{C}$ và chia cho tỷ phần $65\\%\\text{ CH}_4$ thu được tổng lưu lượng khí sinh học $V_{\\text{total gas}} = 8271.14\\text{ m}^3/\\text{d}$."
+          ],
+          "brief": [
+            "Bước 2 - Tính lưu lượng khí mêtan và tổng lưu lượng khí sinh học ở 35 độ C: Hiệu số giữa $\\text{COD}_{\\text{removed}}$ và $\\text{COD}_{\\text{biomass}}$ xác định lượng cơ chất chuyển hóa thành khí mêtan bằng $13,440.6\\text{ kg COD/d}$ [Page 17].",
+            "Nhân với hệ số $0.40\\text{ m}^3\\text{ CH}_4/\\text{kg COD}$ ở $35^\\circ\\text{C}$ và chia cho tỷ phần $65\\%\\text{ CH}_4$ thu được tổng lưu lượng khí sinh học $V_{\\text{total gas}} = 8271.14\\text{ m}^3/\\text{d}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Lưu lượng khí mêtan đạt $5376.24\\text{ m}^3/\\text{d}$ và tổng khí sinh học đạt $V_{\\text{total gas}} = 8271.14\\text{ m}^3/\\text{d}$. Khối lượng $\\text{COD}$ chuyển thành mêtan $13,440.6\\text{ kg/d}$ nhân với $0.40\\text{ m}^3/\\text{kg}$ và chia cho $65\\%\\text{ CH}_4$.",
+          "takeaway": "Lưu lượng khí mêtan đạt $5376.24\\text{ m}^3/\\text{d}$ và tổng khí sinh học đạt $V_{\\text{total gas}} = 8271.14\\text{ m}^3/\\text{d}$",
+          "topic": "khí mêtan"
+        },
+        {
+          "id": "p-c64bc074",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính khối lượng độ kiềm cần bổ sung mỗi ngày để duy trì pH bằng 7.0: Tra bảng trên Slide $36$ tại $T = 35^\\circ\\text{C}$ và $35\\%\\text{ CO}_2$ cho độ kiềm yêu cầu bằng $2253\\text{ mg/L as CaCO}_3$, suy ra độ kiềm cần châm thêm là $\\Delta\\text{Alk} = 1800\\text{ g CaCO}_3/\\text{m}^3$ [Page 17] [Page 18]. Quy đổi tải lượng $5400\\text{ kg CaCO}_3/\\text{d}$ theo tỷ số đương lượng $\\frac{84}{50}$ xác định được khối lượng hóa chất cần châm là $M_{\\text{NaHCO}_3} = 9072\\text{ kg NaHCO}_3/\\text{d}$.",
+          "sentences": [
+            "Bước 3 - Tính khối lượng độ kiềm cần bổ sung mỗi ngày để duy trì pH bằng 7.0: Tra bảng trên Slide $36$ tại $T = 35^\\circ\\text{C}$ và $35\\%\\text{ CO}_2$ cho độ kiềm yêu cầu bằng $2253\\text{ mg/L as CaCO}_3$, suy ra độ kiềm cần châm thêm là $\\Delta\\text{Alk} = 1800\\text{ g CaCO}_3/\\text{m}^3$ [Page 17] [Page 18].",
+            "Quy đổi tải lượng $5400\\text{ kg CaCO}_3/\\text{d}$ theo tỷ số đương lượng $\\frac{84}{50}$ xác định được khối lượng hóa chất cần châm là $M_{\\text{NaHCO}_3} = 9072\\text{ kg NaHCO}_3/\\text{d}$."
+          ],
+          "brief": [
+            "Bước 3 - Tính khối lượng độ kiềm cần bổ sung mỗi ngày để duy trì pH bằng 7.0: Tra bảng trên Slide $36$ tại $T = 35^\\circ\\text{C}$ và $35\\%\\text{ CO}_2$ cho độ kiềm yêu cầu bằng $2253\\text{ mg/L as CaCO}_3$, suy ra độ kiềm cần châm thêm là $\\Delta\\text{Alk} = 1800\\text{ g CaCO}_3/\\text{m}^3$ [Page 17] [Page 18].",
+            "Quy đổi tải lượng $5400\\text{ kg CaCO}_3/\\text{d}$ theo tỷ số đương lượng $\\frac{84}{50}$ xác định được khối lượng hóa chất cần châm là $M_{\\text{NaHCO}_3} = 9072\\text{ kg NaHCO}_3/\\text{d}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Khối lượng hóa chất kiềm cần châm mỗi ngày để giữ $\\text{pH} = 7.0$ đạt $M_{\\text{NaHCO}_3} = 9072\\text{ kg/d}$. Độ kiềm thiếu hụt $\\Delta\\text{Alk} = 2253, 453 = 1800\\text{ mg/L}$ tương đương $5400\\text{ kg CaCO}_3/\\text{d}$ nhân tỷ số $\\frac{84}{50}$.",
+          "takeaway": "Khối lượng hóa chất kiềm cần châm mỗi ngày để giữ $\\text{pH} = 7.0$ đạt $M_{\\text{NaHCO}_3} = 9072\\text{ kg/d}$",
+          "topic": "hóa chất kiềm"
+        },
+        {
+          "id": "p-47659d61-2",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Toàn bộ thông số của bể phản ứng kỵ khí thỏa mãn giới hạn tiêu chuẩn trên slide. Cân bằng bảo toàn $\\text{COD}$ và bảng tra độ kiềm ở $35^\\circ\\text{C}$, $35\\%\\text{ CO}_2$ đều khớp chính xác.",
+          "takeaway": "Toàn bộ thông số của bể phản ứng kỵ khí thỏa mãn giới hạn tiêu chuẩn trên slide",
+          "topic": "thông số"
+        },
+        {
+          "id": "p-2f655a34",
+          "kind": "list item",
+          "role": "result",
+          "full": "Khối lượng $\\text{bCOD}$ chuyển thành mêtan ($\\text{COD}_{\\text{CH}_4}$): $13,440.6\\text{ kg COD/d}$ (Kiểm tra: $13,440.6 + 809.4 = 14,250\\text{ kg COD/d}\\text{ — Đạt chuẩn cân bằng Slide 35}$)",
+          "sentences": [
+            "Khối lượng $\\text{bCOD}$ chuyển thành mêtan ($\\text{COD}_{\\text{CH}_4}$): $13,440.6\\text{ kg COD/d}$ (Kiểm tra: $13,440.6 + 809.4 = 14,250\\text{ kg COD/d}\\text{ — Đạt chuẩn cân bằng Slide 35}$)"
+          ],
+          "brief": [
+            "Khối lượng $\\text{bCOD}$ chuyển thành mêtan ($\\text{COD}_{\\text{CH}_4}$): $13,440.6\\text{ kg COD/d}$ (Kiểm tra: $13,440.6 + 809.4 = 14,250\\text{ kg COD/d}\\text{ — Đạt chuẩn cân bằng Slide 35}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khối lượng cơ chất chuyển thành mêtan đạt $\\text{COD}_{\\text{CH}_4} = 13,440.6\\text{ kg COD/d}$.",
+          "takeaway": "Khối lượng cơ chất chuyển thành mêtan đạt $\\text{COD}_{\\text{CH}_4} = 13,440.6\\text{ kg COD/d}$",
+          "topic": "Khối lượng"
+        },
+        {
+          "id": "p-73fb44d2",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng khí mêtan ở $35^\\circ\\text{C}$ ($V_{\\text{CH}_4}$): $5376.24\\text{ m}^3\\text{ CH}_4/\\text{d}$ (Kiểm tra: $0.40\\text{ L CH}_4/\\text{g COD}\\text{ — Đạt chuẩn Slide 35}$)",
+          "sentences": [
+            "Lưu lượng khí mêtan ở $35^\\circ\\text{C}$ ($V_{\\text{CH}_4}$): $5376.24\\text{ m}^3\\text{ CH}_4/\\text{d}$ (Kiểm tra: $0.40\\text{ L CH}_4/\\text{g COD}\\text{ — Đạt chuẩn Slide 35}$)"
+          ],
+          "brief": [
+            "Lưu lượng khí mêtan ở $35^\\circ\\text{C}$ ($V_{\\text{CH}_4}$): $5376.24\\text{ m}^3\\text{ CH}_4/\\text{d}$ (Kiểm tra: $0.40\\text{ L CH}_4/\\text{g COD}\\text{ — Đạt chuẩn Slide 35}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng mêtan ở $35^\\circ\\text{C}$ đạt $V_{\\text{CH}_4} = 5376.24\\text{ m}^3\\text{ CH}_4/\\text{d}$.",
+          "takeaway": "Lưu lượng mêtan ở $35^\\circ\\text{C}$ đạt $V_{\\text{CH}_4} = 5376.24\\text{ m}^3\\text{ CH}_4/\\text{d}$",
+          "topic": "Lưu lượng mêtan"
+        },
+        {
+          "id": "p-c74224f0",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổng lưu lượng khí sinh học ($V_{\\text{total gas}}$): $8271.14\\text{ m}^3/\\text{d}$ (Kiểm tra: $\\frac{V_{\\text{CH}_4}}{V_{\\text{total gas}}} = 65\\%\\text{ CH}_4\\text{ — Đạt chuẩn Slide 35}$)",
+          "sentences": [
+            "Tổng lưu lượng khí sinh học ($V_{\\text{total gas}}$): $8271.14\\text{ m}^3/\\text{d}$ (Kiểm tra: $\\frac{V_{\\text{CH}_4}}{V_{\\text{total gas}}} = 65\\%\\text{ CH}_4\\text{ — Đạt chuẩn Slide 35}$)"
+          ],
+          "brief": [
+            "Tổng lưu lượng khí sinh học ($V_{\\text{total gas}}$): $8271.14\\text{ m}^3/\\text{d}$ (Kiểm tra: $\\frac{V_{\\text{CH}_4}}{V_{\\text{total gas}}} = 65\\%\\text{ CH}_4\\text{ — Đạt chuẩn Slide 35}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng lưu lượng khí sinh học thu được đạt $V_{\\text{total gas}} = 8271.14\\text{ m}^3/\\text{d}$.",
+          "takeaway": "Tổng lưu lượng khí sinh học thu được đạt $V_{\\text{total gas}} = 8271.14\\text{ m}^3/\\text{d}$",
+          "topic": "Tổng lưu lượng"
+        },
+        {
+          "id": "p-a024419a",
+          "kind": "list item",
+          "role": "result",
+          "full": "Khối lượng kiềm $\\text{NaHCO}_3$ cần bổ sung ($M_{\\text{NaHCO}_3}$): $9072\\text{ kg NaHCO}_3/\\text{d}$ (Kiểm tra: $453 + 1800 = 2253\\text{ mg/L as CaCO}_3\\text{ — Đạt chuẩn Slide 36}$)",
+          "sentences": [
+            "Khối lượng kiềm $\\text{NaHCO}_3$ cần bổ sung ($M_{\\text{NaHCO}_3}$): $9072\\text{ kg NaHCO}_3/\\text{d}$ (Kiểm tra: $453 + 1800 = 2253\\text{ mg/L as CaCO}_3\\text{ — Đạt chuẩn Slide 36}$)"
+          ],
+          "brief": [
+            "Khối lượng kiềm $\\text{NaHCO}_3$ cần bổ sung ($M_{\\text{NaHCO}_3}$): $9072\\text{ kg NaHCO}_3/\\text{d}$ (Kiểm tra: $453 + 1800 = 2253\\text{ mg/L as CaCO}_3\\text{ — Đạt chuẩn Slide 36}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lượng kiềm bổ sung hàng ngày đạt $M_{\\text{NaHCO}_3} = 9072\\text{ kg NaHCO}_3/\\text{d}$.",
+          "takeaway": "Lượng kiềm bổ sung hàng ngày đạt $M_{\\text{NaHCO}_3} = 9072\\text{ kg NaHCO}_3/\\text{d}$",
+          "topic": "Lượng kiềm"
+        },
+        {
+          "id": "p-58da26ae",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 1 (Page 3)",
+          "sentences": [
+            "Figure 1 (Page 3)"
+          ],
+          "brief": [
+            "Figure 1 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 1 Trang 3 biểu diễn hai bước phản ứng oxy hóa amoni của vi khuẩn $\\text{AOB}$ và $\\text{NOB}$.",
+          "takeaway": "Hình 1 Trang 3 biểu diễn hai bước phản ứng oxy hóa amoni của vi khuẩn $\\text{AOB}$ và $\\text{NOB}$",
+          "topic": "Hình 1"
+        },
+        {
+          "id": "p-bc294c03",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 2 (Page 3)",
+          "sentences": [
+            "Figure 2 (Page 3)"
+          ],
+          "brief": [
+            "Figure 2 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 2 Trang 3 minh họa sơ đồ hệ thống một bùn và hai bùn cho quá trình nitrat hóa.",
+          "takeaway": "Hình 2 Trang 3 minh họa sơ đồ hệ thống một bùn và hai bùn cho quá trình nitrat hóa",
+          "topic": "Hình 2"
+        },
+        {
+          "id": "p-969258c6",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 3 (Page 6)",
+          "sentences": [
+            "Figure 3 (Page 6)"
+          ],
+          "brief": [
+            "Figure 3 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 3 Trang 6 trình bày phương trình động học hai nhân tố Monod của vi khuẩn $\\text{AOB}$.",
+          "takeaway": "Hình 3 Trang 6 trình bày phương trình động học hai nhân tố Monod của vi khuẩn $\\text{AOB}$",
+          "topic": "Hình 3"
+        },
+        {
+          "id": "p-3fe791cf",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 4 (Page 6)",
+          "sentences": [
+            "Figure 4 (Page 6)"
+          ],
+          "brief": [
+            "Figure 4 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 4 Trang 6 trình bày phương trình động học hai nhân tố Monod của vi khuẩn $\\text{NOB}$.",
+          "takeaway": "Hình 4 Trang 6 trình bày phương trình động học hai nhân tố Monod của vi khuẩn $\\text{NOB}$",
+          "topic": "Hình 4"
+        },
+        {
+          "id": "p-95842e0f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 5 (Page 8)",
+          "sentences": [
+            "Figure 5 (Page 8)"
+          ],
+          "brief": [
+            "Figure 5 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 5 Trang 8 minh họa chu trình chuyển hóa nitơ và quá trình khử nitrat sinh học.",
+          "takeaway": "Hình 5 Trang 8 minh họa chu trình chuyển hóa nitơ và quá trình khử nitrat sinh học",
+          "topic": "Hình 5"
+        },
+        {
+          "id": "p-d845b69f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 6 (Page 9)",
+          "sentences": [
+            "Figure 6 (Page 9)"
+          ],
+          "brief": [
+            "Figure 6 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 6 Trang 9 biểu diễn sơ đồ bể thiếu khí đặt trước có dòng tuần hoàn nội bộ.",
+          "takeaway": "Hình 6 Trang 9 biểu diễn sơ đồ bể thiếu khí đặt trước có dòng tuần hoàn nội bộ",
+          "topic": "Hình 6"
+        },
+        {
+          "id": "p-590fc6ce",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 7 (Page 9)",
+          "sentences": [
+            "Figure 7 (Page 9)"
+          ],
+          "brief": [
+            "Figure 7 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 7 Trang 9 biểu diễn sơ đồ bể thiếu khí đặt sau bể hiếu khí.",
+          "takeaway": "Hình 7 Trang 9 biểu diễn sơ đồ bể thiếu khí đặt sau bể hiếu khí",
+          "topic": "Hình 7"
+        },
+        {
+          "id": "p-a847a5fd",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 8 (Page 10)",
+          "sentences": [
+            "Figure 8 (Page 10)"
+          ],
+          "brief": [
+            "Figure 8 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 8 Trang 10 minh họa bố trí máy khuấy chìm tốc độ cao trong bể thiếu khí.",
+          "takeaway": "Hình 8 Trang 10 minh họa bố trí máy khuấy chìm tốc độ cao trong bể thiếu khí",
+          "topic": "Hình 8"
+        },
+        {
+          "id": "p-ff9b5556",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 9 (Page 11)",
+          "sentences": [
+            "Figure 9 (Page 11)"
+          ],
+          "brief": [
+            "Figure 9 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 9 Trang 11 trình bày định nghĩa tốc độ khử nitrat riêng $\\text{SDNR}$ trong vùng thiếu khí.",
+          "takeaway": "Hình 9 Trang 11 trình bày định nghĩa tốc độ khử nitrat riêng $\\text{SDNR}$ trong vùng thiếu khí",
+          "topic": "Hình 9"
+        },
+        {
+          "id": "p-511ac0f0",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 10 (Page 11)",
+          "sentences": [
+            "Figure 10 (Page 11)"
+          ],
+          "brief": [
+            "Figure 10 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 10 Trang 11 trình bày công thức tính nồng độ sinh khối dị dưỡng hoạt tính $X_b$.",
+          "takeaway": "Hình 10 Trang 11 trình bày công thức tính nồng độ sinh khối dị dưỡng hoạt tính $X_b$",
+          "topic": "Hình 10"
+        },
+        {
+          "id": "p-b7b5f46f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 11 (Page 12)",
+          "sentences": [
+            "Figure 11 (Page 12)"
+          ],
+          "brief": [
+            "Figure 11 (Page 12)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 11 Trang 12 định nghĩa tỷ số thức ăn trên vi sinh vật hoạt tính $F/M_b$.",
+          "takeaway": "Hình 11 Trang 12 định nghĩa tỷ số thức ăn trên vi sinh vật hoạt tính $F/M_b$",
+          "topic": "Hình 11"
+        },
+        {
+          "id": "p-0af60b3c",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 12 (Page 12)",
+          "sentences": [
+            "Figure 12 (Page 12)"
+          ],
+          "brief": [
+            "Figure 12 (Page 12)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 12 Trang 12 trình bày quan hệ thực nghiệm giữa $\\text{SDNR}_{20}$ và tỷ số $F/M_b$.",
+          "takeaway": "Hình 12 Trang 12 trình bày quan hệ thực nghiệm giữa $\\text{SDNR}_{20}$ và tỷ số $F/M_b$",
+          "topic": "Hình 12"
+        },
+        {
+          "id": "p-3acc12d8",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 13 (Page 12)",
+          "sentences": [
+            "Figure 13 (Page 12)"
+          ],
+          "brief": [
+            "Figure 13 (Page 12)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 13 Trang 12 cung cấp bảng hệ số $b_0$, $b_1$ theo tỷ lệ phần trăm $\\text{rbCOD}$.",
+          "takeaway": "Hình 13 Trang 12 cung cấp bảng hệ số $b_0$, $b_1$ theo tỷ lệ phần trăm $\\text{rbCOD}$",
+          "topic": "Hình 13"
+        },
+        {
+          "id": "p-5b450513",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 14 (Page 13)",
+          "sentences": [
+            "Figure 14 (Page 13)"
+          ],
+          "brief": [
+            "Figure 14 (Page 13)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 14 Trang 13 trình bày công thức hiệu chỉnh $\\text{SDNR}$ theo tỷ số tuần hoàn nội bộ $\\text{IR}$.",
+          "takeaway": "Hình 14 Trang 13 trình bày công thức hiệu chỉnh $\\text{SDNR}$ theo tỷ số tuần hoàn nội bộ $\\text{IR}$",
+          "topic": "Hình 14"
+        },
+        {
+          "id": "p-fd6986a5",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 15 (Page 14)",
+          "sentences": [
+            "Figure 15 (Page 14)"
+          ],
+          "brief": [
+            "Figure 15 (Page 14)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 15 Trang 14 biểu diễn bốn giai đoạn phân hủy kỵ khí và dòng chuyển hóa thành $\\text{CH}_4$.",
+          "takeaway": "Hình 15 Trang 14 biểu diễn bốn giai đoạn phân hủy kỵ khí và dòng chuyển hóa thành $\\text{CH}_4$",
+          "topic": "Hình 15"
+        },
+        {
+          "id": "p-574d796f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 16 (Page 16)",
+          "sentences": [
+            "Figure 16 (Page 16)"
+          ],
+          "brief": [
+            "Figure 16 (Page 16)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 16 Trang 16 cung cấp bảng thời gian lưu bùn $\\text{SRT}$ khuyến nghị cho xử lý kỵ khí.",
+          "takeaway": "Hình 16 Trang 16 cung cấp bảng thời gian lưu bùn $\\text{SRT}$ khuyến nghị cho xử lý kỵ khí",
+          "topic": "Hình 16"
+        },
+        {
+          "id": "p-4295675f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 17 (Page 16)",
+          "sentences": [
+            "Figure 17 (Page 16)"
+          ],
+          "brief": [
+            "Figure 17 (Page 16)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 17 Trang 16 trình bày phương trình cân bằng bảo toàn $\\text{COD}$ giữa $\\text{CH}_4$ và sinh khối.",
+          "takeaway": "Hình 17 Trang 16 trình bày phương trình cân bằng bảo toàn $\\text{COD}$ giữa $\\text{CH}_4$ và sinh khối",
+          "topic": "Hình 17"
+        },
+        {
+          "id": "p-a8513d72",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 18 (Page 17)",
+          "sentences": [
+            "Figure 18 (Page 17)"
+          ],
+          "brief": [
+            "Figure 18 (Page 17)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 18 Trang 17 cung cấp bảng độ kiềm $\\text{CaCO}_3$ yêu cầu để duy trì $\\text{pH} = 7.0$.",
+          "takeaway": "Hình 18 Trang 17 cung cấp bảng độ kiềm $\\text{CaCO}_3$ yêu cầu để duy trì $\\text{pH} = 7.0$",
+          "topic": "Hình 18"
+        },
+        {
+          "id": "p-429e29c8",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 19 (Page 17)",
+          "sentences": [
+            "Figure 19 (Page 17)"
+          ],
+          "brief": [
+            "Figure 19 (Page 17)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 19 Trang 17 cung cấp bảng nồng độ ức chế của các ion vô cơ đối với bể kỵ khí.",
+          "takeaway": "Hình 19 Trang 17 cung cấp bảng nồng độ ức chế của các ion vô cơ đối với bể kỵ khí",
+          "topic": "Hình 19"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

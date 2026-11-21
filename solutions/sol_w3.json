@@ -1,0 +1,323 @@
+{
+  "brief_id": "f51e2026",
+  "worker_id": "ch_w3",
+  "input_file": "worker_inputs/ch_w3.json",
+  "input_sha256": "836a8c2b800759fdb7764ffbe9bfd02478f023ec90fd4d7c9a72f4f411fbe471",
+  "assigned_slugs": [
+    "ch03_3",
+    "ch03_4"
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ch03_3_ex01",
+      "chapter_slug": "ch03_3",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Nhà máy xử lý nước thải có lưu lượng trung bình $Q = 0.5\\text{ m}^3/\\text{s}$ ($43,200\\text{ m}^3/\\text{d}$) và độ nhớt động học của nước ở $20^\\circ\\text{C}$ là $\\nu = 1.003 \\times 10^{-6}\\text{ m}^2/\\text{s}$. Hãy thiết kế bể lắng ngang hình chữ nhật truyền thống.",
+      "design_parameters_selected": [
+        "Tải trọng bề mặt chọn thiết kế: $\\text{OR} = 40\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ (Bảng Slide $22$: khoảng $30 - 50\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, điển hình $40\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$)",
+        "Tổng chiều cao bể lắng: $H_{\\text{total}} = 4\\text{ m}$ (vùng bùn $1\\text{ m}$, vùng nước $2.5\\text{ m}$, chiều cao bảo vệ $0.5\\text{ m}$)",
+        "Số đơn nguyên và chiều rộng bể: $N = 4\\text{ bể}$, $W = 4\\text{ m}$ ($W \\le 6\\text{ m}$ cho hệ xích gạt bùn, Slide $25$)",
+        "Thông số hạt cặn kiểm tra cuốn trôi (Slide $28$): $k = 0.05$, $s = 1.25$, $d = 100 \\times 10^{-6}\\text{ m}$, $f = 0.025$",
+        "Vùng thu nước máng tràn: $1/3$ chiều dài bể ($20\\text{ m}$), $5\\text{ máng tràn}$ ngang cách nhau mỗi $4\\text{ m}$ ($2\\text{ mặt/máng}$)"
+      ],
+      "governing_equations": [
+        "$$A_s = \\frac{Q}{\\text{OR}}, \\quad V = A_s \\times D_{\\text{working}}, \\quad \\text{HRT} = \\frac{V}{Q}$$",
+        "$$L = \\frac{A_s / N}{W}, \\quad v_H = \\frac{Q}{N \\times D_{\\text{water}} \\times W}, \\quad R = \\frac{A}{P} = \\frac{D_{\\text{water}} \\times W}{2 D_{\\text{water}} + W}$$",
+        "$$\\text{Re} = \\frac{v_H R}{\\nu} < 20,000, \\quad \\text{Fr} = \\frac{v_H^2}{g R} > 10^{-5}$$",
+        "$$v_{\\text{scour}} = \\sqrt{\\frac{8 k (s - 1) g d}{f}} \\ge v_H, \\quad \\text{WLR} = \\frac{Q}{N \\times N_{\\text{weir}} \\times 2 \\times W}$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính diện tích bề mặt, thể tích và thời gian lưu nước**: $$A_s = \\frac{0.5 \\times 86,400}{40} = \\frac{43,200\\text{ m}^3/\\text{d}}{40\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})} = 1,080\\text{ m}^2$$ $$V = 1,080\\text{ m}^2 \\times 3.5\\text{ m} = 3,780\\text{ m}^3 \\Rightarrow \\text{HRT} = \\frac{3,780}{43,200} = 0.0875\\text{ d} = 2.1\\text{ h}$$",
+        "**Bước 2 - Tính kích thước hình học bể và vận tốc dòng chảy ngang**: $$L = \\frac{1,080 / 4}{4\\text{ m}} = 67.5\\text{ m}, \\quad \\frac{L}{W} = 16.8 \\ge 6, \\quad \\frac{L}{D} = 16.8 \\ge 15$$ $$v_H = \\frac{0.5\\text{ m}^3/\\text{s}}{4 \\times 2.5\\text{ m} \\times 4\\text{ m}} = 0.0125\\text{ m/s}$$",
+        "**Bước 3 - Tính bán kính thủy lực và kiểm tra chuẩn số Reynolds, Froude**: $$R = \\frac{2.5 \\times 4}{2.5 + 4 + 2.5} = 1.11\\text{ m}, \\quad \\text{Re} = \\frac{0.0125 \\times 1.11}{1.003 \\times 10^{-6}} = 13,833 < 20,000$$ $$\\text{Fr} = \\frac{0.0125^2}{9.81 \\times 1.11} = 1.435 \\times 10^{-5} > 10^{-5}$$",
+        "**Bước 4 - Kiểm tra vận tốc cuốn trôi cặn đáy và thiết kế máng tràn**: $$v_{\\text{scour}} = \\sqrt{\\frac{8 \\times 0.05 \\times (1.25 - 1) \\times 9.81 \\times 10^{-4}}{0.025}} = 0.063\\text{ m/s} \\ge v_H$$ $$\\text{WLR} = \\frac{43,200\\text{ m}^3/\\text{d}}{4 \\times 5 \\times 2 \\times 4\\text{ m}} = 270\\text{ m}^3/(\\text{m}\\cdot\\text{d})$$"
+      ],
+      "verification_checks": [
+        "Thời gian lưu nước: $\\text{HRT} = 2.1\\text{ h} \\in [1.5, 2.5]\\text{ h}$ (Đạt chuẩn Slide $22, 30$)",
+        "Tỷ số hình học: $L/W = 16.8 \\ge 6$ và $L/D = 16.8 \\ge 15$ (Đạt chuẩn Slide $25, 31$)",
+        "Vận tốc dòng chảy ngang: $v_H = 0.0125\\text{ m/s} \\in [0.005, 0.018]\\text{ m/s}$ (Đạt chuẩn Slide $25, 31$)",
+        "Chuẩn số Reynolds và Froude: $\\text{Re} = 13,833 < 20,000$, $\\text{Fr} = 1.435 \\times 10^{-5} > 10^{-5}$ (Đạt chuẩn Slide $27, 32$)",
+        "Vận tốc cuốn trôi: $v_H = 0.0125\\text{ m/s} \\le v_{\\text{scour}} = 0.063\\text{ m/s}$ (Đạt chuẩn Slide $28, 32$)",
+        "Tải trọng máng tràn: $\\text{WLR} = 270\\text{ m}^3/(\\text{m}\\cdot\\text{d}) \\in [125, 500]\\text{ m}^3/(\\text{m}\\cdot\\text{d})$ (Đạt chuẩn Slide $22, 33$)"
+      ],
+      "final_answers": {
+        "Lưu lượng ngày ($Q$)": "$43,200\\text{ m}^3/\\text{d}$",
+        "Tải trọng bề mặt ($\\text{OR}$)": "$40\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$",
+        "Diện tích vùng lắng ($A_s$)": "$1,080\\text{ m}^2$",
+        "Kích thước $4\\text{ bể}$ ($L \\times W \\times H$)": "$67.5\\text{ m} \\times 4\\text{ m} \\times 4\\text{ m}$",
+        "Thể tích và thời gian lưu ($V, \\text{HRT}$)": "$V = 3,780\\text{ m}^3, \\text{HRT} = 2.1\\text{ h}$",
+        "Vận tốc ngang và bán kính thủy lực ($v_H, R$)": "$v_H = 0.0125\\text{ m/s}, R = 1.11\\text{ m}$",
+        "Chuẩn số thủy lực ($\\text{Re}, \\text{Fr}$)": "$\\text{Re} = 13,833, \\text{Fr} = 1.435 \\times 10^{-5}$",
+        "Vận tốc cuốn trôi và tải trọng máng ($v_{\\text{scour}}, \\text{WLR}$)": "$v_{\\text{scour}} = 0.063\\text{ m/s}, \\text{WLR} = 270\\text{ m}^3/(\\text{m}\\cdot\\text{d})$"
+      }
+    },
+    {
+      "exercise_id": "ch03_3_ex02",
+      "chapter_slug": "ch03_3",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Nhà máy xử lý nước thải có lưu lượng trung bình $Q = 0.5\\text{ m}^3/\\text{s}$ ($43,200\\text{ m}^3/\\text{d}$) và độ nhớt động học của nước ở $20^\\circ\\text{C}$ là $\\nu = 1.003 \\times 10^{-6}\\text{ m}^2/\\text{s}$. Đường kính của ống lắng nghiêng (tube settlers) là $d = 50\\text{ mm} = 0.05\\text{ m}$. Hãy thiết kế bể lắng tải trọng cao.",
+      "design_parameters_selected": [
+        "Tải trọng bề mặt chọn thiết kế: $\\text{OR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ (Bảng Slide $38$: khoảng $60 - 180\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$)",
+        "Chiều cao bể và số đơn nguyên: $H_{\\text{total}} = 4\\text{ m}$ ($1\\text{ m}$ bùn, $2.5\\text{ m}$ nước, $0.5\\text{ m}$ bảo vệ), $N = 4\\text{ bể}$, $W = 4\\text{ m}$",
+        "Tỷ lệ diện tích phủ ống lắng: $\\eta_{\\text{cover}} = 75\\%$ (Bảng Slide $38$: $\\le 75\\%$)",
+        "Đường kính và góc nghiêng ống lắng: $d = 0.05\\text{ m}$, $\\theta = 60^\\circ$ (Bảng Slide $38$)",
+        "Máng tràn thu nước: $1\\text{ máng tràn}$ dọc theo vùng ống lắng $27\\text{ m}$ mỗi bể ($2\\text{ mặt/máng}$), cách tường bên $2\\text{ m}$"
+      ],
+      "governing_equations": [
+        "$$A_s = \\frac{Q}{\\text{OR}}, \\quad L_{\\text{settler}} = \\frac{A_s / N}{W}, \\quad L_{\\text{tank}} = \\frac{L_{\\text{settler}}}{0.75}$$",
+        "$$v_s = \\frac{\\text{OR}}{\\sin 60^\\circ}, \\quad R = \\frac{A}{P} = \\frac{\\pi d^2 / 4}{\\pi d} = \\frac{d}{4}$$",
+        "$$\\text{Re} = \\frac{v_s R}{\\nu} < 50, \\quad \\text{Fr} = \\frac{v_s^2}{g R} > 10^{-5}, \\quad \\text{WLR} = \\frac{Q}{N \\times N_{\\text{weir}} \\times 2 \\times L_{\\text{settler}}}$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính diện tích vùng lắng, chiều dài vùng ống lắng và chiều dài bể**: $$A_s = \\frac{43,200\\text{ m}^3/\\text{d}}{100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})} = 432\\text{ m}^2$$ $$L_{\\text{settler}} = \\frac{432 / 4}{4\\text{ m}} = 27\\text{ m} \\Rightarrow L_{\\text{tank}} = \\frac{27\\text{ m}}{0.75} = 36\\text{ m}$$",
+        "**Bước 2 - Tính vận tốc dòng chảy và bán kính thủy lực trong ống lắng**: $$v_s = \\frac{100\\text{ m/d}}{\\sin 60^\\circ} = 115.47\\text{ m/d} = 0.00134\\text{ m/s}, \\quad R = \\frac{0.05\\text{ m}}{4} = 0.0125\\text{ m}$$",
+        "**Bước 3 - Kiểm tra chuẩn số Reynolds, Froude và tải trọng máng tràn**: $$\\text{Re} = \\frac{0.00134 \\times 0.0125}{1.003 \\times 10^{-6}} = 16.7 < 50, \\quad \\text{Fr} = \\frac{0.00134^2}{9.81 \\times 1.0125} = 1.46 \\times 10^{-5} > 10^{-5}$$ $$\\text{WLR} = \\frac{43,200\\text{ m}^3/\\text{d}}{4 \\times 1 \\times 2 \\times 27\\text{ m}} = 200\\text{ m}^3/(\\text{m}\\cdot\\text{d})$$"
+      ],
+      "verification_checks": [
+        "Vận tốc trong ống lắng: $v_s = 115.47\\text{ m/d} = 0.0802\\text{ m/min} \\le 0.15\\text{ m/min}$ (Đạt chuẩn Slide $38, 41$)",
+        "Chuẩn số Reynolds trong ống: $\\text{Re} = 16.7 < 50$ (Đạt chuẩn Slide $38, 41$)",
+        "Chuẩn số Froude trong ống: $\\text{Fr} = 1.46 \\times 10^{-5} > 10^{-5}$ (Đạt chuẩn Slide $38, 41$)",
+        "Tải trọng máng tràn dọc: $\\text{WLR} = 200\\text{ m}^3/(\\text{m}\\cdot\\text{d}) \\in [125, 500]\\text{ m}^3/(\\text{m}\\cdot\\text{d})$ (Đạt chuẩn Slide $22, 42$)"
+      ],
+      "final_answers": {
+        "Tải trọng bề mặt ($\\text{OR}$)": "$100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$",
+        "Diện tích vùng ống lắng ($A_s$)": "$432\\text{ m}^2$",
+        "Chiều dài vùng ống lắng và chiều dài bể ($L_{\\text{settler}}, L_{\\text{tank}}$)": "$L_{\\text{settler}} = 27\\text{ m}, L_{\\text{tank}} = 36\\text{ m}$",
+        "Vận tốc và bán kính thủy lực trong ống ($v_s, R$)": "$v_s = 0.00134\\text{ m/s}, R = 0.0125\\text{ m}$",
+        "Chuẩn số thủy lực trong ống ($\\text{Re}, \\text{Fr}$)": "$\\text{Re} = 16.7, \\text{Fr} = 1.46 \\times 10^{-5}$",
+        "Tải trọng máng tràn dọc ($\\text{WLR}$)": "$200\\text{ m}^3/(\\text{m}\\cdot\\text{d})$"
+      }
+    },
+    {
+      "exercise_id": "proj_ch03_api_hw01",
+      "chapter_slug": "ch03_3",
+      "category": "projector_only",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể tách dầu mỡ API (API oil-water separator) cho trạm bảo dưỡng đầu máy xe lửa với lưu lượng $Q = 180\\text{ m}^3/\\text{h}$, nhiệt độ nước thải $t = 20^\\circ\\text{C}$, khối lượng riêng của dầu $\\rho_o = 900\\text{ kg/m}^3$, vận tốc nổi của hạt dầu $150\\text{ }\\mu\\text{m}$ là $v_t = 4.5\\text{ m/h}$ và vận tốc dòng chảy ngang tối đa cho phép là $V_H = 45\\text{ m/h}$.",
+      "design_parameters_selected": [
+        "Lưu lượng thiết kế: $Q = 180\\text{ m}^3/\\text{h} = 3.0\\text{ m}^3/\\text{min} = 0.05\\text{ m}^3/\\text{s}$",
+        "Vận tốc nổi hạt dầu và vận tốc ngang: $v_t = 4.5\\text{ m/h} = 0.075\\text{ m/min}$, $V_H = 45\\text{ m/h} = 0.75\\text{ m/min}$ ($V_H / v_t = 10 \\le 15$)",
+        "Số kênh và kích thước tiết diện: $N = 2\\text{ kênh}$, chiều rộng $B = 2.0\\text{ m} \\in [1.8, 6.0]\\text{ m}$, chiều sâu $d = 1.0\\text{ m} \\in [0.9, 2.4]\\text{ m}$ ($d/B = 0.50 \\in [0.3, 0.5]$)",
+        "Hệ số thiết kế API 421 ở $V_H / v_t = 10$: $F_1 = 1.2$, $F_2 = 1.28 \\Rightarrow F = F_1 \\times F_2 = 1.54$"
+      ],
+      "governing_equations": [
+        "$$\\frac{V_H}{v_t} = \\frac{45}{4.5} = 10 \\le 15, \\quad A_c = \\frac{Q}{V_H} = N \\times B \\times d$$",
+        "$$A_{s,\\text{ideal}} = \\frac{Q}{v_t}, \\quad A_s = F \\times A_{s,\\text{ideal}}, \\quad L = \\frac{A_s}{N \\times B}, \\quad \\text{HRT} = \\frac{A_s \\times d}{Q}$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Kiểm tra tỷ số vận tốc và xác định diện tích mặt cắt ngang**: $$\\frac{V_H}{v_t} = \\frac{45\\text{ m/h}}{4.5\\text{ m/h}} = 10 \\le 15, \\quad A_c = \\frac{180\\text{ m}^3/\\text{h}}{45\\text{ m/h}} = 4.0\\text{ m}^2$$ $$d = \\frac{4.0\\text{ m}^2}{2 \\times 2.0\\text{ m}} = 1.0\\text{ m}, \\quad \\frac{d}{B} = \\frac{1.0}{2.0} = 0.50 \\in [0.3, 0.5]$$",
+        "**Bước 2 - Tính diện tích bề mặt, chiều dài kênh tách dầu và thời gian lưu nước**: $$A_{s,\\text{ideal}} = \\frac{180\\text{ m}^3/\\text{h}}{4.5\\text{ m/h}} = 40.0\\text{ m}^2, \\quad A_s = 1.54 \\times 40.0\\text{ m}^2 = 61.6\\text{ m}^2$$ $$L = \\frac{61.6\\text{ m}^2}{2 \\times 2.0\\text{ m}} = 15.4\\text{ m}, \\quad \\text{HRT} = \\frac{61.6 \\times 1.0}{180} = 0.342\\text{ h} = 20.5\\text{ min}$$"
+      ],
+      "verification_checks": [
+        "Tỷ số vận tốc ngang trên vận tốc nổi: $V_H / v_t = 10 \\le 15$ (Đạt chuẩn API Slide $32$)",
+        "Tỷ số chiều sâu trên chiều rộng: $d/B = 0.50 \\in [0.3, 0.5]$ (Đạt chuẩn API Slide $32$)",
+        "Tỷ số chiều dài trên chiều rộng: $L/B = 15.4 / 2.0 = 7.7 \\ge 5.0$ (Đạt chuẩn API Slide $32$)"
+      ],
+      "final_answers": {
+        "Diện tích mặt cắt ngang ($A_c$)": "$4.0\\text{ m}^2$",
+        "Diện tích bề mặt lý tưởng và thiết kế ($A_{s,\\text{ideal}}, A_s$)": "$A_{s,\\text{ideal}} = 40.0\\text{ m}^2, A_s = 61.6\\text{ m}^2$ ($F = 1.54$)",
+        "Kích thước phương án $2\\text{ kênh}$ ($N, B, d, L$)": "$N = 2\\text{ kênh}, B = 2.0\\text{ m}, d = 1.0\\text{ m}, L = 15.4\\text{ m}$ ($L_{\\text{ideal}} = 10.0\\text{ m}$)",
+        "Kích thước phương án $1\\text{ kênh}$ ($N, B, d, L$)": "$N = 1\\text{ kênh}, B = 3.0\\text{ m}, d = 1.35\\text{ m}, L = 20.5\\text{ m}$",
+        "Thời gian lưu nước ($\\text{HRT}$)": "$13.3\\text{ min}$ (lý tưởng) đến $20.5\\text{ min}$ (có hệ số API $F = 1.54$)"
+      }
+    },
+    {
+      "exercise_id": "proj_ch03_3_hw01",
+      "chapter_slug": "ch03_3",
+      "category": "projector_only",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể lắng tròn dòng hướng tâm (xác định chiều sâu $H$ và đường kính bể $D$) cho thị trấn có quy mô dân số dự kiến $P_{\\text{pop}} = 45,000\\text{ người}$, tiêu chuẩn xả thải $q = 400\\text{ L}/(\\text{người}\\cdot\\text{d})$, thời gian lưu nước $\\text{HRT} = 2\\text{ h}$, tải trọng bề mặt $\\text{OR} = 40\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, bước làm tròn đường kính $1.0\\text{ m}$ và bước làm tròn chiều sâu $0.5\\text{ m}$.",
+      "design_parameters_selected": [
+        "Quy mô dân số và tiêu chuẩn xả thải: $P_{\\text{pop}} = 45,000\\text{ người}$, $q = 400\\text{ L}/(\\text{người}\\cdot\\text{d})$",
+        "Tải trọng bề mặt và thời gian lưu nước: $\\text{OR} = 40\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, $\\text{HRT} = 2\\text{ h}$",
+        "Bước làm tròn thiết bị chuẩn: $\\Delta D = 1.0\\text{ m}$, $\\Delta H = 0.5\\text{ m}$"
+      ],
+      "governing_equations": [
+        "$$Q = P_{\\text{pop}} \\times q, \\quad A_s = \\frac{Q}{\\text{OR}}, \\quad V = Q \\times \\text{HRT}$$",
+        "$$D = \\sqrt{\\frac{4 A_s}{\\pi}}, \\quad H = \\frac{V}{(\\pi / 4) D_{\\text{selected}}^2}$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính lưu lượng thiết kế, diện tích mặt bằng và thể tích bể**: $$Q = 45,000 \\times 400 \\times \\frac{1\\text{ m}^3}{1,000\\text{ L}} = 18,000\\text{ m}^3/\\text{d}$$ $$A_s = \\frac{18,000}{40} = 450\\text{ m}^2, \\quad V = 18,000 \\times 2\\text{ h} \\times \\frac{1\\text{ d}}{24\\text{ h}} = 1,500\\text{ m}^3$$",
+        "**Bước 2 - Tính và chọn đường kính cùng chiều sâu công tác của bể lắng tròn**: $$D_{\\text{calc}} = \\sqrt{\\frac{4 \\times 450\\text{ m}^2}{\\pi}} = 23.9\\text{ m} \\rightarrow \\text{Chọn } D = 24\\text{ m}$$ $$H_{\\text{calc}} = \\frac{1,500\\text{ m}^3}{(\\pi / 4) \\times (24\\text{ m})^2} = 3.3\\text{ m} \\rightarrow \\text{Chọn } H = 3.5\\text{ m}$$"
+      ],
+      "verification_checks": [
+        "Đường kính bể lắng tròn: $D = 24\\text{ m} \\in [3, 60]\\text{ m}$ (điển hình $12 - 45\\text{ m}$, Đạt chuẩn Slide $24, 44$)",
+        "Chiều sâu thành bên: $H = 3.5\\text{ m} \\in [3.0, 4.9]\\text{ m}$ (Đạt chuẩn Slide $24, 44$)"
+      ],
+      "final_answers": {
+        "Lưu lượng thiết kế ($Q$)": "$18,000\\text{ m}^3/\\text{d}$",
+        "Diện tích mặt bằng và thể tích ($A_s, V$)": "$A_s = 450\\text{ m}^2, V = 1,500\\text{ m}^3$",
+        "Đường kính tính toán và lựa chọn ($D$)": "$23.9\\text{ m} \\rightarrow \\text{chọn } 24\\text{ m}$",
+        "Chiều sâu tính toán và lựa chọn ($H$)": "$3.3\\text{ m} \\rightarrow \\text{chọn } 3.5\\text{ m}$"
+      }
+    },
+    {
+      "exercise_id": "proj_ch03_3_hw02",
+      "chapter_slug": "ch03_3",
+      "category": "projector_only",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Một bể lắng ngang hình chữ nhật có tải trọng bề mặt $\\text{OR} = 30\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ và kích thước sâu $D = 2.75\\text{ m}$, rộng $W = 6\\text{ m}$, dài $L = 15\\text{ m}$. Hãy xác định xem các hạt cặn có đường kính $d = 0.1\\text{ mm}$ ($0.1 \\times 10^{-3}\\text{ m}$) và tỷ trọng $s = 1.25$ trên Slide $46$ (hoặc $s = 2.5$ trên đề bài) có bị cuốn trôi khỏi đáy bể hay không, biết $f = 0.03$ và $k = 0.04$.",
+      "design_parameters_selected": [
+        "Tải trọng bề mặt và kích thước bể: $\\text{OR} = 30\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, $D = 2.75\\text{ m}$, $W = 6\\text{ m}$, $L = 15\\text{ m}$ ($A_s = 90\\text{ m}^2$, $A_h = 16.5\\text{ m}^2$)",
+        "Thông số hạt cặn đáy: $d = 0.1 \\times 10^{-3}\\text{ m}$, $f = 0.03$, $k = 0.04$, $s = 1.25$ trên Slide $46$ (hoặc $s = 2.5$ trên đề bài)"
+      ],
+      "governing_equations": [
+        "$$V_h = \\frac{Q}{A_h} = \\frac{\\text{OR} \\times A_s}{A_h}, \\quad v_{\\text{scour}} = \\sqrt{\\frac{8 k (s - 1) g d}{f}}$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính vận tốc dòng chảy ngang thực tế trong bể lắng**: $$V_h = \\frac{30 \\times (6\\text{ m} \\times 15\\text{ m})}{2.75\\text{ m} \\times 6\\text{ m}} \\times \\frac{1\\text{ d}}{86,400\\text{ s}} = 0.0019\\text{ m/s}$$",
+        "**Bước 2 - Tính vận tốc cuốn trôi giới hạn và kết luận**: $$v_{\\text{scour}} = \\sqrt{\\frac{8 \\times 0.04 \\times (1.25 - 1) \\times 9.81 \\times 0.1 \\times 10^{-3}}{0.03}} = 0.0125\\text{ m/s} \\quad (0.0396\\text{ m/s khi } s = 2.5)$$ $$V_h = 0.0019\\text{ m/s} < v_{\\text{scour}} = 0.0125\\text{ m/s} \\Rightarrow \\text{Hạt cặn không bị cuốn trôi}$$"
+      ],
+      "verification_checks": [
+        "Kiểm tra chống cuốn trôi: $V_h = 0.0019\\text{ m/s} < v_{\\text{scour}} = 0.0125\\text{ m/s}$ (Đạt chuẩn Slide $46$)"
+      ],
+      "final_answers": {
+        "Vận tốc dòng chảy ngang ($V_h$)": "$0.0019\\text{ m/s}$",
+        "Vận tốc cuốn trôi ứng với $s = 1.25$ ($v_{\\text{scour}}$)": "$0.0125\\text{ m/s}$",
+        "Vận tốc cuốn trôi ứng với $s = 2.5$ ($v_{\\text{scour}}$)": "$0.0396\\text{ m/s}$",
+        "Kết luận kiểm tra": "$V_h < v_{\\text{scour}} \\Rightarrow$ Hạt cặn không bị cuốn trôi khỏi đáy bể"
+      }
+    },
+    {
+      "exercise_id": "proj_ch03_3_hw03",
+      "chapter_slug": "ch03_3",
+      "category": "projector_only",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Một nhà máy xử lý nước thải quy mô vừa đang được thiết kế và cân nhắc giữa bể lắng sơ cấp hình tròn và hình chữ nhật. Hãy trình bày các yếu tố cần đánh giá khi lựa chọn loại bể, ưu nhược điểm của từng loại và trích dẫn ít nhất $3$ tài liệu tham khảo từ năm $2000$ trở lại đây.",
+      "design_parameters_selected": [
+        "Tiêu chí đánh giá: $(1)$ Quỹ đất và bố trí mặt bằng, $(2)$ Số đơn nguyên vận hành song song, $(3)$ Chi phí xây dựng tường chung, $(4)$ Độ bền cơ khí của thiết bị gạt bùn, $(5)$ Tính ổn định thủy lực ($\\text{Fr} > 10^{-5}$), $(6)$ Chi phí lắp mái che thu khí mùi"
+      ],
+      "governing_equations": [
+        "$$\\left(\\frac{L}{W}\\right)_{\\text{rect}} \\ge \\frac{6}{1}, \\quad \\left(\\frac{L}{D}\\right)_{\\text{rect}} \\ge \\frac{15}{1}, \\quad W_{\\text{chain}} \\le 6\\text{ m}, \\quad i_{\\text{rect}} = \\frac{1}{600}$$",
+        "$$D_{\\text{circular}} \\in [12, 45]\\text{ m}, \\quad H \\in [3.0, 4.9]\\text{ m}, \\quad \\omega \\in [0.02, 0.05]\\text{ rev/min}, \\quad i_{\\text{circular}} = \\frac{1}{12}$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Phân tích tiêu chí hình học và diện tích đất xây dựng**: Bể lắng hình chữ nhật dùng tường chung bê tông cốt thép với $L/W \\ge 6/1$ và $L/D \\ge 15/1$ giúp tiết kiệm diện tích đất hơn $25\\% - 40\\%$ so với bể lắng tròn đường kính $D = 12 - 45\\text{ m}$.",
+        "**Bước 2 - Đánh giá cơ khí, thủy lực và tài liệu tham khảo sau năm $2000$**: Bể chữ nhật dùng xích tải ($v = 0.6 - 1.2\\text{ m/min}, W \\le 6\\text{ m}$) dễ lắp mái che phẳng khử mùi nhưng xích ngầm dễ mài mòn; bể tròn dùng dàn gạt quay tâm ($\\omega = 0.02 - 0.05\\text{ rev/min}$, dốc $1/12$) bền cơ học nhưng dễ bị gió gây chảy tắt. Tài liệu: $[1]$ Metcalf & Eddy ($2014$), $[2]$ WEF MOP $8$ ($2018$), $[3]$ Davis ($2020$), $[4]$ Qasim & Zhu ($2017$)."
+      ],
+      "verification_checks": [
+        "Đáp ứng đầy đủ $3$ yêu cầu của đề bài trên Slide $45$ kèm $4 \\ge 3$ tài liệu tham khảo sau năm $2000$ (Đạt chuẩn Slide $2, 4, 24, 25, 45$)"
+      ],
+      "final_answers": {
+        "Phương án bể lắng chữ nhật": "Chọn khi quỹ đất hẹp, nhiều đơn nguyên dùng tường chung ($L/W \\ge 6/1, W \\le 6\\text{ m}$), cần che kín khử mùi",
+        "Phương án bể lắng tròn": "Chọn khi quỹ đất rộng, ưu tiên dàn gạt quay tâm bền bỉ ($D = 12 - 45\\text{ m}, i = 1/12$)",
+        "Tài liệu tham khảo sau năm $2000$": "Metcalf & Eddy ($2014$), WEF MOP $8$ ($2018$), Davis ($2020$), Qasim & Zhu ($2017$)"
+      }
+    },
+    {
+      "exercise_id": "ch03_4_ex01",
+      "chapter_slug": "ch03_4",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Thiết kế hệ thống tuyển nổi khí hòa tan (DAF) không có tuần hoàn và có tuần hoàn nước áp lực với các điều kiện: tỷ số khí trên rắn tối ưu $A/S = 0.008\\text{ mg/mg}$, nhiệt độ $T = 20^\\circ\\text{C}$ ($s_a = 18.7\\text{ mL/L}$), áp suất dư tuần hoàn $p = 5\\text{ atm}$, hệ số bão hòa $f = 0.5$, tải trọng bề mặt $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, lưu lượng trung bình $Q = 400\\text{ m}^3/\\text{d}$ và nồng độ cặn đầu vào $S_a = 3,000\\text{ mg/L}$.",
+      "design_parameters_selected": [
+        "Tỷ số khí trên rắn tối ưu và độ hòa tan khí ở $20^\\circ\\text{C}$: $A/S = 0.008\\text{ mg/mg}$, $s_a = 18.7\\text{ mL/L}$",
+        "Áp suất hệ thống tuần hoàn và hệ số bão hòa: $p = 5\\text{ atm} \\Rightarrow P = p + 1 = 6\\text{ atm}$, $f = 0.5$",
+        "Tải trọng bề mặt, lưu lượng và nồng độ SS: $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, $Q = 400\\text{ m}^3/\\text{d}$, $S_a = 3,000\\text{ mg/L}$",
+        "Tải trọng thủy lực bình áp lực chọn từ Bảng Slide $16$: $\\text{HLR}_{\\text{vessel}} = 1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$"
+      ],
+      "governing_equations": [
+        "$$\\text{Không tuần hoàn: } \\frac{A}{S} = \\frac{1.3 s_a (f P - 1)}{S_a}, \\quad P = p + 1, \\quad A_s = \\frac{Q}{\\text{SLR}}$$",
+        "$$\\text{Có tuần hoàn: } \\frac{A}{S} = \\frac{1.3 s_a (f P - 1) R}{S_a Q}, \\quad A_s = \\frac{Q + R}{\\text{SLR}}$$",
+        "$$A_{\\text{vessel}} = \\frac{R}{\\text{HLR}_{\\text{vessel}}}, \\quad d = \\sqrt{\\frac{4 A_{\\text{vessel}}}{\\pi}}, \\quad Q_{\\text{air}} = \\frac{(A/S) \\times S_a \\times Q}{1.3\\text{ g/L}}$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Phương án không tuần hoàn (Slide $19$)**: $$0.008 = \\frac{1.3 \\times 18.7 \\times (0.5 P - 1)}{3,000} \\Rightarrow P = 3.98\\text{ atm} = p + 1 \\Rightarrow p = 2.98\\text{ atm}$$ $$A_s = \\frac{400\\text{ m}^3/\\text{d}}{100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})} = 4\\text{ m}^2$$",
+        "**Bước 2 - Phương án có tuần hoàn nước áp lực (Slide $20$)**: $$P = p + 1 = 5 + 1 = 6\\text{ atm}, \\quad 0.008 = \\frac{1.3 \\times 18.7 \\times (0.5 \\times 6 - 1) \\times R}{3,000 \\times 400} \\Rightarrow R = 197\\text{ m}^3/\\text{d}$$ $$A_s = \\frac{400 + 197}{100} = 5.97\\text{ m}^2 \\approx 6\\text{ m}^2$$",
+        "**Bước 3 - Kích thước bình áp lực và lượng khí nén yêu cầu (Slide $21$)**: $$A_{\\text{vessel}} = \\frac{197}{1,440} = 0.137\\text{ m}^2 \\Rightarrow d = \\sqrt{\\frac{4 \\times 0.137}{\\pi}} = 0.42\\text{ m}$$ $$Q_{\\text{air}} = \\frac{0.008 \\times 3,000 \\times 400}{1.3} = 7,384.6\\text{ L/d} = 5.13\\text{ L/min}$$"
+      ],
+      "verification_checks": [
+        "Tỷ lệ tuần hoàn: $R/Q = 197 / 400 = 49.25\\% \\in [15\\%, 120\\%]$ (Đạt chuẩn Slide $16, 20$)",
+        "Tải trọng bình áp lực: $\\text{HLR}_{\\text{vessel}} = 1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [1,440, 1,920]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ (Đạt chuẩn Slide $16, 21$)"
+      ],
+      "final_answers": {
+        "Áp suất không tuần hoàn ($P, p$)": "$P = 3.98\\text{ atm}, p = 2.98\\text{ atm}$",
+        "Diện tích bể không tuần hoàn ($A_s$)": "$4\\text{ m}^2$",
+        "Áp suất và lưu lượng tuần hoàn ($P, R$)": "$P = 6\\text{ atm}, R = 197\\text{ m}^3/\\text{d}$ ($R/Q = 49.25\\%$)",
+        "Diện tích bể có tuần hoàn ($A_s$)": "$5.97\\text{ m}^2 \\rightarrow \\text{chọn } 6\\text{ m}^2$",
+        "Kích thước bình áp lực ($A_{\\text{vessel}}, d$)": "$A_{\\text{vessel}} = 0.137\\text{ m}^2, d = 0.42\\text{ m}$",
+        "Lưu lượng khí nén yêu cầu ($Q_{\\text{air}}$)": "$7,384.6\\text{ L/d} = 5.13\\text{ L/min}$"
+      }
+    },
+    {
+      "exercise_id": "proj_ch03_4_hw01",
+      "chapter_slug": "ch03_4",
+      "category": "projector_only",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "So sánh hệ thống tuyển nổi khí hòa tan (DAF) với bể lắng trọng lực theo $5$ thông số: $(a)$ thời gian lưu nước $\\text{HRT}$, $(b)$ tải trọng bề mặt $\\text{SLR}$, $(c)$ công suất tiêu thụ năng lượng $P_{\\text{input}}$, $(d)$ hiệu suất xử lý $E_{\\text{SS}}$, và $(e)$ ứng dụng phù hợp nhất của từng loại.",
+      "design_parameters_selected": [
+        "Thông số chuẩn hệ thống DAF: Slide $3, 6, 15, 16, 17$ của Chương $3.4$",
+        "Thông số chuẩn bể lắng trọng lực: Slide $3, 22, 38$ của Chương $3.3$"
+      ],
+      "governing_equations": [
+        "$$\\frac{V_{\\text{sed}}}{V_{\\text{DAF}}} = \\frac{\\text{HRT}_{\\text{sed}}}{\\text{HRT}_{\\text{DAF}}} = \\frac{120\\text{ min}}{20 - 30\\text{ min}} = 4.0 - 6.0$$",
+        "$$\\frac{A_{s,\\text{DAF}}}{A_{s,\\text{sed}}} = \\frac{\\text{SLR}_{\\text{sed}}}{\\text{SLR}_{\\text{DAF}}} = \\frac{40}{100 - 240} = 0.17 - 0.40$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Thời gian lưu nước (a) và tải trọng bề mặt (b)**: Bể DAF cần $\\text{HRT}_{\\text{DAF}} = 20 - 30\\text{ min}$ (cộng $1 - 3\\text{ min}$ bình áp lực) và $\\text{SLR}_{\\text{DAF}} = 80 - 240\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, nhỏ gọn hơn nhiều so với bể lắng trọng lực ($\\text{HRT}_{\\text{sed}} = 1.5 - 2.5\\text{ h}$, $\\text{SLR}_{\\text{sed}} = 30 - 50\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$).",
+        "**Bước 2 - Năng lượng (c), hiệu suất (d) và ứng dụng (e)**: Hệ thống DAF tiêu thụ điện năng cao cho bơm áp lực ($P = 3.4 - 6.0\\text{ atm}$) và máy nén khí nhưng khử đến $99\\%\\text{ SS}$, tạo bùn đặc $2 - 3\\%\\text{ TS}$, tối ưu cho nước thải chứa dầu mỡ ($\\text{FOGs}$), hạt nhẹ, tảo và nén bùn; bể lắng trọng lực tốn ít điện năng và phù hợp với hạt cặn nặng."
+      ],
+      "verification_checks": [
+        "Đầy đủ $5$ tiêu chí $(a) - (e)$ khớp với bảng thông số trên Slide $6, 15, 16$ của Chương $3.4$ và Slide $22$ của Chương $3.3$ (Đạt chuẩn)"
+      ],
+      "final_answers": {
+        "(a) Thời gian lưu nước ($\\text{HRT}$)": "DAF: $20 - 30\\text{ min}$ so với Lắng trọng lực: $1.5 - 2.5\\text{ h}$ (điển hình $2.0\\text{ h}$)",
+        "(b) Tải trọng bề mặt ($\\text{SLR}$)": "DAF: $80 - 240\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ so với Lắng trọng lực: $30 - 50\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ (điển hình $40\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$)",
+        "(c) Công suất tiêu thụ ($P_{\\text{input}}$)": "DAF: Cao (bơm tuần hoàn $3.4 - 6.0\\text{ atm}$ + máy nén khí) so với Lắng trọng lực: Rất thấp",
+        "(d) Hiệu suất xử lý ($E_{\\text{SS}}$)": "DAF: Khử đến $99\\%\\text{ SS}$, bùn đặc $2 - 3\\%\\text{ TS}$ so với Lắng trọng lực: Khử $50 - 70\\%\\text{ SS}$ lắng được",
+        "(e) Ứng dụng thuận lợi nhất": "DAF: Tách dầu mỡ ($\\text{FOGs}$), hạt nhẹ, tảo, nén bùn; Lắng trọng lực: Tách cặn thô tỷ trọng lớn"
+      }
+    },
+    {
+      "exercise_id": "proj_ch03_4_hw02",
+      "chapter_slug": "ch03_4",
+      "category": "projector_only",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Hệ thống DAF có tuần hoàn nước áp lực được thiết kế với tỷ số $A/S = 0.015\\text{ mg/mg}$, nhiệt độ $T = 20^\\circ\\text{C}$ ($s_a = 18.7\\text{ mL/L}$), áp suất hệ thống tuần hoàn $p = 5\\text{ atm}$, hệ số bão hòa $f = 0.5$, tải trọng bề mặt $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, lưu lượng trung bình $Q = 4,000\\text{ m}^3/\\text{d}$ và nồng độ SS đầu vào $S_a = 1,000\\text{ mg/L}$. Xác định: $(a)$ tỷ lệ tuần hoàn, $(b)$ diện tích bề mặt bể tuyển nổi, và $(c)$ lượng khí nén yêu cầu.",
+      "design_parameters_selected": [
+        "Tỷ số khí trên rắn tối ưu và độ hòa tan khí ở $20^\\circ\\text{C}$: $A/S = 0.015\\text{ mg/mg}$, $s_a = 18.7\\text{ mL/L}$",
+        "Áp suất bình bão hòa: $p = 5\\text{ atm} \\Rightarrow P = p + 1 = 6\\text{ atm}$ theo chuẩn Slide $20$ (hoặc $P = 5\\text{ atm}$ tuyệt đối), $f = 0.5$",
+        "Tải trọng bề mặt, lưu lượng và nồng độ SS: $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, $Q = 4,000\\text{ m}^3/\\text{d}$, $S_a = 1,000\\text{ mg/L}$"
+      ],
+      "governing_equations": [
+        "$$P = p + 1 = 6\\text{ atm}, \\quad \\frac{A}{S} = \\frac{1.3 s_a (f P - 1) R}{S_a Q}, \\quad \\text{Recycle ratio} = \\frac{R}{Q}$$",
+        "$$A_s = \\frac{Q + R}{\\text{SLR}}, \\quad Q_{\\text{air}} = \\frac{(A/S) \\times S_a \\times Q}{1.3\\text{ g/L}}$$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Lưu lượng tuần hoàn và tỷ lệ tuần hoàn (Câu a)**: $$R = \\frac{0.015 \\times 1,000 \\times 4,000}{1.3 \\times 18.7 \\times (0.5 \\times 6 - 1)} = \\frac{60,000}{48.62} = 1,234\\text{ m}^3/\\text{d} \\Rightarrow \\frac{R}{Q} = \\frac{1,234}{4,000} = 30.85\\%$$",
+        "**Bước 2 - Diện tích bề mặt bể tuyển nổi và bình áp lực (Câu b)**: $$A_s = \\frac{4,000 + 1,234}{100} = 52.34\\text{ m}^2 \\rightarrow \\text{Chọn } A_s = 53\\text{ m}^2, \\quad A_{\\text{vessel}} = \\frac{1,234}{1,440} = 0.857\\text{ m}^2 \\Rightarrow d = 1.04\\text{ m}$$",
+        "**Bước 3 - Lưu lượng không khí nén yêu cầu (Câu c)**: $$Q_{\\text{air}} = \\frac{0.015 \\times 1,000 \\times 4,000}{1.3\\text{ g/L}} = 46,153.8\\text{ L/d} = 46.15\\text{ m}^3/\\text{d} = 32.05\\text{ L/min}$$"
+      ],
+      "verification_checks": [
+        "Tỷ lệ tuần hoàn: $R/Q = 30.85\\% \\in [15\\%, 120\\%]$ (Đạt chuẩn Slide $16$)",
+        "Tải trọng bề mặt: $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [80, 240]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ (Đạt chuẩn Slide $16$)"
+      ],
+      "final_answers": {
+        "(a) Lưu lượng tuần hoàn ($R$)": "$1,234\\text{ m}^3/\\text{d}$ (hoặc $1,645.4\\text{ m}^3/\\text{d}$ khi lấy $P = 5\\text{ atm}$ tuyệt đối)",
+        "(a) Tỷ lệ tuần hoàn ($R/Q$)": "$30.85\\%$ (hoặc $41.14\\%$ khi lấy $P = 5\\text{ atm}$ tuyệt đối)",
+        "(b) Diện tích bề mặt bể tuyển nổi ($A_s$)": "$52.34\\text{ m}^2 \\rightarrow \\text{chọn } 53\\text{ m}^2$",
+        "(c) Lưu lượng khí nén yêu cầu ($Q_{\\text{air}}$)": "$46,153.8\\text{ L/d} = 46.15\\text{ m}^3/\\text{d} = 32.05\\text{ L/min}$"
+      }
+    }
+  ]
+}

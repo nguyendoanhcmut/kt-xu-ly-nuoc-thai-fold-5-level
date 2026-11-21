@@ -1,0 +1,327 @@
+{
+  "brief_id": "f51e2026",
+  "worker_id": "ch_w5",
+  "input_file": "worker_inputs/ch_w5.json",
+  "input_sha256": "7b4a7501c14658e213a36f38f0b25d42ff9b60ecfa00f83f23da7215506a688e",
+  "assigned_slugs": [
+    "ch04_2",
+    "ch04_3"
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ch04_2_ex01",
+      "chapter_slug": "ch04_2",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể tạo bông dùng tuabin trục đứng (Vertical shaft turbine flocculator) gồm 3 ngăn nối tiếp cho lưu lượng Q = 9,000 m3/ngày và thời gian lưu nước t = 30 phút. Tại nhiệt độ 20 độ C, nước có khối lượng riêng rho = 998.2 kg/m3 và độ nhớt động lực học mu = 1.002 x 10^-3 Pa.s.",
+      "design_parameters_selected": [
+        "Select L x W = 4 m x 4 m",
+        "Select freeboard = 0.6 m",
+        "Choose three hydrofoil pitched-blades impeller",
+        "Location of impeller = 2/3 D = 2.6 m",
+        "Select impeller diameter = 0.4 x T_e = 1.8 m",
+        "Choose N = 30 rev/min (0.5 rev/s) in the first stage",
+        "Select power number N_p = 0.3",
+        "Select pumping number N_Q = 0.5"
+      ],
+      "governing_equations": [
+        "V = Q x t",
+        "V_chamber = V / 3",
+        "D = V_chamber / (L x W)",
+        "T_e = sqrt((4 x A_plan) / pi)",
+        "Re = (D^2 x N x rho) / mu >= 10,000",
+        "v_tip = N x pi x D",
+        "P = N_p x rho x N^3 x D^5",
+        "G = sqrt(P / (mu x V_chamber))",
+        "Q_impeller = N_Q x N x D^3",
+        "t_c = V_chamber / Q_impeller"
+      ],
+      "worked_solution_steps": [
+        "Solution: [Lời giải từ ảnh chụp slide của thầy - Slide 22, Ảnh #63]",
+        "Volume flocculator = ((9,000 m3/day) x 30 min) / (1440 min/day) = 187.5 m3",
+        "Volume of each chamber = 187.5 m3 / 3 = 62.5 m3",
+        "Solution (continue): [Lời giải từ ảnh chụp slide của thầy - Slide 23, Ảnh #64]",
+        "Select L x W = 4 m x 4 m",
+        "D = V / (L x W) = 62.5 m3 / (4 m x 4 m) = 3.9 m",
+        "Select freeboard = 0.6 m ➔ H_tank = 3.9 m + 0.6 m = 4.5 m",
+        "Choose three hydrofoil pitched-blades impeller.",
+        "Location of impeller = 2/3 D = 2/3 x 3.9 m = 2.6 m",
+        "Solution (continue): [Lời giải từ ảnh chụp slide của thầy - Slide 24, Ảnh #65]",
+        "T_e = sqrt((4 x A_plan) / pi) = sqrt((4 x 4m x 4m) / 3.14) = 4.5 m",
+        "Select impeller diameter = 0.4 x T_e = 0.4 x 4.5 m = 1.8 m",
+        "Choose N = 30 rev/min (0.5 rev/s) in the first stage.",
+        "Check Reynolds number: Re = (D^2 N rho) / mu = (1.8^2 x 0.5 x 998.2) / (1.002 x 10^-3) = 1,613,856 > 10,000 (satisfy)",
+        "Check tip speed = (0.5 rev/s) x (pi x 1.8 m)/rev = 2.8 m/s (satisfy)",
+        "Solution (continue): [Lời giải từ ảnh chụp slide của thầy - Slide 25, Ảnh #66]",
+        "Select power number N_p = 0.3",
+        "Power required: P = N_p rho N^3 D^5 = 0.3 x 998.2 x 0.5^3 x 1.8^5 = 707 W",
+        "Check G: G = sqrt(P / (mu V)) = sqrt(707 / (1.002 x 10^-3 x 62.5)) = 106 (s^-1)",
+        "Select pumping number N_Q = 0.5",
+        "Flow rate imparted by impeller: Q = N_Q N D^3 = 0.5 x 0.5 x 1.8^3 = 1.46 (m3/s)",
+        "Circulation time: t_c = (V/Q) = (62.5 m3) / (1.46 m3/s) = 42.8 s"
+      ],
+      "verification_checks": [
+        "Check Reynolds number: Re = (1.8^2 x 0.5 x 998.2) / (1.002 x 10^-3) = 1,613,856 > 10,000 (satisfy)",
+        "Check tip speed = (0.5 rev/s) x (pi x 1.8 m)/rev = 2.8 m/s (satisfy)",
+        "Check G: G = sqrt(707 / (1.002 x 10^-3 x 62.5)) = 106 (s^-1)"
+      ],
+      "final_answers": {
+        "V_total": "187.5 m3",
+        "V_chamber": "62.5 m3",
+        "chamber_dimensions": "L x W x D = 4 m x 4 m x 3.9 m (H_tank = 4.5 m with 0.6 m freeboard)",
+        "impeller_type": "Three-blade hydrofoil pitched-blade impeller at 2.6 m depth",
+        "T_e": "4.5 m",
+        "D_impeller": "1.8 m",
+        "N_stage1": "30 rev/min (0.5 rev/s)",
+        "Re": "1,613,856",
+        "tip_speed": "2.8 m/s",
+        "P": "707 W",
+        "G": "106 s^-1",
+        "Q_impeller": "1.46 m3/s",
+        "t_c": "42.8 s"
+      }
+    },
+    {
+      "exercise_id": "ch04_2_ex02",
+      "chapter_slug": "ch04_2",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể tạo bông dùng guồng khuấy trục ngang (Horizontal paddle wheel flocculators) gồm 3 ngăn nối tiếp cho lưu lượng Q = 54,000 m3/ngày và thời gian lưu nước t = 30 phút. Mỗi tay guồng có 3 thanh cánh khuấy với mép ngoài cách tâm trục tại r1 = 0.67 m, r2 = 1.33 m và r3 = 2.0 m. Tại 20 độ C, nước có rho = 998.2 kg/m3 và mu = 1.002 x 10^-3 Pa.s.",
+      "design_parameters_selected": [
+        "Select freeboard = 0.5 m",
+        "Select clearance from basin walls = 0.7 m",
+        "Select minimum basin depth = wheel diameter + 1 m = 5 m",
+        "Select spacing between paddle wheels on same shaft = 1 m",
+        "Select the number of paddle wheel = 2 (not satisfy) -> Reselect the number of paddle wheel = 3 (satisfy)",
+        "Select width of paddle = 0.15 m, length of paddle = 3.5 m",
+        "Select C_d = 1.9 (for paddle L/W = 23.3 >> 20)",
+        "Select rotational speed N = 2.1 rev/min = 0.035 rev/s"
+      ],
+      "governing_equations": [
+        "V = Q x t",
+        "V_chamber = V / 3",
+        "D_wheel = 2 x r3",
+        "L_chamber = D_wheel + 2 x 0.7 m",
+        "D_chamber = D_wheel + 1 m",
+        "W_chamber = V_chamber / (L_chamber x D_chamber)",
+        "R_i = r_i - w_paddle / 2",
+        "v_R,i = N x 2 x pi x R_i",
+        "P = ((C_d x A_p x rho) / 2) x (v_R1^3 + v_R2^3 + v_R3^3)",
+        "G = sqrt(P / (mu x V_chamber))",
+        "Re = (D_wheel^2 x N x rho) / mu >= 10,000"
+      ],
+      "worked_solution_steps": [
+        "Solution: [Lời giải từ ảnh chụp slide của thầy - Slide 33, Ảnh #67, #116, #117]",
+        "Volume of flocculator = ((54,000 m3/day) x 30 min) / (1440 min/day) = 1,125 m3",
+        "Volume of each chamber = 1,125 m3 / 3 = 375 m3",
+        "Solution (continue): [Lời giải từ ảnh chụp slide của thầy - Slide 34, Ảnh #68, #118..#123]",
+        "Diameter of wheel = 2 x r3 = 2 x 2 m = 4 m",
+        "Length of each chamber = 4 m + (2 x 0.7 m) = 5.4 m",
+        "Depth of each chamber = 4 m + 1 m = 5 m",
+        "Select freeboard = 0.5 m ➔ Height of each chamber = 5 m + 0.5 m = 5.5 m",
+        "Width of each chamber = 375 m3 / (5.4 m x 5 m) = 13.9 m",
+        "Solution (continue): [Lời giải từ ảnh chụp slide của thầy - Slide 35, Ảnh #69, #124]",
+        "Select the number of paddle wheel = 2 ➔ Required clearance = (2 x 0.7 m) + (1 m) = 2.4 m ➔ Length of 2 paddle wheel = 13.9 m - 2.4 m = 11.5 m ➔ Length of each paddle wheel = 11.5 m / 2 = 5.75 m (not satisfy)",
+        "Reselect the number of paddle wheel = 3 ➔ Required clearance = (2 x 0.7 m) + (2 x 1 m) = 3.4 m ➔ Length of 3 paddle wheel = 13.9 m - 3.4 m = 10.5 m ➔ Length of each paddle wheel = 10.5 m / 3 = 3.5 m (satisfy)",
+        "Solution (continue): [Lời giải từ ảnh chụp slide của thầy - Slide 36, Ảnh #70, #127]",
+        "Summary: Chamber: Height = 5.5 m, Length = 5.4 m, Width = 13.9 m; Paddle wheel: Quantity = 3 wheel, Diameter of wheel = 4 m, Length of paddle = 3.5 m, Width of paddle = 0.15 m",
+        "Solution (continue): [Lời giải từ ảnh chụp slide của thầy - Slide 37, Ảnh #71, #125]",
+        "Determine power required: P = ((C_d A_p rho) / 2) (v_R paddle1^3 + v_R paddle2^3 + v_R paddle3^3)",
+        "Check paddle L/W = 3.5 m / 0.15 m = 23.3 ➔ Select C_d = 1.9",
+        "A_p = area of the paddle at each position (1, 2, 3) = (3 wheels) x (4 paddles/wheel) x (3.5 m x 0.15 m) = 6.3 m2",
+        "Select rotational speed = N = 2.1 rev/min = 0.035 rev/s",
+        "v_R = (0.035 rev/s) x (2 pi R m/rev) where R = distance from shaft center to paddle center",
+        "Solution (continue): [Lời giải từ ảnh chụp slide của thầy - Slide 38, Ảnh #72, #126, #128]",
+        "R1 = r1 - 0.15/2 = 0.67 - 0.15/2 = 0.595 (m) ➔ v_R paddle1 = (0.035 rev/s) x (2 pi x 0.595 m/rev) = 0.131 m/s",
+        "R2 = r2 - 0.15/2 = 1.33 - 0.15/2 = 1.255 (m) ➔ v_R paddle2 = (0.035 rev/s) x (2 pi x 1.255 m/rev) = 0.276 m/s",
+        "R3 = r3 - 0.15/2 = 2 - 0.15/2 = 1.925 (m) ➔ v_R paddle3 = (0.035 rev/s) x (2 pi x 1.925 m/rev) = 0.423 m/s",
+        "Check tip speed = (0.035 rev/s) x (2 pi x 2 m/rev) = 0.44 m/s (satisfy)",
+        "Solution (continue): [Lời giải từ ảnh chụp slide của thầy - Slide 39, Ảnh #73, #130]",
+        "P = ((1.9 x 6.3 x 998.2) / 2) x (0.131^3 + 0.276^3 + 0.423^3) = 591 (W)",
+        "Check G: G = sqrt(P / (mu V)) = sqrt(591 / (1.002 x 10^-3 x 375)) = 40 (s^-1)",
+        "Check Reynolds number: Re = (D^2 N rho) / mu = (4^2 x 0.035 x 998.2) / (1.002 x 10^-3) = 557,876 > 10,000 (satisfy)",
+        "Check A_P/tank section area: A_P = (3 wheels) x (6 paddles/wheel) x (3.5 m x 0.15 m) = 9.45 m2",
+        "Tank section area = Depth of chamber x Width of chamber = 5 m x 13.9 m = 69.5 m2",
+        "A_P/tank section area = (9.45 m2) / (69.5 m2) = 13.6% (satisfy)"
+      ],
+      "verification_checks": [
+        "Length of each paddle wheel (2 wheels) = 5.75 m (not satisfy) -> Reselect 3 wheels -> Length of each paddle wheel = 3.5 m (satisfy)",
+        "Check paddle L/W = 3.5 m / 0.15 m = 23.3 ➔ Select C_d = 1.9",
+        "Check tip speed = (0.035 rev/s) x (2 pi x 2 m/rev) = 0.44 m/s (satisfy)",
+        "Check G: G = sqrt(591 / (1.002 x 10^-3 x 375)) = 40 (s^-1)",
+        "Check Reynolds number: Re = (4^2 x 0.035 x 998.2) / (1.002 x 10^-3) = 557,876 > 10,000 (satisfy)",
+        "Check A_P/tank section area = (9.45 m2) / (69.5 m2) = 13.6% (satisfy)"
+      ],
+      "final_answers": {
+        "V_total": "1,125 m3",
+        "V_chamber": "375 m3",
+        "chamber_dimensions": "Height = 5.5 m (Water depth = 5 m, freeboard = 0.5 m), Length = 5.4 m, Width = 13.9 m",
+        "paddle_wheel_summary": "3 wheels per shaft, Diameter = 4 m, Paddle length = 3.5 m, Paddle width = 0.15 m",
+        "radii_and_velocities": "R1 = 0.595 m (v_R1 = 0.131 m/s), R2 = 1.255 m (v_R2 = 0.276 m/s), R3 = 1.925 m (v_R3 = 0.423 m/s)",
+        "tip_speed": "0.44 m/s",
+        "P": "591 W",
+        "G": "40 s^-1",
+        "Re": "557,876",
+        "area_ratio": "13.6%"
+      }
+    },
+    {
+      "exercise_id": "proj_ch04_2_hw01",
+      "chapter_slug": "ch04_2",
+      "category": "projector_only",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Nhà máy xử lý nước thải có công suất Q = 1,000 m3/ngày châm PAC ở liều lượng 150 g/m3 (đơn giá 6,000 VND/kg, pha dung dịch 7.5% m/V) tại bể keo tụ và Polymer Anion ở liều lượng 3 g/m3 (đơn giá 60,000 VND/kg, pha dung dịch 0.1% m/V) tại bể tạo bông. Tính: (a) chi phí hóa chất trong 1 ngày, (b) lưu lượng bơm định lượng vận hành 24/24 (L/h), và (c) thể tích bồn pha hóa chất (L) khi công nhân pha 2 lần/ngày.",
+      "design_parameters_selected": [
+        "Operating time = 24 h/day (24/24)",
+        "Preparation frequency = 2 batches/day",
+        "Choose 1 tank for each chemical, standardized tank volume = 1,500 L"
+      ],
+      "governing_equations": [
+        "M_chem (kg/day) = Dose (g/m3) x Q (m3/day) x 10^-3",
+        "Cost (VND/day) = M_chem (kg/day) x Unit_price (VND/kg)",
+        "V_sol (L/day) = M_chem (kg/day) / Concentration (% m/V)",
+        "Q_pump (L/h) = V_sol (L/day) / 24 (h/day)",
+        "V_tank (L) = V_sol (L/day) / N_batches"
+      ],
+      "worked_solution_steps": [
+        "Solution: [Lời giải từ ảnh chụp slide của thầy - Slide 41, Ảnh #131, #133]",
+        "a/ Amount of PAC used in 1 day: 150 (g/m3) x 1000 (m3/day) x (1kg / 1000g) = 150 kg/day",
+        "PAC cost for 1 day: 150 (kg/day) x 6000 (VND/kg) = 900,000 (VND/day)",
+        "Amount of Polimer Anion used in 1 day: 3 (g/m3) x 1000 (m3/day) x (1kg / 1000g) = 3 kg/day",
+        "Polimer Anion cost for 1 day: 3 (kg/day) x 60000 (VND/kg) = 180,000 (VND/day)",
+        "Cost of PAC and Polymer Anion for 1 day: 900,000 (VND/day) + 180,000 (VND/day) = 1,080,000 (VND/day)",
+        "Solution (continue): [Lời giải từ ảnh chụp slide của thầy - Slide 42, Ảnh #132]",
+        "b/ Volume of PAC solution used in 1 day: 150 / 7.5% = 2000 (L)",
+        "Volume of Polymer Anion solution used in 1 day: 3 / 0.1% = 3000 (L)",
+        "Capacity of PAC dosing pump: (2000 L/day) / (24 h/day) = 84 L/h",
+        "Capacity of Polimer Anion dosing pump: (3000 L/day) / (24 h/day) = 125 L/h",
+        "Solution (continue): [Lời giải từ ảnh chụp slide của thầy - Slide 43, Ảnh #134]",
+        "c/ Required volume of PAC chemical tank: 2000 / 2 = 1000 (L)",
+        "Required volume of Polymer Anion chemical tank: 3000 / 2 = 1500 (L)",
+        "Choose 1 tank for each chemical, the tank volume is: 1500 L"
+      ],
+      "verification_checks": [
+        "Choose 1 tank for each chemical, the tank volume is: 1500 L (satisfy)"
+      ],
+      "final_answers": {
+        "PAC_mass_and_cost": "150 kg/day, 900,000 VND/day",
+        "Polymer_mass_and_cost": "3 kg/day, 180,000 VND/day",
+        "total_daily_cost": "1,080,000 VND/day",
+        "PAC_pump_capacity": "84 L/h (2,000 L/day)",
+        "Polymer_pump_capacity": "125 L/h (3,000 L/day)",
+        "tank_volumes": "PAC required 1,000 L, Polymer required 1,500 L -> Choose 1,500 L tank for each chemical"
+      }
+    },
+    {
+      "exercise_id": "ch04_3_ex01",
+      "chapter_slug": "ch04_3",
+      "category": "pdf_exercise",
+      "status_before": "PARTIAL",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy] + [Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Nhà máy xử lý nước thải có lưu lượng Q = 3,000 m3/ngày và nồng độ NH3-N dư đầu ra là 2 mg/L. Giá trị CT yêu cầu của clo tự do dư để khử trùng là 60 mg.phút/L và nhu cầu clo do phân hủy trong bể khử trùng là 3 mg/L. Dung dịch NaClO thương mại 10% có khối lượng riêng 1,150 kg/m3. Tính lượng dung dịch NaClO thương mại dùng trong 1 ngày và thiết kế bể khử trùng.",
+      "design_parameters_selected": [
+        "Breakpoint weight ratio Cl2 / NH3-N = 7.6 mg Cl2 / mg NH3-N (from Slide 27-28)",
+        "Select time contact = 30 mins",
+        "Select Depth = 1.5 m",
+        "Select Width = 2 m",
+        "Select 3 channel, Length of each channel = 7 m"
+      ],
+      "governing_equations": [
+        "Dose_breakpoint = [NH3-N] x 7.6",
+        "C_residual = CT / t",
+        "Dose_total = Dose_breakpoint + C_residual + Demand_decay",
+        "M_Cl2 = Dose_total x Q",
+        "M_NaClO = M_Cl2 x (MW_NaClO / MW_Cl2) = M_Cl2 x (74.5 / 71)",
+        "M_sol_10% = M_NaClO / 10%",
+        "V_sol_10% = M_sol_10% / rho_sol",
+        "V_tank = (Q / 1440) x t"
+      ],
+      "worked_solution_steps": [
+        "Solution: [Lời giải từ ảnh chụp slide của thầy - Slide 38, Ảnh #135, #136]",
+        "Chlorine dosage needed to reach the breakpoint = 2 mg/L NH3-N x (7.6 mg Cl2/mg NH3-N) = 15.2 mg/L as Cl2.",
+        "Select time contact = 30 mins.",
+        "Chlorine dosage residual required for disinfection: CT = 60 mg.min/L ➔ C = (60 mg.min/L) / (30 mins) = 2 mg/L as Cl2",
+        "Chlorine demand due to decay in disinfection tank = 3 mg/L as Cl2",
+        "Total chlorine required = 15.2 + 2 + 3 = 20.2 mg/L as Cl2",
+        "Solution (continue): [Lời giải khôi phục theo chuẩn slide của thầy - Slide 39 khớp bảng phấn Ảnh #137]",
+        "Amount of Cl2 required in 1 day = (20.2 g/m3) x (3,000 m3/day) x (1 kg / 1000 g) = 60.6 kg Cl2/day",
+        "Reaction: NaClO + H2O <-> HClO + NaOH (MW of NaClO = 74.5 g/mol, equivalent MW of Cl2 = 71 g/mol)",
+        "Amount of pure NaClO needed in 1 day = 60.6 kg Cl2/day x (74.5 / 71) = 63.6 kg NaClO/day",
+        "Mass of commercial 10% NaClO solution used in 1 day = 63.6 kg/day / 10% = 636 kg/day",
+        "Volume of commercial 10% NaClO solution used in 1 day = (636 kg/day) / (1150 kg/m3) = 0.553 m3/day = 553 L/day (Chalkboard rounding on Photo #137: 1 m3 x (63.6 kg / 115 kg) = 0.5 m3 = 500 L/day)",
+        "Solution (continue): [Lời giải từ ảnh chụp slide của thầy - Slide 40, Ảnh #137]",
+        "Volume of disinfection tank = 3000 m3/day / (1440 mins/day) x 30 mins = 62.5 (m3)",
+        "Select Depth = 1.5 m",
+        "Select Width = 2 m ➔ Length = 62.5 m3 / (1.5 m x 2 m) = 21 (m)",
+        "Select 3 channel, Length of each channel = 7 m (total tank plan width = 3 x 2 m = 6 m as written on right chalkboard of Photo #137)."
+      ],
+      "verification_checks": [
+        "Check contact time = 30 mins within typical 15-30 min range (satisfy)",
+        "Check stoichiometric boundary with chalkboard Photo #137: 60.6 x (74.5 / 71) = 63.6 kg NaClO/day (satisfy)"
+      ],
+      "final_answers": {
+        "Dose_breakpoint": "15.2 mg/L as Cl2",
+        "C_residual": "2 mg/L as Cl2",
+        "Dose_total": "20.2 mg/L as Cl2",
+        "M_Cl2": "60.6 kg Cl2/day",
+        "M_NaClO_pure": "63.6 kg NaClO/day",
+        "commercial_10pct_NaClO": "636 kg/day = 0.553 m3/day (553 L/day; rounded on chalkboard to 0.5 m3 = 500 L/day)",
+        "V_tank": "62.5 m3",
+        "tank_dimensions": "Depth = 1.5 m, Channel width = 2 m, Total length = 21 m divided into 3 channels of 7 m each (plan footprint 7 m x 6 m)"
+      }
+    },
+    {
+      "exercise_id": "proj_ch04_3_hw01",
+      "chapter_slug": "ch04_3",
+      "category": "projector_only",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Nhà máy xử lý nước thải có lưu lượng Q = 1,000 m3/ngày sử dụng liều lượng clo châm vào là 10 mg/L để khử trùng nước thải đầu ra. Tổng Coliform trước khử trùng là N_o = 10^7 MPN/100 mL và tiêu chuẩn xả thải đầu ra là N = 5,000 MPN/100 mL. Lượng clo tiêu thụ do phân hủy trong quá trình tiếp xúc là 2.0 mg/L. Tính: (a) lượng clo cần dùng trong 1 ngày (kg), (b) thời gian tiếp xúc clo cần thiết (phút), và (c) thể tích bể khử trùng cần thiết (m3).",
+      "design_parameters_selected": [
+        "Select Collins-Selleck coefficients for total coliform from Slide 35: n = 2.8, b = 4.0"
+      ],
+      "governing_equations": [
+        "M_Cl2 (kg/day) = Dose (g/m3) x Q (m3/day) x 10^-3",
+        "C = Dose - Demand_decay",
+        "N / N_o = (CT / b)^(-n)  (Collins-Selleck model, Slide 35)",
+        "T = CT / C",
+        "V = (Q / 1440) x T"
+      ],
+      "worked_solution_steps": [
+        "Solution: [Lời giải khôi phục theo chuẩn slide của thầy]",
+        "a/ Calculate the amount of chlorine needed for 1 day:",
+        "Amount of chlorine needed for 1 day = (10 g/m3) x (1,000 m3/day) x (1 kg / 1,000 g) = 10 kg/day",
+        "Solution (continue):",
+        "b/ Calculate the required chlorine contact time (mins) of disinfection tank:",
+        "Residual chlorine concentration: C = Dosage - Demand due to decay = 10 mg/L - 2.0 mg/L = 8.0 mg/L",
+        "Apply Collins-Selleck Model for total coliform (Slide 35: n = 2.8, b = 4.0):",
+        "N / N_o = (CT / b)^(-n) ➔ 5,000 / 10^7 = (CT / 4.0)^(-2.8)",
+        "➔ 5 x 10^-4 = (CT / 4.0)^(-2.8) ➔ CT / 4.0 = (2,000)^(1 / 2.8) = 15.10",
+        "➔ Required CT = 4.0 x 15.10 = 60.4 mg.min/L",
+        "Required chlorine contact time: T = CT / C = (60.4 mg.min/L) / (8.0 mg/L) = 7.55 mins",
+        "Solution (continue):",
+        "c/ Calculate the required volume (m3) of disinfection tank:",
+        "Volume of disinfection tank: V = (Q x T) = (1,000 m3/day) / (1,440 mins/day) x 7.55 mins = 5.24 m3",
+        "Check effluent coliform count: N = 10^7 x (60.4 / 4.0)^(-2.8) = 5,000 MPN/100 mL <= 5,000 MPN/100 mL (satisfy)"
+      ],
+      "verification_checks": [
+        "Check effluent coliform count: N = 10^7 x (60.4 / 4.0)^(-2.8) = 5,000 MPN/100 mL <= 5,000 MPN/100 mL (satisfy)"
+      ],
+      "final_answers": {
+        "a_daily_chlorine_mass": "10 kg/day",
+        "b_residual_chlorine_C": "8.0 mg/L",
+        "b_required_CT": "60.4 mg.min/L",
+        "b_contact_time_T": "7.55 mins",
+        "c_tank_volume_V": "5.24 m3"
+      }
+    }
+  ]
+}

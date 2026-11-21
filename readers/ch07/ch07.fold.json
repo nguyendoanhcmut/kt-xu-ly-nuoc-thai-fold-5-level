@@ -1,0 +1,803 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-7-c-ng-tr-nh-kh-nitrat-sinh-h-c-666cced3",
+  "lang": "vi",
+  "title": "Chương 7 - Công trình Khử Nitrat Sinh học (Chapter 7 - Biological Denitrification Unit)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch07_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:44:11Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-08T00:44:11",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-nguyên-lý-khử-nitrat-thiếu-khí-đầu-nguồn-và-cân-bằng-tuần-hoàn-nội-bộ-preanoxic-denitrification-and-internal-recycle",
+      "num": "1",
+      "title": "Nguyên lý khử nitrat thiếu khí đầu nguồn và cân bằng tuần hoàn nội bộ (Preanoxic Denitrification and Internal Recycle)",
+      "depth": 1,
+      "takeaway": "Bể thiếu khí đầu nguồn khử nitrat bằng $\\text{BOD}$ theo tỷ số tuần hoàn $\\text{IR}$",
+      "topic": "Bể thiếu khí",
+      "units": [
+        {
+          "id": "p-3acf2254",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Quá trình khử nitrat thiếu khí đầu nguồn (Preanoxic denitrification) bố trí một ngăn thiếu khí có khuấy trộn cơ khí đặt ngay phía trước bể hiếu khí nitrat hóa để khử nitrat $\\text{NO}_3^-$ thành khí nitơ $\\text{N}_2$ [Page 1] [Page 2]. Cấu hình thiếu khí đầu nguồn sử dụng trực tiếp nguồn cacbon hữu cơ dễ phân hủy sinh học ($\\text{rbCOD}$ và $\\text{BOD}$) sẵn có trong nước thải đầu vào làm chất cho điện tử mà không cần châm thêm hóa chất cacbon ngoại lai [Page 2]. Bốn ưu điểm kỹ thuật chính của cấu hình thiếu khí đầu nguồn trên Slide 4 gồm khả năng cải tạo dễ dàng các nhà máy hiện hữu, tác dụng như một bể chọn lọc thiếu khí (Anoxic selector) giúp ức chế vi khuẩn dạng sợi gây bung bùn, khả năng phục hồi độ kiềm ($3.57\\text{ g CaCO}_3/\\text{g NO}_3\\text{-N}$) ngay trước bước nitrat hóa và tiết kiệm năng lượng cấp khí ($2.86\\text{ g O}_2/\\text{g NO}_3\\text{-N}$) nhờ dùng nitrat để oxy hóa $\\text{BOD}$ đầu vào [Page 2]. Trong sơ đồ này, hỗn hợp bùn giàu nitrat từ cuối bể hiếu khí được bơm tuần hoàn nội bộ (Internal recycle) quay lại đầu bể thiếu khí, kết hợp với dòng bùn hoạt tính tuần hoàn (RAS) từ đáy bể lắng thứ cấp [Page 2] [Page 3].",
+          "sentences": [
+            "Quá trình khử nitrat thiếu khí đầu nguồn (Preanoxic denitrification) bố trí một ngăn thiếu khí có khuấy trộn cơ khí đặt ngay phía trước bể hiếu khí nitrat hóa để khử nitrat $\\text{NO}_3^-$ thành khí nitơ $\\text{N}_2$ [Page 1] [Page 2].",
+            "Cấu hình thiếu khí đầu nguồn sử dụng trực tiếp nguồn cacbon hữu cơ dễ phân hủy sinh học ($\\text{rbCOD}$ và $\\text{BOD}$) sẵn có trong nước thải đầu vào làm chất cho điện tử mà không cần châm thêm hóa chất cacbon ngoại lai [Page 2].",
+            "Bốn ưu điểm kỹ thuật chính của cấu hình thiếu khí đầu nguồn trên Slide 4 gồm khả năng cải tạo dễ dàng các nhà máy hiện hữu, tác dụng như một bể chọn lọc thiếu khí (Anoxic selector) giúp ức chế vi khuẩn dạng sợi gây bung bùn, khả năng phục hồi độ kiềm ($3.57\\text{ g CaCO}_3/\\text{g NO}_3\\text{-N}$) ngay trước bước nitrat hóa và tiết kiệm năng lượng cấp khí ($2.86\\text{ g O}_2/\\text{g NO}_3\\text{-N}$) nhờ dùng nitrat để oxy hóa $\\text{BOD}$ đầu vào [Page 2].",
+            "Trong sơ đồ này, hỗn hợp bùn giàu nitrat từ cuối bể hiếu khí được bơm tuần hoàn nội bộ (Internal recycle) quay lại đầu bể thiếu khí, kết hợp với dòng bùn hoạt tính tuần hoàn (RAS) từ đáy bể lắng thứ cấp [Page 2] [Page 3]."
+          ],
+          "brief": [
+            "Quá trình khử nitrat thiếu khí đầu nguồn (Preanoxic denitrification) bố trí một ngăn thiếu khí có khuấy trộn cơ khí đặt ngay phía trước bể hiếu khí nitrat hóa để khử nitrat $\\text{NO}_3^-$ thành khí nitơ $\\text{N}_2$ [Page 1] [Page 2].",
+            "Bốn ưu điểm kỹ thuật chính của cấu hình thiếu khí đầu nguồn trên Slide 4 gồm khả năng cải tạo dễ dàng các nhà máy hiện hữu, tác dụng như một bể chọn lọc thiếu khí (Anoxic selector) giúp ức chế vi khuẩn dạng sợi gây bung bùn, khả năng phục hồi độ kiềm ($3.57\\text{ g CaCO}_3/\\text{g NO}_3\\text{-N}$) ngay trước bước nitrat hóa và tiết kiệm năng lượng cấp khí ($2.86\\text{ g O}_2/\\text{g NO}_3\\text{-N}$) nhờ dùng nitrat để oxy hóa $\\text{BOD}$ đầu vào [Page 2]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Ngăn thiếu khí đầu nguồn tiết kiệm $2.86\\text{ g O}_2/\\text{g NO}_3\\text{-N}$ và phục hồi độ kiềm. Cấu hình này phục hồi $3.57\\text{ g CaCO}_3/\\text{g NO}_3\\text{-N}$ và kiểm soát vi khuẩn sợi.",
+          "takeaway": "Ngăn thiếu khí đầu nguồn tiết kiệm $2.86\\text{ g O}_2/\\text{g NO}_3\\text{-N}$ và phục hồi độ kiềm",
+          "topic": "Ngăn thiếu khí"
+        },
+        {
+          "id": "p-9cdb0d0d",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Phương trình cân bằng khối lượng nitrat trên Slide 5 xác định tỷ số tuần hoàn nội bộ $\\text{IR}$ cần thiết để đạt nồng độ nitrat đầu ra mục tiêu $N_e$ ($\\text{g NO}_3\\text{-N/m}^3$) [Page 3]. Khi giả thiết toàn bộ lượng nitrat đưa vào bể thiếu khí đều bị khử hoàn toàn, tổng lượng nitrat sinh ra trong bể hiếu khí $Q(\\text{NO}_x)$ bằng tổng lượng nitrat thoát ra trong dòng nước sau xử lý $Q N_e$, trong dòng tuần hoàn nội bộ $(\\text{IR} \\cdot Q) N_e$ và trong dòng bùn tuần hoàn $(R \\cdot Q) N_e$ [Page 3]. Từ đó, tỷ số tuần hoàn nội bộ $\\text{IR}$ được xác định trực tiếp theo nồng độ nitơ amoni bị oxy hóa $\\text{NO}_x$, nồng độ nitrat đầu ra $N_e$ và tỷ số bùn tuần hoàn $R = Q_R / Q$ [Page 3]. Tổng tải lượng nitrat nạp vào bể thiếu khí mỗi ngày được tính theo tổng lưu lượng dòng tuần hoàn nội bộ và dòng bùn tuần hoàn [Page 3].",
+          "sentences": [
+            "Phương trình cân bằng khối lượng nitrat trên Slide 5 xác định tỷ số tuần hoàn nội bộ $\\text{IR}$ cần thiết để đạt nồng độ nitrat đầu ra mục tiêu $N_e$ ($\\text{g NO}_3\\text{-N/m}^3$) [Page 3].",
+            "Khi giả thiết toàn bộ lượng nitrat đưa vào bể thiếu khí đều bị khử hoàn toàn, tổng lượng nitrat sinh ra trong bể hiếu khí $Q(\\text{NO}_x)$ bằng tổng lượng nitrat thoát ra trong dòng nước sau xử lý $Q N_e$, trong dòng tuần hoàn nội bộ $(\\text{IR} \\cdot Q) N_e$ và trong dòng bùn tuần hoàn $(R \\cdot Q) N_e$ [Page 3].",
+            "Từ đó, tỷ số tuần hoàn nội bộ $\\text{IR}$ được xác định trực tiếp theo nồng độ nitơ amoni bị oxy hóa $\\text{NO}_x$, nồng độ nitrat đầu ra $N_e$ và tỷ số bùn tuần hoàn $R = Q_R / Q$ [Page 3].",
+            "Tổng tải lượng nitrat nạp vào bể thiếu khí mỗi ngày được tính theo tổng lưu lượng dòng tuần hoàn nội bộ và dòng bùn tuần hoàn [Page 3]."
+          ],
+          "brief": [
+            "Từ đó, tỷ số tuần hoàn nội bộ $\\text{IR}$ được xác định trực tiếp theo nồng độ nitơ amoni bị oxy hóa $\\text{NO}_x$, nồng độ nitrat đầu ra $N_e$ và tỷ số bùn tuần hoàn $R = Q_R / Q$ [Page 3].",
+            "Tổng tải lượng nitrat nạp vào bể thiếu khí mỗi ngày được tính theo tổng lưu lượng dòng tuần hoàn nội bộ và dòng bùn tuần hoàn [Page 3]."
+          ],
+          "evidence": [
+            2,
+            3
+          ],
+          "key": "Phương trình cân bằng khối lượng nitrat xác định tỷ số tuần hoàn nội bộ $\\text{IR}$. Tỷ số $\\text{IR}$ phụ thuộc vào nồng độ $\\text{NO}_x$, đầu ra $N_e$ và tỷ số tuần hoàn $R$.",
+          "takeaway": "Phương trình cân bằng khối lượng nitrat xác định tỷ số tuần hoàn nội bộ $\\text{IR}$",
+          "topic": "cân bằng khối lượng"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-động-học-tốc-độ-khử-nitrat-riêng-sdnr-và-so-sánh-công-nghệ-denitrification-kinetics-and-process-comparison",
+      "num": "2",
+      "title": "Động học tốc độ khử nitrat riêng SDNR và so sánh công nghệ (Denitrification Kinetics and Process Comparison)",
+      "depth": 1,
+      "takeaway": "Động học tốc độ khử nitrat riêng $\\text{SDNR}$ xác định thể tích bể thiếu khí $V_{\\text{anoxic}}$",
+      "topic": "tốc độ khử nitrat",
+      "units": [
+        {
+          "id": "p-2c0a43c5",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Thiết kế thể tích bể thiếu khí $V_{\\text{anoxic}}$ dựa trên tốc độ khử nitrat riêng (Specific Denitrification Rate, viết tắt là $\\text{SDNR}$, đơn vị $\\text{g NO}_3\\text{-N/g biomass}\\cdot\\text{d}$) và nồng độ sinh khối dị dưỡng hoạt tính $X_b$ ($\\text{g/m}^3$) theo hệ thống công thức động học của Chương 5.2 (Slide 23 đến Slide 26) và Chương 7 [Page 3]. Ở nhiệt độ tiêu chuẩn $20^\\circ\\text{C}$, tốc độ khử nitrat riêng $\\text{SDNR}_{20}$ phụ thuộc vào tỷ số $F/M_b$ và tỷ lệ phần trăm $\\text{rbCOD}/\\text{bCOD}$ theo hai miền động học tách biệt tại ngưỡng $F/M_b = 0.5\\text{ g/g}\\cdot\\text{d}$ [Page 3] [Page 5]. Bảng hệ số thực nghiệm quy định ở mức $10\\%\\text{ rbCOD}$ có $b_0 = 0.186, b_1 = 0.078$; ở mức $20\\%\\text{ rbCOD}$ có $b_0 = 0.213, b_1 = 0.118$; ở mức $30\\%\\text{ rbCOD}$ có $b_0 = 0.235, b_1 = 0.141$; ở mức $40\\%\\text{ rbCOD}$ có $b_0 = 0.242, b_1 = 0.152$ và ở mức $50\\%\\text{ rbCOD}$ có $b_0 = 0.270, b_1 = 0.162$ [Page 3].",
+          "sentences": [
+            "Thiết kế thể tích bể thiếu khí $V_{\\text{anoxic}}$ dựa trên tốc độ khử nitrat riêng (Specific Denitrification Rate, viết tắt là $\\text{SDNR}$, đơn vị $\\text{g NO}_3\\text{-N/g biomass}\\cdot\\text{d}$) và nồng độ sinh khối dị dưỡng hoạt tính $X_b$ ($\\text{g/m}^3$) theo hệ thống công thức động học của Chương 5.2 (Slide 23 đến Slide 26) và Chương 7 [Page 3]. Ở nhiệt độ tiêu chuẩn $20^\\circ\\text{C}$, tốc độ khử nitrat riêng $\\text{SDNR}_{20}$ phụ thuộc vào tỷ số $F/M_b$ và tỷ lệ phần trăm $\\text{rbCOD}/\\text{bCOD}$ theo hai miền động học tách biệt tại ngưỡng $F/M_b = 0.5\\text{ g/g}\\cdot\\text{d}$ [Page 3] [Page 5].",
+            "Bảng hệ số thực nghiệm quy định ở mức $10\\%\\text{ rbCOD}$ có $b_0 = 0.186, b_1 = 0.078$; ở mức $20\\%\\text{ rbCOD}$ có $b_0 = 0.213, b_1 = 0.118$; ở mức $30\\%\\text{ rbCOD}$ có $b_0 = 0.235, b_1 = 0.141$; ở mức $40\\%\\text{ rbCOD}$ có $b_0 = 0.242, b_1 = 0.152$ và ở mức $50\\%\\text{ rbCOD}$ có $b_0 = 0.270, b_1 = 0.162$ [Page 3]."
+          ],
+          "brief": [
+            "Thiết kế thể tích bể thiếu khí $V_{\\text{anoxic}}$ dựa trên tốc độ khử nitrat riêng (Specific Denitrification Rate, viết tắt là $\\text{SDNR}$, đơn vị $\\text{g NO}_3\\text{-N/g biomass}\\cdot\\text{d}$) và nồng độ sinh khối dị dưỡng hoạt tính $X_b$ ($\\text{g/m}^3$) theo hệ thống công thức động học của Chương 5.2 (Slide 23 đến Slide 26) và Chương 7 [Page 3]. Ở nhiệt độ tiêu chuẩn $20^\\circ\\text{C}$, tốc độ khử nitrat riêng $\\text{SDNR}_{20}$ phụ thuộc vào tỷ số $F/M_b$ và tỷ lệ phần trăm $\\text{rbCOD}/\\text{bCOD}$ theo hai miền động học tách biệt tại ngưỡng $F/M_b = 0.5\\text{ g/g}\\cdot\\text{d}$ [Page 3] [Page 5].",
+            "Bảng hệ số thực nghiệm quy định ở mức $10\\%\\text{ rbCOD}$ có $b_0 = 0.186, b_1 = 0.078$; ở mức $20\\%\\text{ rbCOD}$ có $b_0 = 0.213, b_1 = 0.118$; ở mức $30\\%\\text{ rbCOD}$ có $b_0 = 0.235, b_1 = 0.141$; ở mức $40\\%\\text{ rbCOD}$ có $b_0 = 0.242, b_1 = 0.152$ và ở mức $50\\%\\text{ rbCOD}$ có $b_0 = 0.270, b_1 = 0.162$ [Page 3]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tốc độ khử nitrat riêng $\\text{SDNR}_{20}$ phụ thuộc vào $F/M_b$ và tỷ lệ $\\text{rbCOD}$. Hai miền động học tách biệt tại ngưỡng $F/M_b = 0.5\\text{ g/g}\\cdot\\text{d}$ với hệ số $b_0, b_1$.",
+          "takeaway": "Tốc độ khử nitrat riêng $\\text{SDNR}_{20}$ phụ thuộc vào $F/M_b$ và tỷ lệ $\\text{rbCOD}$",
+          "topic": "Tốc độ khử nitrat"
+        },
+        {
+          "id": "p-e503a956",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Khi hệ thống vận hành với tỷ số tuần hoàn nội bộ lớn, lượng oxy hòa tan mang theo dòng tuần hoàn được hiệu chỉnh giảm qua công thức thực nghiệm ứng với $\\text{IR} = 2$ hoặc $\\text{IR} = 3\\text{–}4$, sau đó quy đổi về nhiệt độ làm việc thực tế $T$ ($^\\circ\\text{C}$) với hệ số $\\theta = 1.026$ [Page 3] [Page 4]. Khả năng khử nitrat tối đa của bể thiếu khí phải thỏa mãn điều kiện $\\text{NO}_r = V_{\\text{anoxic}} X_b \\text{SDNR}_T \\ge \\text{NO}_{x,\\text{feed}}$, đồng thời công suất máy khuấy chìm tốc độ cao trong bể thiếu khí được chọn theo tiêu chuẩn $8.0\\text{ W/m}^3$ [Page 3] [Page 4]. Trong bể phản ứng theo mẻ kế tiếp (SBR) trên Slide 19 và Slide 20, quá trình khử nitrat diễn ra ngay trong giai đoạn làm đầy có khuấy trộn thiếu khí để loại bỏ nitrat tồn dư sau giai đoạn lắng và chắt nước [Page 4] [Page 5]. Bảng tổng kết trên Slide 25 chỉ rõ hệ thống Preanoxic tiết kiệm năng lượng, tạo độ kiềm trước nitrat hóa, kiểm soát vi khuẩn sợi và giảm diện tích khi ghép với MBR nhưng phụ thuộc vào tỷ số $\\text{IR}$ và chịu ức chế bởi $\\text{DO}$ tuần hoàn; trong khi hệ thống SBR có sơ đồ đơn giản và lắng tĩnh đạt $\\text{TSS}$ thấp nhưng chỉ phù hợp cho lưu lượng nhỏ và cần thể tích bể lớn hơn [Page 5].",
+          "sentences": [
+            "Khi hệ thống vận hành với tỷ số tuần hoàn nội bộ lớn, lượng oxy hòa tan mang theo dòng tuần hoàn được hiệu chỉnh giảm qua công thức thực nghiệm ứng với $\\text{IR} = 2$ hoặc $\\text{IR} = 3\\text{–}4$, sau đó quy đổi về nhiệt độ làm việc thực tế $T$ ($^\\circ\\text{C}$) với hệ số $\\theta = 1.026$ [Page 3] [Page 4].",
+            "Khả năng khử nitrat tối đa của bể thiếu khí phải thỏa mãn điều kiện $\\text{NO}_r = V_{\\text{anoxic}} X_b \\text{SDNR}_T \\ge \\text{NO}_{x,\\text{feed}}$, đồng thời công suất máy khuấy chìm tốc độ cao trong bể thiếu khí được chọn theo tiêu chuẩn $8.0\\text{ W/m}^3$ [Page 3] [Page 4].",
+            "Trong bể phản ứng theo mẻ kế tiếp (SBR) trên Slide 19 và Slide 20, quá trình khử nitrat diễn ra ngay trong giai đoạn làm đầy có khuấy trộn thiếu khí để loại bỏ nitrat tồn dư sau giai đoạn lắng và chắt nước [Page 4] [Page 5].",
+            "Bảng tổng kết trên Slide 25 chỉ rõ hệ thống Preanoxic tiết kiệm năng lượng, tạo độ kiềm trước nitrat hóa, kiểm soát vi khuẩn sợi và giảm diện tích khi ghép với MBR nhưng phụ thuộc vào tỷ số $\\text{IR}$ và chịu ức chế bởi $\\text{DO}$ tuần hoàn; trong khi hệ thống SBR có sơ đồ đơn giản và lắng tĩnh đạt $\\text{TSS}$ thấp nhưng chỉ phù hợp cho lưu lượng nhỏ và cần thể tích bể lớn hơn [Page 5]."
+          ],
+          "brief": [
+            "Khi hệ thống vận hành với tỷ số tuần hoàn nội bộ lớn, lượng oxy hòa tan mang theo dòng tuần hoàn được hiệu chỉnh giảm qua công thức thực nghiệm ứng với $\\text{IR} = 2$ hoặc $\\text{IR} = 3\\text{–}4$, sau đó quy đổi về nhiệt độ làm việc thực tế $T$ ($^\\circ\\text{C}$) với hệ số $\\theta = 1.026$ [Page 3] [Page 4].",
+            "Khả năng khử nitrat tối đa của bể thiếu khí phải thỏa mãn điều kiện $\\text{NO}_r = V_{\\text{anoxic}} X_b \\text{SDNR}_T \\ge \\text{NO}_{x,\\text{feed}}$, đồng thời công suất máy khuấy chìm tốc độ cao trong bể thiếu khí được chọn theo tiêu chuẩn $8.0\\text{ W/m}^3$ [Page 3] [Page 4]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Khả năng khử nitrat $\\text{NO}_r$ phải vượt tải lượng $\\text{NO}_{x,\\text{feed}}$ ở công suất khuấy $8.0\\text{ W/m}^3$. Tốc độ $\\text{SDNR}$ được hiệu chỉnh theo tỷ số $\\text{IR}$ và hệ số nhiệt độ $\\theta = 1.026$.",
+          "takeaway": "Khả năng khử nitrat $\\text{NO}_r$ phải vượt tải lượng $\\text{NO}_{x,\\text{feed}}$ ở công suất khuấy $8.0\\text{ W/m}^3$",
+          "topic": "Khả năng khử nitrat"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-lời-giải-chi-tiết-các-bài-tập-thiết-kế-trong-slide-chương-7-worked-design-exercises-in-chapter-7",
+      "num": "3",
+      "title": "Lời giải chi tiết các bài tập thiết kế trong Slide Chương 7 (Worked Design Exercises in Chapter 7)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch07_ex01-slide-6-thiết-kế-bể-thiếu-khí-đầu-nguồn-preanoxic-kết-hợp-bể-lắng-thứ-cấp",
+      "num": "",
+      "title": "Bài tập ch07_ex01 (Slide 6): Thiết kế bể thiếu khí đầu nguồn (Preanoxic) kết hợp bể lắng thứ cấp",
+      "depth": 2,
+      "takeaway": "Thiết kế bể thiếu khí đầu nguồn đạt $\\text{IR} = 3.23$ và thể tích $V_{\\text{nox}} = 2,081\\text{ m}^3$",
+      "topic": "bể thiếu khí",
+      "units": [
+        {
+          "id": "p-80189fa9",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể thiếu khí đầu nguồn (Preanoxic tank) dùng bể lắng thứ cấp với cùng thông số đầu vào và kết quả nitrat hóa của Bài tập ch06_ex02 ($Q = 22,700\\text{ m}^3/\\text{ngày}$, $T = 12^\\circ\\text{C}$, $\\text{BOD}_0 = 140\\text{ g/m}^3$, $\\text{bCOD}_0 = 224\\text{ g/m}^3$, $\\text{rbCOD}_0 = 80\\text{ g/m}^3$, $\\text{SRT} = 21\\text{ ngày}$, $\\text{NO}_x = 29.0\\text{ g/m}^3$, thể tích bể hiếu khí $V_A = 13,418\\text{ m}^3$, $X_{\\text{TSS}} = 3,000\\text{ g/m}^3$) để đạt nồng độ nitrat đầu ra $N_e = \\text{NO}_3\\text{-N} = 6.0\\text{ g/m}^3$ [Page 2] [Page 3].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể thiếu khí đầu nguồn (Preanoxic tank) dùng bể lắng thứ cấp với cùng thông số đầu vào và kết quả nitrat hóa của Bài tập ch06_ex02 ($Q = 22,700\\text{ m}^3/\\text{ngày}$, $T = 12^\\circ\\text{C}$, $\\text{BOD}_0 = 140\\text{ g/m}^3$, $\\text{bCOD}_0 = 224\\text{ g/m}^3$, $\\text{rbCOD}_0 = 80\\text{ g/m}^3$, $\\text{SRT} = 21\\text{ ngày}$, $\\text{NO}_x = 29.0\\text{ g/m}^3$, thể tích bể hiếu khí $V_A = 13,418\\text{ m}^3$, $X_{\\text{TSS}} = 3,000\\text{ g/m}^3$) để đạt nồng độ nitrat đầu ra $N_e = \\text{NO}_3\\text{-N} = 6.0\\text{ g/m}^3$ [Page 2] [Page 3]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể thiếu khí đầu nguồn (Preanoxic tank) dùng bể lắng thứ cấp với cùng thông số đầu vào và kết quả nitrat hóa của Bài tập ch06_ex02 ($Q = 22,700\\text{ m}^3/\\text{ngày}$, $T = 12^\\circ\\text{C}$, $\\text{BOD}_0 = 140\\text{ g/m}^3$, $\\text{bCOD}_0 = 224\\text{ g/m}^3$, $\\text{rbCOD}_0 = 80\\text{ g/m}^3$, $\\text{SRT} = 21\\text{ ngày}$, $\\text{NO}_x = 29.0\\text{ g/m}^3$, thể tích bể hiếu khí $V_A = 13,418\\text{ m}^3$, $X_{\\text{TSS}} = 3,000\\text{ g/m}^3$) để đạt nồng độ nitrat đầu ra $N_e = \\text{NO}_3\\text{-N} = 6.0\\text{ g/m}^3$ [Page 2] [Page 3]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài thiết kế bể thiếu khí cho $Q = 22,700\\text{ m}^3/\\text{ngày}$ đạt $N_e = 6.0\\text{ g/m}^3$.",
+          "takeaway": "Đề bài thiết kế bể thiếu khí cho $Q = 22,700\\text{ m}^3/\\text{ngày}$ đạt $N_e = 6.0\\text{ g/m}^3$",
+          "topic": "Đề bài thiết kế"
+        },
+        {
+          "id": "p-86886d09",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Xác định tỷ số tuần hoàn nội bộ $\\text{IR}$ và tải lượng nitrat nạp vào bể thiếu khí: Áp dụng phương trình cân bằng nitrat trên Slide 5 với $\\text{NO}_x = 29.0\\text{ g/m}^3$, $N_e = 6.0\\text{ g/m}^3$ và $R = 0.60$ cho tỷ số tuần hoàn nội bộ $\\text{IR} = 3.23$ và tổng lượng nitrat nạp vào bể thiếu khí mỗi ngày là $\\text{NO}_{x,\\text{feed}} = 521.6\\text{ kg/d}$ [Page 3].",
+          "sentences": [
+            "Bước 1 - Xác định tỷ số tuần hoàn nội bộ $\\text{IR}$ và tải lượng nitrat nạp vào bể thiếu khí: Áp dụng phương trình cân bằng nitrat trên Slide 5 với $\\text{NO}_x = 29.0\\text{ g/m}^3$, $N_e = 6.0\\text{ g/m}^3$ và $R = 0.60$ cho tỷ số tuần hoàn nội bộ $\\text{IR} = 3.23$ và tổng lượng nitrat nạp vào bể thiếu khí mỗi ngày là $\\text{NO}_{x,\\text{feed}} = 521.6\\text{ kg/d}$ [Page 3]."
+          ],
+          "brief": [
+            "Bước 1 - Xác định tỷ số tuần hoàn nội bộ $\\text{IR}$ và tải lượng nitrat nạp vào bể thiếu khí: Áp dụng phương trình cân bằng nitrat trên Slide 5 với $\\text{NO}_x = 29.0\\text{ g/m}^3$, $N_e = 6.0\\text{ g/m}^3$ và $R = 0.60$ cho tỷ số tuần hoàn nội bộ $\\text{IR} = 3.23$ và tổng lượng nitrat nạp vào bể thiếu khí mỗi ngày là $\\text{NO}_{x,\\text{feed}} = 521.6\\text{ kg/d}$ [Page 3]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ số tuần hoàn nội bộ đạt $\\text{IR} = 3.23$ và tải lượng nạp $\\text{NO}_{x,\\text{feed}} = 521.6\\text{ kg/d}$.",
+          "takeaway": "Tỷ số tuần hoàn nội bộ đạt $\\text{IR} = 3.23$ và tải lượng nạp $\\text{NO}_{x,\\text{feed}} = 521.6\\text{ kg/d}$",
+          "topic": "tuần hoàn nội bộ"
+        },
+        {
+          "id": "p-13b6f397",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính nồng độ sinh khối dị dưỡng hoạt tính $X_b$ trong hệ thống: Từ công thức sinh khối hoạt tính trên Slide 23 Chương 5.2 và số liệu Bài tập ch06_ex02 ($\\text{SRT} = 21\\text{ ngày}$, $V_A = 13,418\\text{ m}^3$), nồng độ sinh khối dị dưỡng hoạt tính đạt $X_b = 1,256\\text{ g/m}^3$ [Page 3].",
+          "sentences": [
+            "Bước 2 - Tính nồng độ sinh khối dị dưỡng hoạt tính $X_b$ trong hệ thống: Từ công thức sinh khối hoạt tính trên Slide 23 Chương 5.2 và số liệu Bài tập ch06_ex02 ($\\text{SRT} = 21\\text{ ngày}$, $V_A = 13,418\\text{ m}^3$), nồng độ sinh khối dị dưỡng hoạt tính đạt $X_b = 1,256\\text{ g/m}^3$ [Page 3]."
+          ],
+          "brief": [
+            "Bước 2 - Tính nồng độ sinh khối dị dưỡng hoạt tính $X_b$ trong hệ thống: Từ công thức sinh khối hoạt tính trên Slide 23 Chương 5.2 và số liệu Bài tập ch06_ex02 ($\\text{SRT} = 21\\text{ ngày}$, $V_A = 13,418\\text{ m}^3$), nồng độ sinh khối dị dưỡng hoạt tính đạt $X_b = 1,256\\text{ g/m}^3$ [Page 3]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ sinh khối dị dưỡng hoạt tính trong bể đạt $X_b = 1,256\\text{ g/m}^3$.",
+          "takeaway": "Nồng độ sinh khối dị dưỡng hoạt tính trong bể đạt $X_b = 1,256\\text{ g/m}^3$",
+          "topic": "sinh khối dị dưỡng"
+        },
+        {
+          "id": "p-fb67d03b",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Xác định thể tích bể thiếu khí và kiểm tra khả năng khử nitrat $\\text{NO}_r$: Chọn thời gian lưu nước thiếu khí $\\tau_{\\text{nox}} = 2.2\\text{ h}$ (sau khi thử $\\tau_{\\text{nox}} = 1.8\\text{ h}$ chỉ đạt $\\text{NO}_r = 476.7\\text{ kg/d} < 521.6\\text{ kg/d}$) cho thể tích bể thiếu khí $V_{\\text{nox}} = 2,081\\text{ m}^3$, tỷ số $F/M_b = 1.22\\text{ g/g}\\cdot\\text{d}$, tốc độ khử nitrat hiệu chỉnh ở $12^\\circ\\text{C}$ đạt $\\text{SDNR}_{12,\\text{adj}} = 0.204\\text{ g/g}\\cdot\\text{d}$ và khả năng khử nitrat đạt $\\text{NO}_r = 532.3\\text{ kg/d} \\ge 521.6\\text{ kg/d}$ (thỏa mãn) [Page 3].",
+          "sentences": [
+            "Bước 3 - Xác định thể tích bể thiếu khí và kiểm tra khả năng khử nitrat $\\text{NO}_r$: Chọn thời gian lưu nước thiếu khí $\\tau_{\\text{nox}} = 2.2\\text{ h}$ (sau khi thử $\\tau_{\\text{nox}} = 1.8\\text{ h}$ chỉ đạt $\\text{NO}_r = 476.7\\text{ kg/d} < 521.6\\text{ kg/d}$) cho thể tích bể thiếu khí $V_{\\text{nox}} = 2,081\\text{ m}^3$, tỷ số $F/M_b = 1.22\\text{ g/g}\\cdot\\text{d}$, tốc độ khử nitrat hiệu chỉnh ở $12^\\circ\\text{C}$ đạt $\\text{SDNR}_{12,\\text{adj}} = 0.204\\text{ g/g}\\cdot\\text{d}$ và khả năng khử nitrat đạt $\\text{NO}_r = 532.3\\text{ kg/d} \\ge 521.6\\text{ kg/d}$ (thỏa mãn) [Page 3]."
+          ],
+          "brief": [
+            "Bước 3 - Xác định thể tích bể thiếu khí và kiểm tra khả năng khử nitrat $\\text{NO}_r$: Chọn thời gian lưu nước thiếu khí $\\tau_{\\text{nox}} = 2.2\\text{ h}$ (sau khi thử $\\tau_{\\text{nox}} = 1.8\\text{ h}$ chỉ đạt $\\text{NO}_r = 476.7\\text{ kg/d} < 521.6\\text{ kg/d}$) cho thể tích bể thiếu khí $V_{\\text{nox}} = 2,081\\text{ m}^3$, tỷ số $F/M_b = 1.22\\text{ g/g}\\cdot\\text{d}$, tốc độ khử nitrat hiệu chỉnh ở $12^\\circ\\text{C}$ đạt $\\text{SDNR}_{12,\\text{adj}} = 0.204\\text{ g/g}\\cdot\\text{d}$ và khả năng khử nitrat đạt $\\text{NO}_r = 532.3\\text{ kg/d} \\ge 521.6\\text{ kg/d}$ (thỏa mãn) [Page 3]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể thiếu khí đạt $V_{\\text{nox}} = 2,081\\text{ m}^3$ với khả năng khử $\\text{NO}_r = 532.3\\text{ kg/d}$.",
+          "takeaway": "Thể tích bể thiếu khí đạt $V_{\\text{nox}} = 2,081\\text{ m}^3$ với khả năng khử $\\text{NO}_r = 532.3\\text{ kg/d}$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-20ed3734",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính lượng oxy tiết kiệm, độ kiềm phục hồi và công suất khuấy trộn: Quá trình khử nitrat giúp tiết kiệm $\\text{O}_{2,\\text{credit}} = 1,493.2\\text{ kg O}_2/\\text{d}$ (giảm nhu cầu oxy thực xuống $R_{o,\\text{net}} = 5,095.7\\text{ kg O}_2/\\text{d}$), phục hồi $\\text{Alk}_{\\text{rec}} = 82.1\\text{ g/m}^3\\text{ as CaCO}_3$ và cần công suất máy khuấy chìm $P_{\\text{mix}} = 16.6\\text{ kW}$ [Page 2] [Page 3].",
+          "sentences": [
+            "Bước 4 - Tính lượng oxy tiết kiệm, độ kiềm phục hồi và công suất khuấy trộn: Quá trình khử nitrat giúp tiết kiệm $\\text{O}_{2,\\text{credit}} = 1,493.2\\text{ kg O}_2/\\text{d}$ (giảm nhu cầu oxy thực xuống $R_{o,\\text{net}} = 5,095.7\\text{ kg O}_2/\\text{d}$), phục hồi $\\text{Alk}_{\\text{rec}} = 82.1\\text{ g/m}^3\\text{ as CaCO}_3$ và cần công suất máy khuấy chìm $P_{\\text{mix}} = 16.6\\text{ kW}$ [Page 2] [Page 3]."
+          ],
+          "brief": [
+            "Bước 4 - Tính lượng oxy tiết kiệm, độ kiềm phục hồi và công suất khuấy trộn: Quá trình khử nitrat giúp tiết kiệm $\\text{O}_{2,\\text{credit}} = 1,493.2\\text{ kg O}_2/\\text{d}$ (giảm nhu cầu oxy thực xuống $R_{o,\\text{net}} = 5,095.7\\text{ kg O}_2/\\text{d}$), phục hồi $\\text{Alk}_{\\text{rec}} = 82.1\\text{ g/m}^3\\text{ as CaCO}_3$ và cần công suất máy khuấy chìm $P_{\\text{mix}} = 16.6\\text{ kW}$ [Page 2] [Page 3]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hệ thống tiết kiệm $1,493.2\\text{ kg O}_2/\\text{d}$ và cần công suất khuấy $P_{\\text{mix}} = 16.6\\text{ kW}$.",
+          "takeaway": "Hệ thống tiết kiệm $1,493.2\\text{ kg O}_2/\\text{d}$ và cần công suất khuấy $P_{\\text{mix}} = 16.6\\text{ kW}$",
+          "topic": "công suất khuấy"
+        },
+        {
+          "id": "p-47659d61",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số bể thiếu khí thỏa mãn giới hạn tiêu chuẩn. Khả năng khử nitrat vượt tải lượng nitrat tuần hoàn.",
+          "takeaway": "Tổng hợp đáp số bể thiếu khí thỏa mãn giới hạn tiêu chuẩn",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-0596bba9",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ số tuần hoàn nội bộ và tải lượng nitrat nạp ($\\text{IR}, \\text{NO}_{x,\\text{feed}}$): $3.23$ và $521.6\\text{ kg NO}_3\\text{-N/d}$ (Kiểm tra: $\\text{IR} = 3.23 \\in [3, 4]\\text{ — Đạt chuẩn Slide 5}$)",
+          "sentences": [
+            "Tỷ số tuần hoàn nội bộ và tải lượng nitrat nạp ($\\text{IR}, \\text{NO}_{x,\\text{feed}}$): $3.23$ và $521.6\\text{ kg NO}_3\\text{-N/d}$ (Kiểm tra: $\\text{IR} = 3.23 \\in [3, 4]\\text{ — Đạt chuẩn Slide 5}$)"
+          ],
+          "brief": [
+            "Tỷ số tuần hoàn nội bộ và tải lượng nitrat nạp ($\\text{IR}, \\text{NO}_{x,\\text{feed}}$): $3.23$ và $521.6\\text{ kg NO}_3\\text{-N/d}$ (Kiểm tra: $\\text{IR} = 3.23 \\in [3, 4]\\text{ — Đạt chuẩn Slide 5}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ số tuần hoàn đạt $\\text{IR} = 3.23$ với tải lượng $\\text{NO}_{x,\\text{feed}} = 521.6\\text{ kg/d}$.",
+          "takeaway": "Tỷ số tuần hoàn đạt $\\text{IR} = 3.23$ với tải lượng $\\text{NO}_{x,\\text{feed}} = 521.6\\text{ kg/d}$",
+          "topic": "Tỷ số tuần hoàn"
+        },
+        {
+          "id": "p-3a72a73a",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ sinh khối dị dưỡng hoạt tính ($X_b$): $1,256\\text{ g/m}^3$ (Kiểm tra: $X_b / X_{\\text{TSS}} = 0.419\\text{ — Đạt chuẩn Chương 5.2 Slide 23}$)",
+          "sentences": [
+            "Nồng độ sinh khối dị dưỡng hoạt tính ($X_b$): $1,256\\text{ g/m}^3$ (Kiểm tra: $X_b / X_{\\text{TSS}} = 0.419\\text{ — Đạt chuẩn Chương 5.2 Slide 23}$)"
+          ],
+          "brief": [
+            "Nồng độ sinh khối dị dưỡng hoạt tính ($X_b$): $1,256\\text{ g/m}^3$ (Kiểm tra: $X_b / X_{\\text{TSS}} = 0.419\\text{ — Đạt chuẩn Chương 5.2 Slide 23}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ sinh khối hoạt tính đạt $X_b = 1,256\\text{ g/m}^3$.",
+          "takeaway": "Nồng độ sinh khối hoạt tính đạt $X_b = 1,256\\text{ g/m}^3$",
+          "topic": "sinh khối hoạt tính"
+        },
+        {
+          "id": "p-6b9714e6",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể thiếu khí và thời gian lưu nước ($V_{\\text{nox}}, \\tau_{\\text{nox}}$): $2,081\\text{ m}^3$ và $2.2\\text{ h}$ (Kiểm tra: $\\text{NO}_r = 532.3\\text{ kg/d} \\ge \\text{NO}_{x,\\text{feed}} = 521.6\\text{ kg/d — Đạt chuẩn Slide 6}$)",
+          "sentences": [
+            "Thể tích bể thiếu khí và thời gian lưu nước ($V_{\\text{nox}}, \\tau_{\\text{nox}}$): $2,081\\text{ m}^3$ và $2.2\\text{ h}$ (Kiểm tra: $\\text{NO}_r = 532.3\\text{ kg/d} \\ge \\text{NO}_{x,\\text{feed}} = 521.6\\text{ kg/d — Đạt chuẩn Slide 6}$)"
+          ],
+          "brief": [
+            "Thể tích bể thiếu khí và thời gian lưu nước ($V_{\\text{nox}}, \\tau_{\\text{nox}}$): $2,081\\text{ m}^3$ và $2.2\\text{ h}$ (Kiểm tra: $\\text{NO}_r = 532.3\\text{ kg/d} \\ge \\text{NO}_{x,\\text{feed}} = 521.6\\text{ kg/d — Đạt chuẩn Slide 6}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thời gian lưu nước thiếu khí đạt $\\tau_{\\text{nox}} = 2.2\\text{ h}$ và $V_{\\text{nox}} = 2,081\\text{ m}^3$.",
+          "takeaway": "Thời gian lưu nước thiếu khí đạt $\\tau_{\\text{nox}} = 2.2\\text{ h}$ và $V_{\\text{nox}} = 2,081\\text{ m}^3$",
+          "topic": "Thời gian lưu nước"
+        },
+        {
+          "id": "p-4cfb7190",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nhu cầu oxy thực tế và công suất máy khuấy ($R_{o,\\text{net}}, P_{\\text{mix}}$): $5,095.7\\text{ kg O}_2/\\text{d}$ và $16.6\\text{ kW}$ (Kiểm tra: $p_{\\text{mix}} = 8.0\\text{ W/m}^3\\text{ — Đạt chuẩn Chương 5.2 Slide 22}$)",
+          "sentences": [
+            "Nhu cầu oxy thực tế và công suất máy khuấy ($R_{o,\\text{net}}, P_{\\text{mix}}$): $5,095.7\\text{ kg O}_2/\\text{d}$ và $16.6\\text{ kW}$ (Kiểm tra: $p_{\\text{mix}} = 8.0\\text{ W/m}^3\\text{ — Đạt chuẩn Chương 5.2 Slide 22}$)"
+          ],
+          "brief": [
+            "Nhu cầu oxy thực tế và công suất máy khuấy ($R_{o,\\text{net}}, P_{\\text{mix}}$): $5,095.7\\text{ kg O}_2/\\text{d}$ và $16.6\\text{ kW}$ (Kiểm tra: $p_{\\text{mix}} = 8.0\\text{ W/m}^3\\text{ — Đạt chuẩn Chương 5.2 Slide 22}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nhu cầu oxy thực tế giảm còn $R_{o,\\text{net}} = 5,095.7\\text{ kg O}_2/\\text{d}$.",
+          "takeaway": "Nhu cầu oxy thực tế giảm còn $R_{o,\\text{net}} = 5,095.7\\text{ kg O}_2/\\text{d}$",
+          "topic": "Nhu cầu oxy"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch07_ex02-slide-12-thiết-kế-bể-thiếu-khí-đầu-nguồn-kết-hợp-tách-màng-preanoxic-mbr",
+      "num": "",
+      "title": "Bài tập ch07_ex02 (Slide 12): Thiết kế bể thiếu khí đầu nguồn kết hợp tách màng (Preanoxic MBR)",
+      "depth": 2,
+      "takeaway": "Thiết kế bể thiếu khí kết hợp màng đạt $N_e = 4.14\\text{ g/m}^3$ và $V_{\\text{nox}} = 700\\text{ m}^3$",
+      "topic": "bể thiếu khí",
+      "units": [
+        {
+          "id": "p-f6504404",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể thiếu khí đầu nguồn kết hợp tách màng (Preanoxic MBR) với cùng thông số đầu vào và kết quả của Bài tập ch06_ex03 ($Q = 22,700\\text{ m}^3/\\text{ngày}$, $T = 12^\\circ\\text{C}$, $\\text{SRT} = 21\\text{ ngày}$, $\\text{NO}_x = 29.0\\text{ g/m}^3$, tỷ số tuần hoàn bùn từ bể màng về đầu bể thiếu khí $R = 6$, nồng độ bùn bể màng $X_m = 12,000\\text{ g/m}^3$, nồng độ bùn vùng phản ứng $X_A = 10,286\\text{ g/m}^3$) và không sử dụng tuần hoàn nội bộ ($\\text{IR} = 0$) [Page 4].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể thiếu khí đầu nguồn kết hợp tách màng (Preanoxic MBR) với cùng thông số đầu vào và kết quả của Bài tập ch06_ex03 ($Q = 22,700\\text{ m}^3/\\text{ngày}$, $T = 12^\\circ\\text{C}$, $\\text{SRT} = 21\\text{ ngày}$, $\\text{NO}_x = 29.0\\text{ g/m}^3$, tỷ số tuần hoàn bùn từ bể màng về đầu bể thiếu khí $R = 6$, nồng độ bùn bể màng $X_m = 12,000\\text{ g/m}^3$, nồng độ bùn vùng phản ứng $X_A = 10,286\\text{ g/m}^3$) và không sử dụng tuần hoàn nội bộ ($\\text{IR} = 0$) [Page 4]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể thiếu khí đầu nguồn kết hợp tách màng (Preanoxic MBR) với cùng thông số đầu vào và kết quả của Bài tập ch06_ex03 ($Q = 22,700\\text{ m}^3/\\text{ngày}$, $T = 12^\\circ\\text{C}$, $\\text{SRT} = 21\\text{ ngày}$, $\\text{NO}_x = 29.0\\text{ g/m}^3$, tỷ số tuần hoàn bùn từ bể màng về đầu bể thiếu khí $R = 6$, nồng độ bùn bể màng $X_m = 12,000\\text{ g/m}^3$, nồng độ bùn vùng phản ứng $X_A = 10,286\\text{ g/m}^3$) và không sử dụng tuần hoàn nội bộ ($\\text{IR} = 0$) [Page 4]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài thiết kế bể thiếu khí màng ở $R = 6$, $\\text{IR} = 0$ và $X_A = 10,286\\text{ g/m}^3$.",
+          "takeaway": "Đề bài thiết kế bể thiếu khí màng ở $R = 6$, $\\text{IR} = 0$ và $X_A = 10,286\\text{ g/m}^3$",
+          "topic": "bể thiếu khí màng"
+        },
+        {
+          "id": "p-636c85c8",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính nồng độ nitrat đầu ra $N_e$ và tải lượng nitrat nạp vào bể thiếu khí: Trong sơ đồ MBR trên Slide 12 với $\\text{IR} = 0$ và dòng bùn tuần hoàn $R = 6$ quay về đầu bể thiếu khí, nồng độ nitrat đầu ra đạt $N_e = 4.14\\text{ g/m}^3 \\le 6.0\\text{ g/m}^3$ và tải lượng nitrat nạp vào bể thiếu khí là $\\text{NO}_{x,\\text{feed}} = 564.3\\text{ kg/d}$ [Page 3] [Page 4].",
+          "sentences": [
+            "Bước 1 - Tính nồng độ nitrat đầu ra $N_e$ và tải lượng nitrat nạp vào bể thiếu khí: Trong sơ đồ MBR trên Slide 12 với $\\text{IR} = 0$ và dòng bùn tuần hoàn $R = 6$ quay về đầu bể thiếu khí, nồng độ nitrat đầu ra đạt $N_e = 4.14\\text{ g/m}^3 \\le 6.0\\text{ g/m}^3$ và tải lượng nitrat nạp vào bể thiếu khí là $\\text{NO}_{x,\\text{feed}} = 564.3\\text{ kg/d}$ [Page 3] [Page 4]."
+          ],
+          "brief": [
+            "Bước 1 - Tính nồng độ nitrat đầu ra $N_e$ và tải lượng nitrat nạp vào bể thiếu khí: Trong sơ đồ MBR trên Slide 12 với $\\text{IR} = 0$ và dòng bùn tuần hoàn $R = 6$ quay về đầu bể thiếu khí, nồng độ nitrat đầu ra đạt $N_e = 4.14\\text{ g/m}^3 \\le 6.0\\text{ g/m}^3$ và tải lượng nitrat nạp vào bể thiếu khí là $\\text{NO}_{x,\\text{feed}} = 564.3\\text{ kg/d}$ [Page 3] [Page 4]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ nitrat đầu ra đạt $N_e = 4.14\\text{ g/m}^3$ và tải lượng $\\text{NO}_{x,\\text{feed}} = 564.3\\text{ kg/d}$.",
+          "takeaway": "Nồng độ nitrat đầu ra đạt $N_e = 4.14\\text{ g/m}^3$ và tải lượng $\\text{NO}_{x,\\text{feed}} = 564.3\\text{ kg/d}$",
+          "topic": "Nồng độ nitrat"
+        },
+        {
+          "id": "p-ac1b0481",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính nồng độ sinh khối dị dưỡng hoạt tính $X_{b,\\text{MBR}}$ trong bể thiếu khí: Nhân tỷ lệ sinh khối hoạt tính $f_{\\text{active}} = 0.4186$ với nồng độ bùn $X_A = 10,286\\text{ g/m}^3$ cho nồng độ sinh khối dị dưỡng hoạt tính trong bể thiếu khí của cụm MBR là $X_{b,\\text{MBR}} = 4,305\\text{ g/m}^3$ [Page 4].",
+          "sentences": [
+            "Bước 2 - Tính nồng độ sinh khối dị dưỡng hoạt tính $X_{b,\\text{MBR}}$ trong bể thiếu khí: Nhân tỷ lệ sinh khối hoạt tính $f_{\\text{active}} = 0.4186$ với nồng độ bùn $X_A = 10,286\\text{ g/m}^3$ cho nồng độ sinh khối dị dưỡng hoạt tính trong bể thiếu khí của cụm MBR là $X_{b,\\text{MBR}} = 4,305\\text{ g/m}^3$ [Page 4]."
+          ],
+          "brief": [
+            "Bước 2 - Tính nồng độ sinh khối dị dưỡng hoạt tính $X_{b,\\text{MBR}}$ trong bể thiếu khí: Nhân tỷ lệ sinh khối hoạt tính $f_{\\text{active}} = 0.4186$ với nồng độ bùn $X_A = 10,286\\text{ g/m}^3$ cho nồng độ sinh khối dị dưỡng hoạt tính trong bể thiếu khí của cụm MBR là $X_{b,\\text{MBR}} = 4,305\\text{ g/m}^3$ [Page 4]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ sinh khối hoạt tính trong bể thiếu khí đạt $X_{b,\\text{MBR}} = 4,305\\text{ g/m}^3$.",
+          "takeaway": "Nồng độ sinh khối hoạt tính trong bể thiếu khí đạt $X_{b,\\text{MBR}} = 4,305\\text{ g/m}^3$",
+          "topic": "sinh khối hoạt tính"
+        },
+        {
+          "id": "p-f0ba6606",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Xác định thể tích bể thiếu khí $V_{\\text{nox}}$ và công suất khuấy trộn của cụm MBR: Chọn thể tích bể thiếu khí $V_{\\text{nox}} = 700\\text{ m}^3$ ($\\tau_{\\text{nox}} = 0.74\\text{ h}$, sau khi thử $V_{\\text{nox}} = 550\\text{ m}^3$ chỉ đạt $\\text{NO}_r = 504.7\\text{ kg/d} < 564.3\\text{ kg/d}$) cho $F/M_b = 1.05\\text{ g/g}\\cdot\\text{d}$, $\\text{SDNR}_{12,\\text{adj}} = 0.190\\text{ g/g}\\cdot\\text{d}$, khả năng khử nitrat đạt $\\text{NO}_r = 572.5\\text{ kg/d} \\ge 564.3\\text{ kg/d}$ (thỏa mãn) và công suất khuấy trộn đạt $P_{\\text{mix}} = 5.6\\text{ kW}$ [Page 4].",
+          "sentences": [
+            "Bước 3 - Xác định thể tích bể thiếu khí $V_{\\text{nox}}$ và công suất khuấy trộn của cụm MBR: Chọn thể tích bể thiếu khí $V_{\\text{nox}} = 700\\text{ m}^3$ ($\\tau_{\\text{nox}} = 0.74\\text{ h}$, sau khi thử $V_{\\text{nox}} = 550\\text{ m}^3$ chỉ đạt $\\text{NO}_r = 504.7\\text{ kg/d} < 564.3\\text{ kg/d}$) cho $F/M_b = 1.05\\text{ g/g}\\cdot\\text{d}$, $\\text{SDNR}_{12,\\text{adj}} = 0.190\\text{ g/g}\\cdot\\text{d}$, khả năng khử nitrat đạt $\\text{NO}_r = 572.5\\text{ kg/d} \\ge 564.3\\text{ kg/d}$ (thỏa mãn) và công suất khuấy trộn đạt $P_{\\text{mix}} = 5.6\\text{ kW}$ [Page 4]."
+          ],
+          "brief": [
+            "Bước 3 - Xác định thể tích bể thiếu khí $V_{\\text{nox}}$ và công suất khuấy trộn của cụm MBR: Chọn thể tích bể thiếu khí $V_{\\text{nox}} = 700\\text{ m}^3$ ($\\tau_{\\text{nox}} = 0.74\\text{ h}$, sau khi thử $V_{\\text{nox}} = 550\\text{ m}^3$ chỉ đạt $\\text{NO}_r = 504.7\\text{ kg/d} < 564.3\\text{ kg/d}$) cho $F/M_b = 1.05\\text{ g/g}\\cdot\\text{d}$, $\\text{SDNR}_{12,\\text{adj}} = 0.190\\text{ g/g}\\cdot\\text{d}$, khả năng khử nitrat đạt $\\text{NO}_r = 572.5\\text{ kg/d} \\ge 564.3\\text{ kg/d}$ (thỏa mãn) và công suất khuấy trộn đạt $P_{\\text{mix}} = 5.6\\text{ kW}$ [Page 4]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể thiếu khí đạt $V_{\\text{nox}} = 700\\text{ m}^3$ với khả năng khử $\\text{NO}_r = 572.5\\text{ kg/d}$.",
+          "takeaway": "Thể tích bể thiếu khí đạt $V_{\\text{nox}} = 700\\text{ m}^3$ với khả năng khử $\\text{NO}_r = 572.5\\text{ kg/d}$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-47659d61-2",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số bể thiếu khí màng thỏa mãn giới hạn tiêu chuẩn. Nồng độ sinh khối cao giúp giảm mạnh thể tích bể thiếu khí.",
+          "takeaway": "Tổng hợp đáp số bể thiếu khí màng thỏa mãn giới hạn tiêu chuẩn",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-5f2e5728",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ nitrat đầu ra và tải lượng nitrat nạp ($N_e, \\text{NO}_{x,\\text{feed}}$): $4.14\\text{ g/m}^3$ và $564.3\\text{ kg NO}_3\\text{-N/d}$ (Kiểm tra: $N_e = 4.14\\text{ g/m}^3 \\le 6.0\\text{ g/m}^3\\text{ với IR} = 0\\text{ — Đạt chuẩn Slide 12}$)",
+          "sentences": [
+            "Nồng độ nitrat đầu ra và tải lượng nitrat nạp ($N_e, \\text{NO}_{x,\\text{feed}}$): $4.14\\text{ g/m}^3$ và $564.3\\text{ kg NO}_3\\text{-N/d}$ (Kiểm tra: $N_e = 4.14\\text{ g/m}^3 \\le 6.0\\text{ g/m}^3\\text{ với IR} = 0\\text{ — Đạt chuẩn Slide 12}$)"
+          ],
+          "brief": [
+            "Nồng độ nitrat đầu ra và tải lượng nitrat nạp ($N_e, \\text{NO}_{x,\\text{feed}}$): $4.14\\text{ g/m}^3$ và $564.3\\text{ kg NO}_3\\text{-N/d}$ (Kiểm tra: $N_e = 4.14\\text{ g/m}^3 \\le 6.0\\text{ g/m}^3\\text{ với IR} = 0\\text{ — Đạt chuẩn Slide 12}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đầu ra đạt $N_e = 4.14\\text{ g/m}^3 \\le 6.0\\text{ g/m}^3$ mà không cần tuần hoàn nội bộ.",
+          "takeaway": "Đầu ra đạt $N_e = 4.14\\text{ g/m}^3 \\le 6.0\\text{ g/m}^3$ mà không cần tuần hoàn nội bộ",
+          "topic": "tuần hoàn nội bộ"
+        },
+        {
+          "id": "p-4125c9a5",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ sinh khối hoạt tính trong bể thiếu khí MBR ($X_{b,\\text{MBR}}$): $4,305\\text{ g/m}^3$ (Kiểm tra: $X_A = 10,286\\text{ g/m}^3\\text{ tại }R = 6\\text{ — Đạt chuẩn Chương 6 Slide 39}$)",
+          "sentences": [
+            "Nồng độ sinh khối hoạt tính trong bể thiếu khí MBR ($X_{b,\\text{MBR}}$): $4,305\\text{ g/m}^3$ (Kiểm tra: $X_A = 10,286\\text{ g/m}^3\\text{ tại }R = 6\\text{ — Đạt chuẩn Chương 6 Slide 39}$)"
+          ],
+          "brief": [
+            "Nồng độ sinh khối hoạt tính trong bể thiếu khí MBR ($X_{b,\\text{MBR}}$): $4,305\\text{ g/m}^3$ (Kiểm tra: $X_A = 10,286\\text{ g/m}^3\\text{ tại }R = 6\\text{ — Đạt chuẩn Chương 6 Slide 39}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sinh khối dị dưỡng hoạt tính đạt $X_{b,\\text{MBR}} = 4,305\\text{ g/m}^3$.",
+          "takeaway": "Sinh khối dị dưỡng hoạt tính đạt $X_{b,\\text{MBR}} = 4,305\\text{ g/m}^3$",
+          "topic": "Sinh khối dị dưỡng"
+        },
+        {
+          "id": "p-51d5c545",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể thiếu khí và khả năng khử nitrat ($V_{\\text{nox}}, \\text{NO}_r$): $700\\text{ m}^3$ ($\\tau_{\\text{nox}} = 0.74\\text{ h}$) và $572.5\\text{ kg/d}$ (Kiểm tra: $\\text{NO}_r = 572.5\\text{ kg/d} \\ge 564.3\\text{ kg/d — Đạt chuẩn Slide 12}$)",
+          "sentences": [
+            "Thể tích bể thiếu khí và khả năng khử nitrat ($V_{\\text{nox}}, \\text{NO}_r$): $700\\text{ m}^3$ ($\\tau_{\\text{nox}} = 0.74\\text{ h}$) và $572.5\\text{ kg/d}$ (Kiểm tra: $\\text{NO}_r = 572.5\\text{ kg/d} \\ge 564.3\\text{ kg/d — Đạt chuẩn Slide 12}$)"
+          ],
+          "brief": [
+            "Thể tích bể thiếu khí và khả năng khử nitrat ($V_{\\text{nox}}, \\text{NO}_r$): $700\\text{ m}^3$ ($\\tau_{\\text{nox}} = 0.74\\text{ h}$) và $572.5\\text{ kg/d}$ (Kiểm tra: $\\text{NO}_r = 572.5\\text{ kg/d} \\ge 564.3\\text{ kg/d — Đạt chuẩn Slide 12}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khả năng khử nitrat đạt $\\text{NO}_r = 572.5\\text{ kg/d} \\ge 564.3\\text{ kg/d}$ tại $V_{\\text{nox}} = 700\\text{ m}^3$.",
+          "takeaway": "Khả năng khử nitrat đạt $\\text{NO}_r = 572.5\\text{ kg/d} \\ge 564.3\\text{ kg/d}$ tại $V_{\\text{nox}} = 700\\text{ m}^3$",
+          "topic": "Khả năng khử nitrat"
+        },
+        {
+          "id": "p-168bf91e",
+          "kind": "list item",
+          "role": "result",
+          "full": "Công suất khuấy trộn bể thiếu khí ($P_{\\text{mix}}$): $5.6\\text{ kW}$ (Kiểm tra: $p_{\\text{mix}} = 8.0\\text{ W/m}^3\\text{ — Đạt chuẩn Chương 5.2 Slide 22}$)",
+          "sentences": [
+            "Công suất khuấy trộn bể thiếu khí ($P_{\\text{mix}}$): $5.6\\text{ kW}$ (Kiểm tra: $p_{\\text{mix}} = 8.0\\text{ W/m}^3\\text{ — Đạt chuẩn Chương 5.2 Slide 22}$)"
+          ],
+          "brief": [
+            "Công suất khuấy trộn bể thiếu khí ($P_{\\text{mix}}$): $5.6\\text{ kW}$ (Kiểm tra: $p_{\\text{mix}} = 8.0\\text{ W/m}^3\\text{ — Đạt chuẩn Chương 5.2 Slide 22}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Công suất khuấy trộn bể thiếu khí đạt $P_{\\text{mix}} = 5.6\\text{ kW}$.",
+          "takeaway": "Công suất khuấy trộn bể thiếu khí đạt $P_{\\text{mix}} = 5.6\\text{ kW}$",
+          "topic": "Công suất khuấy trộn"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch07_ex03-slide-20-thiết-kế-và-kiểm-tra-quá-trình-khử-nitrat-trong-bể-sbr",
+      "num": "",
+      "title": "Bài tập ch07_ex03 (Slide 20): Thiết kế và kiểm tra quá trình khử nitrat trong bể SBR",
+      "depth": 2,
+      "takeaway": "Khử nitrat trong kỳ làm đầy bể theo mẻ đạt $N_{e,\\text{NO}_3} = 5.24\\text{ g/m}^3$",
+      "topic": "Khử nitrat",
+      "units": [
+        {
+          "id": "p-4172cddb",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế và kiểm tra khả năng khử nitrat trong giai đoạn làm đầy khuấy trộn thiếu khí ($t_{\\text{anoxic}} = 2.0\\text{ h}$) của hệ thống $N = 2\\text{ bể SBR}$ lấy cùng thông số đầu vào và kết quả của Bài tập ch06_ex04 ($Q = 7,570\\text{ m}^3/\\text{ngày}$, $T = 12^\\circ\\text{C}$, chu kỳ $t_c = 6.0\\text{ h}$ gồm $8\\text{ mẻ/ngày}$ cho $2\\text{ bể}$, thể tích làm đầy $V_F = 946.25\\text{ m}^3/\\text{mẻ}$, thể tích đầy bể $V_T = 4,731.25\\text{ m}^3/\\text{bể}$, thể tích giữ lại sau chắt nước $V_S = 3,785\\text{ m}^3/\\text{bể}$, $\\text{SRT} = 26.5\\text{ ngày}$, $\\text{NO}_x = 26.2\\text{ g/m}^3$, $\\text{BOD}_0 = 220\\text{ g/m}^3$, $\\text{bCOD}_0 = 352\\text{ g/m}^3$) [Page 4] [Page 5].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế và kiểm tra khả năng khử nitrat trong giai đoạn làm đầy khuấy trộn thiếu khí ($t_{\\text{anoxic}} = 2.0\\text{ h}$) của hệ thống $N = 2\\text{ bể SBR}$ lấy cùng thông số đầu vào và kết quả của Bài tập ch06_ex04 ($Q = 7,570\\text{ m}^3/\\text{ngày}$, $T = 12^\\circ\\text{C}$, chu kỳ $t_c = 6.0\\text{ h}$ gồm $8\\text{ mẻ/ngày}$ cho $2\\text{ bể}$, thể tích làm đầy $V_F = 946.25\\text{ m}^3/\\text{mẻ}$, thể tích đầy bể $V_T = 4,731.25\\text{ m}^3/\\text{bể}$, thể tích giữ lại sau chắt nước $V_S = 3,785\\text{ m}^3/\\text{bể}$, $\\text{SRT} = 26.5\\text{ ngày}$, $\\text{NO}_x = 26.2\\text{ g/m}^3$, $\\text{BOD}_0 = 220\\text{ g/m}^3$, $\\text{bCOD}_0 = 352\\text{ g/m}^3$) [Page 4] [Page 5]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế và kiểm tra khả năng khử nitrat trong giai đoạn làm đầy khuấy trộn thiếu khí ($t_{\\text{anoxic}} = 2.0\\text{ h}$) của hệ thống $N = 2\\text{ bể SBR}$ lấy cùng thông số đầu vào và kết quả của Bài tập ch06_ex04 ($Q = 7,570\\text{ m}^3/\\text{ngày}$, $T = 12^\\circ\\text{C}$, chu kỳ $t_c = 6.0\\text{ h}$ gồm $8\\text{ mẻ/ngày}$ cho $2\\text{ bể}$, thể tích làm đầy $V_F = 946.25\\text{ m}^3/\\text{mẻ}$, thể tích đầy bể $V_T = 4,731.25\\text{ m}^3/\\text{bể}$, thể tích giữ lại sau chắt nước $V_S = 3,785\\text{ m}^3/\\text{bể}$, $\\text{SRT} = 26.5\\text{ ngày}$, $\\text{NO}_x = 26.2\\text{ g/m}^3$, $\\text{BOD}_0 = 220\\text{ g/m}^3$, $\\text{bCOD}_0 = 352\\text{ g/m}^3$) [Page 4] [Page 5]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài kiểm tra khử nitrat trong $t_{\\text{anoxic}} = 2.0\\text{ h}$ làm đầy của $2\\text{ bể}$ theo mẻ.",
+          "takeaway": "Đề bài kiểm tra khử nitrat trong $t_{\\text{anoxic}} = 2.0\\text{ h}$ làm đầy của $2\\text{ bể}$ theo mẻ",
+          "topic": "kiểm tra khử nitrat"
+        },
+        {
+          "id": "p-131de229",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính lượng nitrat sinh ra mỗi mẻ, nồng độ nitrat đầu ra và lượng nitrat tồn dư sau chắt nước: Lượng nitrat tạo thành trong mỗi mẻ là $\\text{NO}_{x,\\text{cycle}} = 24,792\\text{ g/mẻ}$; khi toàn bộ nitrat trong thể tích đệm $V_S = 3,785\\text{ m}^3$ được khử hết ở kỳ làm đầy thiếu khí, nồng độ nitrat đầu ra ở cuối mẻ đạt $N_{e,\\text{NO}_3} = 5.24\\text{ g/m}^3$ và lượng nitrat giữ lại trong $V_S$ cần khử ở mẻ tiếp theo là $\\text{NO}_3\\text{-N}_{\\text{rem}} = 19,833\\text{ g/mẻ}$ [Page 4] [Page 5].",
+          "sentences": [
+            "Bước 1 - Tính lượng nitrat sinh ra mỗi mẻ, nồng độ nitrat đầu ra và lượng nitrat tồn dư sau chắt nước: Lượng nitrat tạo thành trong mỗi mẻ là $\\text{NO}_{x,\\text{cycle}} = 24,792\\text{ g/mẻ}$; khi toàn bộ nitrat trong thể tích đệm $V_S = 3,785\\text{ m}^3$ được khử hết ở kỳ làm đầy thiếu khí, nồng độ nitrat đầu ra ở cuối mẻ đạt $N_{e,\\text{NO}_3} = 5.24\\text{ g/m}^3$ và lượng nitrat giữ lại trong $V_S$ cần khử ở mẻ tiếp theo là $\\text{NO}_3\\text{-N}_{\\text{rem}} = 19,833\\text{ g/mẻ}$ [Page 4] [Page 5]."
+          ],
+          "brief": [
+            "Bước 1 - Tính lượng nitrat sinh ra mỗi mẻ, nồng độ nitrat đầu ra và lượng nitrat tồn dư sau chắt nước: Lượng nitrat tạo thành trong mỗi mẻ là $\\text{NO}_{x,\\text{cycle}} = 24,792\\text{ g/mẻ}$; khi toàn bộ nitrat trong thể tích đệm $V_S = 3,785\\text{ m}^3$ được khử hết ở kỳ làm đầy thiếu khí, nồng độ nitrat đầu ra ở cuối mẻ đạt $N_{e,\\text{NO}_3} = 5.24\\text{ g/m}^3$ và lượng nitrat giữ lại trong $V_S$ cần khử ở mẻ tiếp theo là $\\text{NO}_3\\text{-N}_{\\text{rem}} = 19,833\\text{ g/mẻ}$ [Page 4] [Page 5]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ nitrat đầu ra đạt $N_{e,\\text{NO}_3} = 5.24\\text{ g/m}^3$ và lượng tồn dư $19,833\\text{ g/mẻ}$.",
+          "takeaway": "Nồng độ nitrat đầu ra đạt $N_{e,\\text{NO}_3} = 5.24\\text{ g/m}^3$ và lượng tồn dư $19,833\\text{ g/mẻ}$",
+          "topic": "Nồng độ nitrat"
+        },
+        {
+          "id": "p-b038c23e",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính khối lượng sinh khối dị dưỡng hoạt tính và tỷ số $F/M_b$ trong kỳ làm đầy: Khối lượng sinh khối dị dưỡng hoạt tính trong mỗi bể SBR tại $\\text{SRT} = 26.5\\text{ ngày}$ đạt $\\text{Mass}_{X_b,1\\text{tank}} = 4,764.2\\text{ kg}$ và lưu lượng nạp vào $1\\text{ bể}$ trong $3.0\\text{ h}$ làm đầy là $Q_{\\text{fill}} = 7,570\\text{ m}^3/\\text{d}$, cho tỷ số $F/M_b = 0.35\\text{ g BOD/g biomass}\\cdot\\text{d}$ [Page 5].",
+          "sentences": [
+            "Bước 2 - Tính khối lượng sinh khối dị dưỡng hoạt tính và tỷ số $F/M_b$ trong kỳ làm đầy: Khối lượng sinh khối dị dưỡng hoạt tính trong mỗi bể SBR tại $\\text{SRT} = 26.5\\text{ ngày}$ đạt $\\text{Mass}_{X_b,1\\text{tank}} = 4,764.2\\text{ kg}$ và lưu lượng nạp vào $1\\text{ bể}$ trong $3.0\\text{ h}$ làm đầy là $Q_{\\text{fill}} = 7,570\\text{ m}^3/\\text{d}$, cho tỷ số $F/M_b = 0.35\\text{ g BOD/g biomass}\\cdot\\text{d}$ [Page 5]."
+          ],
+          "brief": [
+            "Bước 2 - Tính khối lượng sinh khối dị dưỡng hoạt tính và tỷ số $F/M_b$ trong kỳ làm đầy: Khối lượng sinh khối dị dưỡng hoạt tính trong mỗi bể SBR tại $\\text{SRT} = 26.5\\text{ ngày}$ đạt $\\text{Mass}_{X_b,1\\text{tank}} = 4,764.2\\text{ kg}$ và lưu lượng nạp vào $1\\text{ bể}$ trong $3.0\\text{ h}$ làm đầy là $Q_{\\text{fill}} = 7,570\\text{ m}^3/\\text{d}$, cho tỷ số $F/M_b = 0.35\\text{ g BOD/g biomass}\\cdot\\text{d}$ [Page 5]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khối lượng sinh khối hoạt tính mỗi bể đạt $4,764.2\\text{ kg}$ và $F/M_b = 0.35\\text{ d}^{-1}$.",
+          "takeaway": "Khối lượng sinh khối hoạt tính mỗi bể đạt $4,764.2\\text{ kg}$ và $F/M_b = 0.35\\text{ d}^{-1}$",
+          "topic": "Khối lượng sinh khối"
+        },
+        {
+          "id": "p-ba6f68db",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính tốc độ khử nitrat riêng $\\text{SDNR}_{12}$ và kiểm tra khả năng khử nitrat trong $2.0\\text{ h}$ làm đầy thiếu khí: Vì $F/M_b = 0.35 \\le 0.5$, áp dụng phương trình tuyến tính trên Slide 25 Chương 5.2 cho $\\text{SDNR}_{20} = 0.084\\text{ g/g}\\cdot\\text{d}$ và $\\text{SDNR}_{12} = 0.068\\text{ g/g}\\cdot\\text{d}$, suy ra khả năng khử nitrat trong $2.0\\text{ h}$ làm đầy thiếu khí đạt $\\text{NO}_{r,\\text{cycle}} = 27,125\\text{ g/mẻ} \\ge 19,833\\text{ g/mẻ}$ (thỏa mãn) và giảm nhu cầu oxy thực xuống $R_{o,\\text{net}} = 2,415.8\\text{ kg O}_2/\\text{d}$ [Page 5].",
+          "sentences": [
+            "Bước 3 - Tính tốc độ khử nitrat riêng $\\text{SDNR}_{12}$ và kiểm tra khả năng khử nitrat trong $2.0\\text{ h}$ làm đầy thiếu khí: Vì $F/M_b = 0.35 \\le 0.5$, áp dụng phương trình tuyến tính trên Slide 25 Chương 5.2 cho $\\text{SDNR}_{20} = 0.084\\text{ g/g}\\cdot\\text{d}$ và $\\text{SDNR}_{12} = 0.068\\text{ g/g}\\cdot\\text{d}$, suy ra khả năng khử nitrat trong $2.0\\text{ h}$ làm đầy thiếu khí đạt $\\text{NO}_{r,\\text{cycle}} = 27,125\\text{ g/mẻ} \\ge 19,833\\text{ g/mẻ}$ (thỏa mãn) và giảm nhu cầu oxy thực xuống $R_{o,\\text{net}} = 2,415.8\\text{ kg O}_2/\\text{d}$ [Page 5]."
+          ],
+          "brief": [
+            "Bước 3 - Tính tốc độ khử nitrat riêng $\\text{SDNR}_{12}$ và kiểm tra khả năng khử nitrat trong $2.0\\text{ h}$ làm đầy thiếu khí: Vì $F/M_b = 0.35 \\le 0.5$, áp dụng phương trình tuyến tính trên Slide 25 Chương 5.2 cho $\\text{SDNR}_{20} = 0.084\\text{ g/g}\\cdot\\text{d}$ và $\\text{SDNR}_{12} = 0.068\\text{ g/g}\\cdot\\text{d}$, suy ra khả năng khử nitrat trong $2.0\\text{ h}$ làm đầy thiếu khí đạt $\\text{NO}_{r,\\text{cycle}} = 27,125\\text{ g/mẻ} \\ge 19,833\\text{ g/mẻ}$ (thỏa mãn) và giảm nhu cầu oxy thực xuống $R_{o,\\text{net}} = 2,415.8\\text{ kg O}_2/\\text{d}$ [Page 5]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khả năng khử nitrat mỗi mẻ đạt $\\text{NO}_{r,\\text{cycle}} = 27,125\\text{ g/mẻ} \\ge 19,833\\text{ g/mẻ}$.",
+          "takeaway": "Khả năng khử nitrat mỗi mẻ đạt $\\text{NO}_{r,\\text{cycle}} = 27,125\\text{ g/mẻ} \\ge 19,833\\text{ g/mẻ}$",
+          "topic": "Khả năng khử nitrat"
+        },
+        {
+          "id": "p-47659d61-3",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số khử nitrat trong bể theo mẻ đạt chuẩn thiết kế. Giai đoạn làm đầy thiếu khí khử hoàn toàn lượng nitrat giữ lại.",
+          "takeaway": "Tổng hợp đáp số khử nitrat trong bể theo mẻ đạt chuẩn thiết kế",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-d1df4cac",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ nitrat đầu ra và lượng nitrat tồn dư mỗi mẻ ($N_{e,\\text{NO}_3}, \\text{NO}_3\\text{-N}_{\\text{rem}}$): $5.24\\text{ g/m}^3$ và $19,833\\text{ g/mẻ}$ (Kiểm tra: $N_{e,\\text{NO}_3} = 5.24\\text{ g/m}^3 \\le 6.0\\text{ g/m}^3\\text{ — Đạt chuẩn Slide 19 và Slide 20}$)",
+          "sentences": [
+            "Nồng độ nitrat đầu ra và lượng nitrat tồn dư mỗi mẻ ($N_{e,\\text{NO}_3}, \\text{NO}_3\\text{-N}_{\\text{rem}}$): $5.24\\text{ g/m}^3$ và $19,833\\text{ g/mẻ}$ (Kiểm tra: $N_{e,\\text{NO}_3} = 5.24\\text{ g/m}^3 \\le 6.0\\text{ g/m}^3\\text{ — Đạt chuẩn Slide 19 và Slide 20}$)"
+          ],
+          "brief": [
+            "Nồng độ nitrat đầu ra và lượng nitrat tồn dư mỗi mẻ ($N_{e,\\text{NO}_3}, \\text{NO}_3\\text{-N}_{\\text{rem}}$): $5.24\\text{ g/m}^3$ và $19,833\\text{ g/mẻ}$ (Kiểm tra: $N_{e,\\text{NO}_3} = 5.24\\text{ g/m}^3 \\le 6.0\\text{ g/m}^3\\text{ — Đạt chuẩn Slide 19 và Slide 20}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lượng nitrat tồn dư mỗi mẻ đạt $\\text{NO}_3\\text{-N}_{\\text{rem}} = 19,833\\text{ g/mẻ}$.",
+          "takeaway": "Lượng nitrat tồn dư mỗi mẻ đạt $\\text{NO}_3\\text{-N}_{\\text{rem}} = 19,833\\text{ g/mẻ}$",
+          "topic": "nitrat tồn dư"
+        },
+        {
+          "id": "p-92c6c469",
+          "kind": "list item",
+          "role": "result",
+          "full": "Khối lượng sinh khối hoạt tính mỗi bể và tỷ số $F/M_b$ ($\\text{Mass}_{X_b,1\\text{tank}}, F/M_b$): $4,764.2\\text{ kg}$ và $0.35\\text{ g BOD/g biomass}\\cdot\\text{d}$ (Kiểm tra: $F/M_b = 0.35 \\le 0.5\\text{ — Đạt chuẩn Chương 5.2 Slide 25}$)",
+          "sentences": [
+            "Khối lượng sinh khối hoạt tính mỗi bể và tỷ số $F/M_b$ ($\\text{Mass}_{X_b,1\\text{tank}}, F/M_b$): $4,764.2\\text{ kg}$ và $0.35\\text{ g BOD/g biomass}\\cdot\\text{d}$ (Kiểm tra: $F/M_b = 0.35 \\le 0.5\\text{ — Đạt chuẩn Chương 5.2 Slide 25}$)"
+          ],
+          "brief": [
+            "Khối lượng sinh khối hoạt tính mỗi bể và tỷ số $F/M_b$ ($\\text{Mass}_{X_b,1\\text{tank}}, F/M_b$): $4,764.2\\text{ kg}$ và $0.35\\text{ g BOD/g biomass}\\cdot\\text{d}$ (Kiểm tra: $F/M_b = 0.35 \\le 0.5\\text{ — Đạt chuẩn Chương 5.2 Slide 25}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ số thức ăn trong kỳ làm đầy đạt $F/M_b = 0.35 \\le 0.5$.",
+          "takeaway": "Tỷ số thức ăn trong kỳ làm đầy đạt $F/M_b = 0.35 \\le 0.5$",
+          "topic": "Tỷ số thức ăn"
+        },
+        {
+          "id": "p-845d0d08",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tốc độ khử nitrat riêng và khả năng khử mỗi mẻ ($\\text{SDNR}_{12}, \\text{NO}_{r,\\text{cycle}}$): $0.068\\text{ g/g}\\cdot\\text{d}$ và $27,125\\text{ g/mẻ}$ (Kiểm tra: $\\text{NO}_{r,\\text{cycle}} = 27,125\\text{ g/mẻ} \\ge 19,833\\text{ g/mẻ — Đạt chuẩn Slide 20}$)",
+          "sentences": [
+            "Tốc độ khử nitrat riêng và khả năng khử mỗi mẻ ($\\text{SDNR}_{12}, \\text{NO}_{r,\\text{cycle}}$): $0.068\\text{ g/g}\\cdot\\text{d}$ và $27,125\\text{ g/mẻ}$ (Kiểm tra: $\\text{NO}_{r,\\text{cycle}} = 27,125\\text{ g/mẻ} \\ge 19,833\\text{ g/mẻ — Đạt chuẩn Slide 20}$)"
+          ],
+          "brief": [
+            "Tốc độ khử nitrat riêng và khả năng khử mỗi mẻ ($\\text{SDNR}_{12}, \\text{NO}_{r,\\text{cycle}}$): $0.068\\text{ g/g}\\cdot\\text{d}$ và $27,125\\text{ g/mẻ}$ (Kiểm tra: $\\text{NO}_{r,\\text{cycle}} = 27,125\\text{ g/mẻ} \\ge 19,833\\text{ g/mẻ — Đạt chuẩn Slide 20}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tốc độ khử nitrat đạt $\\text{SDNR}_{12} = 0.068\\text{ d}^{-1}$ và $\\text{NO}_{r,\\text{cycle}} = 27,125\\text{ g/mẻ}$.",
+          "takeaway": "Tốc độ khử nitrat đạt $\\text{SDNR}_{12} = 0.068\\text{ d}^{-1}$ và $\\text{NO}_{r,\\text{cycle}} = 27,125\\text{ g/mẻ}$",
+          "topic": "Tốc độ khử nitrat"
+        },
+        {
+          "id": "p-9a9843ba",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nhu cầu oxy thực tế sau khi trừ tín dụng khử nitrat ($R_{o,\\text{net}}$): $2,415.8\\text{ kg O}_2/\\text{d}$ (Kiểm tra: Tiết kiệm $453.9\\text{ kg O}_2/\\text{d}$ và phục hồi $74.8\\text{ g/m}^3\\text{ CaCO}_3\\text{ — Đạt chuẩn Slide 20}$)",
+          "sentences": [
+            "Nhu cầu oxy thực tế sau khi trừ tín dụng khử nitrat ($R_{o,\\text{net}}$): $2,415.8\\text{ kg O}_2/\\text{d}$ (Kiểm tra: Tiết kiệm $453.9\\text{ kg O}_2/\\text{d}$ và phục hồi $74.8\\text{ g/m}^3\\text{ CaCO}_3\\text{ — Đạt chuẩn Slide 20}$)"
+          ],
+          "brief": [
+            "Nhu cầu oxy thực tế sau khi trừ tín dụng khử nitrat ($R_{o,\\text{net}}$): $2,415.8\\text{ kg O}_2/\\text{d}$ (Kiểm tra: Tiết kiệm $453.9\\text{ kg O}_2/\\text{d}$ và phục hồi $74.8\\text{ g/m}^3\\text{ CaCO}_3\\text{ — Đạt chuẩn Slide 20}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nhu cầu oxy thực tế giảm xuống $R_{o,\\text{net}} = 2,415.8\\text{ kg O}_2/\\text{d}$.",
+          "takeaway": "Nhu cầu oxy thực tế giảm xuống $R_{o,\\text{net}} = 2,415.8\\text{ kg O}_2/\\text{d}$",
+          "topic": "Nhu cầu oxy"
+        },
+        {
+          "id": "p-83bc80e2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 1 (Page 2)",
+          "sentences": [
+            "Figure 1 (Page 2)"
+          ],
+          "brief": [
+            "Figure 1 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $1$ trong bài giảng Chương $7$.",
+          "takeaway": "Hình minh họa kỹ thuật số $1$ trong bài giảng Chương $7$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-bc294c03",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 2 (Page 3)",
+          "sentences": [
+            "Figure 2 (Page 3)"
+          ],
+          "brief": [
+            "Figure 2 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $2$ trong bài giảng Chương $7$.",
+          "takeaway": "Hình minh họa kỹ thuật số $2$ trong bài giảng Chương $7$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-ad026bc7",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 3 (Page 3)",
+          "sentences": [
+            "Figure 3 (Page 3)"
+          ],
+          "brief": [
+            "Figure 3 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $3$ trong bài giảng Chương $7$.",
+          "takeaway": "Hình minh họa kỹ thuật số $3$ trong bài giảng Chương $7$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-52c87e7e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 4 (Page 4)",
+          "sentences": [
+            "Figure 4 (Page 4)"
+          ],
+          "brief": [
+            "Figure 4 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $4$ trong bài giảng Chương $7$.",
+          "takeaway": "Hình minh họa kỹ thuật số $4$ trong bài giảng Chương $7$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-fe3c2928",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 5 (Page 4)",
+          "sentences": [
+            "Figure 5 (Page 4)"
+          ],
+          "brief": [
+            "Figure 5 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $5$ trong bài giảng Chương $7$.",
+          "takeaway": "Hình minh họa kỹ thuật số $5$ trong bài giảng Chương $7$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-1af08b1f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 6 (Page 5)",
+          "sentences": [
+            "Figure 6 (Page 5)"
+          ],
+          "brief": [
+            "Figure 6 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $6$ trong bài giảng Chương $7$.",
+          "takeaway": "Hình minh họa kỹ thuật số $6$ trong bài giảng Chương $7$",
+          "topic": "Hình minh họa"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

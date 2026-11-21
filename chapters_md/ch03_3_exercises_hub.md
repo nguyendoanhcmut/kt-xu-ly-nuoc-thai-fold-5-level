@@ -1,0 +1,259 @@
+### Bài tập ch03_3_ex01 (Slide 29-33, Lời giải từ ảnh chụp slide của thầy): Thiết kế bể lắng ngang hình chữ nhật truyền thống
+
+**Đề bài** ([Lời giải từ ảnh chụp slide của thầy]): Nhà máy xử lý nước thải có lưu lượng thiết kế trung bình $Q = 0.5\text{ m}^3/\text{s}$ ($43,200\text{ m}^3/\text{d}$) và độ nhớt động học của nước ở $20^\circ\text{C}$ là $\nu = 1.003 \times 10^{-6}\text{ m}^2/\text{s}$ [Page 15]. Kỹ sư hãy thiết kế bể lắng ngang hình chữ nhật truyền thống, kiểm tra các chuẩn số thủy lực $\text{Re}, \text{Fr}$, vận tốc cuốn trôi cặn đáy $v_{\text{scour}}$ và thiết kế hệ thống máng tràn thu nước đầu ra [Page 13] [Page 14] [Page 15].
+
+| Thông số thiết kế | Ký hiệu | Giá trị | Đơn vị và Nguồn Slide |
+| :--- | :--- | :--- | :--- |
+| Lưu lượng nước thải thiết kế trung bình | $Q$ | $0.5$ ($43,200$) | $\text{m}^3/\text{s}$ ($\text{m}^3/\text{d}$, Đề bài Slide $29$) |
+| Độ nhớt động học của nước ở $20^\circ\text{C}$ | $\nu$ | $1.003 \times 10^{-6}$ | $\text{m}^2/\text{s}$ (Đề bài Slide $29$) |
+| Tải trọng bề mặt chọn thiết kế | $\text{OR}$ | $40$ | $\text{m}^3/(\text{m}^2\cdot\text{d})$ (Bảng Slide $22$, khoảng $30 - 50$) |
+| Tổng chiều cao bể lắng | $H_{\text{total}}$ | $4.0$ | $\text{m}$ ($1\text{ m}$ bùn, $2.5\text{ m}$ nước, $0.5\text{ m}$ bảo vệ, Slide $30$) |
+| Số đơn nguyên và chiều rộng mỗi bể | $N, W$ | $4, 4.0$ | $\text{bể}, \text{m}$ ($W \le 6\text{ m}$ cho xích gạt, Slide $25, 31$) |
+| Thông số hạt cặn kiểm tra cuốn trôi | $k, s, d, f$ | $0.05, 1.25, 10^{-4}, 0.025$ | $\text{m}$ cho đường kính hạt $d$ (Slide $28, 32$) |
+| Số máng tràn ngang trên vùng thu $20\text{ m}$ | $N_{\text{weir}}$ | $5$ | $\text{máng/bể}$ ($2\text{ bên/máng}$, bước $4\text{ m}$, Slide $33$) |
+
+**Bước 1 - Tính diện tích bề mặt, thể tích công tác và thời gian lưu nước**: Từ tải trọng bề mặt chọn trên Slide $30$ là $\text{OR} = 40\text{ m}^3/(\text{m}^2\cdot\text{d})$, tổng diện tích mặt bằng vùng lắng đạt $A_s = 1,080\text{ m}^2$ [Page 15]. Với chiều sâu phần công tác gồm vùng nước và vùng bùn là $3.5\text{ m}$, thể tích bể đạt $V = 3,780\text{ m}^3$ và thời gian lưu nước đạt $\text{HRT} = 2.1\text{ h}$ [Page 15].
+
+$$
+A_s = \frac{Q}{\text{OR}} = \frac{0.5 \times 86,400}{40} = \frac{43,200\text{ m}^3/\text{d}}{40\text{ m}^3/(\text{m}^2\cdot\text{d})} = 1,080\text{ m}^2
+$$
+
+$$
+V = 1,080 \times 3.5 = 3,780\text{ m}^3 \Rightarrow \text{HRT} = \frac{V}{Q} = \frac{3,780}{43,200} = 0.0875\text{ d} = 2.1\text{ h}
+$$
+
+**Bước 2 - Xác định kích thước hình học bể và vận tốc dòng chảy ngang**: Khi bố trí $N = 4\text{ bể}$ có chiều rộng mỗi bể $W = 4\text{ m}$ trên Slide $31$, chiều dài mỗi bể đạt $L = 67.5\text{ m}$ thỏa mãn tỷ số $L/W = 16.8$ và $L/D = 16.8$ [Page 13]. Vận tốc dòng chảy ngang qua tiết diện ướt của $4\text{ bể}$ đạt $v_H = 0.0125\text{ m/s}$ [Page 13].
+
+$$
+L = \frac{A_s / N}{W} = \frac{1,080 / 4}{4\text{ m}} = 67.5\text{ m}, \quad \frac{L}{W} = \frac{67.5}{4} = 16.8, \quad \frac{L}{D} = \frac{67.5}{4} = 16.8
+$$
+
+$$
+v_H = \frac{Q}{N \times D_{\text{water}} \times W} = \frac{0.5\text{ m}^3/\text{s}}{4 \times 2.5\text{ m} \times 4\text{ m}} = 0.0125\text{ m/s}
+$$
+
+**Bước 3 - Tính bán kính thủy lực và kiểm tra chuẩn số Reynolds, Froude**: Trên Slide $32$, bán kính thủy lực của tiết diện ướt đạt $R = 1.11\text{ m}$ [Page 13] [Page 14]. Thay giá trị $R$ và $v_H$ vào công thức cho kết quả chuẩn số Reynolds đạt $\text{Re} = 13,833 < 20,000$ và chuẩn số Froude đạt $\text{Fr} = 1.435 \times 10^{-5} > 10^{-5}$ [Page 14].
+
+$$
+R = \frac{A}{P} = \frac{2.5\text{ m} \times 4\text{ m}}{2.5\text{ m} + 4\text{ m} + 2.5\text{ m}} = 1.11\text{ m}
+$$
+
+$$
+\text{Re} = \frac{v_H R}{\nu} = \frac{0.0125 \times 1.11}{1.003 \times 10^{-6}} = 13,833, \quad \text{Fr} = \frac{v_H^2}{g R} = \frac{0.0125^2}{9.81 \times 1.11} = 1.435 \times 10^{-5}
+$$
+
+**Bước 4 - Kiểm tra vận tốc cuốn trôi cặn đáy và thiết kế máng tràn**: Vận tốc cuốn trôi giới hạn theo phương trình Camp-Shields đạt $v_{\text{scour}} = 0.063\text{ m/s}$ lớn hơn vận tốc ngang $v_H = 0.0125\text{ m/s}$ [Page 14]. Trên Slide $33$, vùng thu nước dài $20\text{ m}$ bố trí $5\text{ máng tràn}$ ngang hai mặt chảy mỗi bể, cho tải trọng máng tràn đạt $\text{WLR} = 270\text{ m}^3/(\text{m}\cdot\text{d})$ [Page 11] [Page 14].
+
+$$
+v_{\text{scour}} = \sqrt{\frac{8 k (s - 1) g d}{f}} = \sqrt{\frac{8 \times 0.05 \times (1.25 - 1) \times 9.81 \times 10^{-4}}{0.025}} = 0.063\text{ m/s}
+$$
+
+$$
+\text{WLR} = \frac{Q}{N \times N_{\text{weir}} \times 2 \times W} = \frac{43,200\text{ m}^3/\text{d}}{4 \times 5 \times 2 \times 4\text{ m}} = 270\text{ m}^3/(\text{m}\cdot\text{d})
+$$
+
+**Tổng hợp đáp số và kiểm tra điều kiện biên**: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Hệ thống bể lắng ngang đảm bảo chế độ dòng chảy ổn định và không gây cuốn trôi bùn cặn ở đáy bể [Page 13] [Page 14].
+
+- **Diện tích mặt bằng và thể tích bể ($A_s, V$)**: $A_s = 1,080\text{ m}^2$, $V = 3,780\text{ m}^3$ (Kiểm tra: $\text{OR} = 40\text{ m}^3/(\text{m}^2\cdot\text{d}) \in [30, 50]\text{ m}^3/(\text{m}^2\cdot\text{d})\text{ — Đạt chuẩn Slide }22, 30$)
+- **Thời gian lưu nước ($\text{HRT}$)**: $2.1\text{ h}$ (Kiểm tra: $\text{HRT} \in [1.5, 2.5]\text{ h}\text{ — Đạt chuẩn Slide }22, 30$)
+- **Kích thước $4\text{ đơn nguyên}$ ($L \times W \times H_{\text{total}}$)**: $67.5\text{ m} \times 4\text{ m} \times 4\text{ m}$ (Kiểm tra: $L/W = 16.8 \ge 6$, $L/D = 16.8 \ge 15\text{ — Đạt chuẩn Slide }25, 31$)
+- **Vận tốc dòng chảy ngang ($v_H$)**: $0.0125\text{ m/s}$ (Kiểm tra: $v_H \in [0.005, 0.018]\text{ m/s}\text{ — Đạt chuẩn Slide }25, 31$)
+- **Chuẩn số Reynolds và Froude ($\text{Re}, \text{Fr}$)**: $\text{Re} = 13,833$, $\text{Fr} = 1.435 \times 10^{-5}$ (Kiểm tra: $\text{Re} < 20,000$, $\text{Fr} > 10^{-5}\text{ — Đạt chuẩn Slide }27, 32$)
+- **Vận tốc chống cuốn trôi ($v_{\text{scour}}$)**: $0.063\text{ m/s}$ (Kiểm tra: $v_H = 0.0125\text{ m/s} \le 0.063\text{ m/s}\text{ — Đạt chuẩn Slide }28, 32$)
+- **Tải trọng máng tràn ($\text{WLR}$)**: $270\text{ m}^3/(\text{m}\cdot\text{d})$ (Kiểm tra: $\text{WLR} \in [125, 500]\text{ m}^3/(\text{m}\cdot\text{d})\text{ — Đạt chuẩn Slide }22, 33$)
+
+### Bài tập ch03_3_ex02 (Slide 39-42, Lời giải từ ảnh chụp slide của thầy): Thiết kế bể lắng tải trọng cao dùng ống lắng nghiêng (Tube Settlers)
+
+**Đề bài** ([Lời giải từ ảnh chụp slide của thầy]): Thiết kế bể lắng tải trọng cao dùng hệ thống ống lắng nghiêng tròn đường kính $d = 50\text{ mm}$ ($0.05\text{ m}$) đặt nghiêng góc $\theta = 60^\circ$ cho nhà máy xử lý nước thải có lưu lượng trung bình $Q = 0.5\text{ m}^3/\text{s}$ ($43,200\text{ m}^3/\text{d}$) ở nhiệt độ $20^\circ\text{C}$ ($\nu = 1.003 \times 10^{-6}\text{ m}^2/\text{s}$) [Page 17] [Page 18]. Hãy xác định kích thước bể lắng, chiều dài vùng lắp ống lắng, kiểm tra chuẩn số $\text{Re}, \text{Fr}$ trong ống và tính tải trọng máng tràn [Page 17] [Page 18].
+
+| Thông số thiết kế | Ký hiệu | Giá trị | Đơn vị và Nguồn Slide |
+| :--- | :--- | :--- | :--- |
+| Lưu lượng nước thải thiết kế trung bình | $Q$ | $0.5$ ($43,200$) | $\text{m}^3/\text{s}$ ($\text{m}^3/\text{d}$, Đề bài Slide $39$) |
+| Độ nhớt động học của nước ở $20^\circ\text{C}$ | $\nu$ | $1.003 \times 10^{-6}$ | $\text{m}^2/\text{s}$ (Đề bài Slide $39$) |
+| Đường kính và góc nghiêng ống lắng | $d, \theta$ | $0.05, 60^\circ$ | $\text{m}$, độ (Đề bài Slide $39$, Bảng Slide $38$) |
+| Tải trọng bề mặt chọn thiết kế | $\text{OR}$ | $100$ | $\text{m}^3/(\text{m}^2\cdot\text{d})$ (Bảng Slide $38$, khoảng $60 - 180$) |
+| Tổng chiều cao bể và số đơn nguyên | $H_{\text{total}}, N, W$ | $4.0, 4, 4.0$ | $\text{m}, \text{bể}, \text{m}$ (Slide $40$) |
+| Tỷ lệ diện tích phủ ống lắng | $\eta_{\text{cover}}$ | $75\%$ | Phần trăm diện tích bể ($\le 75\%$, Bảng Slide $38$) |
+| Số máng tràn dọc vùng ống lắng $27\text{ m}$ | $N_{\text{weir}}$ | $1$ | $\text{máng/bể}$ ($2\text{ bên/máng}$, cách tường $2\text{ m}$, Slide $42$) |
+
+**Bước 1 - Tính diện tích vùng lắng, chiều dài vùng ống lắng và chiều dài bể**: Với tải trọng bề mặt chọn trên Slide $40$ là $\text{OR} = 100\text{ m}^3/(\text{m}^2\cdot\text{d})$, tổng diện tích bề mặt vùng ống lắng đạt $A_s = 432\text{ m}^2$ [Page 18]. Chia đều cho $4\text{ bể}$ rộng $W = 4\text{ m}$ và độ phủ ống lắng $75\%$, chiều dài vùng ống lắng đạt $L_{\text{settler}} = 27\text{ m}$ và tổng chiều dài mỗi bể đạt $L_{\text{tank}} = 36\text{ m}$ [Page 18].
+
+$$
+A_s = \frac{Q}{\text{OR}} = \frac{43,200\text{ m}^3/\text{d}}{100\text{ m}^3/(\text{m}^2\cdot\text{d})} = 432\text{ m}^2
+$$
+
+$$
+L_{\text{settler}} = \frac{432 / 4}{4\text{ m}} = 27\text{ m} \Rightarrow L_{\text{tank}} = \frac{27\text{ m}}{0.75} = 36\text{ m}
+$$
+
+**Bước 2 - Tính vận tốc dòng chảy và bán kính thủy lực bên trong ống lắng**: Trên Slide $41$, vận tốc dòng chảy dọc theo ống lắng nghiêng góc $60^\circ$ đạt $v_s = 115.47\text{ m/d}$, tương đương $0.00134\text{ m/s}$ [Page 17] [Page 18]. Bán kính thủy lực của ống tròn đường kính $d = 0.05\text{ m}$ được tính bằng $R = d/4 = 0.0125\text{ m}$ [Page 18].
+
+$$
+v_s = \frac{\text{OR}}{\sin 60^\circ} = \frac{100\text{ m/d}}{\sin 60^\circ} = 115.47\text{ m/d} = 0.00134\text{ m/s}
+$$
+
+$$
+R = \frac{A}{P} = \frac{\pi d^2 / 4}{\pi d} = \frac{d}{4} = \frac{0.05\text{ m}}{4} = 0.0125\text{ m}
+$$
+
+**Bước 3 - Kiểm tra chuẩn số Reynolds, Froude và tải trọng máng tràn**: Chuẩn số Reynolds trong ống lắng đạt $\text{Re} = 16.7 < 50$ và chuẩn số Froude đạt $\text{Fr} = 1.46 \times 10^{-5} > 10^{-5}$ [Page 17] [Page 18]. Trên Slide $42$, bố trí $1\text{ máng tràn}$ dọc theo chiều dài vùng ống lắng $27\text{ m}$ (thu nước $2\text{ bên}$) cho tải trọng máng tràn đạt $\text{WLR} = 200\text{ m}^3/(\text{m}\cdot\text{d})$ [Page 18].
+
+$$
+\text{Re} = \frac{v_s R}{\nu} = \frac{0.00134 \times 0.0125}{1.003 \times 10^{-6}} = 16.7, \quad \text{Fr} = \frac{v_s^2}{g R} = \frac{0.00134^2}{9.81 \times 0.0125} = 1.46 \times 10^{-5}
+$$
+
+$$
+\text{WLR} = \frac{Q}{N \times N_{\text{weir}} \times 2 \times L_{\text{settler}}} = \frac{43,200\text{ m}^3/\text{d}}{4 \times 1 \times 2 \times 27\text{ m}} = 200\text{ m}^3/(\text{m}\cdot\text{d})
+$$
+
+**Tổng hợp đáp số và kiểm tra điều kiện biên**: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Việc ứng dụng ống lắng nghiêng giúp giảm chiều dài bể từ $67.5\text{ m}$ xuống còn $36\text{ m}$ và duy trì chế độ chảy tầng ổn định [Page 17] [Page 18].
+
+- **Diện tích vùng ống lắng ($A_s$)**: $432\text{ m}^2$ (Kiểm tra: $\text{OR} = 100\text{ m}^3/(\text{m}^2\cdot\text{d}) \in [60, 180]\text{ m}^3/(\text{m}^2\cdot\text{d})\text{ — Đạt chuẩn Slide }38, 40$)
+- **Chiều dài vùng ống lắng và chiều dài bể ($L_{\text{settler}}, L_{\text{tank}}$)**: $L_{\text{settler}} = 27\text{ m}$, $L_{\text{tank}} = 36\text{ m}$ (Kiểm tra: $\text{Độ phủ }75\% \le 75\%\text{ — Đạt chuẩn Slide }38, 40$)
+- **Vận tốc và bán kính thủy lực trong ống ($v_s, R$)**: $v_s = 0.00134\text{ m/s}$ ($0.0802\text{ m/min}$), $R = 0.0125\text{ m}$ (Kiểm tra: $v_s \le 0.15\text{ m/min}\text{ — Đạt chuẩn Slide }38, 41$)
+- **Chuẩn số Reynolds và Froude trong ống ($\text{Re}, \text{Fr}$)**: $\text{Re} = 16.7$, $\text{Fr} = 1.46 \times 10^{-5}$ (Kiểm tra: $\text{Re} < 50$, $\text{Fr} > 10^{-5}\text{ — Đạt chuẩn Slide }38, 41$)
+- **Tải trọng máng tràn dọc ($\text{WLR}$)**: $200\text{ m}^3/(\text{m}\cdot\text{d})$ (Kiểm tra: $\text{WLR} \in [125, 500]\text{ m}^3/(\text{m}\cdot\text{d})\text{ — Đạt chuẩn Slide }22, 42$)
+
+### Bài tập proj_ch03_3_hw01 (Slide 42-44, Lời giải từ ảnh chụp slide của thầy): Thiết kế bể lắng tròn dòng hướng tâm cho thị trấn 45,000 dân
+
+**Đề bài** ([Lời giải từ ảnh chụp slide của thầy]): Thiết kế bể lắng tròn dòng hướng tâm (xác định đường kính $D$ và chiều sâu công tác $H$) cho thị trấn có quy mô dân số dự kiến $P_{\text{pop}} = 45,000\text{ người}$ với tiêu chuẩn xả thải $q = 400\text{ L}/(\text{người}\cdot\text{d})$ [Page 12]. Bể vận hành với thời gian lưu nước $\text{HRT} = 2\text{ h}$ ở lưu lượng trung bình, tải trọng bề mặt $\text{OR} = 40\text{ m}^3/(\text{m}^2\cdot\text{d})$, bước làm tròn đường kính thiết bị $1.0\text{ m}$ và bước làm tròn chiều sâu $0.5\text{ m}$ [Page 11] [Page 12].
+
+| Thông số thiết kế | Ký hiệu | Giá trị | Đơn vị và Nguồn Slide |
+| :--- | :--- | :--- | :--- |
+| Quy mô dân số quy hoạch của thị trấn | $P_{\text{pop}}$ | $45,000$ | $\text{người}$ (Đề bài Slide $43$) |
+| Tiêu chuẩn cấp thoát nước bình quân | $q$ | $400$ | $\text{L}/(\text{người}\cdot\text{d})$ (Đề bài Slide $43$) |
+| Thời gian lưu nước ở lưu lượng trung bình | $\text{HRT}$ | $2.0$ | $\text{h}$ (Đề bài Slide $43$, Bảng Slide $22$) |
+| Tải trọng bề mặt ở lưu lượng trung bình | $\text{OR}$ | $40$ | $\text{m}^3/(\text{m}^2\cdot\text{d})$ (Đề bài Slide $43$, Bảng Slide $22$) |
+| Bước làm tròn đường kính và chiều sâu | $\Delta D, \Delta H$ | $1.0, 0.5$ | $\text{m}$ (Đề bài Slide $43$) |
+
+**Bước 1 - Tính lưu lượng thiết kế, diện tích mặt bằng và thể tích bể lắng**: Theo lời giải trên Slide $44$, lưu lượng nước thải trung bình của thị trấn đạt $Q = 18,000\text{ m}^3/\text{d}$ [Page 11]. Từ tải trọng bề mặt $\text{OR} = 40\text{ m}^3/(\text{m}^2\cdot\text{d})$ và thời gian lưu nước $\text{HRT} = 2\text{ h}$, diện tích mặt bằng bể yêu cầu đạt $A_s = 450\text{ m}^2$ và thể tích bể đạt $V = 1,500\text{ m}^3$ [Page 11] [Page 12].
+
+$$
+Q = 45,000 \times 400 \times \frac{1\text{ m}^3}{1,000\text{ L}} = 18,000\text{ m}^3/\text{d}
+$$
+
+$$
+A_s = \frac{18,000}{40} = 450\text{ m}^2, \quad V = 18,000 \times 2\text{ h} \times \frac{1\text{ d}}{24\text{ h}} = 1,500\text{ m}^3
+$$
+
+**Bước 2 - Tính và chọn đường kính cùng chiều sâu công tác của bể lắng tròn**: Đường kính tính toán từ diện tích $A_s = 450\text{ m}^2$ đạt $D_{\text{calc}} = 23.9\text{ m}$, được làm tròn theo bước $1.0\text{ m}$ thành đường kính thiết kế $D = 24\text{ m}$ [Page 12]. Chiều sâu công tác tính theo đường kính $D = 24\text{ m}$ đạt $H_{\text{calc}} = 3.3\text{ m}$, được làm tròn theo bước $0.5\text{ m}$ thành chiều sâu thiết kế $H = 3.5\text{ m}$ [Page 12].
+
+$$
+D_{\text{calc}} = \sqrt{\frac{4 \times 450\text{ m}^2}{\pi}} = 23.9\text{ m} \rightarrow \text{Chọn } D = 24\text{ m}
+$$
+
+$$
+H_{\text{calc}} = \frac{1,500\text{ m}^3}{(\pi / 4) \times (24\text{ m})^2} = 3.3\text{ m} \rightarrow \text{Chọn } H = 3.5\text{ m}
+$$
+
+**Tổng hợp đáp số và kiểm tra điều kiện biên**: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Đường kính và chiều sâu bể lắng tròn sau khi làm tròn nằm hoàn toàn trong dải kích thước chuẩn của bảng Slide $24$ [Page 12].
+
+- **Lưu lượng thiết kế trung bình ($Q$)**: $18,000\text{ m}^3/\text{d}$ (Kiểm tra: $Q = P_{\text{pop}} \times q\text{ — Đạt chuẩn Slide }44$)
+- **Diện tích mặt bằng và thể tích yêu cầu ($A_s, V$)**: $A_s = 450\text{ m}^2$, $V = 1,500\text{ m}^3$ (Kiểm tra: $\text{OR} = 40\text{ m}^3/(\text{m}^2\cdot\text{d})$, $\text{HRT} = 2\text{ h}\text{ — Đạt chuẩn Slide }22, 44$)
+- **Đường kính bể lắng tròn ($D$)**: $23.9\text{ m} \rightarrow \text{chọn }24\text{ m}$ (Kiểm tra: $D \in [3, 60]\text{ m}$, điển hình $12 - 45\text{ m}\text{ — Đạt chuẩn Slide }24, 44$)
+- **Chiều sâu thành bên của bể ($H$)**: $3.3\text{ m} \rightarrow \text{chọn }3.5\text{ m}$ (Kiểm tra: $H \in [3.0, 4.9]\text{ m}\text{ — Đạt chuẩn Slide }24, 44$)
+
+### Bài tập proj_ch03_3_hw02 (Slide 44 và 46, Lời giải từ ảnh chụp slide của thầy): Kiểm tra điều kiện chống cuốn trôi hạt cặn đáy trong bể lắng ngang
+
+**Đề bài** ([Lời giải từ ảnh chụp slide của thầy]): Một bể lắng ngang hình chữ nhật vận hành ở tải trọng bề mặt $\text{OR} = 30\text{ m}^3/(\text{m}^2\cdot\text{d})$ có kích thước chiều sâu $D = 2.75\text{ m}$, chiều rộng $W = 6\text{ m}$ và chiều dài $L = 15\text{ m}$ [Page 14]. Hãy xác định xem các hạt cặn đã lắng ở đáy bể có đường kính $d = 0.1\text{ mm}$ ($0.1 \times 10^{-3}\text{ m}$), hệ số ma sát $f = 0.03$, hằng số kết dính $k = 0.04$ và tỷ trọng $s = 1.25$ trên Slide $46$ (hoặc $s = 2.5$ trên đề bài) có bị dòng chảy ngang cuốn trôi hay không [Page 14].
+
+| Thông số thiết kế | Ký hiệu | Giá trị | Đơn vị và Nguồn Slide |
+| :--- | :--- | :--- | :--- |
+| Tải trọng bề mặt của bể lắng | $\text{OR}$ | $30$ | $\text{m}^3/(\text{m}^2\cdot\text{d})$ (Đề bài Slide $44$) |
+| Chiều sâu, chiều rộng và chiều dài bể | $D, W, L$ | $2.75, 6.0, 15.0$ | $\text{m}$ ($A_s = 90\text{ m}^2, A_h = 16.5\text{ m}^2$, Slide $44, 46$) |
+| Đường kính hạt cặn lắng ở đáy bể | $d$ | $0.1 \times 10^{-3}$ | $\text{m}$ ($0.1\text{ mm}$, Đề bài Slide $44, 46$) |
+| Hằng số kết dính và hệ số ma sát | $k, f$ | $0.04, 0.03$ | Không thứ nguyên (Đề bài Slide $44, 46$) |
+| Tỷ trọng hạt cặn và gia tốc trọng trường | $s, g$ | $1.25$ (hoặc $2.5$), $9.81$ | Không thứ nguyên, $\text{m/s}^2$ (Slide $44, 46$) |
+
+**Bước 1 - Tính vận tốc dòng chảy ngang thực tế trong bể lắng**: Trên Slide $46$, lưu lượng qua bể được biểu diễn bằng tích số giữa tải trọng bề mặt $\text{OR}$ và diện tích mặt bằng $A_s = W \times L$ [Page 14]. Chia lưu lượng $Q$ cho diện tích mặt cắt ngang $A_h = D \times W$ và đổi đơn vị thời gian sang giây cho vận tốc ngang thực tế đạt $V_h = 0.0019\text{ m/s}$ [Page 14].
+
+$$
+V_h = \frac{Q}{A_h} = \frac{\text{OR} \times A_s}{A_h} = \frac{30 \times (6\text{ m} \times 15\text{ m})}{2.75\text{ m} \times 6\text{ m}} \times \frac{1\text{ d}}{86,400\text{ s}} = 0.0019\text{ m/s}
+$$
+
+**Bước 2 - Tính vận tốc cuốn trôi giới hạn và kết luận điều kiện ổn định**: Áp dụng phương trình Camp-Shields trên Slide $46$ với $s = 1.25$ cho vận tốc cuốn trôi giới hạn đạt $v_{\text{scour}} = 0.0125\text{ m/s}$ (nếu thay $s = 2.5$ theo đề bài thì $v_{\text{scour}} = 0.0396\text{ m/s}$) [Page 14]. Do vận tốc ngang $V_h = 0.0019\text{ m/s}$ nhỏ hơn nhiều so với $v_{\text{scour}}$, các hạt cặn hoàn toàn không bị cuốn trôi khỏi đáy bể [Page 14].
+
+$$
+v_{\text{scour}} = \sqrt{\frac{8 k (s - 1) g d}{f}} = \sqrt{\frac{8 \times 0.04 \times (1.25 - 1) \times 9.81 \times 0.1 \times 10^{-3}}{0.03}} = 0.0125\text{ m/s}
+$$
+
+$$
+V_h = 0.0019\text{ m/s} < v_{\text{scour}} = 0.0125\text{ m/s} \quad (\text{hoặc } 0.0396\text{ m/s khi } s = 2.5)
+$$
+
+**Tổng hợp đáp số và kiểm tra điều kiện biên**: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Chế độ thủy lực trong bể đảm bảo an toàn chống xói lở và cuốn trôi lớp bùn lắng đáy [Page 14].
+
+- **Diện tích mặt bằng và tiết diện ướt ($A_s, A_h$)**: $A_s = 90\text{ m}^2$, $A_h = 16.5\text{ m}^2$ (Kiểm tra: $W = 6\text{ m} \le W_{\max} = 6\text{ m}\text{ — Đạt chuẩn Slide }25, 46$)
+- **Vận tốc dòng chảy ngang thực tế ($V_h$)**: $0.0019\text{ m/s}$ (Kiểm tra: $V_h \ll 0.018\text{ m/s}\text{ — Đạt chuẩn Slide }25, 46$)
+- **Vận tốc cuốn trôi giới hạn ($v_{\text{scour}}$)**: $0.0125\text{ m/s}$ ứng với $s = 1.25$ và $0.0396\text{ m/s}$ ứng với $s = 2.5$ (Kiểm tra: $V_h < v_{\text{scour}}\text{ — Hạt cặn không bị cuốn trôi, đạt chuẩn Slide }46$)
+
+### Bài tập proj_ch03_3_hw03 (Slide 45, Lời giải khôi phục theo chuẩn slide của thầy): Đánh giá lựa chọn và so sánh bể lắng sơ cấp hình chữ nhật với bể lắng hình tròn
+
+**Đề bài** ([Lời giải khôi phục theo chuẩn slide của thầy]): Một nhà máy xử lý nước thải quy mô vừa đang được thiết kế và cân nhắc lựa chọn giữa bể lắng sơ cấp hình chữ nhật và bể lắng sơ cấp hình tròn [Page 2] [Page 12]. Kỹ sư hãy trình bày các tiêu chí kỹ thuật cần đánh giá, phân tích ưu nhược điểm định lượng của từng loại bể theo chuẩn Slide $4, 24, 25$ và trích dẫn ít nhất $3$ tài liệu tham khảo chuyên ngành xuất bản từ năm $2000$ trở lại đây [Page 2] [Page 4] [Page 12] [Page 13].
+
+| Tiêu chí kỹ thuật | Ký hiệu / Thông số | Phương án 1 (Bể lắng hình chữ nhật) | Phương án 2 (Bể lắng hình tròn) |
+| :--- | :--- | :--- | :--- |
+| Kích thước hình học chuẩn | $L, W, D, H$ | $L = 15 - 90\text{ m}$, $W = 3 - 24\text{ m}$, sâu $3 - 4.9\text{ m}$ | Đường kính $D = 3 - 60\text{ m}$ (điển hình $12 - 45\text{ m}$), sâu $3 - 4.9\text{ m}$ |
+| Tỷ số hình học và độ dốc đáy | $L/W, L/D, i_{\text{bottom}}$ | $L/W = 4/1 - 6/1$ ($\ge 6/1$), $L/D \ge 15/1$, dốc $1/600$ | Cấp nước từ tâm hoặc chu vi, độ dốc đáy $1/16 - 1/6$ (điển hình $1/12$) |
+| Thiết bị và vận tốc gạt bùn | $v_{\text{scraper}}, \omega$ | Xích tải $W_{\max} = 6\text{ m}$, vận tốc $0.6 - 1.2\text{ m/min}$ | Dàn gạt quay tâm, tốc độ quay $0.02 - 0.05\text{ rev/min}$ ($0.03\text{ rev/min}$) |
+| Ưu điểm công nghệ và xây dựng | $\text{Footprint}, \text{Fr}$ | Tiết kiệm đất, dùng tường chung, dễ lắp tấm che phẳng khử mùi | Cơ cấu gạt quay bền bỉ, ít bảo trì, tường trụ tròn chịu lực tốt |
+| Nhược điểm vận hành | $\text{Wear}, \text{Short-circuit}$ | Xích và nhông ngầm dễ mài mòn, giới hạn $W \le 6\text{ m}$ mỗi khoang | Tốn diện tích đất, không dùng tường chung, dễ chảy tắt do gió |
+
+**Bước 1 - Phân tích các tiêu chí hình học và sử dụng đất xây dựng**: Bể lắng hình chữ nhật ghép sát nhiều đơn nguyên song song qua tường chung bê tông cốt thép và duy trì tỷ số chiều dài trên chiều rộng $L/W \ge 6/1$ cùng tỷ số $L/D \ge 15/1$ trên Slide $25$ [Page 2] [Page 13]. Ngược lại, bể lắng hình tròn có đường kính điển hình $D$ từ $12\text{ đến }45\text{ m}$ và độ dốc đáy $i = 1/12$ trên Slide $24$, đòi hỏi khoảng cách bố trí độc lập nên tốn diện tích mặt bằng hơn từ $25\%\text{ đến }40\%$ [Page 4] [Page 12].
+
+$$
+\left(\frac{L}{W}\right)_{\text{rect}} \ge \frac{6}{1}, \quad \left(\frac{L}{D}\right)_{\text{rect}} \ge \frac{15}{1}, \quad W_{\text{chain}} \le 6\text{ m}, \quad i_{\text{rect}} = \frac{1}{600}
+$$
+
+**Bước 2 - Đánh giá độ tin cậy cơ khí, chế độ thủy lực và chi phí che phủ khử mùi**: Bể chữ nhật đạt chuẩn số Froude $\text{Fr} > 10^{-5}$ ổn định và dễ lắp tấm đan phẳng thu khí mùi chi phí thấp, nhưng hệ xích tải vận hành ở tốc độ $0.6\text{ đến }1.2\text{ m/min}$ có nhiều chi tiết ngập nước dễ mài mòn [Page 12] [Page 14]. Bể lắng tròn sử dụng dàn gạt quay quanh tâm ở tốc độ góc $\omega = 0.02\text{ đến }0.05\text{ rev/min}$ rất bền cơ học (dùng dầm bắc ngang khi $D = 3.6 - 9\text{ m}$ và trụ trung tâm khi $D \ge 10.5\text{ m}$), nhưng dễ bị dòng tuần hoàn do gió và tốn kém khi lắp mái vòm lớn [Page 4] [Page 10] [Page 12].
+
+$$
+v_{\text{chain}} \in [0.6, 1.2]\text{ m/min}, \quad \omega_{\text{circular}} \in [0.02, 0.05]\text{ rev/min}, \quad i_{\text{circular}} = \frac{1}{12}
+$$
+
+**Tổng hợp đáp số và kiểm tra điều kiện biên**: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Danh mục tài liệu tham khảo dưới đây cung cấp đầy đủ cơ sở thiết kế bể lắng xuất bản sau năm $2000$ [Page 2] [Page 12].
+
+- **Phương án bể lắng hình chữ nhật ($\text{Rectangular tank}$)**: $\text{Chọn khi quỹ đất hẹp, nhiều đơn nguyên dùng tường chung, cần che kín xử lý mùi}$ (Kiểm tra: $L/W \ge 6/1, W \le 6\text{ m}\text{ — Đạt chuẩn Slide }2, 24, 25$)
+- **Phương án bể lắng hình tròn ($\text{Circular tank}$)**: $\text{Chọn khi quỹ đất rộng, ưu tiên thiết bị gạt quay quanh tâm bền bỉ, ít bảo trì}$ (Kiểm tra: $D = 12 - 45\text{ m}, i = 1/12\text{ — Đạt chuẩn Slide }4, 24$)
+- **Tài liệu tham khảo $[1]$ và $[2]$ ($\text{Năm }2014, 2018$)**: $\text{Metcalf \& Eddy (2014, 5th ed., McGraw-Hill); WEF MOP 8 (2018, 6th ed.)}$ (Kiểm tra: $\text{Xuất bản sau năm }2000\text{ — Đạt chuẩn đề bài Slide }45$)
+- **Tài liệu tham khảo $[3]$ và $[4]$ ($\text{Năm }2017, 2020$)**: $\text{Davis (2020, 2nd ed., McGraw-Hill); Qasim \& Zhu (2017, CRC Press)}$ (Kiểm tra: $\text{Đủ }4 \ge 3\text{ tài liệu sau năm }2000\text{ — Đạt chuẩn đề bài Slide }45$)
+
+### Bài tập proj_ch03_api_hw01 (Slide 32, Lời giải khôi phục theo chuẩn slide của thầy): Thiết kế bể tách dầu mỡ API cho trạm bảo dưỡng đầu máy xe lửa
+
+**Đề bài** ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể tách dầu mỡ API (API oil-water separator) cho trạm bảo dưỡng đầu máy xe lửa có lưu lượng nước thải $Q = 180\text{ m}^3/\text{h}$, nhiệt độ $t = 20^\circ\text{C}$ và khối lượng riêng của dầu $\rho_o = 900\text{ kg/m}^3$ [Page 13]. Kết quả thí nghiệm cho vận tốc nổi của hạt dầu đường kính $150\text{ }\mu\text{m}$ là $v_t = 4.5\text{ m/h}$ ($0.075\text{ m/min}$) và vận tốc dòng chảy ngang tối đa cho phép là $V_H = 45\text{ m/h}$ ($0.75\text{ m/min}$) [Page 13].
+
+| Thông số thiết kế | Ký hiệu | Giá trị | Đơn vị và Nguồn Slide |
+| :--- | :--- | :--- | :--- |
+| Lưu lượng nước thải thiết kế | $Q$ | $180$ ($3.0$) | $\text{m}^3/\text{h}$ ($\text{m}^3/\text{min}$, Đề bài Slide $32$) |
+| Nhiệt độ và khối lượng riêng hạt dầu | $t, \rho_o$ | $20^\circ\text{C}, 900$ | $\text{kg/m}^3$ (Đề bài Slide $32$) |
+| Vận tốc nổi của giọt dầu $150\text{ }\mu\text{m}$ | $v_t$ | $4.5$ ($0.075$) | $\text{m/h}$ ($\text{m/min}$, Đề bài Slide $32$) |
+| Vận tốc dòng chảy ngang thiết kế | $V_H$ | $45$ ($0.75$) | $\text{m/h}$ ($\text{m/min}$, $V_H \le 15 v_t$, Slide $32$) |
+| Số kênh song song và chiều rộng kênh | $N, B$ | $2, 2.0$ | $\text{kênh}, \text{m}$ ($B \in [1.8, 6.0]\text{ m}$ theo chuẩn API) |
+| Hệ số thiết kế tổng hợp chuẩn API 421 | $F = F_1 F_2$ | $1.54$ | Không thứ nguyên ($F_1 = 1.2, F_2 = 1.28$ ở $V_H / v_t = 10$) |
+
+**Bước 1 - Kiểm tra tỷ số vận tốc và xác định diện tích mặt cắt ngang**: Tỷ số giữa vận tốc dòng chảy ngang $V_H$ và vận tốc nổi của giọt dầu $v_t$ đạt $V_H / v_t = 10 \le 15$, thỏa mãn điều kiện giới hạn của tiêu chuẩn API [Page 13]. Tổng diện tích mặt cắt ngang dòng chảy yêu cầu đạt $A_c = 4.0\text{ m}^2$, khi chia thành $N = 2\text{ kênh}$ rộng $B = 2.0\text{ m}$ thì chiều sâu nước mỗi kênh đạt $d = 1.0\text{ m}$ và tỷ số $d/B = 0.50$ [Page 13].
+
+$$
+\frac{V_H}{v_t} = \frac{45\text{ m/h}}{4.5\text{ m/h}} = 10 \le 15, \quad A_c = \frac{Q}{V_H} = \frac{180\text{ m}^3/\text{h}}{45\text{ m/h}} = 4.0\text{ m}^2
+$$
+
+$$
+d = \frac{A_c}{N \times B} = \frac{4.0\text{ m}^2}{2 \times 2.0\text{ m}} = 1.0\text{ m} \Rightarrow \frac{d}{B} = \frac{1.0}{2.0} = 0.50 \in [0.3, 0.5]
+$$
+
+**Bước 2 - Tính diện tích bề mặt, chiều dài kênh tách dầu và thời gian lưu nước**: Diện tích mặt bằng lý tưởng đạt $A_{s,\text{ideal}} = 40.0\text{ m}^2$ ứng với chiều dài lý tưởng $L_{\text{ideal}} = 10.0\text{ m}$ mỗi kênh [Page 13]. Khi nhân hệ số rối và chảy tắt $F = 1.54$ của tiêu chuẩn API 421 ở $V_H / v_t = 10$, diện tích mặt bằng thiết kế đạt $A_s = 61.6\text{ m}^2$, chiều dài mỗi kênh đạt $L = 15.4\text{ m}$ và thời gian lưu nước đạt $\text{HRT} = 20.5\text{ min}$ [Page 13].
+
+$$
+A_{s,\text{ideal}} = \frac{Q}{v_t} = \frac{180}{4.5} = 40.0\text{ m}^2 \Rightarrow A_s = F \times A_{s,\text{ideal}} = 1.54 \times 40.0 = 61.6\text{ m}^2
+$$
+
+$$
+L = \frac{A_s}{N \times B} = \frac{61.6\text{ m}^2}{2 \times 2.0\text{ m}} = 15.4\text{ m}, \quad \text{HRT} = \frac{61.6 \times 1.0}{180} = 0.342\text{ h} = 20.5\text{ min}
+$$
+
+**Tổng hợp đáp số và kiểm tra điều kiện biên**: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Kích thước kênh tách dầu API đảm bảo điều kiện hình học chống rối dòng và thu gom hiệu quả các giọt dầu có đường kính từ $150\text{ }\mu\text{m}$ trở lên [Page 13].
+
+- **Diện tích mặt cắt ngang ($A_c$)**: $4.0\text{ m}^2$ (Kiểm tra: $V_H / v_t = 10 \le 15$, $V_H = 45\text{ m/h} \le 54\text{ m/h}\text{ — Đạt chuẩn API Slide }32$)
+- **Kích thước tiết diện $2\text{ kênh}$ song song ($N, B, d$)**: $N = 2\text{ kênh}$, $B = 2.0\text{ m}$, $d = 1.0\text{ m}$ (hoặc $N = 1\text{ kênh}$ rộng $B = 3.0\text{ m}$, sâu $d = 1.35\text{ m}$) (Kiểm tra: $d/B = 0.50 \in [0.3, 0.5]\text{ — Đạt chuẩn API Slide }32$)
+- **Diện tích bề mặt lý tưởng và thiết kế ($A_{s,\text{ideal}}, A_s$)**: $A_{s,\text{ideal}} = 40.0\text{ m}^2$, $A_s = 61.6\text{ m}^2$ (Kiểm tra: $F = F_1 \times F_2 = 1.2 \times 1.28 = 1.54\text{ — Đạt chuẩn API Slide }32$)
+- **Chiều dài mỗi kênh và thời gian lưu nước ($L, \text{HRT}$)**: $L = 15.4\text{ m}$ ($L_{\text{ideal}} = 10.0\text{ m}$), $\text{HRT} = 20.5\text{ min}$ (Kiểm tra: $L/B = 7.7 \ge 5.0\text{ — Đạt chuẩn API Slide }32$)

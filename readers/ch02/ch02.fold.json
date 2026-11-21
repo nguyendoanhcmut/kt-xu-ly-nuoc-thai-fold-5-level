@@ -1,0 +1,1512 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-2-thi-t-k-b-i-u-h-a-chapter-2-c6c837a3",
+  "lang": "vi",
+  "title": "Chương 2 Thiết kế Bể Điều hòa (Chapter 2 Equalization Tank Design)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch02_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:42:48Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-08T00:42:47",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-biến-thiên-lưu-lượng-tải-lượng-ô-nhiễm-và-vai-trò-của-bể-điều-hòa-influent-variations-and-purpose-of-equalization-tank",
+      "num": "1",
+      "title": "Biến thiên lưu lượng, tải lượng ô nhiễm và vai trò của bể điều hòa (Influent Variations and Purpose of Equalization Tank)",
+      "depth": 1,
+      "takeaway": "Bể điều hòa hấp thụ dao động lưu lượng và nồng độ để ổn định tải lượng",
+      "topic": "Bể điều hòa",
+      "units": [
+        {
+          "id": "p-09c87adc",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Nước thải đầu vào tại các trạm xử lý luôn biến thiên mạnh theo thời gian trong ngày về cả lưu lượng dòng chảy (Flowrate fluctuation) và nồng độ chất ô nhiễm (Concentration fluctuation) [Page 1] [Page 2] [Page 3]. Trên biểu đồ lưu lượng theo giờ trong ngày, lưu lượng nước thải giảm thấp vào ban đêm quanh mốc 06:00 sáng và tăng vọt lên các đỉnh cao điểm vào buổi trưa (12:00) và buổi tối (18:00) so với đường lưu lượng trung bình ngày (Average daily flow) [Page 3]. Tương tự, nồng độ $\\text{COD}$ đầu vào biến động liên tục từ dưới $5,000\\text{ mg/L}$ lên trên $20,000\\text{ mg/L}$ nếu không có công trình cân bằng, trong khi việc điều hòa theo chu kỳ 12 giờ hoặc 24 giờ giúp giảm hệ số đỉnh (Peak factor) xuống $\\text{PF} = 1.46$ và $\\text{PF} = 1.28$ [Page 3]. Mục tiêu cốt lõi của bể điều hòa (Equalization tank) là cung cấp dung tích lưu trữ đủ lớn để hấp thụ toàn bộ dao động lưu lượng và dao động tải lượng chất bẩn trước khi bơm sang cụm xử lý phía sau với lưu lượng không đổi (Constant rate pumping) [Page 2] [Page 3].",
+          "sentences": [
+            "Nước thải đầu vào tại các trạm xử lý luôn biến thiên mạnh theo thời gian trong ngày về cả lưu lượng dòng chảy (Flowrate fluctuation) và nồng độ chất ô nhiễm (Concentration fluctuation) [Page 1] [Page 2] [Page 3].",
+            "Trên biểu đồ lưu lượng theo giờ trong ngày, lưu lượng nước thải giảm thấp vào ban đêm quanh mốc 06:00 sáng và tăng vọt lên các đỉnh cao điểm vào buổi trưa (12:00) và buổi tối (18:00) so với đường lưu lượng trung bình ngày (Average daily flow) [Page 3].",
+            "Tương tự, nồng độ $\\text{COD}$ đầu vào biến động liên tục từ dưới $5,000\\text{ mg/L}$ lên trên $20,000\\text{ mg/L}$ nếu không có công trình cân bằng, trong khi việc điều hòa theo chu kỳ 12 giờ hoặc 24 giờ giúp giảm hệ số đỉnh (Peak factor) xuống $\\text{PF} = 1.46$ và $\\text{PF} = 1.28$ [Page 3].",
+            "Mục tiêu cốt lõi của bể điều hòa (Equalization tank) là cung cấp dung tích lưu trữ đủ lớn để hấp thụ toàn bộ dao động lưu lượng và dao động tải lượng chất bẩn trước khi bơm sang cụm xử lý phía sau với lưu lượng không đổi (Constant rate pumping) [Page 2] [Page 3]."
+          ],
+          "brief": [
+            "Nước thải đầu vào tại các trạm xử lý luôn biến thiên mạnh theo thời gian trong ngày về cả lưu lượng dòng chảy (Flowrate fluctuation) và nồng độ chất ô nhiễm (Concentration fluctuation) [Page 1] [Page 2] [Page 3].",
+            "Mục tiêu cốt lõi của bể điều hòa (Equalization tank) là cung cấp dung tích lưu trữ đủ lớn để hấp thụ toàn bộ dao động lưu lượng và dao động tải lượng chất bẩn trước khi bơm sang cụm xử lý phía sau với lưu lượng không đổi (Constant rate pumping) [Page 2] [Page 3]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Bể điều hòa lưu trữ nước thải để hấp thụ dao động lưu lượng theo giờ. Lưu lượng và nồng độ $\\text{COD}$ biến thiên mạnh giữa ngày và đêm, còn bể điều hòa giúp bơm sang công trình tiếp theo với lưu lượng không đổi.",
+          "takeaway": "Bể điều hòa lưu trữ nước thải để hấp thụ dao động lưu lượng theo giờ",
+          "topic": "Bể điều hòa"
+        },
+        {
+          "id": "p-06f5c247",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Việc bố trí bể điều hòa mang lại nhiều lợi ích kỹ thuật và kinh tế cho toàn bộ dây chuyền xử lý nước thải phía sau [Page 4]. Bể điều hòa nâng cao hiệu suất xử lý của các công trình đơn vị tiếp theo, đồng thời giảm kích thước hình học và chi phí đầu tư xây dựng của các bể phía sau nhờ thiết kế theo lưu lượng trung bình thay vì lưu lượng đỉnh [Page 4]. Đối với quá trình xử lý sinh học (Biological treatment), bể điều hòa triệt tiêu hiện tượng sốc tải (Shock loadings), pha loãng các chất ức chế và ổn định giá trị pH cho vi sinh vật [Page 4]. Đối với quá trình xử lý hóa lý (Chemical treatment) và lọc bậc ba (Tertiary filtration), dòng chảy ổn định giúp kiểm soát chính xác liều lượng châm hóa chất keo tụ, nâng cao độ tin cậy vận hành và giảm diện tích bề mặt bể lọc cần thiết [Page 4]. Tuy nhiên, việc xây dựng bể điều hòa cũng có một số hạn chế mà kỹ sư cần cân nhắc gồm đòi hỏi diện tích mặt bằng tương đối lớn, phát sinh thêm công tác vận hành và bảo trì thiết bị khuấy sục khí, tiềm ẩn nguy cơ phát sinh mùi hôi nếu thiếu khí và làm tăng chi phí đầu tư ban đầu cho cụm đầu mối [Page 4].",
+          "sentences": [
+            "Việc bố trí bể điều hòa mang lại nhiều lợi ích kỹ thuật và kinh tế cho toàn bộ dây chuyền xử lý nước thải phía sau [Page 4].",
+            "Bể điều hòa nâng cao hiệu suất xử lý của các công trình đơn vị tiếp theo, đồng thời giảm kích thước hình học và chi phí đầu tư xây dựng của các bể phía sau nhờ thiết kế theo lưu lượng trung bình thay vì lưu lượng đỉnh [Page 4]. Đối với quá trình xử lý sinh học (Biological treatment), bể điều hòa triệt tiêu hiện tượng sốc tải (Shock loadings), pha loãng các chất ức chế và ổn định giá trị pH cho vi sinh vật [Page 4]. Đối với quá trình xử lý hóa lý (Chemical treatment) và lọc bậc ba (Tertiary filtration), dòng chảy ổn định giúp kiểm soát chính xác liều lượng châm hóa chất keo tụ, nâng cao độ tin cậy vận hành và giảm diện tích bề mặt bể lọc cần thiết [Page 4].",
+            "Tuy nhiên, việc xây dựng bể điều hòa cũng có một số hạn chế mà kỹ sư cần cân nhắc gồm đòi hỏi diện tích mặt bằng tương đối lớn, phát sinh thêm công tác vận hành và bảo trì thiết bị khuấy sục khí, tiềm ẩn nguy cơ phát sinh mùi hôi nếu thiếu khí và làm tăng chi phí đầu tư ban đầu cho cụm đầu mối [Page 4]."
+          ],
+          "brief": [
+            "Bể điều hòa nâng cao hiệu suất xử lý của các công trình đơn vị tiếp theo, đồng thời giảm kích thước hình học và chi phí đầu tư xây dựng của các bể phía sau nhờ thiết kế theo lưu lượng trung bình thay vì lưu lượng đỉnh [Page 4]. Đối với quá trình xử lý sinh học (Biological treatment), bể điều hòa triệt tiêu hiện tượng sốc tải (Shock loadings), pha loãng các chất ức chế và ổn định giá trị pH cho vi sinh vật [Page 4]. Đối với quá trình xử lý hóa lý (Chemical treatment) và lọc bậc ba (Tertiary filtration), dòng chảy ổn định giúp kiểm soát chính xác liều lượng châm hóa chất keo tụ, nâng cao độ tin cậy vận hành và giảm diện tích bề mặt bể lọc cần thiết [Page 4].",
+            "Tuy nhiên, việc xây dựng bể điều hòa cũng có một số hạn chế mà kỹ sư cần cân nhắc gồm đòi hỏi diện tích mặt bằng tương đối lớn, phát sinh thêm công tác vận hành và bảo trì thiết bị khuấy sục khí, tiềm ẩn nguy cơ phát sinh mùi hôi nếu thiếu khí và làm tăng chi phí đầu tư ban đầu cho cụm đầu mối [Page 4]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Bể điều hòa chống sốc tải cho bể sinh học và giảm kích thước bể sau. Tuy nhiên công trình này đòi hỏi diện tích đất lớn, chi phí đầu tư ban đầu cao và cần khuấy sục khí để ngăn mùi hôi.",
+          "takeaway": "Bể điều hòa chống sốc tải cho bể sinh học và giảm kích thước bể sau",
+          "topic": "bể sinh học"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-phương-pháp-xác-định-thể-tích-lý-thuyết-và-thể-tích-thực-tế-của-bể-điều-hòa-theoretical-and-practical-volume-requirements",
+      "num": "2",
+      "title": "Phương pháp xác định thể tích lý thuyết và thể tích thực tế của bể điều hòa (Theoretical and Practical Volume Requirements)",
+      "depth": 1,
+      "takeaway": "Thể tích bể lý thuyết bằng hiệu số tích lũy cực trị và nhân hệ số $1.2$",
+      "topic": "Thể tích bể",
+      "units": [
+        {
+          "id": "p-311d9f2f",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Thể tích lý thuyết của bể điều hòa (Theoretical volume, $V_{\\text{theo}}$) được xác định dựa trên đường cong thể tích nước thải vào tích lũy (Inflow mass diagram) so với đường lưu lượng bơm ra trung bình ngày (Average daily flowrate) trong chu kỳ 24 giờ từ nửa đêm (M) qua giữa trưa (N) đến nửa đêm hôm sau (M) [Page 5]. Theo phương pháp đồ thị tại Slide 9, kỹ sư vẽ hai đường tiếp tuyến song song với đường lưu lượng trung bình ngày tại điểm cực đại và điểm cực tiểu của đường cong tích lũy, sau đó đo khoảng cách tung độ thẳng đứng giữa hai tiếp tuyến để tìm thể tích điều hòa lý thuyết cần thiết [Page 5]. Theo phương pháp lập bảng số liệu theo từng giờ, kỹ sư tính thể tích nước vào mỗi giờ ($\\text{Vol}_{\\text{in}}$, đơn vị $\\text{m}^3$), thể tích nước bơm ra đều mỗi giờ ($\\text{Vol}_{\\text{out}} = Q_{\\text{avg}}$, đơn vị $\\text{m}^3$), lượng nước tích trữ trong giờ ($\\text{Storage} = \\text{Vol}_{\\text{in}} - \\text{Vol}_{\\text{out}}$) và thể tích tích lũy ($\\text{Cumulative volume} = \\sum \\text{Storage}$) [Page 5]. Giá trị thể tích lý thuyết được tính bằng hiệu số giữa giá trị tích lũy lớn nhất và giá trị tích lũy nhỏ nhất theo phương trình $V_{\\text{theo}} = \\max(\\text{CumVol}) - \\min(\\text{CumVol})$ (hoặc bằng $\\max(\\text{CumVol})$ nếu toàn bộ cột thể tích tích lũy đều không âm) [Page 5].",
+          "sentences": [
+            "Thể tích lý thuyết của bể điều hòa (Theoretical volume, $V_{\\text{theo}}$) được xác định dựa trên đường cong thể tích nước thải vào tích lũy (Inflow mass diagram) so với đường lưu lượng bơm ra trung bình ngày (Average daily flowrate) trong chu kỳ 24 giờ từ nửa đêm (M) qua giữa trưa (N) đến nửa đêm hôm sau (M) [Page 5].",
+            "Theo phương pháp đồ thị tại Slide 9, kỹ sư vẽ hai đường tiếp tuyến song song với đường lưu lượng trung bình ngày tại điểm cực đại và điểm cực tiểu của đường cong tích lũy, sau đó đo khoảng cách tung độ thẳng đứng giữa hai tiếp tuyến để tìm thể tích điều hòa lý thuyết cần thiết [Page 5].",
+            "Theo phương pháp lập bảng số liệu theo từng giờ, kỹ sư tính thể tích nước vào mỗi giờ ($\\text{Vol}_{\\text{in}}$, đơn vị $\\text{m}^3$), thể tích nước bơm ra đều mỗi giờ ($\\text{Vol}_{\\text{out}} = Q_{\\text{avg}}$, đơn vị $\\text{m}^3$), lượng nước tích trữ trong giờ ($\\text{Storage} = \\text{Vol}_{\\text{in}} - \\text{Vol}_{\\text{out}}$) và thể tích tích lũy ($\\text{Cumulative volume} = \\sum \\text{Storage}$) [Page 5].",
+            "Giá trị thể tích lý thuyết được tính bằng hiệu số giữa giá trị tích lũy lớn nhất và giá trị tích lũy nhỏ nhất theo phương trình $V_{\\text{theo}} = \\max(\\text{CumVol}) - \\min(\\text{CumVol})$ (hoặc bằng $\\max(\\text{CumVol})$ nếu toàn bộ cột thể tích tích lũy đều không âm) [Page 5]."
+          ],
+          "brief": [
+            "Thể tích lý thuyết của bể điều hòa (Theoretical volume, $V_{\\text{theo}}$) được xác định dựa trên đường cong thể tích nước thải vào tích lũy (Inflow mass diagram) so với đường lưu lượng bơm ra trung bình ngày (Average daily flowrate) trong chu kỳ 24 giờ từ nửa đêm (M) qua giữa trưa (N) đến nửa đêm hôm sau (M) [Page 5].",
+            "Giá trị thể tích lý thuyết được tính bằng hiệu số giữa giá trị tích lũy lớn nhất và giá trị tích lũy nhỏ nhất theo phương trình $V_{\\text{theo}} = \\max(\\text{CumVol}) - \\min(\\text{CumVol})$ (hoặc bằng $\\max(\\text{CumVol})$ nếu toàn bộ cột thể tích tích lũy đều không âm) [Page 5]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Thể tích lý thuyết bằng hiệu số thể tích tích lũy cực đại và cực tiểu. Kỹ sư xác định giá trị này bằng khoảng cách thẳng đứng giữa hai tiếp tuyến trên đồ thị tích lũy hoặc lập bảng tính từng giờ.",
+          "takeaway": "Thể tích lý thuyết bằng hiệu số thể tích tích lũy cực đại và cực tiểu",
+          "topic": "Thể tích lý thuyết"
+        },
+        {
+          "id": "p-6af779e3",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Thể tích thực tế của bể điều hòa (Practical volume, $V_{\\text{prac}}$) luôn được chọn lớn hơn thể tích lý thuyết theo công thức thiết kế chuẩn $V_{\\text{prac}} = (1.1\\text{–}1.2) \\times V_{\\text{theo}}$ [Page 5]. Trong thực hành giải bài tập thiết kế chuẩn trên lớp của Tiến sĩ Nguyễn Hoàng Dũng, hệ số dự trữ an toàn được chọn thống nhất bằng $1.2$ (tức $120\\%$ thể tích lý thuyết, $V_{\\text{prac}} = 1.2 \\times V_{\\text{theo}}$) [Page 5]. Việc nhân hệ số tăng thể tích từ $1.1$ đến $1.2$ đáp ứng ba yêu cầu kỹ thuật thiết yếu trong vận hành thực tế [Page 5]. Thứ nhất, hệ thống thiết bị khuấy trộn chìm và hệ thống phân phối khí dưới đáy bể đòi hỏi một lớp nước ngập tối thiểu thường trực để vận hành an toàn mà không bị xâm thực hoặc cháy thiết bị [Page 5]. Thứ hai, bể điều hòa cần dung tích đệm bổ sung để tiếp nhận các dòng tuần hoàn nội bộ và dòng nước rửa lọc hoặc nước tách bùn trả về từ các công trình phía sau, đồng thời đảm bảo an toàn khi lưu lượng nước thải đầu vào biến động bất thường vượt dự báo [Page 5].",
+          "sentences": [
+            "Thể tích thực tế của bể điều hòa (Practical volume, $V_{\\text{prac}}$) luôn được chọn lớn hơn thể tích lý thuyết theo công thức thiết kế chuẩn $V_{\\text{prac}} = (1.1\\text{–}1.2) \\times V_{\\text{theo}}$ [Page 5].",
+            "Trong thực hành giải bài tập thiết kế chuẩn trên lớp của Tiến sĩ Nguyễn Hoàng Dũng, hệ số dự trữ an toàn được chọn thống nhất bằng $1.2$ (tức $120\\%$ thể tích lý thuyết, $V_{\\text{prac}} = 1.2 \\times V_{\\text{theo}}$) [Page 5].",
+            "Việc nhân hệ số tăng thể tích từ $1.1$ đến $1.2$ đáp ứng ba yêu cầu kỹ thuật thiết yếu trong vận hành thực tế [Page 5].",
+            "Thứ nhất, hệ thống thiết bị khuấy trộn chìm và hệ thống phân phối khí dưới đáy bể đòi hỏi một lớp nước ngập tối thiểu thường trực để vận hành an toàn mà không bị xâm thực hoặc cháy thiết bị [Page 5].",
+            "Thứ hai, bể điều hòa cần dung tích đệm bổ sung để tiếp nhận các dòng tuần hoàn nội bộ và dòng nước rửa lọc hoặc nước tách bùn trả về từ các công trình phía sau, đồng thời đảm bảo an toàn khi lưu lượng nước thải đầu vào biến động bất thường vượt dự báo [Page 5]."
+          ],
+          "brief": [
+            "Thể tích thực tế của bể điều hòa (Practical volume, $V_{\\text{prac}}$) luôn được chọn lớn hơn thể tích lý thuyết theo công thức thiết kế chuẩn $V_{\\text{prac}} = (1.1\\text{–}1.2) \\times V_{\\text{theo}}$ [Page 5].",
+            "Trong thực hành giải bài tập thiết kế chuẩn trên lớp của Tiến sĩ Nguyễn Hoàng Dũng, hệ số dự trữ an toàn được chọn thống nhất bằng $1.2$ (tức $120\\%$ thể tích lý thuyết, $V_{\\text{prac}} = 1.2 \\times V_{\\text{theo}}$) [Page 5]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Thể tích thực tế của bể điều hòa bằng $1.1$ đến $1.2$ lần thể tích lý thuyết. Phần dung tích tăng thêm giữ mực nước ngập tối thiểu cho thiết bị khuấy sục khí, tiếp nhận dòng tuần hoàn và dự phòng lưu lượng vượt tải.",
+          "takeaway": "Thể tích thực tế của bể điều hòa bằng $1.1$ đến $1.2$ lần thể tích lý thuyết",
+          "topic": "Thể tích thực tế"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-thông-số-thiết-kế-khuấy-trộn-cấp-khí-hình-học-bể-và-thiết-bị-điều-khiển-mixing-aeration-tank-geometry-and-equipment-design",
+      "num": "3",
+      "title": "Thông số thiết kế khuấy trộn, cấp khí, hình học bể và thiết bị điều khiển (Mixing, Aeration, Tank Geometry, and Equipment Design)",
+      "depth": 1,
+      "takeaway": "Thiết kế bể điều hòa quy định suất khuấy trộn, cấp khí, hình học và bơm VFD",
+      "topic": "Thiết kế bể",
+      "units": [
+        {
+          "id": "p-fcbb5bd9",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Hệ thống khuấy trộn cơ học và cấp khí trong bể điều hòa giữ cho chất rắn lơ lửng không bị lắng đọng dưới đáy bể và ngăn ngừa quá trình lên men kỵ khí gây mùi hôi [Page 6]. Đối với nước thải sinh hoạt có nồng độ chất rắn lơ lửng khoảng $\\text{SS} \\approx 200\\text{ mg/L}$, công suất khuấy trộn yêu cầu nằm trong khoảng $0.004\\text{–}0.008\\text{ kW/m}^3$ thể tích bể điều hòa, trong đó giá trị thiết kế chuẩn thường chọn là $0.008\\text{ kW/m}^3$ với máy khuấy chìm (Submersible mixers) là thiết bị phổ biến nhất để chống lắng cặn [Page 6]. Để duy trì điều kiện hiếu khí và triệt tiêu mùi hôi do phân hủy kỵ khí, lưu lượng không khí cần cấp nằm trong dải $0.01\\text{–}0.015\\text{ m}^3\\text{ air/(min}\\cdot\\text{m}^3\\text{)}$ thể tích bể (chọn $0.01\\text{ m}^3\\text{/(min}\\cdot\\text{m}^3\\text{)}$ cho nước thải đô thị và $0.012\\text{ m}^3\\text{/(min}\\cdot\\text{m}^3\\text{)}$ cho nước thải nhà máy làm việc theo ca) [Page 6]. Nếu sử dụng khí nén để vừa duy trì điều kiện hiếu khí vừa đảm nhận hoàn toàn việc xáo trộn bể, lưu lượng khí cấp cần đạt $1.8\\text{–}2.9\\text{ m}^3\\text{ air/(h}\\cdot\\text{m}^3\\text{)}$ thể tích bể [Page 6]. Quá trình sục khí trong bể điều hòa có thể làm giảm trước khoảng $10\\%$ nồng độ $\\text{BOD}$, và đường ống cấp khí cho bể điều hòa phải được tách biệt độc lập với hệ thống cấp khí của bể sinh học phía sau để dễ dàng điều chỉnh lưu lượng khí [Page 6] [Page 7].",
+          "sentences": [
+            "Hệ thống khuấy trộn cơ học và cấp khí trong bể điều hòa giữ cho chất rắn lơ lửng không bị lắng đọng dưới đáy bể và ngăn ngừa quá trình lên men kỵ khí gây mùi hôi [Page 6]. Đối với nước thải sinh hoạt có nồng độ chất rắn lơ lửng khoảng $\\text{SS} \\approx 200\\text{ mg/L}$, công suất khuấy trộn yêu cầu nằm trong khoảng $0.004\\text{–}0.008\\text{ kW/m}^3$ thể tích bể điều hòa, trong đó giá trị thiết kế chuẩn thường chọn là $0.008\\text{ kW/m}^3$ với máy khuấy chìm (Submersible mixers) là thiết bị phổ biến nhất để chống lắng cặn [Page 6]. Để duy trì điều kiện hiếu khí và triệt tiêu mùi hôi do phân hủy kỵ khí, lưu lượng không khí cần cấp nằm trong dải $0.01\\text{–}0.015\\text{ m}^3\\text{ air/(min}\\cdot\\text{m}^3\\text{)}$ thể tích bể (chọn $0.01\\text{ m}^3\\text{/(min}\\cdot\\text{m}^3\\text{)}$ cho nước thải đô thị và $0.012\\text{ m}^3\\text{/(min}\\cdot\\text{m}^3\\text{)}$ cho nước thải nhà máy làm việc theo ca) [Page 6].",
+            "Nếu sử dụng khí nén để vừa duy trì điều kiện hiếu khí vừa đảm nhận hoàn toàn việc xáo trộn bể, lưu lượng khí cấp cần đạt $1.8\\text{–}2.9\\text{ m}^3\\text{ air/(h}\\cdot\\text{m}^3\\text{)}$ thể tích bể [Page 6].",
+            "Quá trình sục khí trong bể điều hòa có thể làm giảm trước khoảng $10\\%$ nồng độ $\\text{BOD}$, và đường ống cấp khí cho bể điều hòa phải được tách biệt độc lập với hệ thống cấp khí của bể sinh học phía sau để dễ dàng điều chỉnh lưu lượng khí [Page 6] [Page 7]."
+          ],
+          "brief": [
+            "Hệ thống khuấy trộn cơ học và cấp khí trong bể điều hòa giữ cho chất rắn lơ lửng không bị lắng đọng dưới đáy bể và ngăn ngừa quá trình lên men kỵ khí gây mùi hôi [Page 6]. Đối với nước thải sinh hoạt có nồng độ chất rắn lơ lửng khoảng $\\text{SS} \\approx 200\\text{ mg/L}$, công suất khuấy trộn yêu cầu nằm trong khoảng $0.004\\text{–}0.008\\text{ kW/m}^3$ thể tích bể điều hòa, trong đó giá trị thiết kế chuẩn thường chọn là $0.008\\text{ kW/m}^3$ với máy khuấy chìm (Submersible mixers) là thiết bị phổ biến nhất để chống lắng cặn [Page 6]. Để duy trì điều kiện hiếu khí và triệt tiêu mùi hôi do phân hủy kỵ khí, lưu lượng không khí cần cấp nằm trong dải $0.01\\text{–}0.015\\text{ m}^3\\text{ air/(min}\\cdot\\text{m}^3\\text{)}$ thể tích bể (chọn $0.01\\text{ m}^3\\text{/(min}\\cdot\\text{m}^3\\text{)}$ cho nước thải đô thị và $0.012\\text{ m}^3\\text{/(min}\\cdot\\text{m}^3\\text{)}$ cho nước thải nhà máy làm việc theo ca) [Page 6].",
+            "Quá trình sục khí trong bể điều hòa có thể làm giảm trước khoảng $10\\%$ nồng độ $\\text{BOD}$, và đường ống cấp khí cho bể điều hòa phải được tách biệt độc lập với hệ thống cấp khí của bể sinh học phía sau để dễ dàng điều chỉnh lưu lượng khí [Page 6] [Page 7]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Bể cần suất khuấy trộn $0.004\\text{, }0.008\\text{ kW/m}^3$ và khí $0.01\\text{, }0.015\\text{ m}^3\\text{/(min}\\cdot\\text{m}^3\\text{)}$. Khuấy trộn cơ học bằng máy khuấy chìm ngăn lắng cặn lơ lửng, còn sục khí ngăn lên men kỵ khí gây mùi và giảm trước khoảng $10\\%$ $\\text{BOD}$.",
+          "takeaway": "Bể cần suất khuấy trộn $0.004\\text{, }0.008\\text{ kW/m}^3$ và khí $0.01\\text{, }0.015\\text{ m}^3\\text{/(min}\\cdot\\text{m}^3\\text{)}$",
+          "topic": "suất khuấy trộn"
+        },
+        {
+          "id": "p-161658af",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Cấu tạo hình học của bể điều hòa và hệ thống thiết bị đo lường điều khiển quyết định tuổi thọ của máy bơm, máy khuấy và máy thổi khí [Page 7] [Page 8]. Khi bố trí mặt bằng bể, kỹ sư cần tránh thiết kế bể hình chữ nhật quá dài và phải đặt vị trí cửa vào cùng cửa ra hợp lý nhằm giảm thiểu hiện tượng chảy tắt (Short circuiting) [Page 7]. Hồ đất đắp có trải màng chống thấm (Earth basins with an impermeable liner) thường có chi phí xây dựng thấp nhất, và chiều sâu mực nước tối thiểu phụ thuộc vào loại thiết bị sục khí nhưng phải đạt ít nhất $1.5\\text{ m}$ [Page 7]. Về trang thiết bị bảo vệ và tự động hóa, bể điều hòa phải được trang bị hệ thống báo cáo mực nước tự động bằng cảm biến siêu âm (Ultrasonic sensor) để giám sát mực nước và điều khiển đóng ngắt máy bơm tự động (Auto ON/OFF) kết hợp công tắc phao báo mức cao dự phòng (Backup high-level float switch) để phát tín hiệu báo động khi cảm biến siêu âm gặp sự cố [Page 8]. Toàn bộ máy bơm nước thải của bể điều hòa cần sử dụng biến tần điều chỉnh tần số (Variable frequency drive - VFD pumps), và máy thổi khí phải có rơ-le ngắt mức nước thấp (Low-level shutoff) khi mực nước hạ xuống dưới mức vận hành tối thiểu [Page 8].",
+          "sentences": [
+            "Cấu tạo hình học của bể điều hòa và hệ thống thiết bị đo lường điều khiển quyết định tuổi thọ của máy bơm, máy khuấy và máy thổi khí [Page 7] [Page 8].",
+            "Khi bố trí mặt bằng bể, kỹ sư cần tránh thiết kế bể hình chữ nhật quá dài và phải đặt vị trí cửa vào cùng cửa ra hợp lý nhằm giảm thiểu hiện tượng chảy tắt (Short circuiting) [Page 7].",
+            "Hồ đất đắp có trải màng chống thấm (Earth basins with an impermeable liner) thường có chi phí xây dựng thấp nhất, và chiều sâu mực nước tối thiểu phụ thuộc vào loại thiết bị sục khí nhưng phải đạt ít nhất $1.5\\text{ m}$ [Page 7].",
+            "Về trang thiết bị bảo vệ và tự động hóa, bể điều hòa phải được trang bị hệ thống báo cáo mực nước tự động bằng cảm biến siêu âm (Ultrasonic sensor) để giám sát mực nước và điều khiển đóng ngắt máy bơm tự động (Auto ON/OFF) kết hợp công tắc phao báo mức cao dự phòng (Backup high-level float switch) để phát tín hiệu báo động khi cảm biến siêu âm gặp sự cố [Page 8].",
+            "Toàn bộ máy bơm nước thải của bể điều hòa cần sử dụng biến tần điều chỉnh tần số (Variable frequency drive - VFD pumps), và máy thổi khí phải có rơ-le ngắt mức nước thấp (Low-level shutoff) khi mực nước hạ xuống dưới mức vận hành tối thiểu [Page 8]."
+          ],
+          "brief": [
+            "Hồ đất đắp có trải màng chống thấm (Earth basins with an impermeable liner) thường có chi phí xây dựng thấp nhất, và chiều sâu mực nước tối thiểu phụ thuộc vào loại thiết bị sục khí nhưng phải đạt ít nhất $1.5\\text{ m}$ [Page 7].",
+            "Toàn bộ máy bơm nước thải của bể điều hòa cần sử dụng biến tần điều chỉnh tần số (Variable frequency drive - VFD pumps), và máy thổi khí phải có rơ-le ngắt mức nước thấp (Low-level shutoff) khi mực nước hạ xuống dưới mức vận hành tối thiểu [Page 8]."
+          ],
+          "evidence": [
+            2,
+            4
+          ],
+          "key": "Bể điều hòa cần chiều sâu tối thiểu $1.5\\text{ m}$, cảm biến siêu âm và bơm VFD. Hình dạng bể cần tránh chữ nhật quá dài để chống chảy tắt, đồng thời dùng phao báo mức cao dự phòng và ngắt mức thấp để bảo vệ thiết bị.",
+          "takeaway": "Bể điều hòa cần chiều sâu tối thiểu $1.5\\text{ m}$, cảm biến siêu âm và bơm VFD",
+          "topic": "bơm VFD"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-lời-giải-chi-tiết-bài-tập-tính-thể-tích-bể-điều-hòa-trong-slide-pdf-worked-solution-for-slide-example-1-on-tank-volume",
+      "num": "4",
+      "title": "Lời giải chi tiết bài tập tính thể tích bể điều hòa trong Slide PDF (Worked Solution for Slide Example 1 on Tank Volume)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch02_ex01-slide-17-đến-21---example-1-thiết-kế-thể-tích-bể-điều-hòa-công-suất-khuấy-trộn-và-lưu-lượng-khí-cấp",
+      "num": "",
+      "title": "Bài tập ch02_ex01 (Slide 17 đến 21 - Example 1): Thiết kế thể tích bể điều hòa, công suất khuấy trộn và lưu lượng khí cấp",
+      "depth": 2,
+      "takeaway": "Bài tập Example 1 xác định $V_{\\text{theo}} = 4098\\text{ m}^3$, $V_{\\text{prac}} = 4918\\text{ m}^3$, $P_{\\text{mix}} = 39\\text{ kW}$ và $Q_{\\text{air}} = 49\\text{ m}^3\\text{/phút}$",
+      "topic": "Bài tập Example 1",
+      "units": [
+        {
+          "id": "p-b55a5ed8",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Xác định thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$), thể tích bể điều hòa thực tế ($V_{\\text{prac}}$), công suất khuấy trộn cơ học ($P_{\\text{mix}}$) và lưu lượng không khí cần cấp ($Q_{\\text{air}}$) cho trạm xử lý nước thải có dữ liệu lưu lượng đầu vào trong $24\\text{ giờ}$ trên Slide 17 biến thiên từ cực tiểu $Q_{\\min} = 360\\text{ m}^3\\text{/h}$ (khung giờ $5\\text{–}6$) đến cực đại $Q_{\\max} = 1548\\text{ m}^3\\text{/h}$ (khung giờ $11\\text{–N}$) [Page 5] [Page 6] [Page 9].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Xác định thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$), thể tích bể điều hòa thực tế ($V_{\\text{prac}}$), công suất khuấy trộn cơ học ($P_{\\text{mix}}$) và lưu lượng không khí cần cấp ($Q_{\\text{air}}$) cho trạm xử lý nước thải có dữ liệu lưu lượng đầu vào trong $24\\text{ giờ}$ trên Slide 17 biến thiên từ cực tiểu $Q_{\\min} = 360\\text{ m}^3\\text{/h}$ (khung giờ $5\\text{–}6$) đến cực đại $Q_{\\max} = 1548\\text{ m}^3\\text{/h}$ (khung giờ $11\\text{–N}$) [Page 5] [Page 6] [Page 9]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Xác định thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$), thể tích bể điều hòa thực tế ($V_{\\text{prac}}$), công suất khuấy trộn cơ học ($P_{\\text{mix}}$) và lưu lượng không khí cần cấp ($Q_{\\text{air}}$) cho trạm xử lý nước thải có dữ liệu lưu lượng đầu vào trong $24\\text{ giờ}$ trên Slide 17 biến thiên từ cực tiểu $Q_{\\min} = 360\\text{ m}^3\\text{/h}$ (khung giờ $5\\text{–}6$) đến cực đại $Q_{\\max} = 1548\\text{ m}^3\\text{/h}$ (khung giờ $11\\text{–N}$) [Page 5] [Page 6] [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài cho lưu lượng $24\\text{ giờ}$ biến thiên từ $360\\text{ m}^3\\text{/h}$ đến $1548\\text{ m}^3\\text{/h}$.",
+          "takeaway": "Đề bài cho lưu lượng $24\\text{ giờ}$ biến thiên từ $360\\text{ m}^3\\text{/h}$ đến $1548\\text{ m}^3\\text{/h}$",
+          "topic": "Đề bài"
+        },
+        {
+          "id": "p-65d7b911",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính tổng thể tích nước thải ngày và lưu lượng trung bình giờ: Cộng toàn bộ $24\\text{ giá trị}$ lưu lượng giờ trên Slide 18 thu được $\\sum V_{\\text{in}} = 26,550\\text{ m}^3\\text{/ngày}$, từ đó tính được lưu lượng bơm ra ổn định $Q_{\\text{avg}} = 1106.25\\text{ m}^3\\text{/h}$ [Page 9].",
+          "sentences": [
+            "Bước 1 - Tính tổng thể tích nước thải ngày và lưu lượng trung bình giờ: Cộng toàn bộ $24\\text{ giá trị}$ lưu lượng giờ trên Slide 18 thu được $\\sum V_{\\text{in}} = 26,550\\text{ m}^3\\text{/ngày}$, từ đó tính được lưu lượng bơm ra ổn định $Q_{\\text{avg}} = 1106.25\\text{ m}^3\\text{/h}$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 1 - Tính tổng thể tích nước thải ngày và lưu lượng trung bình giờ: Cộng toàn bộ $24\\text{ giá trị}$ lưu lượng giờ trên Slide 18 thu được $\\sum V_{\\text{in}} = 26,550\\text{ m}^3\\text{/ngày}$, từ đó tính được lưu lượng bơm ra ổn định $Q_{\\text{avg}} = 1106.25\\text{ m}^3\\text{/h}$ [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 1 tính tổng thể tích $26,550\\text{ m}^3\\text{/ngày}$ và lưu lượng trung bình $Q_{\\text{avg}} = 1106.25\\text{ m}^3\\text{/h}$.",
+          "takeaway": "Bước 1 tính tổng thể tích $26,550\\text{ m}^3\\text{/ngày}$ và lưu lượng trung bình $Q_{\\text{avg}} = 1106.25\\text{ m}^3\\text{/h}$",
+          "topic": "Bước 1"
+        },
+        {
+          "id": "p-8e547feb",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Lập bảng cân bằng thể tích tích lũy $24\\text{ giờ}$ bắt đầu từ khung giờ N-13: Theo đúng bảng chuẩn của thầy trên Slide 20 (Ảnh #03), tính chênh lệch thể tích từng giờ $\\Delta V_i = V_{\\text{in},i} - 1106.25$ để xác định cực đại $\\max(\\sum \\Delta V) = +2691.00\\text{ m}^3$ tại $23\\text{–M}$ và cực tiểu $\\min(\\sum \\Delta V) = -1407.00\\text{ m}^3$ tại $7\\text{–}8$ [Page 9].",
+          "sentences": [
+            "Bước 2 - Lập bảng cân bằng thể tích tích lũy $24\\text{ giờ}$ bắt đầu từ khung giờ N-13: Theo đúng bảng chuẩn của thầy trên Slide 20 (Ảnh #03), tính chênh lệch thể tích từng giờ $\\Delta V_i = V_{\\text{in},i} - 1106.25$ để xác định cực đại $\\max(\\sum \\Delta V) = +2691.00\\text{ m}^3$ tại $23\\text{–M}$ và cực tiểu $\\min(\\sum \\Delta V) = -1407.00\\text{ m}^3$ tại $7\\text{–}8$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 2 - Lập bảng cân bằng thể tích tích lũy $24\\text{ giờ}$ bắt đầu từ khung giờ N-13: Theo đúng bảng chuẩn của thầy trên Slide 20 (Ảnh #03), tính chênh lệch thể tích từng giờ $\\Delta V_i = V_{\\text{in},i} - 1106.25$ để xác định cực đại $\\max(\\sum \\Delta V) = +2691.00\\text{ m}^3$ tại $23\\text{–M}$ và cực tiểu $\\min(\\sum \\Delta V) = -1407.00\\text{ m}^3$ tại $7\\text{–}8$ [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 2 lập bảng tích lũy đạt cực đại $+2691.00\\text{ m}^3$ và cực tiểu $-1407.00\\text{ m}^3$.",
+          "takeaway": "Bước 2 lập bảng tích lũy đạt cực đại $+2691.00\\text{ m}^3$ và cực tiểu $-1407.00\\text{ m}^3$",
+          "topic": "Bước 2"
+        },
+        {
+          "id": "p-c873d9f0",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Xác định thể tích bể điều hòa lý thuyết và thể tích thực tế: Lấy hiệu số giữa giá trị tích lũy cực đại và cực tiểu trên Slide 21 (Ảnh #04) để tìm $V_{\\text{theo}} = 4098\\text{ m}^3$, sau đó nhân với hệ số $1.2$ thu được $V_{\\text{prac}} = 4918\\text{ m}^3$ [Page 5] [Page 9].",
+          "sentences": [
+            "Bước 3 - Xác định thể tích bể điều hòa lý thuyết và thể tích thực tế: Lấy hiệu số giữa giá trị tích lũy cực đại và cực tiểu trên Slide 21 (Ảnh #04) để tìm $V_{\\text{theo}} = 4098\\text{ m}^3$, sau đó nhân với hệ số $1.2$ thu được $V_{\\text{prac}} = 4918\\text{ m}^3$ [Page 5] [Page 9]."
+          ],
+          "brief": [
+            "Bước 3 - Xác định thể tích bể điều hòa lý thuyết và thể tích thực tế: Lấy hiệu số giữa giá trị tích lũy cực đại và cực tiểu trên Slide 21 (Ảnh #04) để tìm $V_{\\text{theo}} = 4098\\text{ m}^3$, sau đó nhân với hệ số $1.2$ thu được $V_{\\text{prac}} = 4918\\text{ m}^3$ [Page 5] [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 3 xác định thể tích lý thuyết $V_{\\text{theo}} = 4098\\text{ m}^3$ và thực tế $V_{\\text{prac}} = 4918\\text{ m}^3$.",
+          "takeaway": "Bước 3 xác định thể tích lý thuyết $V_{\\text{theo}} = 4098\\text{ m}^3$ và thực tế $V_{\\text{prac}} = 4918\\text{ m}^3$",
+          "topic": "Bước 3"
+        },
+        {
+          "id": "p-310983e4",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính công suất khuấy trộn cơ học và lưu lượng không khí cần cấp: Nhân thể tích thực tế $V_{\\text{prac}} = 4918\\text{ m}^3$ với suất khuấy trộn $0.008\\text{ kW/m}^3$ và suất cấp khí $0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)}$ trên Slide 21, thu được $P_{\\text{mix}} = 39\\text{ kW}$ và $Q_{\\text{air}} = 49\\text{ m}^3\\text{ khí/phút}$ [Page 6] [Page 9].",
+          "sentences": [
+            "Bước 4 - Tính công suất khuấy trộn cơ học và lưu lượng không khí cần cấp: Nhân thể tích thực tế $V_{\\text{prac}} = 4918\\text{ m}^3$ với suất khuấy trộn $0.008\\text{ kW/m}^3$ và suất cấp khí $0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)}$ trên Slide 21, thu được $P_{\\text{mix}} = 39\\text{ kW}$ và $Q_{\\text{air}} = 49\\text{ m}^3\\text{ khí/phút}$ [Page 6] [Page 9]."
+          ],
+          "brief": [
+            "Bước 4 - Tính công suất khuấy trộn cơ học và lưu lượng không khí cần cấp: Nhân thể tích thực tế $V_{\\text{prac}} = 4918\\text{ m}^3$ với suất khuấy trộn $0.008\\text{ kW/m}^3$ và suất cấp khí $0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)}$ trên Slide 21, thu được $P_{\\text{mix}} = 39\\text{ kW}$ và $Q_{\\text{air}} = 49\\text{ m}^3\\text{ khí/phút}$ [Page 6] [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 4 tính công suất khuấy $P_{\\text{mix}} = 39\\text{ kW}$ và lưu lượng khí $Q_{\\text{air}} = 49\\text{ m}^3\\text{/phút}$.",
+          "takeaway": "Bước 4 tính công suất khuấy $P_{\\text{mix}} = 39\\text{ kW}$ và lưu lượng khí $Q_{\\text{air}} = 49\\text{ m}^3\\text{/phút}$",
+          "topic": "Bước 4"
+        },
+        {
+          "id": "p-7bda8dc7",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số khớp hoàn toàn với các slide bài giải của thầy.",
+          "takeaway": "Tổng hợp đáp số khớp hoàn toàn với các slide bài giải của thầy",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-b6b22ffd",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng bơm ra trung bình ($Q_{\\text{avg}}$): $1106.25\\text{ m}^3\\text{/h}$ (Kiểm tra: $\\sum \\Delta V_{11\\text{–N}} = -441.75 + 441.75 = 0.00\\text{ m}^3\\text{ — Đạt chuẩn Slide 20}$)",
+          "sentences": [
+            "Lưu lượng bơm ra trung bình ($Q_{\\text{avg}}$): $1106.25\\text{ m}^3\\text{/h}$ (Kiểm tra: $\\sum \\Delta V_{11\\text{–N}} = -441.75 + 441.75 = 0.00\\text{ m}^3\\text{ — Đạt chuẩn Slide 20}$)"
+          ],
+          "brief": [
+            "Lưu lượng bơm ra trung bình ($Q_{\\text{avg}}$): $1106.25\\text{ m}^3\\text{/h}$ (Kiểm tra: $\\sum \\Delta V_{11\\text{–N}} = -441.75 + 441.75 = 0.00\\text{ m}^3\\text{ — Đạt chuẩn Slide 20}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng bơm ra trung bình bằng $Q_{\\text{avg}} = 1106.25\\text{ m}^3\\text{/h}$.",
+          "takeaway": "Lưu lượng bơm ra trung bình bằng $Q_{\\text{avg}} = 1106.25\\text{ m}^3\\text{/h}$",
+          "topic": "Lưu lượng bơm"
+        },
+        {
+          "id": "p-b191e45c",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$): $4098\\text{ m}^3$ (Kiểm tra: $2691 - (-1407) = 4098\\text{ m}^3\\text{ — Đạt chuẩn Slide 20, 21}$)",
+          "sentences": [
+            "Thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$): $4098\\text{ m}^3$ (Kiểm tra: $2691 - (-1407) = 4098\\text{ m}^3\\text{ — Đạt chuẩn Slide 20, 21}$)"
+          ],
+          "brief": [
+            "Thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$): $4098\\text{ m}^3$ (Kiểm tra: $2691 - (-1407) = 4098\\text{ m}^3\\text{ — Đạt chuẩn Slide 20, 21}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể điều hòa lý thuyết bằng $V_{\\text{theo}} = 4098\\text{ m}^3$.",
+          "takeaway": "Thể tích bể điều hòa lý thuyết bằng $V_{\\text{theo}} = 4098\\text{ m}^3$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-05dacdce",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể điều hòa thực tế ($V_{\\text{prac}}$): $4918\\text{ m}^3$ (Kiểm tra: $\\frac{V_{\\text{prac}}}{V_{\\text{theo}}} = 1.2 \\in [1.1, 1.2]\\text{ — Đạt chuẩn Slide 10, 21}$)",
+          "sentences": [
+            "Thể tích bể điều hòa thực tế ($V_{\\text{prac}}$): $4918\\text{ m}^3$ (Kiểm tra: $\\frac{V_{\\text{prac}}}{V_{\\text{theo}}} = 1.2 \\in [1.1, 1.2]\\text{ — Đạt chuẩn Slide 10, 21}$)"
+          ],
+          "brief": [
+            "Thể tích bể điều hòa thực tế ($V_{\\text{prac}}$): $4918\\text{ m}^3$ (Kiểm tra: $\\frac{V_{\\text{prac}}}{V_{\\text{theo}}} = 1.2 \\in [1.1, 1.2]\\text{ — Đạt chuẩn Slide 10, 21}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể điều hòa thực tế bằng $V_{\\text{prac}} = 4918\\text{ m}^3$ với hệ số $1.2$.",
+          "takeaway": "Thể tích bể điều hòa thực tế bằng $V_{\\text{prac}} = 4918\\text{ m}^3$ với hệ số $1.2$",
+          "topic": "thực tế"
+        },
+        {
+          "id": "p-95a8561c",
+          "kind": "list item",
+          "role": "result",
+          "full": "Công suất khuấy trộn cơ học ($P_{\\text{mix}}$): $39\\text{ kW}$ (Kiểm tra: $p_{\\text{mix}} = 0.008\\text{ kW/m}^3 \\in [0.004, 0.008]\\text{ kW/m}^3\\text{ — Đạt chuẩn Slide 11, 21}$)",
+          "sentences": [
+            "Công suất khuấy trộn cơ học ($P_{\\text{mix}}$): $39\\text{ kW}$ (Kiểm tra: $p_{\\text{mix}} = 0.008\\text{ kW/m}^3 \\in [0.004, 0.008]\\text{ kW/m}^3\\text{ — Đạt chuẩn Slide 11, 21}$)"
+          ],
+          "brief": [
+            "Công suất khuấy trộn cơ học ($P_{\\text{mix}}$): $39\\text{ kW}$ (Kiểm tra: $p_{\\text{mix}} = 0.008\\text{ kW/m}^3 \\in [0.004, 0.008]\\text{ kW/m}^3\\text{ — Đạt chuẩn Slide 11, 21}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Công suất khuấy trộn cơ học bằng $P_{\\text{mix}} = 39\\text{ kW}$ ở suất $0.008\\text{ kW/m}^3$.",
+          "takeaway": "Công suất khuấy trộn cơ học bằng $P_{\\text{mix}} = 39\\text{ kW}$ ở suất $0.008\\text{ kW/m}^3$",
+          "topic": "Công suất khuấy"
+        },
+        {
+          "id": "p-bc728b04",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng không khí cấp ($Q_{\\text{air}}$): $49\\text{ m}^3\\text{ khí/phút}$ (Kiểm tra: $q_{\\text{air}} = 0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)} \\in [0.01, 0.015]\\text{ — Đạt chuẩn Slide 11, 21}$)",
+          "sentences": [
+            "Lưu lượng không khí cấp ($Q_{\\text{air}}$): $49\\text{ m}^3\\text{ khí/phút}$ (Kiểm tra: $q_{\\text{air}} = 0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)} \\in [0.01, 0.015]\\text{ — Đạt chuẩn Slide 11, 21}$)"
+          ],
+          "brief": [
+            "Lưu lượng không khí cấp ($Q_{\\text{air}}$): $49\\text{ m}^3\\text{ khí/phút}$ (Kiểm tra: $q_{\\text{air}} = 0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)} \\in [0.01, 0.015]\\text{ — Đạt chuẩn Slide 11, 21}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng không khí cấp bằng $Q_{\\text{air}} = 49\\text{ m}^3\\text{ khí/phút}$ ở suất $0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)}$.",
+          "takeaway": "Lưu lượng không khí cấp bằng $Q_{\\text{air}} = 49\\text{ m}^3\\text{ khí/phút}$ ở suất $0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)}$",
+          "topic": "Lưu lượng không khí"
+        }
+      ]
+    },
+    {
+      "id": "sec-5-lời-giải-chi-tiết-bài-tập-tính-hiệu-quả-điều-hòa-nồng-độ-bod-trong-slide-pdf-worked-solution-for-slide-example-2-on-bod-equalization",
+      "num": "5",
+      "title": "Lời giải chi tiết bài tập tính hiệu quả điều hòa nồng độ BOD trong Slide PDF (Worked Solution for Slide Example 2 on BOD Equalization)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch02_ex02-slide-25-đến-32---example-2-tính-toán-cân-bằng-khối-lượng-và-hiệu-quả-điều-hòa-nồng-độ-bod",
+      "num": "",
+      "title": "Bài tập ch02_ex02 (Slide 25 đến 32 - Example 2): Tính toán cân bằng khối lượng và hiệu quả điều hòa nồng độ BOD",
+      "depth": 2,
+      "takeaway": "Bài tập Example 2 chứng minh bể điều hòa giảm tỷ số cực trị $\\text{BOD}$ xuống $2.03$",
+      "topic": "Bài tập Example 2",
+      "units": [
+        {
+          "id": "p-601d321a",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy] kết hợp [Lời giải khôi phục theo chuẩn slide của thầy]): Sử dụng cùng bảng lưu lượng $24\\text{ giờ}$ của Example 1 ($Q_{\\text{out}} = 1106.25\\text{ m}^3\\text{/h}$, $V_{\\text{theo}} = 4098\\text{ m}^3$) kết hợp dữ liệu nồng độ $\\text{BOD}$ đầu vào trên Slide 25 biến thiên từ $\\text{BOD}_{\\min} = 45\\text{ mg/L}$ (khung giờ $4\\text{–}5$) đến $\\text{BOD}_{\\max} = 305\\text{ mg/L}$ (khung giờ $21\\text{–}22$), hãy lập bảng cân bằng chất $24\\text{ giờ}$ để xác định nồng độ $\\text{BOD}_{\\text{eq}}$ và tải lượng $\\text{BOD}$ sau điều hòa [Page 9].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] kết hợp [Lời giải khôi phục theo chuẩn slide của thầy]): Sử dụng cùng bảng lưu lượng $24\\text{ giờ}$ của Example 1 ($Q_{\\text{out}} = 1106.25\\text{ m}^3\\text{/h}$, $V_{\\text{theo}} = 4098\\text{ m}^3$) kết hợp dữ liệu nồng độ $\\text{BOD}$ đầu vào trên Slide 25 biến thiên từ $\\text{BOD}_{\\min} = 45\\text{ mg/L}$ (khung giờ $4\\text{–}5$) đến $\\text{BOD}_{\\max} = 305\\text{ mg/L}$ (khung giờ $21\\text{–}22$), hãy lập bảng cân bằng chất $24\\text{ giờ}$ để xác định nồng độ $\\text{BOD}_{\\text{eq}}$ và tải lượng $\\text{BOD}$ sau điều hòa [Page 9]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] kết hợp [Lời giải khôi phục theo chuẩn slide của thầy]): Sử dụng cùng bảng lưu lượng $24\\text{ giờ}$ của Example 1 ($Q_{\\text{out}} = 1106.25\\text{ m}^3\\text{/h}$, $V_{\\text{theo}} = 4098\\text{ m}^3$) kết hợp dữ liệu nồng độ $\\text{BOD}$ đầu vào trên Slide 25 biến thiên từ $\\text{BOD}_{\\min} = 45\\text{ mg/L}$ (khung giờ $4\\text{–}5$) đến $\\text{BOD}_{\\max} = 305\\text{ mg/L}$ (khung giờ $21\\text{–}22$), hãy lập bảng cân bằng chất $24\\text{ giờ}$ để xác định nồng độ $\\text{BOD}_{\\text{eq}}$ và tải lượng $\\text{BOD}$ sau điều hòa [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài xét nồng độ $\\text{BOD}$ đầu vào biến thiên từ $45\\text{ mg/L}$ đến $305\\text{ mg/L}$.",
+          "takeaway": "Đề bài xét nồng độ $\\text{BOD}$ đầu vào biến thiên từ $45\\text{ mg/L}$ đến $305\\text{ mg/L}$",
+          "topic": "Đề bài"
+        },
+        {
+          "id": "p-a85a68e4",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bước 1 - Thiết lập phương trình cân bằng khối lượng nồng độ $\\text{BOD}$ hoàn toàn xáo trộn: Theo Slide 26 (Ảnh #07), nồng độ $\\text{BOD}$ sau điều hòa ở mỗi giờ bằng tổng khối lượng $\\text{BOD}$ dòng vào cộng khối lượng $\\text{BOD}$ tồn đầu giờ chia cho tổng thể tích nước trong bể [Page 9].",
+          "sentences": [
+            "Bước 1 - Thiết lập phương trình cân bằng khối lượng nồng độ $\\text{BOD}$ hoàn toàn xáo trộn: Theo Slide 26 (Ảnh #07), nồng độ $\\text{BOD}$ sau điều hòa ở mỗi giờ bằng tổng khối lượng $\\text{BOD}$ dòng vào cộng khối lượng $\\text{BOD}$ tồn đầu giờ chia cho tổng thể tích nước trong bể [Page 9]."
+          ],
+          "brief": [
+            "Bước 1 - Thiết lập phương trình cân bằng khối lượng nồng độ $\\text{BOD}$ hoàn toàn xáo trộn: Theo Slide 26 (Ảnh #07), nồng độ $\\text{BOD}$ sau điều hòa ở mỗi giờ bằng tổng khối lượng $\\text{BOD}$ dòng vào cộng khối lượng $\\text{BOD}$ tồn đầu giờ chia cho tổng thể tích nước trong bể [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 1 thiết lập phương trình cân bằng khối lượng nồng độ $\\text{BOD}_{\\text{eq}}$ hoàn toàn xáo trộn.",
+          "takeaway": "Bước 1 thiết lập phương trình cân bằng khối lượng nồng độ $\\text{BOD}_{\\text{eq}}$ hoàn toàn xáo trộn",
+          "topic": "Bước 1"
+        },
+        {
+          "id": "p-7539f5be",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính mẫu bốn khung giờ đầu tiên từ $8\\text{–}9$ đến $11\\text{–N}$ theo Slide 27: Bắt đầu tại khung giờ $8\\text{–}9$ khi bể vừa cạn ($V_{sp} = 0\\text{ m}^3$), áp dụng phân số cân bằng khối lượng trên Slide 27 (Ảnh #08) thu được $\\text{BOD}_{\\text{eq}}$ lần lượt bằng $175$, $197$, $210$ và $216\\text{ mg/L}$ [Page 9].",
+          "sentences": [
+            "Bước 2 - Tính mẫu bốn khung giờ đầu tiên từ $8\\text{–}9$ đến $11\\text{–N}$ theo Slide 27: Bắt đầu tại khung giờ $8\\text{–}9$ khi bể vừa cạn ($V_{sp} = 0\\text{ m}^3$), áp dụng phân số cân bằng khối lượng trên Slide 27 (Ảnh #08) thu được $\\text{BOD}_{\\text{eq}}$ lần lượt bằng $175$, $197$, $210$ và $216\\text{ mg/L}$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 2 - Tính mẫu bốn khung giờ đầu tiên từ $8\\text{–}9$ đến $11\\text{–N}$ theo Slide 27: Bắt đầu tại khung giờ $8\\text{–}9$ khi bể vừa cạn ($V_{sp} = 0\\text{ m}^3$), áp dụng phân số cân bằng khối lượng trên Slide 27 (Ảnh #08) thu được $\\text{BOD}_{\\text{eq}}$ lần lượt bằng $175$, $197$, $210$ và $216\\text{ mg/L}$ [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 2 tính bốn khung giờ đầu từ $8\\text{, }9$ đạt $\\text{BOD}_{\\text{eq}}$ bằng $175, 197, 210, 216\\text{ mg/L}$.",
+          "takeaway": "Bước 2 tính bốn khung giờ đầu từ $8\\text{, }9$ đạt $\\text{BOD}_{\\text{eq}}$ bằng $175, 197, 210, 216\\text{ mg/L}$",
+          "topic": "Bước 2"
+        },
+        {
+          "id": "p-b37bc220",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Lập bảng cân bằng chất $24\\text{ giờ}$ và tính tải lượng $\\text{BOD}$ trước, sau điều hòa: Tính liên tiếp từ khung giờ $8\\text{–}9$ đến $7\\text{–}8$ hôm sau và đổi tải lượng khối sang $\\text{kg/h}$ bằng cách chia cho $1000\\text{ g/kg}$, xác định được đỉnh $\\text{BOD}_{\\text{eq},\\max} = 246\\text{ mg/L}$ tại $21\\text{–}22$ và đáy $\\text{BOD}_{\\text{eq},\\min} = 121\\text{ mg/L}$ tại $6\\text{–}7$ [Page 9].",
+          "sentences": [
+            "Bước 3 - Lập bảng cân bằng chất $24\\text{ giờ}$ và tính tải lượng $\\text{BOD}$ trước, sau điều hòa: Tính liên tiếp từ khung giờ $8\\text{–}9$ đến $7\\text{–}8$ hôm sau và đổi tải lượng khối sang $\\text{kg/h}$ bằng cách chia cho $1000\\text{ g/kg}$, xác định được đỉnh $\\text{BOD}_{\\text{eq},\\max} = 246\\text{ mg/L}$ tại $21\\text{–}22$ và đáy $\\text{BOD}_{\\text{eq},\\min} = 121\\text{ mg/L}$ tại $6\\text{–}7$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 3 - Lập bảng cân bằng chất $24\\text{ giờ}$ và tính tải lượng $\\text{BOD}$ trước, sau điều hòa: Tính liên tiếp từ khung giờ $8\\text{–}9$ đến $7\\text{–}8$ hôm sau và đổi tải lượng khối sang $\\text{kg/h}$ bằng cách chia cho $1000\\text{ g/kg}$, xác định được đỉnh $\\text{BOD}_{\\text{eq},\\max} = 246\\text{ mg/L}$ tại $21\\text{–}22$ và đáy $\\text{BOD}_{\\text{eq},\\min} = 121\\text{ mg/L}$ tại $6\\text{–}7$ [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 3 lập bảng $24\\text{ giờ}$ tìm được đỉnh $246\\text{ mg/L}$ và đáy $121\\text{ mg/L}$.",
+          "takeaway": "Bước 3 lập bảng $24\\text{ giờ}$ tìm được đỉnh $246\\text{ mg/L}$ và đáy $121\\text{ mg/L}$",
+          "topic": "Bước 3"
+        },
+        {
+          "id": "p-61e58e12",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Đánh giá tỷ số cực đại, cực tiểu của nồng độ và tải lượng $\\text{BOD}$ theo Slide 32: So sánh hai bảng tổng hợp trên Slide 32 (Ảnh #09 và #10), tỷ số $\\text{Peak/Min}$ của nồng độ giảm từ $6.78$ xuống $2.03$ và tỷ số $\\text{Peak/Min}$ của tải lượng khối giảm hơn $12\\text{ lần}$ từ $25.82$ xuống $2.03$ [Page 9].",
+          "sentences": [
+            "Bước 4 - Đánh giá tỷ số cực đại, cực tiểu của nồng độ và tải lượng $\\text{BOD}$ theo Slide 32: So sánh hai bảng tổng hợp trên Slide 32 (Ảnh #09 và #10), tỷ số $\\text{Peak/Min}$ của nồng độ giảm từ $6.78$ xuống $2.03$ và tỷ số $\\text{Peak/Min}$ của tải lượng khối giảm hơn $12\\text{ lần}$ từ $25.82$ xuống $2.03$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 4 - Đánh giá tỷ số cực đại, cực tiểu của nồng độ và tải lượng $\\text{BOD}$ theo Slide 32: So sánh hai bảng tổng hợp trên Slide 32 (Ảnh #09 và #10), tỷ số $\\text{Peak/Min}$ của nồng độ giảm từ $6.78$ xuống $2.03$ và tỷ số $\\text{Peak/Min}$ của tải lượng khối giảm hơn $12\\text{ lần}$ từ $25.82$ xuống $2.03$ [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 4 xác nhận tỷ số cực trị của nồng độ và tải lượng giảm còn $2.03$.",
+          "takeaway": "Bước 4 xác nhận tỷ số cực trị của nồng độ và tải lượng giảm còn $2.03$",
+          "topic": "Bước 4"
+        },
+        {
+          "id": "p-7bda8dc7-2",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số chứng minh hiệu quả chống sốc tải trên Slide $32$.",
+          "takeaway": "Tổng hợp đáp số chứng minh hiệu quả chống sốc tải trên Slide $32$",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-885cf535",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ $\\text{BOD}$ cực đại sau điều hòa ($\\text{BOD}_{\\text{eq},\\max}$): $246\\text{ mg/L}$ (Kiểm tra: $246\\text{ mg/L} < 305\\text{ mg/L}\\text{ tại giờ } 21\\text{–}22\\text{ — Đạt chuẩn Slide 32}$)",
+          "sentences": [
+            "Nồng độ $\\text{BOD}$ cực đại sau điều hòa ($\\text{BOD}_{\\text{eq},\\max}$): $246\\text{ mg/L}$ (Kiểm tra: $246\\text{ mg/L} < 305\\text{ mg/L}\\text{ tại giờ } 21\\text{–}22\\text{ — Đạt chuẩn Slide 32}$)"
+          ],
+          "brief": [
+            "Nồng độ $\\text{BOD}$ cực đại sau điều hòa ($\\text{BOD}_{\\text{eq},\\max}$): $246\\text{ mg/L}$ (Kiểm tra: $246\\text{ mg/L} < 305\\text{ mg/L}\\text{ tại giờ } 21\\text{–}22\\text{ — Đạt chuẩn Slide 32}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ cực đại sau điều hòa giảm xuống $\\text{BOD}_{\\text{eq},\\max} = 246\\text{ mg/L}$ tại giờ $21\\text{, }22$.",
+          "takeaway": "Nồng độ cực đại sau điều hòa giảm xuống $\\text{BOD}_{\\text{eq},\\max} = 246\\text{ mg/L}$ tại giờ $21\\text{, }22$",
+          "topic": "Nồng độ cực đại"
+        },
+        {
+          "id": "p-c197d91a",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ $\\text{BOD}$ cực tiểu sau điều hòa ($\\text{BOD}_{\\text{eq},\\min}$): $121\\text{ mg/L}$ (Kiểm tra: $121\\text{ mg/L} > 45\\text{ mg/L}\\text{ tại giờ } 6\\text{–}7\\text{ — Đạt chuẩn Slide 32}$)",
+          "sentences": [
+            "Nồng độ $\\text{BOD}$ cực tiểu sau điều hòa ($\\text{BOD}_{\\text{eq},\\min}$): $121\\text{ mg/L}$ (Kiểm tra: $121\\text{ mg/L} > 45\\text{ mg/L}\\text{ tại giờ } 6\\text{–}7\\text{ — Đạt chuẩn Slide 32}$)"
+          ],
+          "brief": [
+            "Nồng độ $\\text{BOD}$ cực tiểu sau điều hòa ($\\text{BOD}_{\\text{eq},\\min}$): $121\\text{ mg/L}$ (Kiểm tra: $121\\text{ mg/L} > 45\\text{ mg/L}\\text{ tại giờ } 6\\text{–}7\\text{ — Đạt chuẩn Slide 32}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ cực tiểu sau điều hòa tăng lên $\\text{BOD}_{\\text{eq},\\min} = 121\\text{ mg/L}$ tại giờ $6\\text{, }7$.",
+          "takeaway": "Nồng độ cực tiểu sau điều hòa tăng lên $\\text{BOD}_{\\text{eq},\\min} = 121\\text{ mg/L}$ tại giờ $6\\text{, }7$",
+          "topic": "Nồng độ cực tiểu"
+        },
+        {
+          "id": "p-c176fe64",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ số $\\text{Peak/Min}$ của nồng độ $\\text{BOD}$: $2.03$ (Kiểm tra: $\\frac{246}{121} = 2.03 < \\frac{305}{45} = 6.78\\text{ — Đạt chuẩn Slide 32}$)",
+          "sentences": [
+            "Tỷ số $\\text{Peak/Min}$ của nồng độ $\\text{BOD}$: $2.03$ (Kiểm tra: $\\frac{246}{121} = 2.03 < \\frac{305}{45} = 6.78\\text{ — Đạt chuẩn Slide 32}$)"
+          ],
+          "brief": [
+            "Tỷ số $\\text{Peak/Min}$ của nồng độ $\\text{BOD}$: $2.03$ (Kiểm tra: $\\frac{246}{121} = 2.03 < \\frac{305}{45} = 6.78\\text{ — Đạt chuẩn Slide 32}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ số biên độ nồng độ $\\text{BOD}$ giảm từ $6.78$ xuống còn $2.03$.",
+          "takeaway": "Tỷ số biên độ nồng độ $\\text{BOD}$ giảm từ $6.78$ xuống còn $2.03$",
+          "topic": "biên độ nồng độ"
+        },
+        {
+          "id": "p-f34f63e5",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ số $\\text{Peak/Min}$ của tải lượng $\\text{BOD}$: $2.03$ (Kiểm tra: $\\frac{272}{134} = 2.03 \\ll \\frac{439}{17} = 25.82\\text{ — Đạt chuẩn Slide 32}$)",
+          "sentences": [
+            "Tỷ số $\\text{Peak/Min}$ của tải lượng $\\text{BOD}$: $2.03$ (Kiểm tra: $\\frac{272}{134} = 2.03 \\ll \\frac{439}{17} = 25.82\\text{ — Đạt chuẩn Slide 32}$)"
+          ],
+          "brief": [
+            "Tỷ số $\\text{Peak/Min}$ của tải lượng $\\text{BOD}$: $2.03$ (Kiểm tra: $\\frac{272}{134} = 2.03 \\ll \\frac{439}{17} = 25.82\\text{ — Đạt chuẩn Slide 32}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ số biên độ tải lượng khối $\\text{BOD}$ giảm mạnh từ $25.82$ xuống còn $2.03$.",
+          "takeaway": "Tỷ số biên độ tải lượng khối $\\text{BOD}$ giảm mạnh từ $25.82$ xuống còn $2.03$",
+          "topic": "tải lượng khối"
+        }
+      ]
+    },
+    {
+      "id": "sec-6-lời-giải-chi-tiết-các-bài-tập-homework-và-exercise-chiếu-thêm-trên-lớp-worked-solutions-for-classroom-projector-exercises",
+      "num": "6",
+      "title": "Lời giải chi tiết các bài tập Homework và Exercise chiếu thêm trên lớp (Worked Solutions for Classroom Projector Exercises)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-proj_ch02_hw01-slide-33-đến-38---homework-trên-lớp-thiết-kế-bể-điều-hòa-cho-nhà-máy-làm-việc-2-ca",
+      "num": "",
+      "title": "Bài tập proj_ch02_hw01 (Slide 33 đến 38 - Homework trên lớp): Thiết kế bể điều hòa cho nhà máy làm việc 2 ca",
+      "depth": 2,
+      "takeaway": "Bài tập Homework nhà máy $2\\text{ ca}$ xác định $Q_{\\text{plant}} = 96\\text{ m}^3\\text{/ngày}$, $V_{\\text{prac}} = 38.4\\text{ m}^3$ và $Q_{\\text{air}} = 0.46\\text{ m}^3\\text{/phút}$",
+      "topic": "Bài tập Homework",
+      "units": [
+        {
+          "id": "p-3f4f74fd",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Một nhà máy hoạt động $2\\text{ ca/ngày}$, mỗi ca kéo dài $8\\text{ giờ}$ với quy mô $N = 1000\\text{ công nhân/ca}$ [Page 5]. Tiêu chuẩn dùng nước sinh hoạt cho công nhân là $q_w = 45\\text{ L/(người}\\cdot\\text{ca)}$ phân bố đều trong $8\\text{ giờ}$ làm việc, và cuối mỗi ca nhà máy sử dụng thêm $V_c = 3\\text{ m}^3\\text{/ca}$ nước để vệ sinh nhà xưởng và thiết bị [Page 5]. Giả sử lưu lượng nước thải bằng $100\\%$ lưu lượng nước cấp, hãy xác định công suất trạm xử lý nước thải ($Q_{\\text{plant}}$), thể tích bể điều hòa thực tế ($V_{\\text{prac}}$) và lưu lượng không khí cần cấp ($Q_{\\text{air}}$) [Page 5] [Page 6].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Một nhà máy hoạt động $2\\text{ ca/ngày}$, mỗi ca kéo dài $8\\text{ giờ}$ với quy mô $N = 1000\\text{ công nhân/ca}$ [Page 5].",
+            "Tiêu chuẩn dùng nước sinh hoạt cho công nhân là $q_w = 45\\text{ L/(người}\\cdot\\text{ca)}$ phân bố đều trong $8\\text{ giờ}$ làm việc, và cuối mỗi ca nhà máy sử dụng thêm $V_c = 3\\text{ m}^3\\text{/ca}$ nước để vệ sinh nhà xưởng và thiết bị [Page 5].",
+            "Giả sử lưu lượng nước thải bằng $100\\%$ lưu lượng nước cấp, hãy xác định công suất trạm xử lý nước thải ($Q_{\\text{plant}}$), thể tích bể điều hòa thực tế ($V_{\\text{prac}}$) và lưu lượng không khí cần cấp ($Q_{\\text{air}}$) [Page 5] [Page 6]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Một nhà máy hoạt động $2\\text{ ca/ngày}$, mỗi ca kéo dài $8\\text{ giờ}$ với quy mô $N = 1000\\text{ công nhân/ca}$ [Page 5].",
+            "Giả sử lưu lượng nước thải bằng $100\\%$ lưu lượng nước cấp, hãy xác định công suất trạm xử lý nước thải ($Q_{\\text{plant}}$), thể tích bể điều hòa thực tế ($V_{\\text{prac}}$) và lưu lượng không khí cần cấp ($Q_{\\text{air}}$) [Page 5] [Page 6]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Nhà máy hoạt động $2\\text{ ca/ngày}$ với $1000\\text{ công nhân/ca}$, cấp $45\\text{ L/người}$ và $3\\text{ m}^3$ rửa xưởng. Yêu cầu xác định công suất trạm $Q_{\\text{plant}}$, thể tích bể điều hòa thực tế $V_{\\text{prac}}$ và lưu lượng khí cấp $Q_{\\text{air}}$.",
+          "takeaway": "Nhà máy hoạt động $2\\text{ ca/ngày}$ với $1000\\text{ công nhân/ca}$, cấp $45\\text{ L/người}$ và $3\\text{ m}^3$ rửa xưởng",
+          "topic": "Nhà máy"
+        },
+        {
+          "id": "p-cbde7e1f",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Xác định công suất trạm xử lý nước thải của nhà máy làm việc $2\\text{ ca}$: Theo Slide 34 (Ảnh #14), cộng tổng lượng nước cấp cho công nhân trong $2\\text{ ca}$ ($90\\text{ m}^3\\text{/ngày}$) và lượng nước rửa xưởng cuối $2\\text{ ca}$ ($6\\text{ m}^3\\text{/ngày}$), thu được công suất trạm $Q_{\\text{plant}} = 96\\text{ m}^3\\text{/ngày}$ [Page 5].",
+          "sentences": [
+            "Bước 1 - Xác định công suất trạm xử lý nước thải của nhà máy làm việc $2\\text{ ca}$: Theo Slide 34 (Ảnh #14), cộng tổng lượng nước cấp cho công nhân trong $2\\text{ ca}$ ($90\\text{ m}^3\\text{/ngày}$) và lượng nước rửa xưởng cuối $2\\text{ ca}$ ($6\\text{ m}^3\\text{/ngày}$), thu được công suất trạm $Q_{\\text{plant}} = 96\\text{ m}^3\\text{/ngày}$ [Page 5]."
+          ],
+          "brief": [
+            "Bước 1 - Xác định công suất trạm xử lý nước thải của nhà máy làm việc $2\\text{ ca}$: Theo Slide 34 (Ảnh #14), cộng tổng lượng nước cấp cho công nhân trong $2\\text{ ca}$ ($90\\text{ m}^3\\text{/ngày}$) và lượng nước rửa xưởng cuối $2\\text{ ca}$ ($6\\text{ m}^3\\text{/ngày}$), thu được công suất trạm $Q_{\\text{plant}} = 96\\text{ m}^3\\text{/ngày}$ [Page 5]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 1 xác định công suất trạm xử lý đạt $Q_{\\text{plant}} = 96\\text{ m}^3\\text{/ngày}$.",
+          "takeaway": "Bước 1 xác định công suất trạm xử lý đạt $Q_{\\text{plant}} = 96\\text{ m}^3\\text{/ngày}$",
+          "topic": "Bước 1"
+        },
+        {
+          "id": "p-4d0f55f5",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính lưu lượng vào từng giờ làm việc và lưu lượng bơm ra trung bình: Chia đều công suất $96\\text{ m}^3\\text{/ngày}$ cho $24\\text{ giờ}$ được lưu lượng bơm ra $V_{\\text{out}} = 4\\text{ m}^3\\text{/h}$, trong khi lưu lượng vào ở các giờ làm việc bình thường là $5.625\\text{ m}^3\\text{/h}$ và ở giờ cuối mỗi ca (giờ $8$ và giờ $16$) là $8.625\\text{ m}^3\\text{/h}$ [Page 5].",
+          "sentences": [
+            "Bước 2 - Tính lưu lượng vào từng giờ làm việc và lưu lượng bơm ra trung bình: Chia đều công suất $96\\text{ m}^3\\text{/ngày}$ cho $24\\text{ giờ}$ được lưu lượng bơm ra $V_{\\text{out}} = 4\\text{ m}^3\\text{/h}$, trong khi lưu lượng vào ở các giờ làm việc bình thường là $5.625\\text{ m}^3\\text{/h}$ và ở giờ cuối mỗi ca (giờ $8$ và giờ $16$) là $8.625\\text{ m}^3\\text{/h}$ [Page 5]."
+          ],
+          "brief": [
+            "Bước 2 - Tính lưu lượng vào từng giờ làm việc và lưu lượng bơm ra trung bình: Chia đều công suất $96\\text{ m}^3\\text{/ngày}$ cho $24\\text{ giờ}$ được lưu lượng bơm ra $V_{\\text{out}} = 4\\text{ m}^3\\text{/h}$, trong khi lưu lượng vào ở các giờ làm việc bình thường là $5.625\\text{ m}^3\\text{/h}$ và ở giờ cuối mỗi ca (giờ $8$ và giờ $16$) là $8.625\\text{ m}^3\\text{/h}$ [Page 5]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 2 tính lưu lượng bơm ra $V_{\\text{out}} = 4\\text{ m}^3\\text{/h}$ và dòng vào $5.625$ hoặc $8.625\\text{ m}^3\\text{/h}$.",
+          "takeaway": "Bước 2 tính lưu lượng bơm ra $V_{\\text{out}} = 4\\text{ m}^3\\text{/h}$ và dòng vào $5.625$ hoặc $8.625\\text{ m}^3\\text{/h}$",
+          "topic": "Bước 2"
+        },
+        {
+          "id": "p-c59375e2",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Lập bảng tích lũy thể tích $24\\text{ giờ}$ và tính thể tích bể điều hòa thực tế: Theo bảng tính trên Slide 35 và 36 (Ảnh #15 và #16), thể tích tích lũy đạt cực đại $\\max(\\sum \\Delta V) = 32.000\\text{ m}^3$ ở cuối giờ $16$ và giảm về cực tiểu $\\min(\\sum \\Delta V) = 0.000\\text{ m}^3$ ở giờ $24$, cho $V_{\\text{theo}} = 32\\text{ m}^3$ và $V_{\\text{prac}} = 38.4\\text{ m}^3$ [Page 5].",
+          "sentences": [
+            "Bước 3 - Lập bảng tích lũy thể tích $24\\text{ giờ}$ và tính thể tích bể điều hòa thực tế: Theo bảng tính trên Slide 35 và 36 (Ảnh #15 và #16), thể tích tích lũy đạt cực đại $\\max(\\sum \\Delta V) = 32.000\\text{ m}^3$ ở cuối giờ $16$ và giảm về cực tiểu $\\min(\\sum \\Delta V) = 0.000\\text{ m}^3$ ở giờ $24$, cho $V_{\\text{theo}} = 32\\text{ m}^3$ và $V_{\\text{prac}} = 38.4\\text{ m}^3$ [Page 5]."
+          ],
+          "brief": [
+            "Bước 3 - Lập bảng tích lũy thể tích $24\\text{ giờ}$ và tính thể tích bể điều hòa thực tế: Theo bảng tính trên Slide 35 và 36 (Ảnh #15 và #16), thể tích tích lũy đạt cực đại $\\max(\\sum \\Delta V) = 32.000\\text{ m}^3$ ở cuối giờ $16$ và giảm về cực tiểu $\\min(\\sum \\Delta V) = 0.000\\text{ m}^3$ ở giờ $24$, cho $V_{\\text{theo}} = 32\\text{ m}^3$ và $V_{\\text{prac}} = 38.4\\text{ m}^3$ [Page 5]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 3 lập bảng tích lũy tìm được $V_{\\text{theo}} = 32\\text{ m}^3$ và $V_{\\text{prac}} = 38.4\\text{ m}^3$.",
+          "takeaway": "Bước 3 lập bảng tích lũy tìm được $V_{\\text{theo}} = 32\\text{ m}^3$ và $V_{\\text{prac}} = 38.4\\text{ m}^3$",
+          "topic": "Bước 3"
+        },
+        {
+          "id": "p-651118b8",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính lưu lượng không khí cần cấp cho bể điều hòa: Theo Slide 37 (Ảnh #17), chọn suất cấp khí $q_{\\text{air}} = 0.012\\text{ m}^3\\text{ khí}/(\\text{phút}\\cdot\\text{m}^3)$ nhân với thể tích thực tế $V_{\\text{prac}} = 38.4\\text{ m}^3$, thu được $Q_{\\text{air}} = 0.46\\text{ m}^3\\text{/phút}$ [Page 6].",
+          "sentences": [
+            "Bước 4 - Tính lưu lượng không khí cần cấp cho bể điều hòa: Theo Slide 37 (Ảnh #17), chọn suất cấp khí $q_{\\text{air}} = 0.012\\text{ m}^3\\text{ khí}/(\\text{phút}\\cdot\\text{m}^3)$ nhân với thể tích thực tế $V_{\\text{prac}} = 38.4\\text{ m}^3$, thu được $Q_{\\text{air}} = 0.46\\text{ m}^3\\text{/phút}$ [Page 6]."
+          ],
+          "brief": [
+            "Bước 4 - Tính lưu lượng không khí cần cấp cho bể điều hòa: Theo Slide 37 (Ảnh #17), chọn suất cấp khí $q_{\\text{air}} = 0.012\\text{ m}^3\\text{ khí}/(\\text{phút}\\cdot\\text{m}^3)$ nhân với thể tích thực tế $V_{\\text{prac}} = 38.4\\text{ m}^3$, thu được $Q_{\\text{air}} = 0.46\\text{ m}^3\\text{/phút}$ [Page 6]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 4 tính lưu lượng không khí cần cấp đạt $Q_{\\text{air}} = 0.46\\text{ m}^3\\text{/phút}$.",
+          "takeaway": "Bước 4 tính lưu lượng không khí cần cấp đạt $Q_{\\text{air}} = 0.46\\text{ m}^3\\text{/phút}$",
+          "topic": "Bước 4"
+        },
+        {
+          "id": "p-7bda8dc7-3",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số khớp chính xác với các ảnh chụp bài giải của thầy.",
+          "takeaway": "Tổng hợp đáp số khớp chính xác với các ảnh chụp bài giải của thầy",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-b40c9187",
+          "kind": "list item",
+          "role": "result",
+          "full": "Công suất trạm xử lý nước thải ($Q_{\\text{plant}}$): $96\\text{ m}^3\\text{/ngày}$ (Kiểm tra: $Q_{\\text{out}} = \\frac{96}{24} = 4.000\\text{ m}^3\\text{/h}\\text{ — Đạt chuẩn Ảnh \\#14, \\#15}$)",
+          "sentences": [
+            "Công suất trạm xử lý nước thải ($Q_{\\text{plant}}$): $96\\text{ m}^3\\text{/ngày}$ (Kiểm tra: $Q_{\\text{out}} = \\frac{96}{24} = 4.000\\text{ m}^3\\text{/h}\\text{ — Đạt chuẩn Ảnh \\#14, \\#15}$)"
+          ],
+          "brief": [
+            "Công suất trạm xử lý nước thải ($Q_{\\text{plant}}$): $96\\text{ m}^3\\text{/ngày}$ (Kiểm tra: $Q_{\\text{out}} = \\frac{96}{24} = 4.000\\text{ m}^3\\text{/h}\\text{ — Đạt chuẩn Ảnh \\#14, \\#15}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Công suất trạm xử lý nước thải bằng $Q_{\\text{plant}} = 96\\text{ m}^3\\text{/ngày}$.",
+          "takeaway": "Công suất trạm xử lý nước thải bằng $Q_{\\text{plant}} = 96\\text{ m}^3\\text{/ngày}$",
+          "topic": "Công suất trạm"
+        },
+        {
+          "id": "p-596758ed",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$): $32\\text{ m}^3$ (Kiểm tra: $\\sum \\Delta V_{16} - \\sum \\Delta V_{24} = 32 - 0 = 32\\text{ m}^3\\text{ — Đạt chuẩn Ảnh \\#16}$)",
+          "sentences": [
+            "Thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$): $32\\text{ m}^3$ (Kiểm tra: $\\sum \\Delta V_{16} - \\sum \\Delta V_{24} = 32 - 0 = 32\\text{ m}^3\\text{ — Đạt chuẩn Ảnh \\#16}$)"
+          ],
+          "brief": [
+            "Thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$): $32\\text{ m}^3$ (Kiểm tra: $\\sum \\Delta V_{16} - \\sum \\Delta V_{24} = 32 - 0 = 32\\text{ m}^3\\text{ — Đạt chuẩn Ảnh \\#16}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể điều hòa lý thuyết bằng $V_{\\text{theo}} = 32\\text{ m}^3$ tại cuối giờ $16$.",
+          "takeaway": "Thể tích bể điều hòa lý thuyết bằng $V_{\\text{theo}} = 32\\text{ m}^3$ tại cuối giờ $16$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-64a36b5a",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể điều hòa thực tế ($V_{\\text{prac}}$): $38.4\\text{ m}^3$ (Kiểm tra: $32 \\times 120\\% = 38.4\\text{ m}^3\\text{ — Đạt chuẩn Ảnh \\#16}$)",
+          "sentences": [
+            "Thể tích bể điều hòa thực tế ($V_{\\text{prac}}$): $38.4\\text{ m}^3$ (Kiểm tra: $32 \\times 120\\% = 38.4\\text{ m}^3\\text{ — Đạt chuẩn Ảnh \\#16}$)"
+          ],
+          "brief": [
+            "Thể tích bể điều hòa thực tế ($V_{\\text{prac}}$): $38.4\\text{ m}^3$ (Kiểm tra: $32 \\times 120\\% = 38.4\\text{ m}^3\\text{ — Đạt chuẩn Ảnh \\#16}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích thực tế của bể điều hòa bằng $V_{\\text{prac}} = 38.4\\text{ m}^3$.",
+          "takeaway": "Thể tích thực tế của bể điều hòa bằng $V_{\\text{prac}} = 38.4\\text{ m}^3$",
+          "topic": "Thể tích thực tế"
+        },
+        {
+          "id": "p-dbb30e4e",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng không khí cấp ($Q_{\\text{air}}$): $0.46\\text{ m}^3\\text{/phút}$ (Kiểm tra: $q_{\\text{air}} = 0.012 \\in [0.01, 0.015]\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{) — Đạt chuẩn Ảnh \\#17}$)",
+          "sentences": [
+            "Lưu lượng không khí cấp ($Q_{\\text{air}}$): $0.46\\text{ m}^3\\text{/phút}$ (Kiểm tra: $q_{\\text{air}} = 0.012 \\in [0.01, 0.015]\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{) — Đạt chuẩn Ảnh \\#17}$)"
+          ],
+          "brief": [
+            "Lưu lượng không khí cấp ($Q_{\\text{air}}$): $0.46\\text{ m}^3\\text{/phút}$ (Kiểm tra: $q_{\\text{air}} = 0.012 \\in [0.01, 0.015]\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{) — Đạt chuẩn Ảnh \\#17}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng không khí cấp bằng $Q_{\\text{air}} = 0.46\\text{ m}^3\\text{/phút}$ ứng với suất $0.012\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)}$.",
+          "takeaway": "Lưu lượng không khí cấp bằng $Q_{\\text{air}} = 0.46\\text{ m}^3\\text{/phút}$ ứng với suất $0.012\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)}$",
+          "topic": "Lưu lượng không khí"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-proj_ch02_ex01-slide-39---exercise-1-trên-lớp-ước-tính-thể-tích-bể-điều-hòa-cho-trạm-xử-lý-nước-thải-thành-phố",
+      "num": "",
+      "title": "Bài tập proj_ch02_ex01 (Slide 39 - Exercise 1 trên lớp): Ước tính thể tích bể điều hòa cho trạm xử lý nước thải thành phố",
+      "depth": 2,
+      "takeaway": "Bài tập Exercise 1 xác định $V_{\\text{theo}} = 3277.35\\text{ m}^3$, $V_{\\text{prac}} = 3932.82\\text{ m}^3$ và $P_{\\text{mix}} = 31.46\\text{ kW}$",
+      "topic": "Bài tập Exercise 1",
+      "units": [
+        {
+          "id": "p-9b6d66d0",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Ước tính thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$), thể tích bể điều hòa thực tế ($V_{\\text{prac}}$), công suất khuấy trộn ($P_{\\text{mix}}$) và lưu lượng khí cấp ($Q_{\\text{air}}$) cho một thành phố có bảng lưu lượng nước thải trong $24\\text{ giờ}$ trên Slide 39 (Ảnh #12) cho theo đơn vị $\\text{m}^3\\text{/s}$ từ $Q_{\\min} = 0.160\\text{ m}^3\\text{/s}$ (khung giờ $3\\text{–}5$) đến $Q_{\\max} = 0.480\\text{ m}^3\\text{/s}$ (khung giờ $10\\text{–N}$) [Page 5] [Page 6].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Ước tính thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$), thể tích bể điều hòa thực tế ($V_{\\text{prac}}$), công suất khuấy trộn ($P_{\\text{mix}}$) và lưu lượng khí cấp ($Q_{\\text{air}}$) cho một thành phố có bảng lưu lượng nước thải trong $24\\text{ giờ}$ trên Slide 39 (Ảnh #12) cho theo đơn vị $\\text{m}^3\\text{/s}$ từ $Q_{\\min} = 0.160\\text{ m}^3\\text{/s}$ (khung giờ $3\\text{–}5$) đến $Q_{\\max} = 0.480\\text{ m}^3\\text{/s}$ (khung giờ $10\\text{–N}$) [Page 5] [Page 6]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Ước tính thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$), thể tích bể điều hòa thực tế ($V_{\\text{prac}}$), công suất khuấy trộn ($P_{\\text{mix}}$) và lưu lượng khí cấp ($Q_{\\text{air}}$) cho một thành phố có bảng lưu lượng nước thải trong $24\\text{ giờ}$ trên Slide 39 (Ảnh #12) cho theo đơn vị $\\text{m}^3\\text{/s}$ từ $Q_{\\min} = 0.160\\text{ m}^3\\text{/s}$ (khung giờ $3\\text{–}5$) đến $Q_{\\max} = 0.480\\text{ m}^3\\text{/s}$ (khung giờ $10\\text{–N}$) [Page 5] [Page 6]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài cho lưu lượng thành phố theo $\\text{m}^3\\text{/s}$ từ $0.160\\text{ m}^3\\text{/s}$ đến $0.480\\text{ m}^3\\text{/s}$.",
+          "takeaway": "Đề bài cho lưu lượng thành phố theo $\\text{m}^3\\text{/s}$ từ $0.160\\text{ m}^3\\text{/s}$ đến $0.480\\text{ m}^3\\text{/s}$",
+          "topic": "Đề bài"
+        },
+        {
+          "id": "p-26d4cdd4",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Quy đổi lưu lượng sang $\\text{m}^3\\text{/h}$ và tính lưu lượng trung bình ngày: Nhân lưu lượng $Q_{\\text{in}}$ ($\\text{m}^3\\text{/s}$) của từng giờ với $3600\\text{ s/h}$ thu được tổng thể tích ngày $\\sum V_{\\text{in}} = 28,371.60\\text{ m}^3\\text{/ngày}$ và lưu lượng bơm ra trung bình $V_{\\text{out}} = 1182.15\\text{ m}^3\\text{/h}$ [Page 5].",
+          "sentences": [
+            "Bước 1 - Quy đổi lưu lượng sang $\\text{m}^3\\text{/h}$ và tính lưu lượng trung bình ngày: Nhân lưu lượng $Q_{\\text{in}}$ ($\\text{m}^3\\text{/s}$) của từng giờ với $3600\\text{ s/h}$ thu được tổng thể tích ngày $\\sum V_{\\text{in}} = 28,371.60\\text{ m}^3\\text{/ngày}$ và lưu lượng bơm ra trung bình $V_{\\text{out}} = 1182.15\\text{ m}^3\\text{/h}$ [Page 5]."
+          ],
+          "brief": [
+            "Bước 1 - Quy đổi lưu lượng sang $\\text{m}^3\\text{/h}$ và tính lưu lượng trung bình ngày: Nhân lưu lượng $Q_{\\text{in}}$ ($\\text{m}^3\\text{/s}$) của từng giờ với $3600\\text{ s/h}$ thu được tổng thể tích ngày $\\sum V_{\\text{in}} = 28,371.60\\text{ m}^3\\text{/ngày}$ và lưu lượng bơm ra trung bình $V_{\\text{out}} = 1182.15\\text{ m}^3\\text{/h}$ [Page 5]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 1 quy đổi tổng thể tích $28,371.60\\text{ m}^3\\text{/ngày}$ và lưu lượng trung bình $1182.15\\text{ m}^3\\text{/h}$.",
+          "takeaway": "Bước 1 quy đổi tổng thể tích $28,371.60\\text{ m}^3\\text{/ngày}$ và lưu lượng trung bình $1182.15\\text{ m}^3\\text{/h}$",
+          "topic": "Bước 1"
+        },
+        {
+          "id": "p-ecd215d5",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Lập bảng cân bằng thể tích tích lũy $24\\text{ giờ}$ của thành phố: Tính lượng tích trữ mỗi giờ $\\Delta V_i = V_{\\text{in},i} - 1182.15$ từ khung giờ $\\text{M–1}$ đến $23\\text{–M}$, xác định được cực tiểu $\\min(\\sum \\Delta V) = -3175.20\\text{ m}^3$ tại $7\\text{–}8$ và cực đại $\\max(\\sum \\Delta V) = +102.15\\text{ m}^3$ tại $22\\text{–}23$ [Page 5].",
+          "sentences": [
+            "Bước 2 - Lập bảng cân bằng thể tích tích lũy $24\\text{ giờ}$ của thành phố: Tính lượng tích trữ mỗi giờ $\\Delta V_i = V_{\\text{in},i} - 1182.15$ từ khung giờ $\\text{M–1}$ đến $23\\text{–M}$, xác định được cực tiểu $\\min(\\sum \\Delta V) = -3175.20\\text{ m}^3$ tại $7\\text{–}8$ và cực đại $\\max(\\sum \\Delta V) = +102.15\\text{ m}^3$ tại $22\\text{–}23$ [Page 5]."
+          ],
+          "brief": [
+            "Bước 2 - Lập bảng cân bằng thể tích tích lũy $24\\text{ giờ}$ của thành phố: Tính lượng tích trữ mỗi giờ $\\Delta V_i = V_{\\text{in},i} - 1182.15$ từ khung giờ $\\text{M–1}$ đến $23\\text{–M}$, xác định được cực tiểu $\\min(\\sum \\Delta V) = -3175.20\\text{ m}^3$ tại $7\\text{–}8$ và cực đại $\\max(\\sum \\Delta V) = +102.15\\text{ m}^3$ tại $22\\text{–}23$ [Page 5]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 2 lập bảng tích lũy tìm cực tiểu $-3175.20\\text{ m}^3$ và cực đại $+102.15\\text{ m}^3$.",
+          "takeaway": "Bước 2 lập bảng tích lũy tìm cực tiểu $-3175.20\\text{ m}^3$ và cực đại $+102.15\\text{ m}^3$",
+          "topic": "Bước 2"
+        },
+        {
+          "id": "p-0f48e055",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Xác định thể tích bể điều hòa lý thuyết và thực tế: Lấy hiệu số giữa cực đại $+102.15\\text{ m}^3$ và cực tiểu $-3175.20\\text{ m}^3$ thu được $V_{\\text{theo}} = 3277.35\\text{ m}^3$, sau đó nhân với hệ số an toàn $1.2$ thu được $V_{\\text{prac}} = 3932.82\\text{ m}^3$ [Page 5].",
+          "sentences": [
+            "Bước 3 - Xác định thể tích bể điều hòa lý thuyết và thực tế: Lấy hiệu số giữa cực đại $+102.15\\text{ m}^3$ và cực tiểu $-3175.20\\text{ m}^3$ thu được $V_{\\text{theo}} = 3277.35\\text{ m}^3$, sau đó nhân với hệ số an toàn $1.2$ thu được $V_{\\text{prac}} = 3932.82\\text{ m}^3$ [Page 5]."
+          ],
+          "brief": [
+            "Bước 3 - Xác định thể tích bể điều hòa lý thuyết và thực tế: Lấy hiệu số giữa cực đại $+102.15\\text{ m}^3$ và cực tiểu $-3175.20\\text{ m}^3$ thu được $V_{\\text{theo}} = 3277.35\\text{ m}^3$, sau đó nhân với hệ số an toàn $1.2$ thu được $V_{\\text{prac}} = 3932.82\\text{ m}^3$ [Page 5]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 3 tính thể tích lý thuyết $V_{\\text{theo}} = 3277.35\\text{ m}^3$ và thực tế $V_{\\text{prac}} = 3932.82\\text{ m}^3$.",
+          "takeaway": "Bước 3 tính thể tích lý thuyết $V_{\\text{theo}} = 3277.35\\text{ m}^3$ và thực tế $V_{\\text{prac}} = 3932.82\\text{ m}^3$",
+          "topic": "Bước 3"
+        },
+        {
+          "id": "p-f1b552d9",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính công suất khuấy trộn và lưu lượng không khí cấp cho bể: Nhân thể tích thực tế $V_{\\text{prac}} = 3932.82\\text{ m}^3$ với suất khuấy trộn $0.008\\text{ kW/m}^3$ và suất cấp khí $0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)}$, thu được $P_{\\text{mix}} = 31.46\\text{ kW}$ và $Q_{\\text{air}} = 39.33\\text{ m}^3\\text{/phút}$ [Page 6].",
+          "sentences": [
+            "Bước 4 - Tính công suất khuấy trộn và lưu lượng không khí cấp cho bể: Nhân thể tích thực tế $V_{\\text{prac}} = 3932.82\\text{ m}^3$ với suất khuấy trộn $0.008\\text{ kW/m}^3$ và suất cấp khí $0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)}$, thu được $P_{\\text{mix}} = 31.46\\text{ kW}$ và $Q_{\\text{air}} = 39.33\\text{ m}^3\\text{/phút}$ [Page 6]."
+          ],
+          "brief": [
+            "Bước 4 - Tính công suất khuấy trộn và lưu lượng không khí cấp cho bể: Nhân thể tích thực tế $V_{\\text{prac}} = 3932.82\\text{ m}^3$ với suất khuấy trộn $0.008\\text{ kW/m}^3$ và suất cấp khí $0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)}$, thu được $P_{\\text{mix}} = 31.46\\text{ kW}$ và $Q_{\\text{air}} = 39.33\\text{ m}^3\\text{/phút}$ [Page 6]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 4 xác định công suất khuấy $P_{\\text{mix}} = 31.46\\text{ kW}$ và lưu lượng khí $Q_{\\text{air}} = 39.33\\text{ m}^3\\text{/phút}$.",
+          "takeaway": "Bước 4 xác định công suất khuấy $P_{\\text{mix}} = 31.46\\text{ kW}$ và lưu lượng khí $Q_{\\text{air}} = 39.33\\text{ m}^3\\text{/phút}$",
+          "topic": "Bước 4"
+        },
+        {
+          "id": "p-7bda8dc7-4",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số bảo đảm khép kín chu kỳ $24\\text{ giờ}$ của thành phố.",
+          "takeaway": "Tổng hợp đáp số bảo đảm khép kín chu kỳ $24\\text{ giờ}$ của thành phố",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-72944bd9",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng trung bình giờ ($Q_{\\text{avg}}$): $1182.15\\text{ m}^3\\text{/h}$ (Kiểm tra: $\\sum \\Delta V_{23\\text{–M}} = +102.15 - 102.15 = 0.00\\text{ m}^3\\text{ — Đạt chuẩn Slide 20}$)",
+          "sentences": [
+            "Lưu lượng trung bình giờ ($Q_{\\text{avg}}$): $1182.15\\text{ m}^3\\text{/h}$ (Kiểm tra: $\\sum \\Delta V_{23\\text{–M}} = +102.15 - 102.15 = 0.00\\text{ m}^3\\text{ — Đạt chuẩn Slide 20}$)"
+          ],
+          "brief": [
+            "Lưu lượng trung bình giờ ($Q_{\\text{avg}}$): $1182.15\\text{ m}^3\\text{/h}$ (Kiểm tra: $\\sum \\Delta V_{23\\text{–M}} = +102.15 - 102.15 = 0.00\\text{ m}^3\\text{ — Đạt chuẩn Slide 20}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng trung bình giờ của thành phố bằng $Q_{\\text{avg}} = 1182.15\\text{ m}^3\\text{/h}$.",
+          "takeaway": "Lưu lượng trung bình giờ của thành phố bằng $Q_{\\text{avg}} = 1182.15\\text{ m}^3\\text{/h}$",
+          "topic": "Lưu lượng trung bình"
+        },
+        {
+          "id": "p-5a3cf498",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$): $3277.35\\text{ m}^3$ (Kiểm tra: $102.15 - (-3175.20) = 3277.35\\text{ m}^3\\text{ — Đạt chuẩn Slide 9}$)",
+          "sentences": [
+            "Thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$): $3277.35\\text{ m}^3$ (Kiểm tra: $102.15 - (-3175.20) = 3277.35\\text{ m}^3\\text{ — Đạt chuẩn Slide 9}$)"
+          ],
+          "brief": [
+            "Thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$): $3277.35\\text{ m}^3$ (Kiểm tra: $102.15 - (-3175.20) = 3277.35\\text{ m}^3\\text{ — Đạt chuẩn Slide 9}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể điều hòa lý thuyết bằng $V_{\\text{theo}} = 3277.35\\text{ m}^3$.",
+          "takeaway": "Thể tích bể điều hòa lý thuyết bằng $V_{\\text{theo}} = 3277.35\\text{ m}^3$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-b5e3c272",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể điều hòa thực tế ($V_{\\text{prac}}$): $3932.82\\text{ m}^3$ (Kiểm tra: $\\frac{V_{\\text{prac}}}{V_{\\text{theo}}} = 1.2 \\in [1.1, 1.2]\\text{ — Đạt chuẩn Slide 10}$)",
+          "sentences": [
+            "Thể tích bể điều hòa thực tế ($V_{\\text{prac}}$): $3932.82\\text{ m}^3$ (Kiểm tra: $\\frac{V_{\\text{prac}}}{V_{\\text{theo}}} = 1.2 \\in [1.1, 1.2]\\text{ — Đạt chuẩn Slide 10}$)"
+          ],
+          "brief": [
+            "Thể tích bể điều hòa thực tế ($V_{\\text{prac}}$): $3932.82\\text{ m}^3$ (Kiểm tra: $\\frac{V_{\\text{prac}}}{V_{\\text{theo}}} = 1.2 \\in [1.1, 1.2]\\text{ — Đạt chuẩn Slide 10}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích thực tế của bể điều hòa bằng $V_{\\text{prac}} = 3932.82\\text{ m}^3$.",
+          "takeaway": "Thể tích thực tế của bể điều hòa bằng $V_{\\text{prac}} = 3932.82\\text{ m}^3$",
+          "topic": "Thể tích thực tế"
+        },
+        {
+          "id": "p-4181486b",
+          "kind": "list item",
+          "role": "result",
+          "full": "Công suất khuấy trộn và lưu lượng khí ($P_{\\text{mix}}, Q_{\\text{air}}$): $31.46\\text{ kW}, 39.33\\text{ m}^3\\text{/phút}$ (Kiểm tra: $p_{\\text{mix}} = 0.008\\text{ kW/m}^3, q_{\\text{air}} = 0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{) — Đạt chuẩn Slide 11}$)",
+          "sentences": [
+            "Công suất khuấy trộn và lưu lượng khí ($P_{\\text{mix}}, Q_{\\text{air}}$): $31.46\\text{ kW}, 39.33\\text{ m}^3\\text{/phút}$ (Kiểm tra: $p_{\\text{mix}} = 0.008\\text{ kW/m}^3, q_{\\text{air}} = 0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{) — Đạt chuẩn Slide 11}$)"
+          ],
+          "brief": [
+            "Công suất khuấy trộn và lưu lượng khí ($P_{\\text{mix}}, Q_{\\text{air}}$): $31.46\\text{ kW}, 39.33\\text{ m}^3\\text{/phút}$ (Kiểm tra: $p_{\\text{mix}} = 0.008\\text{ kW/m}^3, q_{\\text{air}} = 0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{) — Đạt chuẩn Slide 11}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Công suất khuấy trộn bằng $31.46\\text{ kW}$ và lưu lượng khí bằng $39.33\\text{ m}^3\\text{/phút}$.",
+          "takeaway": "Công suất khuấy trộn bằng $31.46\\text{ kW}$ và lưu lượng khí bằng $39.33\\text{ m}^3\\text{/phút}$",
+          "topic": "Công suất khuấy"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-proj_ch02_ex02-slide-40---exercise-2-trên-lớp-xác-định-thể-tích-bể-điều-hòa-và-nồng-độ-bod-tss-sau-điều-hòa-theo-chu-kỳ-2-giờ",
+      "num": "",
+      "title": "Bài tập proj_ch02_ex02 (Slide 40 - Exercise 2 trên lớp): Xác định thể tích bể điều hòa và nồng độ BOD, TSS sau điều hòa theo chu kỳ 2 giờ",
+      "depth": 2,
+      "takeaway": "Bài tập Exercise 2 xác định $V_{\\text{prac}} = 144\\text{ m}^3$, $\\text{BOD}_{\\text{eq}} = 129\\text{, }240\\text{ mg/L}$ và $\\text{TSS}_{\\text{eq}} = 149\\text{, }217\\text{ mg/L}$",
+      "topic": "Bài tập Exercise 2",
+      "units": [
+        {
+          "id": "p-f8cb4b99",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Từ bảng số liệu đo đạc theo $12\\text{ chu kỳ}$ (mỗi chu kỳ kéo dài $2\\text{ giờ}$) trên Slide 40 (Ảnh #13) gồm thể tích nước thải vào $V_{ic}$ ($\\text{m}^3$), nồng độ $\\text{BOD}_{ic}$ ($\\text{mg/L}$) và nồng độ $\\text{TSS}_{ic}$ ($\\text{mg/L}$), hãy xác định thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$), thể tích thực tế ($V_{\\text{prac}}$), cùng biến thiên nồng độ $\\text{BOD}_{\\text{eq}}$ và $\\text{TSS}_{\\text{eq}}$ sau điều hòa [Page 5] [Page 9].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Từ bảng số liệu đo đạc theo $12\\text{ chu kỳ}$ (mỗi chu kỳ kéo dài $2\\text{ giờ}$) trên Slide 40 (Ảnh #13) gồm thể tích nước thải vào $V_{ic}$ ($\\text{m}^3$), nồng độ $\\text{BOD}_{ic}$ ($\\text{mg/L}$) và nồng độ $\\text{TSS}_{ic}$ ($\\text{mg/L}$), hãy xác định thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$), thể tích thực tế ($V_{\\text{prac}}$), cùng biến thiên nồng độ $\\text{BOD}_{\\text{eq}}$ và $\\text{TSS}_{\\text{eq}}$ sau điều hòa [Page 5] [Page 9]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Từ bảng số liệu đo đạc theo $12\\text{ chu kỳ}$ (mỗi chu kỳ kéo dài $2\\text{ giờ}$) trên Slide 40 (Ảnh #13) gồm thể tích nước thải vào $V_{ic}$ ($\\text{m}^3$), nồng độ $\\text{BOD}_{ic}$ ($\\text{mg/L}$) và nồng độ $\\text{TSS}_{ic}$ ($\\text{mg/L}$), hãy xác định thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$), thể tích thực tế ($V_{\\text{prac}}$), cùng biến thiên nồng độ $\\text{BOD}_{\\text{eq}}$ và $\\text{TSS}_{\\text{eq}}$ sau điều hòa [Page 5] [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài cho dữ liệu $12\\text{ chu kỳ } 2\\text{ giờ}$ của thể tích $V_{ic}$, $\\text{BOD}_{ic}$ và $\\text{TSS}_{ic}$.",
+          "takeaway": "Đề bài cho dữ liệu $12\\text{ chu kỳ } 2\\text{ giờ}$ của thể tích $V_{ic}$, $\\text{BOD}_{ic}$ và $\\text{TSS}_{ic}$",
+          "topic": "Đề bài"
+        },
+        {
+          "id": "p-dc23c7b3",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính tổng thể tích nước thải ngày và thể tích bơm ra mỗi chu kỳ $2\\text{ giờ}$: Cộng $12\\text{ giá trị}$ thể tích dòng vào thu được $\\sum V_{ic} = 1216\\text{ m}^3\\text{/ngày}$, suy ra thể tích bơm ra đều trong mỗi chu kỳ $2\\text{ giờ}$ là $V_{\\text{out}} = 101.33\\text{ m}^3$ [Page 5].",
+          "sentences": [
+            "Bước 1 - Tính tổng thể tích nước thải ngày và thể tích bơm ra mỗi chu kỳ $2\\text{ giờ}$: Cộng $12\\text{ giá trị}$ thể tích dòng vào thu được $\\sum V_{ic} = 1216\\text{ m}^3\\text{/ngày}$, suy ra thể tích bơm ra đều trong mỗi chu kỳ $2\\text{ giờ}$ là $V_{\\text{out}} = 101.33\\text{ m}^3$ [Page 5]."
+          ],
+          "brief": [
+            "Bước 1 - Tính tổng thể tích nước thải ngày và thể tích bơm ra mỗi chu kỳ $2\\text{ giờ}$: Cộng $12\\text{ giá trị}$ thể tích dòng vào thu được $\\sum V_{ic} = 1216\\text{ m}^3\\text{/ngày}$, suy ra thể tích bơm ra đều trong mỗi chu kỳ $2\\text{ giờ}$ là $V_{\\text{out}} = 101.33\\text{ m}^3$ [Page 5]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 1 tính tổng thể tích ngày $1216\\text{ m}^3$ và thể tích ra $V_{\\text{out}} = 101.33\\text{ m}^3\\text{/(2h)}$.",
+          "takeaway": "Bước 1 tính tổng thể tích ngày $1216\\text{ m}^3$ và thể tích ra $V_{\\text{out}} = 101.33\\text{ m}^3\\text{/(2h)}$",
+          "topic": "Bước 1"
+        },
+        {
+          "id": "p-6a8de737",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Xác định thể tích bể điều hòa lý thuyết và thực tế từ cực trị tích lũy: Lập cột tích lũy $\\sum \\Delta V$ từ $\\text{M–2}$ đến $22\\text{–M}$ tìm được cực tiểu $\\min(\\sum \\Delta V) = -70.00\\text{ m}^3$ tại $4\\text{–}6$ và cực đại $\\max(\\sum \\Delta V) = +50.00\\text{ m}^3$ tại $16\\text{–}18$, cho $V_{\\text{theo}} = 120\\text{ m}^3$ và $V_{\\text{prac}} = 144\\text{ m}^3$ [Page 5].",
+          "sentences": [
+            "Bước 2 - Xác định thể tích bể điều hòa lý thuyết và thực tế từ cực trị tích lũy: Lập cột tích lũy $\\sum \\Delta V$ từ $\\text{M–2}$ đến $22\\text{–M}$ tìm được cực tiểu $\\min(\\sum \\Delta V) = -70.00\\text{ m}^3$ tại $4\\text{–}6$ và cực đại $\\max(\\sum \\Delta V) = +50.00\\text{ m}^3$ tại $16\\text{–}18$, cho $V_{\\text{theo}} = 120\\text{ m}^3$ và $V_{\\text{prac}} = 144\\text{ m}^3$ [Page 5]."
+          ],
+          "brief": [
+            "Bước 2 - Xác định thể tích bể điều hòa lý thuyết và thực tế từ cực trị tích lũy: Lập cột tích lũy $\\sum \\Delta V$ từ $\\text{M–2}$ đến $22\\text{–M}$ tìm được cực tiểu $\\min(\\sum \\Delta V) = -70.00\\text{ m}^3$ tại $4\\text{–}6$ và cực đại $\\max(\\sum \\Delta V) = +50.00\\text{ m}^3$ tại $16\\text{–}18$, cho $V_{\\text{theo}} = 120\\text{ m}^3$ và $V_{\\text{prac}} = 144\\text{ m}^3$ [Page 5]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 2 tìm thể tích lý thuyết $V_{\\text{theo}} = 120\\text{ m}^3$ và thực tế $V_{\\text{prac}} = 144\\text{ m}^3$.",
+          "takeaway": "Bước 2 tìm thể tích lý thuyết $V_{\\text{theo}} = 120\\text{ m}^3$ và thực tế $V_{\\text{prac}} = 144\\text{ m}^3$",
+          "topic": "Bước 2"
+        },
+        {
+          "id": "p-d738a320",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Lập bảng cân bằng thể tích và nồng độ $\\text{BOD}$, $\\text{TSS}$ sau điều hòa cho $12\\text{ chu kỳ}$: Bắt đầu tính cân bằng khối lượng tại chu kỳ $6\\text{–}8$ (ngay sau khi bể cạn $V_{sp} = 0.00\\text{ m}^3$ ở cuối chu kỳ $4\\text{–}6$) cho cả hai chỉ tiêu $\\text{BOD}$ và $\\text{TSS}$ [Page 9].",
+          "sentences": [
+            "Bước 3 - Lập bảng cân bằng thể tích và nồng độ $\\text{BOD}$, $\\text{TSS}$ sau điều hòa cho $12\\text{ chu kỳ}$: Bắt đầu tính cân bằng khối lượng tại chu kỳ $6\\text{–}8$ (ngay sau khi bể cạn $V_{sp} = 0.00\\text{ m}^3$ ở cuối chu kỳ $4\\text{–}6$) cho cả hai chỉ tiêu $\\text{BOD}$ và $\\text{TSS}$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 3 - Lập bảng cân bằng thể tích và nồng độ $\\text{BOD}$, $\\text{TSS}$ sau điều hòa cho $12\\text{ chu kỳ}$: Bắt đầu tính cân bằng khối lượng tại chu kỳ $6\\text{–}8$ (ngay sau khi bể cạn $V_{sp} = 0.00\\text{ m}^3$ ở cuối chu kỳ $4\\text{–}6$) cho cả hai chỉ tiêu $\\text{BOD}$ và $\\text{TSS}$ [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 3 lập bảng cân bằng nồng độ $\\text{BOD}_{\\text{eq}}$ và $\\text{TSS}_{\\text{eq}}$ bắt đầu từ chu kỳ $6\\text{, }8$.",
+          "takeaway": "Bước 3 lập bảng cân bằng nồng độ $\\text{BOD}_{\\text{eq}}$ và $\\text{TSS}_{\\text{eq}}$ bắt đầu từ chu kỳ $6\\text{, }8$",
+          "topic": "Bước 3"
+        },
+        {
+          "id": "p-c9b28f17",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Đánh giá biên độ dao động nồng độ $\\text{BOD}$ và $\\text{TSS}$ trước, sau điều hòa: So sánh cực trị trước và sau bể điều hòa, dải dao động $\\text{BOD}$ thu hẹp từ $110\\text{–}245\\text{ mg/L}$ về $129\\text{–}240\\text{ mg/L}$ và dải dao động $\\text{TSS}$ thu hẹp từ $135\\text{–}220\\text{ mg/L}$ về $149\\text{–}217\\text{ mg/L}$ [Page 9].",
+          "sentences": [
+            "Bước 4 - Đánh giá biên độ dao động nồng độ $\\text{BOD}$ và $\\text{TSS}$ trước, sau điều hòa: So sánh cực trị trước và sau bể điều hòa, dải dao động $\\text{BOD}$ thu hẹp từ $110\\text{–}245\\text{ mg/L}$ về $129\\text{–}240\\text{ mg/L}$ và dải dao động $\\text{TSS}$ thu hẹp từ $135\\text{–}220\\text{ mg/L}$ về $149\\text{–}217\\text{ mg/L}$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 4 - Đánh giá biên độ dao động nồng độ $\\text{BOD}$ và $\\text{TSS}$ trước, sau điều hòa: So sánh cực trị trước và sau bể điều hòa, dải dao động $\\text{BOD}$ thu hẹp từ $110\\text{–}245\\text{ mg/L}$ về $129\\text{–}240\\text{ mg/L}$ và dải dao động $\\text{TSS}$ thu hẹp từ $135\\text{–}220\\text{ mg/L}$ về $149\\text{–}217\\text{ mg/L}$ [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 4 thu hẹp dải $\\text{BOD}$ về $129\\text{, }240\\text{ mg/L}$ và $\\text{TSS}$ về $149\\text{, }217\\text{ mg/L}$.",
+          "takeaway": "Bước 4 thu hẹp dải $\\text{BOD}$ về $129\\text{, }240\\text{ mg/L}$ và $\\text{TSS}$ về $149\\text{, }217\\text{ mg/L}$",
+          "topic": "Bước 4"
+        },
+        {
+          "id": "p-7bda8dc7-5",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số thỏa mãn mục tiêu điều hòa lưu lượng và chất lượng.",
+          "takeaway": "Tổng hợp đáp số thỏa mãn mục tiêu điều hòa lưu lượng và chất lượng",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-aece87b1",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$): $120\\text{ m}^3$ (Kiểm tra: $50.00 - (-70.00) = 120.00\\text{ m}^3\\text{ — Đạt chuẩn Slide 9}$)",
+          "sentences": [
+            "Thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$): $120\\text{ m}^3$ (Kiểm tra: $50.00 - (-70.00) = 120.00\\text{ m}^3\\text{ — Đạt chuẩn Slide 9}$)"
+          ],
+          "brief": [
+            "Thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$): $120\\text{ m}^3$ (Kiểm tra: $50.00 - (-70.00) = 120.00\\text{ m}^3\\text{ — Đạt chuẩn Slide 9}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể điều hòa lý thuyết bằng $V_{\\text{theo}} = 120\\text{ m}^3$ từ hiệu số $50, (-70)\\text{ m}^3$.",
+          "takeaway": "Thể tích bể điều hòa lý thuyết bằng $V_{\\text{theo}} = 120\\text{ m}^3$ từ hiệu số $50, (-70)\\text{ m}^3$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-ef35ad4b",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể điều hòa thực tế ($V_{\\text{prac}}$): $144\\text{ m}^3$ (Kiểm tra: $1.2 \\times 120.00 = 144.00\\text{ m}^3\\text{ — Đạt chuẩn Slide 10}$)",
+          "sentences": [
+            "Thể tích bể điều hòa thực tế ($V_{\\text{prac}}$): $144\\text{ m}^3$ (Kiểm tra: $1.2 \\times 120.00 = 144.00\\text{ m}^3\\text{ — Đạt chuẩn Slide 10}$)"
+          ],
+          "brief": [
+            "Thể tích bể điều hòa thực tế ($V_{\\text{prac}}$): $144\\text{ m}^3$ (Kiểm tra: $1.2 \\times 120.00 = 144.00\\text{ m}^3\\text{ — Đạt chuẩn Slide 10}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích thực tế của bể điều hòa bằng $V_{\\text{prac}} = 144\\text{ m}^3$.",
+          "takeaway": "Thể tích thực tế của bể điều hòa bằng $V_{\\text{prac}} = 144\\text{ m}^3$",
+          "topic": "Thể tích thực tế"
+        },
+        {
+          "id": "p-cc6d71e3",
+          "kind": "list item",
+          "role": "result",
+          "full": "Dải nồng độ $\\text{BOD}$ sau điều hòa ($\\text{BOD}_{\\text{eq}}$): $129\\text{–}240\\text{ mg/L}$ (Kiểm tra: $\\frac{\\text{Peak}}{\\text{Min}} = 1.86 < 2.23\\text{ — Đạt chuẩn Slide 32}$)",
+          "sentences": [
+            "Dải nồng độ $\\text{BOD}$ sau điều hòa ($\\text{BOD}_{\\text{eq}}$): $129\\text{–}240\\text{ mg/L}$ (Kiểm tra: $\\frac{\\text{Peak}}{\\text{Min}} = 1.86 < 2.23\\text{ — Đạt chuẩn Slide 32}$)"
+          ],
+          "brief": [
+            "Dải nồng độ $\\text{BOD}$ sau điều hòa ($\\text{BOD}_{\\text{eq}}$): $129\\text{–}240\\text{ mg/L}$ (Kiểm tra: $\\frac{\\text{Peak}}{\\text{Min}} = 1.86 < 2.23\\text{ — Đạt chuẩn Slide 32}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Dải nồng độ $\\text{BOD}$ sau điều hòa nằm trong khoảng $129\\text{, }240\\text{ mg/L}$.",
+          "takeaway": "Dải nồng độ $\\text{BOD}$ sau điều hòa nằm trong khoảng $129\\text{, }240\\text{ mg/L}$",
+          "topic": "Dải nồng độ"
+        },
+        {
+          "id": "p-67976a91",
+          "kind": "list item",
+          "role": "result",
+          "full": "Dải nồng độ $\\text{TSS}$ sau điều hòa ($\\text{TSS}_{\\text{eq}}$): $149\\text{–}217\\text{ mg/L}$ (Kiểm tra: $\\frac{\\text{Peak}}{\\text{Min}} = 1.46 < 1.63\\text{ — Đạt chuẩn Slide 32}$)",
+          "sentences": [
+            "Dải nồng độ $\\text{TSS}$ sau điều hòa ($\\text{TSS}_{\\text{eq}}$): $149\\text{–}217\\text{ mg/L}$ (Kiểm tra: $\\frac{\\text{Peak}}{\\text{Min}} = 1.46 < 1.63\\text{ — Đạt chuẩn Slide 32}$)"
+          ],
+          "brief": [
+            "Dải nồng độ $\\text{TSS}$ sau điều hòa ($\\text{TSS}_{\\text{eq}}$): $149\\text{–}217\\text{ mg/L}$ (Kiểm tra: $\\frac{\\text{Peak}}{\\text{Min}} = 1.46 < 1.63\\text{ — Đạt chuẩn Slide 32}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Biên độ nồng độ $\\text{TSS}$ sau điều hòa thu hẹp về khoảng $149\\text{, }217\\text{ mg/L}$.",
+          "takeaway": "Biên độ nồng độ $\\text{TSS}$ sau điều hòa thu hẹp về khoảng $149\\text{, }217\\text{ mg/L}$",
+          "topic": "Biên độ nồng độ"
+        },
+        {
+          "id": "p-83bc80e2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 1 (Page 2)",
+          "sentences": [
+            "Figure 1 (Page 2)"
+          ],
+          "brief": [
+            "Figure 1 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Biểu đồ dao động lưu lượng và tải lượng đầu vào trên Trang $2$.",
+          "takeaway": "Biểu đồ dao động lưu lượng và tải lượng đầu vào trên Trang $2$",
+          "topic": "dao động lưu lượng"
+        },
+        {
+          "id": "p-bc294c03",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 2 (Page 3)",
+          "sentences": [
+            "Figure 2 (Page 3)"
+          ],
+          "brief": [
+            "Figure 2 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đồ thị biến thiên lưu lượng nước thải theo giờ trên Trang $3$.",
+          "takeaway": "Đồ thị biến thiên lưu lượng nước thải theo giờ trên Trang $3$",
+          "topic": "lưu lượng nước thải"
+        },
+        {
+          "id": "p-ad026bc7",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 3 (Page 3)",
+          "sentences": [
+            "Figure 3 (Page 3)"
+          ],
+          "brief": [
+            "Figure 3 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đồ thị biến thiên nồng độ $\\text{COD}$ theo chu kỳ điều hòa trên Trang $3$.",
+          "takeaway": "Đồ thị biến thiên nồng độ $\\text{COD}$ theo chu kỳ điều hòa trên Trang $3$",
+          "topic": "chu kỳ điều hòa"
+        },
+        {
+          "id": "p-7952bbcc",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 4 (Page 3)",
+          "sentences": [
+            "Figure 4 (Page 3)"
+          ],
+          "brief": [
+            "Figure 4 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Biểu đồ so sánh hệ số đỉnh nồng độ trên Trang $3$.",
+          "takeaway": "Biểu đồ so sánh hệ số đỉnh nồng độ trên Trang $3$",
+          "topic": "hệ số đỉnh"
+        },
+        {
+          "id": "p-3ddce6aa",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 5 (Page 3)",
+          "sentences": [
+            "Figure 5 (Page 3)"
+          ],
+          "brief": [
+            "Figure 5 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ nguyên lý bể điều hòa bơm ra ổn định trên Trang $3$.",
+          "takeaway": "Sơ đồ nguyên lý bể điều hòa bơm ra ổn định trên Trang $3$",
+          "topic": "bể điều hòa"
+        },
+        {
+          "id": "p-e211cbe3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 6 (Page 4)",
+          "sentences": [
+            "Figure 6 (Page 4)"
+          ],
+          "brief": [
+            "Figure 6 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Minh họa lợi ích kỹ thuật của bể điều hòa trên Trang $4$.",
+          "takeaway": "Minh họa lợi ích kỹ thuật của bể điều hòa trên Trang $4$",
+          "topic": "lợi ích kỹ thuật"
+        },
+        {
+          "id": "p-44e08b02",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 7 (Page 5)",
+          "sentences": [
+            "Figure 7 (Page 5)"
+          ],
+          "brief": [
+            "Figure 7 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đồ thị đường cong tích lũy tìm thể tích lý thuyết trên Trang $5$.",
+          "takeaway": "Đồ thị đường cong tích lũy tìm thể tích lý thuyết trên Trang $5$",
+          "topic": "thể tích lý thuyết"
+        },
+        {
+          "id": "p-713ffb88",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 8 (Page 6)",
+          "sentences": [
+            "Figure 8 (Page 6)"
+          ],
+          "brief": [
+            "Figure 8 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh máy khuấy chìm cơ học chống lắng cặn trên Trang $6$.",
+          "takeaway": "Hình ảnh máy khuấy chìm cơ học chống lắng cặn trên Trang $6$",
+          "topic": "máy khuấy chìm"
+        },
+        {
+          "id": "p-5080dc41",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 9 (Page 6)",
+          "sentences": [
+            "Figure 9 (Page 6)"
+          ],
+          "brief": [
+            "Figure 9 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ dòng chảy xoáy của máy khuấy chìm trên Trang $6$.",
+          "takeaway": "Sơ đồ dòng chảy xoáy của máy khuấy chìm trên Trang $6$",
+          "topic": "dòng chảy xoáy"
+        },
+        {
+          "id": "p-7269c17d",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 10 (Page 6)",
+          "sentences": [
+            "Figure 10 (Page 6)"
+          ],
+          "brief": [
+            "Figure 10 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh lắp đặt thực tế máy khuấy chìm trên Trang $6$.",
+          "takeaway": "Hình ảnh lắp đặt thực tế máy khuấy chìm trên Trang $6$",
+          "topic": "lắp đặt thực tế"
+        },
+        {
+          "id": "p-f4654c9f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 11 (Page 7)",
+          "sentences": [
+            "Figure 11 (Page 7)"
+          ],
+          "brief": [
+            "Figure 11 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh bể điều hòa sục khí bề mặt trên Trang $7$.",
+          "takeaway": "Hình ảnh bể điều hòa sục khí bề mặt trên Trang $7$",
+          "topic": "sục khí bề mặt"
+        },
+        {
+          "id": "p-6e5a795e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 12 (Page 7)",
+          "sentences": [
+            "Figure 12 (Page 7)"
+          ],
+          "brief": [
+            "Figure 12 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh mạng lưới đĩa phân phối khí tinh trên Trang $7$.",
+          "takeaway": "Hình ảnh mạng lưới đĩa phân phối khí tinh trên Trang $7$",
+          "topic": "đĩa phân phối khí"
+        },
+        {
+          "id": "p-1f526d5c",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 13 (Page 7)",
+          "sentences": [
+            "Figure 13 (Page 7)"
+          ],
+          "brief": [
+            "Figure 13 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh máy thổi khí cấp không khí trên Trang $7$.",
+          "takeaway": "Hình ảnh máy thổi khí cấp không khí trên Trang $7$",
+          "topic": "máy thổi khí"
+        },
+        {
+          "id": "p-ffebe59e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 14 (Page 7)",
+          "sentences": [
+            "Figure 14 (Page 7)"
+          ],
+          "brief": [
+            "Figure 14 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh hệ thống ống phân phối khí trên Trang $7$.",
+          "takeaway": "Hình ảnh hệ thống ống phân phối khí trên Trang $7$",
+          "topic": "ống phân phối khí"
+        },
+        {
+          "id": "p-87495ef4",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 15 (Page 7)",
+          "sentences": [
+            "Figure 15 (Page 7)"
+          ],
+          "brief": [
+            "Figure 15 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh hồ điều hòa trải màng chống thấm HDPE trên Trang $7$.",
+          "takeaway": "Hình ảnh hồ điều hòa trải màng chống thấm HDPE trên Trang $7$",
+          "topic": "màng chống thấm"
+        },
+        {
+          "id": "p-da63c895",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 16 (Page 7)",
+          "sentences": [
+            "Figure 16 (Page 7)"
+          ],
+          "brief": [
+            "Figure 16 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh thi công đáy hồ điều hòa đất đắp trên Trang $7$.",
+          "takeaway": "Hình ảnh thi công đáy hồ điều hòa đất đắp trên Trang $7$",
+          "topic": "hồ điều hòa"
+        },
+        {
+          "id": "p-62311ea5",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 17 (Page 8)",
+          "sentences": [
+            "Figure 17 (Page 8)"
+          ],
+          "brief": [
+            "Figure 17 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Minh họa tiết kiệm năng lượng $135\\text{ hp}$ tại bể điều hòa trên Trang $8$.",
+          "takeaway": "Minh họa tiết kiệm năng lượng $135\\text{ hp}$ tại bể điều hòa trên Trang $8$",
+          "topic": "tiết kiệm năng lượng"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

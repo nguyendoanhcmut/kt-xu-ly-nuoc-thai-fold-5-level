@@ -1,0 +1,337 @@
+{
+  "brief_id": "f51e2026",
+  "worker_id": "ch_w4",
+  "input_file": "worker_inputs/ch_w4.json",
+  "input_sha256": "f301325977f97ff7df3181c3d9b74000886516ced4a700f2069bc6368be05667",
+  "assigned_slugs": [
+    "ch03_5",
+    "ch04_1"
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ch03_5_ex01",
+      "chapter_slug": "ch03_5",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Tính tổn thất áp lực qua lớp vật liệu lọc sạch (clean-bed head loss) của bể lọc than антраxit tầng sâu có chiều dày L = 1.8 m, đường kính hữu hiệu ES = 0.95 mm, vận tốc lọc v = 15 m/h và nhiệt độ nước T = 15 độ C.",
+      "design_parameters_selected": [
+        "15°C -> rho_w = 999.1 kg/m^3 and mu = 1.139 x 10^-3 Pa.s",
+        "Select kappa_V = 228, kappa_I = 4.4, epsilon = 50% (0.5)",
+        "L = 1.8 m, d = 0.95 x 10^-3 m, v = 15 m/h = 0.004167 m/s"
+      ],
+      "governing_equations": [
+        "Re = (rho_w v d) / mu",
+        "h_L = kappa_V ((1 - epsilon)^2 / epsilon^3) ((mu L v) / (rho_w g d^2)) + kappa_I ((1 - epsilon) / epsilon^3) ((L v^2) / (g d))"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "15°C -> rho_w = 999.1 kg/m^3 and mu = 1.139 x 10^-3 Pa.s",
+        "Select kappa_V = 228, kappa_I = 4.4, epsilon = 50%",
+        "L = 1.8 m",
+        "d = 0.95 x 10^-3 m",
+        "v = 15 m/h = 0.004167 m/s",
+        "Solution (continue):",
+        "h_L = kappa_V ((1 - epsilon)^2 / epsilon^3) ((mu L v) / (rho_w g d^2)) + kappa_I ((1 - epsilon) / epsilon^3) ((L v^2) / (g d))",
+        "h_L = 228 x ((1 - 0.5)^2 / 0.5^3) x ((1.139 x 10^-3 x 1.8 x 0.004167) / (999.1 x 9.81 x (0.95 x 10^-3)^2)) + 4.4 x ((1 - 0.5) / 0.5^3) x ((1.8 x 0.004167^2) / (9.81 x (0.95 x 10^-3))) = 0.44 + 0.06 = 0.5 (m)",
+        "Note: If dual media filter is used, head loss is the total head loss of each layer."
+      ],
+      "verification_checks": [
+        "Check Reynolds number: Re = (999.1 kg/m3 x 0.004167 m/s x 0.95 x 10^-3 m) / (1.139 x 10^-3 Pa.s) = 3.47 (satisfy)",
+        "Check clean-bed head loss: h_L = 0.5 m < Available head (1.8 - 3.0 m) (satisfy)"
+      ],
+      "final_answers": {
+        "viscous_head_loss_m": "0.44 m",
+        "inertial_head_loss_m": "0.06 m",
+        "total_clean_bed_head_loss_hL": "0.5 m"
+      }
+    },
+    {
+      "exercise_id": "ch03_5_ex02",
+      "chapter_slug": "ch03_5",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Một bể lọc được rửa ngược ở cường độ v_bw = 50 m/h tại nhiệt độ T = 15 độ C. Xác định xem hạt cặn có đường kính d = 0.1 mm có bị cuốn trôi khỏi bể lọc trong quá trình rửa ngược hay không.",
+      "design_parameters_selected": [
+        "15°C -> rho_w = 999.1 kg/m^3 and mu = 1.139 x 10^-3 Pa.s",
+        "v_bw = 50 m/h = 0.01389 m/s",
+        "d = 0.1 mm = 0.0001 m (10^-4 m)",
+        "Select rho_P = 2.65 g/mL = 2650 kg/m^3 (from Slide 9 granular media table)"
+      ],
+      "governing_equations": [
+        "Re = (rho_w v_bw d) / mu",
+        "C_d = 24 / Re (for Re < 2) or C_d = 18.5 / Re^0.6 (for 2 <= Re <= 500)",
+        "V_P = (pi d^3) / 6, A_p = (pi d^2) / 4",
+        "Sigma F = F_g - F_b - F_d = (rho_P - rho_w) V_P g - C_d rho_w A_p (v_bw^2 / 2)"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "15°C -> rho_w = 999.1 kg/m^3 and mu = 1.139 x 10^-3 Pa.s",
+        "v_bw = 50 m/h = 0.01389 m/s",
+        "d = 0.1 mm = 0.0001 m",
+        "Select rho_P = 2.65 kg/L = 2650 kg/m^3",
+        "Check Reynolds number: Re = (rho_w v_bw d) / mu = (999.1 x 0.01389 x 0.0001) / (1.139 x 10^-3) = 1.22 < 2 (satisfy)",
+        "-> Drag coefficient: C_d = 24 / Re = 24 / 1.22 = 19.7",
+        "Solution (continue):",
+        "Volume of particle: V_P = (pi d^3) / 6 = (pi x 0.0001^3) / 6 = 5.24 x 10^-13 (m^3)",
+        "Projected area of particle: A_p = (pi d^2) / 4 = (pi x 0.0001^2) / 4 = 7.85 x 10^-9 (m^2)",
+        "Net gravity minus buoyancy force: F_g - F_b = (rho_P - rho_w) V_P g = (2650 - 999.1) x (5.24 x 10^-13) x 9.81 = 8.48 x 10^-9 (N)",
+        "Upward backwash drag force: F_d = C_d rho_w A_p (v_bw^2 / 2) = 19.7 x 999.1 x (7.85 x 10^-9) x (0.01389^2 / 2) = 1.49 x 10^-8 (N) = 14.91 x 10^-9 (N)",
+        "Resultant downward force: Sigma F = F_g - F_b - F_d = 8.48 x 10^-9 - 14.91 x 10^-9 = -6.43 x 10^-9 (N) < 0",
+        "-> Because Sigma F < 0 (F_d > F_g - F_b), the 0.1-mm particle will be washed from the filter."
+      ],
+      "verification_checks": [
+        "Check Re = 1.22 < 2 -> laminar drag regime C_d = 24 / Re = 19.7 (satisfy)",
+        "Check Sigma F = -6.43 x 10^-9 N < 0 -> upward drag exceeds submerged weight, so the 0.1-mm particle is washed out (satisfy)"
+      ],
+      "final_answers": {
+        "Re": "1.22",
+        "C_d": "19.7",
+        "F_g_minus_F_b_N": "8.48 x 10^-9 N",
+        "F_d_N": "1.49 x 10^-8 N",
+        "Sigma_F_N": "-6.43 x 10^-9 N",
+        "conclusion": "The 0.1-mm diameter particle will be washed from the filter (Sigma F < 0)."
+      }
+    },
+    {
+      "exercise_id": "ch03_5_ex03",
+      "chapter_slug": "ch03_5",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Xác định chiều dày lớp vật liệu lọc giãn nở (L_E) và độ giãn nở của bể lọc cát khi rửa ngược ở cường độ v_bw = 40 m/h, biết chiều dày lớp cát tĩnh L_F = 0.9 m và nhiệt độ nước T = 15 độ C.",
+      "design_parameters_selected": [
+        "15°C -> rho_w = 999.1 kg/m^3 and mu = 1.139 x 10^-3 Pa.s",
+        "v_bw = 40 m/h = 0.011 m/s",
+        "Select d = 0.5 mm = 0.0005 m, Select: rho_P = 2.65 kg/L = 2650 kg/m^3",
+        "Select kappa_V = 112, Select: kappa_I = 2.25",
+        "Select epsilon_F = 0.42"
+      ],
+      "governing_equations": [
+        "X = [mu v_bw / (2 g (rho_P - rho_W) d^2)] x (kappa_V + (kappa_I rho_W v_bw d) / mu)",
+        "Y = (kappa_V mu v_bw) / (3 g (rho_P - rho_W) d^2)",
+        "epsilon_E = (X + (X^2 + Y^3)^0.5)^(1/3) + (X - (X^2 + Y^3)^0.5)^(1/3)",
+        "L_E = L_F ((1 - epsilon_F) / (1 - epsilon_E))",
+        "Bed expansion = (L_E / L_F - 1) x 100%"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "15°C -> rho_w = 999.1 kg/m^3 and mu = 1.139 x 10^-3 Pa.s",
+        "v_bw = 40 m/h = 0.011 m/s",
+        "Select d = 0.5 mm = 0.0005 m    Select: rho_P = 2.65 kg/L = 2650 kg/m^3",
+        "Select kappa_V = 112            Select: kappa_I = 2.25",
+        "Select epsilon_F = 0.42",
+        "Solution (continue):",
+        "X = [mu v_bw / (2 g (rho_P - rho_W) d^2)] x (kappa_V + (kappa_I rho_W v_bw d) / mu)",
+        "X = [(1.139 x 10^-3 x 0.011) / (2 x 9.81 x (2650 - 999.1) x 0.0005^2)] x (112 + (2.25 x 999.1 x 0.011 x 0.0005) / (1.139 x 10^-3)) = 0.1921",
+        "Y = (kappa_V mu v_bw) / (3 g (rho_P - rho_W) d^2) = (112 x 1.139 x 10^-3 x 0.011) / (3 x 9.81 x (2650 - 999.1) x 0.0005^2) = 0.1168",
+        "epsilon_E = (X + (X^2 + Y^3)^0.5)^(1/3) + (X - (X^2 + Y^3)^0.5)^(1/3) = (0.1921 + (0.1921^2 + 0.1168^3)^0.5)^(1/3) + (0.1921 - (0.1921^2 + 0.1168^3)^0.5)^(1/3) = 0.57",
+        "Depth of expanded bed: L_E = L_F ((1 - epsilon_F) / (1 - epsilon_E)) = 0.9 x ((1 - 0.42) / (1 - 0.57)) = 1.21 (m)",
+        "Bed expansion = (L_E / L_F - 1) = 1.21 / 0.9 - 1 = 0.34 = 34%"
+      ],
+      "verification_checks": [
+        "Check bed expansion = 34% in range 25% to 37% (satisfy)"
+      ],
+      "final_answers": {
+        "X": "0.1921",
+        "Y": "0.1168",
+        "expanded_porosity_epsilon_E": "0.57",
+        "expanded_bed_depth_L_E": "1.21 m",
+        "bed_expansion_percent": "34%"
+      }
+    },
+    {
+      "exercise_id": "ch03_5_ex04",
+      "chapter_slug": "ch03_5",
+      "category": "pdf_exercise",
+      "status_before": "PARTIAL",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Thiết kế hệ thống bể lọc nhanh hai lớp vật liệu (cát và than антраxit) cho nhà máy xử lý nước thải có công suất Q = 230,000 m^3/ngày.",
+      "design_parameters_selected": [
+        "Select filtration rate v_F = 15 m^3/m^2.h",
+        "Select Available head = 2 m",
+        "Select Media depth = 0.9 m = sand depth (0.3 m) + anthracite depth (0.6 m)",
+        "Select Underdrain depth = 0.5 m",
+        "Select backwash rate v_bw = 40 m^3/m^2.h",
+        "Select freeboard = 0.6 m, clearance to washwater trough = 0.3 m",
+        "Select Filtration duration t_F = 2 days = 48 h, Backwash duration t_bw = 15 mins = 0.25 h, Ripening duration t_FTW = 60 mins = 1 h"
+      ],
+      "governing_equations": [
+        "A = Q / v_F",
+        "D = Media depth + Available head + Underdrain depth + Freeboard",
+        "H_trough = L_E + (0.3 - 0.5 m)",
+        "Recovery = (v_F t_F - v_bw t_bw - v_F t_FTW) / (v_F t_F)"
+      ],
+      "worked_solution_steps": [
+        "Solution (Slide 28 - [Lời giải từ ảnh chụp slide của thầy]):",
+        "Select filtration rate v_F = 15 m^3/m^2.h",
+        "Select Available head = 2 m",
+        "Select Media depth = 0.9 m = sand depth (0.3 m) + anthracite depth (0.6 m)",
+        "Select Underdrain depth = 0.5 m",
+        "Select backwash rate v_bw = 40 m^3/m^2.h",
+        "Solution (continue, Slide 29 - [Lời giải từ ảnh chụp slide của thầy]):",
+        "Required filter area: A = Q / v_F = (230,000 m^3/day) / (15 m^3/m^2.h x 24 h/day) = 640 m^2 (slide displays 200,000 m^3/day typo in numerator while computing 230,000 / 360 = 638.9 ≈ 640 m^2)",
+        "Maximum area of each filter is 100 m^2.",
+        "-> Select number of filter = 9 (8 filter run at full capacity while 1 filter is backwashing)",
+        "-> Area of each filter = 640 m^2 / 8 = 80 m^2",
+        "Select L x W = 10 m x 8 m",
+        "Depth of each filter D = Media depth + Available head + underdrain depth + freeboard = 0.9 m + 2 m + 0.5 m + 0.6 m = 4 m",
+        "Solution (continue, Slide 30 & Chalkboard #184 - [Lời giải khôi phục theo chuẩn slide của thầy]):",
+        "Expanded bed depth at v_bw = 40 m^3/m^2.h (15°C): L_E,sand = 0.3 x (1 - 0.42)/(1 - 0.57) = 0.40 m; L_E,anthracite = 0.6 x (1 - 0.50)/(1 - 0.64) = 0.84 m -> Total L_E = 1.24 m (or 1.2 m on chalkboard sketch with 34% expansion)",
+        "Select clearance above expanded bed = 0.3 m (within 0.3 - 0.5 m)",
+        "-> Height of washwater trough above media floor: H_trough = L_E + 0.3 m = 1.2 m + 0.3 m = 1.5 m (or 1.24 m + 0.36 m = 1.6 m)",
+        "Solution (continue, Slide 31 - [Lời giải từ ảnh chụp slide của thầy]):",
+        "Select Filtration duration t_F = 2 days = 48 h",
+        "Select Backwash duration t_bw = 15 mins = 0.25 h",
+        "Select Ripening (filter-to-waste) duration t_FTW = 60 mins = 1 h",
+        "-> Recovery rate: (v_F t_F - v_bw t_bw - v_F t_FTW) / (v_F t_F) = ((15 m^3/m^2.h x 48 h) - (40 m^3/m^2.h x 0.25 h) - (15 m^3/m^2.h x 1 h)) / (15 m^3/m^2.h x 48 h) = (720 - 10 - 15) / 720 = 695 / 720 = 96.5%"
+      ],
+      "verification_checks": [
+        "Check area of each filter = 80 m^2 <= 100 m^2 (satisfy)",
+        "Check total depth D = 4 m in range 4 - 8 m (satisfy)",
+        "Check height of washwater trough = 1.5 m (L_E + 0.3 m) (satisfy)",
+        "Check recovery rate = 96.5% > 95% (satisfy)"
+      ],
+      "final_answers": {
+        "total_filter_area_A": "640 m^2",
+        "number_of_filters_N": "9 filters (8 active + 1 backwashing)",
+        "each_filter_dimensions": "L x W x D = 10 m x 8 m x 4 m (Area = 80 m^2)",
+        "expanded_bed_and_trough_height": "L_E = 1.2 - 1.24 m, H_trough = 1.5 - 1.6 m",
+        "recovery_rate": "96.5%"
+      }
+    },
+    {
+      "exercise_id": "ch04_1_ex01",
+      "chapter_slug": "ch04_1",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Châm liều lượng phèn nhôm clorua AlCl3 30 mg/L vào nhà máy xử lý nước thải công suất Q = 43,200 m^3/ngày (0.5 m^3/s). Tính: (a) khối lượng AlCl3 cần mỗi ngày, (b) lưu lượng bơm định lượng dung dịch AlCl3 8% (khối lượng riêng 1.25 kg/L) chạy 24/24, (c) độ kiềm tiêu thụ (mg/L tính theo CaCO3), (d) liều lượng NaOH cần bổ sung và khối lượng kết tủa Al(OH)3 sinh ra mỗi ngày.",
+      "design_parameters_selected": [
+        "Q = 43,200 m^3/day (0.5 m^3/s)",
+        "AlCl3 dose = 30 mg/L = 30 g/m^3",
+        "MW(AlCl3) = 133.5 g/mol, MW(Al(OH)3) = 78 g/mol, MW(NaOH) = 40 g/mol, Equivalent weight of CaCO3 = 50 mg/meq",
+        "AlCl3 solution = 8% by weight, density = 1.25 kg/L, dosing pump operates 24/24"
+      ],
+      "governing_equations": [
+        "AlCl3 + 3H2O <-> Al(OH)3↓ + 3H+ + 3Cl-",
+        "AlCl3 + 3NaOH <-> Al(OH)3↓ + 3NaCl",
+        "1 meq/L of Al3+ consumes 1 meq/L of alkalinity (50 mg/L as CaCO3)"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "a/ The amount of AlCl3 needed for 1 day = 30 (g/m^3) x 43,200 (m^3/day) x (1 kg / 1000 g) = 1296 kg/day",
+        "b/ AlCl3 solution needed for 1 day = (1296 kg/day) / (8% x 1.25 kg/L) = 12,960 L/day",
+        "-> The capacity of dosing pump (if dosing pump run 24/24) = 12,960 / 24 = 540 (L/h)",
+        "Solution (continue):",
+        "c/ AlCl3 + 3H2O <-> Al(OH)3↓ + 3H+ + 3Cl-",
+        "Alk_consumed = (30 mg/L AlCl3) x (1 mmol AlCl3 / 133.5 mg AlCl3) x (1 mmol Al3+ / 1 mmol AlCl3) x (3 meq Al3+ / 1 mmol Al3+) x (1 meq Alk_consumed / 1 meq Al3+) x (50 mg CaCO3 / 1 meq Alk) = 33.7 mg/L CaCO3",
+        "d/ NaOH dose required to counteract the alkalinity consumption: (33.7 mg/L as CaCO3) x (40 mg NaOH / 1 meq Alk) / (50 mg CaCO3 / 1 meq Alk) = 26.96 mg/L NaOH",
+        "AlCl3 + 3NaOH <-> Al(OH)3↓ + 3NaCl",
+        "Solution (continue):",
+        "Calculate the precipitate formed: [Al(OH)3] = (30 mg/L AlCl3) x (1 mmol AlCl3 / 133.5 mg AlCl3) x (1 mmol Al(OH)3 / 1 mmol AlCl3) x (78 mg Al(OH)3 / 1 mmol Al(OH)3) = 17.53 mg/L Al(OH)3",
+        "Amount of Al(OH)3 produced = (17.53 g/m^3) x (43,200 m^3/day) = 757,296 g/day = 757 kg/day",
+        "Note: The sludge produced by coagulation include: - Precipitate formed from alum - Particles from the influent wastewater."
+      ],
+      "verification_checks": [
+        "Check stoichiometry: 30 / 133.5 = 0.2247 mmol/L AlCl3 -> 0.6742 meq/L Alk = 33.71 mg/L CaCO3 (satisfy)",
+        "Check precipitate mass balance: 1296 kg/day x (78 / 133.5) = 757.2 kg/day Al(OH)3 (satisfy)"
+      ],
+      "final_answers": {
+        "a_daily_AlCl3_needed": "1,296 kg/day",
+        "b_dosing_pump_capacity": "540 L/h (12,960 L/day)",
+        "c_alkalinity_consumed": "33.7 mg/L as CaCO3",
+        "d_NaOH_dose_required": "26.96 mg/L NaOH (1,164.7 kg/day)",
+        "precipitate_AlOH3_produced": "17.53 mg/L (757 kg/day)"
+      }
+    },
+    {
+      "exercise_id": "ch04_1_ex02",
+      "chapter_slug": "ch04_1",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể keo tụ (coagulation tank) cho nhà máy xử lý nước thải công suất Q = 43,200 m^3/ngày (0.5 m^3/s): (a) xác định thể tích bể keo tụ, (b) tính công suất khuấy trộn ở nhiệt độ nước 20 độ C, và (c) tính công suất khuấy trộn ở nhiệt độ nước 10 độ C.",
+      "design_parameters_selected": [
+        "Q = 43,200 m^3/day = 0.5 m^3/s",
+        "Select detention time t = 5 mins (300 s) on Slide 22 (and chalkboard comparison HRT = 30 s)",
+        "Select velocity gradient G = 500 s^-1 (from Slide 18: G >= 500 s^-1)",
+        "mu at 20°C = 1.002 x 10^-3 Pa.s, mu at 10°C = 1.307 x 10^-3 Pa.s"
+      ],
+      "governing_equations": [
+        "V = Q x t",
+        "P = G^2 mu V"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "a/ Select detention time = 5 mins (300 s).",
+        "Volume of coagulation tank = 0.5 m^3/s x 300 s = 150 m^3",
+        "Solution (continue):",
+        "b/ Select G = 500 s^-1",
+        "mu at 20°C = 1.002 x 10^-3 Pa.s",
+        "P = G^2 mu V = (500^2) x (1.002 x 10^-3) x (150) = 37,575 (W) = 37.575 (kW)",
+        "c/ mu at 10°C = 1.307 x 10^-3 Pa.s",
+        "P = G^2 mu V = (500^2) x (1.307 x 10^-3) x (150) = 49,012 (W) = 49 (kW)"
+      ],
+      "verification_checks": [
+        "Check G = 500 s^-1 >= 500 s^-1 (satisfy)"
+      ],
+      "final_answers": {
+        "a_volume_V": "150 m^3 (for t = 5 min = 300 s)",
+        "b_power_20C": "37,575 W = 37.575 kW",
+        "c_power_10C": "49,012 W = 49 kW"
+      }
+    },
+    {
+      "exercise_id": "proj_ch04_1_hw01",
+      "chapter_slug": "ch04_1",
+      "category": "projector_only",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Bài tập về nhà (Slide 24): Châm liều lượng AlCl3 45 mg/L vào quá trình keo tụ của nhà máy xử lý nước thải có công suất Q = 10,000 m^3/ngày. Tính: (a) khối lượng AlCl3 (kg) cần cho 1 ngày, (b) công suất bơm định lượng (L/h) cho dung dịch AlCl3 10% theo khối lượng (khối lượng riêng 1.2 kg/L, vận hành 24/24), và (c) tổng khối lượng bùn khô sinh ra mỗi ngày (kg/ngày) khi nồng độ SS đầu vào là 250 mg/L và SS đầu ra là 50 mg/L.",
+      "design_parameters_selected": [
+        "Q = 10,000 m^3/day, AlCl3 dose = 45 mg/L = 45 g/m^3",
+        "AlCl3 solution concentration = 10% by weight, density = 1.2 kg/L, operation = 24/24 h/day",
+        "SS_in = 250 mg/L = 250 g/m^3, SS_out = 50 mg/L = 50 g/m^3",
+        "MW(AlCl3) = 133.5 g/mol, MW(Al(OH)3) = 78 g/mol"
+      ],
+      "governing_equations": [
+        "M_AlCl3 = Dose x Q",
+        "V_solution = M_AlCl3 / (wt% x rho_solution), Q_pump = V_solution / 24",
+        "AlCl3 + 3H2O <-> Al(OH)3↓ + 3H+ + 3Cl-",
+        "M_sludge,dry = M_Al(OH)3 + Q x (SS_in - SS_out)"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "a/ The amount of AlCl3 needed for 1 day = 45 (g/m^3) x 10,000 (m^3/day) x (1 kg / 1000 g) = 450 kg/day",
+        "b/ AlCl3 solution needed for 1 day = (450 kg/day) / (10% x 1.2 kg/L) = 3,750 L/day",
+        "-> The capacity of dosing pump (if dosing pump run 24/24) = 3,750 / 24 = 156.25 (L/h)",
+        "Solution (continue):",
+        "c/ AlCl3 + 3H2O <-> Al(OH)3↓ + 3H+ + 3Cl-",
+        "Calculate the precipitate formed: [Al(OH)3] = (45 mg/L AlCl3) x (1 mmol AlCl3 / 133.5 mg AlCl3) x (1 mmol Al(OH)3 / 1 mmol AlCl3) x (78 mg Al(OH)3 / 1 mmol Al(OH)3) = 26.29 mg/L Al(OH)3",
+        "Amount of Al(OH)3 precipitate produced = (26.29 g/m^3) x (10,000 m^3/day) x (1 kg / 1000 g) = 262.92 kg/day",
+        "Amount of suspended solids removed = (250 g/m^3 - 50 g/m^3) x (10,000 m^3/day) x (1 kg / 1000 g) = 2,000 kg/day",
+        "-> Total dry mass of sludge production = 262.92 kg/day + 2,000 kg/day = 2,262.92 kg/day (≈ 2,263 kg/day)"
+      ],
+      "verification_checks": [
+        "Check solution mass balance: 3,750 L/day x 1.2 kg/L x 10% = 450 kg/day AlCl3 (satisfy)",
+        "Check total dry sludge = chemical precipitate (262.92 kg/d) + removed SS (2,000 kg/d) = 2,262.92 kg/d (satisfy)"
+      ],
+      "final_answers": {
+        "a_daily_AlCl3_needed": "450 kg/day",
+        "b_dosing_pump_capacity": "156.25 L/h (3,750 L/day)",
+        "c_AlOH3_precipitate": "26.29 mg/L (262.92 kg/day)",
+        "c_SS_removed": "200 mg/L (2,000 kg/day)",
+        "c_total_dry_sludge_production": "2,262.92 kg/day (2,263 kg/day)"
+      }
+    }
+  ]
+}

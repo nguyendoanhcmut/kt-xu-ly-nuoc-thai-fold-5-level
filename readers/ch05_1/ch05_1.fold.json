@@ -1,0 +1,1576 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-5-ph-n-1-gi-i-thi-u-v-x-l-sinh-h-c-5726644b",
+  "lang": "vi",
+  "title": "Chương 5 (Phần 1) Giới thiệu về Xử lý Sinh học (Chapter 5 Part 1 Introduction to Biological Treatment)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch05_1_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:43:51Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-08T00:43:51",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-tổng-quan-mục-tiêu-và-phân-loại-quá-trình-xử-lý-sinh-học-overview-objectives-and-classification-of-biological-processes",
+      "num": "1",
+      "title": "Tổng quan, Mục tiêu và Phân loại Quá trình Xử lý Sinh học (Overview, Objectives, and Classification of Biological Processes)",
+      "depth": 1,
+      "takeaway": "Xử lý sinh học bậc hai loại bỏ chất hữu cơ và chất dinh dưỡng bằng vi sinh vật",
+      "topic": "chất hữu cơ",
+      "units": [
+        {
+          "id": "p-79f6cda1",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Quá trình xử lý sinh học (biological treatment) thuộc bậc xử lý thứ cấp (secondary treatment) trong dây chuyền công nghệ xử lý nước thải [Page 1] [Page 2] [Page 3]. Mục tiêu chính của công đoạn này là chuyển hóa và oxy hóa các chất hữu cơ hòa tan (dissolved organic matter) cùng các chất hữu cơ dạng hạt (particulate organic matter) thành các sản phẩm cuối cùng an toàn cho môi trường. Quá trình sinh học cũng bắt giữ và gắn kết các chất rắn dạng keo (colloidal solids) vào trong bông bùn sinh học (biological flocs) hoặc màng sinh học (biofilms). Ngoài ra, hệ vi sinh vật còn loại bỏ hoặc chuyển hóa các chất dinh dưỡng (nutrients) như nitơ ($N$) và phốt pho ($P$) cũng như phân hủy các hợp chất hữu cơ vi lượng đặc thù trong nước thải.",
+          "sentences": [
+            "Quá trình xử lý sinh học (biological treatment) thuộc bậc xử lý thứ cấp (secondary treatment) trong dây chuyền công nghệ xử lý nước thải [Page 1] [Page 2] [Page 3].",
+            "Mục tiêu chính của công đoạn này là chuyển hóa và oxy hóa các chất hữu cơ hòa tan (dissolved organic matter) cùng các chất hữu cơ dạng hạt (particulate organic matter) thành các sản phẩm cuối cùng an toàn cho môi trường.",
+            "Quá trình sinh học cũng bắt giữ và gắn kết các chất rắn dạng keo (colloidal solids) vào trong bông bùn sinh học (biological flocs) hoặc màng sinh học (biofilms).",
+            "Ngoài ra, hệ vi sinh vật còn loại bỏ hoặc chuyển hóa các chất dinh dưỡng (nutrients) như nitơ ($N$) và phốt pho ($P$) cũng như phân hủy các hợp chất hữu cơ vi lượng đặc thù trong nước thải."
+          ],
+          "brief": [
+            "Quá trình xử lý sinh học (biological treatment) thuộc bậc xử lý thứ cấp (secondary treatment) trong dây chuyền công nghệ xử lý nước thải [Page 1] [Page 2] [Page 3].",
+            "Mục tiêu chính của công đoạn này là chuyển hóa và oxy hóa các chất hữu cơ hòa tan (dissolved organic matter) cùng các chất hữu cơ dạng hạt (particulate organic matter) thành các sản phẩm cuối cùng an toàn cho môi trường."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Quá trình xử lý sinh học bậc hai chuyển hóa chất hữu cơ và khử dinh dưỡng $N$, $P$. Vi sinh vật bắt giữ chất rắn keo vào bông bùn và phân hủy hợp chất hữu cơ vi lượng.",
+          "takeaway": "Quá trình xử lý sinh học bậc hai chuyển hóa chất hữu cơ và khử dinh dưỡng $N$, $P$",
+          "topic": "bậc hai"
+        },
+        {
+          "id": "p-62e68412",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Vi sinh vật (microorganisms) đóng vai trò hạt nhân trong việc oxy hóa chất hữu cơ và tách bùn sinh học bằng trọng lực [Page 4] [Page 5]. Các vi khuẩn dị dưỡng và tự dưỡng oxy hóa chất hữu cơ thành các sản phẩm cuối đơn giản như khí $\\text{CO}_2$ và nước $\\text{H}_2\\text{O}$ đồng thời tổng hợp tế bào sinh khối mới (new biomass). Nhóm vi khuẩn chuyên biệt thực hiện việc khử nitơ và phốt pho thông qua các chuỗi phản ứng trao đổi chất. Sinh khối tạo thành có tỷ trọng (specific gravity) lớn hơn một chút so với tỷ trọng của nước nên bể lắng thứ cấp (secondary clarifier) dễ dàng tách bùn ra khỏi nước đã xử lý bằng quá trình lắng trọng lực (gravity settling). Quá trình phân hủy sinh học (biodegradation) tương ứng với sự tiêu thụ cacbon của vi khuẩn, nhu cầu cấp khí (aeration requirement) tương ứng với quá trình hô hấp (respiration), và lượng bùn sinh ra (biomass production) tương ứng với sự tăng trưởng và phân chia tế bào trong bông bùn hoạt tính (activated sludge bio-flocs) nhờ chất ngoại bào полиme (ECP) và cầu nối cation hóa trị hai ($\\text{Ca}^{2+}$).",
+          "sentences": [
+            "Vi sinh vật (microorganisms) đóng vai trò hạt nhân trong việc oxy hóa chất hữu cơ và tách bùn sinh học bằng trọng lực [Page 4] [Page 5].",
+            "Các vi khuẩn dị dưỡng và tự dưỡng oxy hóa chất hữu cơ thành các sản phẩm cuối đơn giản như khí $\\text{CO}_2$ và nước $\\text{H}_2\\text{O}$ đồng thời tổng hợp tế bào sinh khối mới (new biomass).",
+            "Nhóm vi khuẩn chuyên biệt thực hiện việc khử nitơ và phốt pho thông qua các chuỗi phản ứng trao đổi chất.",
+            "Sinh khối tạo thành có tỷ trọng (specific gravity) lớn hơn một chút so với tỷ trọng của nước nên bể lắng thứ cấp (secondary clarifier) dễ dàng tách bùn ra khỏi nước đã xử lý bằng quá trình lắng trọng lực (gravity settling).",
+            "Quá trình phân hủy sinh học (biodegradation) tương ứng với sự tiêu thụ cacbon của vi khuẩn, nhu cầu cấp khí (aeration requirement) tương ứng với quá trình hô hấp (respiration), và lượng bùn sinh ra (biomass production) tương ứng với sự tăng trưởng và phân chia tế bào trong bông bùn hoạt tính (activated sludge bio-flocs) nhờ chất ngoại bào полиme (ECP) và cầu nối cation hóa trị hai ($\\text{Ca}^{2+}$)."
+          ],
+          "brief": [
+            "Các vi khuẩn dị dưỡng và tự dưỡng oxy hóa chất hữu cơ thành các sản phẩm cuối đơn giản như khí $\\text{CO}_2$ và nước $\\text{H}_2\\text{O}$ đồng thời tổng hợp tế bào sinh khối mới (new biomass).",
+            "Sinh khối tạo thành có tỷ trọng (specific gravity) lớn hơn một chút so với tỷ trọng của nước nên bể lắng thứ cấp (secondary clarifier) dễ dàng tách bùn ra khỏi nước đã xử lý bằng quá trình lắng trọng lực (gravity settling)."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Vi sinh vật oxy hóa chất hữu cơ thành $\\text{CO}_2$, $\\text{H}_2\\text{O}$ và tạo bông bùn lắng trọng lực. Sinh khối mới có tỷ trọng lớn hơn nước và kết dính nhờ chất ngoại bào cùng ion $\\text{Ca}^{2+}$.",
+          "takeaway": "Vi sinh vật oxy hóa chất hữu cơ thành $\\text{CO}_2$, $\\text{H}_2\\text{O}$ và tạo bông bùn lắng trọng lực",
+          "topic": "Vi sinh vật"
+        },
+        {
+          "id": "p-1dceb7b0",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Công nghệ xử lý nước thải bằng phương pháp sinh học được phân chia theo trạng thái tồn tại của sinh khối và theo điều kiện chất nhận điện tử [Page 5] [Page 6]. Quá trình sinh trưởng lơ lửng (suspended growth processes) duy trì vi sinh vật ở trạng thái lơ lửng trong pha lỏng như bể bùn hoạt tính (activated sludge processes), bể phản ứng màng sinh học (MBR), bể thiếu khí khử nitrat lơ lửng (suspended-growth denitrification) và bể tiếp xúc kỵ khí (anaerobic contact processes). Quá trình sinh trưởng dính bám (attached growth processes) cho phép vi sinh vật phát triển và bám trên bề mặt vật liệu mang như đá hoặc giá thể nhựa để tạo màng sinh học (biofilm) trong bể MBBR (moving bed bioreactor) hoặc bể lọc sinh học có lớp đệm (packed-bed reactor PBR), trong khi bể UASB (upflow anaerobic sludge blanket) vận hành theo cơ chế tầng bùn hạt kỵ khí. Theo điều kiện oxy, quá trình hiếu khí (aerobic processes) diễn ra khi có mặt oxy phân tử ($\\text{O}_2$), quá trình thiếu khí (anoxic processes) diễn ra khi không có oxy tự do nhưng có mặt nitrit ($\\text{NO}_2^-$) hoặc nitrat ($\\text{NO}_3^-$), và quá trình kỵ khí (anaerobic processes) diễn ra khi hoàn toàn không có oxy tự do.",
+          "sentences": [
+            "Công nghệ xử lý nước thải bằng phương pháp sinh học được phân chia theo trạng thái tồn tại của sinh khối và theo điều kiện chất nhận điện tử [Page 5] [Page 6].",
+            "Quá trình sinh trưởng lơ lửng (suspended growth processes) duy trì vi sinh vật ở trạng thái lơ lửng trong pha lỏng như bể bùn hoạt tính (activated sludge processes), bể phản ứng màng sinh học (MBR), bể thiếu khí khử nitrat lơ lửng (suspended-growth denitrification) và bể tiếp xúc kỵ khí (anaerobic contact processes).",
+            "Quá trình sinh trưởng dính bám (attached growth processes) cho phép vi sinh vật phát triển và bám trên bề mặt vật liệu mang như đá hoặc giá thể nhựa để tạo màng sinh học (biofilm) trong bể MBBR (moving bed bioreactor) hoặc bể lọc sinh học có lớp đệm (packed-bed reactor PBR), trong khi bể UASB (upflow anaerobic sludge blanket) vận hành theo cơ chế tầng bùn hạt kỵ khí.",
+            "Theo điều kiện oxy, quá trình hiếu khí (aerobic processes) diễn ra khi có mặt oxy phân tử ($\\text{O}_2$), quá trình thiếu khí (anoxic processes) diễn ra khi không có oxy tự do nhưng có mặt nitrit ($\\text{NO}_2^-$) hoặc nitrat ($\\text{NO}_3^-$), và quá trình kỵ khí (anaerobic processes) diễn ra khi hoàn toàn không có oxy tự do."
+          ],
+          "brief": [
+            "Công nghệ xử lý nước thải bằng phương pháp sinh học được phân chia theo trạng thái tồn tại của sinh khối và theo điều kiện chất nhận điện tử [Page 5] [Page 6].",
+            "Theo điều kiện oxy, quá trình hiếu khí (aerobic processes) diễn ra khi có mặt oxy phân tử ($\\text{O}_2$), quá trình thiếu khí (anoxic processes) diễn ra khi không có oxy tự do nhưng có mặt nitrit ($\\text{NO}_2^-$) hoặc nitrat ($\\text{NO}_3^-$), và quá trình kỵ khí (anaerobic processes) diễn ra khi hoàn toàn không có oxy tự do."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Công nghệ sinh học phân loại theo sinh trưởng lơ lửng, dính bám và điều kiện nhận điện tử. Các chế độ hiếu khí, thiếu khí và kỵ khí phụ thuộc vào sự hiện diện của $\\text{O}_2$, $\\text{NO}_2^-$ hoặc $\\text{NO}_3^-$.",
+          "takeaway": "Công nghệ sinh học phân loại theo sinh trưởng lơ lửng, dính bám và điều kiện nhận điện tử",
+          "topic": "dính bám"
+        },
+        {
+          "id": "p-e3dabd9b",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Hệ vi sinh vật trong công trình xử lý nước thải được phân loại dựa trên nguồn cho điện tử (electron donor), chất nhận điện tử (electron acceptor) và nguồn cacbon (carbon source) [Page 6]. Vi khuẩn dị dưỡng hiếu khí (aerobic heterotrophic bacteria) sử dụng hợp chất hữu cơ làm nguồn cho điện tử và nguồn cacbon với $\\text{O}_2$ là chất nhận điện tử để tạo ra $\\text{CO}_2$ và $\\text{H}_2\\text{O}$ trong phản ứng oxy hóa hiếu khí (aerobic oxidation). Vi khuẩn tự dưỡng hiếu khí (aerobic autotrophic bacteria) sử dụng $\\text{NH}_4^+$ và $\\text{NO}_2^-$ làm chất cho điện tử, $\\text{O}_2$ làm chất nhận điện tử và $\\text{CO}_2$ vô cơ làm nguồn cacbon để tạo thành $\\text{NO}_2^-$ và $\\text{NO}_3^-$ trong phản ứng nitrat hóa (nitrification). Vi khuẩn dị dưỡng tùy nghi (facultative heterotrophic bacteria) thực hiện phản ứng khử nitrat thiếu khí (denitrification anoxic reaction) bằng cách dùng chất hữu cơ làm chất cho điện tử và nguồn cacbon còn $\\text{NO}_2^-$ hoặc $\\text{NO}_3^-$ làm chất nhận điện tử để giải phóng khí $\\text{N}_2$, $\\text{CO}_2$ và $\\text{H}_2\\text{O}$. Trong môi trường kỵ khí, vi khuẩn dị dưỡng kỵ khí (anaerobic heterotrophic bacteria) lên men axit (acid fermentation) từ chất hữu cơ thành các axit béo bay hơi (VFAs như acetate, propionate, butyrate) và nhóm vi khuẩn sinh mêtan (methanogenesis) khử $\\text{CO}_2$ cùng VFAs thành khí mêtan ($\\text{CH}_4$), còn vi khuẩn tự dưỡng kỵ khí Anammox oxy hóa $\\text{NH}_4^+$ bằng $\\text{NO}_2^-$ với nguồn cacbon $\\text{CO}_2$ để tạo thành khí $\\text{N}_2$ và $\\text{NO}_3^-$.",
+          "sentences": [
+            "Hệ vi sinh vật trong công trình xử lý nước thải được phân loại dựa trên nguồn cho điện tử (electron donor), chất nhận điện tử (electron acceptor) và nguồn cacbon (carbon source) [Page 6].",
+            "Vi khuẩn dị dưỡng hiếu khí (aerobic heterotrophic bacteria) sử dụng hợp chất hữu cơ làm nguồn cho điện tử và nguồn cacbon với $\\text{O}_2$ là chất nhận điện tử để tạo ra $\\text{CO}_2$ và $\\text{H}_2\\text{O}$ trong phản ứng oxy hóa hiếu khí (aerobic oxidation).",
+            "Vi khuẩn tự dưỡng hiếu khí (aerobic autotrophic bacteria) sử dụng $\\text{NH}_4^+$ và $\\text{NO}_2^-$ làm chất cho điện tử, $\\text{O}_2$ làm chất nhận điện tử và $\\text{CO}_2$ vô cơ làm nguồn cacbon để tạo thành $\\text{NO}_2^-$ và $\\text{NO}_3^-$ trong phản ứng nitrat hóa (nitrification).",
+            "Vi khuẩn dị dưỡng tùy nghi (facultative heterotrophic bacteria) thực hiện phản ứng khử nitrat thiếu khí (denitrification anoxic reaction) bằng cách dùng chất hữu cơ làm chất cho điện tử và nguồn cacbon còn $\\text{NO}_2^-$ hoặc $\\text{NO}_3^-$ làm chất nhận điện tử để giải phóng khí $\\text{N}_2$, $\\text{CO}_2$ và $\\text{H}_2\\text{O}$.",
+            "Trong môi trường kỵ khí, vi khuẩn dị dưỡng kỵ khí (anaerobic heterotrophic bacteria) lên men axit (acid fermentation) từ chất hữu cơ thành các axit béo bay hơi (VFAs như acetate, propionate, butyrate) và nhóm vi khuẩn sinh mêtan (methanogenesis) khử $\\text{CO}_2$ cùng VFAs thành khí mêtan ($\\text{CH}_4$), còn vi khuẩn tự dưỡng kỵ khí Anammox oxy hóa $\\text{NH}_4^+$ bằng $\\text{NO}_2^-$ với nguồn cacbon $\\text{CO}_2$ để tạo thành khí $\\text{N}_2$ và $\\text{NO}_3^-$."
+          ],
+          "brief": [
+            "Hệ vi sinh vật trong công trình xử lý nước thải được phân loại dựa trên nguồn cho điện tử (electron donor), chất nhận điện tử (electron acceptor) và nguồn cacbon (carbon source) [Page 6].",
+            "Vi khuẩn tự dưỡng hiếu khí (aerobic autotrophic bacteria) sử dụng $\\text{NH}_4^+$ và $\\text{NO}_2^-$ làm chất cho điện tử, $\\text{O}_2$ làm chất nhận điện tử và $\\text{CO}_2$ vô cơ làm nguồn cacbon để tạo thành $\\text{NO}_2^-$ và $\\text{NO}_3^-$ trong phản ứng nitrat hóa (nitrification)."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Hệ vi sinh vật phân nhóm theo chất cho điện tử, chất nhận điện tử và nguồn cacbon. Vi khuẩn dị dưỡng dùng cacbon hữu cơ trong khi vi khuẩn tự dưỡng nitrat hóa và Anammox dùng $\\text{CO}_2$.",
+          "takeaway": "Hệ vi sinh vật phân nhóm theo chất cho điện tử, chất nhận điện tử và nguồn cacbon",
+          "topic": "nguồn cacbon"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-tăng-trưởng-phân-hủy-sinh-khối-và-cân-bằng-hóa-học-bacterial-growth-decay-and-stoichiometry",
+      "num": "2",
+      "title": "Tăng trưởng, Phân hủy Sinh khối và Cân bằng Hóa học (Bacterial Growth, Decay, and Stoichiometry)",
+      "depth": 1,
+      "takeaway": "Cân bằng hóa học xác định hệ số sản lượng sinh khối $Y$ và nhu cầu oxy tiêu thụ",
+      "topic": "nhu cầu oxy",
+      "units": [
+        {
+          "id": "p-fb884bff",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Vi khuẩn sinh sản chủ yếu bằng cơ chế trực phân đôi (binary fission) và trải qua bốn pha tăng trưởng đặc trưng trong bể phản ứng mẻ (batch reactor) [Page 7]. Khi cơ chất (substrate) và chất dinh dưỡng dồi dào, một tế bào vi khuẩn phân chia thành hai tế bào con với thời gian thế hệ (generation time) dao động từ dưới 20 phút đến vài ngày, ví dụ một vi khuẩn có thời gian thế hệ 1 giờ sẽ tạo ra $2^{24} = 16.7\\text{ triệu}$ tế bào sau 24 giờ. Trong bể phản ứng mẻ, pha tiềm phát (lag phase) là giai đoạn vi khuẩn thích nghi với môi trường mới nên sự phân chia tế bào diễn ra rất ít. Pha tăng trưởng theo hàm mũ (exponential phase) đạt tốc độ tăng trưởng cực đại làm nồng độ sinh khối tăng nhanh theo cấp số nhân. Pha cân bằng (stationary phase) xuất hiện khi tốc độ tăng trưởng giảm xuống và đạt trạng thái cân bằng giữa số tế bào sinh ra và số tế bào chết đi, sau đó pha suy tàn (death phase) diễn ra khi cơ chất cạn kiệt làm nồng độ sinh khối suy giảm.",
+          "sentences": [
+            "Vi khuẩn sinh sản chủ yếu bằng cơ chế trực phân đôi (binary fission) và trải qua bốn pha tăng trưởng đặc trưng trong bể phản ứng mẻ (batch reactor) [Page 7].",
+            "Khi cơ chất (substrate) và chất dinh dưỡng dồi dào, một tế bào vi khuẩn phân chia thành hai tế bào con với thời gian thế hệ (generation time) dao động từ dưới 20 phút đến vài ngày, ví dụ một vi khuẩn có thời gian thế hệ 1 giờ sẽ tạo ra $2^{24} = 16.7\\text{ triệu}$ tế bào sau 24 giờ.",
+            "Trong bể phản ứng mẻ, pha tiềm phát (lag phase) là giai đoạn vi khuẩn thích nghi với môi trường mới nên sự phân chia tế bào diễn ra rất ít.",
+            "Pha tăng trưởng theo hàm mũ (exponential phase) đạt tốc độ tăng trưởng cực đại làm nồng độ sinh khối tăng nhanh theo cấp số nhân.",
+            "Pha cân bằng (stationary phase) xuất hiện khi tốc độ tăng trưởng giảm xuống và đạt trạng thái cân bằng giữa số tế bào sinh ra và số tế bào chết đi, sau đó pha suy tàn (death phase) diễn ra khi cơ chất cạn kiệt làm nồng độ sinh khối suy giảm."
+          ],
+          "brief": [
+            "Vi khuẩn sinh sản chủ yếu bằng cơ chế trực phân đôi (binary fission) và trải qua bốn pha tăng trưởng đặc trưng trong bể phản ứng mẻ (batch reactor) [Page 7].",
+            "Pha tăng trưởng theo hàm mũ (exponential phase) đạt tốc độ tăng trưởng cực đại làm nồng độ sinh khối tăng nhanh theo cấp số nhân."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Vi khuẩn nhân đôi bằng trực phân qua bốn pha tăng trưởng trong bể phản ứng mẻ. Nồng độ sinh khối tăng theo hàm mũ khi giàu cơ chất và suy tàn khi cơ chất cạn kiệt.",
+          "takeaway": "Vi khuẩn nhân đôi bằng trực phân qua bốn pha tăng trưởng trong bể phản ứng mẻ",
+          "topic": "trực phân"
+        },
+        {
+          "id": "p-70b01495",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Hệ số sản lượng sinh khối (biomass yield $Y$) biểu thị tỷ số giữa khối lượng sinh khối tạo thành trên một đơn vị khối lượng cơ chất bị tiêu thụ [Page 8] [Page 9]. Kỹ sư thường sử dụng thông số chất rắn lơ lửng bay hơi (Volatile Suspended Solids VSS) để đo lường lượng sinh khối phát triển theo công thức $Y = \\frac{\\text{g biomass produced}}{\\text{g substrate consumed}}$. Trong quá trình oxy hóa dị dưỡng hiếu khí, hệ số $Y$ có đơn vị là $\\text{g VSS/g COD removed}$, trong quá trình nitrat hóa tự dưỡng hiếu khí hệ số $Y$ có đơn vị là $\\text{g VSS/g NH}_4^+\\text{ oxidized}$, và trong quá trình phân hủy kỵ khí hệ số $Y$ có đơn vị là $\\text{g VSS/g VFAs used}$. Khi lấy glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$, phân tử lượng $180\\text{ g/mole}$) làm cơ chất và công thức thực nghiệm của tế bào vi khuẩn mới là $\\text{C}_5\\text{H}_7\\text{NO}_2$ (phân tử lượng $113\\text{ g/mole}$), phương trình tổng hợp tế bào viết dưới dạng $3\\text{C}_6\\text{H}_{12}\\text{O}_6 + 8\\text{O}_2 + 2\\text{NH}_3 \\rightarrow 2\\text{C}_5\\text{H}_7\\text{NO}_2 + 8\\text{CO}_2 + 14\\text{H}_2\\text{O}$ cho phép tính sản lượng tế bào theo glucose là $Y = \\frac{\\Delta(\\text{C}_5\\text{H}_7\\text{NO}_2)}{\\Delta(\\text{C}_6\\text{H}_{12}\\text{O}_6)} = \\frac{2 \\times 113\\text{ g/mole}}{3 \\times 180\\text{ g/mole}} = 0.42\\text{ g cells/g glucose used}$.",
+          "sentences": [
+            "Hệ số sản lượng sinh khối (biomass yield $Y$) biểu thị tỷ số giữa khối lượng sinh khối tạo thành trên một đơn vị khối lượng cơ chất bị tiêu thụ [Page 8] [Page 9].",
+            "Kỹ sư thường sử dụng thông số chất rắn lơ lửng bay hơi (Volatile Suspended Solids VSS) để đo lường lượng sinh khối phát triển theo công thức $Y = \\frac{\\text{g biomass produced}}{\\text{g substrate consumed}}$.",
+            "Trong quá trình oxy hóa dị dưỡng hiếu khí, hệ số $Y$ có đơn vị là $\\text{g VSS/g COD removed}$, trong quá trình nitrat hóa tự dưỡng hiếu khí hệ số $Y$ có đơn vị là $\\text{g VSS/g NH}_4^+\\text{ oxidized}$, và trong quá trình phân hủy kỵ khí hệ số $Y$ có đơn vị là $\\text{g VSS/g VFAs used}$.",
+            "Khi lấy glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$, phân tử lượng $180\\text{ g/mole}$) làm cơ chất và công thức thực nghiệm của tế bào vi khuẩn mới là $\\text{C}_5\\text{H}_7\\text{NO}_2$ (phân tử lượng $113\\text{ g/mole}$), phương trình tổng hợp tế bào viết dưới dạng $3\\text{C}_6\\text{H}_{12}\\text{O}_6 + 8\\text{O}_2 + 2\\text{NH}_3 \\rightarrow 2\\text{C}_5\\text{H}_7\\text{NO}_2 + 8\\text{CO}_2 + 14\\text{H}_2\\text{O}$ cho phép tính sản lượng tế bào theo glucose là $Y = \\frac{\\Delta(\\text{C}_5\\text{H}_7\\text{NO}_2)}{\\Delta(\\text{C}_6\\text{H}_{12}\\text{O}_6)} = \\frac{2 \\times 113\\text{ g/mole}}{3 \\times 180\\text{ g/mole}} = 0.42\\text{ g cells/g glucose used}$."
+          ],
+          "brief": [
+            "Hệ số sản lượng sinh khối (biomass yield $Y$) biểu thị tỷ số giữa khối lượng sinh khối tạo thành trên một đơn vị khối lượng cơ chất bị tiêu thụ [Page 8] [Page 9].",
+            "Khi lấy glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$, phân tử lượng $180\\text{ g/mole}$) làm cơ chất và công thức thực nghiệm của tế bào vi khuẩn mới là $\\text{C}_5\\text{H}_7\\text{NO}_2$ (phân tử lượng $113\\text{ g/mole}$), phương trình tổng hợp tế bào viết dưới dạng $3\\text{C}_6\\text{H}_{12}\\text{O}_6 + 8\\text{O}_2 + 2\\text{NH}_3 \\rightarrow 2\\text{C}_5\\text{H}_7\\text{NO}_2 + 8\\text{CO}_2 + 14\\text{H}_2\\text{O}$ cho phép tính sản lượng tế bào theo glucose là $Y = \\frac{\\Delta(\\text{C}_5\\text{H}_7\\text{NO}_2)}{\\Delta(\\text{C}_6\\text{H}_{12}\\text{O}_6)} = \\frac{2 \\times 113\\text{ g/mole}}{3 \\times 180\\text{ g/mole}} = 0.42\\text{ g cells/g glucose used}$."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Sản lượng sinh khối đạt $Y = 0.42\\text{ g cells/g glucose}$ theo phương trình tổng hợp tế bào. Phản ứng tạo $2\\text{ mole}$ tế bào $\\text{C}_5\\text{H}_7\\text{NO}_2$ ($113\\text{ g/mole}$) từ $3\\text{ mole}$ glucose ($180\\text{ g/mole}$).",
+          "takeaway": "Sản lượng sinh khối đạt $Y = 0.42\\text{ g cells/g glucose}$ theo phương trình tổng hợp tế bào",
+          "topic": "Sản lượng"
+        },
+        {
+          "id": "p-c89845e4",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Giá trị COD đương lượng của cơ chất và bảng hệ số sản lượng tổng hợp chuẩn trên Slide 17 và Slide 18 giúp quy đổi hệ số sản lượng về đơn vị $\\text{g VSS/g COD}$ [Page 9]. Phương trình oxy hóa hoàn toàn glucose thành khí cacbonic là $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\rightarrow 6\\text{CO}_2 + 6\\text{H}_2\\text{O}$ nên đương lượng COD của glucose bằng $\\text{COD} = \\frac{\\Delta(\\text{O}_2)}{\\Delta(\\text{C}_6\\text{H}_{12}\\text{O}_6)} = \\frac{6 \\times 32\\text{ g/mole}}{180\\text{ g/mole}} = 1.07\\text{ g COD/g glucose}$, từ đó suy ra $Y = \\frac{0.42\\text{ g cell/g glucose}}{1.07\\text{ g COD/g glucose}} = 0.39\\text{ g cell/g COD used} = 0.39\\text{ g VSS/g COD used}$. Bảng hệ số sản lượng vi khuẩn điển hình (Typical bacteria yield coefficients) trên Slide 18 quy định năm chế độ chuẩn cho các phản ứng sinh học phổ biến. Quá trình hiếu khí (Aerobic) với chất cho điện tử là hợp chất hữu cơ (Organic compound) và chất nhận điện tử là oxy (Oxygen) có hệ số sản lượng tổng hợp (Synthesis yield) bằng $0.45\\text{ g VSS/g COD}$. Quá trình hiếu khí với chất cho điện tử là amoni (Ammonia) và chất nhận điện tử là oxy có hệ số sản lượng bằng $0.12\\text{ g VSS/g NH}_4\\text{-N}$, còn quá trình thiếu khí (Anoxic) với chất hữu cơ và nitrat (Nitrate) có hệ số sản lượng bằng $0.30\\text{ g VSS/g COD}$. Quá trình kỵ khí (Anaerobic) với chất cho và chất nhận điện tử đều là hợp chất hữu cơ có hệ số sản lượng bằng $0.06\\text{ g VSS/g COD}$, trong khi quá trình kỵ khí dùng Acetate làm chất cho điện tử và $\\text{CO}_2$ làm chất nhận điện tử có hệ số sản lượng bằng $0.05\\text{ g VSS/g COD}$.",
+          "sentences": [
+            "Giá trị COD đương lượng của cơ chất và bảng hệ số sản lượng tổng hợp chuẩn trên Slide 17 và Slide 18 giúp quy đổi hệ số sản lượng về đơn vị $\\text{g VSS/g COD}$ [Page 9].",
+            "Phương trình oxy hóa hoàn toàn glucose thành khí cacbonic là $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\rightarrow 6\\text{CO}_2 + 6\\text{H}_2\\text{O}$ nên đương lượng COD của glucose bằng $\\text{COD} = \\frac{\\Delta(\\text{O}_2)}{\\Delta(\\text{C}_6\\text{H}_{12}\\text{O}_6)} = \\frac{6 \\times 32\\text{ g/mole}}{180\\text{ g/mole}} = 1.07\\text{ g COD/g glucose}$, từ đó suy ra $Y = \\frac{0.42\\text{ g cell/g glucose}}{1.07\\text{ g COD/g glucose}} = 0.39\\text{ g cell/g COD used} = 0.39\\text{ g VSS/g COD used}$.",
+            "Bảng hệ số sản lượng vi khuẩn điển hình (Typical bacteria yield coefficients) trên Slide 18 quy định năm chế độ chuẩn cho các phản ứng sinh học phổ biến.",
+            "Quá trình hiếu khí (Aerobic) với chất cho điện tử là hợp chất hữu cơ (Organic compound) và chất nhận điện tử là oxy (Oxygen) có hệ số sản lượng tổng hợp (Synthesis yield) bằng $0.45\\text{ g VSS/g COD}$.",
+            "Quá trình hiếu khí với chất cho điện tử là amoni (Ammonia) và chất nhận điện tử là oxy có hệ số sản lượng bằng $0.12\\text{ g VSS/g NH}_4\\text{-N}$, còn quá trình thiếu khí (Anoxic) với chất hữu cơ và nitrat (Nitrate) có hệ số sản lượng bằng $0.30\\text{ g VSS/g COD}$.",
+            "Quá trình kỵ khí (Anaerobic) với chất cho và chất nhận điện tử đều là hợp chất hữu cơ có hệ số sản lượng bằng $0.06\\text{ g VSS/g COD}$, trong khi quá trình kỵ khí dùng Acetate làm chất cho điện tử và $\\text{CO}_2$ làm chất nhận điện tử có hệ số sản lượng bằng $0.05\\text{ g VSS/g COD}$."
+          ],
+          "brief": [
+            "Phương trình oxy hóa hoàn toàn glucose thành khí cacbonic là $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\rightarrow 6\\text{CO}_2 + 6\\text{H}_2\\text{O}$ nên đương lượng COD của glucose bằng $\\text{COD} = \\frac{\\Delta(\\text{O}_2)}{\\Delta(\\text{C}_6\\text{H}_{12}\\text{O}_6)} = \\frac{6 \\times 32\\text{ g/mole}}{180\\text{ g/mole}} = 1.07\\text{ g COD/g glucose}$, từ đó suy ra $Y = \\frac{0.42\\text{ g cell/g glucose}}{1.07\\text{ g COD/g glucose}} = 0.39\\text{ g cell/g COD used} = 0.39\\text{ g VSS/g COD used}$.",
+            "Quá trình hiếu khí (Aerobic) với chất cho điện tử là hợp chất hữu cơ (Organic compound) và chất nhận điện tử là oxy (Oxygen) có hệ số sản lượng tổng hợp (Synthesis yield) bằng $0.45\\text{ g VSS/g COD}$."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Hệ số chuẩn đạt $Y = 0.45\\text{ g VSS/g COD}$ cho quá trình hiếu khí dị dưỡng. Quy đổi theo đương lượng $1.07\\text{ g COD/g glucose}$ cho $Y = 0.39\\text{ g VSS/g COD}$ đối với glucose.",
+          "takeaway": "Hệ số chuẩn đạt $Y = 0.45\\text{ g VSS/g COD}$ cho quá trình hiếu khí dị dưỡng",
+          "topic": "Hệ số chuẩn"
+        },
+        {
+          "id": "p-6fc9ef87",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Nhu cầu oxy tiêu thụ (oxygen requirement) được xác định từ phương trình cân bằng bảo toàn COD giữa lượng COD bị khử, lượng oxy tiêu thụ và lượng COD tích lũy trong sinh khối [Page 10] [Page 11]. Nguyên lý bảo toàn electron chỉ ra rằng tổng lượng COD khử được bằng tổng lượng oxy yêu cầu cộng với lượng COD chuyển vào tế bào sinh khối ($\\text{Total COD removal} = \\text{Oxygen requirement} + \\text{COD incorporated into biomass}$). Đối với phản ứng sử dụng glucose $3\\text{C}_6\\text{H}_{12}\\text{O}_6 + 8\\text{O}_2 + 2\\text{NH}_3 \\rightarrow 2\\text{C}_5\\text{H}_7\\text{NO}_2 + 8\\text{CO}_2 + 14\\text{H}_2\\text{O}$, lượng oxy tiêu thụ trên một đơn vị glucose tính theo COD bằng $\\frac{8 \\times 32\\text{ g O}_2/\\text{mole}}{3 \\times (180\\text{ g/mole}) \\times (1.07\\text{ g COD/g glucose})} = 0.44\\text{ g O}_2/\\text{g COD used}$. Phản ứng oxy hóa hoàn toàn mô tế bào vi khuẩn $\\text{C}_5\\text{H}_7\\text{NO}_2 + 5\\text{O}_2 \\rightarrow 5\\text{CO}_2 + \\text{NH}_3 + 2\\text{H}_2\\text{O}$ xác định đương lượng COD của 1 gam tế bào bằng $\\frac{\\Delta(\\text{O}_2)}{\\Delta(\\text{C}_5\\text{H}_7\\text{NO}_2)} = \\frac{5 \\times 32\\text{ g/mole}}{113\\text{ g/mole}} = 1.42\\text{ g O}_2/\\text{g cells} = 1.42\\text{ g COD/g VSS}$, do đó sản lượng tế bào $0.39\\text{ g VSS/g COD removed}$ tương đương với $0.39 \\times 1.42 = 0.56\\text{ g cell as COD/g COD removed}$ và thỏa mãn cân bằng $1\\text{ g COD removal} = 0.44\\text{ g Oxygen requirement} + 0.56\\text{ g COD incorporated into biomass}$. Song song với quá trình tổng hợp, sự hao hụt sinh khối do phân hủy nội bào (endogenous decay hoặc endogenous respiration) xảy ra vì cạn kiệt cơ chất làm tế bào tự oxy hóa, vì tế bào già chết giải phóng cơ chất phân hủy chậm và vì bị động vật nguyên sinh (protozoa) ăn thịt, được đặc trưng bởi hệ số phân hủy $b$ (decay coefficient) dao động trong khoảng từ $0.08$ đến $0.20\\text{ g biomass loss/g biomass present}\\cdot\\text{day}$.",
+          "sentences": [
+            "Nhu cầu oxy tiêu thụ (oxygen requirement) được xác định từ phương trình cân bằng bảo toàn COD giữa lượng COD bị khử, lượng oxy tiêu thụ và lượng COD tích lũy trong sinh khối [Page 10] [Page 11].",
+            "Nguyên lý bảo toàn electron chỉ ra rằng tổng lượng COD khử được bằng tổng lượng oxy yêu cầu cộng với lượng COD chuyển vào tế bào sinh khối ($\\text{Total COD removal} = \\text{Oxygen requirement} + \\text{COD incorporated into biomass}$). Đối với phản ứng sử dụng glucose $3\\text{C}_6\\text{H}_{12}\\text{O}_6 + 8\\text{O}_2 + 2\\text{NH}_3 \\rightarrow 2\\text{C}_5\\text{H}_7\\text{NO}_2 + 8\\text{CO}_2 + 14\\text{H}_2\\text{O}$, lượng oxy tiêu thụ trên một đơn vị glucose tính theo COD bằng $\\frac{8 \\times 32\\text{ g O}_2/\\text{mole}}{3 \\times (180\\text{ g/mole}) \\times (1.07\\text{ g COD/g glucose})} = 0.44\\text{ g O}_2/\\text{g COD used}$.",
+            "Phản ứng oxy hóa hoàn toàn mô tế bào vi khuẩn $\\text{C}_5\\text{H}_7\\text{NO}_2 + 5\\text{O}_2 \\rightarrow 5\\text{CO}_2 + \\text{NH}_3 + 2\\text{H}_2\\text{O}$ xác định đương lượng COD của 1 gam tế bào bằng $\\frac{\\Delta(\\text{O}_2)}{\\Delta(\\text{C}_5\\text{H}_7\\text{NO}_2)} = \\frac{5 \\times 32\\text{ g/mole}}{113\\text{ g/mole}} = 1.42\\text{ g O}_2/\\text{g cells} = 1.42\\text{ g COD/g VSS}$, do đó sản lượng tế bào $0.39\\text{ g VSS/g COD removed}$ tương đương với $0.39 \\times 1.42 = 0.56\\text{ g cell as COD/g COD removed}$ và thỏa mãn cân bằng $1\\text{ g COD removal} = 0.44\\text{ g Oxygen requirement} + 0.56\\text{ g COD incorporated into biomass}$.",
+            "Song song với quá trình tổng hợp, sự hao hụt sinh khối do phân hủy nội bào (endogenous decay hoặc endogenous respiration) xảy ra vì cạn kiệt cơ chất làm tế bào tự oxy hóa, vì tế bào già chết giải phóng cơ chất phân hủy chậm và vì bị động vật nguyên sinh (protozoa) ăn thịt, được đặc trưng bởi hệ số phân hủy $b$ (decay coefficient) dao động trong khoảng từ $0.08$ đến $0.20\\text{ g biomass loss/g biomass present}\\cdot\\text{day}$."
+          ],
+          "brief": [
+            "Nguyên lý bảo toàn electron chỉ ra rằng tổng lượng COD khử được bằng tổng lượng oxy yêu cầu cộng với lượng COD chuyển vào tế bào sinh khối ($\\text{Total COD removal} = \\text{Oxygen requirement} + \\text{COD incorporated into biomass}$). Đối với phản ứng sử dụng glucose $3\\text{C}_6\\text{H}_{12}\\text{O}_6 + 8\\text{O}_2 + 2\\text{NH}_3 \\rightarrow 2\\text{C}_5\\text{H}_7\\text{NO}_2 + 8\\text{CO}_2 + 14\\text{H}_2\\text{O}$, lượng oxy tiêu thụ trên một đơn vị glucose tính theo COD bằng $\\frac{8 \\times 32\\text{ g O}_2/\\text{mole}}{3 \\times (180\\text{ g/mole}) \\times (1.07\\text{ g COD/g glucose})} = 0.44\\text{ g O}_2/\\text{g COD used}$.",
+            "Phản ứng oxy hóa hoàn toàn mô tế bào vi khuẩn $\\text{C}_5\\text{H}_7\\text{NO}_2 + 5\\text{O}_2 \\rightarrow 5\\text{CO}_2 + \\text{NH}_3 + 2\\text{H}_2\\text{O}$ xác định đương lượng COD của 1 gam tế bào bằng $\\frac{\\Delta(\\text{O}_2)}{\\Delta(\\text{C}_5\\text{H}_7\\text{NO}_2)} = \\frac{5 \\times 32\\text{ g/mole}}{113\\text{ g/mole}} = 1.42\\text{ g O}_2/\\text{g cells} = 1.42\\text{ g COD/g VSS}$, do đó sản lượng tế bào $0.39\\text{ g VSS/g COD removed}$ tương đương với $0.39 \\times 1.42 = 0.56\\text{ g cell as COD/g COD removed}$ và thỏa mãn cân bằng $1\\text{ g COD removal} = 0.44\\text{ g Oxygen requirement} + 0.56\\text{ g COD incorporated into biomass}$."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Tổng $\\text{COD}$ khử bằng lượng oxy yêu cầu cộng lượng $\\text{COD}$ tích lũy trong sinh khối. Mỗi gam tế bào $\\text{C}_5\\text{H}_7\\text{NO}_2$ tương đương $1.42\\text{ g COD/g VSS}$ và tự phân hủy với hệ số $b$.",
+          "takeaway": "Tổng $\\text{COD}$ khử bằng lượng oxy yêu cầu cộng lượng $\\text{COD}$ tích lũy trong sinh khối",
+          "topic": "lượng oxy"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-động-học-tăng-trưởng-vi-sinh-vật-và-bảng-hệ-số-động-học-chuẩn-microbial-growth-kinetics-and-typical-kinetic-coefficients",
+      "num": "3",
+      "title": "Động học Tăng trưởng Vi sinh vật và Bảng Hệ số Động học Chuẩn (Microbial Growth Kinetics and Typical Kinetic Coefficients)",
+      "depth": 1,
+      "takeaway": "Phương trình động học Monod mô tả tốc độ sử dụng cơ chất $r_{su}$ và sinh trưởng ròng $r_X$",
+      "topic": "động học Monod",
+      "units": [
+        {
+          "id": "p-eea788d3",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Động học tăng trưởng của vi khuẩn và tốc độ sử dụng cơ chất tuân theo phương trình Monod [Page 12] [Page 13] [Page 14]. Tốc độ tăng trưởng riêng của vi khuẩn $\\mu$ ($\\text{g biomass/g biomass}\\cdot\\text{d}$) phụ thuộc vào nồng độ cơ chất giới hạn $S$ ($\\text{g/m}^3$) theo phương trình Monod là $\\mu = \\frac{\\mu_m S}{K_s + S}$, trong đó $\\mu_m$ là tốc độ tăng trưởng riêng cực đại ($\\text{g biomass/g biomass}\\cdot\\text{d}$) và $K_s$ là hằng số bán bão hòa tốc độ (half-velocity constant, nồng độ cơ chất tại đó $\\mu = \\frac{1}{2}\\mu_m$, đơn vị $\\text{g/m}^3$). Khi nhân với nồng độ vi sinh vật trong bể phản ứng $X$ ($\\text{g/m}^3$), tốc độ tăng trưởng sinh khối theo thể tích là $r_g = \\mu X = \\frac{\\mu_m S X}{K_s + S}$ ($\\text{g biomass/m}^3\\cdot\\text{d}$). Vì tốc độ tăng trưởng sinh khối tỷ lệ thuận với tốc độ sử dụng cơ chất $r_{su}$ ($\\text{g substrate/m}^3\\cdot\\text{d}$) thông qua hệ số sản lượng $Y$ theo hệ thức $r_g = Y r_{su}$, ta đặt tốc độ sử dụng cơ chất riêng cực đại $k = \\frac{\\mu_m}{Y}$ ($\\text{g substrate/g biomass}\\cdot\\text{d}$) để thu được phương trình tốc độ sử dụng cơ chất $r_{su} = \\frac{r_g}{Y} = \\frac{\\mu_m S X}{Y(K_s + S)} = \\frac{k S X}{K_s + S}$. Khi tính cả sự phân hủy nội bào với hệ số phân hủy riêng $b$ ($\\text{g VSS/g VSS}\\cdot\\text{d}$), tốc độ tăng trưởng sinh khối ròng (net biomass growth rate) bằng $r_X = r_g - b X = Y r_{su} - b X$, và sự phụ thuộc của các hệ số động học ($\\mu_m, k, b, K_s$) vào nhiệt độ $T$ ($^\\circ\\text{C}$) được hiệu chỉnh theo phương trình Arrhenius $k_T = k_{20} \\theta^{(T - 20)}$.",
+          "sentences": [
+            "Động học tăng trưởng của vi khuẩn và tốc độ sử dụng cơ chất tuân theo phương trình Monod [Page 12] [Page 13] [Page 14].",
+            "Tốc độ tăng trưởng riêng của vi khuẩn $\\mu$ ($\\text{g biomass/g biomass}\\cdot\\text{d}$) phụ thuộc vào nồng độ cơ chất giới hạn $S$ ($\\text{g/m}^3$) theo phương trình Monod là $\\mu = \\frac{\\mu_m S}{K_s + S}$, trong đó $\\mu_m$ là tốc độ tăng trưởng riêng cực đại ($\\text{g biomass/g biomass}\\cdot\\text{d}$) và $K_s$ là hằng số bán bão hòa tốc độ (half-velocity constant, nồng độ cơ chất tại đó $\\mu = \\frac{1}{2}\\mu_m$, đơn vị $\\text{g/m}^3$).",
+            "Khi nhân với nồng độ vi sinh vật trong bể phản ứng $X$ ($\\text{g/m}^3$), tốc độ tăng trưởng sinh khối theo thể tích là $r_g = \\mu X = \\frac{\\mu_m S X}{K_s + S}$ ($\\text{g biomass/m}^3\\cdot\\text{d}$).",
+            "Vì tốc độ tăng trưởng sinh khối tỷ lệ thuận với tốc độ sử dụng cơ chất $r_{su}$ ($\\text{g substrate/m}^3\\cdot\\text{d}$) thông qua hệ số sản lượng $Y$ theo hệ thức $r_g = Y r_{su}$, ta đặt tốc độ sử dụng cơ chất riêng cực đại $k = \\frac{\\mu_m}{Y}$ ($\\text{g substrate/g biomass}\\cdot\\text{d}$) để thu được phương trình tốc độ sử dụng cơ chất $r_{su} = \\frac{r_g}{Y} = \\frac{\\mu_m S X}{Y(K_s + S)} = \\frac{k S X}{K_s + S}$.",
+            "Khi tính cả sự phân hủy nội bào với hệ số phân hủy riêng $b$ ($\\text{g VSS/g VSS}\\cdot\\text{d}$), tốc độ tăng trưởng sinh khối ròng (net biomass growth rate) bằng $r_X = r_g - b X = Y r_{su} - b X$, và sự phụ thuộc của các hệ số động học ($\\mu_m, k, b, K_s$) vào nhiệt độ $T$ ($^\\circ\\text{C}$) được hiệu chỉnh theo phương trình Arrhenius $k_T = k_{20} \\theta^{(T - 20)}$."
+          ],
+          "brief": [
+            "Vì tốc độ tăng trưởng sinh khối tỷ lệ thuận với tốc độ sử dụng cơ chất $r_{su}$ ($\\text{g substrate/m}^3\\cdot\\text{d}$) thông qua hệ số sản lượng $Y$ theo hệ thức $r_g = Y r_{su}$, ta đặt tốc độ sử dụng cơ chất riêng cực đại $k = \\frac{\\mu_m}{Y}$ ($\\text{g substrate/g biomass}\\cdot\\text{d}$) để thu được phương trình tốc độ sử dụng cơ chất $r_{su} = \\frac{r_g}{Y} = \\frac{\\mu_m S X}{Y(K_s + S)} = \\frac{k S X}{K_s + S}$.",
+            "Khi tính cả sự phân hủy nội bào với hệ số phân hủy riêng $b$ ($\\text{g VSS/g VSS}\\cdot\\text{d}$), tốc độ tăng trưởng sinh khối ròng (net biomass growth rate) bằng $r_X = r_g - b X = Y r_{su} - b X$, và sự phụ thuộc của các hệ số động học ($\\mu_m, k, b, K_s$) vào nhiệt độ $T$ ($^\\circ\\text{C}$) được hiệu chỉnh theo phương trình Arrhenius $k_T = k_{20} \\theta^{(T - 20)}$."
+          ],
+          "evidence": [
+            3,
+            4
+          ],
+          "key": "Tốc độ sử dụng cơ chất tuân theo phương trình Monod $r_{su} = \\frac{k S X}{K_s + S}$. Tốc độ tăng trưởng sinh khối ròng bằng tổng hợp mới trừ phân hủy nội bào $r_X = Y r_{su}, b X$.",
+          "takeaway": "Tốc độ sử dụng cơ chất tuân theo phương trình Monod $r_{su} = \\frac{k S X}{K_s + S}$",
+          "topic": "phương trình Monod"
+        },
+        {
+          "id": "p-06549dfe",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Bảng hệ số động học điển hình cho quá trình bùn hoạt tính khử BOD nước thải sinh hoạt ở $20^\\circ\\text{C}$ trên Slide 31 quy định các dải giá trị và giá trị chuẩn thiết kế [Page 15]. Hệ số tốc độ sử dụng cơ chất riêng cực đại $k$ có đơn vị $\\text{g bsCOD/g VSS}\\cdot\\text{d}$, dải giá trị từ $4$ đến $12$ và giá trị điển hình (Typical) bằng $6\\text{ g bsCOD/g VSS}\\cdot\\text{d}$. Hằng số bán bão hòa $K_s$ tính theo $\\text{mg/L BOD}$ có dải giá trị từ $20$ đến $60$ với giá trị điển hình bằng $30\\text{ mg/L BOD}$, còn khi tính theo $\\text{mg/L bsCOD}$ thì $K_s$ có dải giá trị từ $5$ đến $30$ với giá trị điển hình bằng $15\\text{ mg/L bsCOD}$. Hệ số sản lượng tổng hợp $Y$ tính theo $\\text{mg VSS/mg BOD}$ có dải giá trị từ $0.4$ đến $0.8$ với giá trị điển hình bằng $0.6\\text{ mg VSS/mg BOD}$, còn khi tính theo $\\text{mg VSS/mg COD}$ thì $Y$ có dải giá trị từ $0.4$ đến $0.6$ với giá trị điển hình bằng $0.45\\text{ mg VSS/mg COD}$. Hệ số phân hủy nội bào $b$ có đơn vị $\\text{g VSS/g VSS}\\cdot\\text{d}$, dải giá trị từ $0.06$ đến $0.15$ và giá trị điển hình ở $20^\\circ\\text{C}$ bằng $0.10\\text{ g VSS/g VSS}\\cdot\\text{d}$.",
+          "sentences": [
+            "Bảng hệ số động học điển hình cho quá trình bùn hoạt tính khử BOD nước thải sinh hoạt ở $20^\\circ\\text{C}$ trên Slide 31 quy định các dải giá trị và giá trị chuẩn thiết kế [Page 15].",
+            "Hệ số tốc độ sử dụng cơ chất riêng cực đại $k$ có đơn vị $\\text{g bsCOD/g VSS}\\cdot\\text{d}$, dải giá trị từ $4$ đến $12$ và giá trị điển hình (Typical) bằng $6\\text{ g bsCOD/g VSS}\\cdot\\text{d}$.",
+            "Hằng số bán bão hòa $K_s$ tính theo $\\text{mg/L BOD}$ có dải giá trị từ $20$ đến $60$ với giá trị điển hình bằng $30\\text{ mg/L BOD}$, còn khi tính theo $\\text{mg/L bsCOD}$ thì $K_s$ có dải giá trị từ $5$ đến $30$ với giá trị điển hình bằng $15\\text{ mg/L bsCOD}$.",
+            "Hệ số sản lượng tổng hợp $Y$ tính theo $\\text{mg VSS/mg BOD}$ có dải giá trị từ $0.4$ đến $0.8$ với giá trị điển hình bằng $0.6\\text{ mg VSS/mg BOD}$, còn khi tính theo $\\text{mg VSS/mg COD}$ thì $Y$ có dải giá trị từ $0.4$ đến $0.6$ với giá trị điển hình bằng $0.45\\text{ mg VSS/mg COD}$.",
+            "Hệ số phân hủy nội bào $b$ có đơn vị $\\text{g VSS/g VSS}\\cdot\\text{d}$, dải giá trị từ $0.06$ đến $0.15$ và giá trị điển hình ở $20^\\circ\\text{C}$ bằng $0.10\\text{ g VSS/g VSS}\\cdot\\text{d}$."
+          ],
+          "brief": [
+            "Hệ số tốc độ sử dụng cơ chất riêng cực đại $k$ có đơn vị $\\text{g bsCOD/g VSS}\\cdot\\text{d}$, dải giá trị từ $4$ đến $12$ và giá trị điển hình (Typical) bằng $6\\text{ g bsCOD/g VSS}\\cdot\\text{d}$.",
+            "Hệ số sản lượng tổng hợp $Y$ tính theo $\\text{mg VSS/mg BOD}$ có dải giá trị từ $0.4$ đến $0.8$ với giá trị điển hình bằng $0.6\\text{ mg VSS/mg BOD}$, còn khi tính theo $\\text{mg VSS/mg COD}$ thì $Y$ có dải giá trị từ $0.4$ đến $0.6$ với giá trị điển hình bằng $0.45\\text{ mg VSS/mg COD}$."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Bộ hệ số chuẩn ở $20^\\circ\\text{C}$ có $k = 6\\text{ d}^{-1}$, $Y = 0.45$ và $b = 0.10\\text{ d}^{-1}$. Hằng số bán bão hòa điển hình bằng $K_s = 30\\text{ mg/L BOD}$ hoặc $15\\text{ mg/L bsCOD}$.",
+          "takeaway": "Bộ hệ số chuẩn ở $20^\\circ\\text{C}$ có $k = 6\\text{ d}^{-1}$, $Y = 0.45$ và $b = 0.10\\text{ d}^{-1}$",
+          "topic": "Bộ hệ số"
+        },
+        {
+          "id": "p-44c0d837",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tốc độ tiêu thụ oxy, tốc độ sinh bùn VSS tổng cộng và các hệ số sản lượng quan sát được thiết lập trực tiếp từ các thành phần sinh khối trong bể phản ứng [Page 15] [Page 16] [Page 17]. Tốc độ tiêu thụ oxy theo thể tích $r_o$ ($\\text{g O}_2/\\text{m}^3\\cdot\\text{d}$) bằng tốc độ sử dụng cơ chất trừ đi đương lượng COD của sinh khối ròng sinh ra theo công thức $r_o = r_{su} - 1.42 r_X$. Tổng lượng VSS trong bể phản ứng bao gồm sinh khối hoạt tính (active biomass), phần xác tế bào không phân hủy còn lại từ quá trình phân hủy nội bào (cell debris from decay với hệ số tỷ phần $f_d$) và chất rắn lơ lửng bay hơi không phân hủy sinh học có sẵn trong nước thải đầu vào (influent nbVSS có nồng độ $X_{o,i}$). Do đó, tổng tốc độ sinh bùn VSS theo đơn vị thể tích bể ($\\text{g/m}^3\\cdot\\text{d}$) được tính bằng phương trình $r_{X_T,\\text{VSS}} = Y r_{su} - b X + f_d b X + \\frac{Q X_{o,i}}{V}$, và tỷ phần sinh khối hoạt tính trong MLVSS được xác định bởi $F_{X,\\text{act}} = \\frac{Y r_{su} - b X}{r_{X_T,\\text{VSS}}}$ ($\\text{g VSS/g VSS}$). Cuối cùng, hệ số sản lượng sinh khối ròng (net biomass yield) được định nghĩa là $Y_{\\text{bio}} = \\frac{r_X}{r_{su}}$ còn hệ số sản lượng quan sát (observed yield) tính trên toàn bộ VSS sinh ra là $Y_{\\text{obs}} = \\frac{r_{X_T,\\text{VSS}}}{r_{su}}$.",
+          "sentences": [
+            "Tốc độ tiêu thụ oxy, tốc độ sinh bùn VSS tổng cộng và các hệ số sản lượng quan sát được thiết lập trực tiếp từ các thành phần sinh khối trong bể phản ứng [Page 15] [Page 16] [Page 17].",
+            "Tốc độ tiêu thụ oxy theo thể tích $r_o$ ($\\text{g O}_2/\\text{m}^3\\cdot\\text{d}$) bằng tốc độ sử dụng cơ chất trừ đi đương lượng COD của sinh khối ròng sinh ra theo công thức $r_o = r_{su} - 1.42 r_X$.",
+            "Tổng lượng VSS trong bể phản ứng bao gồm sinh khối hoạt tính (active biomass), phần xác tế bào không phân hủy còn lại từ quá trình phân hủy nội bào (cell debris from decay với hệ số tỷ phần $f_d$) và chất rắn lơ lửng bay hơi không phân hủy sinh học có sẵn trong nước thải đầu vào (influent nbVSS có nồng độ $X_{o,i}$).",
+            "Do đó, tổng tốc độ sinh bùn VSS theo đơn vị thể tích bể ($\\text{g/m}^3\\cdot\\text{d}$) được tính bằng phương trình $r_{X_T,\\text{VSS}} = Y r_{su} - b X + f_d b X + \\frac{Q X_{o,i}}{V}$, và tỷ phần sinh khối hoạt tính trong MLVSS được xác định bởi $F_{X,\\text{act}} = \\frac{Y r_{su} - b X}{r_{X_T,\\text{VSS}}}$ ($\\text{g VSS/g VSS}$).",
+            "Cuối cùng, hệ số sản lượng sinh khối ròng (net biomass yield) được định nghĩa là $Y_{\\text{bio}} = \\frac{r_X}{r_{su}}$ còn hệ số sản lượng quan sát (observed yield) tính trên toàn bộ VSS sinh ra là $Y_{\\text{obs}} = \\frac{r_{X_T,\\text{VSS}}}{r_{su}}$."
+          ],
+          "brief": [
+            "Tốc độ tiêu thụ oxy theo thể tích $r_o$ ($\\text{g O}_2/\\text{m}^3\\cdot\\text{d}$) bằng tốc độ sử dụng cơ chất trừ đi đương lượng COD của sinh khối ròng sinh ra theo công thức $r_o = r_{su} - 1.42 r_X$.",
+            "Do đó, tổng tốc độ sinh bùn VSS theo đơn vị thể tích bể ($\\text{g/m}^3\\cdot\\text{d}$) được tính bằng phương trình $r_{X_T,\\text{VSS}} = Y r_{su} - b X + f_d b X + \\frac{Q X_{o,i}}{V}$, và tỷ phần sinh khối hoạt tính trong MLVSS được xác định bởi $F_{X,\\text{act}} = \\frac{Y r_{su} - b X}{r_{X_T,\\text{VSS}}}$ ($\\text{g VSS/g VSS}$)."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Tổng tốc độ sinh bùn $r_{X_T,\\text{VSS}}$ gồm sinh khối hoạt tính, xác tế bào và $\\text{nbVSS}$ đầu vào. Tốc độ tiêu thụ oxy thể tích tính bằng $r_o = r_{su}, 1.42 r_X$ và $Y_{\\text{obs}} = \\frac{r_{X_T,\\text{VSS}}}{r_{su}}$.",
+          "takeaway": "Tổng tốc độ sinh bùn $r_{X_T,\\text{VSS}}$ gồm sinh khối hoạt tính, xác tế bào và $\\text{nbVSS}$ đầu vào",
+          "topic": "xác tế bào"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-quá-trình-xử-lý-sinh-trưởng-lơ-lửng-và-phương-trình-thiết-kế-bể-bùn-hoạt-tính-suspended-growth-treatment-process-and-design-equations",
+      "num": "4",
+      "title": "Quá trình Xử lý Sinh trưởng Lơ lửng và Phương trình Thiết kế Bể Bùn Hoạt tính (Suspended Growth Treatment Process and Design Equations)",
+      "depth": 1,
+      "takeaway": "Thời gian lưu bùn $\\text{SRT}$ quyết định nồng độ cơ chất đầu ra $S$, sản lượng bùn và lượng oxy",
+      "topic": "sản lượng bùn",
+      "units": [
+        {
+          "id": "p-13bc5a80",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Hệ thống xử lý sinh học sinh trưởng lơ lửng (suspended growth treatment process) bao gồm ba hạng mục công trình cơ bản và được điều khiển bởi thời gian lưu bùn (Sludge Retention Time SRT) [Page 18] [Page 19]. Ba thành phần cấu tạo của hệ thống bùn hoạt tính khuấy trộn hoàn toàn (complete-mix reactor) hoặc dòng đẩy (plug-flow reactor) gồm bể phản ứng sinh học (bio-reactor) giữ vi sinh vật ở trạng thái lơ lửng, bể lắng tách pha lỏng-rắn (clarifier) và hệ thống tuần hoàn bùn hoạt tính (return activated sludge $Q_r, X_R$) cùng đường xả bùn dư (wasted sludge $Q_w, X_R$). Thời gian lưu bùn $\\text{SRT}$ là thời gian trung bình mà bùn hoạt tính lưu lại trong hệ thống và được định nghĩa bằng tổng khối lượng sinh khối trong bể chia cho khối lượng sinh khối xả bỏ mỗi ngày theo công thức $\\text{SRT} = \\frac{V X}{(Q - Q_w)X_e + Q_w X_R} = \\frac{X}{r_X}$. Nghịch đảo của thời gian lưu bùn thỏa mãn phương trình $\\frac{1}{\\text{SRT}} = \\frac{r_X}{X} = \\frac{Y r_{su} - b X}{X} = Y\\frac{r_{su}}{X} - b = \\frac{Y k S}{K_s + S} - b$. Để vi khuẩn có đủ thời gian tiêu thụ cơ chất, giá trị $\\text{SRT}$ thiết kế phải lớn hơn từ $2$ đến $20$ lần giá trị thời gian lưu bùn tối thiểu $\\text{SRT}_{\\min}$ (tại đó $S = S_0$ làm vi khuẩn bị rửa trôi, với $\\frac{1}{\\text{SRT}_{\\min}} = \\frac{Y k S_0}{K_s + S_0} - b \\approx Y k - b = \\mu_m - b$ khi $S_0 \\gg K_s$).",
+          "sentences": [
+            "Hệ thống xử lý sinh học sinh trưởng lơ lửng (suspended growth treatment process) bao gồm ba hạng mục công trình cơ bản và được điều khiển bởi thời gian lưu bùn (Sludge Retention Time SRT) [Page 18] [Page 19].",
+            "Ba thành phần cấu tạo của hệ thống bùn hoạt tính khuấy trộn hoàn toàn (complete-mix reactor) hoặc dòng đẩy (plug-flow reactor) gồm bể phản ứng sinh học (bio-reactor) giữ vi sinh vật ở trạng thái lơ lửng, bể lắng tách pha lỏng-rắn (clarifier) và hệ thống tuần hoàn bùn hoạt tính (return activated sludge $Q_r, X_R$) cùng đường xả bùn dư (wasted sludge $Q_w, X_R$).",
+            "Thời gian lưu bùn $\\text{SRT}$ là thời gian trung bình mà bùn hoạt tính lưu lại trong hệ thống và được định nghĩa bằng tổng khối lượng sinh khối trong bể chia cho khối lượng sinh khối xả bỏ mỗi ngày theo công thức $\\text{SRT} = \\frac{V X}{(Q - Q_w)X_e + Q_w X_R} = \\frac{X}{r_X}$.",
+            "Nghịch đảo của thời gian lưu bùn thỏa mãn phương trình $\\frac{1}{\\text{SRT}} = \\frac{r_X}{X} = \\frac{Y r_{su} - b X}{X} = Y\\frac{r_{su}}{X} - b = \\frac{Y k S}{K_s + S} - b$. Để vi khuẩn có đủ thời gian tiêu thụ cơ chất, giá trị $\\text{SRT}$ thiết kế phải lớn hơn từ $2$ đến $20$ lần giá trị thời gian lưu bùn tối thiểu $\\text{SRT}_{\\min}$ (tại đó $S = S_0$ làm vi khuẩn bị rửa trôi, với $\\frac{1}{\\text{SRT}_{\\min}} = \\frac{Y k S_0}{K_s + S_0} - b \\approx Y k - b = \\mu_m - b$ khi $S_0 \\gg K_s$)."
+          ],
+          "brief": [
+            "Thời gian lưu bùn $\\text{SRT}$ là thời gian trung bình mà bùn hoạt tính lưu lại trong hệ thống và được định nghĩa bằng tổng khối lượng sinh khối trong bể chia cho khối lượng sinh khối xả bỏ mỗi ngày theo công thức $\\text{SRT} = \\frac{V X}{(Q - Q_w)X_e + Q_w X_R} = \\frac{X}{r_X}$.",
+            "Nghịch đảo của thời gian lưu bùn thỏa mãn phương trình $\\frac{1}{\\text{SRT}} = \\frac{r_X}{X} = \\frac{Y r_{su} - b X}{X} = Y\\frac{r_{su}}{X} - b = \\frac{Y k S}{K_s + S} - b$. Để vi khuẩn có đủ thời gian tiêu thụ cơ chất, giá trị $\\text{SRT}$ thiết kế phải lớn hơn từ $2$ đến $20$ lần giá trị thời gian lưu bùn tối thiểu $\\text{SRT}_{\\min}$ (tại đó $S = S_0$ làm vi khuẩn bị rửa trôi, với $\\frac{1}{\\text{SRT}_{\\min}} = \\frac{Y k S_0}{K_s + S_0} - b \\approx Y k - b = \\mu_m - b$ khi $S_0 \\gg K_s$)."
+          ],
+          "evidence": [
+            2,
+            3
+          ],
+          "key": "Tuổi bùn $\\text{SRT} = \\frac{X}{r_X}$ điều khiển toàn bộ quá trình bùn hoạt tính lơ lửng. Giá trị $\\text{SRT}$ thiết kế phải lớn hơn từ $2$ đến $20$ lần $\\text{SRT}_{\\min}$ để tránh rửa trôi vi sinh vật.",
+          "takeaway": "Tuổi bùn $\\text{SRT} = \\frac{X}{r_X}$ điều khiển toàn bộ quá trình bùn hoạt tính lơ lửng",
+          "topic": "Tuổi bùn"
+        },
+        {
+          "id": "p-d59e41b7",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Phương trình cân bằng khối lượng cho sinh khối và cơ chất trong bể phản ứng khuấy trộn hoàn toàn ở trạng thái ổn định xác định nồng độ cơ chất đầu ra và nồng độ sinh khối [Page 20] [Page 21]. Phương trình cân bằng khối lượng sinh khối trong toàn hệ thống viết dưới dạng $\\text{Accumulation} = Q X_0 - [(Q - Q_w)X_e + Q_w X_R] + r_X V$, tại trạng thái ổn định ($\\text{Accumulation} = 0$) và bỏ qua sinh khối đầu vào ($X_0 = 0$) ta có $(Q - Q_w)X_e + Q_w X_R = r_X V = (Y r_{su} - b X)V$. Phương trình cân bằng khối lượng cơ chất trong bể khuấy trộn hoàn toàn là $\\text{Accumulation} = Q S_0 - Q S - r_{su} V = 0$ nên tốc độ sử dụng cơ chất theo thể tích bằng $r_{su} = \\frac{Q(S_0 - S)}{V}$. Khi thế $r_{su} = \\frac{Q(S_0 - S)}{V}$ vào phương trình $\\frac{1}{\\text{SRT}} = Y\\frac{r_{su}}{X} - b$, ta thu được biểu thức nồng độ sinh khối hoạt tính $X = \\frac{Q \\times \\text{SRT} \\times Y(S_0 - S)}{V(1 + b \\times \\text{SRT})}$. Khi kết hợp với phương trình động học Monod $\\frac{Q(S_0 - S)}{V} = \\frac{k S X}{K_s + S}$, nồng độ cơ chất bsCOD hòa tan đầu ra $S$ chỉ phụ thuộc vào $\\text{SRT}$ và các hệ số động học theo công thức đóng khung trên Slide 45 là $S = \\frac{K_s(1 + b \\times \\text{SRT})}{\\text{SRT}(Y k - b) - 1}$.",
+          "sentences": [
+            "Phương trình cân bằng khối lượng cho sinh khối và cơ chất trong bể phản ứng khuấy trộn hoàn toàn ở trạng thái ổn định xác định nồng độ cơ chất đầu ra và nồng độ sinh khối [Page 20] [Page 21].",
+            "Phương trình cân bằng khối lượng sinh khối trong toàn hệ thống viết dưới dạng $\\text{Accumulation} = Q X_0 - [(Q - Q_w)X_e + Q_w X_R] + r_X V$, tại trạng thái ổn định ($\\text{Accumulation} = 0$) và bỏ qua sinh khối đầu vào ($X_0 = 0$) ta có $(Q - Q_w)X_e + Q_w X_R = r_X V = (Y r_{su} - b X)V$.",
+            "Phương trình cân bằng khối lượng cơ chất trong bể khuấy trộn hoàn toàn là $\\text{Accumulation} = Q S_0 - Q S - r_{su} V = 0$ nên tốc độ sử dụng cơ chất theo thể tích bằng $r_{su} = \\frac{Q(S_0 - S)}{V}$.",
+            "Khi thế $r_{su} = \\frac{Q(S_0 - S)}{V}$ vào phương trình $\\frac{1}{\\text{SRT}} = Y\\frac{r_{su}}{X} - b$, ta thu được biểu thức nồng độ sinh khối hoạt tính $X = \\frac{Q \\times \\text{SRT} \\times Y(S_0 - S)}{V(1 + b \\times \\text{SRT})}$.",
+            "Khi kết hợp với phương trình động học Monod $\\frac{Q(S_0 - S)}{V} = \\frac{k S X}{K_s + S}$, nồng độ cơ chất bsCOD hòa tan đầu ra $S$ chỉ phụ thuộc vào $\\text{SRT}$ và các hệ số động học theo công thức đóng khung trên Slide 45 là $S = \\frac{K_s(1 + b \\times \\text{SRT})}{\\text{SRT}(Y k - b) - 1}$."
+          ],
+          "brief": [
+            "Khi thế $r_{su} = \\frac{Q(S_0 - S)}{V}$ vào phương trình $\\frac{1}{\\text{SRT}} = Y\\frac{r_{su}}{X} - b$, ta thu được biểu thức nồng độ sinh khối hoạt tính $X = \\frac{Q \\times \\text{SRT} \\times Y(S_0 - S)}{V(1 + b \\times \\text{SRT})}$.",
+            "Khi kết hợp với phương trình động học Monod $\\frac{Q(S_0 - S)}{V} = \\frac{k S X}{K_s + S}$, nồng độ cơ chất bsCOD hòa tan đầu ra $S$ chỉ phụ thuộc vào $\\text{SRT}$ và các hệ số động học theo công thức đóng khung trên Slide 45 là $S = \\frac{K_s(1 + b \\times \\text{SRT})}{\\text{SRT}(Y k - b) - 1}$."
+          ],
+          "evidence": [
+            3,
+            4
+          ],
+          "key": "Cơ chất hòa tan đầu ra $S$ chỉ phụ thuộc vào $\\text{SRT}$ và các hệ số động học. Cân bằng khối lượng cơ chất và sinh khối ở trạng thái ổn định cho $S = \\frac{K_s(1 + b \\times \\text{SRT})}{\\text{SRT}(Y k, b), 1}$.",
+          "takeaway": "Cơ chất hòa tan đầu ra $S$ chỉ phụ thuộc vào $\\text{SRT}$ và các hệ số động học",
+          "topic": "Cơ chất"
+        },
+        {
+          "id": "p-598bba39",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Sản lượng bùn hoạt tính sinh ra mỗi ngày theo MLVSS ($P_{X_T,\\text{VSS}}$) và theo MLSS ($P_{X,\\text{TSS}}$) cùng nhu cầu oxy ($R_o$) và các thông số tải trọng thiết kế được xác định từ Slide 46 đến Slide 51 [Page 21] [Page 22] [Page 23] [Page 24]. Nồng độ MLVSS tổng cộng trong bể $X_T = X + X_i$ bao gồm sinh khối hoạt tính $X$ và phần nbVSS tích lũy $X_i$ (được suy ra từ cân bằng khối lượng $Q X_{o,i} - \\frac{V X_i}{\\text{SRT}} + f_d b X V = 0 \\rightarrow X_i = \\frac{Q X_{o,i}\\text{SRT}}{V} + f_d b X \\text{SRT}$), do đó $X_T = \\frac{Q \\times \\text{SRT} \\times Y(S_0 - S)}{V(1 + b \\times \\text{SRT})} + f_d b \\text{SRT}\\frac{Q \\times \\text{SRT} \\times Y(S_0 - S)}{V(1 + b \\times \\text{SRT})} + \\frac{Q X_{o,i}\\text{SRT}}{V}$. Vì $\\text{SRT} = \\frac{V X_T}{P_{X_T,\\text{VSS}}}$, tổng lượng bùn VSS sinh ra mỗi ngày ($\\text{g VSS/d}$ hoặc $\\text{kg VSS/d}$) bằng tổng của ba thành phần $P_{X_T,\\text{VSS}} = \\frac{V X_T}{\\text{SRT}} = \\underbrace{\\frac{Q Y(S_0 - S)}{1 + b \\times \\text{SRT}}}_{(A)\\text{ Heterotrophic biomass}} + \\underbrace{f_d b\\frac{Q \\times \\text{SRT} \\times Y(S_0 - S)}{1 + b \\times \\text{SRT}}}_{(B)\\text{ Cell debris}} + \\underbrace{Q X_{o,i}}_{(C)\\text{ Influent nbVSS}}$. Do tế bào sinh khối chứa $15\\%$ chất rắn vô cơ (tức $\\text{VSS}/\\text{TSS} = 0.85$) và nước thải đầu vào có chất rắn vô cơ $(\\text{TSS}_0 - \\text{VSS}_0)$, tổng lượng bùn khô TSS sinh ra mỗi ngày là $P_{X,\\text{TSS}} = \\frac{A}{0.85} + \\frac{B}{0.85} + C + Q(\\text{TSS}_0 - \\text{VSS}_0)$ và thỏa mãn hệ thức khối lượng bùn trong bể $(X_{\\text{VSS}})(V) = (P_{X,\\text{VSS}})\\text{SRT}$ cũng như $(X_{\\text{TSS}})(V) = (P_{X,\\text{TSS}})\\text{SRT}$. Lượng oxy tiêu thụ mỗi ngày cho quá trình khử cacbon bằng $R_o = Q(S_0 - S) - 1.42 P_{X,\\text{bio}}$ với $P_{X,\\text{bio}} = A + B$, trong khi tỷ số thức ăn trên vi sinh vật (Food to Microorganism ratio) được tính bằng $F/M = \\frac{Q S_0}{V X}$ ($\\text{g BOD or bsCOD/g VSS}\\cdot\\text{d}$) và tải trọng hữu cơ thể tích (Organic Loading Rate) bằng $L_{\\text{org}} = \\frac{Q S_0}{V \\times 10^3\\text{ g/kg}}$ ($\\text{kg BOD or bsCOD/m}^3\\cdot\\text{d}$).",
+          "sentences": [
+            "Sản lượng bùn hoạt tính sinh ra mỗi ngày theo MLVSS ($P_{X_T,\\text{VSS}}$) và theo MLSS ($P_{X,\\text{TSS}}$) cùng nhu cầu oxy ($R_o$) và các thông số tải trọng thiết kế được xác định từ Slide 46 đến Slide 51 [Page 21] [Page 22] [Page 23] [Page 24].",
+            "Nồng độ MLVSS tổng cộng trong bể $X_T = X + X_i$ bao gồm sinh khối hoạt tính $X$ và phần nbVSS tích lũy $X_i$ (được suy ra từ cân bằng khối lượng $Q X_{o,i} - \\frac{V X_i}{\\text{SRT}} + f_d b X V = 0 \\rightarrow X_i = \\frac{Q X_{o,i}\\text{SRT}}{V} + f_d b X \\text{SRT}$), do đó $X_T = \\frac{Q \\times \\text{SRT} \\times Y(S_0 - S)}{V(1 + b \\times \\text{SRT})} + f_d b \\text{SRT}\\frac{Q \\times \\text{SRT} \\times Y(S_0 - S)}{V(1 + b \\times \\text{SRT})} + \\frac{Q X_{o,i}\\text{SRT}}{V}$.",
+            "Vì $\\text{SRT} = \\frac{V X_T}{P_{X_T,\\text{VSS}}}$, tổng lượng bùn VSS sinh ra mỗi ngày ($\\text{g VSS/d}$ hoặc $\\text{kg VSS/d}$) bằng tổng của ba thành phần $P_{X_T,\\text{VSS}} = \\frac{V X_T}{\\text{SRT}} = \\underbrace{\\frac{Q Y(S_0 - S)}{1 + b \\times \\text{SRT}}}_{(A)\\text{ Heterotrophic biomass}} + \\underbrace{f_d b\\frac{Q \\times \\text{SRT} \\times Y(S_0 - S)}{1 + b \\times \\text{SRT}}}_{(B)\\text{ Cell debris}} + \\underbrace{Q X_{o,i}}_{(C)\\text{ Influent nbVSS}}$.",
+            "Do tế bào sinh khối chứa $15\\%$ chất rắn vô cơ (tức $\\text{VSS}/\\text{TSS} = 0.85$) và nước thải đầu vào có chất rắn vô cơ $(\\text{TSS}_0 - \\text{VSS}_0)$, tổng lượng bùn khô TSS sinh ra mỗi ngày là $P_{X,\\text{TSS}} = \\frac{A}{0.85} + \\frac{B}{0.85} + C + Q(\\text{TSS}_0 - \\text{VSS}_0)$ và thỏa mãn hệ thức khối lượng bùn trong bể $(X_{\\text{VSS}})(V) = (P_{X,\\text{VSS}})\\text{SRT}$ cũng như $(X_{\\text{TSS}})(V) = (P_{X,\\text{TSS}})\\text{SRT}$.",
+            "Lượng oxy tiêu thụ mỗi ngày cho quá trình khử cacbon bằng $R_o = Q(S_0 - S) - 1.42 P_{X,\\text{bio}}$ với $P_{X,\\text{bio}} = A + B$, trong khi tỷ số thức ăn trên vi sinh vật (Food to Microorganism ratio) được tính bằng $F/M = \\frac{Q S_0}{V X}$ ($\\text{g BOD or bsCOD/g VSS}\\cdot\\text{d}$) và tải trọng hữu cơ thể tích (Organic Loading Rate) bằng $L_{\\text{org}} = \\frac{Q S_0}{V \\times 10^3\\text{ g/kg}}$ ($\\text{kg BOD or bsCOD/m}^3\\cdot\\text{d}$)."
+          ],
+          "brief": [
+            "Vì $\\text{SRT} = \\frac{V X_T}{P_{X_T,\\text{VSS}}}$, tổng lượng bùn VSS sinh ra mỗi ngày ($\\text{g VSS/d}$ hoặc $\\text{kg VSS/d}$) bằng tổng của ba thành phần $P_{X_T,\\text{VSS}} = \\frac{V X_T}{\\text{SRT}} = \\underbrace{\\frac{Q Y(S_0 - S)}{1 + b \\times \\text{SRT}}}_{(A)\\text{ Heterotrophic biomass}} + \\underbrace{f_d b\\frac{Q \\times \\text{SRT} \\times Y(S_0 - S)}{1 + b \\times \\text{SRT}}}_{(B)\\text{ Cell debris}} + \\underbrace{Q X_{o,i}}_{(C)\\text{ Influent nbVSS}}$.",
+            "Lượng oxy tiêu thụ mỗi ngày cho quá trình khử cacbon bằng $R_o = Q(S_0 - S) - 1.42 P_{X,\\text{bio}}$ với $P_{X,\\text{bio}} = A + B$, trong khi tỷ số thức ăn trên vi sinh vật (Food to Microorganism ratio) được tính bằng $F/M = \\frac{Q S_0}{V X}$ ($\\text{g BOD or bsCOD/g VSS}\\cdot\\text{d}$) và tải trọng hữu cơ thể tích (Organic Loading Rate) bằng $L_{\\text{org}} = \\frac{Q S_0}{V \\times 10^3\\text{ g/kg}}$ ($\\text{kg BOD or bsCOD/m}^3\\cdot\\text{d}$)."
+          ],
+          "evidence": [
+            2,
+            4
+          ],
+          "key": "Sản lượng bùn hàng ngày $P_{X_T,\\text{VSS}}$ bằng tổng sinh khối hoạt tính $A$, xác tế bào $B$ và $C$. Lượng oxy yêu cầu mỗi ngày tính bằng $R_o = Q(S_0, S), 1.42 P_{X,\\text{bio}}$ với $P_{X,\\text{bio}} = A + B$.",
+          "takeaway": "Sản lượng bùn hàng ngày $P_{X_T,\\text{VSS}}$ bằng tổng sinh khối hoạt tính $A$, xác tế bào $B$ và $C$",
+          "topic": "Sản lượng bùn"
+        }
+      ]
+    },
+    {
+      "id": "sec-5-lời-giải-chi-tiết-bài-tập-chương-5-phần-1-worked-solutions-for-chapter-5-part-1-exercises",
+      "num": "5",
+      "title": "Lời giải Chi tiết Bài tập Chương 5 Phần 1 (Worked Solutions for Chapter 5 Part 1 Exercises)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch05_1_ex01-slide-2223-trang-1112-tính-hệ-số-sản-lượng-quan-sát-và-lượng-oxy-tiêu-thụ-của-bể-hiếu-khí",
+      "num": "",
+      "title": "Bài tập ch05_1_ex01 (Slide 22–23, Trang 11–12): Tính Hệ số Sản lượng Quan sát và Lượng Oxy Tiêu thụ của Bể Hiếu khí",
+      "depth": 2,
+      "takeaway": "Bể hiếu khí Ví dụ 1 đạt hệ số sản lượng $Y_{\\text{obs}} = 0.41\\text{ g/g}$ và tiêu thụ $206\\text{ kg O}_2/\\text{d}$",
+      "topic": "Bể hiếu khí",
+      "units": [
+        {
+          "id": "p-88171c4f",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một bể phản ứng sinh học hiếu khí tiếp nhận nước thải có lưu lượng $Q = 1000\\text{ m}^3/\\text{d}$ với nồng độ chất hữu cơ hòa tan dễ phân hủy sinh học đầu vào $S_0 = 500\\text{ g/m}^3$ và không có sinh khối đầu vào ($X_0 = 0\\text{ g/m}^3$) [Page 11] [Page 12]. Dòng nước ra khỏi bể phản ứng có nồng độ cơ chất $S = 10\\text{ g/m}^3$ và nồng độ chất rắn lơ lửng bay hơi $X_e = 200\\text{ g VSS/m}^3$. Hãy xác định hệ số sản lượng sinh khối quan sát được $Y_{\\text{obs}}$ ($\\text{g VSS/g COD}$) và lượng oxy tiêu thụ theo tỷ lệ $\\text{g O}_2/\\text{g COD}$ cùng tổng khối lượng oxy tiêu thụ mỗi ngày $R_{O_2}$ ($\\text{g/d}$ và $\\text{kg/d}$).",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một bể phản ứng sinh học hiếu khí tiếp nhận nước thải có lưu lượng $Q = 1000\\text{ m}^3/\\text{d}$ với nồng độ chất hữu cơ hòa tan dễ phân hủy sinh học đầu vào $S_0 = 500\\text{ g/m}^3$ và không có sinh khối đầu vào ($X_0 = 0\\text{ g/m}^3$) [Page 11] [Page 12].",
+            "Dòng nước ra khỏi bể phản ứng có nồng độ cơ chất $S = 10\\text{ g/m}^3$ và nồng độ chất rắn lơ lửng bay hơi $X_e = 200\\text{ g VSS/m}^3$.",
+            "Hãy xác định hệ số sản lượng sinh khối quan sát được $Y_{\\text{obs}}$ ($\\text{g VSS/g COD}$) và lượng oxy tiêu thụ theo tỷ lệ $\\text{g O}_2/\\text{g COD}$ cùng tổng khối lượng oxy tiêu thụ mỗi ngày $R_{O_2}$ ($\\text{g/d}$ và $\\text{kg/d}$)."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một bể phản ứng sinh học hiếu khí tiếp nhận nước thải có lưu lượng $Q = 1000\\text{ m}^3/\\text{d}$ với nồng độ chất hữu cơ hòa tan dễ phân hủy sinh học đầu vào $S_0 = 500\\text{ g/m}^3$ và không có sinh khối đầu vào ($X_0 = 0\\text{ g/m}^3$) [Page 11] [Page 12].",
+            "Dòng nước ra khỏi bể phản ứng có nồng độ cơ chất $S = 10\\text{ g/m}^3$ và nồng độ chất rắn lơ lửng bay hơi $X_e = 200\\text{ g VSS/m}^3$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Bể hiếu khí lưu lượng $Q = 1000\\text{ m}^3/\\text{d}$ giảm cơ chất từ $S_0 = 500$ xuống $S = 10\\text{ g/m}^3$. Dòng ra chứa sinh khối $X_e = 200\\text{ g VSS/m}^3$ và yêu cầu tính $Y_{\\text{obs}}$ cùng lượng oxy $R_{O_2}$.",
+          "takeaway": "Bể hiếu khí lưu lượng $Q = 1000\\text{ m}^3/\\text{d}$ giảm cơ chất từ $S_0 = 500$ xuống $S = 10\\text{ g/m}^3$",
+          "topic": "Bể hiếu khí"
+        },
+        {
+          "id": "p-0ff1f355",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính nồng độ cơ chất bị khử và hệ số sản lượng quan sát: Hiệu số giữa nồng độ cơ chất đầu vào $S_0$ và đầu ra $S$ cho độ giảm cơ chất $\\Delta S = 490\\text{ g COD/m}^3$ [Page 8]. Tỷ số giữa sinh khối tạo thành $\\Delta X = 200\\text{ g VSS/m}^3$ và độ giảm cơ chất $\\Delta S$ xác định hệ số sản lượng quan sát $Y_{\\text{obs}} = 0.41\\text{ g VSS/g COD}$.",
+          "sentences": [
+            "Bước 1 - Tính nồng độ cơ chất bị khử và hệ số sản lượng quan sát: Hiệu số giữa nồng độ cơ chất đầu vào $S_0$ và đầu ra $S$ cho độ giảm cơ chất $\\Delta S = 490\\text{ g COD/m}^3$ [Page 8].",
+            "Tỷ số giữa sinh khối tạo thành $\\Delta X = 200\\text{ g VSS/m}^3$ và độ giảm cơ chất $\\Delta S$ xác định hệ số sản lượng quan sát $Y_{\\text{obs}} = 0.41\\text{ g VSS/g COD}$."
+          ],
+          "brief": [
+            "Bước 1 - Tính nồng độ cơ chất bị khử và hệ số sản lượng quan sát: Hiệu số giữa nồng độ cơ chất đầu vào $S_0$ và đầu ra $S$ cho độ giảm cơ chất $\\Delta S = 490\\text{ g COD/m}^3$ [Page 8].",
+            "Tỷ số giữa sinh khối tạo thành $\\Delta X = 200\\text{ g VSS/m}^3$ và độ giảm cơ chất $\\Delta S$ xác định hệ số sản lượng quan sát $Y_{\\text{obs}} = 0.41\\text{ g VSS/g COD}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Sản lượng quan sát đạt $Y_{\\text{obs}} = 0.41\\text{ g VSS/g COD}$ ứng với $\\Delta S = 490\\text{ g/m}^3$. Tỷ số giữa nồng độ sinh khối tạo thành $200\\text{ g VSS/m}^3$ và độ giảm cơ chất $490\\text{ g COD/m}^3$ bằng $0.408$.",
+          "takeaway": "Sản lượng quan sát đạt $Y_{\\text{obs}} = 0.41\\text{ g VSS/g COD}$ ứng với $\\Delta S = 490\\text{ g/m}^3$",
+          "topic": "Sản lượng"
+        },
+        {
+          "id": "p-12782583",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính lượng oxy tiêu thụ trên mỗi gam cơ chất bị khử: Mỗi gam sinh khối tế bào $\\text{C}_5\\text{H}_7\\text{NO}_2$ tích lũy một lượng đương lượng oxy bằng $1.42\\text{ g O}_2/\\text{g VSS}$ [Page 10]. Phần cơ chất chuyển vào tế bào bằng $0.58\\text{ g COD/g COD}$, do đó phần cơ chất bị oxy hóa bởi oxy hòa tan bằng $0.42\\text{ g O}_2/\\text{g COD}$.",
+          "sentences": [
+            "Bước 2 - Tính lượng oxy tiêu thụ trên mỗi gam cơ chất bị khử: Mỗi gam sinh khối tế bào $\\text{C}_5\\text{H}_7\\text{NO}_2$ tích lũy một lượng đương lượng oxy bằng $1.42\\text{ g O}_2/\\text{g VSS}$ [Page 10].",
+            "Phần cơ chất chuyển vào tế bào bằng $0.58\\text{ g COD/g COD}$, do đó phần cơ chất bị oxy hóa bởi oxy hòa tan bằng $0.42\\text{ g O}_2/\\text{g COD}$."
+          ],
+          "brief": [
+            "Bước 2 - Tính lượng oxy tiêu thụ trên mỗi gam cơ chất bị khử: Mỗi gam sinh khối tế bào $\\text{C}_5\\text{H}_7\\text{NO}_2$ tích lũy một lượng đương lượng oxy bằng $1.42\\text{ g O}_2/\\text{g VSS}$ [Page 10].",
+            "Phần cơ chất chuyển vào tế bào bằng $0.58\\text{ g COD/g COD}$, do đó phần cơ chất bị oxy hóa bởi oxy hòa tan bằng $0.42\\text{ g O}_2/\\text{g COD}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Oxy tiêu thụ trên mỗi gam cơ chất bị khử đạt $0.42\\text{ g O}_2/\\text{g COD}$. Phần cơ chất tích lũy vào tế bào $\\text{C}_5\\text{H}_7\\text{NO}_2$ chiếm $1.42 \\times 0.408 = 0.58\\text{ g COD/g COD}$.",
+          "takeaway": "Oxy tiêu thụ trên mỗi gam cơ chất bị khử đạt $0.42\\text{ g O}_2/\\text{g COD}$",
+          "topic": "Oxy tiêu thụ"
+        },
+        {
+          "id": "p-60c9ad6e",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính tổng khối lượng oxy tiêu thụ mỗi ngày: Cân bằng khối lượng $\\text{COD}$ toàn bể lấy tổng tải lượng $\\text{bsCOD}$ khử mỗi ngày trừ đi tải lượng $\\text{COD}$ tích lũy trong bùn sinh học [Page 10]. Kết quả thu được tổng lượng oxy tiêu thụ mỗi ngày đạt $R_{O_2} = 206,000\\text{ g O}_2/\\text{d}$ hay $206\\text{ kg O}_2/\\text{d}$.",
+          "sentences": [
+            "Bước 3 - Tính tổng khối lượng oxy tiêu thụ mỗi ngày: Cân bằng khối lượng $\\text{COD}$ toàn bể lấy tổng tải lượng $\\text{bsCOD}$ khử mỗi ngày trừ đi tải lượng $\\text{COD}$ tích lũy trong bùn sinh học [Page 10].",
+            "Kết quả thu được tổng lượng oxy tiêu thụ mỗi ngày đạt $R_{O_2} = 206,000\\text{ g O}_2/\\text{d}$ hay $206\\text{ kg O}_2/\\text{d}$."
+          ],
+          "brief": [
+            "Bước 3 - Tính tổng khối lượng oxy tiêu thụ mỗi ngày: Cân bằng khối lượng $\\text{COD}$ toàn bể lấy tổng tải lượng $\\text{bsCOD}$ khử mỗi ngày trừ đi tải lượng $\\text{COD}$ tích lũy trong bùn sinh học [Page 10].",
+            "Kết quả thu được tổng lượng oxy tiêu thụ mỗi ngày đạt $R_{O_2} = 206,000\\text{ g O}_2/\\text{d}$ hay $206\\text{ kg O}_2/\\text{d}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng khối lượng oxy tiêu thụ mỗi ngày đạt $R_{O_2} = 206,000\\text{ g O}_2/\\text{d}$ hay $206\\text{ kg O}_2/\\text{d}$. Tổng tải lượng $\\text{COD}$ khử $490,000\\text{ g/d}$ trừ đi phần tích lũy vào sinh khối $284,000\\text{ g/d}$ còn $206,000\\text{ g/d}$.",
+          "takeaway": "Tổng khối lượng oxy tiêu thụ mỗi ngày đạt $R_{O_2} = 206,000\\text{ g O}_2/\\text{d}$ hay $206\\text{ kg O}_2/\\text{d}$",
+          "topic": "khối lượng oxy"
+        },
+        {
+          "id": "p-47659d61",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Toàn bộ thông số của bể hiếu khí thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng. Các kết quả tính toán tuân thủ phương trình cân bằng bảo toàn $\\text{COD}$ và bảng hệ số sản lượng chuẩn.",
+          "takeaway": "Toàn bộ thông số của bể hiếu khí thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng",
+          "topic": "thông số"
+        },
+        {
+          "id": "p-741819a2",
+          "kind": "list item",
+          "role": "result",
+          "full": "Hệ số sản lượng sinh khối quan sát ($Y_{\\text{obs}}$): $0.41\\text{ g VSS/g COD}$ (Kiểm tra: $Y_{\\text{obs}} = 0.408\\text{ g/g} < Y_{\\text{typical}} = 0.45\\text{ g/g}\\text{ — Đạt chuẩn Slide 18}$)",
+          "sentences": [
+            "Hệ số sản lượng sinh khối quan sát ($Y_{\\text{obs}}$): $0.41\\text{ g VSS/g COD}$ (Kiểm tra: $Y_{\\text{obs}} = 0.408\\text{ g/g} < Y_{\\text{typical}} = 0.45\\text{ g/g}\\text{ — Đạt chuẩn Slide 18}$)"
+          ],
+          "brief": [
+            "Hệ số sản lượng sinh khối quan sát ($Y_{\\text{obs}}$): $0.41\\text{ g VSS/g COD}$ (Kiểm tra: $Y_{\\text{obs}} = 0.408\\text{ g/g} < Y_{\\text{typical}} = 0.45\\text{ g/g}\\text{ — Đạt chuẩn Slide 18}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Giá trị $Y_{\\text{obs}} = 0.41\\text{ g VSS/g COD}$ nhỏ hơn hệ số tổng hợp chuẩn $0.45\\text{ g/g}$.",
+          "takeaway": "Giá trị $Y_{\\text{obs}} = 0.41\\text{ g VSS/g COD}$ nhỏ hơn hệ số tổng hợp chuẩn $0.45\\text{ g/g}$",
+          "topic": "Giá trị"
+        },
+        {
+          "id": "p-e5dc9f42",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ lệ oxy tiêu thụ đơn vị ($\\text{O}_2/\\Delta\\text{COD}$): $0.42\\text{ g O}_2/\\text{g COD}$ (Kiểm tra: $0.42 + 0.58 = 1.00\\text{ g COD/g COD}\\text{ — Đạt chuẩn cân bằng Slide 20}$)",
+          "sentences": [
+            "Tỷ lệ oxy tiêu thụ đơn vị ($\\text{O}_2/\\Delta\\text{COD}$): $0.42\\text{ g O}_2/\\text{g COD}$ (Kiểm tra: $0.42 + 0.58 = 1.00\\text{ g COD/g COD}\\text{ — Đạt chuẩn cân bằng Slide 20}$)"
+          ],
+          "brief": [
+            "Tỷ lệ oxy tiêu thụ đơn vị ($\\text{O}_2/\\Delta\\text{COD}$): $0.42\\text{ g O}_2/\\text{g COD}$ (Kiểm tra: $0.42 + 0.58 = 1.00\\text{ g COD/g COD}\\text{ — Đạt chuẩn cân bằng Slide 20}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ lệ oxy đơn vị $0.42\\text{ g O}_2/\\text{g COD}$ bảo toàn tổng cân bằng $0.42 + 0.58 = 1.00$.",
+          "takeaway": "Tỷ lệ oxy đơn vị $0.42\\text{ g O}_2/\\text{g COD}$ bảo toàn tổng cân bằng $0.42 + 0.58 = 1.00$",
+          "topic": "Tỷ lệ oxy"
+        },
+        {
+          "id": "p-abffafec",
+          "kind": "list item",
+          "role": "result",
+          "full": "Khối lượng oxy tiêu thụ hàng ngày ($R_{O_2}$): $206,000\\text{ g O}_2/\\text{d} = 206\\text{ kg O}_2/\\text{d}$ (Kiểm tra: $490 - 284 = 206\\text{ kg O}_2/\\text{d}\\text{ — Đạt chuẩn Slide 19–20}$)",
+          "sentences": [
+            "Khối lượng oxy tiêu thụ hàng ngày ($R_{O_2}$): $206,000\\text{ g O}_2/\\text{d} = 206\\text{ kg O}_2/\\text{d}$ (Kiểm tra: $490 - 284 = 206\\text{ kg O}_2/\\text{d}\\text{ — Đạt chuẩn Slide 19–20}$)"
+          ],
+          "brief": [
+            "Khối lượng oxy tiêu thụ hàng ngày ($R_{O_2}$): $206,000\\text{ g O}_2/\\text{d} = 206\\text{ kg O}_2/\\text{d}$ (Kiểm tra: $490 - 284 = 206\\text{ kg O}_2/\\text{d}\\text{ — Đạt chuẩn Slide 19–20}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khối lượng oxy tiêu thụ hàng ngày đạt $R_{O_2} = 206,000\\text{ g O}_2/\\text{d} = 206\\text{ kg O}_2/\\text{d}$.",
+          "takeaway": "Khối lượng oxy tiêu thụ hàng ngày đạt $R_{O_2} = 206,000\\text{ g O}_2/\\text{d} = 206\\text{ kg O}_2/\\text{d}$",
+          "topic": "Khối lượng oxy"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch05_1_ex02-slide-36-trang-17-tính-sản-lượng-sinh-khối-ròng-sản-lượng-quan-sát-và-tỷ-phần-hoạt-tính-trong-bể-khuấy-trộn-hoàn-toàn",
+      "num": "",
+      "title": "Bài tập ch05_1_ex02 (Slide 36, Trang 17): Tính Sản lượng Sinh khối Ròng, Sản lượng Quan sát và Tỷ phần Hoạt tính trong Bể Khuấy trộn Hoàn toàn",
+      "depth": 2,
+      "takeaway": "Bể khuấy trộn Ví dụ 2 đạt $Y_{\\text{bio}} = 0.225\\text{ g/g}$, $Y_{\\text{obs}} = 0.415\\text{ g/g}$ và $F_{X,\\text{act}} = 54.1\\%$",
+      "topic": "Bể khuấy trộn",
+      "units": [
+        {
+          "id": "p-fcb6ea0b",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một bể phản ứng hiếu khí khuấy trộn hoàn toàn có thể tích $V = 335\\text{ m}^3$ và duy trì nồng độ sinh khối hoạt tính $X = 2000\\text{ g/m}^3$ [Page 15] [Page 16] [Page 17]. Bể xử lý lưu lượng nước thải $Q = 1000\\text{ m}^3/\\text{d}$ có nồng độ cơ chất dễ phân hủy đầu vào $S_0 = 300\\text{ g/m}^3$, nồng độ chất rắn bay hơi không phân hủy sinh học đầu vào $X_{o,i} = 50\\text{ g/m}^3$, nồng độ cơ chất đầu ra $S = 2.4\\text{ g/m}^3$ và hệ số xác tế bào $f_d = 0.1$. Sử dụng bảng hệ số động học chuẩn ở $20^\\circ\\text{C}$ trên Slide $31$, hãy xác định hệ số sản lượng sinh khối ròng $Y_{\\text{bio}}$, hệ số sản lượng quan sát $Y_{\\text{obs}}$ và tỷ phần sinh khối hoạt tính trong bùn hoạt tính $F_{X,\\text{act}}$.",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một bể phản ứng hiếu khí khuấy trộn hoàn toàn có thể tích $V = 335\\text{ m}^3$ và duy trì nồng độ sinh khối hoạt tính $X = 2000\\text{ g/m}^3$ [Page 15] [Page 16] [Page 17].",
+            "Bể xử lý lưu lượng nước thải $Q = 1000\\text{ m}^3/\\text{d}$ có nồng độ cơ chất dễ phân hủy đầu vào $S_0 = 300\\text{ g/m}^3$, nồng độ chất rắn bay hơi không phân hủy sinh học đầu vào $X_{o,i} = 50\\text{ g/m}^3$, nồng độ cơ chất đầu ra $S = 2.4\\text{ g/m}^3$ và hệ số xác tế bào $f_d = 0.1$.",
+            "Sử dụng bảng hệ số động học chuẩn ở $20^\\circ\\text{C}$ trên Slide $31$, hãy xác định hệ số sản lượng sinh khối ròng $Y_{\\text{bio}}$, hệ số sản lượng quan sát $Y_{\\text{obs}}$ và tỷ phần sinh khối hoạt tính trong bùn hoạt tính $F_{X,\\text{act}}$."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một bể phản ứng hiếu khí khuấy trộn hoàn toàn có thể tích $V = 335\\text{ m}^3$ và duy trì nồng độ sinh khối hoạt tính $X = 2000\\text{ g/m}^3$ [Page 15] [Page 16] [Page 17].",
+            "Bể xử lý lưu lượng nước thải $Q = 1000\\text{ m}^3/\\text{d}$ có nồng độ cơ chất dễ phân hủy đầu vào $S_0 = 300\\text{ g/m}^3$, nồng độ chất rắn bay hơi không phân hủy sinh học đầu vào $X_{o,i} = 50\\text{ g/m}^3$, nồng độ cơ chất đầu ra $S = 2.4\\text{ g/m}^3$ và hệ số xác tế bào $f_d = 0.1$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Bể hiếu khí thể tích $V = 335\\text{ m}^3$ duy trì sinh khối hoạt tính $X = 2000\\text{ g/m}^3$ với $Q = 1000\\text{ m}^3/\\text{d}$. Nước thải có $S_0 = 300\\text{ g/m}^3$, $S = 2.4\\text{ g/m}^3$, $X_{o,i} = 50\\text{ g/m}^3$ và hệ số xác tế bào $f_d = 0.1$.",
+          "takeaway": "Bể hiếu khí thể tích $V = 335\\text{ m}^3$ duy trì sinh khối hoạt tính $X = 2000\\text{ g/m}^3$ với $Q = 1000\\text{ m}^3/\\text{d}$",
+          "topic": "Bể hiếu khí"
+        },
+        {
+          "id": "p-efdfe8ff",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính tốc độ sử dụng cơ chất theo đơn vị thể tích bể: Từ phương trình cân bằng cơ chất ở trạng thái ổn định, tốc độ sử dụng cơ chất $r_{su}$ bằng tải lượng $\\text{bsCOD}$ khử mỗi ngày chia cho thể tích bể $V$ [Page 13] [Page 15]. Kết quả thu được tốc độ tiêu thụ cơ chất đạt $r_{su} = 888.4\\text{ g bsCOD/m}^3\\cdot\\text{d}$.",
+          "sentences": [
+            "Bước 1 - Tính tốc độ sử dụng cơ chất theo đơn vị thể tích bể: Từ phương trình cân bằng cơ chất ở trạng thái ổn định, tốc độ sử dụng cơ chất $r_{su}$ bằng tải lượng $\\text{bsCOD}$ khử mỗi ngày chia cho thể tích bể $V$ [Page 13] [Page 15].",
+            "Kết quả thu được tốc độ tiêu thụ cơ chất đạt $r_{su} = 888.4\\text{ g bsCOD/m}^3\\cdot\\text{d}$."
+          ],
+          "brief": [
+            "Bước 1 - Tính tốc độ sử dụng cơ chất theo đơn vị thể tích bể: Từ phương trình cân bằng cơ chất ở trạng thái ổn định, tốc độ sử dụng cơ chất $r_{su}$ bằng tải lượng $\\text{bsCOD}$ khử mỗi ngày chia cho thể tích bể $V$ [Page 13] [Page 15].",
+            "Kết quả thu được tốc độ tiêu thụ cơ chất đạt $r_{su} = 888.4\\text{ g bsCOD/m}^3\\cdot\\text{d}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tốc độ tiêu thụ cơ chất theo đơn vị thể tích bể đạt $r_{su} = 888.4\\text{ g bsCOD/m}^3\\cdot\\text{d}$. Tải lượng cơ chất bị khử $1000 \\times (300, 2.4)\\text{ g/d}$ chia cho thể tích bể $V = 335\\text{ m}^3$ cho $888.4$.",
+          "takeaway": "Tốc độ tiêu thụ cơ chất theo đơn vị thể tích bể đạt $r_{su} = 888.4\\text{ g bsCOD/m}^3\\cdot\\text{d}$",
+          "topic": "thể tích bể"
+        },
+        {
+          "id": "p-2d2f04b8",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính tốc độ tăng trưởng sinh khối hoạt tính ròng và tổng tốc độ sinh bùn: Tốc độ tăng trưởng sinh khối ròng $r_X$ bằng tốc độ tổng hợp mới trừ đi tốc độ phân hủy nội bào đạt $199.8\\text{ g VSS/m}^3\\cdot\\text{d}$ [Page 14] [Page 16]. Khi cộng thêm phần xác tế bào nội bào và lượng $\\text{nbVSS}$ từ nước thải đầu vào, tổng tốc độ sinh bùn bay hơi đạt $r_{X_T,\\text{VSS}} = 369.1\\text{ g VSS/m}^3\\cdot\\text{d}$.",
+          "sentences": [
+            "Bước 2 - Tính tốc độ tăng trưởng sinh khối hoạt tính ròng và tổng tốc độ sinh bùn: Tốc độ tăng trưởng sinh khối ròng $r_X$ bằng tốc độ tổng hợp mới trừ đi tốc độ phân hủy nội bào đạt $199.8\\text{ g VSS/m}^3\\cdot\\text{d}$ [Page 14] [Page 16].",
+            "Khi cộng thêm phần xác tế bào nội bào và lượng $\\text{nbVSS}$ từ nước thải đầu vào, tổng tốc độ sinh bùn bay hơi đạt $r_{X_T,\\text{VSS}} = 369.1\\text{ g VSS/m}^3\\cdot\\text{d}$."
+          ],
+          "brief": [
+            "Bước 2 - Tính tốc độ tăng trưởng sinh khối hoạt tính ròng và tổng tốc độ sinh bùn: Tốc độ tăng trưởng sinh khối ròng $r_X$ bằng tốc độ tổng hợp mới trừ đi tốc độ phân hủy nội bào đạt $199.8\\text{ g VSS/m}^3\\cdot\\text{d}$ [Page 14] [Page 16].",
+            "Khi cộng thêm phần xác tế bào nội bào và lượng $\\text{nbVSS}$ từ nước thải đầu vào, tổng tốc độ sinh bùn bay hơi đạt $r_{X_T,\\text{VSS}} = 369.1\\text{ g VSS/m}^3\\cdot\\text{d}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Sinh trưởng ròng đạt $r_X = 199.8\\text{ g/m}^3\\cdot\\text{d}$ và tổng tốc độ sinh bùn đạt $369.1\\text{ g/m}^3\\cdot\\text{d}$. Tổng tốc độ sinh bùn $r_{X_T,\\text{VSS}}$ cộng thêm phần xác tế bào $20.0\\text{ g/m}^3\\cdot\\text{d}$ và $\\text{nbVSS}$ đầu vào $149.3\\text{ g/m}^3\\cdot\\text{d}$.",
+          "takeaway": "Sinh trưởng ròng đạt $r_X = 199.8\\text{ g/m}^3\\cdot\\text{d}$ và tổng tốc độ sinh bùn đạt $369.1\\text{ g/m}^3\\cdot\\text{d}$",
+          "topic": "Sinh trưởng ròng"
+        },
+        {
+          "id": "p-ec5687a3",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính hệ số sản lượng ròng, sản lượng quan sát và tỷ phần sinh khối hoạt tính: Chia tốc độ sinh trưởng ròng $r_X$ và tổng tốc độ sinh bùn $r_{X_T,\\text{VSS}}$ cho $r_{su}$ xác định được $Y_{\\text{bio}} = 0.225\\text{ g VSS/g bsCOD}$ và $Y_{\\text{obs}} = 0.415\\text{ g VSS/g bsCOD}$ [Page 16] [Page 17]. Tỷ số giữa $r_X$ và $r_{X_T,\\text{VSS}}$ cho tỷ phần sinh khối hoạt tính trong $\\text{MLVSS}$ đạt $F_{X,\\text{act}} = 0.541$ hay $54.1\\%$.",
+          "sentences": [
+            "Bước 3 - Tính hệ số sản lượng ròng, sản lượng quan sát và tỷ phần sinh khối hoạt tính: Chia tốc độ sinh trưởng ròng $r_X$ và tổng tốc độ sinh bùn $r_{X_T,\\text{VSS}}$ cho $r_{su}$ xác định được $Y_{\\text{bio}} = 0.225\\text{ g VSS/g bsCOD}$ và $Y_{\\text{obs}} = 0.415\\text{ g VSS/g bsCOD}$ [Page 16] [Page 17].",
+            "Tỷ số giữa $r_X$ và $r_{X_T,\\text{VSS}}$ cho tỷ phần sinh khối hoạt tính trong $\\text{MLVSS}$ đạt $F_{X,\\text{act}} = 0.541$ hay $54.1\\%$."
+          ],
+          "brief": [
+            "Bước 3 - Tính hệ số sản lượng ròng, sản lượng quan sát và tỷ phần sinh khối hoạt tính: Chia tốc độ sinh trưởng ròng $r_X$ và tổng tốc độ sinh bùn $r_{X_T,\\text{VSS}}$ cho $r_{su}$ xác định được $Y_{\\text{bio}} = 0.225\\text{ g VSS/g bsCOD}$ và $Y_{\\text{obs}} = 0.415\\text{ g VSS/g bsCOD}$ [Page 16] [Page 17].",
+            "Tỷ số giữa $r_X$ và $r_{X_T,\\text{VSS}}$ cho tỷ phần sinh khối hoạt tính trong $\\text{MLVSS}$ đạt $F_{X,\\text{act}} = 0.541$ hay $54.1\\%$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Sản lượng ròng đạt $Y_{\\text{bio}} = 0.225\\text{ g/g}$, $Y_{\\text{obs}} = 0.415\\text{ g/g}$ và tỷ phần hoạt tính đạt $F_{X,\\text{act}} = 54.1\\%$. Chia $r_X = 199.8$ và $r_{X_T,\\text{VSS}} = 369.1$ cho $r_{su} = 888.4$ xác định các hệ số sản lượng và tỷ phần hoạt tính.",
+          "takeaway": "Sản lượng ròng đạt $Y_{\\text{bio}} = 0.225\\text{ g/g}$, $Y_{\\text{obs}} = 0.415\\text{ g/g}$ và tỷ phần hoạt tính đạt $F_{X,\\text{act}} = 54.1\\%$",
+          "topic": "Sản lượng ròng"
+        },
+        {
+          "id": "p-47659d61-2",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Toàn bộ thông số của bể phản ứng thỏa mãn tiêu chuẩn trên slide bài giảng. Các giá trị sản lượng ròng và sản lượng quan sát đều nằm trong giới hạn vật lý của quá trình hiếu khí.",
+          "takeaway": "Toàn bộ thông số của bể phản ứng thỏa mãn tiêu chuẩn trên slide bài giảng",
+          "topic": "bể phản ứng"
+        },
+        {
+          "id": "p-747fc72c",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tốc độ sử dụng cơ chất ($r_{su}$): $888.4\\text{ g bsCOD/m}^3\\cdot\\text{d}$ (Kiểm tra: $r_{su} \\approx \\frac{6 \\times 2.4 \\times 2000}{30 + 2.4} = 888.9\\text{ g/m}^3\\cdot\\text{d}\\text{ — Đạt chuẩn Slide 28, 31}$)",
+          "sentences": [
+            "Tốc độ sử dụng cơ chất ($r_{su}$): $888.4\\text{ g bsCOD/m}^3\\cdot\\text{d}$ (Kiểm tra: $r_{su} \\approx \\frac{6 \\times 2.4 \\times 2000}{30 + 2.4} = 888.9\\text{ g/m}^3\\cdot\\text{d}\\text{ — Đạt chuẩn Slide 28, 31}$)"
+          ],
+          "brief": [
+            "Tốc độ sử dụng cơ chất ($r_{su}$): $888.4\\text{ g bsCOD/m}^3\\cdot\\text{d}$ (Kiểm tra: $r_{su} \\approx \\frac{6 \\times 2.4 \\times 2000}{30 + 2.4} = 888.9\\text{ g/m}^3\\cdot\\text{d}\\text{ — Đạt chuẩn Slide 28, 31}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tốc độ cơ chất $r_{su} = 888.4\\text{ g bsCOD/m}^3\\cdot\\text{d}$ khớp với phương trình Monod $888.9\\text{ g/m}^3\\cdot\\text{d}$.",
+          "takeaway": "Tốc độ cơ chất $r_{su} = 888.4\\text{ g bsCOD/m}^3\\cdot\\text{d}$ khớp với phương trình Monod $888.9\\text{ g/m}^3\\cdot\\text{d}$",
+          "topic": "phương trình Monod"
+        },
+        {
+          "id": "p-7a9f16d1",
+          "kind": "list item",
+          "role": "result",
+          "full": "Hệ số sản lượng sinh khối ròng ($Y_{\\text{bio}}$): $0.225\\text{ g VSS/g bsCOD}$ (Kiểm tra: $Y_{\\text{bio}} = 0.225\\text{ g/g} < Y = 0.45\\text{ g/g}\\text{ — Đạt chuẩn Slide 35}$)",
+          "sentences": [
+            "Hệ số sản lượng sinh khối ròng ($Y_{\\text{bio}}$): $0.225\\text{ g VSS/g bsCOD}$ (Kiểm tra: $Y_{\\text{bio}} = 0.225\\text{ g/g} < Y = 0.45\\text{ g/g}\\text{ — Đạt chuẩn Slide 35}$)"
+          ],
+          "brief": [
+            "Hệ số sản lượng sinh khối ròng ($Y_{\\text{bio}}$): $0.225\\text{ g VSS/g bsCOD}$ (Kiểm tra: $Y_{\\text{bio}} = 0.225\\text{ g/g} < Y = 0.45\\text{ g/g}\\text{ — Đạt chuẩn Slide 35}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hệ số ròng $Y_{\\text{bio}} = 0.225\\text{ g VSS/g bsCOD}$ nhỏ hơn hệ số tổng hợp $Y = 0.45\\text{ g/g}$.",
+          "takeaway": "Hệ số ròng $Y_{\\text{bio}} = 0.225\\text{ g VSS/g bsCOD}$ nhỏ hơn hệ số tổng hợp $Y = 0.45\\text{ g/g}$",
+          "topic": "Hệ số ròng"
+        },
+        {
+          "id": "p-45db508f",
+          "kind": "list item",
+          "role": "result",
+          "full": "Hệ số sản lượng quan sát ($Y_{\\text{obs}}$): $0.415\\text{ g VSS/g bsCOD}$ (Kiểm tra: $Y_{\\text{bio}} < Y_{\\text{obs}} = 0.415\\text{ g/g} < Y = 0.45\\text{ g/g}\\text{ — Đạt chuẩn Slide 35}$)",
+          "sentences": [
+            "Hệ số sản lượng quan sát ($Y_{\\text{obs}}$): $0.415\\text{ g VSS/g bsCOD}$ (Kiểm tra: $Y_{\\text{bio}} < Y_{\\text{obs}} = 0.415\\text{ g/g} < Y = 0.45\\text{ g/g}\\text{ — Đạt chuẩn Slide 35}$)"
+          ],
+          "brief": [
+            "Hệ số sản lượng quan sát ($Y_{\\text{obs}}$): $0.415\\text{ g VSS/g bsCOD}$ (Kiểm tra: $Y_{\\text{bio}} < Y_{\\text{obs}} = 0.415\\text{ g/g} < Y = 0.45\\text{ g/g}\\text{ — Đạt chuẩn Slide 35}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hệ số quan sát $Y_{\\text{obs}} = 0.415\\text{ g VSS/g bsCOD}$ thỏa mãn $Y_{\\text{bio}} < Y_{\\text{obs}} < Y$.",
+          "takeaway": "Hệ số quan sát $Y_{\\text{obs}} = 0.415\\text{ g VSS/g bsCOD}$ thỏa mãn $Y_{\\text{bio}} < Y_{\\text{obs}} < Y$",
+          "topic": "Hệ số"
+        },
+        {
+          "id": "p-078edcd2",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ phần sinh khối hoạt tính trong $\\text{MLVSS}$ ($F_{X,\\text{act}}$): $0.541 = 54.1\\%$ (Kiểm tra: $\\frac{Y_{\\text{bio}}}{Y_{\\text{obs}}} = \\frac{0.225}{0.415} = 0.542\\text{ — Đạt chuẩn Slide 34}$)",
+          "sentences": [
+            "Tỷ phần sinh khối hoạt tính trong $\\text{MLVSS}$ ($F_{X,\\text{act}}$): $0.541 = 54.1\\%$ (Kiểm tra: $\\frac{Y_{\\text{bio}}}{Y_{\\text{obs}}} = \\frac{0.225}{0.415} = 0.542\\text{ — Đạt chuẩn Slide 34}$)"
+          ],
+          "brief": [
+            "Tỷ phần sinh khối hoạt tính trong $\\text{MLVSS}$ ($F_{X,\\text{act}}$): $0.541 = 54.1\\%$ (Kiểm tra: $\\frac{Y_{\\text{bio}}}{Y_{\\text{obs}}} = \\frac{0.225}{0.415} = 0.542\\text{ — Đạt chuẩn Slide 34}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ phần hoạt tính trong bùn đạt $F_{X,\\text{act}} = 0.541 = 54.1\\%$.",
+          "takeaway": "Tỷ phần hoạt tính trong bùn đạt $F_{X,\\text{act}} = 0.541 = 54.1\\%$",
+          "topic": "trong bùn"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch05_1_ex03-slide-5253-trang-2425-thiết-kế-toàn-diện-bể-bùn-hoạt-tính-khuấy-trộn-hoàn-toàn",
+      "num": "",
+      "title": "Bài tập ch05_1_ex03 (Slide 52–53, Trang 24–25): Thiết kế Toàn diện Bể Bùn Hoạt tính Khuấy trộn Hoàn toàn",
+      "depth": 2,
+      "takeaway": "Thiết kế bể hiếu khí Ví dụ 3 đạt $S = 0.56\\text{ g/m}^3$, $\\text{HRT} = 4.73\\text{ h}$ và $R_o = 117.36\\text{ kg O}_2/\\text{d}$",
+      "topic": "bể hiếu khí",
+      "units": [
+        {
+          "id": "p-c9eede4f",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một hệ thống bùn hoạt tính sinh trưởng lơ lửng khuấy trộn hoàn toàn vận hành với thời gian lưu bùn $\\text{SRT} = 6\\text{ d}$ và lưu lượng nước thải $Q = 1000\\text{ m}^3/\\text{d}$ [Page 24] [Page 25]. Nước thải đầu vào có nồng độ cơ chất dễ phân hủy $S_0 = 192\\text{ g/m}^3$, chất rắn trơ đầu vào bằng $10\\text{ g/m}^3$, nồng độ $\\text{nbVSS}$ đầu vào $X_{o,i} = 30\\text{ g/m}^3$ và nồng độ bùn hoạt tính bay hơi duy trì trong bể hiếu khí $X_T = 2500\\text{ g/m}^3$. Cho bộ hệ số động học gồm $k = 12.5\\text{ g COD/g VSS}\\cdot\\text{d}$, $K_s = 10\\text{ g COD/m}^3$, $Y = 0.4\\text{ g VSS/g COD}$, $f_d = 0.15\\text{ g VSS/g VSS}$, $b = 0.1\\text{ g VSS/g VSS}\\cdot\\text{d}$ và tỷ số $\\text{VSS}/\\text{TSS} = 0.85$. Hãy xác định: (1) nồng độ $\\text{bsCOD}$ đầu ra $S$, (2) thời gian lưu nước $\\text{HRT}$, (3) lượng bùn sinh ra mỗi ngày $P_{X,\\text{VSS}}$ và $P_{X,\\text{TSS}}$, (4) tỷ phần sinh khối trong $\\text{MLVSS}$, và (5) nhu cầu oxy hàng ngày $R_o$.",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một hệ thống bùn hoạt tính sinh trưởng lơ lửng khuấy trộn hoàn toàn vận hành với thời gian lưu bùn $\\text{SRT} = 6\\text{ d}$ và lưu lượng nước thải $Q = 1000\\text{ m}^3/\\text{d}$ [Page 24] [Page 25].",
+            "Nước thải đầu vào có nồng độ cơ chất dễ phân hủy $S_0 = 192\\text{ g/m}^3$, chất rắn trơ đầu vào bằng $10\\text{ g/m}^3$, nồng độ $\\text{nbVSS}$ đầu vào $X_{o,i} = 30\\text{ g/m}^3$ và nồng độ bùn hoạt tính bay hơi duy trì trong bể hiếu khí $X_T = 2500\\text{ g/m}^3$.",
+            "Cho bộ hệ số động học gồm $k = 12.5\\text{ g COD/g VSS}\\cdot\\text{d}$, $K_s = 10\\text{ g COD/m}^3$, $Y = 0.4\\text{ g VSS/g COD}$, $f_d = 0.15\\text{ g VSS/g VSS}$, $b = 0.1\\text{ g VSS/g VSS}\\cdot\\text{d}$ và tỷ số $\\text{VSS}/\\text{TSS} = 0.85$.",
+            "Hãy xác định: (1) nồng độ $\\text{bsCOD}$ đầu ra $S$, (2) thời gian lưu nước $\\text{HRT}$, (3) lượng bùn sinh ra mỗi ngày $P_{X,\\text{VSS}}$ và $P_{X,\\text{TSS}}$, (4) tỷ phần sinh khối trong $\\text{MLVSS}$, và (5) nhu cầu oxy hàng ngày $R_o$."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một hệ thống bùn hoạt tính sinh trưởng lơ lửng khuấy trộn hoàn toàn vận hành với thời gian lưu bùn $\\text{SRT} = 6\\text{ d}$ và lưu lượng nước thải $Q = 1000\\text{ m}^3/\\text{d}$ [Page 24] [Page 25].",
+            "Cho bộ hệ số động học gồm $k = 12.5\\text{ g COD/g VSS}\\cdot\\text{d}$, $K_s = 10\\text{ g COD/m}^3$, $Y = 0.4\\text{ g VSS/g COD}$, $f_d = 0.15\\text{ g VSS/g VSS}$, $b = 0.1\\text{ g VSS/g VSS}\\cdot\\text{d}$ và tỷ số $\\text{VSS}/\\text{TSS} = 0.85$."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Bể hiếu khí vận hành ở $\\text{SRT} = 6\\text{ d}$, $Q = 1000\\text{ m}^3/\\text{d}$, $S_0 = 192\\text{ g/m}^3$ và $X_T = 2500\\text{ g/m}^3$. Các hệ số động học đã cho gồm $k = 12.5\\text{ d}^{-1}$, $K_s = 10\\text{ g/m}^3$, $Y = 0.4\\text{ g/g}$, $b = 0.1\\text{ d}^{-1}$ và $f_d = 0.15$.",
+          "takeaway": "Bể hiếu khí vận hành ở $\\text{SRT} = 6\\text{ d}$, $Q = 1000\\text{ m}^3/\\text{d}$, $S_0 = 192\\text{ g/m}^3$ và $X_T = 2500\\text{ g/m}^3$",
+          "topic": "Bể hiếu khí"
+        },
+        {
+          "id": "p-810508a6",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính nồng độ cơ chất hòa tan dễ phân hủy ở dòng ra: Thay thời gian lưu bùn $\\text{SRT} = 6\\text{ d}$ và các hệ số động học vào phương trình cân bằng cơ chất trên Slide $45$ [Page 21]. Nồng độ cơ chất dễ phân hủy sinh học còn lại ở dòng ra đạt $S = 0.56\\text{ g/m}^3$.",
+          "sentences": [
+            "Bước 1 - Tính nồng độ cơ chất hòa tan dễ phân hủy ở dòng ra: Thay thời gian lưu bùn $\\text{SRT} = 6\\text{ d}$ và các hệ số động học vào phương trình cân bằng cơ chất trên Slide $45$ [Page 21].",
+            "Nồng độ cơ chất dễ phân hủy sinh học còn lại ở dòng ra đạt $S = 0.56\\text{ g/m}^3$."
+          ],
+          "brief": [
+            "Bước 1 - Tính nồng độ cơ chất hòa tan dễ phân hủy ở dòng ra: Thay thời gian lưu bùn $\\text{SRT} = 6\\text{ d}$ và các hệ số động học vào phương trình cân bằng cơ chất trên Slide $45$ [Page 21].",
+            "Nồng độ cơ chất dễ phân hủy sinh học còn lại ở dòng ra đạt $S = 0.56\\text{ g/m}^3$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Nồng độ cơ chất hòa tan dễ phân hủy ở dòng ra đạt $S = 0.56\\text{ g/m}^3$. Thay $\\text{SRT} = 6\\text{ d}$ vào phương trình cân bằng cơ chất cho tỷ số $\\frac{16}{28.4} = 0.56\\text{ g/m}^3$.",
+          "takeaway": "Nồng độ cơ chất hòa tan dễ phân hủy ở dòng ra đạt $S = 0.56\\text{ g/m}^3$",
+          "topic": "Nồng độ"
+        },
+        {
+          "id": "p-038e6958",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính lượng bùn hoạt tính sinh ra mỗi ngày theo chất rắn bay hơi: Tổng lượng bùn bay hơi sinh ra mỗi ngày $P_{X,\\text{VSS}}$ bằng tổng của sinh khối dị dưỡng hoạt tính $A$, xác tế bào nội bào $B$ và lượng $\\text{nbVSS}$ đầu vào $C$ theo phương trình trên Slide $48$ [Page 22]. Kết quả thu được $P_{X,\\text{VSS}} = 82.17\\text{ kg VSS/d}$, trong đó tổng sinh khối sinh học chiếm $P_{X,\\text{bio}} = A + B = 52.17\\text{ kg VSS/d}$.",
+          "sentences": [
+            "Bước 2 - Tính lượng bùn hoạt tính sinh ra mỗi ngày theo chất rắn bay hơi: Tổng lượng bùn bay hơi sinh ra mỗi ngày $P_{X,\\text{VSS}}$ bằng tổng của sinh khối dị dưỡng hoạt tính $A$, xác tế bào nội bào $B$ và lượng $\\text{nbVSS}$ đầu vào $C$ theo phương trình trên Slide $48$ [Page 22].",
+            "Kết quả thu được $P_{X,\\text{VSS}} = 82.17\\text{ kg VSS/d}$, trong đó tổng sinh khối sinh học chiếm $P_{X,\\text{bio}} = A + B = 52.17\\text{ kg VSS/d}$."
+          ],
+          "brief": [
+            "Bước 2 - Tính lượng bùn hoạt tính sinh ra mỗi ngày theo chất rắn bay hơi: Tổng lượng bùn bay hơi sinh ra mỗi ngày $P_{X,\\text{VSS}}$ bằng tổng của sinh khối dị dưỡng hoạt tính $A$, xác tế bào nội bào $B$ và lượng $\\text{nbVSS}$ đầu vào $C$ theo phương trình trên Slide $48$ [Page 22].",
+            "Kết quả thu được $P_{X,\\text{VSS}} = 82.17\\text{ kg VSS/d}$, trong đó tổng sinh khối sinh học chiếm $P_{X,\\text{bio}} = A + B = 52.17\\text{ kg VSS/d}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Bùn bay hơi sinh ra mỗi ngày đạt $P_{X,\\text{VSS}} = 82.17\\text{ kg VSS/d}$. Tổng bùn bay hơi gồm sinh khối hoạt tính $A = 47.86\\text{ kg/d}$, xác tế bào $B = 4.31\\text{ kg/d}$ và $C = 30.00\\text{ kg/d}$.",
+          "takeaway": "Bùn bay hơi sinh ra mỗi ngày đạt $P_{X,\\text{VSS}} = 82.17\\text{ kg VSS/d}$",
+          "topic": "Bùn bay hơi"
+        },
+        {
+          "id": "p-51d7e0d8",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính lượng bùn sinh ra mỗi ngày theo tổng chất rắn lơ lửng: Chia phần sinh khối sinh học $(A + B)$ cho tỷ số $0.85$ và cộng thêm lượng $\\text{nbVSS}$ cùng chất rắn vô cơ đầu vào theo phương trình trên Slide $49$ [Page 23]. Tổng lượng bùn khô sinh ra mỗi ngày đạt $P_{X,\\text{TSS}} = 101.37\\text{ kg TSS/d}$ (hoặc bằng $91.37\\text{ kg TSS/d}$ nếu thông số $10\\text{ g/m}^3$ là chất hữu cơ hòa tan trơ).",
+          "sentences": [
+            "Bước 3 - Tính lượng bùn sinh ra mỗi ngày theo tổng chất rắn lơ lửng: Chia phần sinh khối sinh học $(A + B)$ cho tỷ số $0.85$ và cộng thêm lượng $\\text{nbVSS}$ cùng chất rắn vô cơ đầu vào theo phương trình trên Slide $49$ [Page 23].",
+            "Tổng lượng bùn khô sinh ra mỗi ngày đạt $P_{X,\\text{TSS}} = 101.37\\text{ kg TSS/d}$ (hoặc bằng $91.37\\text{ kg TSS/d}$ nếu thông số $10\\text{ g/m}^3$ là chất hữu cơ hòa tan trơ)."
+          ],
+          "brief": [
+            "Bước 3 - Tính lượng bùn sinh ra mỗi ngày theo tổng chất rắn lơ lửng: Chia phần sinh khối sinh học $(A + B)$ cho tỷ số $0.85$ và cộng thêm lượng $\\text{nbVSS}$ cùng chất rắn vô cơ đầu vào theo phương trình trên Slide $49$ [Page 23].",
+            "Tổng lượng bùn khô sinh ra mỗi ngày đạt $P_{X,\\text{TSS}} = 101.37\\text{ kg TSS/d}$ (hoặc bằng $91.37\\text{ kg TSS/d}$ nếu thông số $10\\text{ g/m}^3$ là chất hữu cơ hòa tan trơ)."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng lượng bùn khô sinh ra mỗi ngày đạt $P_{X,\\text{TSS}} = 101.37\\text{ kg TSS/d}$. Chia phần sinh khối sinh học $A + B = 52.17\\text{ kg/d}$ cho tỷ số $0.85$ và cộng thêm $C$ cùng chất rắn vô cơ.",
+          "takeaway": "Tổng lượng bùn khô sinh ra mỗi ngày đạt $P_{X,\\text{TSS}} = 101.37\\text{ kg TSS/d}$",
+          "topic": "lượng bùn khô"
+        },
+        {
+          "id": "p-d799ba5d",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính thể tích bể hiếu khí và thời gian lưu nước: Từ quan hệ bảo toàn khối lượng bùn $V \\times X_T = P_{X,\\text{VSS}} \\times \\text{SRT}$ trên Slide $46$, thể tích bể hiếu khí bằng $V = 197.2\\text{ m}^3$ [Page 21]. Chia thể tích bể $V$ cho lưu lượng $Q$ xác định được thời gian lưu nước $\\text{HRT} = 0.197\\text{ d}$ hay $4.73\\text{ h}$.",
+          "sentences": [
+            "Bước 4 - Tính thể tích bể hiếu khí và thời gian lưu nước: Từ quan hệ bảo toàn khối lượng bùn $V \\times X_T = P_{X,\\text{VSS}} \\times \\text{SRT}$ trên Slide $46$, thể tích bể hiếu khí bằng $V = 197.2\\text{ m}^3$ [Page 21].",
+            "Chia thể tích bể $V$ cho lưu lượng $Q$ xác định được thời gian lưu nước $\\text{HRT} = 0.197\\text{ d}$ hay $4.73\\text{ h}$."
+          ],
+          "brief": [
+            "Bước 4 - Tính thể tích bể hiếu khí và thời gian lưu nước: Từ quan hệ bảo toàn khối lượng bùn $V \\times X_T = P_{X,\\text{VSS}} \\times \\text{SRT}$ trên Slide $46$, thể tích bể hiếu khí bằng $V = 197.2\\text{ m}^3$ [Page 21].",
+            "Chia thể tích bể $V$ cho lưu lượng $Q$ xác định được thời gian lưu nước $\\text{HRT} = 0.197\\text{ d}$ hay $4.73\\text{ h}$."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Thể tích bể bằng $V = 197.2\\text{ m}^3$ ứng với thời gian lưu nước $\\text{HRT} = 4.73\\text{ h}$. Bảo toàn khối lượng bùn $V \\times X_T = P_{X,\\text{VSS}} \\times \\text{SRT}$ xác định thể tích bể từ nồng độ $X_T = 2500\\text{ g/m}^3$.",
+          "takeaway": "Thể tích bể bằng $V = 197.2\\text{ m}^3$ ứng với thời gian lưu nước $\\text{HRT} = 4.73\\text{ h}$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-4e49cd08",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 5 - Tính tỷ phần sinh khối trong bùn hoạt tính và nhu cầu oxy hàng ngày: Tỷ phần sinh khối dị dưỡng hoạt tính trong $\\text{MLVSS}$ đạt $F_{X,\\text{act}} = 58.2\\%$ (và tổng sinh khối sinh học $A + B$ chiếm $63.5\\%$) [Page 23]. Áp dụng phương trình trên Slide $50$ với $P_{X,\\text{bio}} = 52.17\\text{ kg/d}$ cho nhu cầu oxy tiêu thụ mỗi ngày bằng $R_o = 117.36\\text{ kg O}_2/\\text{d}$.",
+          "sentences": [
+            "Bước 5 - Tính tỷ phần sinh khối trong bùn hoạt tính và nhu cầu oxy hàng ngày: Tỷ phần sinh khối dị dưỡng hoạt tính trong $\\text{MLVSS}$ đạt $F_{X,\\text{act}} = 58.2\\%$ (và tổng sinh khối sinh học $A + B$ chiếm $63.5\\%$) [Page 23]. Áp dụng phương trình trên Slide $50$ với $P_{X,\\text{bio}} = 52.17\\text{ kg/d}$ cho nhu cầu oxy tiêu thụ mỗi ngày bằng $R_o = 117.36\\text{ kg O}_2/\\text{d}$."
+          ],
+          "brief": [
+            "Bước 5 - Tính tỷ phần sinh khối trong bùn hoạt tính và nhu cầu oxy hàng ngày: Tỷ phần sinh khối dị dưỡng hoạt tính trong $\\text{MLVSS}$ đạt $F_{X,\\text{act}} = 58.2\\%$ (và tổng sinh khối sinh học $A + B$ chiếm $63.5\\%$) [Page 23]. Áp dụng phương trình trên Slide $50$ với $P_{X,\\text{bio}} = 52.17\\text{ kg/d}$ cho nhu cầu oxy tiêu thụ mỗi ngày bằng $R_o = 117.36\\text{ kg O}_2/\\text{d}$."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ phần sinh khối hoạt tính đạt $F_{X,\\text{act}} = 58.2\\%$ và nhu cầu oxy hàng ngày bằng $R_o = 117.36\\text{ kg O}_2/\\text{d}$. Tổng lượng $\\text{bsCOD}$ khử $191.44\\text{ kg/d}$ trừ đi phần tích lũy vào sinh khối $1.42 \\times 52.17 = 74.08\\text{ kg/d}$.",
+          "takeaway": "Tỷ phần sinh khối hoạt tính đạt $F_{X,\\text{act}} = 58.2\\%$ và nhu cầu oxy hàng ngày bằng $R_o = 117.36\\text{ kg O}_2/\\text{d}$",
+          "topic": "nhu cầu oxy"
+        },
+        {
+          "id": "p-47659d61-3",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Toàn bộ thông số của hệ thống bùn hoạt tính thỏa mãn giới hạn tiêu chuẩn trên slide. Thời gian lưu bùn $\\text{SRT} = 6\\text{ d}$ cao gấp $29.4$ lần $\\text{SRT}_{\\min} = 0.204\\text{ d}$ nên hệ thống vận hành ổn định.",
+          "takeaway": "Toàn bộ thông số của hệ thống bùn hoạt tính thỏa mãn giới hạn tiêu chuẩn trên slide",
+          "topic": "bùn hoạt tính"
+        },
+        {
+          "id": "p-6fee3ffd",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ $\\text{bsCOD}$ đầu ra ($S$): $0.56\\text{ g/m}^3$ (Kiểm tra: $\\text{SRT} = 6\\text{ d} \\gg \\text{SRT}_{\\min} = \\frac{1}{Y k - b} = 0.204\\text{ d}\\text{ — Đạt chuẩn Slide 42}$)",
+          "sentences": [
+            "Nồng độ $\\text{bsCOD}$ đầu ra ($S$): $0.56\\text{ g/m}^3$ (Kiểm tra: $\\text{SRT} = 6\\text{ d} \\gg \\text{SRT}_{\\min} = \\frac{1}{Y k - b} = 0.204\\text{ d}\\text{ — Đạt chuẩn Slide 42}$)"
+          ],
+          "brief": [
+            "Nồng độ $\\text{bsCOD}$ đầu ra ($S$): $0.56\\text{ g/m}^3$ (Kiểm tra: $\\text{SRT} = 6\\text{ d} \\gg \\text{SRT}_{\\min} = \\frac{1}{Y k - b} = 0.204\\text{ d}\\text{ — Đạt chuẩn Slide 42}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Dòng ra có $\\text{bsCOD}$ đạt $S = 0.56\\text{ g/m}^3$ với $\\text{SRT} = 6\\text{ d} \\gg \\text{SRT}_{\\min} = 0.204\\text{ d}$.",
+          "takeaway": "Dòng ra có $\\text{bsCOD}$ đạt $S = 0.56\\text{ g/m}^3$ với $\\text{SRT} = 6\\text{ d} \\gg \\text{SRT}_{\\min} = 0.204\\text{ d}$",
+          "topic": "Dòng ra"
+        },
+        {
+          "id": "p-b3188dfb",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể và thời gian lưu nước ($V, \\text{HRT}$): $V = 197.2\\text{ m}^3$, $\\text{HRT} = 0.197\\text{ d} = 4.73\\text{ h}$ (Kiểm tra: $\\frac{V X_T}{\\text{SRT}} = \\frac{197.2 \\times 2.5}{6} = 82.17\\text{ kg/d}\\text{ — Đạt chuẩn Slide 46}$)",
+          "sentences": [
+            "Thể tích bể và thời gian lưu nước ($V, \\text{HRT}$): $V = 197.2\\text{ m}^3$, $\\text{HRT} = 0.197\\text{ d} = 4.73\\text{ h}$ (Kiểm tra: $\\frac{V X_T}{\\text{SRT}} = \\frac{197.2 \\times 2.5}{6} = 82.17\\text{ kg/d}\\text{ — Đạt chuẩn Slide 46}$)"
+          ],
+          "brief": [
+            "Thể tích bể và thời gian lưu nước ($V, \\text{HRT}$): $V = 197.2\\text{ m}^3$, $\\text{HRT} = 0.197\\text{ d} = 4.73\\text{ h}$ (Kiểm tra: $\\frac{V X_T}{\\text{SRT}} = \\frac{197.2 \\times 2.5}{6} = 82.17\\text{ kg/d}\\text{ — Đạt chuẩn Slide 46}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể đạt $V = 197.2\\text{ m}^3$ và thời gian lưu nước đạt $\\text{HRT} = 0.197\\text{ d} = 4.73\\text{ h}$.",
+          "takeaway": "Thể tích bể đạt $V = 197.2\\text{ m}^3$ và thời gian lưu nước đạt $\\text{HRT} = 0.197\\text{ d} = 4.73\\text{ h}$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-5559fda9",
+          "kind": "list item",
+          "role": "result",
+          "full": "Sản lượng bùn hàng ngày ($P_{X,\\text{VSS}}, P_{X,\\text{TSS}}$): $P_{X,\\text{VSS}} = 82.17\\text{ kg VSS/d}$, $P_{X,\\text{TSS}} = 101.37\\text{ kg TSS/d}$ (Kiểm tra: $P_{X,\\text{TSS}} > P_{X,\\text{VSS}}\\text{ — Đạt chuẩn Slide 48–49}$)",
+          "sentences": [
+            "Sản lượng bùn hàng ngày ($P_{X,\\text{VSS}}, P_{X,\\text{TSS}}$): $P_{X,\\text{VSS}} = 82.17\\text{ kg VSS/d}$, $P_{X,\\text{TSS}} = 101.37\\text{ kg TSS/d}$ (Kiểm tra: $P_{X,\\text{TSS}} > P_{X,\\text{VSS}}\\text{ — Đạt chuẩn Slide 48–49}$)"
+          ],
+          "brief": [
+            "Sản lượng bùn hàng ngày ($P_{X,\\text{VSS}}, P_{X,\\text{TSS}}$): $P_{X,\\text{VSS}} = 82.17\\text{ kg VSS/d}$, $P_{X,\\text{TSS}} = 101.37\\text{ kg TSS/d}$ (Kiểm tra: $P_{X,\\text{TSS}} > P_{X,\\text{VSS}}\\text{ — Đạt chuẩn Slide 48–49}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sản lượng bùn hàng ngày đạt $P_{X,\\text{VSS}} = 82.17\\text{ kg VSS/d}$ và $P_{X,\\text{TSS}} = 101.37\\text{ kg TSS/d}$.",
+          "takeaway": "Sản lượng bùn hàng ngày đạt $P_{X,\\text{VSS}} = 82.17\\text{ kg VSS/d}$ và $P_{X,\\text{TSS}} = 101.37\\text{ kg TSS/d}$",
+          "topic": "Sản lượng bùn"
+        },
+        {
+          "id": "p-be3ac970",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ phần sinh khối trong $\\text{MLVSS}$ ($F_{X,\\text{act}}$): $58.2\\%$ sinh khối hoạt tính và $63.5\\%$ tổng sinh khối sinh học (Kiểm tra: $0 < F_{X,\\text{act}} < 100\\%\\text{ — Đạt chuẩn Slide 34, 48}$)",
+          "sentences": [
+            "Tỷ phần sinh khối trong $\\text{MLVSS}$ ($F_{X,\\text{act}}$): $58.2\\%$ sinh khối hoạt tính và $63.5\\%$ tổng sinh khối sinh học (Kiểm tra: $0 < F_{X,\\text{act}} < 100\\%\\text{ — Đạt chuẩn Slide 34, 48}$)"
+          ],
+          "brief": [
+            "Tỷ phần sinh khối trong $\\text{MLVSS}$ ($F_{X,\\text{act}}$): $58.2\\%$ sinh khối hoạt tính và $63.5\\%$ tổng sinh khối sinh học (Kiểm tra: $0 < F_{X,\\text{act}} < 100\\%\\text{ — Đạt chuẩn Slide 34, 48}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ phần trong $\\text{MLVSS}$ đạt $F_{X,\\text{act}} = 58.2\\%$ hoạt tính và $63.5\\%$ sinh khối sinh học.",
+          "takeaway": "Tỷ phần trong $\\text{MLVSS}$ đạt $F_{X,\\text{act}} = 58.2\\%$ hoạt tính và $63.5\\%$ sinh khối sinh học",
+          "topic": "Tỷ phần"
+        },
+        {
+          "id": "p-6e82ab00",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nhu cầu oxy tiêu thụ hàng ngày ($R_o$): $117.36\\text{ kg O}_2/\\text{d}$ (Kiểm tra: $R_o = 191.44 - 74.08 = 117.36\\text{ kg O}_2/\\text{d}\\text{ — Đạt chuẩn Slide 50}$)",
+          "sentences": [
+            "Nhu cầu oxy tiêu thụ hàng ngày ($R_o$): $117.36\\text{ kg O}_2/\\text{d}$ (Kiểm tra: $R_o = 191.44 - 74.08 = 117.36\\text{ kg O}_2/\\text{d}\\text{ — Đạt chuẩn Slide 50}$)"
+          ],
+          "brief": [
+            "Nhu cầu oxy tiêu thụ hàng ngày ($R_o$): $117.36\\text{ kg O}_2/\\text{d}$ (Kiểm tra: $R_o = 191.44 - 74.08 = 117.36\\text{ kg O}_2/\\text{d}\\text{ — Đạt chuẩn Slide 50}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nhu cầu oxy tiêu thụ hàng ngày của bể hiếu khí đạt $R_o = 117.36\\text{ kg O}_2/\\text{d}$.",
+          "takeaway": "Nhu cầu oxy tiêu thụ hàng ngày của bể hiếu khí đạt $R_o = 117.36\\text{ kg O}_2/\\text{d}$",
+          "topic": "Nhu cầu oxy"
+        },
+        {
+          "id": "p-865b07d9",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 1 (Page 4)",
+          "sentences": [
+            "Figure 1 (Page 4)"
+          ],
+          "brief": [
+            "Figure 1 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 1 Trang 4 minh họa cơ chế trao đổi chất của vi sinh vật trong xử lý sinh học.",
+          "takeaway": "Hình 1 Trang 4 minh họa cơ chế trao đổi chất của vi sinh vật trong xử lý sinh học",
+          "topic": "Hình 1"
+        },
+        {
+          "id": "p-84208291",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 2 (Page 5)",
+          "sentences": [
+            "Figure 2 (Page 5)"
+          ],
+          "brief": [
+            "Figure 2 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 2 Trang 5 biểu diễn cấu trúc bông bùn hoạt tính và quá trình lắng tách bùn.",
+          "takeaway": "Hình 2 Trang 5 biểu diễn cấu trúc bông bùn hoạt tính và quá trình lắng tách bùn",
+          "topic": "Hình 2"
+        },
+        {
+          "id": "p-8ead22fa",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 3 (Page 5)",
+          "sentences": [
+            "Figure 3 (Page 5)"
+          ],
+          "brief": [
+            "Figure 3 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 3 Trang 5 minh họa sự hình thành bông bùn sinh học nhờ полиme ngoại bào.",
+          "takeaway": "Hình 3 Trang 5 minh họa sự hình thành bông bùn sinh học nhờ полиme ngoại bào",
+          "topic": "Hình 3"
+        },
+        {
+          "id": "p-fb7a9265",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 4 (Page 7)",
+          "sentences": [
+            "Figure 4 (Page 7)"
+          ],
+          "brief": [
+            "Figure 4 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 4 Trang 7 biểu diễn đường cong bốn pha tăng trưởng của vi khuẩn trong bể mẻ.",
+          "takeaway": "Hình 4 Trang 7 biểu diễn đường cong bốn pha tăng trưởng của vi khuẩn trong bể mẻ",
+          "topic": "Hình 4"
+        },
+        {
+          "id": "p-95842e0f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 5 (Page 8)",
+          "sentences": [
+            "Figure 5 (Page 8)"
+          ],
+          "brief": [
+            "Figure 5 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 5 Trang 8 trình bày định nghĩa hệ số sản lượng sinh khối $Y$ theo cơ chất tiêu thụ.",
+          "takeaway": "Hình 5 Trang 8 trình bày định nghĩa hệ số sản lượng sinh khối $Y$ theo cơ chất tiêu thụ",
+          "topic": "Hình 5"
+        },
+        {
+          "id": "p-29b7e213",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 6 (Page 8)",
+          "sentences": [
+            "Figure 6 (Page 8)"
+          ],
+          "brief": [
+            "Figure 6 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 6 Trang 8 minh họa phương trình tổng hợp tế bào mới $\\text{C}_5\\text{H}_7\\text{NO}_2$ từ glucose.",
+          "takeaway": "Hình 6 Trang 8 minh họa phương trình tổng hợp tế bào mới $\\text{C}_5\\text{H}_7\\text{NO}_2$ từ glucose",
+          "topic": "Hình 6"
+        },
+        {
+          "id": "p-590fc6ce",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 7 (Page 9)",
+          "sentences": [
+            "Figure 7 (Page 9)"
+          ],
+          "brief": [
+            "Figure 7 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 7 Trang 9 trình bày cách quy đổi đương lượng $\\text{COD}$ của cơ chất glucose.",
+          "takeaway": "Hình 7 Trang 9 trình bày cách quy đổi đương lượng $\\text{COD}$ của cơ chất glucose",
+          "topic": "Hình 7"
+        },
+        {
+          "id": "p-a274aba5",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 8 (Page 9)",
+          "sentences": [
+            "Figure 8 (Page 9)"
+          ],
+          "brief": [
+            "Figure 8 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 8 Trang 9 cung cấp bảng hệ số sản lượng tổng hợp chuẩn của các nhóm vi khuẩn.",
+          "takeaway": "Hình 8 Trang 9 cung cấp bảng hệ số sản lượng tổng hợp chuẩn của các nhóm vi khuẩn",
+          "topic": "Hình 8"
+        },
+        {
+          "id": "p-9740a99a",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 9 (Page 10)",
+          "sentences": [
+            "Figure 9 (Page 10)"
+          ],
+          "brief": [
+            "Figure 9 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 9 Trang 10 biểu diễn sơ đồ cân bằng bảo toàn $\\text{COD}$ giữa oxy và sinh khối.",
+          "takeaway": "Hình 9 Trang 10 biểu diễn sơ đồ cân bằng bảo toàn $\\text{COD}$ giữa oxy và sinh khối",
+          "topic": "Hình 9"
+        },
+        {
+          "id": "p-87b85f88",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 10 (Page 10)",
+          "sentences": [
+            "Figure 10 (Page 10)"
+          ],
+          "brief": [
+            "Figure 10 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 10 Trang 10 minh họa phản ứng oxy hóa hoàn toàn tế bào $\\text{C}_5\\text{H}_7\\text{NO}_2$ bằng $1.42\\text{ g O}_2/\\text{g VSS}$.",
+          "takeaway": "Hình 10 Trang 10 minh họa phản ứng oxy hóa hoàn toàn tế bào $\\text{C}_5\\text{H}_7\\text{NO}_2$ bằng $1.42\\text{ g O}_2/\\text{g VSS}$",
+          "topic": "Hình 10"
+        },
+        {
+          "id": "p-e84dc277",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 11 (Page 10)",
+          "sentences": [
+            "Figure 11 (Page 10)"
+          ],
+          "brief": [
+            "Figure 11 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 11 Trang 10 tổng hợp cân bằng $\\text{COD}$ giữa nhu cầu oxy và sinh khối tạo thành.",
+          "takeaway": "Hình 11 Trang 10 tổng hợp cân bằng $\\text{COD}$ giữa nhu cầu oxy và sinh khối tạo thành",
+          "topic": "Hình 11"
+        },
+        {
+          "id": "p-0af60b3c",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 12 (Page 12)",
+          "sentences": [
+            "Figure 12 (Page 12)"
+          ],
+          "brief": [
+            "Figure 12 (Page 12)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 12 Trang 12 trình bày đề bài và sơ đồ dòng của Bài tập Ví dụ 1.",
+          "takeaway": "Hình 12 Trang 12 trình bày đề bài và sơ đồ dòng của Bài tập Ví dụ 1",
+          "topic": "Hình 12"
+        },
+        {
+          "id": "p-3acc12d8",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 13 (Page 12)",
+          "sentences": [
+            "Figure 13 (Page 12)"
+          ],
+          "brief": [
+            "Figure 13 (Page 12)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 13 Trang 12 biểu diễn quan hệ động học tốc độ tăng trưởng riêng $\\mu$ theo Monod.",
+          "takeaway": "Hình 13 Trang 12 biểu diễn quan hệ động học tốc độ tăng trưởng riêng $\\mu$ theo Monod",
+          "topic": "Hình 13"
+        },
+        {
+          "id": "p-5b450513",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 14 (Page 13)",
+          "sentences": [
+            "Figure 14 (Page 13)"
+          ],
+          "brief": [
+            "Figure 14 (Page 13)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 14 Trang 13 trình bày đường cong hằng số bán bão hòa $K_s$ và tốc độ tăng trưởng cực đại $\\mu_m$.",
+          "takeaway": "Hình 14 Trang 13 trình bày đường cong hằng số bán bão hòa $K_s$ và tốc độ tăng trưởng cực đại $\\mu_m$",
+          "topic": "Hình 14"
+        },
+        {
+          "id": "p-ec03eef4",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 15 (Page 15)",
+          "sentences": [
+            "Figure 15 (Page 15)"
+          ],
+          "brief": [
+            "Figure 15 (Page 15)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 15 Trang 15 cung cấp bảng hệ số động học chuẩn cho bùn hoạt tính ở $20^\\circ\\text{C}$.",
+          "takeaway": "Hình 15 Trang 15 cung cấp bảng hệ số động học chuẩn cho bùn hoạt tính ở $20^\\circ\\text{C}$",
+          "topic": "Hình 15"
+        },
+        {
+          "id": "p-574d796f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 16 (Page 16)",
+          "sentences": [
+            "Figure 16 (Page 16)"
+          ],
+          "brief": [
+            "Figure 16 (Page 16)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 16 Trang 16 trình bày phương trình tổng tốc độ sinh bùn $r_{X_T,\\text{VSS}}$ và tỷ phần hoạt tính.",
+          "takeaway": "Hình 16 Trang 16 trình bày phương trình tổng tốc độ sinh bùn $r_{X_T,\\text{VSS}}$ và tỷ phần hoạt tính",
+          "topic": "Hình 16"
+        },
+        {
+          "id": "p-4295675f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 17 (Page 16)",
+          "sentences": [
+            "Figure 17 (Page 16)"
+          ],
+          "brief": [
+            "Figure 17 (Page 16)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 17 Trang 16 phân biệt hệ số sản lượng sinh khối ròng $Y_{\\text{bio}}$ và sản lượng quan sát $Y_{\\text{obs}}$.",
+          "takeaway": "Hình 17 Trang 16 phân biệt hệ số sản lượng sinh khối ròng $Y_{\\text{bio}}$ và sản lượng quan sát $Y_{\\text{obs}}$",
+          "topic": "Hình 17"
+        },
+        {
+          "id": "p-a4dfff4f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 18 (Page 18)",
+          "sentences": [
+            "Figure 18 (Page 18)"
+          ],
+          "brief": [
+            "Figure 18 (Page 18)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 18 Trang 18 minh họa sơ đồ dây chuyền bể bùn hoạt tính khuấy trộn hoàn toàn và dòng đẩy.",
+          "takeaway": "Hình 18 Trang 18 minh họa sơ đồ dây chuyền bể bùn hoạt tính khuấy trộn hoàn toàn và dòng đẩy",
+          "topic": "Hình 18"
+        },
+        {
+          "id": "p-23acc127",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 19 (Page 18)",
+          "sentences": [
+            "Figure 19 (Page 18)"
+          ],
+          "brief": [
+            "Figure 19 (Page 18)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 19 Trang 18 trình bày công thức định nghĩa thời gian lưu bùn $\\text{SRT}$ của hệ thống.",
+          "takeaway": "Hình 19 Trang 18 trình bày công thức định nghĩa thời gian lưu bùn $\\text{SRT}$ của hệ thống",
+          "topic": "Hình 19"
+        },
+        {
+          "id": "p-0731ac5d",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 20 (Page 19)",
+          "sentences": [
+            "Figure 20 (Page 19)"
+          ],
+          "brief": [
+            "Figure 20 (Page 19)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 20 Trang 19 biểu diễn quan hệ giữa $\\text{SRT}$ và thời gian lưu bùn tối thiểu $\\text{SRT}_{\\min}$.",
+          "takeaway": "Hình 20 Trang 19 biểu diễn quan hệ giữa $\\text{SRT}$ và thời gian lưu bùn tối thiểu $\\text{SRT}_{\\min}$",
+          "topic": "Hình 20"
+        },
+        {
+          "id": "p-008cfb02",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 21 (Page 20)",
+          "sentences": [
+            "Figure 21 (Page 20)"
+          ],
+          "brief": [
+            "Figure 21 (Page 20)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 21 Trang 20 thiết lập phương trình cân bằng khối lượng sinh khối và cơ chất toàn hệ thống.",
+          "takeaway": "Hình 21 Trang 20 thiết lập phương trình cân bằng khối lượng sinh khối và cơ chất toàn hệ thống",
+          "topic": "Hình 21"
+        },
+        {
+          "id": "p-7d283f9f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 22 (Page 21)",
+          "sentences": [
+            "Figure 22 (Page 21)"
+          ],
+          "brief": [
+            "Figure 22 (Page 21)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 22 Trang 21 trình bày công thức tính nồng độ cơ chất đầu ra $S$ và nồng độ sinh khối $X$.",
+          "takeaway": "Hình 22 Trang 21 trình bày công thức tính nồng độ cơ chất đầu ra $S$ và nồng độ sinh khối $X$",
+          "topic": "Hình 22"
+        },
+        {
+          "id": "p-7a843ca6",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 23 (Page 21)",
+          "sentences": [
+            "Figure 23 (Page 21)"
+          ],
+          "brief": [
+            "Figure 23 (Page 21)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 23 Trang 21 biểu diễn sự phụ thuộc của nồng độ cơ chất và sinh khối vào $\\text{SRT}$.",
+          "takeaway": "Hình 23 Trang 21 biểu diễn sự phụ thuộc của nồng độ cơ chất và sinh khối vào $\\text{SRT}$",
+          "topic": "Hình 23"
+        },
+        {
+          "id": "p-c8330bc3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 24 (Page 22)",
+          "sentences": [
+            "Figure 24 (Page 22)"
+          ],
+          "brief": [
+            "Figure 24 (Page 22)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 24 Trang 22 trình bày phương trình tính nồng độ $\\text{MLVSS}$ tổng cộng $X_T$ trong bể.",
+          "takeaway": "Hình 24 Trang 22 trình bày phương trình tính nồng độ $\\text{MLVSS}$ tổng cộng $X_T$ trong bể",
+          "topic": "Hình 24"
+        },
+        {
+          "id": "p-2fdbfed0",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 25 (Page 22)",
+          "sentences": [
+            "Figure 25 (Page 22)"
+          ],
+          "brief": [
+            "Figure 25 (Page 22)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 25 Trang 22 phân tích ba thành phần $(A)$, $(B)$, $(C)$ của sản lượng bùn $P_{X_T,\\text{VSS}}$.",
+          "takeaway": "Hình 25 Trang 22 phân tích ba thành phần $(A)$, $(B)$, $(C)$ của sản lượng bùn $P_{X_T,\\text{VSS}}$",
+          "topic": "Hình 25"
+        },
+        {
+          "id": "p-e6e74cd3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 26 (Page 22)",
+          "sentences": [
+            "Figure 26 (Page 22)"
+          ],
+          "brief": [
+            "Figure 26 (Page 22)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 26 Trang 22 minh họa chi tiết các số hạng trong công thức tính sản lượng bùn bay hơi.",
+          "takeaway": "Hình 26 Trang 22 minh họa chi tiết các số hạng trong công thức tính sản lượng bùn bay hơi",
+          "topic": "Hình 26"
+        },
+        {
+          "id": "p-10e00e51",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 27 (Page 22)",
+          "sentences": [
+            "Figure 27 (Page 22)"
+          ],
+          "brief": [
+            "Figure 27 (Page 22)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 27 Trang 22 biểu diễn tỷ phần xác tế bào và chất rắn không phân hủy sinh học.",
+          "takeaway": "Hình 27 Trang 22 biểu diễn tỷ phần xác tế bào và chất rắn không phân hủy sinh học",
+          "topic": "Hình 27"
+        },
+        {
+          "id": "p-c4781897",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 28 (Page 22)",
+          "sentences": [
+            "Figure 28 (Page 22)"
+          ],
+          "brief": [
+            "Figure 28 (Page 22)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 28 Trang 22 tổng hợp công thức tính sản lượng bùn hoạt tính theo chất rắn bay hơi.",
+          "takeaway": "Hình 28 Trang 22 tổng hợp công thức tính sản lượng bùn hoạt tính theo chất rắn bay hơi",
+          "topic": "Hình 28"
+        },
+        {
+          "id": "p-ec637f3e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 29 (Page 23)",
+          "sentences": [
+            "Figure 29 (Page 23)"
+          ],
+          "brief": [
+            "Figure 29 (Page 23)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 29 Trang 23 trình bày công thức tính sản lượng bùn khô $P_{X,\\text{TSS}}$ và khối lượng bùn trong bể.",
+          "takeaway": "Hình 29 Trang 23 trình bày công thức tính sản lượng bùn khô $P_{X,\\text{TSS}}$ và khối lượng bùn trong bể",
+          "topic": "Hình 29"
+        },
+        {
+          "id": "p-cb919a12",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 30 (Page 23)",
+          "sentences": [
+            "Figure 30 (Page 23)"
+          ],
+          "brief": [
+            "Figure 30 (Page 23)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 30 Trang 23 thiết lập công thức tính lượng oxy tiêu thụ hàng ngày $R_o = Q(S_0, S), 1.42 P_{X,\\text{bio}}$.",
+          "takeaway": "Hình 30 Trang 23 thiết lập công thức tính lượng oxy tiêu thụ hàng ngày $R_o = Q(S_0, S), 1.42 P_{X,\\text{bio}}$",
+          "topic": "Hình 30"
+        },
+        {
+          "id": "p-026f7fab",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 31 (Page 24)",
+          "sentences": [
+            "Figure 31 (Page 24)"
+          ],
+          "brief": [
+            "Figure 31 (Page 24)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình 31 Trang 24 định nghĩa tỷ số thức ăn trên vi sinh vật $F/M$ và tải trọng hữu cơ $L_{\\text{org}}$.",
+          "takeaway": "Hình 31 Trang 24 định nghĩa tỷ số thức ăn trên vi sinh vật $F/M$ và tải trọng hữu cơ $L_{\\text{org}}$",
+          "topic": "Hình 31"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

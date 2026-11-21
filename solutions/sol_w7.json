@@ -1,0 +1,459 @@
+{
+  "brief_id": "f51e2026",
+  "worker_id": "ch_w7",
+  "input_file": "worker_inputs/ch_w7.json",
+  "input_sha256": "3ca16be272014193b7a342f9217191485f741e58ec0b7bfdd039bd8c4d316555",
+  "assigned_slugs": [
+    "ch06",
+    "ch07"
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ch06_ex01",
+      "chapter_slug": "ch06",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể bùn hoạt tính khuấy trộn hoàn toàn (Complete-Mix Activated Sludge - CMAS) chỉ khử BOD cho lưu lượng Q = 22,700 m3/ngày ở nhiệt độ 12oC, SRT = 5 ngày, MLSS = 3000 g/m3, chiều sâu nước 4.9 m, chiều sâu đặt đĩa phân phối khí 4.4 m, DO = 2 g/m3, cao trình 500 m, alpha = 0.50, beta = 0.95, F = 0.90.",
+      "design_parameters_selected": [
+        "Select kinetic coefficients for BOD removal at 20oC from Slide 14: mu_m = 6.0 g VSS/g VSS.d (theta = 1.07), Ks = 8.0 g/m3 (theta = 1.0), YH = 0.45 g VSS/g bCOD, bH = 0.12 g VSS/g VSS.d (theta = 1.04), fd = 0.15",
+        "Adjust kinetic coefficients to T = 12oC: mu_m,12 = 6.0 x 1.07^(12 - 20) = 3.5 g/g.d; bH,12 = 0.12 x 1.04^(12 - 20) = 0.088 g/g.d; Ks,12 = 8.0 g/m3",
+        "Select oxygen transfer efficiency E = 30% (typical range 25 - 40% from Slide 11) and return sludge concentration XR = 8000 g/m3"
+      ],
+      "governing_equations": [
+        "S = [Ks x (1 + bH x SRT)] / [SRT x (mu_m - bH) - 1]",
+        "Px,bio = [Q x YH x (S0 - S)] / (1 + bH x SRT) + [fd x bH x Q x YH x (S0 - S) x SRT] / (1 + bH x SRT)",
+        "PX,VSS = Px,bio + Q x nbVSS; PX,TSS = (Px,bio / 0.85) + Q x nbVSS + Q x (TSSo - VSSo)",
+        "Mass of MLVSS = PX,VSS x SRT; Mass of MLSS = PX,TSS x SRT; V = (Mass of MLSS) / XTSS",
+        "Ro = Q x (S0 - S) - 1.42 x Px,bio",
+        "SOTR = (OTRf / (alpha x F)) x [C_inf,20 / (tau x beta x Omega x C_inf,20 - C)] x (1 / 1.024^(T - 20))",
+        "Air flowrate (m3/min) = SOTR / (E x 60 min/h x 0.27 kg O2/m3 air)"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "1. Influent wastewater characterization (from Slide 16 table):",
+        "bCOD = 1.6 x BOD = 1.6 x 140 g/m3 = 224 g/m3 ➔ S0 = 224 g/m3",
+        "sCODe = sCOD - 1.6 x sBOD = 132 - (1.6 x 70) = 20 g/m3",
+        "bpCOD / pCOD = [1.6 x (BOD - sBOD)] / (COD - sCOD) = [1.6 x (140 - 70)] / (300 - 132) = 112 / 168 = 0.667",
+        "nbVSS = (1 - 0.667) x VSS = (1 - 0.667) x 60 g/m3 = 20 g/m3",
+        "iTSS = TSSo - VSSo = 70 - 60 = 10 g/m3",
+        "2. Effluent soluble substrate concentration (SRT = 5 d, T = 12oC):",
+        "S = [8.0 g/m3 x (1 + 0.088 d^-1 x 5 d)] / [5 d x (3.5 d^-1 - 0.088 d^-1) - 1] = 11.52 / 16.06 = 0.72 g/m3",
+        "3. Biomass and sludge production:",
+        "Px,bio = [(22,700 m3/d) x 0.45 x (224 - 0.72) g/m3 / (1 + 0.088 x 5)] x [1 + (0.15 x 0.088 d^-1 x 5 d)] x 10^-3 kg/g = 1,583.7 + 104.5 = 1,688.2 kg/d",
+        "PX,VSS = 1,688.2 kg/d + (22,700 m3/d x 20 g/m3 x 10^-3 kg/g) = 1,688.2 + 454.0 = 2,142.2 kg VSS/d",
+        "PX,TSS = (1,688.2 / 0.85) + 454.0 + (22,700 m3/d x 10 g/m3 x 10^-3 kg/g) = 1,986.1 + 454.0 + 227.0 = 2,667.1 kg TSS/d",
+        "Solution (continue):",
+        "4. Mass of MLVSS, MLSS and reactor volume:",
+        "Mass of MLVSS = PX,VSS x SRT = 2,142.2 kg/d x 5 d = 10,711 kg",
+        "Mass of MLSS = PX,TSS x SRT = 2,667.1 kg/d x 5 d = 13,336 kg",
+        "Fraction MLVSS / MLSS = 10,711 / 13,336 = 0.803 ➔ XVSS = 0.803 x 3,000 g/m3 = 2,409 g/m3",
+        "Aerotank volume: V = (13,336 kg x 10^3 g/kg) / (3,000 g/m3) = 4,445 m3",
+        "Check HRT: tau = (4,445 m3 / 22,700 m3/d) x 24 h/d = 4.70 h (satisfy 3 - 6 h from Slide 65)",
+        "Check F/M ratio: F/M = (22,700 m3/d x 140 g/m3) / (4,445 m3 x 2,409 g/m3) = 0.30 kg BOD/kg MLVSS.d (satisfy 0.2 - 0.6 from Slide 65)",
+        "Check organic loading rate: L_org = (22,700 m3/d x 140 g/m3 x 10^-3) / 4,445 m3 = 0.71 kg BOD/m3.d (satisfy 0.3 - 1.6 from Slide 65)",
+        "5. Oxygen demand and diffused air supply (Slide 11 & 12):",
+        "Ro = Q x (S0 - S) - 1.42 x Px,bio = (22,700 x (224 - 0.72) x 10^-3) - (1.42 x 1,688.2) = 5,068.5 - 2,397.2 = 2,671.3 kg O2/d ➔ OTRf = 111.3 kg O2/h",
+        "Pressure correction at z = 500 m, T = 12oC (285.15 K): Omega = Pb / Pa = exp[-(9.81 x 28.97 x 500) / (8314 x 285.15)] = 0.942",
+        "From Slide 12 DO saturation table at sea level: Cs,12 = 10.78 mg/L, Cs,20 = 9.09 mg/L ➔ tau = 10.78 / 9.09 = 1.186",
+        "Diffuser saturation at Df = 4.4 m: C_inf,20 = 9.09 x [1 + 0.4 x (4.4 m / 10.33 m)] = 10.64 mg/L",
+        "SOTR = [111.3 / (0.50 x 0.90)] x [10.64 / (1.186 x 0.95 x 0.942 x 10.64 - 2.0)] x [1 / 1.024^(12 - 20)] = 342.5 kg O2/h",
+        "Select oxygen transfer efficiency E = 30% ➔ Air flowrate = 342.5 / (0.30 x 60 min/h x 0.27 kg O2/m3) = 70.5 m3/min"
+      ],
+      "verification_checks": [
+        "Check HRT = 4.70 h in range 3 - 6 h (satisfy)",
+        "Check F/M = 0.30 kg BOD/kg MLVSS.d in range 0.2 - 0.6 kg BOD/kg MLVSS.d (satisfy)",
+        "Check organic loading rate = 0.71 kg BOD/m3.d in range 0.3 - 1.6 kg BOD/m3.d (satisfy)",
+        "Check effluent BODe: soluble BODe = 0.72 / 1.6 = 0.45 g/m3 << 30 g/m3 (satisfy)"
+      ],
+      "final_answers": {
+        "S_effluent_bCOD_g_m3": "0.72 g/m3",
+        "Px_bio_kg_d": "1,688.2 kg/d",
+        "PX_VSS_kg_d": "2,142.2 kg/d",
+        "PX_TSS_kg_d": "2,667.1 kg/d",
+        "Mass_MLVSS_kg": "10,711 kg",
+        "Mass_MLSS_kg": "13,336 kg",
+        "V_aerotank_m3": "4,445 m3",
+        "HRT_h": "4.70 h",
+        "Ro_kg_O2_d": "2,671.3 kg O2/d (111.3 kg O2/h)",
+        "SOTR_kg_O2_h": "342.5 kg O2/h",
+        "Air_flowrate_m3_min": "70.5 m3/min (at E = 30%)"
+      }
+    },
+    {
+      "exercise_id": "ch06_ex02",
+      "chapter_slug": "ch06",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể bùn hoạt tính khuấy trộn hoàn toàn (CMAS) kết hợp khử BOD và nitrat hóa cho cùng thông số đầu vào như Ví dụ 1, với hệ số alpha = 0.65, chọn lại SRT để đạt nồng độ NH4-N đầu ra Ne = 0.5 g/m3 (khớp chính xác bộ số trung gian công bố tại Slide 43).",
+      "design_parameters_selected": [
+        "Select nitrification kinetic coefficients at 20oC from Slide 14: mu_nm = 0.90 g VSS/g VSS.d (theta = 1.072), K_NH4 = 0.50 g/m3 (theta = 1.0), Yn = 0.15 g VSS/g NH4-N, bn = 0.17 g VSS/g VSS.d (theta = 1.029), Ko = 0.50 g/m3",
+        "Adjust nitrification kinetics to T = 12oC: mu_nm,12 = 0.90 x 1.072^(12 - 20) = 0.516 g/g.d; bn,12 = 0.17 x 1.029^(12 - 20) = 0.135 g/g.d",
+        "Select safety factor SF = 1.5 (range 1.3 - 2.0 on Slide 15) ➔ Reselect design SRT = 21 d",
+        "Select oxygen transfer efficiency E = 30% and alpha = 0.65, beta = 0.95, F = 0.90"
+      ],
+      "governing_equations": [
+        "mu_n = mu_nm x [N / (K_NH4 + N)] x [DO / (Ko + DO)] - bn; SRT_min = 1 / mu_n; SRT_des = SF x SRT_min",
+        "Px,bio = [Q x YH x (S0 - S) / (1 + bH x SRT)] x (1 + fd x bH x SRT) + [Q x Yn x NOx / (1 + bn x SRT)]",
+        "PX,VSS = Px,bio + Q x nbVSS; PX,TSS = (Px,bio / 0.85) + Q x nbVSS + Q x (TSSo - VSSo)",
+        "NOx = TKNo - Ne - 0.12 x Px,bio / Q",
+        "Ro = Q x (S0 - S) - 1.42 x Px,bio + 4.57 x Q x NOx"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "1. Determine design SRT for nitrification at T = 12oC, DO = 2.0 g/m3, Ne = 0.5 g/m3:",
+        "mu_n = 0.516 x [0.50 / (0.50 + 0.50)] x [2.0 / (0.50 + 2.0)] - 0.135 = 0.2064 - 0.135 = 0.0714 d^-1",
+        "SRT_min = 1 / 0.0714 = 14.0 d ➔ Select safety factor SF = 1.5 ➔ Design SRT = 1.5 x 14.0 d = 21 d",
+        "2. Effluent soluble bCOD at SRT = 21 d:",
+        "S = [8.0 x (1 + 0.088 x 21)] / [21 x (3.5 - 0.088) - 1] = 22.78 / 70.65 = 0.32 g/m3 (approx 0.3 g/m3)",
+        "3. Biomass and sludge production (matching Slide 43 exact benchmark values):",
+        "Heterotrophic biomass: Px,het = [(22,700 x 0.45 x (224 - 0.3)) / (1 + 0.088 x 21)] x [1 + (0.15 x 0.088 x 21)] x 10^-3 = 802.35 + 222.41 = 1,024.76 kg/d",
+        "Nitrifier biomass (with NOx = 28.95 g/m3): Px,nit = (22,700 x 0.15 x 28.95) / (1 + 0.135 x 21) x 10^-3 = 25.66 kg/d",
+        "Total biological biomass: Px,bio = 1,024.76 + 25.66 = 1,050.4 kg/d (exact Slide 43 value)",
+        "PX,VSS = Px,bio + Q x nbVSS = 1,050.4 + (22,700 x 20 x 10^-3) = 1,050.4 + 454.0 = 1,504.4 kg/d (exact Slide 43 value)",
+        "PX,TSS = (1,050.4 / 0.85) + 454.0 + (22,700 x 10 x 10^-3) = 1,235.8 + 454.0 + 227.0 = 1,916.8 kg/d (exact Slide 43 value)",
+        "Solution (continue):",
+        "4. Mass of MLVSS, MLSS and aerotank volume at XTSS = 3,000 g/m3:",
+        "Mass of MLVSS = PX,VSS x SRT = 1,504.4 kg/d x 21 d = 31,592 kg (exact Slide 43 value)",
+        "Mass of MLSS = PX,TSS x SRT = 1,916.8 kg/d x 21 d = 40,253 kg (exact Slide 43 value)",
+        "Fraction MLVSS / MLSS = 31,592 / 40,253 = 0.785 ➔ XVSS = 0.785 x 3,000 g/m3 = 2,355 g/m3",
+        "Aerotank volume: V = (40,253 kg x 10^3 g/kg) / (3,000 g/m3) = 13,418 m3 ➔ HRT = (13,418 / 22,700) x 24 = 14.2 h",
+        "Check F/M = (22,700 x 140) / (13,418 x 2,355) = 0.10 kg BOD/kg MLVSS.d; L_org = (22,700 x 0.140) / 13,418 = 0.24 kg BOD/m3.d",
+        "5. Nitrogen oxidized, oxygen demand, aeration and alkalinity check:",
+        "NOx = TKNo - Ne - 0.12 x Px,bio / Q = 35.0 - 0.5 - (0.12 x 1,050,400 g/d / 22,700 m3/d) = 35.0 - 0.5 - 5.55 = 28.95 g/m3 (approx 29.0 g/m3)",
+        "Ro = Q x (S0 - S) - 1.42 x Px,bio + 4.57 x Q x NOx = 5,077.5 - 1,491.6 + 3,003.0 = 6,588.9 kg O2/d ➔ OTRf = 274.5 kg O2/h",
+        "With alpha = 0.65, beta = 0.95, F = 0.90: SOTR = [274.5 / (0.65 x 0.90)] x [10.64 / (1.186 x 0.95 x 0.942 x 10.64 - 2.0)] x 1.024^8 = 649.6 kg O2/h",
+        "Air flowrate (at E = 30%) = 649.6 / (0.30 x 60 x 0.27) = 133.7 m3/min",
+        "Check alkalinity: Alk_used = 7.14 x 28.95 = 206.7 g/m3 as CaCO3; for residual Alk = 80 g/m3, Alk_added = 80 - (140 - 206.7) = 146.7 g/m3 as CaCO3 (3,330 kg CaCO3/d)"
+      ],
+      "verification_checks": [
+        "Check SRT = 21 d > SRT_min = 14.0 d with SF = 1.5 (satisfy)",
+        "Check Slide 43 continuity: Px,bio = 1050.4 kg/d, PX,VSS = 1504.4 kg/d, PX,TSS = 1916.8 kg/d, MLVSS = 31,592 kg, MLSS = 40,253 kg, fraction = 0.785 (satisfy)",
+        "Check residual alkalinity without addition = 140 - 206.7 = -66.7 g/m3 < 80 g/m3 (not satisfy) ➔ Add 146.7 g/m3 alkalinity as CaCO3 (satisfy)"
+      ],
+      "final_answers": {
+        "SRT_d": "21 d",
+        "Px_bio_kg_d": "1,050.4 kg/d",
+        "PX_VSS_kg_d": "1,504.4 kg/d",
+        "PX_TSS_kg_d": "1,916.8 kg/d",
+        "Mass_MLVSS_kg": "31,592 kg",
+        "Mass_MLSS_kg": "40,253 kg",
+        "Fraction_MLVSS_MLSS": "0.785",
+        "V_aerotank_m3": "13,418 m3",
+        "HRT_h": "14.2 h",
+        "NOx_g_m3": "28.95 g/m3 (29.0 g/m3)",
+        "Ro_kg_O2_d": "6,588.9 kg O2/d (274.5 kg O2/h)",
+        "SOTR_kg_O2_h": "649.6 kg O2/h",
+        "Air_flowrate_m3_min": "133.7 m3/min"
+      }
+    },
+    {
+      "exercise_id": "ch06_ex03",
+      "chapter_slug": "ch06",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể phản ứng sinh học màng (Membrane Bioreactor - MBR) với cùng thông số đầu vào và sinh khối từ Ví dụ 2 (SRT = 21 ngày, Px,bio = 1050.4 kg/ngày, PX,VSS = 1504.4 kg/ngày, PX,TSS = 1916.8 kg/ngày, tổng MLVSS = 31,592 kg, tổng MLSS = 40,253 kg, tỷ lệ MLVSS/MLSS = 0.785), biết tỷ số tuần hoàn R = 6, MLSS bể màng Xm = 12,000 g/m3, thông lượng màng 16 L/m2.h và tỷ lệ thể tích bể màng trên diện tích màng là 0.025 m3/m2.",
+      "design_parameters_selected": [
+        "Given from Slide 43: SRT = 21 d, R = 6, Xm = 12,000 g/m3, Membrane flux = 16 L/m2.h = 0.384 m3/m2.d, Vm / Am = 0.025 m3/m2",
+        "Check MBR parameter ranges against Slide 40: R = 6 (in range 4 - 6), Xm = 12,000 g/m3 (in range 8,000 - 12,000 g/m3), Vm / Am = 0.025 m3/m2 (in range 0.015 - 0.05 m3/m2)"
+      ],
+      "governing_equations": [
+        "R x Xm = (1 + R) x XA ➔ XA = [R / (1 + R)] x Xm",
+        "Am = Q / Flux; Vm = (Vm / Am) x Am",
+        "Mass of MLSS = XA x VA + Xm x Vm",
+        "SRT = (XA x VA + Xm x Vm) / (Qw x Xm) ➔ Qw = PX,TSS / Xm"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "1. Calculate MLSS concentration in the aerobic zone (Slide 39 mass balance):",
+        "XA = [R / (1 + R)] x Xm = [6 / (1 + 6)] x 12,000 g/m3 = 10,286 g/m3",
+        "XVSS,A = 0.785 x 10,286 g/m3 = 8,075 g/m3",
+        "2. Calculate required membrane surface area and membrane tank volume (Slide 40 & 43):",
+        "Membrane flux = 16 L/m2.h = 16 x 24 x 10^-3 m3/m2.d = 0.384 m3/m2.d",
+        "Membrane surface area: Am = Q / Flux = (22,700 m3/d) / (0.384 m3/m2.d) = 59,115 m2",
+        "Membrane tank volume: Vm = 0.025 m3/m2 x 59,115 m2 = 1,478 m3",
+        "3. Calculate mass of solids in membrane tank and required aerobic tank volume:",
+        "Mass of MLSS in membrane tank = Vm x Xm = 1,478 m3 x 12,000 g/m3 x 10^-3 kg/g = 17,736 kg",
+        "Mass of MLSS in aerobic tank = Total MLSS - Mass in membrane tank = 40,253 kg - 17,736 kg = 22,517 kg",
+        "Aerobic tank volume: VA = (22,517 kg x 10^3 g/kg) / (10,286 g/m3) = 2,189 m3",
+        "Total MBR volume: V_total = VA + Vm = 2,189 m3 + 1,478 m3 = 3,667 m3",
+        "Overall hydraulic retention time: HRT = (3,667 m3 / 22,700 m3/d) x 24 h/d = 3.88 h",
+        "4. Calculate waste sludge flowrate Qw and F/M ratio:",
+        "Qw = PX,TSS / Xm = (1,916.8 kg/d x 10^3 g/kg) / (12,000 g/m3) = 159.7 m3/d",
+        "Overall F/M = (22,700 m3/d x 140 g/m3 x 10^-3) / (31,592 kg MLVSS) = 0.10 kg BOD/kg MLVSS.d",
+        "Organic loading rate = (22,700 m3/d x 0.140 kg/m3) / 3,667 m3 = 0.87 kg BOD/m3.d"
+      ],
+      "verification_checks": [
+        "Check R = 6 in typical range 4 - 6 from Slide 40 (satisfy)",
+        "Check Xm = 12,000 g/m3 in typical range 8,000 - 12,000 g/m3 from Slide 40 (satisfy)",
+        "Check Vm/Am = 0.025 m3/m2 in typical range 0.015 - 0.05 m3/m2 from Slide 40 (satisfy)",
+        "Check total MLSS mass = (10,286 x 2,189 + 12,000 x 1,478) / 1000 = 40,253 kg (satisfy)"
+      ],
+      "final_answers": {
+        "XA_aerobic_MLSS_g_m3": "10,286 g/m3",
+        "Am_membrane_area_m2": "59,115 m2",
+        "Vm_membrane_tank_m3": "1,478 m3",
+        "VA_aerobic_tank_m3": "2,189 m3",
+        "V_total_MBR_m3": "3,667 m3",
+        "HRT_total_h": "3.88 h",
+        "Qw_waste_flow_m3_d": "159.7 m3/d"
+      }
+    },
+    {
+      "exercise_id": "ch06_ex04",
+      "chapter_slug": "ch06",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể phản ứng theo mẻ kế tiếp (Sequencing Batch Reactor - SBR) xử lý lưu lượng Q = 7,570 m3/ngày ở T = 12oC, nồng độ MLSS khi đầy bể XTSS = 3,500 g/m3, SVI = 150 mL/g, dùng 2 bể, chiều sâu mực nước khi đầy H = 6 m, chiều sâu xả nước (decant depth) bằng 20% chiều sâu bể, yêu cầu NH4-N đầu ra Ne = 1.0 g/m3.",
+      "design_parameters_selected": [
+        "Select 2 SBR tanks (N = 2), full liquid depth H = 6.0 m, decant depth = 20% of H = 1.2 m ➔ Fill fraction VF / VT = 0.20",
+        "Select 6-h cycle from Slide 49: Total cycle tc = 6.0 h (4 cycles/tank.d ➔ 8 cycles/d total for 2 tanks) with Fill tF = 3.0 h, React tR = 2.0 h, Settle tS = 0.5 h, Decant tD = 0.5 h",
+        "Trial aeration time = 2.0 h (React only) ➔ Check nitrification time required = 2.85 h (not satisfy) ➔ Reselect aeration during last 1.0 h of Fill + 2.0 h of React = 3.0 h total aeration per cycle (satisfy)"
+      ],
+      "governing_equations": [
+        "F(VT) = (MLSS, mg/L) x (SVI, mL/g) / 10^6; Check VF / VT <= 1 - 1.2 x F(VT)",
+        "VF = Q / N_cycles_total; VT = VF / (VF / VT); HRT = (N_tanks x VT) / Q",
+        "Mass of MLSS = N_tanks x VT x XTSS = PX,TSS x SRT",
+        "K_NH4 x ln(N0 / Nt) + (N0 - Nt) = (mu_nm x Xn / Yn) x [DO / (Ko + DO)] x t"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "1. Influent wastewater characterization (from Slide 51 table):",
+        "bCOD = 1.6 x BOD = 1.6 x 220 g/m3 = 352 g/m3",
+        "bpCOD / pCOD = [1.6 x (220 - 80)] / (485 - 160) = 224 / 325 = 0.689",
+        "nbVSS = (1 - 0.689) x 220 g/m3 = 68.4 g/m3; iTSS = 240 - 220 = 20 g/m3",
+        "2. Check fill fraction and determine SBR tank volume (Slide 49 & 50):",
+        "Settled solids volume fraction: F(VT) = (3,500 mg/L x 150 mL/g) / 10^6 = 0.525",
+        "With 20% clear liquid buffer above sludge blanket: VS / VT = 1.2 x 0.525 = 0.63 ➔ Max fill fraction = 1 - 0.63 = 0.37 > 0.20 (satisfy)",
+        "Select 6-h cycle (3.0-h fill, 2.0-h react, 0.5-h settle, 0.5-h decant) ➔ 4 cycles/tank.d ➔ 8 cycles/d for 2 tanks",
+        "Fill volume per cycle: VF = (7,570 m3/d) / (8 cycles/d) = 946.25 m3/cycle",
+        "Volume per tank: VT = VF / 0.20 = 946.25 / 0.20 = 4,731.25 m3 ➔ Total volume of 2 tanks: V_total = 2 x 4,731.25 = 9,462.5 m3",
+        "Check HRT = (9,462.5 m3 / 7,570 m3/d) x 24 h/d = 30.0 h (satisfy 18 - 30 h from Slide 49)",
+        "Solution (continue):",
+        "3. Determine operating SRT at MLSS = 3,500 g/m3:",
+        "Total MLSS mass in 2 tanks = 9,462.5 m3 x 3,500 g/m3 x 10^-3 kg/g = 33,119 kg",
+        "Solve Mass_TSS = PX,TSS x SRT = 33,119 kg at T = 12oC (bH = 0.088 d^-1, bn = 0.135 d^-1): obtain SRT = 26.5 d (satisfy 15 - 30 d from Slide 65)",
+        "At SRT = 26.5 d: Px,bio = 492.3 kg/d, PX,VSS = 492.3 + (7,570 x 68.4 x 10^-3) = 1,010.1 kg/d, PX,TSS = (492.3 / 0.85) + 517.8 + 151.4 = 1,248.4 kg/d",
+        "4. Check nitrification reaction time (Slide 48 equation):",
+        "Oxidizable nitrogen concentration: NOx = TKNo - Ne - 0.12 x Px,bio / Q = 35.0 - 1.0 - (0.12 x 492,300 / 7,570) = 26.2 g/m3 (24,792 g/cycle)",
+        "Initial NH4-N concentration if no aeration during fill: N0 = (3,785 m3 x 1.0 g/m3 + 946.25 m3 x 26.2 g/m3) / 4,731.25 m3 = 6.04 g/m3",
+        "Nitrifier concentration in tank: Xn = [Q x Yn x NOx x SRT / (1 + bn x SRT)] / V_total = 18.2 g/m3",
+        "Required aeration time from Slide 48: 0.50 x ln(6.04 / 1.0) + (6.04 - 1.0) = [(0.516 x 18.2) / 0.15] x [2.0 / (0.50 + 2.0)] x t ➔ t = 0.1188 d = 2.85 h",
+        "Check trial aeration time = 2.0 h < 2.85 h (not satisfy) ➔ Reselect aeration during last 1.0 h of Fill + 2.0 h of React = 3.0 h > 2.85 h (satisfy)",
+        "5. Decant rate, oxygen demand and loading checks:",
+        "Decant pumping rate (tD = 0.5 h = 30 min): q_decant = 946.25 m3 / 30 min = 31.5 m3/min",
+        "Oxygen required: Ro = 7,570 x (352 - 0.3) x 10^-3 - (1.42 x 492.3) + (4.57 x 7,570 x 26.2 x 10^-3) = 2,662.4 - 699.1 + 906.4 = 2,869.7 kg O2/d (358.7 kg O2/cycle)",
+        "Check F/M = (7,570 x 0.220) / (9,462.5 x 2,832 x 10^-3) = 0.062 kg BOD/kg MLVSS.d (satisfy 0.04 - 0.1 from Slide 65); L_org = 0.18 kg BOD/m3.d (satisfy 0.1 - 0.3 from Slide 65)"
+      ],
+      "verification_checks": [
+        "Check fill fraction VF/VT = 0.20 < max 0.37 (satisfy)",
+        "Check HRT = 30.0 h in range 18 - 30 h from Slide 49 (satisfy)",
+        "Check SRT = 26.5 d in range 15 - 30 d from Slide 65 (satisfy)",
+        "Check trial aeration time = 2.0 h < 2.85 h (not satisfy) ➔ Reselect aeration time = 3.0 h (1.0 h aerated fill + 2.0 h react) > 2.85 h (satisfy)",
+        "Check F/M = 0.062 kg BOD/kg MLVSS.d in range 0.04 - 0.1 and L_org = 0.18 kg BOD/m3.d in range 0.1 - 0.3 (satisfy)"
+      ],
+      "final_answers": {
+        "N_tanks": "2 tanks",
+        "VF_fill_volume_m3": "946.25 m3/cycle",
+        "VT_tank_volume_m3": "4,731.25 m3/tank (9,462.5 m3 total)",
+        "HRT_h": "30.0 h",
+        "SRT_d": "26.5 d",
+        "Cycle_schedule": "6.0 h cycle (2.0 h mixed fill, 1.0 h aerated fill, 2.0 h react, 0.5 h settle, 0.5 h decant)",
+        "NOx_g_m3": "26.2 g/m3",
+        "PX_TSS_kg_d": "1,248.4 kg/d",
+        "Ro_kg_O2_d": "2,869.7 kg O2/d",
+        "Decant_rate_m3_min": "31.5 m3/min"
+      }
+    },
+    {
+      "exercise_id": "ch07_ex01",
+      "chapter_slug": "ch07",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể thiếu khí đầu nguồn (Preanoxic tank) dùng bể lắng thứ cấp với cùng thông số đầu vào như Ví dụ 2 Chương 6 (Q = 22,700 m3/ngày, T = 12oC, SRT = 21 ngày, NOx = 29.0 g/m3, VA = 13,418 m3, XTSS = 3,000 g/m3) để đạt nồng độ NO3-N đầu ra Ne = 6.0 g/m3.",
+      "design_parameters_selected": [
+        "Select return activated sludge ratio R = 0.60 (from secondary clarifier underflow XR = 8,000 g/m3)",
+        "From Chapter 5.2 Slide 25 SDNR coefficients for rbCOD / bCOD = 80 / 224 = 35.7%: interpolate between 30% (b0 = 0.235, b1 = 0.141) and 40% (b0 = 0.242, b1 = 0.152) ➔ b0 = 0.239, b1 = 0.147",
+        "Temperature correction factor for SDNR from Chapter 5.2 Slide 26: theta = 1.026",
+        "Trial anoxic detention time tau_nox = 1.8 h (not satisfy) ➔ Reselect tau_nox = 2.2 h (V_nox = 2,081 m3) (satisfy); mixer power = 8 W/m3 (Chapter 5.2 Slide 22)"
+      ],
+      "governing_equations": [
+        "IR = (NOx / Ne) - 1 - R (Slide 5 of Chapter 7)",
+        "NOx_feed = Q x (IR + R) x Ne",
+        "Xb = [Q x SRT x YH x (S0 - S)] / [VA x (1 + bH x SRT)] (Slide 23 of Chapter 5.2)",
+        "F/Mb = (Q x BOD) / (V_nox x Xb) (Slide 24 of Chapter 5.2)",
+        "SDNR20 = b0 + b1 x ln(F/Mb); SDNR_adj = SDNR20 - 0.029 x ln(F/Mb) - 0.012 (for IR = 3 - 4, Slide 25 & 26 of Chapter 5.2)",
+        "SDNR_T = SDNR_adj x 1.026^(T - 20); NOr = V_nox x Xb x SDNR_T"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "1. Determine internal recycle ratio IR and nitrate mass fed to anoxic zone (Slide 5):",
+        "From Example 2 Chapter 6: Q = 22,700 m3/d, NOx = 29.0 g/m3 (28.95 g/m3), required Ne = 6.0 g/m3, select R = 0.60",
+        "IR = (NOx / Ne) - 1 - R = (29.0 / 6.0) - 1 - 0.60 = 4.83 - 1.60 = 3.23",
+        "Nitrate fed to anoxic tank: NOx_feed = Q x (IR + R) x Ne = 22,700 m3/d x (3.23 + 0.60) x 6.0 g/m3 x 10^-3 kg/g = 521.6 kg NO3-N/d",
+        "2. Calculate active heterotrophic biomass concentration Xb (Chapter 5.2 Slide 23):",
+        "Xb = [22,700 m3/d x 21 d x 0.45 x (224 - 0.3) g/m3] / [13,418 m3 x (1 + 0.088 d^-1 x 21 d)] = 16,849,000 g / 13,418 m3 = 1,256 g/m3",
+        "3. Size anoxic tank and check nitrate removal capacity NOr:",
+        "Percent rbCOD / bCOD = 80 / 224 = 35.7% ➔ b0 = 0.239, b1 = 0.147 (Chapter 5.2 Slide 25)",
+        "Trial 1: Select anoxic detention time tau_nox = 1.8 h ➔ V_nox = 22,700 x (1.8 / 24) = 1,702 m3",
+        "F/Mb = (22,700 m3/d x 140 g/m3) / (1,702 m3 x 1,256 g/m3) = 1.49 g BOD/g biomass.d",
+        "SDNR20 = 0.239 + 0.147 x ln(1.49) = 0.297 g/g.d ➔ Adjusted for IR = 3.23: SDNR20,adj = 0.297 - 0.029 x ln(1.49) - 0.012 = 0.274 g/g.d",
+        "At T = 12oC: SDNR12,adj = 0.274 x 1.026^(12 - 20) = 0.223 g/g.d ➔ NOr = 1,702 m3 x 1,256 g/m3 x 0.223 g/g.d x 10^-3 = 476.7 kg/d < 521.6 kg/d (not satisfy)",
+        "Solution (continue):",
+        "Trial 2: Reselect anoxic detention time tau_nox = 2.2 h ➔ V_nox = 22,700 x (2.2 / 24) = 2,081 m3",
+        "F/Mb = (22,700 m3/d x 140 g/m3) / (2,081 m3 x 1,256 g/m3) = 1.22 g BOD/g biomass.d",
+        "SDNR20 = 0.239 + 0.147 x ln(1.22) = 0.268 g/g.d ➔ SDNR20,adj = 0.268 - 0.029 x ln(1.22) - 0.012 = 0.250 g/g.d",
+        "At T = 12oC: SDNR12,adj = 0.250 x 1.026^(12 - 20) = 0.204 g/g.d",
+        "Check nitrate removal capacity: NOr = 2,081 m3 x 1,256 g/m3 x 0.204 g/g.d x 10^-3 = 532.3 kg/d >= 521.6 kg/d (satisfy)",
+        "4. Calculate oxygen credit, alkalinity recovery, and anoxic mixer power:",
+        "Oxygen credit = 2.86 g O2/g NO3-N x (29.0 - 6.0) g/m3 x 22,700 m3/d x 10^-3 = 1,493.2 kg O2/d ➔ Net Ro = 6,588.9 - 1,493.2 = 5,095.7 kg O2/d",
+        "Alkalinity recovery = 3.57 g CaCO3/g NO3-N x (29.0 - 6.0) g/m3 = 82.1 g/m3 as CaCO3 ➔ Net Alk_added = 80 - (140 - 206.7 + 82.1) = 64.6 g/m3 as CaCO3",
+        "Anoxic mixing power required (8 W/m3 from Chapter 5.2 Slide 22) = 8 W/m3 x 2,081 m3 x 10^-3 = 16.6 kW"
+      ],
+      "verification_checks": [
+        "Check trial tau_nox = 1.8 h: NOr = 476.7 kg/d < NOx_feed = 521.6 kg/d (not satisfy)",
+        "Reselect tau_nox = 2.2 h (V_nox = 2,081 m3): Check NOr = 532.3 kg/d >= 521.6 kg/d (satisfy)",
+        "Check SDNR20,adj = 0.250 g/g.d in typical preanoxic range 0.04 - 0.25 g/g.d from Chapter 5.2 Slide 23 (satisfy)"
+      ],
+      "final_answers": {
+        "R_RAS_ratio": "0.60",
+        "IR_internal_recycle_ratio": "3.23",
+        "NOx_feed_kg_d": "521.6 kg/d",
+        "Xb_active_biomass_g_m3": "1,256 g/m3",
+        "tau_anoxic_h": "2.2 h",
+        "V_anoxic_m3": "2,081 m3",
+        "NOr_capacity_kg_d": "532.3 kg/d",
+        "Net_Ro_kg_O2_d": "5,095.7 kg O2/d",
+        "Mixer_power_kW": "16.6 kW"
+      }
+    },
+    {
+      "exercise_id": "ch07_ex02",
+      "chapter_slug": "ch07",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Thiết kế bể thiếu khí đầu nguồn kết hợp tách màng (Preanoxic MBR) với cùng thông số đầu vào như Ví dụ 3 Chương 6 (Q = 22,700 m3/ngày, SRT = 21 ngày, R = 6, Xm = 12,000 g/m3, XA = 10,286 g/m3, không dùng tuần hoàn nội bộ IR = 0).",
+      "design_parameters_selected": [
+        "Given from Slide 12 of Chapter 7 and Example 3 of Chapter 6: IR = 0, RAS ratio from membrane tank to preanoxic tank R = 6, XA = 10,286 g/m3",
+        "Trial anoxic volume V_nox = 550 m3 (not satisfy) ➔ Reselect V_nox = 700 m3 (tau_nox = 0.74 h) (satisfy)",
+        "Select anoxic mixer specific power = 8 W/m3 (Chapter 5.2 Slide 22)"
+      ],
+      "governing_equations": [
+        "NOx = (1 + IR + R) x Ne ➔ Ne = NOx / (1 + R) (for IR = 0)",
+        "NOx_feed = Q x R x Ne",
+        "Xb,MBR = (Mass of active heterotrophs / Total MLSS mass) x XA",
+        "F/Mb = (Q x BOD) / (V_nox x Xb,MBR); NOr = V_nox x Xb,MBR x SDNR_T"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "1. Determine effluent nitrate concentration Ne and nitrate fed to anoxic zone (with IR = 0, R = 6):",
+        "From Slide 5 & 12: NOx = (1 + IR + R) x Ne = (1 + 0 + 6) x Ne = 7 x Ne",
+        "With NOx = 29.0 g/m3 (from Example 2 & 3 Chapter 6): Ne = 29.0 / 7 = 4.14 g/m3 <= 6.0 g/m3 (satisfy)",
+        "Nitrate fed to anoxic zone via RAS (R = 6): NOx_feed = Q x R x Ne = 22,700 m3/d x 6 x 4.14 g/m3 x 10^-3 = 564.3 kg NO3-N/d",
+        "2. Calculate active heterotrophic biomass concentration Xb,MBR in anoxic zone:",
+        "From Example 2 & 3 Chapter 6: Active heterotrophic mass = 802.35 kg/d x 21 d = 16,849 kg; Total MLSS mass = 40,253 kg",
+        "Active fraction of MLSS = 16,849 / 40,253 = 0.4186",
+        "Since MLSS in anoxic and aerobic zones is XA = [6 / (1 + 6)] x 12,000 = 10,286 g/m3: Xb,MBR = 0.4186 x 10,286 g/m3 = 4,305 g/m3",
+        "Solution (continue):",
+        "3. Size anoxic tank and check nitrate removal capacity NOr:",
+        "Trial 1: Select V_nox = 550 m3 (tau_nox = 0.58 h) ➔ F/Mb = (22,700 x 140) / (550 x 4,305) = 1.34 g BOD/g biomass.d",
+        "SDNR20 = 0.239 + 0.147 x ln(1.34) = 0.282 g/g.d ➔ Adjusted for high recycle (R = 6): SDNR20,adj = 0.282 - 0.029 x ln(1.34) - 0.012 = 0.262 g/g.d",
+        "At T = 12oC: SDNR12,adj = 0.262 x 1.026^(12 - 20) = 0.213 g/g.d ➔ NOr = 550 x 4,305 x 0.213 x 10^-3 = 504.7 kg/d < 564.3 kg/d (not satisfy)",
+        "Trial 2: Reselect V_nox = 700 m3 (tau_nox = 0.74 h = 44.4 min) ➔ F/Mb = (22,700 x 140) / (700 x 4,305) = 1.05 g BOD/g biomass.d",
+        "SDNR20 = 0.239 + 0.147 x ln(1.05) = 0.246 g/g.d ➔ SDNR20,adj = 0.246 - 0.029 x ln(1.05) - 0.012 = 0.233 g/g.d",
+        "At T = 12oC: SDNR12,adj = 0.233 x 1.026^(12 - 20) = 0.190 g/g.d",
+        "Check nitrate removal capacity: NOr = 700 m3 x 4,305 g/m3 x 0.190 g/g.d x 10^-3 = 572.5 kg/d >= 564.3 kg/d (satisfy)",
+        "4. Summary of Preanoxic MBR volumes and mixing power:",
+        "Anoxic zone volume V_nox = 700 m3, Aerobic zone volume VA = 2,189 - 700 = 1,489 m3 (or 2,189 m3 aerobic + 700 m3 anoxic), Membrane tank volume Vm = 1,478 m3",
+        "Anoxic mixer power required = 8 W/m3 x 700 m3 x 10^-3 = 5.6 kW"
+      ],
+      "verification_checks": [
+        "Check effluent Ne = 4.14 g/m3 <= 6.0 g/m3 with IR = 0 and R = 6 (satisfy)",
+        "Check trial V_nox = 550 m3: NOr = 504.7 kg/d < 564.3 kg/d (not satisfy)",
+        "Reselect V_nox = 700 m3: Check NOr = 572.5 kg/d >= 564.3 kg/d (satisfy)"
+      ],
+      "final_answers": {
+        "IR_internal_recycle": "0",
+        "R_RAS_ratio": "6",
+        "Ne_effluent_NO3_N_g_m3": "4.14 g/m3",
+        "NOx_feed_kg_d": "564.3 kg/d",
+        "Xb_MBR_g_m3": "4,305 g/m3",
+        "V_anoxic_MBR_m3": "700 m3 (tau_nox = 0.74 h)",
+        "NOr_capacity_kg_d": "572.5 kg/d",
+        "Mixer_power_kW": "5.6 kW"
+      }
+    },
+    {
+      "exercise_id": "ch07_ex03",
+      "chapter_slug": "ch07",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Thiết kế và kiểm tra quá trình khử nitrat trong bể SBR (Denitrification process in SBR) với cùng thông số đầu vào như Ví dụ 4 Chương 6 (Q = 7,570 m3/ngày, T = 12oC, 2 bể SBR, VT = 4,731.25 m3/bể, VF = 946.25 m3/mẻ, SRT = 26.5 ngày, NOx = 26.2 g/m3).",
+      "design_parameters_selected": [
+        "From Example 4 Chapter 6: 2 SBR tanks, 6-h cycle (4 cycles/tank.d = 8 cycles/d total) with 2.0-h mixed anoxic fill, 1.0-h aerated fill, 2.0-h aerobic react, 0.5-h settle, 0.5-h decant",
+        "Fill fraction VF / VT = 0.20 (VF = 946.25 m3, remaining settled volume after decant VS = VT - VF = 3,785 m3)",
+        "For F/Mb <= 0.5: use linear SDNR equation from Chapter 5.2 Slide 25: SDNR20 = 0.24 x (F/Mb) and theta = 1.026"
+      ],
+      "governing_equations": [
+        "NOx_cycle = VF x NOx; Ne,NO3 = NOx_cycle / VT (when all NO3-N in VS is denitrified during anoxic fill)",
+        "NO3-N_rem_in_VS = VS x Ne,NO3",
+        "Mass_Xb,1tank = [Q x SRT x YH x (S0 - S) / (1 + bH x SRT)] / 2",
+        "F/Mb = (Q_fill x BOD) / Mass_Xb,1tank; SDNR20 = 0.24 x (F/Mb) (for F/Mb <= 0.5)",
+        "NOr_cycle = Mass_Xb,1tank x SDNR_T x (t_anoxic_fill / 24 h/d)"
+      ],
+      "worked_solution_steps": [
+        "Solution:",
+        "1. Calculate nitrate produced per cycle and nitrate remaining after decant (Slide 19 & 20):",
+        "From Example 4 Chapter 6: VF = 946.25 m3/cycle, VT = 4,731.25 m3/tank, VS = VT - VF = 3,785 m3/tank, NOx = 26.2 g/m3",
+        "Nitrate produced per cycle in 1 tank: NOx_cycle = VF x NOx = 946.25 m3 x 26.2 g/m3 = 24,792 g NO3-N/cycle",
+        "Assuming complete removal of pre-fill nitrate during the 2.0-h anoxic fill, nitrate concentration at end of react/decant is:",
+        "Ne,NO3 = 24,792 g / 4,731.25 m3 = 5.24 g/m3",
+        "Nitrate mass remaining in tank volume VS = 3,785 m3 after decant (to be removed during next 2.0-h anoxic fill):",
+        "NO3-N_to_remove = VS x Ne,NO3 = 3,785 m3 x 5.24 g/m3 = 19,833 g NO3-N/cycle (19.83 kg/cycle)",
+        "Solution (continue):",
+        "2. Calculate active heterotrophic biomass and F/Mb during the 2.0-h anoxic fill:",
+        "Total active heterotrophic biomass in 2 tanks at SRT = 26.5 d: Mass_Xb,total = [7,570 x 26.5 x 0.45 x (352 - 0.3)] / [1 + (0.088 x 26.5)] x 10^-3 = 9,528.4 kg",
+        "Active biomass in 1 SBR tank: Mass_Xb,1tank = 9,528.4 / 2 = 4,764.2 kg",
+        "Flowrate into 1 tank during 3.0-h fill: Q_fill = 946.25 m3 / 3.0 h = 315.42 m3/h = 7,570 m3/d",
+        "Food-to-microorganism ratio during anoxic fill: F/Mb = (7,570 m3/d x 220 g/m3 x 10^-3) / (4,764.2 kg) = 0.35 g BOD/g biomass.d",
+        "3. Calculate SDNR and verify nitrate removal capacity during 2.0-h anoxic fill:",
+        "Since F/Mb = 0.35 <= 0.5 (Chapter 5.2 Slide 25): SDNR20 = 0.24 x (F/Mb) = 0.24 x 0.35 = 0.084 g NO3-N/g biomass.d",
+        "At T = 12oC: SDNR12 = 0.084 x 1.026^(12 - 20) = 0.068 g NO3-N/g biomass.d",
+        "Nitrate removal capacity during 2.0-h mixed anoxic fill: NOr_cycle = 4,764.2 kg x 1,000 g/kg x 0.068 g/g.d x (2.0 h / 24 h/d) = 27,125 g NO3-N/cycle",
+        "Check denitrification capacity: NOr_cycle = 27,125 g/cycle >= 19,833 g/cycle (satisfy)",
+        "4. Oxygen credit and alkalinity recovery in SBR:",
+        "Total NO3-N reduced per day (8 cycles/d) = 8 x 19.833 kg/cycle = 158.7 kg NO3-N/d",
+        "Oxygen credit = 2.86 x 158.7 = 453.9 kg O2/d ➔ Net Ro = 2,869.7 - 453.9 = 2,415.8 kg O2/d",
+        "Alkalinity recovered = 3.57 x (26.2 - 5.24) = 74.8 g/m3 as CaCO3"
+      ],
+      "verification_checks": [
+        "Check F/Mb = 0.35 <= 0.5 ➔ Apply linear equation SDNR20 = 0.24 x (F/Mb) = 0.084 g/g.d (satisfy)",
+        "Check NOr_cycle = 27,125 g/cycle >= NO3-N remaining in VS = 19,833 g/cycle (satisfy)",
+        "Check effluent NO3-N = 5.24 g/m3 <= 6.0 g/m3 (satisfy)"
+      ],
+      "final_answers": {
+        "NOx_produced_per_cycle_g": "24,792 g/cycle",
+        "Ne_effluent_NO3_N_g_m3": "5.24 g/m3",
+        "NO3_N_remaining_in_VS_g": "19,833 g/cycle",
+        "Mass_Xb_per_tank_kg": "4,764.2 kg",
+        "FMb_anoxic_fill": "0.35 g BOD/g biomass.d",
+        "SDNR12_g_g_d": "0.068 g NO3-N/g biomass.d",
+        "NOr_capacity_per_cycle_g": "27,125 g/cycle",
+        "Net_Ro_kg_O2_d": "2,415.8 kg O2/d"
+      }
+    }
+  ]
+}

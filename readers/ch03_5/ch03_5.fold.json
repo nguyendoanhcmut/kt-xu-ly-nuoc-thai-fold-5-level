@@ -1,0 +1,1521 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-3-5-qu-tr-nh-l-c-trong-x-l-n-c-th-05ef0a2d",
+  "lang": "vi",
+  "title": "Chương 3.5: Quá Trình Lọc Trong Xử Lý Nước Thải (Chapter 3.5 - Filtration)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch03_5_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:43:25Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-08T00:43:25",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-tổng-quan-phân-loại-và-cấu-tạo-bể-lọc-hạt-overview-classification-and-filter-media-bed-types",
+      "num": "1",
+      "title": "Tổng Quan, Phân Loại Và Cấu Tạo Bể Lọc Hạt (Overview, Classification, and Filter Media Bed Types)",
+      "depth": 1,
+      "takeaway": "Quá trình lọc hạt bậc ba gồm $3\\text{ cấu hình}$ tầng vật liệu và $3\\text{ giai đoạn}$ vận hành",
+      "topic": "Quá trình lọc",
+      "units": [
+        {
+          "id": "p-75c10166",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Quá trình lọc (Filtration) tách các hạt rắn lơ lửng ra khỏi hệ huyền phù hai pha rắn-lỏng bằng cách cho dòng nước chảy qua một môi trường xốp ([Page 1], [Page 2]) trên bài giảng. Trong dây chuyền công nghệ xử lý nước thải, công đoạn lọc đóng vai trò là quá trình xử lý bậc ba (Tertiary treatment) hoặc bước xử lý bổ sung cho các mục đích tái sử dụng nước. Công trình lọc đặt ngay sau bể xử lý sinh học bậc hai và nằm trước công đoạn khử trùng để loại bỏ cặn lơ lửng còn sót lại và nâng cao hiệu quả khử trùng. Dựa theo vị trí giữ hạt cặn, kỹ thuật lọc chia thành ba nhóm chính gồm lọc sâu qua vật liệu hạt (Depth filtration hay Granular filtration), lọc bề mặt (Surface filtration dùng giấy lọc phòng thí nghiệm hoặc vải lọc) và lọc màng (Membrane filtration gồm vi lọc MF, siêu lọc UF, lọc nano NF và thẩm thấu ngược RO) trên bài giảng. Trong đó, lọc sâu sử dụng các hạt vật liệu như cát thạch anh hoặc than antraxit để giữ cặn dọc theo toàn bộ chiều dày của tầng vật liệu ở bể lọc nhanh trọng lực (Rapid filtration) và bể lọc áp lực (Pressure filtration) trên bài giảng.",
+          "sentences": [
+            "Quá trình lọc (Filtration) tách các hạt rắn lơ lửng ra khỏi hệ huyền phù hai pha rắn-lỏng bằng cách cho dòng nước chảy qua một môi trường xốp ([Page 1], [Page 2]) trên bài giảng.",
+            "Trong dây chuyền công nghệ xử lý nước thải, công đoạn lọc đóng vai trò là quá trình xử lý bậc ba (Tertiary treatment) hoặc bước xử lý bổ sung cho các mục đích tái sử dụng nước.",
+            "Công trình lọc đặt ngay sau bể xử lý sinh học bậc hai và nằm trước công đoạn khử trùng để loại bỏ cặn lơ lửng còn sót lại và nâng cao hiệu quả khử trùng.",
+            "Dựa theo vị trí giữ hạt cặn, kỹ thuật lọc chia thành ba nhóm chính gồm lọc sâu qua vật liệu hạt (Depth filtration hay Granular filtration), lọc bề mặt (Surface filtration dùng giấy lọc phòng thí nghiệm hoặc vải lọc) và lọc màng (Membrane filtration gồm vi lọc MF, siêu lọc UF, lọc nano NF và thẩm thấu ngược RO) trên bài giảng.",
+            "Trong đó, lọc sâu sử dụng các hạt vật liệu như cát thạch anh hoặc than antraxit để giữ cặn dọc theo toàn bộ chiều dày của tầng vật liệu ở bể lọc nhanh trọng lực (Rapid filtration) và bể lọc áp lực (Pressure filtration) trên bài giảng."
+          ],
+          "brief": [
+            "Quá trình lọc (Filtration) tách các hạt rắn lơ lửng ra khỏi hệ huyền phù hai pha rắn-lỏng bằng cách cho dòng nước chảy qua một môi trường xốp ([Page 1], [Page 2]) trên bài giảng.",
+            "Dựa theo vị trí giữ hạt cặn, kỹ thuật lọc chia thành ba nhóm chính gồm lọc sâu qua vật liệu hạt (Depth filtration hay Granular filtration), lọc bề mặt (Surface filtration dùng giấy lọc phòng thí nghiệm hoặc vải lọc) và lọc màng (Membrane filtration gồm vi lọc MF, siêu lọc UF, lọc nano NF và thẩm thấu ngược RO) trên bài giảng."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Công đoạn lọc bậc ba tách cặn lơ lửng qua lọc sâu, lọc bề mặt hoặc lọc màng. Bể lọc đặt sau bể xử lý sinh học bậc hai và trước khử trùng để nâng cao chất lượng nước.",
+          "takeaway": "Công đoạn lọc bậc ba tách cặn lơ lửng qua lọc sâu, lọc bề mặt hoặc lọc màng",
+          "topic": "Công đoạn lọc"
+        },
+        {
+          "id": "p-a11f07f4",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Tầng vật liệu lọc hạt (Type of media bed) có ba cấu hình thiết kế phổ biến tùy thuộc vào số lớp và chiều sâu vật liệu ([Page 3]) trên bài giảng. Bể lọc một lớp thông thường (Monomedia filter) sử dụng một lớp vật liệu duy nhất mà phổ biến nhất là lớp cát thạch anh có chiều dày từ $0.6\\text{ m}$ đến $0.75\\text{ m}$ trên bài giảng. Bể lọc một lớp tầng sâu (Deep-bed monomedia filter) sử dụng một lớp hạt kích thước lớn hơn như than antraxit với chiều dày từ $1.5\\text{ m}$ đến $1.8\\text{ m}$ để tăng khả năng chứa cặn và kéo dài chu kỳ lọc. Bể lọc hai lớp vật liệu (Dual-media filter) kết hợp hai lớp hạt có khối lượng riêng khác nhau gồm lớp than antraxit dày từ $0.45\\text{ m}$ đến $0.6\\text{ m}$ nằm phía trên và lớp cát mịn dày từ $0.25\\text{ m}$ đến $0.3\\text{ m}$ nằm phía dưới. Trong cấu tạo bể lọc nhanh hai lớp điển hình, nước thô đi vào từ kênh phân phối phía trên (upper gullet), thấm qua lớp than antraxit và lớp cát xuống hệ thống sàn thu nước dưới đáy (underdrains) rồi thoát ra kênh nước sạch phía dưới (lower gullet) trên bài giảng.",
+          "sentences": [
+            "Tầng vật liệu lọc hạt (Type of media bed) có ba cấu hình thiết kế phổ biến tùy thuộc vào số lớp và chiều sâu vật liệu ([Page 3]) trên bài giảng.",
+            "Bể lọc một lớp thông thường (Monomedia filter) sử dụng một lớp vật liệu duy nhất mà phổ biến nhất là lớp cát thạch anh có chiều dày từ $0.6\\text{ m}$ đến $0.75\\text{ m}$ trên bài giảng.",
+            "Bể lọc một lớp tầng sâu (Deep-bed monomedia filter) sử dụng một lớp hạt kích thước lớn hơn như than antraxit với chiều dày từ $1.5\\text{ m}$ đến $1.8\\text{ m}$ để tăng khả năng chứa cặn và kéo dài chu kỳ lọc.",
+            "Bể lọc hai lớp vật liệu (Dual-media filter) kết hợp hai lớp hạt có khối lượng riêng khác nhau gồm lớp than antraxit dày từ $0.45\\text{ m}$ đến $0.6\\text{ m}$ nằm phía trên và lớp cát mịn dày từ $0.25\\text{ m}$ đến $0.3\\text{ m}$ nằm phía dưới.",
+            "Trong cấu tạo bể lọc nhanh hai lớp điển hình, nước thô đi vào từ kênh phân phối phía trên (upper gullet), thấm qua lớp than antraxit và lớp cát xuống hệ thống sàn thu nước dưới đáy (underdrains) rồi thoát ra kênh nước sạch phía dưới (lower gullet) trên bài giảng."
+          ],
+          "brief": [
+            "Tầng vật liệu lọc hạt (Type of media bed) có ba cấu hình thiết kế phổ biến tùy thuộc vào số lớp và chiều sâu vật liệu ([Page 3]) trên bài giảng.",
+            "Bể lọc hai lớp vật liệu (Dual-media filter) kết hợp hai lớp hạt có khối lượng riêng khác nhau gồm lớp than antraxit dày từ $0.45\\text{ m}$ đến $0.6\\text{ m}$ nằm phía trên và lớp cát mịn dày từ $0.25\\text{ m}$ đến $0.3\\text{ m}$ nằm phía dưới."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Tầng vật liệu lọc hạt thiết kế theo $3\\text{ cấu hình}$ có chiều dày từ $0.25\\text{ m}$ đến $1.8\\text{ m}$. Bể lọc hai lớp đặt than antraxit dày $0.45\\text{, }0.6\\text{ m}$ nằm trên lớp cát mịn dày $0.25\\text{, }0.3\\text{ m}$.",
+          "takeaway": "Tầng vật liệu lọc hạt thiết kế theo $3\\text{ cấu hình}$ có chiều dày từ $0.25\\text{ m}$ đến $1.8\\text{ m}$",
+          "topic": "vật liệu lọc"
+        },
+        {
+          "id": "p-3e90d821",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Chu kỳ vận hành của một bể lọc nhanh bao gồm ba giai đoạn nối tiếp nhau là giai đoạn lọc, giai đoạn rửa ngược và giai đoạn chín vật liệu ([Page 3], [Page 4]) trên bài giảng. Giai đoạn lọc (Filtration stage) kéo dài từ $1\\text{ ngày}$ đến $4\\text{ ngày}$ khi van cấp nước thô và van thu nước lọc mở hoàn toàn để giữ cặn trong tầng hạt cho tới khi độ đục nước đầu ra chạm ngưỡng giới hạn đột phá (turbidity breakthrough) trên bài giảng. Giai đoạn rửa ngược (Backwash stage) kéo dài từ $10\\text{ phút}$ đến $20\\text{ phút}$ bằng cách đóng van nước vào, mở van cấp nước và khí rửa ngược từ dưới đáy lên làm giãn nở tầng vật liệu để cuốn trôi cặn bẩn qua máng thu nước rửa lọc (backwash water trough) trên bài giảng. Sau khi kết thúc rửa ngược, giai đoạn chín vật liệu hay lọc xả bỏ đầu chu kỳ (Ripening stage hay filter-to-waste) diễn ra trong khoảng $15\\text{ phút}$ đến $2\\text{ giờ}$ để ổn định lại độ đục nước sau lọc trước khi đưa nước vào mạng lưới sử dụng.",
+          "sentences": [
+            "Chu kỳ vận hành của một bể lọc nhanh bao gồm ba giai đoạn nối tiếp nhau là giai đoạn lọc, giai đoạn rửa ngược và giai đoạn chín vật liệu ([Page 3], [Page 4]) trên bài giảng.",
+            "Giai đoạn lọc (Filtration stage) kéo dài từ $1\\text{ ngày}$ đến $4\\text{ ngày}$ khi van cấp nước thô và van thu nước lọc mở hoàn toàn để giữ cặn trong tầng hạt cho tới khi độ đục nước đầu ra chạm ngưỡng giới hạn đột phá (turbidity breakthrough) trên bài giảng.",
+            "Giai đoạn rửa ngược (Backwash stage) kéo dài từ $10\\text{ phút}$ đến $20\\text{ phút}$ bằng cách đóng van nước vào, mở van cấp nước và khí rửa ngược từ dưới đáy lên làm giãn nở tầng vật liệu để cuốn trôi cặn bẩn qua máng thu nước rửa lọc (backwash water trough) trên bài giảng.",
+            "Sau khi kết thúc rửa ngược, giai đoạn chín vật liệu hay lọc xả bỏ đầu chu kỳ (Ripening stage hay filter-to-waste) diễn ra trong khoảng $15\\text{ phút}$ đến $2\\text{ giờ}$ để ổn định lại độ đục nước sau lọc trước khi đưa nước vào mạng lưới sử dụng."
+          ],
+          "brief": [
+            "Chu kỳ vận hành của một bể lọc nhanh bao gồm ba giai đoạn nối tiếp nhau là giai đoạn lọc, giai đoạn rửa ngược và giai đoạn chín vật liệu ([Page 3], [Page 4]) trên bài giảng.",
+            "Giai đoạn lọc (Filtration stage) kéo dài từ $1\\text{ ngày}$ đến $4\\text{ ngày}$ khi van cấp nước thô và van thu nước lọc mở hoàn toàn để giữ cặn trong tầng hạt cho tới khi độ đục nước đầu ra chạm ngưỡng giới hạn đột phá (turbidity breakthrough) trên bài giảng."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Chu kỳ vận hành bể lọc nhanh gồm giai đoạn lọc, rửa ngược và chín vật liệu. Giai đoạn lọc kéo dài $1\\text{, }4\\text{ ngày}$, rửa ngược $10\\text{, }20\\text{ phút}$ và xả bỏ đầu chu kỳ $15\\text{ phút, }2\\text{ giờ}$.",
+          "takeaway": "Chu kỳ vận hành bể lọc nhanh gồm giai đoạn lọc, rửa ngược và chín vật liệu",
+          "topic": "Chu kỳ vận hành"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-cơ-chế-giữ-hạt-cặn-và-đặc-tính-vật-liệu-lọc-hạt-particle-removal-mechanisms-and-granular-media-properties",
+      "num": "2",
+      "title": "Cơ Chế Giữ Hạt Cặn Và Đặc Tính Vật Liệu Lọc Hạt (Particle Removal Mechanisms and Granular Media Properties)",
+      "depth": 1,
+      "takeaway": "Lọc sâu giữ cặn qua $5\\text{ cơ chế}$ dựa trên đường kính $\\text{ES}$, hệ số $\\text{UC}$ và độ rỗng $\\epsilon$",
+      "topic": "Lọc sâu",
+      "units": [
+        {
+          "id": "p-dff518d1",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Quá trình lọc sâu giữ lại các hạt cặn nhỏ hơn kích thước lỗ rỗng nhờ sự kết hợp của năm cơ chế vật lý và hóa lý xảy ra dọc theo dòng chảy qua lớp hạt ([Page 4]) trên bài giảng. Cơ chế sàng cơ học (Straining) giữ lại các hạt lơ lửng có kích thước lớn hơn khe hở giữa các hạt vật liệu lọc ngay tại các họng lỗ rỗng. Cơ chế lắng trọng lực (Sedimentation) làm các hạt cặn nặng tách khỏi đường dòng chất lỏng và lắng trực tiếp lên bề mặt phía trên của hạt cát. Cơ chế va chạm tiếp xúc (Interception) xảy ra khi các hạt chuyển động dọc theo đường dòng đi sát bề mặt hạt vật liệu và va chạm trực tiếp vào hạt lọc. Cơ chế bám dính thủy động (Adhesion) đẩy các hạt cặn đi sâu hơn vào bên trong tầng lọc dưới tác dụng của lực dòng chảy, trong khi cơ chế kết bông (Flocculation) liên kết các hạt nhỏ thành bông cặn lớn hơn nhờ lực hút phân tử Van der Waals.",
+          "sentences": [
+            "Quá trình lọc sâu giữ lại các hạt cặn nhỏ hơn kích thước lỗ rỗng nhờ sự kết hợp của năm cơ chế vật lý và hóa lý xảy ra dọc theo dòng chảy qua lớp hạt ([Page 4]) trên bài giảng.",
+            "Cơ chế sàng cơ học (Straining) giữ lại các hạt lơ lửng có kích thước lớn hơn khe hở giữa các hạt vật liệu lọc ngay tại các họng lỗ rỗng.",
+            "Cơ chế lắng trọng lực (Sedimentation) làm các hạt cặn nặng tách khỏi đường dòng chất lỏng và lắng trực tiếp lên bề mặt phía trên của hạt cát.",
+            "Cơ chế va chạm tiếp xúc (Interception) xảy ra khi các hạt chuyển động dọc theo đường dòng đi sát bề mặt hạt vật liệu và va chạm trực tiếp vào hạt lọc.",
+            "Cơ chế bám dính thủy động (Adhesion) đẩy các hạt cặn đi sâu hơn vào bên trong tầng lọc dưới tác dụng của lực dòng chảy, trong khi cơ chế kết bông (Flocculation) liên kết các hạt nhỏ thành bông cặn lớn hơn nhờ lực hút phân tử Van der Waals."
+          ],
+          "brief": [
+            "Quá trình lọc sâu giữ lại các hạt cặn nhỏ hơn kích thước lỗ rỗng nhờ sự kết hợp của năm cơ chế vật lý và hóa lý xảy ra dọc theo dòng chảy qua lớp hạt ([Page 4]) trên bài giảng.",
+            "Cơ chế bám dính thủy động (Adhesion) đẩy các hạt cặn đi sâu hơn vào bên trong tầng lọc dưới tác dụng của lực dòng chảy, trong khi cơ chế kết bông (Flocculation) liên kết các hạt nhỏ thành bông cặn lớn hơn nhờ lực hút phân tử Van der Waals."
+          ],
+          "evidence": [
+            0,
+            4
+          ],
+          "key": "Lọc sâu giữ hạt cặn nhỏ nhờ $5\\text{ cơ chế}$ sàng, lắng, va chạm, bám dính và kết bông. Lực dòng chảy và lực hút Van der Waals kết hợp giữ các hạt mịn dọc theo chiều sâu tầng lọc.",
+          "takeaway": "Lọc sâu giữ hạt cặn nhỏ nhờ $5\\text{ cơ chế}$ sàng, lắng, va chạm, bám dính và kết bông",
+          "topic": "hạt cặn nhỏ"
+        },
+        {
+          "id": "p-3f5c796c",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đặc tính phân bố kích thước của vật liệu lọc hạt được định lượng thông qua đường kính hữu hiệu và hệ số đồng nhất từ đường cong cấp phối hạt ([Page 5]) trên bài giảng. Giá trị đường kính hữu hiệu (Effective size, ký hiệu $\\text{ES}$ hoặc $d_{10}$) là đường kính mắt sàng mà tại đó có đúng $10\\%$ khối lượng hạt vật liệu nhỏ hơn giá trị này, còn đường kính $d_{60}$ là cỡ hạt mà $60\\%$ khối lượng vật liệu nhỏ hơn. Hệ số đồng nhất (Uniformity coefficient, $\\text{UC} = d_{60} / d_{10}$) bằng tỷ số giữa $d_{60}$ và đường kính hữu hiệu $d_{10}$, trong đó giá trị $\\text{UC}$ càng nhỏ thì kích thước các hạt vật liệu càng đồng đều. Theo bảng thông số chuẩn trên Slide 9, vật liệu cát lọc (Sand) có đường kính hữu hiệu $\\text{ES} = 0.4\\text{–}0.8\\text{ mm}$, hệ số đồng nhất $\\text{UC} = 1.3\\text{–}1.7$, khối lượng riêng hạt $\\rho_P = 2.65\\text{ g/mL}$ ($2,650\\text{ kg/m}^3$) và độ rỗng tầng lọc $\\epsilon = 40\\text{–}43\\%$ trên bài giảng. Vật liệu than antraxit (Anthracite coal) có đường kính hữu hiệu $\\text{ES} = 0.8\\text{–}2.0\\text{ mm}$, hệ số đồng nhất $\\text{UC} = 1.3\\text{–}1.7$, khối lượng riêng hạt $\\rho_P = 1.4\\text{–}1.8\\text{ g/mL}$ ($1,400\\text{–}1,800\\text{ kg/m}^3$) và độ rỗng tầng lọc $\\epsilon = 47\\text{–}52\\%$ trên bài giảng.",
+          "sentences": [
+            "Đặc tính phân bố kích thước của vật liệu lọc hạt được định lượng thông qua đường kính hữu hiệu và hệ số đồng nhất từ đường cong cấp phối hạt ([Page 5]) trên bài giảng.",
+            "Giá trị đường kính hữu hiệu (Effective size, ký hiệu $\\text{ES}$ hoặc $d_{10}$) là đường kính mắt sàng mà tại đó có đúng $10\\%$ khối lượng hạt vật liệu nhỏ hơn giá trị này, còn đường kính $d_{60}$ là cỡ hạt mà $60\\%$ khối lượng vật liệu nhỏ hơn.",
+            "Hệ số đồng nhất (Uniformity coefficient, $\\text{UC} = d_{60} / d_{10}$) bằng tỷ số giữa $d_{60}$ và đường kính hữu hiệu $d_{10}$, trong đó giá trị $\\text{UC}$ càng nhỏ thì kích thước các hạt vật liệu càng đồng đều.",
+            "Theo bảng thông số chuẩn trên Slide 9, vật liệu cát lọc (Sand) có đường kính hữu hiệu $\\text{ES} = 0.4\\text{–}0.8\\text{ mm}$, hệ số đồng nhất $\\text{UC} = 1.3\\text{–}1.7$, khối lượng riêng hạt $\\rho_P = 2.65\\text{ g/mL}$ ($2,650\\text{ kg/m}^3$) và độ rỗng tầng lọc $\\epsilon = 40\\text{–}43\\%$ trên bài giảng.",
+            "Vật liệu than antraxit (Anthracite coal) có đường kính hữu hiệu $\\text{ES} = 0.8\\text{–}2.0\\text{ mm}$, hệ số đồng nhất $\\text{UC} = 1.3\\text{–}1.7$, khối lượng riêng hạt $\\rho_P = 1.4\\text{–}1.8\\text{ g/mL}$ ($1,400\\text{–}1,800\\text{ kg/m}^3$) và độ rỗng tầng lọc $\\epsilon = 47\\text{–}52\\%$ trên bài giảng."
+          ],
+          "brief": [
+            "Đặc tính phân bố kích thước của vật liệu lọc hạt được định lượng thông qua đường kính hữu hiệu và hệ số đồng nhất từ đường cong cấp phối hạt ([Page 5]) trên bài giảng.",
+            "Theo bảng thông số chuẩn trên Slide 9, vật liệu cát lọc (Sand) có đường kính hữu hiệu $\\text{ES} = 0.4\\text{–}0.8\\text{ mm}$, hệ số đồng nhất $\\text{UC} = 1.3\\text{–}1.7$, khối lượng riêng hạt $\\rho_P = 2.65\\text{ g/mL}$ ($2,650\\text{ kg/m}^3$) và độ rỗng tầng lọc $\\epsilon = 40\\text{–}43\\%$ trên bài giảng."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Đặc tính cấp phối hạt xác định qua đường kính $\\text{ES} = d_{10}$ và hệ số $\\text{UC} = d_{60} / d_{10}$. Cát lọc có $\\text{ES} = 0.4\\text{, }0.8\\text{ mm}$, $\\rho_P = 2,650\\text{ kg/m}^3$ còn than antraxit có $\\text{ES} = 0.8\\text{, }2.0\\text{ mm}$.",
+          "takeaway": "Đặc tính cấp phối hạt xác định qua đường kính $\\text{ES} = d_{10}$ và hệ số $\\text{UC} = d_{60} / d_{10}$",
+          "topic": "cấp phối hạt"
+        },
+        {
+          "id": "p-77974e61",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Độ rỗng của tầng vật liệu lọc (Media bed porosity, ký hiệu $\\epsilon$) biểu thị tỷ lệ thể tích khe hở chứa nước so với tổng thể tích toàn bộ tầng vật liệu ([Page 5]) trên bài giảng. Công thức xác định độ rỗng có dạng $\\epsilon = \\frac{V_V}{V_T} = \\frac{V_T - V_M}{V_T}$, trong đó $V_V$ là thể tích lỗ rỗng trong tầng lọc ($\\text{m}^3$), $V_T$ là tổng thể tích hình học của tầng lọc ($\\text{m}^3$) và $V_M$ là thể tích đặc của bản thân các hạt vật liệu ($\\text{m}^3$) trên bài giảng. Do hạt than antraxit có hình dạng góc cạnh hơn hạt cát thạch anh tròn nhẵn, tầng lọc than antraxit luôn có độ rỗng $\\epsilon$ lớn hơn ($47\\text{–}52\\%$) nhưng khối lượng riêng hạt $\\rho_P$ nhỏ hơn ($1.4\\text{–}1.8\\text{ g/mL}$) so với tầng cát ($2.65\\text{ g/mL}$) trên bài giảng. Sự chênh lệch khối lượng riêng này giúp lớp than antraxit có kích thước hạt lớn vẫn tự phân tầng nằm phía trên lớp cát mịn sau mỗi chu kỳ sục rửa ngược.",
+          "sentences": [
+            "Độ rỗng của tầng vật liệu lọc (Media bed porosity, ký hiệu $\\epsilon$) biểu thị tỷ lệ thể tích khe hở chứa nước so với tổng thể tích toàn bộ tầng vật liệu ([Page 5]) trên bài giảng.",
+            "Công thức xác định độ rỗng có dạng $\\epsilon = \\frac{V_V}{V_T} = \\frac{V_T - V_M}{V_T}$, trong đó $V_V$ là thể tích lỗ rỗng trong tầng lọc ($\\text{m}^3$), $V_T$ là tổng thể tích hình học của tầng lọc ($\\text{m}^3$) và $V_M$ là thể tích đặc của bản thân các hạt vật liệu ($\\text{m}^3$) trên bài giảng.",
+            "Do hạt than antraxit có hình dạng góc cạnh hơn hạt cát thạch anh tròn nhẵn, tầng lọc than antraxit luôn có độ rỗng $\\epsilon$ lớn hơn ($47\\text{–}52\\%$) nhưng khối lượng riêng hạt $\\rho_P$ nhỏ hơn ($1.4\\text{–}1.8\\text{ g/mL}$) so với tầng cát ($2.65\\text{ g/mL}$) trên bài giảng.",
+            "Sự chênh lệch khối lượng riêng này giúp lớp than antraxit có kích thước hạt lớn vẫn tự phân tầng nằm phía trên lớp cát mịn sau mỗi chu kỳ sục rửa ngược."
+          ],
+          "brief": [
+            "Công thức xác định độ rỗng có dạng $\\epsilon = \\frac{V_V}{V_T} = \\frac{V_T - V_M}{V_T}$, trong đó $V_V$ là thể tích lỗ rỗng trong tầng lọc ($\\text{m}^3$), $V_T$ là tổng thể tích hình học của tầng lọc ($\\text{m}^3$) và $V_M$ là thể tích đặc của bản thân các hạt vật liệu ($\\text{m}^3$) trên bài giảng.",
+            "Sự chênh lệch khối lượng riêng này giúp lớp than antraxit có kích thước hạt lớn vẫn tự phân tầng nằm phía trên lớp cát mịn sau mỗi chu kỳ sục rửa ngược."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Độ rỗng tầng lọc $\\epsilon = (V_T, V_M)/V_T$ đạt $47\\text{, }52\\%$ với than antraxit và $40\\text{, }43\\%$ với cát. Khối lượng riêng nhỏ hơn giúp hạt than antraxit lớn tự phân tầng nằm trên lớp cát sau rửa ngược.",
+          "takeaway": "Độ rỗng tầng lọc $\\epsilon = (V_T, V_M)/V_T$ đạt $47\\text{, }52\\%$ với than antraxit và $40\\text{, }43\\%$ với cát",
+          "topic": "tầng lọc"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-thủy-lực-dòng-chảy-qua-lớp-hạt-cân-bằng-lực-rửa-ngược-và-giãn-nở-tầng-lọc-hydraulics-of-flow-backwash-force-balance-and-bed-expansion",
+      "num": "3",
+      "title": "Thủy Lực Dòng Chảy Qua Lớp Hạt, Cân Bằng Lực Rửa Ngược Và Giãn Nở Tầng Lọc (Hydraulics of Flow, Backwash Force Balance, and Bed Expansion)",
+      "depth": 1,
+      "takeaway": "Thủy lực lọc tuân theo phương trình Ergun, cân bằng $3\\text{ lực}$ rửa ngược và độ giãn nở $25\\text{, }37\\%$",
+      "topic": "Thủy lực lọc",
+      "units": [
+        {
+          "id": "p-56eef9d6",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Trạng thái thủy lực của dòng nước chảy qua lớp vật liệu hạt được đặc trưng bởi chuẩn số Reynolds và phương trình tổn thất áp lực qua tầng lọc sạch ([Page 6]) trên bài giảng. Chuẩn số Reynolds tính theo công thức $\\text{Re} = \\frac{\\rho_w v d}{\\mu}$, trong đó $\\rho_w$ là khối lượng riêng của nước ($\\text{kg/m}^3$), $v$ là vận tốc lọc bề mặt ($\\text{m/s}$), $d$ là đường kính hạt hoặc kích thước hữu hiệu $\\text{ES}$ ($\\text{m}$) và $\\mu$ là độ nhớt động lực học của nước ($\\text{Pa}\\cdot\\text{s}$) trên bài giảng. Tổn thất áp lực qua tầng vật liệu lọc sạch (Head loss through clean media bed) xác định theo phương trình Ergun trên Slide 12 gồm tổng thành phần nhớt $h_{L,V}$ và thành phần quán tính $h_{L,I}$ với chiều dày lớp vật liệu lọc $L$ ($\\text{m}$) và gia tốc $g = 9.81\\text{ m/s}^2$ trên bài giảng. Bảng hệ số tổn thất áp lực (Head loss coefficiency) trên Slide 12 quy định đối với cát (Sand) có hệ số nhớt $\\kappa_V = 110\\text{–}115$ và hệ số quán tính $\\kappa_I = 2.0\\text{–}2.5$, còn đối với than antraxit (Anthracite) có $\\kappa_V = 210\\text{–}245$ và $\\kappa_I = 3.5\\text{–}5.3$ trên bài giảng.",
+          "sentences": [
+            "Trạng thái thủy lực của dòng nước chảy qua lớp vật liệu hạt được đặc trưng bởi chuẩn số Reynolds và phương trình tổn thất áp lực qua tầng lọc sạch ([Page 6]) trên bài giảng.",
+            "Chuẩn số Reynolds tính theo công thức $\\text{Re} = \\frac{\\rho_w v d}{\\mu}$, trong đó $\\rho_w$ là khối lượng riêng của nước ($\\text{kg/m}^3$), $v$ là vận tốc lọc bề mặt ($\\text{m/s}$), $d$ là đường kính hạt hoặc kích thước hữu hiệu $\\text{ES}$ ($\\text{m}$) và $\\mu$ là độ nhớt động lực học của nước ($\\text{Pa}\\cdot\\text{s}$) trên bài giảng.",
+            "Tổn thất áp lực qua tầng vật liệu lọc sạch (Head loss through clean media bed) xác định theo phương trình Ergun trên Slide 12 gồm tổng thành phần nhớt $h_{L,V}$ và thành phần quán tính $h_{L,I}$ với chiều dày lớp vật liệu lọc $L$ ($\\text{m}$) và gia tốc $g = 9.81\\text{ m/s}^2$ trên bài giảng.",
+            "Bảng hệ số tổn thất áp lực (Head loss coefficiency) trên Slide 12 quy định đối với cát (Sand) có hệ số nhớt $\\kappa_V = 110\\text{–}115$ và hệ số quán tính $\\kappa_I = 2.0\\text{–}2.5$, còn đối với than antraxit (Anthracite) có $\\kappa_V = 210\\text{–}245$ và $\\kappa_I = 3.5\\text{–}5.3$ trên bài giảng."
+          ],
+          "brief": [
+            "Chuẩn số Reynolds tính theo công thức $\\text{Re} = \\frac{\\rho_w v d}{\\mu}$, trong đó $\\rho_w$ là khối lượng riêng của nước ($\\text{kg/m}^3$), $v$ là vận tốc lọc bề mặt ($\\text{m/s}$), $d$ là đường kính hạt hoặc kích thước hữu hiệu $\\text{ES}$ ($\\text{m}$) và $\\mu$ là độ nhớt động lực học của nước ($\\text{Pa}\\cdot\\text{s}$) trên bài giảng.",
+            "Tổn thất áp lực qua tầng vật liệu lọc sạch (Head loss through clean media bed) xác định theo phương trình Ergun trên Slide 12 gồm tổng thành phần nhớt $h_{L,V}$ và thành phần quán tính $h_{L,I}$ với chiều dày lớp vật liệu lọc $L$ ($\\text{m}$) và gia tốc $g = 9.81\\text{ m/s}^2$ trên bài giảng."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Phương trình Ergun tính tổn thất áp lực lọc sạch từ số Reynolds $\\text{Re} = \\rho_w v d / \\mu$. Hệ số nhớt $\\kappa_V$ đạt $110\\text{, }115$ cho cát và $210\\text{, }245$ cho than antraxit cùng hệ số quán tính $\\kappa_I$.",
+          "takeaway": "Phương trình Ergun tính tổn thất áp lực lọc sạch từ số Reynolds $\\text{Re} = \\rho_w v d / \\mu$",
+          "topic": "Phương trình Ergun"
+        },
+        {
+          "id": "p-7fa4115a",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Trong quá trình rửa ngược, sự dịch chuyển hoặc rửa trôi của một hạt đơn lẻ phụ thuộc vào phương trình cân bằng ba lực tác dụng theo phương thẳng đứng ([Page 7], [Page 8]) trên bài giảng. Tổng hợp lực hướng xuống tác dụng lên một hạt cầu đường kính $d$ là $\\sum F = F_g - F_b - F_d$, trong đó $F_g = \\rho_P V_P g$ là trọng lực hướng xuống ($\\text{N}$), $F_b = \\rho_w V_P g$ là lực đẩy nổi Archimedes hướng lên ($\\text{N}$) và $F_d$ là lực kéo thủy động của dòng nước rửa ngược hướng lên ($\\text{N}$) trên bài giảng. Thể tích của hạt cầu tính bằng $V_P = \\frac{\\pi d^3}{6}$ ($\\text{m}^3$), diện tích hình chiếu ngang của hạt vuông góc với phương dòng chảy là $A_p = \\frac{\\pi d^2}{4}$ ($\\text{m}^2$) và $v_{\\text{bw}}$ là vận tốc dòng nước rửa ngược ($\\text{m/s}$) trên bài giảng. Hệ số cản thủy lực $C_d$ phụ thuộc vào chuẩn số Reynolds rửa ngược $\\text{Re} = \\frac{\\rho_w v_{\\text{bw}} d}{\\mu}$ theo quy luật $C_d = \\frac{24}{\\text{Re}}$ khi $\\text{Re} < 2$ và $C_d = \\frac{18.5}{\\text{Re}^{0.6}}$ khi $2 \\le \\text{Re} \\le 500$, trong đó điều kiện $\\sum F < 0$ ($F_d > F_g - F_b$) làm hạt bị cuốn trôi ra khỏi bể lọc.",
+          "sentences": [
+            "Trong quá trình rửa ngược, sự dịch chuyển hoặc rửa trôi của một hạt đơn lẻ phụ thuộc vào phương trình cân bằng ba lực tác dụng theo phương thẳng đứng ([Page 7], [Page 8]) trên bài giảng.",
+            "Tổng hợp lực hướng xuống tác dụng lên một hạt cầu đường kính $d$ là $\\sum F = F_g - F_b - F_d$, trong đó $F_g = \\rho_P V_P g$ là trọng lực hướng xuống ($\\text{N}$), $F_b = \\rho_w V_P g$ là lực đẩy nổi Archimedes hướng lên ($\\text{N}$) và $F_d$ là lực kéo thủy động của dòng nước rửa ngược hướng lên ($\\text{N}$) trên bài giảng.",
+            "Thể tích của hạt cầu tính bằng $V_P = \\frac{\\pi d^3}{6}$ ($\\text{m}^3$), diện tích hình chiếu ngang của hạt vuông góc với phương dòng chảy là $A_p = \\frac{\\pi d^2}{4}$ ($\\text{m}^2$) và $v_{\\text{bw}}$ là vận tốc dòng nước rửa ngược ($\\text{m/s}$) trên bài giảng.",
+            "Hệ số cản thủy lực $C_d$ phụ thuộc vào chuẩn số Reynolds rửa ngược $\\text{Re} = \\frac{\\rho_w v_{\\text{bw}} d}{\\mu}$ theo quy luật $C_d = \\frac{24}{\\text{Re}}$ khi $\\text{Re} < 2$ và $C_d = \\frac{18.5}{\\text{Re}^{0.6}}$ khi $2 \\le \\text{Re} \\le 500$, trong đó điều kiện $\\sum F < 0$ ($F_d > F_g - F_b$) làm hạt bị cuốn trôi ra khỏi bể lọc."
+          ],
+          "brief": [
+            "Tổng hợp lực hướng xuống tác dụng lên một hạt cầu đường kính $d$ là $\\sum F = F_g - F_b - F_d$, trong đó $F_g = \\rho_P V_P g$ là trọng lực hướng xuống ($\\text{N}$), $F_b = \\rho_w V_P g$ là lực đẩy nổi Archimedes hướng lên ($\\text{N}$) và $F_d$ là lực kéo thủy động của dòng nước rửa ngược hướng lên ($\\text{N}$) trên bài giảng.",
+            "Hệ số cản thủy lực $C_d$ phụ thuộc vào chuẩn số Reynolds rửa ngược $\\text{Re} = \\frac{\\rho_w v_{\\text{bw}} d}{\\mu}$ theo quy luật $C_d = \\frac{24}{\\text{Re}}$ khi $\\text{Re} < 2$ và $C_d = \\frac{18.5}{\\text{Re}^{0.6}}$ khi $2 \\le \\text{Re} \\le 500$, trong đó điều kiện $\\sum F < 0$ ($F_d > F_g - F_b$) làm hạt bị cuốn trôi ra khỏi bể lọc."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Cân bằng lực rửa ngược $\\sum F = F_g, F_b, F_d < 0$ làm hạt cặn bị cuốn trôi khỏi bể. Hệ số cản $C_d = 24/\\text{Re}$ khi $\\text{Re} < 2$ và $C_d = 18.5/\\text{Re}^{0.6}$ khi $2 \\le \\text{Re} \\le 500$.",
+          "takeaway": "Cân bằng lực rửa ngược $\\sum F = F_g, F_b, F_d < 0$ làm hạt cặn bị cuốn trôi khỏi bể",
+          "topic": "lực rửa ngược"
+        },
+        {
+          "id": "p-d4620470",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Khi vận tốc rửa ngược tăng đủ lớn để làm lơ lửng các hạt vật liệu lọc, tầng vật liệu chuyển từ trạng thái tĩnh sang trạng thái giãn nở có độ rỗng cao hơn ([Page 9]) trên bài giảng. Tỷ lệ phần trăm giãn nở của tầng lọc trong quá trình rửa ngược (Bed expansion during backwash) tính từ tỉ số $\\frac{L_E}{L_F} = \\frac{1 - \\epsilon_F}{1 - \\epsilon_E}$, trong đó $L_F$ và $\\epsilon_F$ là chiều dày và độ rỗng của tầng lọc tĩnh, còn $L_E$ và $\\epsilon_E$ là chiều dày và độ rỗng của tầng lọc giãn nở. Nhằm làm sạch cặn bám mà không làm thất thoát vật liệu lọc, độ giãn nở tầng lọc phải nằm trong giới hạn thiết kế từ $25\\%$ đến $37\\%$ trên bài giảng. Giá trị độ rỗng của tầng lọc giãn nở $\\epsilon_E$ trên Slide 22 được tính trực tiếp từ phương trình căn bậc ba của hai đại lượng không thứ nguyên $X$ và $Y = \\frac{\\kappa_V \\mu v_{\\text{bw}}}{3 g (\\rho_P - \\rho_w) d^2}$ trên bài giảng.",
+          "sentences": [
+            "Khi vận tốc rửa ngược tăng đủ lớn để làm lơ lửng các hạt vật liệu lọc, tầng vật liệu chuyển từ trạng thái tĩnh sang trạng thái giãn nở có độ rỗng cao hơn ([Page 9]) trên bài giảng.",
+            "Tỷ lệ phần trăm giãn nở của tầng lọc trong quá trình rửa ngược (Bed expansion during backwash) tính từ tỉ số $\\frac{L_E}{L_F} = \\frac{1 - \\epsilon_F}{1 - \\epsilon_E}$, trong đó $L_F$ và $\\epsilon_F$ là chiều dày và độ rỗng của tầng lọc tĩnh, còn $L_E$ và $\\epsilon_E$ là chiều dày và độ rỗng của tầng lọc giãn nở.",
+            "Nhằm làm sạch cặn bám mà không làm thất thoát vật liệu lọc, độ giãn nở tầng lọc phải nằm trong giới hạn thiết kế từ $25\\%$ đến $37\\%$ trên bài giảng.",
+            "Giá trị độ rỗng của tầng lọc giãn nở $\\epsilon_E$ trên Slide 22 được tính trực tiếp từ phương trình căn bậc ba của hai đại lượng không thứ nguyên $X$ và $Y = \\frac{\\kappa_V \\mu v_{\\text{bw}}}{3 g (\\rho_P - \\rho_w) d^2}$ trên bài giảng."
+          ],
+          "brief": [
+            "Tỷ lệ phần trăm giãn nở của tầng lọc trong quá trình rửa ngược (Bed expansion during backwash) tính từ tỉ số $\\frac{L_E}{L_F} = \\frac{1 - \\epsilon_F}{1 - \\epsilon_E}$, trong đó $L_F$ và $\\epsilon_F$ là chiều dày và độ rỗng của tầng lọc tĩnh, còn $L_E$ và $\\epsilon_E$ là chiều dày và độ rỗng của tầng lọc giãn nở.",
+            "Nhằm làm sạch cặn bám mà không làm thất thoát vật liệu lọc, độ giãn nở tầng lọc phải nằm trong giới hạn thiết kế từ $25\\%$ đến $37\\%$ trên bài giảng."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Tỷ số giãn nở tầng lọc $L_E/L_F = (1, \\epsilon_F)/(1, \\epsilon_E)$ phải đạt từ $25\\%$ đến $37\\%$. Độ rỗng giãn nở $\\epsilon_E$ xác định từ phương trình căn bậc ba của hai hệ số không thứ nguyên $X$ và $Y$.",
+          "takeaway": "Tỷ số giãn nở tầng lọc $L_E/L_F = (1, \\epsilon_F)/(1, \\epsilon_E)$ phải đạt từ $25\\%$ đến $37\\%$",
+          "topic": "tầng lọc"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-thông-số-thiết-kế-bể-lọc-nhanh-và-đặc-điểm-bể-lọc-áp-lực-rapid-filter-design-parameters-and-pressure-filters",
+      "num": "4",
+      "title": "Thông Số Thiết Kế Bể Lọc Nhanh Và Đặc Điểm Bể Lọc Áp Lực (Rapid Filter Design Parameters and Pressure Filters)",
+      "depth": 1,
+      "takeaway": "Bể lọc nhanh thiết kế ở $v_F = 5\\text{, }15\\text{ m/h}$, diện tích $\\le 100\\text{ m}^2$ và thu hồi nước $> 95\\%$",
+      "topic": "Bể lọc nhanh",
+      "units": [
+        {
+          "id": "p-75772c81",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Bảng thông số thiết kế chuẩn cho bể lọc nhanh trọng lực (Typical design information on Slide 26) quy định đầy đủ các giới hạn thủy lực và hình học của công trình ([Page 10]) trên bài giảng. Vận tốc lọc thiết kế (Filtration rate) nằm trong khoảng $v_F = 5\\text{–}15\\text{ m}^3/(\\text{m}^2\\cdot\\text{h})$, diện tích bề mặt của mỗi ô bể lọc (Area of filter) phải thỏa mãn $A_{\\text{each}} \\le 100\\text{ m}^2$, và tổng chiều sâu xây dựng của bể (Depth) nằm trong khoảng $D = 4\\text{–}8\\text{ m}$ trên bài giảng. Chiều dày tầng vật liệu lọc tĩnh (Bed depth) lấy từ $0.6\\text{ m}$ đến $1.8\\text{ m}$, chiều cao lớp nước trên mặt vật liệu lọc (Water depth hay Available head) lấy từ $1.8\\text{ m}$ đến $3.0\\text{ m}$, và chiều dày hệ thống sàn thu nước dưới đáy (Underdrain depth) lấy từ $0.3\\text{ m}$ đến $0.6\\text{ m}$ trên bài giảng. Chiều cao đặt mép máng thu nước rửa lọc (Height of washwater trough) tính từ đáy lớp vật liệu phải bằng chiều cao tầng lọc giãn nở $L_E$ cộng thêm khoảng lưu không an toàn từ $0.3\\text{ m}$ đến $0.5\\text{ m}$ trên bài giảng.",
+          "sentences": [
+            "Bảng thông số thiết kế chuẩn cho bể lọc nhanh trọng lực (Typical design information on Slide 26) quy định đầy đủ các giới hạn thủy lực và hình học của công trình ([Page 10]) trên bài giảng.",
+            "Vận tốc lọc thiết kế (Filtration rate) nằm trong khoảng $v_F = 5\\text{–}15\\text{ m}^3/(\\text{m}^2\\cdot\\text{h})$, diện tích bề mặt của mỗi ô bể lọc (Area of filter) phải thỏa mãn $A_{\\text{each}} \\le 100\\text{ m}^2$, và tổng chiều sâu xây dựng của bể (Depth) nằm trong khoảng $D = 4\\text{–}8\\text{ m}$ trên bài giảng.",
+            "Chiều dày tầng vật liệu lọc tĩnh (Bed depth) lấy từ $0.6\\text{ m}$ đến $1.8\\text{ m}$, chiều cao lớp nước trên mặt vật liệu lọc (Water depth hay Available head) lấy từ $1.8\\text{ m}$ đến $3.0\\text{ m}$, và chiều dày hệ thống sàn thu nước dưới đáy (Underdrain depth) lấy từ $0.3\\text{ m}$ đến $0.6\\text{ m}$ trên bài giảng.",
+            "Chiều cao đặt mép máng thu nước rửa lọc (Height of washwater trough) tính từ đáy lớp vật liệu phải bằng chiều cao tầng lọc giãn nở $L_E$ cộng thêm khoảng lưu không an toàn từ $0.3\\text{ m}$ đến $0.5\\text{ m}$ trên bài giảng."
+          ],
+          "brief": [
+            "Vận tốc lọc thiết kế (Filtration rate) nằm trong khoảng $v_F = 5\\text{–}15\\text{ m}^3/(\\text{m}^2\\cdot\\text{h})$, diện tích bề mặt của mỗi ô bể lọc (Area of filter) phải thỏa mãn $A_{\\text{each}} \\le 100\\text{ m}^2$, và tổng chiều sâu xây dựng của bể (Depth) nằm trong khoảng $D = 4\\text{–}8\\text{ m}$ trên bài giảng.",
+            "Chiều cao đặt mép máng thu nước rửa lọc (Height of washwater trough) tính từ đáy lớp vật liệu phải bằng chiều cao tầng lọc giãn nở $L_E$ cộng thêm khoảng lưu không an toàn từ $0.3\\text{ m}$ đến $0.5\\text{ m}$ trên bài giảng."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Bể lọc nhanh trọng lực có vận tốc $v_F = 5\\text{, }15\\text{ m/h}$, diện tích $A_{\\text{each}} \\le 100\\text{ m}^2$ và sâu $D = 4\\text{, }8\\text{ m}$. Cao trình mép máng thu nước rửa bằng chiều dày tầng lọc giãn nở $L_E$ cộng thêm $0.3\\text{, }0.5\\text{ m}$.",
+          "takeaway": "Bể lọc nhanh trọng lực có vận tốc $v_F = 5\\text{, }15\\text{ m/h}$, diện tích $A_{\\text{each}} \\le 100\\text{ m}^2$ và sâu $D = 4\\text{, }8\\text{ m}$",
+          "topic": "Bể lọc nhanh"
+        },
+        {
+          "id": "p-3c072a0c",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Các thông số thời gian chu kỳ và kiểm tra hiệu suất thu hồi nước sạch của bể lọc nhanh được kiểm soát chặt chẽ để đảm bảo tính kinh tế của trạm xử lý ([Page 10]) trên bài giảng. Cường độ nước rửa ngược (Backwash rate) chọn trong khoảng $v_{\\text{bw}} = 30\\text{–}60\\text{ m}^3/(\\text{m}^2\\cdot\\text{h})$ với thời gian một lần rửa ngược (Backwash duration) kéo dài từ $10\\text{ phút}$ đến $20\\text{ phút}$ trên bài giảng. Thời gian một chu kỳ lọc (Filtration duration) kéo dài từ $1\\text{ ngày}$ đến $4\\text{ ngày}$, và thời gian lọc xả bỏ đầu chu kỳ (Ripening hay filter-to-waste duration) kéo dài từ $15\\text{ phút}$ đến $2\\text{ giờ}$ trên bài giảng. Tỷ lệ thu hồi nước sau lọc (Recovery rate, ký hiệu $R_{\\text{rec}}$) tính bằng tỷ số giữa thể tích nước sạch thu được trên một đơn vị diện tích lọc và tổng thể tích nước đã lọc trong một chu kỳ và bắt buộc phải đạt trên $95\\%$ trên bài giảng.",
+          "sentences": [
+            "Các thông số thời gian chu kỳ và kiểm tra hiệu suất thu hồi nước sạch của bể lọc nhanh được kiểm soát chặt chẽ để đảm bảo tính kinh tế của trạm xử lý ([Page 10]) trên bài giảng.",
+            "Cường độ nước rửa ngược (Backwash rate) chọn trong khoảng $v_{\\text{bw}} = 30\\text{–}60\\text{ m}^3/(\\text{m}^2\\cdot\\text{h})$ với thời gian một lần rửa ngược (Backwash duration) kéo dài từ $10\\text{ phút}$ đến $20\\text{ phút}$ trên bài giảng.",
+            "Thời gian một chu kỳ lọc (Filtration duration) kéo dài từ $1\\text{ ngày}$ đến $4\\text{ ngày}$, và thời gian lọc xả bỏ đầu chu kỳ (Ripening hay filter-to-waste duration) kéo dài từ $15\\text{ phút}$ đến $2\\text{ giờ}$ trên bài giảng.",
+            "Tỷ lệ thu hồi nước sau lọc (Recovery rate, ký hiệu $R_{\\text{rec}}$) tính bằng tỷ số giữa thể tích nước sạch thu được trên một đơn vị diện tích lọc và tổng thể tích nước đã lọc trong một chu kỳ và bắt buộc phải đạt trên $95\\%$ trên bài giảng."
+          ],
+          "brief": [
+            "Cường độ nước rửa ngược (Backwash rate) chọn trong khoảng $v_{\\text{bw}} = 30\\text{–}60\\text{ m}^3/(\\text{m}^2\\cdot\\text{h})$ với thời gian một lần rửa ngược (Backwash duration) kéo dài từ $10\\text{ phút}$ đến $20\\text{ phút}$ trên bài giảng.",
+            "Tỷ lệ thu hồi nước sau lọc (Recovery rate, ký hiệu $R_{\\text{rec}}$) tính bằng tỷ số giữa thể tích nước sạch thu được trên một đơn vị diện tích lọc và tổng thể tích nước đã lọc trong một chu kỳ và bắt buộc phải đạt trên $95\\%$ trên bài giảng."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Cường độ rửa ngược đạt $v_{\\text{bw}} = 30\\text{, }60\\text{ m/h}$ và tỷ lệ thu hồi nước sạch đạt $R_{\\text{rec}} > 95\\%$. Thời gian một chu kỳ lọc kéo dài $1\\text{, }4\\text{ ngày}$ kèm thời gian rửa ngược $10\\text{, }20\\text{ phút}$.",
+          "takeaway": "Cường độ rửa ngược đạt $v_{\\text{bw}} = 30\\text{, }60\\text{ m/h}$ và tỷ lệ thu hồi nước sạch đạt $R_{\\text{rec}} > 95\\%$",
+          "topic": "thu hồi nước"
+        },
+        {
+          "id": "p-0d838bf4",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Bên cạnh bể lọc nhanh trọng lực hở dùng cho các nhà máy công suất lớn, bể lọc áp lực (Pressure filter) được áp dụng phổ biến cho các trạm xử lý nước thải quy mô vừa và nhỏ ([Page 11]) trên bài giảng. Bể lọc áp lực có nguyên lý tính toán và cấu tạo tầng hạt tương tự như bể lọc nhanh nhưng toàn bộ lớp cát lọc, lớp sỏi đỡ và hệ thống ống thu nước (manifold and laterals) được đặt bên trong một bình thép kín chịu áp lực bơm. Do vận hành dưới áp suất cưỡng bức của máy bơm cấp nước đầu vào, bể lọc áp lực cho phép tổn thất áp lực giới hạn cuối chu kỳ (terminal headloss) lớn hơn nhiều so với bể lọc hở, giúp kéo dài thời gian chu kỳ lọc và giảm tần suất rửa ngược. Lượng áp suất dư của dòng nước sau khi đi qua bình lọc áp lực vẫn đủ lớn để tự chảy trực tiếp sang công trình tiếp theo như bể khử trùng mà không cần lắp đặt trạm bơm nâng áp trung gian, tuy nhiên người vận hành không thể quan sát trực tiếp mặt lớp vật liệu trong lúc lọc và rửa ngược.",
+          "sentences": [
+            "Bên cạnh bể lọc nhanh trọng lực hở dùng cho các nhà máy công suất lớn, bể lọc áp lực (Pressure filter) được áp dụng phổ biến cho các trạm xử lý nước thải quy mô vừa và nhỏ ([Page 11]) trên bài giảng.",
+            "Bể lọc áp lực có nguyên lý tính toán và cấu tạo tầng hạt tương tự như bể lọc nhanh nhưng toàn bộ lớp cát lọc, lớp sỏi đỡ và hệ thống ống thu nước (manifold and laterals) được đặt bên trong một bình thép kín chịu áp lực bơm.",
+            "Do vận hành dưới áp suất cưỡng bức của máy bơm cấp nước đầu vào, bể lọc áp lực cho phép tổn thất áp lực giới hạn cuối chu kỳ (terminal headloss) lớn hơn nhiều so với bể lọc hở, giúp kéo dài thời gian chu kỳ lọc và giảm tần suất rửa ngược.",
+            "Lượng áp suất dư của dòng nước sau khi đi qua bình lọc áp lực vẫn đủ lớn để tự chảy trực tiếp sang công trình tiếp theo như bể khử trùng mà không cần lắp đặt trạm bơm nâng áp trung gian, tuy nhiên người vận hành không thể quan sát trực tiếp mặt lớp vật liệu trong lúc lọc và rửa ngược."
+          ],
+          "brief": [
+            "Bể lọc áp lực có nguyên lý tính toán và cấu tạo tầng hạt tương tự như bể lọc nhanh nhưng toàn bộ lớp cát lọc, lớp sỏi đỡ và hệ thống ống thu nước (manifold and laterals) được đặt bên trong một bình thép kín chịu áp lực bơm.",
+            "Do vận hành dưới áp suất cưỡng bức của máy bơm cấp nước đầu vào, bể lọc áp lực cho phép tổn thất áp lực giới hạn cuối chu kỳ (terminal headloss) lớn hơn nhiều so với bể lọc hở, giúp kéo dài thời gian chu kỳ lọc và giảm tần suất rửa ngược."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Bể lọc áp lực đặt tầng hạt trong bình thép kín giúp tăng tổn thất giới hạn và kéo dài chu kỳ lọc. Áp suất dư sau bình lọc áp lực đẩy nước tự chảy sang bể khử trùng mà không cần trạm bơm trung gian.",
+          "takeaway": "Bể lọc áp lực đặt tầng hạt trong bình thép kín giúp tăng tổn thất giới hạn và kéo dài chu kỳ lọc",
+          "topic": "Bể lọc"
+        }
+      ]
+    },
+    {
+      "id": "sec-5-lời-giải-chi-tiết-bài-tập-thủy-lực-lọc-sạch-và-rửa-trôi-hạt-cặn-worked-solutions-for-examples-1-and-2",
+      "num": "5",
+      "title": "Lời Giải Chi Tiết Bài Tập Thủy Lực Lọc Sạch Và Rửa Trôi Hạt Cặn (Worked Solutions for Examples 1 and 2)",
+      "depth": 1,
+      "takeaway": "Mục $5$ giải chi tiết hai bài tập tổn thất áp lực lọc sạch và kiểm tra rửa trôi hạt cặn",
+      "topic": "tổn thất áp lực",
+      "units": [
+        {
+          "id": "p-acbea879",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Mục này trình bày lời giải chuẩn hóa 4 khối cho hai bài tập thủy lực lọc hạt đầu tiên trong bài giảng của TS. Nguyễn Hoàng Dũng ([Page 7], [Page 8]). Bài tập ch03_5_ex01 xác định tổn thất áp lực qua tầng lọc than antraxit sạch theo phương trình Ergun và bài tập ch03_5_ex02 kiểm tra điều kiện rửa trôi hạt cặn mịn trong quá trình rửa ngược.",
+          "sentences": [
+            "Mục này trình bày lời giải chuẩn hóa 4 khối cho hai bài tập thủy lực lọc hạt đầu tiên trong bài giảng của TS.",
+            "Nguyễn Hoàng Dũng ([Page 7], [Page 8]).",
+            "Bài tập ch03_5_ex01 xác định tổn thất áp lực qua tầng lọc than antraxit sạch theo phương trình Ergun và bài tập ch03_5_ex02 kiểm tra điều kiện rửa trôi hạt cặn mịn trong quá trình rửa ngược."
+          ],
+          "brief": [
+            "Mục này trình bày lời giải chuẩn hóa 4 khối cho hai bài tập thủy lực lọc hạt đầu tiên trong bài giảng của TS.",
+            "Bài tập ch03_5_ex01 xác định tổn thất áp lực qua tầng lọc than antraxit sạch theo phương trình Ergun và bài tập ch03_5_ex02 kiểm tra điều kiện rửa trôi hạt cặn mịn trong quá trình rửa ngược."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Lời giải $4\\text{ khối}$ xác định tổn thất áp lực phương trình Ergun và cân bằng lực rửa trôi hạt. Hai bài tập áp dụng trực tiếp công thức thủy lực trên Slide $12$ và Slide $17$ của bài giảng.",
+          "takeaway": "Lời giải $4\\text{ khối}$ xác định tổn thất áp lực phương trình Ergun và cân bằng lực rửa trôi hạt",
+          "topic": "tổn thất áp lực"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch03_5_ex01-slide-1315-ảnh-chụp-lớp-học-5052-tính-tổn-thất-áp-lực-qua-tầng-lọc-than-antraxit-sạch",
+      "num": "",
+      "title": "Bài tập ch03_5_ex01 (Slide 13–15, Ảnh chụp lớp học #50–#52): Tính Tổn Thất Áp Lực Qua Tầng Lọc Than Antraxit Sạch",
+      "depth": 2,
+      "takeaway": "Tầng lọc than antraxit dày $L = 1.8\\text{ m}$ ở $v = 15\\text{ m/h}$ có tổng tổn thất áp lực $h_L = 0.5\\text{ m}$",
+      "topic": "Tầng lọc",
+      "units": [
+        {
+          "id": "p-dac21a1a",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #50, #51, #52, Slide $13\\text{–}15$): Tính tổn thất áp lực qua tầng vật liệu lọc sạch $h_L$ của bể lọc nhanh một lớp than antraxit tầng sâu có chiều dày $L = 1.8\\text{ m}$ và đường kính hữu hiệu $\\text{ES} = 0.95\\text{ mm}$ [Page 7]. Hệ thống vận hành ở vận tốc lọc $v = 15\\text{ m/h}$ và nhiệt độ nước đầu vào $T = 15^\\circ\\text{C}$ [Page 6] [Page 7].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #50, #51, #52, Slide $13\\text{–}15$): Tính tổn thất áp lực qua tầng vật liệu lọc sạch $h_L$ của bể lọc nhanh một lớp than antraxit tầng sâu có chiều dày $L = 1.8\\text{ m}$ và đường kính hữu hiệu $\\text{ES} = 0.95\\text{ mm}$ [Page 7].",
+            "Hệ thống vận hành ở vận tốc lọc $v = 15\\text{ m/h}$ và nhiệt độ nước đầu vào $T = 15^\\circ\\text{C}$ [Page 6] [Page 7]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #50, #51, #52, Slide $13\\text{–}15$): Tính tổn thất áp lực qua tầng vật liệu lọc sạch $h_L$ của bể lọc nhanh một lớp than antraxit tầng sâu có chiều dày $L = 1.8\\text{ m}$ và đường kính hữu hiệu $\\text{ES} = 0.95\\text{ mm}$ [Page 7].",
+            "Hệ thống vận hành ở vận tốc lọc $v = 15\\text{ m/h}$ và nhiệt độ nước đầu vào $T = 15^\\circ\\text{C}$ [Page 6] [Page 7]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài tính tổn thất áp lực $h_L$ qua lớp than antraxit dày $L = 1.8\\text{ m}$ và $\\text{ES} = 0.95\\text{ mm}$. Bể lọc vận hành ở vận tốc lọc $v = 15\\text{ m/h}$ và nhiệt độ nước $T = 15^\\circ\\text{C}$.",
+          "takeaway": "Đề bài tính tổn thất áp lực $h_L$ qua lớp than antraxit dày $L = 1.8\\text{ m}$ và $\\text{ES} = 0.95\\text{ mm}$",
+          "topic": "tổn thất áp lực"
+        },
+        {
+          "id": "p-ff4c80c3",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Quy đổi vận tốc lọc và kiểm tra chuẩn số Reynolds dòng thấm: Kỹ sư đổi vận tốc lọc từ $v = 15\\text{ m/h}$ sang đơn vị chuẩn là $v = 0.004167\\text{ m/s}$ trên Slide $14$ [Page 6] [Page 7]. Chuẩn số Reynolds của dòng chảy qua lớp hạt than antraxit đạt $\\text{Re} = 3.47$ [Page 6].",
+          "sentences": [
+            "Bước 1 - Quy đổi vận tốc lọc và kiểm tra chuẩn số Reynolds dòng thấm: Kỹ sư đổi vận tốc lọc từ $v = 15\\text{ m/h}$ sang đơn vị chuẩn là $v = 0.004167\\text{ m/s}$ trên Slide $14$ [Page 6] [Page 7].",
+            "Chuẩn số Reynolds của dòng chảy qua lớp hạt than antraxit đạt $\\text{Re} = 3.47$ [Page 6]."
+          ],
+          "brief": [
+            "Bước 1 - Quy đổi vận tốc lọc và kiểm tra chuẩn số Reynolds dòng thấm: Kỹ sư đổi vận tốc lọc từ $v = 15\\text{ m/h}$ sang đơn vị chuẩn là $v = 0.004167\\text{ m/s}$ trên Slide $14$ [Page 6] [Page 7].",
+            "Chuẩn số Reynolds của dòng chảy qua lớp hạt than antraxit đạt $\\text{Re} = 3.47$ [Page 6]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Vận tốc lọc quy đổi đạt $v = 0.004167\\text{ m/s}$ và chuẩn số Reynolds dòng thấm đạt $\\text{Re} = 3.47$. Phép tính sử dụng khối lượng riêng $\\rho_w = 999.1\\text{ kg/m}^3$ và độ nhớt $\\mu = 1.139 \\times 10^{-3}\\text{ Pa}\\cdot\\text{s}$.",
+          "takeaway": "Vận tốc lọc quy đổi đạt $v = 0.004167\\text{ m/s}$ và chuẩn số Reynolds dòng thấm đạt $\\text{Re} = 3.47$",
+          "topic": "Vận tốc lọc"
+        },
+        {
+          "id": "p-9a8f3348",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính thành phần tổn thất áp lực do lực ma sát nhớt: Áp dụng số hạng thứ nhất của phương trình Ergun trên Slide $12$ và Slide $15$ với hệ số $\\kappa_V = 228$ và độ rỗng $\\epsilon = 0.50$ [Page 6] [Page 7]. Thành phần tổn thất áp lực nhớt qua lớp than antraxit sạch đạt $h_{L,V} = 0.44\\text{ m}$ [Page 7].",
+          "sentences": [
+            "Bước 2 - Tính thành phần tổn thất áp lực do lực ma sát nhớt: Áp dụng số hạng thứ nhất của phương trình Ergun trên Slide $12$ và Slide $15$ với hệ số $\\kappa_V = 228$ và độ rỗng $\\epsilon = 0.50$ [Page 6] [Page 7].",
+            "Thành phần tổn thất áp lực nhớt qua lớp than antraxit sạch đạt $h_{L,V} = 0.44\\text{ m}$ [Page 7]."
+          ],
+          "brief": [
+            "Bước 2 - Tính thành phần tổn thất áp lực do lực ma sát nhớt: Áp dụng số hạng thứ nhất của phương trình Ergun trên Slide $12$ và Slide $15$ với hệ số $\\kappa_V = 228$ và độ rỗng $\\epsilon = 0.50$ [Page 6] [Page 7].",
+            "Thành phần tổn thất áp lực nhớt qua lớp than antraxit sạch đạt $h_{L,V} = 0.44\\text{ m}$ [Page 7]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Thành phần tổn thất áp lực do ma sát nhớt qua lớp than antraxit đạt $h_{L,V} = 0.44\\text{ m}$. Số hạng thứ nhất phương trình Ergun tính với hệ số $\\kappa_V = 228$ và độ rỗng tĩnh $\\epsilon = 0.50$.",
+          "takeaway": "Thành phần tổn thất áp lực do ma sát nhớt qua lớp than antraxit đạt $h_{L,V} = 0.44\\text{ m}$",
+          "topic": "ma sát nhớt"
+        },
+        {
+          "id": "p-4268c53f",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính thành phần tổn thất áp lực do lực quán tính: Áp dụng số hạng thứ hai của phương trình Ergun trên Slide $12$ và Slide $15$ với hệ số quán tính $\\kappa_I = 4.4$ [Page 6] [Page 7]. Thành phần tổn thất áp lực cục bộ do quán tính đạt $h_{L,I} = 0.06\\text{ m}$ [Page 7].",
+          "sentences": [
+            "Bước 3 - Tính thành phần tổn thất áp lực do lực quán tính: Áp dụng số hạng thứ hai của phương trình Ergun trên Slide $12$ và Slide $15$ với hệ số quán tính $\\kappa_I = 4.4$ [Page 6] [Page 7].",
+            "Thành phần tổn thất áp lực cục bộ do quán tính đạt $h_{L,I} = 0.06\\text{ m}$ [Page 7]."
+          ],
+          "brief": [
+            "Bước 3 - Tính thành phần tổn thất áp lực do lực quán tính: Áp dụng số hạng thứ hai của phương trình Ergun trên Slide $12$ và Slide $15$ với hệ số quán tính $\\kappa_I = 4.4$ [Page 6] [Page 7].",
+            "Thành phần tổn thất áp lực cục bộ do quán tính đạt $h_{L,I} = 0.06\\text{ m}$ [Page 7]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Thành phần tổn thất áp lực cục bộ do lực quán tính qua lớp lọc đạt $h_{L,I} = 0.06\\text{ m}$. Số hạng thứ hai phương trình Ergun tính với hệ số quán tính $\\kappa_I = 4.4$ của than antraxit.",
+          "takeaway": "Thành phần tổn thất áp lực cục bộ do lực quán tính qua lớp lọc đạt $h_{L,I} = 0.06\\text{ m}$",
+          "topic": "lực quán tính"
+        },
+        {
+          "id": "p-ac2dada4",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính tổng tổn thất áp lực qua tầng vật liệu lọc sạch: Cộng hai thành phần tổn thất nhớt và quán tính theo lời giải trên Slide $15$, ta xác định được tổng tổn thất áp lực ban đầu là $h_L = 0.5\\text{ m}$ [Page 7]. Nếu sử dụng bể lọc hai lớp vật liệu thì tổng tổn thất áp lực bằng tổng tổn thất của từng lớp cộng lại [Page 7].",
+          "sentences": [
+            "Bước 4 - Tính tổng tổn thất áp lực qua tầng vật liệu lọc sạch: Cộng hai thành phần tổn thất nhớt và quán tính theo lời giải trên Slide $15$, ta xác định được tổng tổn thất áp lực ban đầu là $h_L = 0.5\\text{ m}$ [Page 7].",
+            "Nếu sử dụng bể lọc hai lớp vật liệu thì tổng tổn thất áp lực bằng tổng tổn thất của từng lớp cộng lại [Page 7]."
+          ],
+          "brief": [
+            "Bước 4 - Tính tổng tổn thất áp lực qua tầng vật liệu lọc sạch: Cộng hai thành phần tổn thất nhớt và quán tính theo lời giải trên Slide $15$, ta xác định được tổng tổn thất áp lực ban đầu là $h_L = 0.5\\text{ m}$ [Page 7].",
+            "Nếu sử dụng bể lọc hai lớp vật liệu thì tổng tổn thất áp lực bằng tổng tổn thất của từng lớp cộng lại [Page 7]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng tổn thất áp lực qua tầng lọc than antraxit sạch bằng $h_L = 0.44 + 0.06 = 0.5\\text{ m}$. Đối với bể lọc hai lớp vật liệu, tổng tổn thất áp lực bằng tổng tổn thất của từng lớp cộng lại.",
+          "takeaway": "Tổng tổn thất áp lực qua tầng lọc than antraxit sạch bằng $h_L = 0.44 + 0.06 = 0.5\\text{ m}$",
+          "topic": "Tổng tổn thất"
+        },
+        {
+          "id": "p-a6060ae3",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Tổn thất áp lực ban đầu nhỏ hơn nhiều so với cột nước khả dụng của bể lọc nhanh [Page 7] [Page 10].",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng.",
+            "Tổn thất áp lực ban đầu nhỏ hơn nhiều so với cột nước khả dụng của bể lọc nhanh [Page 7] [Page 10]."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Tổn thất áp lực ban đầu nhỏ hơn nhiều so với cột nước khả dụng của bể lọc nhanh [Page 7] [Page 10]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Tổn thất áp lực ban đầu $h_L = 0.5\\text{ m}$ nhỏ hơn nhiều so với cột nước khả dụng $1.8\\text{, }3.0\\text{ m}$. Toàn bộ thông số vật liệu than antraxit đều nằm trong giới hạn chuẩn trên Slide $9$ và Slide $12$.",
+          "takeaway": "Tổn thất áp lực ban đầu $h_L = 0.5\\text{ m}$ nhỏ hơn nhiều so với cột nước khả dụng $1.8\\text{, }3.0\\text{ m}$",
+          "topic": "Tổn thất áp lực"
+        },
+        {
+          "id": "p-61bbef62",
+          "kind": "list item",
+          "role": "result",
+          "full": "Chuẩn số Reynolds dòng lọc ($\\text{Re}$): $\\text{Re} = 3.47$ (Kiểm tra: $\\text{Re} = 3.47\\text{ thuộc miền áp dụng phương trình Ergun — Đạt chuẩn Slide } 11\\text{–}12$)",
+          "sentences": [
+            "Chuẩn số Reynolds dòng lọc ($\\text{Re}$): $\\text{Re} = 3.47$ (Kiểm tra: $\\text{Re} = 3.47\\text{ thuộc miền áp dụng phương trình Ergun — Đạt chuẩn Slide } 11\\text{–}12$)"
+          ],
+          "brief": [
+            "Chuẩn số Reynolds dòng lọc ($\\text{Re}$): $\\text{Re} = 3.47$ (Kiểm tra: $\\text{Re} = 3.47\\text{ thuộc miền áp dụng phương trình Ergun — Đạt chuẩn Slide } 11\\text{–}12$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Chuẩn số Reynolds dòng lọc đạt $\\text{Re} = 3.47$ thuộc miền áp dụng phương trình Ergun.",
+          "takeaway": "Chuẩn số Reynolds dòng lọc đạt $\\text{Re} = 3.47$ thuộc miền áp dụng phương trình Ergun",
+          "topic": "Chuẩn số Reynolds"
+        },
+        {
+          "id": "p-c617e442",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổn thất áp lực thành phần nhớt ($h_{L,V}$): $0.44\\text{ m}$ (Kiểm tra: $\\kappa_V = 228 \\in [210, 245]\\text{ và }\\epsilon = 0.50 \\in [0.47, 0.52]\\text{ — Đạt chuẩn Slide } 9, 12$)",
+          "sentences": [
+            "Tổn thất áp lực thành phần nhớt ($h_{L,V}$): $0.44\\text{ m}$ (Kiểm tra: $\\kappa_V = 228 \\in [210, 245]\\text{ và }\\epsilon = 0.50 \\in [0.47, 0.52]\\text{ — Đạt chuẩn Slide } 9, 12$)"
+          ],
+          "brief": [
+            "Tổn thất áp lực thành phần nhớt ($h_{L,V}$): $0.44\\text{ m}$ (Kiểm tra: $\\kappa_V = 228 \\in [210, 245]\\text{ và }\\epsilon = 0.50 \\in [0.47, 0.52]\\text{ — Đạt chuẩn Slide } 9, 12$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổn thất áp lực thành phần nhớt đạt $h_{L,V} = 0.44\\text{ m}$ với $\\kappa_V = 228$ và $\\epsilon = 0.50$.",
+          "takeaway": "Tổn thất áp lực thành phần nhớt đạt $h_{L,V} = 0.44\\text{ m}$ với $\\kappa_V = 228$ và $\\epsilon = 0.50$",
+          "topic": "Tổn thất áp lực"
+        },
+        {
+          "id": "p-4b04632d",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổn thất áp lực thành phần quán tính ($h_{L,I}$): $0.06\\text{ m}$ (Kiểm tra: $\\kappa_I = 4.4 \\in [3.5, 5.3]\\text{ — Đạt chuẩn Slide } 12, 15$)",
+          "sentences": [
+            "Tổn thất áp lực thành phần quán tính ($h_{L,I}$): $0.06\\text{ m}$ (Kiểm tra: $\\kappa_I = 4.4 \\in [3.5, 5.3]\\text{ — Đạt chuẩn Slide } 12, 15$)"
+          ],
+          "brief": [
+            "Tổn thất áp lực thành phần quán tính ($h_{L,I}$): $0.06\\text{ m}$ (Kiểm tra: $\\kappa_I = 4.4 \\in [3.5, 5.3]\\text{ — Đạt chuẩn Slide } 12, 15$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổn thất áp lực thành phần quán tính đạt $h_{L,I} = 0.06\\text{ m}$ với hệ số $\\kappa_I = 4.4$.",
+          "takeaway": "Tổn thất áp lực thành phần quán tính đạt $h_{L,I} = 0.06\\text{ m}$ với hệ số $\\kappa_I = 4.4$",
+          "topic": "thành phần quán tính"
+        },
+        {
+          "id": "p-c4f03670",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổng tổn thất áp lực qua tầng lọc sạch ($h_L$): $0.5\\text{ m}$ (Kiểm tra: $h_L = 0.5\\text{ m} < 1.8\\text{–}3.0\\text{ m cột nước khả dụng — Đạt chuẩn Slide } 15, 26$)",
+          "sentences": [
+            "Tổng tổn thất áp lực qua tầng lọc sạch ($h_L$): $0.5\\text{ m}$ (Kiểm tra: $h_L = 0.5\\text{ m} < 1.8\\text{–}3.0\\text{ m cột nước khả dụng — Đạt chuẩn Slide } 15, 26$)"
+          ],
+          "brief": [
+            "Tổng tổn thất áp lực qua tầng lọc sạch ($h_L$): $0.5\\text{ m}$ (Kiểm tra: $h_L = 0.5\\text{ m} < 1.8\\text{–}3.0\\text{ m cột nước khả dụng — Đạt chuẩn Slide } 15, 26$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng tổn thất áp lực lọc sạch đạt $h_L = 0.5\\text{ m}$ thỏa mãn cột nước khả dụng $1.8\\text{, }3.0\\text{ m}$.",
+          "takeaway": "Tổng tổn thất áp lực lọc sạch đạt $h_L = 0.5\\text{ m}$ thỏa mãn cột nước khả dụng $1.8\\text{, }3.0\\text{ m}$",
+          "topic": "Tổng tổn thất"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch03_5_ex02-slide-1820-khôi-phục-theo-chuẩn-slide-17-kiểm-tra-khả-năng-rửa-trôi-hạt-cặn-khi-rửa-ngược-bể-lọc",
+      "num": "",
+      "title": "Bài tập ch03_5_ex02 (Slide 18–20, Khôi phục theo chuẩn Slide 17): Kiểm Tra Khả Năng Rửa Trôi Hạt Cặn Khi Rửa Ngược Bể Lọc",
+      "depth": 2,
+      "takeaway": "Khi rửa ngược ở $v_{\\text{bw}} = 50\\text{ m/h}$, hạt mịn $d = 0.1\\text{ mm}$ chịu hợp lực $\\sum F = -6.43 \\times 10^{-9}\\text{ N} < 0$ nên bị cuốn trôi",
+      "topic": "hạt mịn",
+      "units": [
+        {
+          "id": "p-f0f26757",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy] — Slide $17\\text{–}20$): Một bể lọc nhanh được sục rửa ngược ở cường độ $v_{\\text{bw}} = 50\\text{ m/h}$ tại nhiệt độ nước $T = 15^\\circ\\text{C}$ [Page 8]. Hãy xác định xem hạt rắn lơ lửng có đường kính $d = 0.1\\text{ mm}$ có bị dòng nước rửa ngược cuốn trôi ra khỏi bể lọc hay không [Page 7] [Page 8].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy] — Slide $17\\text{–}20$): Một bể lọc nhanh được sục rửa ngược ở cường độ $v_{\\text{bw}} = 50\\text{ m/h}$ tại nhiệt độ nước $T = 15^\\circ\\text{C}$ [Page 8].",
+            "Hãy xác định xem hạt rắn lơ lửng có đường kính $d = 0.1\\text{ mm}$ có bị dòng nước rửa ngược cuốn trôi ra khỏi bể lọc hay không [Page 7] [Page 8]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy] — Slide $17\\text{–}20$): Một bể lọc nhanh được sục rửa ngược ở cường độ $v_{\\text{bw}} = 50\\text{ m/h}$ tại nhiệt độ nước $T = 15^\\circ\\text{C}$ [Page 8].",
+            "Hãy xác định xem hạt rắn lơ lửng có đường kính $d = 0.1\\text{ mm}$ có bị dòng nước rửa ngược cuốn trôi ra khỏi bể lọc hay không [Page 7] [Page 8]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài kiểm tra khả năng rửa trôi hạt rắn $d = 0.1\\text{ mm}$ khi rửa ngược ở $v_{\\text{bw}} = 50\\text{ m/h}$. Quá trình rửa ngược diễn ra ở nhiệt độ nước $T = 15^\\circ\\text{C}$ với khối lượng riêng hạt $\\rho_P = 2,650\\text{ kg/m}^3$.",
+          "takeaway": "Đề bài kiểm tra khả năng rửa trôi hạt rắn $d = 0.1\\text{ mm}$ khi rửa ngược ở $v_{\\text{bw}} = 50\\text{ m/h}$",
+          "topic": "Đề bài kiểm tra"
+        },
+        {
+          "id": "p-c81e39ce",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính chuẩn số Reynolds rửa ngược và hệ số cản thủy lực của hạt: Đổi vận tốc rửa ngược $v_{\\text{bw}} = 50\\text{ m/h}$ sang $v_{\\text{bw}} = 0.01389\\text{ m/s}$ và thay vào công thức Reynolds trên Slide $17$ thu được $\\text{Re} = 1.22$ [Page 8]. Vì $\\text{Re} = 1.22 < 2$ thuộc chế độ chảy tầng Stokes, hệ số cản thủy lực của hạt đạt $C_d = 19.7$ [Page 8].",
+          "sentences": [
+            "Bước 1 - Tính chuẩn số Reynolds rửa ngược và hệ số cản thủy lực của hạt: Đổi vận tốc rửa ngược $v_{\\text{bw}} = 50\\text{ m/h}$ sang $v_{\\text{bw}} = 0.01389\\text{ m/s}$ và thay vào công thức Reynolds trên Slide $17$ thu được $\\text{Re} = 1.22$ [Page 8].",
+            "Vì $\\text{Re} = 1.22 < 2$ thuộc chế độ chảy tầng Stokes, hệ số cản thủy lực của hạt đạt $C_d = 19.7$ [Page 8]."
+          ],
+          "brief": [
+            "Bước 1 - Tính chuẩn số Reynolds rửa ngược và hệ số cản thủy lực của hạt: Đổi vận tốc rửa ngược $v_{\\text{bw}} = 50\\text{ m/h}$ sang $v_{\\text{bw}} = 0.01389\\text{ m/s}$ và thay vào công thức Reynolds trên Slide $17$ thu được $\\text{Re} = 1.22$ [Page 8].",
+            "Vì $\\text{Re} = 1.22 < 2$ thuộc chế độ chảy tầng Stokes, hệ số cản thủy lực của hạt đạt $C_d = 19.7$ [Page 8]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tại vận tốc rửa ngược $v_{\\text{bw}} = 0.01389\\text{ m/s}$, chuẩn số Reynolds đạt $\\text{Re} = 1.22$ và hệ số cản đạt $C_d = 19.7$. Do $\\text{Re} = 1.22 < 2$ thuộc vùng chảy tầng Stokes nên hệ số cản tính theo công thức $C_d = 24/\\text{Re}$.",
+          "takeaway": "Tại vận tốc rửa ngược $v_{\\text{bw}} = 0.01389\\text{ m/s}$, chuẩn số Reynolds đạt $\\text{Re} = 1.22$ và hệ số cản đạt $C_d = 19.7$",
+          "topic": "vận tốc rửa ngược"
+        },
+        {
+          "id": "p-339c5018",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính thể tích hạt cầu và diện tích hình chiếu ngang của hạt: Áp dụng công thức hình học hạt cầu đường kính $d = 1.0 \\times 10^{-4}\\text{ m}$ trên Slide $17$, thể tích hạt đạt $V_P = 5.24 \\times 10^{-13}\\text{ m}^3$ [Page 8]. Diện tích hình chiếu của hạt vuông góc với phương dòng chảy rửa ngược đạt $A_p = 7.85 \\times 10^{-9}\\text{ m}^2$ [Page 8].",
+          "sentences": [
+            "Bước 2 - Tính thể tích hạt cầu và diện tích hình chiếu ngang của hạt: Áp dụng công thức hình học hạt cầu đường kính $d = 1.0 \\times 10^{-4}\\text{ m}$ trên Slide $17$, thể tích hạt đạt $V_P = 5.24 \\times 10^{-13}\\text{ m}^3$ [Page 8].",
+            "Diện tích hình chiếu của hạt vuông góc với phương dòng chảy rửa ngược đạt $A_p = 7.85 \\times 10^{-9}\\text{ m}^2$ [Page 8]."
+          ],
+          "brief": [
+            "Bước 2 - Tính thể tích hạt cầu và diện tích hình chiếu ngang của hạt: Áp dụng công thức hình học hạt cầu đường kính $d = 1.0 \\times 10^{-4}\\text{ m}$ trên Slide $17$, thể tích hạt đạt $V_P = 5.24 \\times 10^{-13}\\text{ m}^3$ [Page 8].",
+            "Diện tích hình chiếu của hạt vuông góc với phương dòng chảy rửa ngược đạt $A_p = 7.85 \\times 10^{-9}\\text{ m}^2$ [Page 8]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Hạt cầu đường kính $d = 10^{-4}\\text{ m}$ có thể tích $V_P = 5.24 \\times 10^{-13}\\text{ m}^3$ và diện tích cản $A_p = 7.85 \\times 10^{-9}\\text{ m}^2$. Thể tích và diện tích hình chiếu ngang tính trực tiếp từ đường kính hạt $d = 0.1\\text{ mm}$.",
+          "takeaway": "Hạt cầu đường kính $d = 10^{-4}\\text{ m}$ có thể tích $V_P = 5.24 \\times 10^{-13}\\text{ m}^3$ và diện tích cản $A_p = 7.85 \\times 10^{-9}\\text{ m}^2$",
+          "topic": "Hạt cầu"
+        },
+        {
+          "id": "p-7ee2ea0f",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính trọng lượng ngập nước hướng xuống và lực kéo rửa ngược hướng lên: Hiệu số giữa trọng lực $F_g$ và lực đẩy nổi Archimedes $F_b$ hướng thẳng đứng xuống dưới đạt giá trị $F_g - F_b = 8.48 \\times 10^{-9}\\text{ N}$ [Page 7] [Page 8]. Lực kéo thủy động của dòng nước rửa ngược hướng thẳng đứng lên trên đạt $F_d = 1.49 \\times 10^{-8}\\text{ N}$ (tức $14.91 \\times 10^{-9}\\text{ N}$) [Page 8].",
+          "sentences": [
+            "Bước 3 - Tính trọng lượng ngập nước hướng xuống và lực kéo rửa ngược hướng lên: Hiệu số giữa trọng lực $F_g$ và lực đẩy nổi Archimedes $F_b$ hướng thẳng đứng xuống dưới đạt giá trị $F_g - F_b = 8.48 \\times 10^{-9}\\text{ N}$ [Page 7] [Page 8].",
+            "Lực kéo thủy động của dòng nước rửa ngược hướng thẳng đứng lên trên đạt $F_d = 1.49 \\times 10^{-8}\\text{ N}$ (tức $14.91 \\times 10^{-9}\\text{ N}$) [Page 8]."
+          ],
+          "brief": [
+            "Bước 3 - Tính trọng lượng ngập nước hướng xuống và lực kéo rửa ngược hướng lên: Hiệu số giữa trọng lực $F_g$ và lực đẩy nổi Archimedes $F_b$ hướng thẳng đứng xuống dưới đạt giá trị $F_g - F_b = 8.48 \\times 10^{-9}\\text{ N}$ [Page 7] [Page 8].",
+            "Lực kéo thủy động của dòng nước rửa ngược hướng thẳng đứng lên trên đạt $F_d = 1.49 \\times 10^{-8}\\text{ N}$ (tức $14.91 \\times 10^{-9}\\text{ N}$) [Page 8]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Trọng lượng ngập nước hướng xuống đạt $F_g, F_b = 8.48 \\times 10^{-9}\\text{ N}$ nhỏ hơn lực kéo $F_d = 1.49 \\times 10^{-8}\\text{ N}$. Dòng nước rửa ngược hướng thẳng đứng lên trên tạo ra lực kéo thủy động $14.91 \\times 10^{-9}\\text{ N}$.",
+          "takeaway": "Trọng lượng ngập nước hướng xuống đạt $F_g, F_b = 8.48 \\times 10^{-9}\\text{ N}$ nhỏ hơn lực kéo $F_d = 1.49 \\times 10^{-8}\\text{ N}$",
+          "topic": "Trọng lượng ngập"
+        },
+        {
+          "id": "p-e6393c78",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Xác định hợp lực thẳng đứng và đối chiếu phân bố cỡ hạt trong bể lọc: Thay các thành phần lực vào phương trình cân bằng lực trên Slide $17$, hợp lực hướng xuống đạt $\\sum F = -6.43 \\times 10^{-9}\\text{ N} < 0$ [Page 7] [Page 8]. Do lực kéo hướng lên $F_d$ lớn gấp $1.76\\text{ lần}$ trọng lượng ngập nước $F_g - F_b$, hạt mịn $d = 0.1\\text{ mm}$ bị cuốn trôi hoàn toàn khỏi bể lọc trong khi hạt cát lọc chuẩn $d = 0.5\\text{ mm}$ vẫn được giữ lại trong tầng lọc [Page 8].",
+          "sentences": [
+            "Bước 4 - Xác định hợp lực thẳng đứng và đối chiếu phân bố cỡ hạt trong bể lọc: Thay các thành phần lực vào phương trình cân bằng lực trên Slide $17$, hợp lực hướng xuống đạt $\\sum F = -6.43 \\times 10^{-9}\\text{ N} < 0$ [Page 7] [Page 8].",
+            "Do lực kéo hướng lên $F_d$ lớn gấp $1.76\\text{ lần}$ trọng lượng ngập nước $F_g - F_b$, hạt mịn $d = 0.1\\text{ mm}$ bị cuốn trôi hoàn toàn khỏi bể lọc trong khi hạt cát lọc chuẩn $d = 0.5\\text{ mm}$ vẫn được giữ lại trong tầng lọc [Page 8]."
+          ],
+          "brief": [
+            "Bước 4 - Xác định hợp lực thẳng đứng và đối chiếu phân bố cỡ hạt trong bể lọc: Thay các thành phần lực vào phương trình cân bằng lực trên Slide $17$, hợp lực hướng xuống đạt $\\sum F = -6.43 \\times 10^{-9}\\text{ N} < 0$ [Page 7] [Page 8].",
+            "Do lực kéo hướng lên $F_d$ lớn gấp $1.76\\text{ lần}$ trọng lượng ngập nước $F_g - F_b$, hạt mịn $d = 0.1\\text{ mm}$ bị cuốn trôi hoàn toàn khỏi bể lọc trong khi hạt cát lọc chuẩn $d = 0.5\\text{ mm}$ vẫn được giữ lại trong tầng lọc [Page 8]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Hợp lực hướng xuống đạt $\\sum F = -6.43 \\times 10^{-9}\\text{ N} < 0$ làm hạt mịn $d = 0.1\\text{ mm}$ bị cuốn trôi khỏi bể. Ngược lại, hạt cát lọc chuẩn $d = 0.5\\text{ mm}$ có hợp lực dương $+9.42 \\times 10^{-7}\\text{ N}$ nên được giữ lại trong bể.",
+          "takeaway": "Hợp lực hướng xuống đạt $\\sum F = -6.43 \\times 10^{-9}\\text{ N} < 0$ làm hạt mịn $d = 0.1\\text{ mm}$ bị cuốn trôi khỏi bể",
+          "topic": "Hợp lực"
+        },
+        {
+          "id": "p-7a83dcd6",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Phép kiểm tra cân bằng lực chứng minh chế độ rửa ngược tách bỏ hiệu quả hạt cặn bẩn $0.1\\text{ mm}$ mà không làm trôi hạt cát lọc [Page 7] [Page 8].",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng.",
+            "Phép kiểm tra cân bằng lực chứng minh chế độ rửa ngược tách bỏ hiệu quả hạt cặn bẩn $0.1\\text{ mm}$ mà không làm trôi hạt cát lọc [Page 7] [Page 8]."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Phép kiểm tra cân bằng lực chứng minh chế độ rửa ngược tách bỏ hiệu quả hạt cặn bẩn $0.1\\text{ mm}$ mà không làm trôi hạt cát lọc [Page 7] [Page 8]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Chế độ rửa ngược $v_{\\text{bw}} = 50\\text{ m/h}$ tách bỏ hoàn toàn hạt cặn $0.1\\text{ mm}$ mà không làm trôi cát lọc. Các thông số thủy lực thỏa mãn đầy đủ phương trình cân bằng lực trên Slide $17$ của bài giảng.",
+          "takeaway": "Chế độ rửa ngược $v_{\\text{bw}} = 50\\text{ m/h}$ tách bỏ hoàn toàn hạt cặn $0.1\\text{ mm}$ mà không làm trôi cát lọc",
+          "topic": "Chế độ rửa ngược"
+        },
+        {
+          "id": "p-b5508774",
+          "kind": "list item",
+          "role": "result",
+          "full": "Chuẩn số Reynolds và hệ số cản hạt ($\\text{Re}, C_d$): $\\text{Re} = 1.22$, $C_d = 19.7$ (Kiểm tra: $\\text{Re} = 1.22 < 2\\text{ thỏa mãn công thức Stokes } C_d = 24/\\text{Re}\\text{ — Đạt chuẩn Slide } 17$)",
+          "sentences": [
+            "Chuẩn số Reynolds và hệ số cản hạt ($\\text{Re}, C_d$): $\\text{Re} = 1.22$, $C_d = 19.7$ (Kiểm tra: $\\text{Re} = 1.22 < 2\\text{ thỏa mãn công thức Stokes } C_d = 24/\\text{Re}\\text{ — Đạt chuẩn Slide } 17$)"
+          ],
+          "brief": [
+            "Chuẩn số Reynolds và hệ số cản hạt ($\\text{Re}, C_d$): $\\text{Re} = 1.22$, $C_d = 19.7$ (Kiểm tra: $\\text{Re} = 1.22 < 2\\text{ thỏa mãn công thức Stokes } C_d = 24/\\text{Re}\\text{ — Đạt chuẩn Slide } 17$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Chuẩn số Reynolds hạt đạt $\\text{Re} = 1.22 < 2$ và hệ số cản thủy lực đạt $C_d = 19.7$.",
+          "takeaway": "Chuẩn số Reynolds hạt đạt $\\text{Re} = 1.22 < 2$ và hệ số cản thủy lực đạt $C_d = 19.7$",
+          "topic": "Chuẩn số Reynolds"
+        },
+        {
+          "id": "p-eecd4924",
+          "kind": "list item",
+          "role": "result",
+          "full": "Trọng lượng ngập nước hướng xuống ($F_g - F_b$): $8.48 \\times 10^{-9}\\text{ N}$ (Kiểm tra: $V_P = 5.24 \\times 10^{-13}\\text{ m}^3\\text{ tại }\\rho_P = 2,650\\text{ kg/m}^3\\text{ — Đạt chuẩn Slide } 9, 17$)",
+          "sentences": [
+            "Trọng lượng ngập nước hướng xuống ($F_g - F_b$): $8.48 \\times 10^{-9}\\text{ N}$ (Kiểm tra: $V_P = 5.24 \\times 10^{-13}\\text{ m}^3\\text{ tại }\\rho_P = 2,650\\text{ kg/m}^3\\text{ — Đạt chuẩn Slide } 9, 17$)"
+          ],
+          "brief": [
+            "Trọng lượng ngập nước hướng xuống ($F_g - F_b$): $8.48 \\times 10^{-9}\\text{ N}$ (Kiểm tra: $V_P = 5.24 \\times 10^{-13}\\text{ m}^3\\text{ tại }\\rho_P = 2,650\\text{ kg/m}^3\\text{ — Đạt chuẩn Slide } 9, 17$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Trọng lượng ngập nước hướng xuống của hạt đạt $F_g, F_b = 8.48 \\times 10^{-9}\\text{ N}$ tại $\\rho_P = 2,650\\text{ kg/m}^3$.",
+          "takeaway": "Trọng lượng ngập nước hướng xuống của hạt đạt $F_g, F_b = 8.48 \\times 10^{-9}\\text{ N}$ tại $\\rho_P = 2,650\\text{ kg/m}^3$",
+          "topic": "Trọng lượng ngập"
+        },
+        {
+          "id": "p-9b37a89d",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lực kéo dòng rửa ngược hướng lên ($F_d$): $1.49 \\times 10^{-8}\\text{ N}$ (Kiểm tra: $A_p = 7.85 \\times 10^{-9}\\text{ m}^2\\text{ tại }v_{\\text{bw}} = 0.01389\\text{ m/s — Đạt chuẩn Slide } 17, 18$)",
+          "sentences": [
+            "Lực kéo dòng rửa ngược hướng lên ($F_d$): $1.49 \\times 10^{-8}\\text{ N}$ (Kiểm tra: $A_p = 7.85 \\times 10^{-9}\\text{ m}^2\\text{ tại }v_{\\text{bw}} = 0.01389\\text{ m/s — Đạt chuẩn Slide } 17, 18$)"
+          ],
+          "brief": [
+            "Lực kéo dòng rửa ngược hướng lên ($F_d$): $1.49 \\times 10^{-8}\\text{ N}$ (Kiểm tra: $A_p = 7.85 \\times 10^{-9}\\text{ m}^2\\text{ tại }v_{\\text{bw}} = 0.01389\\text{ m/s — Đạt chuẩn Slide } 17, 18$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lực kéo dòng nước rửa ngược hướng lên đạt $F_d = 1.49 \\times 10^{-8}\\text{ N}$ tại $v_{\\text{bw}} = 0.01389\\text{ m/s}$.",
+          "takeaway": "Lực kéo dòng nước rửa ngược hướng lên đạt $F_d = 1.49 \\times 10^{-8}\\text{ N}$ tại $v_{\\text{bw}} = 0.01389\\text{ m/s}$",
+          "topic": "Lực kéo"
+        },
+        {
+          "id": "p-719187a9",
+          "kind": "list item",
+          "role": "result",
+          "full": "Hợp lực tác dụng lên hạt ($\\sum F$): $-6.43 \\times 10^{-9}\\text{ N} < 0$ (Kiểm tra: $F_d > F_g - F_b\\text{ nên hạt }0.1\\text{ mm bị rửa trôi khỏi bể lọc — Đạt chuẩn Slide } 16\\text{–}18$)",
+          "sentences": [
+            "Hợp lực tác dụng lên hạt ($\\sum F$): $-6.43 \\times 10^{-9}\\text{ N} < 0$ (Kiểm tra: $F_d > F_g - F_b\\text{ nên hạt }0.1\\text{ mm bị rửa trôi khỏi bể lọc — Đạt chuẩn Slide } 16\\text{–}18$)"
+          ],
+          "brief": [
+            "Hợp lực tác dụng lên hạt ($\\sum F$): $-6.43 \\times 10^{-9}\\text{ N} < 0$ (Kiểm tra: $F_d > F_g - F_b\\text{ nên hạt }0.1\\text{ mm bị rửa trôi khỏi bể lọc — Đạt chuẩn Slide } 16\\text{–}18$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hợp lực tác dụng lên hạt đạt $\\sum F = -6.43 \\times 10^{-9}\\text{ N} < 0$ nên hạt $0.1\\text{ mm}$ bị rửa trôi.",
+          "takeaway": "Hợp lực tác dụng lên hạt đạt $\\sum F = -6.43 \\times 10^{-9}\\text{ N} < 0$ nên hạt $0.1\\text{ mm}$ bị rửa trôi",
+          "topic": "Hợp lực"
+        }
+      ]
+    },
+    {
+      "id": "sec-6-lời-giải-chi-tiết-bài-tập-giãn-nở-tầng-cát-và-thiết-kế-bể-lọc-nhanh-hai-lớp-worked-solutions-for-examples-3-and-4",
+      "num": "6",
+      "title": "Lời Giải Chi Tiết Bài Tập Giãn Nở Tầng Cát Và Thiết Kế Bể Lọc Nhanh Hai Lớp (Worked Solutions for Examples 3 and 4)",
+      "depth": 1,
+      "takeaway": "Mục $6$ giải chi tiết bài tập giãn nở tầng cát và bài tập thiết kế bể lọc nhanh hai lớp",
+      "topic": "tầng cát",
+      "units": [
+        {
+          "id": "p-1ff35e98",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Mục này trình bày lời giải chuẩn hóa 4 khối cho bài tập tính độ giãn nở tầng lọc cát (ch03_5_ex03) và bài tập thiết kế toàn diện hệ thống bể lọc nhanh hai lớp vật liệu (ch03_5_ex04) ([Page 9], [Page 10], [Page 11]). Toàn bộ các bước tính toán và bảng tổng hợp kiểm tra điều kiện biên bám sát số liệu trên slide bài giảng và sơ đồ bảng phấn tại lớp học.",
+          "sentences": [
+            "Mục này trình bày lời giải chuẩn hóa 4 khối cho bài tập tính độ giãn nở tầng lọc cát (ch03_5_ex03) và bài tập thiết kế toàn diện hệ thống bể lọc nhanh hai lớp vật liệu (ch03_5_ex04) ([Page 9], [Page 10], [Page 11]).",
+            "Toàn bộ các bước tính toán và bảng tổng hợp kiểm tra điều kiện biên bám sát số liệu trên slide bài giảng và sơ đồ bảng phấn tại lớp học."
+          ],
+          "brief": [
+            "Mục này trình bày lời giải chuẩn hóa 4 khối cho bài tập tính độ giãn nở tầng lọc cát (ch03_5_ex03) và bài tập thiết kế toàn diện hệ thống bể lọc nhanh hai lớp vật liệu (ch03_5_ex04) ([Page 9], [Page 10], [Page 11]).",
+            "Toàn bộ các bước tính toán và bảng tổng hợp kiểm tra điều kiện biên bám sát số liệu trên slide bài giảng và sơ đồ bảng phấn tại lớp học."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Lời giải $4\\text{ khối}$ xác định độ giãn nở tầng cát và thiết kế toàn diện bể lọc nhanh hai lớp. Các bước giải đối chiếu trực tiếp số liệu trên Slide $23\\text{, }31$ và bảng phấn lớp học.",
+          "takeaway": "Lời giải $4\\text{ khối}$ xác định độ giãn nở tầng cát và thiết kế toàn diện bể lọc nhanh hai lớp",
+          "topic": "bể lọc nhanh"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch03_5_ex03-slide-2325-ảnh-chụp-lớp-học-53-184-185-tính-độ-rỗng-và-chiều-dày-tầng-cát-giãn-nở-khi-rửa-ngược",
+      "num": "",
+      "title": "Bài tập ch03_5_ex03 (Slide 23–25, Ảnh chụp lớp học #53, #184, #185): Tính Độ Rỗng Và Chiều Dày Tầng Cát Giãn Nở Khi Rửa Ngược",
+      "depth": 2,
+      "takeaway": "Tầng cát dày $L_F = 0.9\\text{ m}$ rửa ngược ở $v_{\\text{bw}} = 40\\text{ m/h}$ có $\\epsilon_E = 0.57$, $L_E = 1.21\\text{ m}$ và giãn nở $34\\%$",
+      "topic": "Tầng cát",
+      "units": [
+        {
+          "id": "p-674bf27e",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #185, #53, #184, Slide $23\\text{–}25$): Xác định chiều dày tầng vật liệu giãn nở $L_E$ và tỷ lệ phần trăm giãn nở của bể lọc cát khi sục rửa ngược ở cường độ $v_{\\text{bw}} = 40\\text{ m/h}$ [Page 9] [Page 10]. Biết chiều dày tầng cát tĩnh ban đầu là $L_F = 0.9\\text{ m}$ và nhiệt độ nước rửa ngược là $T = 15^\\circ\\text{C}$ [Page 9] [Page 10].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #185, #53, #184, Slide $23\\text{–}25$): Xác định chiều dày tầng vật liệu giãn nở $L_E$ và tỷ lệ phần trăm giãn nở của bể lọc cát khi sục rửa ngược ở cường độ $v_{\\text{bw}} = 40\\text{ m/h}$ [Page 9] [Page 10].",
+            "Biết chiều dày tầng cát tĩnh ban đầu là $L_F = 0.9\\text{ m}$ và nhiệt độ nước rửa ngược là $T = 15^\\circ\\text{C}$ [Page 9] [Page 10]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] — Ảnh lớp học #185, #53, #184, Slide $23\\text{–}25$): Xác định chiều dày tầng vật liệu giãn nở $L_E$ và tỷ lệ phần trăm giãn nở của bể lọc cát khi sục rửa ngược ở cường độ $v_{\\text{bw}} = 40\\text{ m/h}$ [Page 9] [Page 10].",
+            "Biết chiều dày tầng cát tĩnh ban đầu là $L_F = 0.9\\text{ m}$ và nhiệt độ nước rửa ngược là $T = 15^\\circ\\text{C}$ [Page 9] [Page 10]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài tính chiều dày giãn nở $L_E$ của tầng cát $L_F = 0.9\\text{ m}$ khi rửa ngược ở $v_{\\text{bw}} = 40\\text{ m/h}$. Quá trình rửa ngược thực hiện ở nhiệt độ nước $T = 15^\\circ\\text{C}$ với cỡ hạt cát chọn $d = 0.5\\text{ mm}$.",
+          "takeaway": "Đề bài tính chiều dày giãn nở $L_E$ của tầng cát $L_F = 0.9\\text{ m}$ khi rửa ngược ở $v_{\\text{bw}} = 40\\text{ m/h}$",
+          "topic": "chiều dày giãn nở"
+        },
+        {
+          "id": "p-10f84036",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính đại lượng phụ trợ không thứ nguyên $X$ của phương trình giãn nở: Thay các thông số vật liệu cát đã chọn trên Slide $24$ vào biểu thức $X$ trên Slide $22$ và Slide $25$ [Page 9]. Kết quả tính toán cho giá trị đại lượng phụ trợ thứ nhất là $X = 0.1921$ [Page 9].",
+          "sentences": [
+            "Bước 1 - Tính đại lượng phụ trợ không thứ nguyên $X$ của phương trình giãn nở: Thay các thông số vật liệu cát đã chọn trên Slide $24$ vào biểu thức $X$ trên Slide $22$ và Slide $25$ [Page 9].",
+            "Kết quả tính toán cho giá trị đại lượng phụ trợ thứ nhất là $X = 0.1921$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 1 - Tính đại lượng phụ trợ không thứ nguyên $X$ của phương trình giãn nở: Thay các thông số vật liệu cát đã chọn trên Slide $24$ vào biểu thức $X$ trên Slide $22$ và Slide $25$ [Page 9].",
+            "Kết quả tính toán cho giá trị đại lượng phụ trợ thứ nhất là $X = 0.1921$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đại lượng phụ trợ không thứ nguyên thứ nhất của phương trình giãn nở đạt $X = 0.1921$. Biểu thức $X$ tính từ hệ số quán tính $\\kappa_I = 2.25$, vận tốc $v_{\\text{bw}} = 0.011\\text{ m/s}$ và $d = 0.0005\\text{ m}$.",
+          "takeaway": "Đại lượng phụ trợ không thứ nguyên thứ nhất của phương trình giãn nở đạt $X = 0.1921$",
+          "topic": "phương trình giãn nở"
+        },
+        {
+          "id": "p-fb7715c5",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính đại lượng phụ trợ không thứ nguyên $Y$ của phương trình giãn nở: Thay hệ số nhớt $\\kappa_V = 112$ và vận tốc rửa ngược $v_{\\text{bw}} = 0.011\\text{ m/s}$ vào biểu thức $Y$ trên Slide $22$ và Slide $25$ [Page 9]. Giá trị đại lượng phụ trợ thứ hai đạt $Y = 0.1168$ [Page 9].",
+          "sentences": [
+            "Bước 2 - Tính đại lượng phụ trợ không thứ nguyên $Y$ của phương trình giãn nở: Thay hệ số nhớt $\\kappa_V = 112$ và vận tốc rửa ngược $v_{\\text{bw}} = 0.011\\text{ m/s}$ vào biểu thức $Y$ trên Slide $22$ và Slide $25$ [Page 9].",
+            "Giá trị đại lượng phụ trợ thứ hai đạt $Y = 0.1168$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 2 - Tính đại lượng phụ trợ không thứ nguyên $Y$ của phương trình giãn nở: Thay hệ số nhớt $\\kappa_V = 112$ và vận tốc rửa ngược $v_{\\text{bw}} = 0.011\\text{ m/s}$ vào biểu thức $Y$ trên Slide $22$ và Slide $25$ [Page 9].",
+            "Giá trị đại lượng phụ trợ thứ hai đạt $Y = 0.1168$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đại lượng phụ trợ không thứ nguyên thứ hai của phương trình giãn nở đạt $Y = 0.1168$. Biểu thức $Y$ tính từ hệ số nhớt $\\kappa_V = 112$, độ nhớt $\\mu = 1.139 \\times 10^{-3}\\text{ Pa}\\cdot\\text{s}$ và $\\rho_P = 2,650\\text{ kg/m}^3$.",
+          "takeaway": "Đại lượng phụ trợ không thứ nguyên thứ hai của phương trình giãn nở đạt $Y = 0.1168$",
+          "topic": "phương trình giãn nở"
+        },
+        {
+          "id": "p-c1d2fc97",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính độ rỗng của tầng cát ở trạng thái giãn nở $\\epsilon_E$: Thay cặp giá trị $X = 0.1921$ và $Y = 0.1168$ vào phương trình căn bậc ba Cardano trên Slide $22$ và Slide $25$ [Page 9]. Độ rỗng của tầng cát trong quá trình rửa ngược tăng từ $\\epsilon_F = 0.42$ lên $\\epsilon_E = 0.57$ [Page 9].",
+          "sentences": [
+            "Bước 3 - Tính độ rỗng của tầng cát ở trạng thái giãn nở $\\epsilon_E$: Thay cặp giá trị $X = 0.1921$ và $Y = 0.1168$ vào phương trình căn bậc ba Cardano trên Slide $22$ và Slide $25$ [Page 9]. Độ rỗng của tầng cát trong quá trình rửa ngược tăng từ $\\epsilon_F = 0.42$ lên $\\epsilon_E = 0.57$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 3 - Tính độ rỗng của tầng cát ở trạng thái giãn nở $\\epsilon_E$: Thay cặp giá trị $X = 0.1921$ và $Y = 0.1168$ vào phương trình căn bậc ba Cardano trên Slide $22$ và Slide $25$ [Page 9]. Độ rỗng của tầng cát trong quá trình rửa ngược tăng từ $\\epsilon_F = 0.42$ lên $\\epsilon_E = 0.57$ [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Độ rỗng của tầng cát khi rửa ngược tăng từ $\\epsilon_F = 0.42$ lên trạng thái giãn nở $\\epsilon_E = 0.57$. Giá trị $\\epsilon_E = 0.57$ thu được bằng cách thay $X = 0.1921$ và $Y = 0.1168$ vào công thức căn bậc ba Cardano.",
+          "takeaway": "Độ rỗng của tầng cát khi rửa ngược tăng từ $\\epsilon_F = 0.42$ lên trạng thái giãn nở $\\epsilon_E = 0.57$",
+          "topic": "tầng cát"
+        },
+        {
+          "id": "p-5840f094",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính chiều dày tầng cát giãn nở $L_E$ và kiểm tra phần trăm độ giãn nở: Từ phương trình bảo toàn thể tích hạt rắn trên Slide $21$ và Slide $25$, chiều dày tầng cát khi giãn nở đạt $L_E = 1.21\\text{ m}$ [Page 9]. Tỷ lệ phần trăm giãn nở của tầng lọc đạt $E_{\\text{bed}} = 34\\%$, thỏa mãn hoàn toàn miền thiết kế chuẩn từ $25\\%$ đến $37\\%$ trên Slide $21$ [Page 9].",
+          "sentences": [
+            "Bước 4 - Tính chiều dày tầng cát giãn nở $L_E$ và kiểm tra phần trăm độ giãn nở: Từ phương trình bảo toàn thể tích hạt rắn trên Slide $21$ và Slide $25$, chiều dày tầng cát khi giãn nở đạt $L_E = 1.21\\text{ m}$ [Page 9].",
+            "Tỷ lệ phần trăm giãn nở của tầng lọc đạt $E_{\\text{bed}} = 34\\%$, thỏa mãn hoàn toàn miền thiết kế chuẩn từ $25\\%$ đến $37\\%$ trên Slide $21$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 4 - Tính chiều dày tầng cát giãn nở $L_E$ và kiểm tra phần trăm độ giãn nở: Từ phương trình bảo toàn thể tích hạt rắn trên Slide $21$ và Slide $25$, chiều dày tầng cát khi giãn nở đạt $L_E = 1.21\\text{ m}$ [Page 9].",
+            "Tỷ lệ phần trăm giãn nở của tầng lọc đạt $E_{\\text{bed}} = 34\\%$, thỏa mãn hoàn toàn miền thiết kế chuẩn từ $25\\%$ đến $37\\%$ trên Slide $21$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Chiều dày tầng cát giãn nở đạt $L_E = 1.21\\text{ m}$ tương ứng tỷ lệ giãn nở $E_{\\text{bed}} = 34\\%$. Độ giãn nở $34\\%$ nằm hoàn toàn trong khoảng tiêu chuẩn thiết kế từ $25\\%$ đến $37\\%$ trên Slide $21$.",
+          "takeaway": "Chiều dày tầng cát giãn nở đạt $L_E = 1.21\\text{ m}$ tương ứng tỷ lệ giãn nở $E_{\\text{bed}} = 34\\%$",
+          "topic": "Chiều dày tầng cát"
+        },
+        {
+          "id": "p-9dad39af",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Độ giãn nở $34\\%$ đảm bảo rửa sạch cặn bám trong khe rỗng mà không làm trôi hạt cát lọc qua máng thu nước [Page 9] [Page 10].",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng. Độ giãn nở $34\\%$ đảm bảo rửa sạch cặn bám trong khe rỗng mà không làm trôi hạt cát lọc qua máng thu nước [Page 9] [Page 10]."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng. Độ giãn nở $34\\%$ đảm bảo rửa sạch cặn bám trong khe rỗng mà không làm trôi hạt cát lọc qua máng thu nước [Page 9] [Page 10]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Độ giãn nở $34\\%$ giúp làm sạch cặn bám trong khe rỗng mà không làm trôi cát lọc qua máng thu. Toàn bộ hệ số vật liệu cát đã chọn đều thỏa mãn giới hạn chuẩn trên Slide $9$ và Slide $12$.",
+          "takeaway": "Độ giãn nở $34\\%$ giúp làm sạch cặn bám trong khe rỗng mà không làm trôi cát lọc qua máng thu",
+          "topic": "Độ giãn nở"
+        },
+        {
+          "id": "p-41bf588e",
+          "kind": "list item",
+          "role": "result",
+          "full": "Hai đại lượng không thứ nguyên ($X, Y$): $X = 0.1921$, $Y = 0.1168$ (Kiểm tra: $\\kappa_V = 112 \\in [110, 115],\\;\\kappa_I = 2.25 \\in [2.0, 2.5]\\text{ — Đạt chuẩn Slide } 12, 24\\text{–}25$)",
+          "sentences": [
+            "Hai đại lượng không thứ nguyên ($X, Y$): $X = 0.1921$, $Y = 0.1168$ (Kiểm tra: $\\kappa_V = 112 \\in [110, 115],\\;\\kappa_I = 2.25 \\in [2.0, 2.5]\\text{ — Đạt chuẩn Slide } 12, 24\\text{–}25$)"
+          ],
+          "brief": [
+            "Hai đại lượng không thứ nguyên ($X, Y$): $X = 0.1921$, $Y = 0.1168$ (Kiểm tra: $\\kappa_V = 112 \\in [110, 115],\\;\\kappa_I = 2.25 \\in [2.0, 2.5]\\text{ — Đạt chuẩn Slide } 12, 24\\text{–}25$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hai đại lượng không thứ nguyên đạt $X = 0.1921$ và $Y = 0.1168$ với $\\kappa_V = 112, \\kappa_I = 2.25$.",
+          "takeaway": "Hai đại lượng không thứ nguyên đạt $X = 0.1921$ và $Y = 0.1168$ với $\\kappa_V = 112, \\kappa_I = 2.25$",
+          "topic": "Hai đại lượng"
+        },
+        {
+          "id": "p-94aeea1a",
+          "kind": "list item",
+          "role": "result",
+          "full": "Độ rỗng tầng cát giãn nở ($\\epsilon_E$): $\\epsilon_E = 0.57$ (Kiểm tra: $\\epsilon_E = 0.57 > \\epsilon_F = 0.42\\text{ — Đạt chuẩn Slide } 25$)",
+          "sentences": [
+            "Độ rỗng tầng cát giãn nở ($\\epsilon_E$): $\\epsilon_E = 0.57$ (Kiểm tra: $\\epsilon_E = 0.57 > \\epsilon_F = 0.42\\text{ — Đạt chuẩn Slide } 25$)"
+          ],
+          "brief": [
+            "Độ rỗng tầng cát giãn nở ($\\epsilon_E$): $\\epsilon_E = 0.57$ (Kiểm tra: $\\epsilon_E = 0.57 > \\epsilon_F = 0.42\\text{ — Đạt chuẩn Slide } 25$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Độ rỗng tầng cát giãn nở đạt $\\epsilon_E = 0.57$ lớn hơn độ rỗng tĩnh ban đầu $\\epsilon_F = 0.42$.",
+          "takeaway": "Độ rỗng tầng cát giãn nở đạt $\\epsilon_E = 0.57$ lớn hơn độ rỗng tĩnh ban đầu $\\epsilon_F = 0.42$",
+          "topic": "Độ rỗng"
+        },
+        {
+          "id": "p-b17bfb8a",
+          "kind": "list item",
+          "role": "result",
+          "full": "Chiều dày tầng cát giãn nở ($L_E$): $1.21\\text{ m}$ (Kiểm tra: $L_E = 1.21\\text{ m} > L_F = 0.90\\text{ m — Đạt chuẩn Slide } 25$)",
+          "sentences": [
+            "Chiều dày tầng cát giãn nở ($L_E$): $1.21\\text{ m}$ (Kiểm tra: $L_E = 1.21\\text{ m} > L_F = 0.90\\text{ m — Đạt chuẩn Slide } 25$)"
+          ],
+          "brief": [
+            "Chiều dày tầng cát giãn nở ($L_E$): $1.21\\text{ m}$ (Kiểm tra: $L_E = 1.21\\text{ m} > L_F = 0.90\\text{ m — Đạt chuẩn Slide } 25$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Chiều dày tầng cát giãn nở đạt $L_E = 1.21\\text{ m}$ tăng thêm $0.31\\text{ m}$ so với $L_F = 0.90\\text{ m}$.",
+          "takeaway": "Chiều dày tầng cát giãn nở đạt $L_E = 1.21\\text{ m}$ tăng thêm $0.31\\text{ m}$ so với $L_F = 0.90\\text{ m}$",
+          "topic": "Chiều dày tầng cát"
+        },
+        {
+          "id": "p-ae50b233",
+          "kind": "list item",
+          "role": "result",
+          "full": "Độ giãn nở tầng vật liệu lọc ($E_{\\text{bed}}$): $34\\%$ (Kiểm tra: $25\\% \\le 34\\% \\le 37\\%\\text{ — Đạt chuẩn Slide } 21, 25$)",
+          "sentences": [
+            "Độ giãn nở tầng vật liệu lọc ($E_{\\text{bed}}$): $34\\%$ (Kiểm tra: $25\\% \\le 34\\% \\le 37\\%\\text{ — Đạt chuẩn Slide } 21, 25$)"
+          ],
+          "brief": [
+            "Độ giãn nở tầng vật liệu lọc ($E_{\\text{bed}}$): $34\\%$ (Kiểm tra: $25\\% \\le 34\\% \\le 37\\%\\text{ — Đạt chuẩn Slide } 21, 25$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Độ giãn nở tầng vật liệu lọc đạt $E_{\\text{bed}} = 34\\%$ thuộc miền chuẩn $25\\%$ đến $37\\%$.",
+          "takeaway": "Độ giãn nở tầng vật liệu lọc đạt $E_{\\text{bed}} = 34\\%$ thuộc miền chuẩn $25\\%$ đến $37\\%$",
+          "topic": "vật liệu lọc"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch03_5_ex04-slide-2731-ảnh-chụp-lớp-học-5456-184-thiết-kế-hệ-thống-bể-lọc-nhanh-hai-lớp-vật-liệu-cát-và-than-antraxit",
+      "num": "",
+      "title": "Bài tập ch03_5_ex04 (Slide 27–31, Ảnh chụp lớp học #54–#56, #184): Thiết Kế Hệ Thống Bể Lọc Nhanh Hai Lớp Vật Liệu Cát Và Than Antraxit",
+      "depth": 2,
+      "takeaway": "Trạm lọc $Q = 230,000\\text{ m}^3\\text{/ngày}$ gồm $9\\text{ bể}$ ($10\\text{ m} \\times 8\\text{ m} \\times 4\\text{ m}$) có thu hồi nước $R_{\\text{rec}} = 96.5\\%$",
+      "topic": "Trạm lọc",
+      "units": [
+        {
+          "id": "p-05e514d6",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy] trên Slide $28, 29, 31$ tại Ảnh #54, #55, #56 kết hợp [Lời giải khôi phục theo chuẩn slide của thầy] trên Slide $30$ và bảng phấn Ảnh #184): Thiết kế hệ thống bể lọc nhanh hai lớp vật liệu (gồm lớp cát thạch anh và lớp than antraxit) cho nhà máy xử lý nước thải có công suất thiết kế $Q = 230,000\\text{ m}^3\\text{/ngày}$ [Page 10] [Page 11]. Nội dung thiết kế bao gồm xác định tổng diện tích lọc, số lượng ô bể lọc, kích thước hình học mỗi bể, chiều cao đặt máng thu nước rửa ngược và kiểm tra tỷ lệ thu hồi nước sạch sau lọc [Page 10] [Page 11].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] trên Slide $28, 29, 31$ tại Ảnh #54, #55, #56 kết hợp [Lời giải khôi phục theo chuẩn slide của thầy] trên Slide $30$ và bảng phấn Ảnh #184): Thiết kế hệ thống bể lọc nhanh hai lớp vật liệu (gồm lớp cát thạch anh và lớp than antraxit) cho nhà máy xử lý nước thải có công suất thiết kế $Q = 230,000\\text{ m}^3\\text{/ngày}$ [Page 10] [Page 11].",
+            "Nội dung thiết kế bao gồm xác định tổng diện tích lọc, số lượng ô bể lọc, kích thước hình học mỗi bể, chiều cao đặt máng thu nước rửa ngược và kiểm tra tỷ lệ thu hồi nước sạch sau lọc [Page 10] [Page 11]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy] trên Slide $28, 29, 31$ tại Ảnh #54, #55, #56 kết hợp [Lời giải khôi phục theo chuẩn slide của thầy] trên Slide $30$ và bảng phấn Ảnh #184): Thiết kế hệ thống bể lọc nhanh hai lớp vật liệu (gồm lớp cát thạch anh và lớp than antraxit) cho nhà máy xử lý nước thải có công suất thiết kế $Q = 230,000\\text{ m}^3\\text{/ngày}$ [Page 10] [Page 11].",
+            "Nội dung thiết kế bao gồm xác định tổng diện tích lọc, số lượng ô bể lọc, kích thước hình học mỗi bể, chiều cao đặt máng thu nước rửa ngược và kiểm tra tỷ lệ thu hồi nước sạch sau lọc [Page 10] [Page 11]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài thiết kế bể lọc nhanh hai lớp cát và than antraxit cho công suất $Q = 230,000\\text{ m}^3\\text{/ngày}$. Thiết kế xác định diện tích lọc, số ô bể, kích thước bể, cao trình máng rửa và tỷ lệ thu hồi nước.",
+          "takeaway": "Đề bài thiết kế bể lọc nhanh hai lớp cát và than antraxit cho công suất $Q = 230,000\\text{ m}^3\\text{/ngày}$",
+          "topic": "bể lọc nhanh"
+        },
+        {
+          "id": "p-6e7b7055",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính tổng diện tích bề mặt lọc và chọn số lượng ô bể lọc: Từ công suất $Q = 230,000\\text{ m}^3\\text{/ngày}$ và vận tốc lọc $v_F = 15\\text{ m}^3/(\\text{m}^2\\cdot\\text{h})$, tổng diện tích lọc yêu cầu trên Slide $29$ đạt $A = 640\\text{ m}^2$ (trên slide hiển thị nhầm tử số $200,000$ nhưng kết quả $640\\text{ m}^2$ tính đúng từ $230,000 / 360 = 638.9\\text{ m}^2$) [Page 10] [Page 11]. Để diện tích mỗi ô bể lọc không vượt quá $100\\text{ m}^2$, giảng viên chọn tổng cộng $N = 9\\text{ bể lọc}$ (gồm $8\\text{ bể}$ vận hành đồng thời và $1\\text{ bể}$ dự phòng rửa ngược), suy ra diện tích mỗi ô bể là $A_{\\text{each}} = 80\\text{ m}^2$ với kích thước $L \\times W = 10\\text{ m} \\times 8\\text{ m}$ [Page 10].",
+          "sentences": [
+            "Bước 1 - Tính tổng diện tích bề mặt lọc và chọn số lượng ô bể lọc: Từ công suất $Q = 230,000\\text{ m}^3\\text{/ngày}$ và vận tốc lọc $v_F = 15\\text{ m}^3/(\\text{m}^2\\cdot\\text{h})$, tổng diện tích lọc yêu cầu trên Slide $29$ đạt $A = 640\\text{ m}^2$ (trên slide hiển thị nhầm tử số $200,000$ nhưng kết quả $640\\text{ m}^2$ tính đúng từ $230,000 / 360 = 638.9\\text{ m}^2$) [Page 10] [Page 11]. Để diện tích mỗi ô bể lọc không vượt quá $100\\text{ m}^2$, giảng viên chọn tổng cộng $N = 9\\text{ bể lọc}$ (gồm $8\\text{ bể}$ vận hành đồng thời và $1\\text{ bể}$ dự phòng rửa ngược), suy ra diện tích mỗi ô bể là $A_{\\text{each}} = 80\\text{ m}^2$ với kích thước $L \\times W = 10\\text{ m} \\times 8\\text{ m}$ [Page 10]."
+          ],
+          "brief": [
+            "Bước 1 - Tính tổng diện tích bề mặt lọc và chọn số lượng ô bể lọc: Từ công suất $Q = 230,000\\text{ m}^3\\text{/ngày}$ và vận tốc lọc $v_F = 15\\text{ m}^3/(\\text{m}^2\\cdot\\text{h})$, tổng diện tích lọc yêu cầu trên Slide $29$ đạt $A = 640\\text{ m}^2$ (trên slide hiển thị nhầm tử số $200,000$ nhưng kết quả $640\\text{ m}^2$ tính đúng từ $230,000 / 360 = 638.9\\text{ m}^2$) [Page 10] [Page 11]. Để diện tích mỗi ô bể lọc không vượt quá $100\\text{ m}^2$, giảng viên chọn tổng cộng $N = 9\\text{ bể lọc}$ (gồm $8\\text{ bể}$ vận hành đồng thời và $1\\text{ bể}$ dự phòng rửa ngược), suy ra diện tích mỗi ô bể là $A_{\\text{each}} = 80\\text{ m}^2$ với kích thước $L \\times W = 10\\text{ m} \\times 8\\text{ m}$ [Page 10]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng diện tích lọc đạt $A = 640\\text{ m}^2$, chia thành $N = 9\\text{ bể}$ với mỗi bể rộng $A_{\\text{each}} = 80\\text{ m}^2$ ($10\\text{ m} \\times 8\\text{ m}$). Hệ thống bố trí $8\\text{ bể}$ vận hành đồng thời và $1\\text{ bể}$ dự phòng rửa ngược để thỏa mãn $A_{\\text{each}} \\le 100\\text{ m}^2$.",
+          "takeaway": "Tổng diện tích lọc đạt $A = 640\\text{ m}^2$, chia thành $N = 9\\text{ bể}$ với mỗi bể rộng $A_{\\text{each}} = 80\\text{ m}^2$ ($10\\text{ m} \\times 8\\text{ m}$)",
+          "topic": "diện tích lọc"
+        },
+        {
+          "id": "p-37c6aa1c",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính tổng chiều sâu xây dựng của mỗi ô bể lọc: Cộng bốn thành phần chiều cao theo phương thẳng đứng trên Slide $29$ gồm lớp vật liệu lọc $0.9\\text{ m}$, lớp nước khả dụng $2.0\\text{ m}$, sàn thu nước đáy $0.5\\text{ m}$ và chiều cao bảo vệ $0.6\\text{ m}$ [Page 10]. Tổng chiều sâu xây dựng của mỗi ô bể lọc đạt $D = 4.0\\text{ m}$, thỏa mãn khoảng chuẩn từ $4\\text{ m}$ đến $8\\text{ m}$ trên Slide $26$ [Page 10].",
+          "sentences": [
+            "Bước 2 - Tính tổng chiều sâu xây dựng của mỗi ô bể lọc: Cộng bốn thành phần chiều cao theo phương thẳng đứng trên Slide $29$ gồm lớp vật liệu lọc $0.9\\text{ m}$, lớp nước khả dụng $2.0\\text{ m}$, sàn thu nước đáy $0.5\\text{ m}$ và chiều cao bảo vệ $0.6\\text{ m}$ [Page 10].",
+            "Tổng chiều sâu xây dựng của mỗi ô bể lọc đạt $D = 4.0\\text{ m}$, thỏa mãn khoảng chuẩn từ $4\\text{ m}$ đến $8\\text{ m}$ trên Slide $26$ [Page 10]."
+          ],
+          "brief": [
+            "Bước 2 - Tính tổng chiều sâu xây dựng của mỗi ô bể lọc: Cộng bốn thành phần chiều cao theo phương thẳng đứng trên Slide $29$ gồm lớp vật liệu lọc $0.9\\text{ m}$, lớp nước khả dụng $2.0\\text{ m}$, sàn thu nước đáy $0.5\\text{ m}$ và chiều cao bảo vệ $0.6\\text{ m}$ [Page 10].",
+            "Tổng chiều sâu xây dựng của mỗi ô bể lọc đạt $D = 4.0\\text{ m}$, thỏa mãn khoảng chuẩn từ $4\\text{ m}$ đến $8\\text{ m}$ trên Slide $26$ [Page 10]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tổng chiều sâu xây dựng của mỗi ô bể lọc đạt $D = 4.0\\text{ m}$ thuộc khoảng chuẩn $4\\text{, }8\\text{ m}$. Chiều sâu bể tổng hợp từ lớp lọc $0.9\\text{ m}$, lớp nước $2.0\\text{ m}$, sàn thu nước $0.5\\text{ m}$ và bảo vệ $0.6\\text{ m}$.",
+          "takeaway": "Tổng chiều sâu xây dựng của mỗi ô bể lọc đạt $D = 4.0\\text{ m}$ thuộc khoảng chuẩn $4\\text{, }8\\text{ m}$",
+          "topic": "chiều sâu xây dựng"
+        },
+        {
+          "id": "p-f29d776a",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính chiều dày tầng lọc hai lớp giãn nở và chiều cao đặt máng thu nước rửa lọc: Khi sục rửa ngược ở cường độ $v_{\\text{bw}} = 40\\text{ m}^3/(\\text{m}^2\\cdot\\text{h})$ theo Slide $30$ và sơ đồ bảng phấn Ảnh #184, tổng chiều dày tầng lọc giãn nở đạt $L_E = 1.20\\text{ m}$ (hoặc $L_E = 0.40 + 0.84 = 1.24\\text{ m}$ khi tính riêng lớp cát $\\epsilon_E = 0.57$ và lớp than antraxit $\\epsilon_E = 0.64$) [Page 9] [Page 10]. Cộng thêm khoảng lưu không an toàn $0.3\\text{ m}$ theo bảng chuẩn Slide $26$, chiều cao đặt mép máng thu nước rửa lọc tính từ mặt sàn đỡ vật liệu đạt $H_{\\text{trough}} = 1.5\\text{ m}$ (hoặc $1.6\\text{ m}$) [Page 10].",
+          "sentences": [
+            "Bước 3 - Tính chiều dày tầng lọc hai lớp giãn nở và chiều cao đặt máng thu nước rửa lọc: Khi sục rửa ngược ở cường độ $v_{\\text{bw}} = 40\\text{ m}^3/(\\text{m}^2\\cdot\\text{h})$ theo Slide $30$ và sơ đồ bảng phấn Ảnh #184, tổng chiều dày tầng lọc giãn nở đạt $L_E = 1.20\\text{ m}$ (hoặc $L_E = 0.40 + 0.84 = 1.24\\text{ m}$ khi tính riêng lớp cát $\\epsilon_E = 0.57$ và lớp than antraxit $\\epsilon_E = 0.64$) [Page 9] [Page 10].",
+            "Cộng thêm khoảng lưu không an toàn $0.3\\text{ m}$ theo bảng chuẩn Slide $26$, chiều cao đặt mép máng thu nước rửa lọc tính từ mặt sàn đỡ vật liệu đạt $H_{\\text{trough}} = 1.5\\text{ m}$ (hoặc $1.6\\text{ m}$) [Page 10]."
+          ],
+          "brief": [
+            "Bước 3 - Tính chiều dày tầng lọc hai lớp giãn nở và chiều cao đặt máng thu nước rửa lọc: Khi sục rửa ngược ở cường độ $v_{\\text{bw}} = 40\\text{ m}^3/(\\text{m}^2\\cdot\\text{h})$ theo Slide $30$ và sơ đồ bảng phấn Ảnh #184, tổng chiều dày tầng lọc giãn nở đạt $L_E = 1.20\\text{ m}$ (hoặc $L_E = 0.40 + 0.84 = 1.24\\text{ m}$ khi tính riêng lớp cát $\\epsilon_E = 0.57$ và lớp than antraxit $\\epsilon_E = 0.64$) [Page 9] [Page 10].",
+            "Cộng thêm khoảng lưu không an toàn $0.3\\text{ m}$ theo bảng chuẩn Slide $26$, chiều cao đặt mép máng thu nước rửa lọc tính từ mặt sàn đỡ vật liệu đạt $H_{\\text{trough}} = 1.5\\text{ m}$ (hoặc $1.6\\text{ m}$) [Page 10]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Chiều dày tầng lọc giãn nở đạt $L_E = 1.20\\text{, }1.24\\text{ m}$ và cao trình máng thu nước rửa đạt $H_{\\text{trough}} = 1.5\\text{, }1.6\\text{ m}$. Mép máng thu nước rửa lọc đặt cao hơn mặt tầng vật liệu giãn nở một khoảng an toàn $0.3\\text{ m}$.",
+          "takeaway": "Chiều dày tầng lọc giãn nở đạt $L_E = 1.20\\text{, }1.24\\text{ m}$ và cao trình máng thu nước rửa đạt $H_{\\text{trough}} = 1.5\\text{, }1.6\\text{ m}$",
+          "topic": "máng thu nước"
+        },
+        {
+          "id": "p-8fd434b5",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính sản lượng nước lọc và kiểm tra tỷ lệ thu hồi nước sạch sau lọc: Theo lời giải trên Slide $31$ (Ảnh #56), tổng thể tích nước lọc trên mỗi đơn vị diện tích trong một chu kỳ $t_F = 48\\text{ h}$ là $720\\text{ m}^3/\\text{m}^2$, lượng nước dùng cho rửa ngược là $10\\text{ m}^3/\\text{m}^2$ và lượng nước xả bỏ đầu chu kỳ là $15\\text{ m}^3/\\text{m}^2$ [Page 10]. Tỷ lệ thu hồi nước sạch của hệ thống đạt $R_{\\text{rec}} = 96.5\\% > 95\\%$, thỏa mãn tiêu chuẩn thiết kế trên Slide $26$ [Page 10].",
+          "sentences": [
+            "Bước 4 - Tính sản lượng nước lọc và kiểm tra tỷ lệ thu hồi nước sạch sau lọc: Theo lời giải trên Slide $31$ (Ảnh #56), tổng thể tích nước lọc trên mỗi đơn vị diện tích trong một chu kỳ $t_F = 48\\text{ h}$ là $720\\text{ m}^3/\\text{m}^2$, lượng nước dùng cho rửa ngược là $10\\text{ m}^3/\\text{m}^2$ và lượng nước xả bỏ đầu chu kỳ là $15\\text{ m}^3/\\text{m}^2$ [Page 10].",
+            "Tỷ lệ thu hồi nước sạch của hệ thống đạt $R_{\\text{rec}} = 96.5\\% > 95\\%$, thỏa mãn tiêu chuẩn thiết kế trên Slide $26$ [Page 10]."
+          ],
+          "brief": [
+            "Bước 4 - Tính sản lượng nước lọc và kiểm tra tỷ lệ thu hồi nước sạch sau lọc: Theo lời giải trên Slide $31$ (Ảnh #56), tổng thể tích nước lọc trên mỗi đơn vị diện tích trong một chu kỳ $t_F = 48\\text{ h}$ là $720\\text{ m}^3/\\text{m}^2$, lượng nước dùng cho rửa ngược là $10\\text{ m}^3/\\text{m}^2$ và lượng nước xả bỏ đầu chu kỳ là $15\\text{ m}^3/\\text{m}^2$ [Page 10].",
+            "Tỷ lệ thu hồi nước sạch của hệ thống đạt $R_{\\text{rec}} = 96.5\\% > 95\\%$, thỏa mãn tiêu chuẩn thiết kế trên Slide $26$ [Page 10]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tỷ lệ thu hồi nước sạch sau lọc đạt $R_{\\text{rec}} = 695/720 = 96.5\\% > 95\\%$ trong chu kỳ $t_F = 48\\text{ h}$. Mỗi mét vuông lọc thu được $720\\text{ m}^3$ nước lọc, tiêu tốn $10\\text{ m}^3$ rửa ngược và $15\\text{ m}^3$ xả bỏ đầu chu kỳ.",
+          "takeaway": "Tỷ lệ thu hồi nước sạch sau lọc đạt $R_{\\text{rec}} = 695/720 = 96.5\\% > 95\\%$ trong chu kỳ $t_F = 48\\text{ h}$",
+          "topic": "thu hồi nước"
+        },
+        {
+          "id": "p-189dcf31",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Hệ thống $9\\text{ ô bể lọc}$ đảm bảo vận hành liên tục ở công suất $230,000\\text{ m}^3\\text{/ngày}$ ngay cả khi có $1\\text{ ô}$ ngưng lọc để rửa ngược [Page 10] [Page 11].",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng.",
+            "Hệ thống $9\\text{ ô bể lọc}$ đảm bảo vận hành liên tục ở công suất $230,000\\text{ m}^3\\text{/ngày}$ ngay cả khi có $1\\text{ ô}$ ngưng lọc để rửa ngược [Page 10] [Page 11]."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Hệ thống $9\\text{ ô bể lọc}$ đảm bảo vận hành liên tục ở công suất $230,000\\text{ m}^3\\text{/ngày}$ ngay cả khi có $1\\text{ ô}$ ngưng lọc để rửa ngược [Page 10] [Page 11]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Hệ thống $9\\text{ ô bể lọc}$ duy trì công suất $230,000\\text{ m}^3\\text{/ngày}$ ngay cả khi có $1\\text{ ô}$ ngưng lọc để rửa ngược. Tất cả thông số hình học và thủy lực đều nằm trong giới hạn chuẩn trên Slide $26$ của bài giảng.",
+          "takeaway": "Hệ thống $9\\text{ ô bể lọc}$ duy trì công suất $230,000\\text{ m}^3\\text{/ngày}$ ngay cả khi có $1\\text{ ô}$ ngưng lọc để rửa ngược",
+          "topic": "ô bể lọc"
+        },
+        {
+          "id": "p-4b59cbf2",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổng diện tích lọc và số ô bể ($A, N$): $A = 640\\text{ m}^2$, chọn $N = 9\\text{ bể}$ ($8\\text{ bể}$ lọc $+ 1\\text{ bể}$ rửa ngược) (Kiểm tra: $A_{\\text{each}} = 80\\text{ m}^2 \\le 100\\text{ m}^2\\text{ — Đạt chuẩn Slide } 26, 29$)",
+          "sentences": [
+            "Tổng diện tích lọc và số ô bể ($A, N$): $A = 640\\text{ m}^2$, chọn $N = 9\\text{ bể}$ ($8\\text{ bể}$ lọc $+ 1\\text{ bể}$ rửa ngược) (Kiểm tra: $A_{\\text{each}} = 80\\text{ m}^2 \\le 100\\text{ m}^2\\text{ — Đạt chuẩn Slide } 26, 29$)"
+          ],
+          "brief": [
+            "Tổng diện tích lọc và số ô bể ($A, N$): $A = 640\\text{ m}^2$, chọn $N = 9\\text{ bể}$ ($8\\text{ bể}$ lọc $+ 1\\text{ bể}$ rửa ngược) (Kiểm tra: $A_{\\text{each}} = 80\\text{ m}^2 \\le 100\\text{ m}^2\\text{ — Đạt chuẩn Slide } 26, 29$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng diện tích lọc $A = 640\\text{ m}^2$ với $N = 9\\text{ bể}$ cho diện tích mỗi bể $A_{\\text{each}} = 80\\text{ m}^2 \\le 100\\text{ m}^2$.",
+          "takeaway": "Tổng diện tích lọc $A = 640\\text{ m}^2$ với $N = 9\\text{ bể}$ cho diện tích mỗi bể $A_{\\text{each}} = 80\\text{ m}^2 \\le 100\\text{ m}^2$",
+          "topic": "diện tích lọc"
+        },
+        {
+          "id": "p-e1ea79dd",
+          "kind": "list item",
+          "role": "result",
+          "full": "Kích thước hình học mỗi ô bể lọc ($L \\times W \\times D$): $10\\text{ m} \\times 8\\text{ m} \\times 4\\text{ m}$ (Kiểm tra: $D = 4.0\\text{ m} \\in [4.0, 8.0]\\text{ m và }L_F = 0.9\\text{ m} \\in [0.6, 1.8]\\text{ m — Đạt chuẩn Slide } 26, 29$)",
+          "sentences": [
+            "Kích thước hình học mỗi ô bể lọc ($L \\times W \\times D$): $10\\text{ m} \\times 8\\text{ m} \\times 4\\text{ m}$ (Kiểm tra: $D = 4.0\\text{ m} \\in [4.0, 8.0]\\text{ m và }L_F = 0.9\\text{ m} \\in [0.6, 1.8]\\text{ m — Đạt chuẩn Slide } 26, 29$)"
+          ],
+          "brief": [
+            "Kích thước hình học mỗi ô bể lọc ($L \\times W \\times D$): $10\\text{ m} \\times 8\\text{ m} \\times 4\\text{ m}$ (Kiểm tra: $D = 4.0\\text{ m} \\in [4.0, 8.0]\\text{ m và }L_F = 0.9\\text{ m} \\in [0.6, 1.8]\\text{ m — Đạt chuẩn Slide } 26, 29$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Kích thước hình học mỗi ô bể lọc đạt $10\\text{ m} \\times 8\\text{ m} \\times 4\\text{ m}$ với chiều dày lớp lọc $L_F = 0.9\\text{ m}$.",
+          "takeaway": "Kích thước hình học mỗi ô bể lọc đạt $10\\text{ m} \\times 8\\text{ m} \\times 4\\text{ m}$ với chiều dày lớp lọc $L_F = 0.9\\text{ m}$",
+          "topic": "Kích thước hình học"
+        },
+        {
+          "id": "p-d1f1a335",
+          "kind": "list item",
+          "role": "result",
+          "full": "Chiều dày tầng lọc giãn nở và cao trình máng rửa ($L_E, H_{\\text{trough}}$): $L_E = 1.20\\text{–}1.24\\text{ m}$, $H_{\\text{trough}} = 1.50\\text{–}1.60\\text{ m}$ (Kiểm tra: $H_{\\text{trough}} = L_E + 0.3\\text{ m} \\in [L_E + 0.3\\text{ m}, L_E + 0.5\\text{ m}]\\text{ — Đạt chuẩn Slide } 26, 30$)",
+          "sentences": [
+            "Chiều dày tầng lọc giãn nở và cao trình máng rửa ($L_E, H_{\\text{trough}}$): $L_E = 1.20\\text{–}1.24\\text{ m}$, $H_{\\text{trough}} = 1.50\\text{–}1.60\\text{ m}$ (Kiểm tra: $H_{\\text{trough}} = L_E + 0.3\\text{ m} \\in [L_E + 0.3\\text{ m}, L_E + 0.5\\text{ m}]\\text{ — Đạt chuẩn Slide } 26, 30$)"
+          ],
+          "brief": [
+            "Chiều dày tầng lọc giãn nở và cao trình máng rửa ($L_E, H_{\\text{trough}}$): $L_E = 1.20\\text{–}1.24\\text{ m}$, $H_{\\text{trough}} = 1.50\\text{–}1.60\\text{ m}$ (Kiểm tra: $H_{\\text{trough}} = L_E + 0.3\\text{ m} \\in [L_E + 0.3\\text{ m}, L_E + 0.5\\text{ m}]\\text{ — Đạt chuẩn Slide } 26, 30$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Chiều dày tầng lọc giãn nở đạt $L_E = 1.20\\text{, }1.24\\text{ m}$ và cao trình máng rửa đạt $H_{\\text{trough}} = 1.50\\text{, }1.60\\text{ m}$.",
+          "takeaway": "Chiều dày tầng lọc giãn nở đạt $L_E = 1.20\\text{, }1.24\\text{ m}$ và cao trình máng rửa đạt $H_{\\text{trough}} = 1.50\\text{, }1.60\\text{ m}$",
+          "topic": "cao trình máng rửa"
+        },
+        {
+          "id": "p-05969638",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ lệ thu hồi nước sạch sau lọc ($R_{\\text{rec}}$): $96.5\\%$ (Kiểm tra: $R_{\\text{rec}} = 96.5\\% > 95\\%\\text{ — Đạt chuẩn Slide } 26, 31$)",
+          "sentences": [
+            "Tỷ lệ thu hồi nước sạch sau lọc ($R_{\\text{rec}}$): $96.5\\%$ (Kiểm tra: $R_{\\text{rec}} = 96.5\\% > 95\\%\\text{ — Đạt chuẩn Slide } 26, 31$)"
+          ],
+          "brief": [
+            "Tỷ lệ thu hồi nước sạch sau lọc ($R_{\\text{rec}}$): $96.5\\%$ (Kiểm tra: $R_{\\text{rec}} = 96.5\\% > 95\\%\\text{ — Đạt chuẩn Slide } 26, 31$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ lệ thu hồi nước sạch sau lọc đạt $R_{\\text{rec}} = 96.5\\%$ vượt ngưỡng yêu cầu tối thiểu $95\\%$.",
+          "takeaway": "Tỷ lệ thu hồi nước sạch sau lọc đạt $R_{\\text{rec}} = 96.5\\%$ vượt ngưỡng yêu cầu tối thiểu $95\\%$",
+          "topic": "Tỷ lệ thu hồi"
+        },
+        {
+          "id": "p-58da26ae",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 1 (Page 3)",
+          "sentences": [
+            "Figure 1 (Page 3)"
+          ],
+          "brief": [
+            "Figure 1 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $1$ tại Trang $3$ minh họa các loại tầng vật liệu lọc một lớp và hai lớp.",
+          "takeaway": "Hình $1$ tại Trang $3$ minh họa các loại tầng vật liệu lọc một lớp và hai lớp",
+          "topic": "tầng vật liệu"
+        },
+        {
+          "id": "p-bc294c03",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 2 (Page 3)",
+          "sentences": [
+            "Figure 2 (Page 3)"
+          ],
+          "brief": [
+            "Figure 2 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $2$ tại Trang $3$ minh họa cấu tạo mặt cắt bể lọc nhanh trọng lực hai lớp.",
+          "takeaway": "Hình $2$ tại Trang $3$ minh họa cấu tạo mặt cắt bể lọc nhanh trọng lực hai lớp",
+          "topic": "bể lọc nhanh"
+        },
+        {
+          "id": "p-5503fd51",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 3 (Page 4)",
+          "sentences": [
+            "Figure 3 (Page 4)"
+          ],
+          "brief": [
+            "Figure 3 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $3$ tại Trang $4$ minh họa chế độ dòng chảy trong giai đoạn lọc và rửa ngược.",
+          "takeaway": "Hình $3$ tại Trang $4$ minh họa chế độ dòng chảy trong giai đoạn lọc và rửa ngược",
+          "topic": "giai đoạn lọc"
+        },
+        {
+          "id": "p-52c87e7e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 4 (Page 4)",
+          "sentences": [
+            "Figure 4 (Page 4)"
+          ],
+          "brief": [
+            "Figure 4 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $4$ tại Trang $4$ minh họa cơ chế sàng cơ học giữ hạt cặn tại khe rỗng.",
+          "takeaway": "Hình $4$ tại Trang $4$ minh họa cơ chế sàng cơ học giữ hạt cặn tại khe rỗng",
+          "topic": "hạt cặn"
+        },
+        {
+          "id": "p-fe3c2928",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 5 (Page 4)",
+          "sentences": [
+            "Figure 5 (Page 4)"
+          ],
+          "brief": [
+            "Figure 5 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $5$ tại Trang $4$ minh họa cơ chế lắng trọng lực và va chạm tiếp xúc trên hạt lọc.",
+          "takeaway": "Hình $5$ tại Trang $4$ minh họa cơ chế lắng trọng lực và va chạm tiếp xúc trên hạt lọc",
+          "topic": "hạt lọc"
+        },
+        {
+          "id": "p-e211cbe3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 6 (Page 4)",
+          "sentences": [
+            "Figure 6 (Page 4)"
+          ],
+          "brief": [
+            "Figure 6 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $6$ tại Trang $4$ minh họa cơ chế bám dính thủy động và kết bông trong lỗ rỗng.",
+          "takeaway": "Hình $6$ tại Trang $4$ minh họa cơ chế bám dính thủy động và kết bông trong lỗ rỗng",
+          "topic": "lỗ rỗng"
+        },
+        {
+          "id": "p-44e08b02",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 7 (Page 5)",
+          "sentences": [
+            "Figure 7 (Page 5)"
+          ],
+          "brief": [
+            "Figure 7 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $7$ tại Trang $5$ minh họa đường cong phân bố kích thước hạt xác định $d_{10}$ và $d_{60}$.",
+          "takeaway": "Hình $7$ tại Trang $5$ minh họa đường cong phân bố kích thước hạt xác định $d_{10}$ và $d_{60}$",
+          "topic": "kích thước hạt"
+        },
+        {
+          "id": "p-5d80bd1e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 8 (Page 5)",
+          "sentences": [
+            "Figure 8 (Page 5)"
+          ],
+          "brief": [
+            "Figure 8 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $8$ tại Trang $5$ minh họa hình thái hạt cát lọc thạch anh trên bài giảng.",
+          "takeaway": "Hình $8$ tại Trang $5$ minh họa hình thái hạt cát lọc thạch anh trên bài giảng",
+          "topic": "hạt cát lọc"
+        },
+        {
+          "id": "p-af859867",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 9 (Page 5)",
+          "sentences": [
+            "Figure 9 (Page 5)"
+          ],
+          "brief": [
+            "Figure 9 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $9$ tại Trang $5$ minh họa hình thái hạt vật liệu lọc than antraxit góc cạnh.",
+          "takeaway": "Hình $9$ tại Trang $5$ minh họa hình thái hạt vật liệu lọc than antraxit góc cạnh",
+          "topic": "than antraxit"
+        },
+        {
+          "id": "p-545a359a",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 10 (Page 5)",
+          "sentences": [
+            "Figure 10 (Page 5)"
+          ],
+          "brief": [
+            "Figure 10 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $10$ tại Trang $5$ minh họa quan hệ thể tích lỗ rỗng và thể tích hạt trong tầng lọc.",
+          "takeaway": "Hình $10$ tại Trang $5$ minh họa quan hệ thể tích lỗ rỗng và thể tích hạt trong tầng lọc",
+          "topic": "thể tích hạt"
+        },
+        {
+          "id": "p-baf86e71",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 11 (Page 6)",
+          "sentences": [
+            "Figure 11 (Page 6)"
+          ],
+          "brief": [
+            "Figure 11 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $11$ tại Trang $6$ minh họa dòng thấm chảy qua tầng vật liệu lọc hạt sạch.",
+          "takeaway": "Hình $11$ tại Trang $6$ minh họa dòng thấm chảy qua tầng vật liệu lọc hạt sạch",
+          "topic": "vật liệu lọc"
+        },
+        {
+          "id": "p-c874e688",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 12 (Page 6)",
+          "sentences": [
+            "Figure 12 (Page 6)"
+          ],
+          "brief": [
+            "Figure 12 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $12$ tại Trang $6$ minh họa tổn thất áp lực qua tầng lọc theo phương trình Ergun.",
+          "takeaway": "Hình $12$ tại Trang $6$ minh họa tổn thất áp lực qua tầng lọc theo phương trình Ergun",
+          "topic": "tổn thất áp lực"
+        },
+        {
+          "id": "p-8e2e18ac",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 13 (Page 9)",
+          "sentences": [
+            "Figure 13 (Page 9)"
+          ],
+          "brief": [
+            "Figure 13 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $13$ tại Trang $9$ minh họa trạng thái tầng lọc tĩnh và tầng lọc giãn nở khi rửa ngược.",
+          "takeaway": "Hình $13$ tại Trang $9$ minh họa trạng thái tầng lọc tĩnh và tầng lọc giãn nở khi rửa ngược",
+          "topic": "tầng lọc tĩnh"
+        },
+        {
+          "id": "p-c93a2c49",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 14 (Page 9)",
+          "sentences": [
+            "Figure 14 (Page 9)"
+          ],
+          "brief": [
+            "Figure 14 (Page 9)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $14$ tại Trang $9$ minh họa sự gia tăng chiều dày tầng vật liệu từ $L_F$ lên $L_E$.",
+          "takeaway": "Hình $14$ tại Trang $9$ minh họa sự gia tăng chiều dày tầng vật liệu từ $L_F$ lên $L_E$",
+          "topic": "chiều dày tầng"
+        },
+        {
+          "id": "p-d834b80a",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 15 (Page 11)",
+          "sentences": [
+            "Figure 15 (Page 11)"
+          ],
+          "brief": [
+            "Figure 15 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình $15$ tại Trang $11$ minh họa cấu tạo chi tiết của bình lọc áp lực vỏ thép kín.",
+          "takeaway": "Hình $15$ tại Trang $11$ minh họa cấu tạo chi tiết của bình lọc áp lực vỏ thép kín",
+          "topic": "bình lọc áp lực"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

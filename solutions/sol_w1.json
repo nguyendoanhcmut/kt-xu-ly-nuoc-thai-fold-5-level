@@ -1,0 +1,283 @@
+{
+  "brief_id": "f51e2026",
+  "worker_id": "ch_w1",
+  "input_file": "worker_inputs/ch_w1.json",
+  "input_sha256": "b47b6b733e1aba7ccfd1e708331dcba63391d58ff805e24893725c7e29eab8f8",
+  "assigned_slugs": [
+    "ch01",
+    "ch02"
+  ],
+  "exercises": [
+    {
+      "exercise_id": "ch01_ex01",
+      "chapter_slug": "ch01",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Xác định nhu cầu oxy sinh hóa $1\\text{ ngày}$ ($\\text{BOD}_1$) và nhu cầu oxy sinh hóa hoàn toàn ($\\text{UBOD}$) của mẫu nước thải có $\\text{BOD}_5 = 200\\text{ mg/L}$ ở $T_1 = 20^\\circ\\text{C}$, đồng thời tính $\\text{BOD}_5$ ở $T_2 = 25^\\circ\\text{C}$ với hằng số tốc độ bậc nhất $k_{20} = 0.23\\text{ ngày}^{-1}$ và hệ số nhiệt độ $\\theta = 1.047$.",
+      "design_parameters_selected": [
+        "Nhu cầu oxy sinh hóa $5\\text{ ngày}$ ở $20^\\circ\\text{C}$: $\\text{BOD}_{5,20} = 200\\text{ mg/L}$ (Slide 50)",
+        "Hằng số tốc độ phản ứng bậc nhất ở $20^\\circ\\text{C}$: $k_{20} = 0.23\\text{ ngày}^{-1}$ (Slide 50)",
+        "Hệ số hiệu chỉnh nhiệt độ Arrhenius: $\\theta = 1.047$ (Slide 46, 50)"
+      ],
+      "governing_equations": [
+        "$\\text{BOD}_r = \\text{UBOD} \\cdot e^{-k \\cdot t}$",
+        "$\\text{BOD}_t = \\text{UBOD} - \\text{BOD}_r = \\text{UBOD} \\cdot (1 - e^{-k \\cdot t})$",
+        "$\\text{BOD}_5 = \\text{UBOD} \\cdot (1 - e^{-5k})$",
+        "$\\frac{k_2}{k_1} = \\theta^{T_2 - T_1}$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Xác định $\\text{UBOD}$ ở $20^\\circ\\text{C}$**: $\\text{UBOD} = \\frac{\\text{BOD}_{5,20}}{1 - e^{-5 \\cdot k_{20}}} = \\frac{200}{1 - e^{-5 \\times 0.23}} = \\frac{200}{1 - 0.3166} = 292.67\\text{ (mg/L)}$",
+        "**Bước 2 - Tính $\\text{BOD}_1$ ở $20^\\circ\\text{C}$**: $\\text{BOD}_{1,20} = \\text{UBOD} \\cdot (1 - e^{-1 \\cdot k_{20}}) = 292.67 \\times (1 - e^{-0.23}) = 292.67 \\times (1 - 0.7945) = 60.13\\text{ (mg/L)}$",
+        "**Bước 3 - Quy đổi hằng số tốc độ sang $25^\\circ\\text{C}$**: $k_{25} = k_{20} \\cdot \\theta^{25 - 20} = 0.23 \\times (1.047)^5 = 0.2894\\text{ (ngày}^{-1}\\text{)}$",
+        "**Bước 4 - Tính $\\text{BOD}_5$ ở $25^\\circ\\text{C}$**: $\\text{BOD}_{5,25} = \\text{UBOD} \\cdot (1 - e^{-5 \\cdot k_{25}}) = 292.67 \\times (1 - e^{-5 \\times 0.2894}) = 292.67 \\times (1 - 0.2353) = 223.80\\text{ (mg/L)}$"
+      ],
+      "verification_checks": [
+        "Kiểm tra thứ tự động học: $\\text{BOD}_{1,20} < \\text{BOD}_{5,20} < \\text{BOD}_{5,25} < \\text{UBOD} \\iff 60.13 < 200 < 223.80 < 292.67\\text{ mg/L}$ (Đạt chuẩn Slide 46, 50)"
+      ],
+      "final_answers": {
+        "UBOD": "$292.67\\text{ mg/L}$",
+        "BOD1_20C": "$60.13\\text{ mg/L}$",
+        "k_25C": "$0.2894\\text{ ngày}^{-1}$",
+        "BOD5_25C": "$223.80\\text{ mg/L}$"
+      }
+    },
+    {
+      "exercise_id": "ch01_ex02",
+      "chapter_slug": "ch01",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Từ các thông số đặc trưng của mẫu nước thải gồm $\\text{BOD} = 200\\text{ mg/L}$, $\\text{COD} = 420\\text{ mg/L}$, $\\text{rbCOD} = 80\\text{ mg/L}$ và $\\text{nbsCOD} = 30\\text{ mg/L}$, xác định nồng độ $\\text{bCOD}$, $\\text{nbpCOD}$ và $\\text{sbCOD}$.",
+      "design_parameters_selected": [
+        "Hệ số quy đổi chuẩn nước thải từ Slide 49: $\\frac{\\text{bCOD}}{\\text{BOD}} = 1.6$",
+        "Thông số đầu vào từ Slide 52: $\\text{BOD} = 200\\text{ mg/L}$, $\\text{COD} = 420\\text{ mg/L}$, $\\text{rbCOD} = 80\\text{ mg/L}$, $\\text{nbsCOD} = 30\\text{ mg/L}$"
+      ],
+      "governing_equations": [
+        "$\\text{COD} = \\text{bCOD} + \\text{nbCOD}$",
+        "$\\text{bCOD} = \\text{sbCOD} + \\text{rbCOD} = 1.6 \\times \\text{BOD}$",
+        "$\\text{nbCOD} = \\text{nbpCOD} + \\text{nbsCOD}$",
+        "$\\text{COD} = \\text{sbCOD} + \\text{rbCOD} + \\text{nbpCOD} + \\text{nbsCOD}$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Xác định $\\text{bCOD}$**: $\\text{bCOD} = 1.6 \\times \\text{BOD} = 1.6 \\times 200 = 320\\text{ (mg/L)}$",
+        "**Bước 2 - Xác định $\\text{nbCOD}$**: $\\text{nbCOD} = \\text{COD} - \\text{bCOD} = 420 - 320 = 100\\text{ (mg/L)}$",
+        "**Bước 3 - Xác định $\\text{nbpCOD}$**: $\\text{nbpCOD} = \\text{nbCOD} - \\text{nbsCOD} = 100 - 30 = 70\\text{ (mg/L)}$",
+        "**Bước 4 - Xác định $\\text{sbCOD}$**: $\\text{sbCOD} = \\text{bCOD} - \\text{rbCOD} = 320 - 80 = 240\\text{ (mg/L)}$"
+      ],
+      "verification_checks": [
+        "Kiểm tra cân bằng tổng $\\text{COD}$: $\\text{sbCOD} + \\text{rbCOD} + \\text{nbpCOD} + \\text{nbsCOD} = 240 + 80 + 70 + 30 = 420\\text{ mg/L}$ (Đạt chuẩn Slide 49, 52)"
+      ],
+      "final_answers": {
+        "bCOD": "$320\\text{ mg/L}$",
+        "nbCOD": "$100\\text{ mg/L}$",
+        "nbpCOD": "$70\\text{ mg/L}$",
+        "sbCOD": "$240\\text{ mg/L}$"
+      }
+    },
+    {
+      "exercise_id": "ch01_ex03",
+      "chapter_slug": "ch01",
+      "category": "pdf_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Một nhà máy xả nước thải công nghiệp với lưu lượng $F = 100\\text{ m}^3\\text{/ngày}$ vào hồ tiếp nhận có dung tích $V = 100,000\\text{ m}^3$ không dùng cho mục đích cấp nước sinh hoạt. Xác định nồng độ $\\text{COD}$ tối đa cho phép ($C_{\\max}$) theo QCVN 40:2011/BTNMT.",
+      "design_parameters_selected": [
+        "Giá trị cơ sở Cột B tại Bảng 1 của QCVN 40:2011/BTNMT (nguồn không cấp nước sinh hoạt): $C = 150\\text{ mg/L}$ (Slide 74)",
+        "Hệ số dung tích hồ tiếp nhận tại Bảng 3 cho $V = 100,000\\text{ m}^3 \\le 10 \\times 10^6\\text{ m}^3$: $K_q = 0.6$ (Slide 79)",
+        "Hệ số lưu lượng nguồn thải tại Bảng 4 cho $50 < F = 100\\text{ m}^3\\text{/ngày} \\le 500\\text{ m}^3\\text{/ngày}$: $K_f = 1.1$ (Slide 80)"
+      ],
+      "governing_equations": [
+        "$C_{\\max} = C \\times K_q \\times K_f\\text{ (QCVN 40:2011/BTNMT, Slide 73)}$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tra giá trị cơ sở $C$**: Hồ không dùng cho cấp nước sinh hoạt (Cột B, Bảng 1, Slide 74) $\\implies C = 150\\text{ (mg/L)}$",
+        "**Bước 2 - Tra hệ số $K_q$ và $K_f$**: $V = 0.1 \\times 10^6\\text{ m}^3 \\le 10 \\times 10^6\\text{ m}^3 \\implies K_q = 0.6$ (Bảng 3, Slide 79); $50 < F = 100 \\le 500\\text{ m}^3\\text{/ngày} \\implies K_f = 1.1$ (Bảng 4, Slide 80)",
+        "**Bước 3 - Tính nồng độ $\\text{COD}$ tối đa cho phép**: $C_{\\max} = C \\times K_q \\times K_f = 150 \\times 0.6 \\times 1.1 = 99\\text{ (mg/L)}$"
+      ],
+      "verification_checks": [
+        "Kiểm tra điều kiện biên quy chuẩn: $V = 10^5\\text{ m}^3 \\le 10^7\\text{ m}^3 \\implies K_q = 0.6$ và $50 < F = 100 \\le 500\\text{ m}^3\\text{/ngày} \\implies K_f = 1.1$ (Đạt chuẩn Slide 79, 80)"
+      ],
+      "final_answers": {
+        "C_COD_ColumnB": "$150\\text{ mg/L}$",
+        "K_q": "$0.6$",
+        "K_f": "$1.1$",
+        "C_max_COD": "$99\\text{ mg/L}$"
+      }
+    },
+    {
+      "exercise_id": "ch02_ex01",
+      "chapter_slug": "ch02",
+      "category": "pdf_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Xác định thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$), thể tích bể điều hòa thực tế ($V_{\\text{prac}}$), công suất khuấy trộn ($P_{\\text{mix}}$) và lưu lượng khí cấp ($Q_{\\text{air}}$) từ bảng lưu lượng $24\\text{ giờ}$ trên Slide 17 ($\\sum V_{\\text{in}} = 26,550\\text{ m}^3\\text{/ngày}$).",
+      "design_parameters_selected": [
+        "Lưu lượng bơm ra trung bình mỗi giờ: $Q_{\\text{avg}} = \\frac{26,550}{24} = 1106.25\\text{ m}^3\\text{/h}$ (Slide 18, Ảnh `#02`)",
+        "Hệ số dự trữ thể tích thực tế: $f_s = 1.2$ (Slide 10, 21, Ảnh `#04`)",
+        "Suất công suất khuấy trộn cơ học: $p_{\\text{mix}} = 0.008\\text{ kW/m}^3$ (Slide 11, 21, Ảnh `#04`)",
+        "Suất lưu lượng không khí cấp: $q_{\\text{air}} = 0.01\\text{ m}^3\\text{ khí}/(\\text{phút}\\cdot\\text{m}^3)$ (Slide 11, 21, Ảnh `#04`)"
+      ],
+      "governing_equations": [
+        "$Q_{\\text{avg}} = \\frac{\\sum V_{\\text{in}}}{24}$",
+        "$\\Delta V_i = V_{\\text{in},i} - V_{\\text{out}}$",
+        "$V_{\\text{theo}} = \\max\\left(\\sum \\Delta V\\right) - \\min\\left(\\sum \\Delta V\\right)$",
+        "$V_{\\text{prac}} = 1.2 \\times V_{\\text{theo}}$",
+        "$P_{\\text{mix}} = V_{\\text{prac}} \\times 0.008\\text{ (kW)}, \\quad Q_{\\text{air}} = V_{\\text{prac}} \\times 0.01\\text{ (m}^3\\text{/phút)}$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính lưu lượng trung bình giờ**: $\\sum V_{\\text{in}} = 26,550\\text{ m}^3\\text{/ngày} \\implies Q_{\\text{avg}} = \\frac{26,550}{24} = 1106.25\\text{ (m}^3\\text{/h)}$",
+        "**Bước 2 - Lập bảng tích lũy từ $\\text{N–13}$ đến $11\\text{–N}$**: Đạt cực đại $\\max(\\sum \\Delta V) = +2691.00\\text{ m}^3$ tại $23\\text{–M}$ và cực tiểu $\\min(\\sum \\Delta V) = -1407.00\\text{ m}^3$ tại $7\\text{–}8$ (Slide 20, Ảnh `#03`)",
+        "**Bước 3 - Tính thể tích bể điều hòa**: $V_{\\text{theo}} = 2691 - (-1407) = 4098\\text{ (m}^3\\text{)} \\implies V_{\\text{prac}} = 1.2 \\times 4098 = 4918\\text{ (m}^3\\text{)}$ (Slide 21, Ảnh `#04`)",
+        "**Bước 4 - Tính công suất khuấy và lưu lượng khí**: $P_{\\text{mix}} = 4918 \\times 0.008 = 39\\text{ (kW)}$ và $Q_{\\text{air}} = 4918 \\times 0.01 = 49\\text{ (m}^3\\text{ khí/phút)}$ (Slide 21, Ảnh `#04`)"
+      ],
+      "verification_checks": [
+        "Kiểm tra khép kín chu kỳ $24\\text{ giờ}$ tại $11\\text{–N}$: $\\sum \\Delta V_{11\\text{–N}} = -441.75 + 441.75 = 0.00\\text{ m}^3$ (Đạt chuẩn Slide 20)"
+      ],
+      "final_answers": {
+        "Q_avg": "$1106.25\\text{ m}^3\\text{/h}$",
+        "V_theoretical": "$4098\\text{ m}^3$",
+        "V_practical": "$4918\\text{ m}^3$",
+        "P_mixing": "$39\\text{ kW}$",
+        "Q_air": "$49\\text{ m}^3\\text{ khí/phút}$"
+      }
+    },
+    {
+      "exercise_id": "ch02_ex02",
+      "chapter_slug": "ch02",
+      "category": "pdf_exercise",
+      "status_before": "PARTIAL",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy] + [Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Đánh giá hiệu quả điều hòa nồng độ $\\text{BOD}$ và tải lượng khối $\\text{BOD}$ trong $24\\text{ giờ}$ của bể điều hòa ở Example 1 ($V_{\\text{out}} = 1106.25\\text{ m}^3\\text{/h}$) với nồng độ đầu vào biến thiên từ $\\text{BOD}_{\\min} = 45\\text{ mg/L}$ đến $\\text{BOD}_{\\max} = 305\\text{ mg/L}$.",
+      "design_parameters_selected": [
+        "Khởi đầu bảng cân bằng chất tại khung giờ $8\\text{–}9$ khi bể vừa cạn: $V_{sp,8\\text{–}9} = 0.00\\text{ m}^3$ (Slide 26, 27, Ảnh `#07, #08`)",
+        "Nồng độ $\\text{BOD}$ trung bình và tải lượng trung bình: $\\text{BOD}_{\\text{avg}} = 170\\text{ mg/L}$, $L_{\\text{avg}} = 213\\text{ kg/h}$ (Slide 26, 32, Ảnh `#07, #09, #10`)"
+      ],
+      "governing_equations": [
+        "$\\text{BOD}_{\\text{eq}} = \\frac{V_{ic} \\cdot \\text{BOD}_{ic} + V_{sp} \\cdot \\text{BOD}_{sp}}{V_{ic} + V_{sp}}$",
+        "$V_{\\text{end}} = V_{sp} + V_{ic} - 1106.25$",
+        "$L_{\\text{trước}} = \\frac{V_{ic} \\cdot \\text{BOD}_{ic}}{1000}\\text{ (kg/h)}, \\quad L_{\\text{sau}} = \\frac{1106.25 \\cdot \\text{BOD}_{\\text{eq}}}{1000}\\text{ (kg/h)}$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính $4\\text{ khung giờ}$ mẫu trên Slide 27**: $\\text{BOD}_{\\text{eq},8\\text{–}9} = 175\\text{ mg/L}$, $\\text{BOD}_{\\text{eq},9\\text{–}10} = 197\\text{ mg/L}$, $\\text{BOD}_{\\text{eq},10\\text{–}11} = 210\\text{ mg/L}$, $\\text{BOD}_{\\text{eq},11\\text{–N}} = 216\\text{ mg/L}$ (Ảnh `#08`)",
+        "**Bước 2 - Xác định cực trị nồng độ và tải lượng sau điều hòa**: Đạt cực đại tại $21\\text{–}22$ với $\\text{BOD}_{\\text{eq},\\max} = 246\\text{ mg/L}$ ($L_{\\text{sau},\\max} = 272\\text{ kg/h}$) và cực tiểu tại $6\\text{–}7$ với $\\text{BOD}_{\\text{eq},\\min} = 121\\text{ mg/L}$ ($L_{\\text{sau},\\min} = 134\\text{ kg/h}$)",
+        "**Bước 3 - So sánh tỷ số biến thiên trên Slide 32**: $\\left(\\frac{\\text{Peak}}{\\text{Min}}\\right)_{\\text{BOD}}$ giảm từ $\\frac{305}{45} = 6.78$ xuống $\\frac{246}{121} = 2.03$; $\\left(\\frac{\\text{Peak}}{\\text{Min}}\\right)_{\\text{Load}}$ giảm từ $\\frac{439}{17} = 25.82$ xuống $\\frac{272}{134} = 2.03$ (Ảnh `#09, #10`)"
+      ],
+      "verification_checks": [
+        "Kiểm tra độ giảm biên độ tải lượng $\\text{BOD}$: $\\frac{439}{17} = 25.82 \\implies \\frac{272}{134} = 2.03$ (Đạt chuẩn Slide 32)"
+      ],
+      "final_answers": {
+        "BOD_equalized_peak": "$246\\text{ mg/L}$ (tại $21\\text{–}22$)",
+        "BOD_equalized_min": "$121\\text{ mg/L}$ (tại $6\\text{–}7$)",
+        "BOD_conc_Peak_to_Min": "$6.78 \\to 2.03$",
+        "BOD_load_Peak_to_Min": "$25.82 \\to 2.03$"
+      }
+    },
+    {
+      "exercise_id": "proj_ch02_hw01",
+      "chapter_slug": "ch02",
+      "category": "projector_exercise",
+      "status_before": "COMPLETE",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải từ ảnh chụp slide của thầy]",
+      "problem_summary_vi": "Nhà máy làm việc $2\\text{ ca/ngày}$ ($8\\text{ giờ/ca}$, $1000\\text{ công nhân/ca}$), tiêu chuẩn nước sinh hoạt $45\\text{ L/(người}\\cdot\\text{ca)}$ và nước vệ sinh cuối mỗi ca $3\\text{ m}^3\\text{/ca}$. Xác định công suất trạm xử lý ($Q_{\\text{plant}}$), thể tích bể điều hòa thực tế ($V_{\\text{prac}}$) và lưu lượng khí cấp ($Q_{\\text{air}}$).",
+      "design_parameters_selected": [
+        "Hệ số phát sinh nước thải bằng $100\\%$ lượng nước cấp (Slide 34, Ảnh `#14`)",
+        "Hệ số dự trữ thể tích thực tế: $f_s = 1.2$ (Slide 36, Ảnh `#16`)",
+        "Suất lưu lượng không khí cấp: $q_{\\text{air}} = 0.012\\text{ m}^3\\text{ khí}/(\\text{phút}\\cdot\\text{m}^3)$ (Slide 37, Ảnh `#17`)"
+      ],
+      "governing_equations": [
+        "$Q_{\\text{plant}} = Q_{\\text{worker}} + Q_{\\text{clean}} = 90 + 6 = 96\\text{ (m}^3\\text{/ngày)}$",
+        "$V_{\\text{out}} = \\frac{96}{24} = 4.000\\text{ (m}^3\\text{/h)}$",
+        "$V_{\\text{prac}} = 1.2 \\times V_{\\text{theo}}, \\quad Q_{\\text{air}} = 0.012 \\times V_{\\text{prac}}$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính công suất trạm xử lý**: $Q_{\\text{worker}} = 2 \\times 1000 \\times \\frac{45}{1000} = 90\\text{ m}^3\\text{/ngày}$, $Q_{\\text{clean}} = 2 \\times 3 = 6\\text{ m}^3\\text{/ngày} \\implies Q_{\\text{plant}} = 96\\text{ (m}^3\\text{/ngày)}$ (Ảnh `#14`)",
+        "**Bước 2 - Lập bảng tích lũy $24\\text{ giờ}$**: Trong giờ thường $V_{\\text{in}} = \\frac{45}{8} = 5.625\\text{ m}^3\\text{/h}$, giờ cuối ca ($\\text{giờ } 8, 16$) $V_{\\text{in}} = 8.625\\text{ m}^3\\text{/h}$, giờ nghỉ ($\\text{giờ } 17\\text{–}24$) $V_{\\text{in}} = 0 \\implies \\max(\\sum \\Delta V) = 32\\text{ m}^3$ tại $\\text{giờ } 16$ và $\\min(\\sum \\Delta V) = 0\\text{ m}^3$ tại $\\text{giờ } 24$ (Ảnh `#15, #16`)",
+        "**Bước 3 - Tính thể tích thực tế và lưu lượng khí**: $V_{\\text{prac}} = 1.2 \\times 32 = 38.4\\text{ (m}^3\\text{)}$ và $Q_{\\text{air}} = 0.012 \\times 38.4 = 0.46\\text{ (m}^3\\text{/phút)}$ (Ảnh `#16, #17`)"
+      ],
+      "verification_checks": [
+        "Kiểm tra khép kín tại $\\text{giờ } 24$: $\\sum \\Delta V_{24} = 32 - 8 \\times 4 = 0.000\\text{ m}^3$ (Đạt chuẩn Ảnh `#16`)"
+      ],
+      "final_answers": {
+        "Q_plant": "$96\\text{ m}^3\\text{/ngày}$ ($4\\text{ m}^3\\text{/h}$)",
+        "V_theoretical": "$32\\text{ m}^3$",
+        "V_practical": "$38.4\\text{ m}^3$",
+        "Q_air": "$0.46\\text{ m}^3\\text{/phút}$"
+      }
+    },
+    {
+      "exercise_id": "proj_ch02_ex01",
+      "chapter_slug": "ch02",
+      "category": "projector_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Ước tính thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$), thể tích thực tế ($V_{\\text{prac}}$), công suất khuấy trộn ($P_{\\text{mix}}$) và lưu lượng khí cấp ($Q_{\\text{air}}$) cho thành phố từ bảng lưu lượng $24\\text{ giờ}$ ($\\text{m}^3\\text{/s}$) trên Slide 39 (Ảnh `#12`).",
+      "design_parameters_selected": [
+        "Hệ số quy đổi thể tích giờ: $V_{\\text{in},i} = Q_{\\text{in},i} \\times 3600\\text{ (m}^3\\text{/h)}$",
+        "Hệ số dự trữ thể tích thực tế: $f_s = 1.2$ (Slide 10)",
+        "Suất khuấy trộn và suất cấp khí: $p_{\\text{mix}} = 0.008\\text{ kW/m}^3$, $q_{\\text{air}} = 0.01\\text{ m}^3\\text{/(phút}\\cdot\\text{m}^3\\text{)}$ (Slide 11)"
+      ],
+      "governing_equations": [
+        "$Q_{\\text{avg}} = \\frac{\\sum V_{\\text{in}}}{24} = \\frac{28,371.60}{24} = 1182.15\\text{ (m}^3\\text{/h)}$",
+        "$V_{\\text{theo}} = \\max\\left(\\sum \\Delta V\\right) - \\min\\left(\\sum \\Delta V\\right)$",
+        "$V_{\\text{prac}} = 1.2 \\times V_{\\text{theo}}, \\quad P_{\\text{mix}} = 0.008 \\times V_{\\text{prac}}, \\quad Q_{\\text{air}} = 0.01 \\times V_{\\text{prac}}$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính tổng thể tích ngày và lưu lượng trung bình**: $\\sum V_{\\text{in}} = 28,371.60\\text{ m}^3\\text{/ngày} \\implies V_{\\text{out}} = 1182.15\\text{ (m}^3\\text{/h)}$",
+        "**Bước 2 - Tìm cực trị tích lũy**: $\\min(\\sum \\Delta V) = -3175.20\\text{ m}^3$ tại $7\\text{–}8$ và $\\max(\\sum \\Delta V) = +102.15\\text{ m}^3$ tại $22\\text{–}23$",
+        "**Bước 3 - Tính thể tích bể điều hòa**: $V_{\\text{theo}} = 102.15 - (-3175.20) = 3277.35\\text{ (m}^3\\text{)} \\implies V_{\\text{prac}} = 1.2 \\times 3277.35 = 3932.82\\text{ (m}^3\\text{)}$",
+        "**Bước 4 - Tính công suất khuấy và lưu lượng khí**: $P_{\\text{mix}} = 3932.82 \\times 0.008 = 31.46\\text{ (kW)}$, $Q_{\\text{air}} = 3932.82 \\times 0.01 = 39.33\\text{ (m}^3\\text{/phút)}$"
+      ],
+      "verification_checks": [
+        "Kiểm tra khép kín tại $23\\text{–M}$: $\\sum \\Delta V_{23\\text{–M}} = +102.15 - 102.15 = 0.00\\text{ m}^3$ (Đạt chuẩn Slide 20)"
+      ],
+      "final_answers": {
+        "Q_avg": "$1182.15\\text{ m}^3\\text{/h}$ ($28,371.60\\text{ m}^3\\text{/ngày}$)",
+        "V_theoretical": "$3277.35\\text{ m}^3$",
+        "V_practical": "$3932.82\\text{ m}^3$ ($\\approx 3933\\text{ m}^3$)",
+        "P_mixing": "$31.46\\text{ kW}$",
+        "Q_air": "$39.33\\text{ m}^3\\text{/phút}$"
+      }
+    },
+    {
+      "exercise_id": "proj_ch02_ex02",
+      "chapter_slug": "ch02",
+      "category": "projector_exercise",
+      "status_before": "MISSING",
+      "status_after": "COMPLETE",
+      "provenance_tag": "[Lời giải khôi phục theo chuẩn slide của thầy]",
+      "problem_summary_vi": "Từ dữ liệu $12\\text{ chu kỳ } 2\\text{ giờ}$ trên Slide 40 (Ảnh `#13`), xác định thể tích bể điều hòa lý thuyết ($V_{\\text{theo}}$), thể tích thực tế ($V_{\\text{prac}}$), nồng độ $\\text{BOD}_{\\text{eq}}$ và nồng độ $\\text{TSS}_{\\text{eq}}$ sau điều hòa.",
+      "design_parameters_selected": [
+        "Thể tích bơm ra ổn định mỗi chu kỳ $2\\text{ giờ}$: $V_{\\text{out}} = \\frac{1216}{12} = 101.33\\text{ m}^3\\text{/(2h)}$",
+        "Hệ số dự trữ thể tích thực tế: $f_s = 1.2$ (Slide 10)",
+        "Khởi đầu bảng cân bằng chất tại chu kỳ $6\\text{–}8$ khi $V_{sp,6\\text{–}8} = 0.00\\text{ m}^3$ (Slide 26, 27)"
+      ],
+      "governing_equations": [
+        "$V_{\\text{theo}} = \\max\\left(\\sum \\Delta V\\right) - \\min\\left(\\sum \\Delta V\\right) = 50.00 - (-70.00) = 120.00\\text{ (m}^3\\text{)}$",
+        "$V_{\\text{prac}} = 1.2 \\times V_{\\text{theo}} = 144.00\\text{ (m}^3\\text{)}$",
+        "$C_{\\text{eq}} = \\frac{V_{ic} \\cdot C_{ic} + V_{sp} \\cdot C_{sp}}{V_{ic} + V_{sp}}$"
+      ],
+      "worked_solution_steps": [
+        "**Bước 1 - Tính thể tích bể điều hòa**: $\\sum V_{ic} = 1216\\text{ m}^3\\text{/ngày}$, $V_{\\text{out}} = 101.33\\text{ m}^3\\text{/(2h)}$, $V_{\\text{theo}} = 50.00 - (-70.00) = 120\\text{ (m}^3\\text{)} \\implies V_{\\text{prac}} = 144\\text{ (m}^3\\text{)}$",
+        "**Bước 2 - Tính cân bằng nồng độ $\\text{BOD}$ và $\\text{TSS}$ từ chu kỳ $6\\text{–}8$**: Đạt cực đại tại $10\\text{–N}$ với $\\text{BOD}_{\\text{eq},\\max} = 240\\text{ mg/L}$, $\\text{TSS}_{\\text{eq},\\max} = 217\\text{ mg/L}$ và cực tiểu tại $2\\text{–}4$ với $\\text{BOD}_{\\text{eq},\\min} = 129\\text{ mg/L}$, $\\text{TSS}_{\\text{eq},\\min} = 149\\text{ mg/L}$"
+      ],
+      "verification_checks": [
+        "Kiểm tra giảm tỷ số cực trị: $\\left(\\frac{\\text{Peak}}{\\text{Min}}\\right)_{\\text{BOD}} = 2.23 \\to 1.86$ và $\\left(\\frac{\\text{Peak}}{\\text{Min}}\\right)_{\\text{TSS}} = 1.63 \\to 1.46$ (Đạt chuẩn Slide 32)"
+      ],
+      "final_answers": {
+        "V_out_per_2h": "$101.33\\text{ m}^3\\text{/(2h)}$",
+        "V_theoretical": "$120\\text{ m}^3$",
+        "V_practical": "$144\\text{ m}^3$",
+        "BOD_equalized_range": "$129\\text{–}240\\text{ mg/L}$",
+        "TSS_equalized_range": "$149\\text{–}217\\text{ mg/L}$"
+      }
+    }
+  ]
+}

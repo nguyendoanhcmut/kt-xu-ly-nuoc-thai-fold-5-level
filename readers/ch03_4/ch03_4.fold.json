@@ -1,0 +1,1235 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-3-4-h-th-ng-tuy-n-n-i-kh-h-a-tan-4a319ed2",
+  "lang": "vi",
+  "title": "Chương 3.4 Hệ Thống Tuyển Nổi Khí Hòa Tan (Chapter 3.4 Dissolved-Air Flotation System)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch03_4_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:43:20Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-08T00:43:19",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-tổng-quan-nguyên-lý-và-ưu-nhược-điểm-của-hệ-thống-tuyển-nổi-daf-overview-principle-and-advantages-and-disadvantages-of-daf",
+      "num": "1",
+      "title": "Tổng Quan Nguyên Lý Và Ưu Nhược Điểm Của Hệ Thống Tuyển Nổi DAF (Overview Principle and Advantages and Disadvantages of DAF)",
+      "depth": 1,
+      "takeaway": "Hệ thống tuyển nổi DAF dùng áp suất $3.4\\text{ đến }4.8\\text{ atm}$ để khử $99\\%\\text{ SS}$",
+      "topic": "Hệ thống tuyển",
+      "units": [
+        {
+          "id": "p-98ea867f",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Hệ thống tuyển nổi khí hòa tan (Dissolved-Air Flotation, viết tắt là DAF) là công trình xử lý cơ lý chuyên dụng để tách các hạt chất rắn lơ lửng (suspended solids), dầu mỡ và chất béo (fat, oil, and grease, viết tắt là FOGs) ra khỏi nước thải công nghiệp [Page 1] [Page 2]. Nguyên lý hoạt động cơ bản của quá trình tuyển nổi khí hòa tan diễn ra tuần tự qua sáu bước vật lý liên tiếp từ khâu bão hòa khí đến khâu vớt bọt nổi [Page 2]. Tại bước thứ nhất và bước thứ hai, không khí nén được hòa tan vào nước dưới áp suất cao từ $3.4\\text{ đến }4.8\\text{ atm}$ bên trong bình áp lực (pressure vessel), sau đó dòng nước bão hòa khí đi qua van giảm áp (pressure reducing valve) để hạ áp suất về mức áp suất khí quyển và giải phóng hàng triệu bọt khí siêu mịn [Page 2]. Tại các bước từ thứ ba đến thứ sáu, các bọt khí mịn phân tán vào pha lỏng, bám dính vào bề mặt các hạt rắn hoặc giọt dầu mỡ để làm tăng lực đẩy nổi (buoyancy), kéo các hạt này nổi nhanh lên mặt thoáng của bể và được thanh gạt bề mặt (skimmer) thu gom vào máng chứa bùn nổi [Page 2].",
+          "sentences": [
+            "Hệ thống tuyển nổi khí hòa tan (Dissolved-Air Flotation, viết tắt là DAF) là công trình xử lý cơ lý chuyên dụng để tách các hạt chất rắn lơ lửng (suspended solids), dầu mỡ và chất béo (fat, oil, and grease, viết tắt là FOGs) ra khỏi nước thải công nghiệp [Page 1] [Page 2].",
+            "Nguyên lý hoạt động cơ bản của quá trình tuyển nổi khí hòa tan diễn ra tuần tự qua sáu bước vật lý liên tiếp từ khâu bão hòa khí đến khâu vớt bọt nổi [Page 2].",
+            "Tại bước thứ nhất và bước thứ hai, không khí nén được hòa tan vào nước dưới áp suất cao từ $3.4\\text{ đến }4.8\\text{ atm}$ bên trong bình áp lực (pressure vessel), sau đó dòng nước bão hòa khí đi qua van giảm áp (pressure reducing valve) để hạ áp suất về mức áp suất khí quyển và giải phóng hàng triệu bọt khí siêu mịn [Page 2].",
+            "Tại các bước từ thứ ba đến thứ sáu, các bọt khí mịn phân tán vào pha lỏng, bám dính vào bề mặt các hạt rắn hoặc giọt dầu mỡ để làm tăng lực đẩy nổi (buoyancy), kéo các hạt này nổi nhanh lên mặt thoáng của bể và được thanh gạt bề mặt (skimmer) thu gom vào máng chứa bùn nổi [Page 2]."
+          ],
+          "brief": [
+            "Hệ thống tuyển nổi khí hòa tan (Dissolved-Air Flotation, viết tắt là DAF) là công trình xử lý cơ lý chuyên dụng để tách các hạt chất rắn lơ lửng (suspended solids), dầu mỡ và chất béo (fat, oil, and grease, viết tắt là FOGs) ra khỏi nước thải công nghiệp [Page 1] [Page 2].",
+            "Tại bước thứ nhất và bước thứ hai, không khí nén được hòa tan vào nước dưới áp suất cao từ $3.4\\text{ đến }4.8\\text{ atm}$ bên trong bình áp lực (pressure vessel), sau đó dòng nước bão hòa khí đi qua van giảm áp (pressure reducing valve) để hạ áp suất về mức áp suất khí quyển và giải phóng hàng triệu bọt khí siêu mịn [Page 2]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Bình áp lực hòa tan khí ở $3.4\\text{ đến }4.8\\text{ atm}$ tạo bọt mịn. Van giảm áp hạ áp suất về khí quyển giúp bọt khí bám vào hạt rắn và dầu mỡ.",
+          "takeaway": "Bình áp lực hòa tan khí ở $3.4\\text{ đến }4.8\\text{ atm}$ tạo bọt mịn",
+          "topic": "Bình áp lực"
+        },
+        {
+          "id": "p-f4d481dc",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Khi so sánh với bể lắng trọng lực truyền thống, hệ thống tuyển nổi DAF sở hữu nhiều ưu điểm kỹ thuật vượt trội nhưng cũng đi kèm một số hạn chế về năng lượng và thiết bị cơ khí [Page 3]. Hệ thống DAF xử lý rất hiệu quả các hạt cặn có kích thước nhỏ hoặc có tỷ trọng nhẹ gần bằng nước mà bể lắng trọng lực khó tách bỏ [Page 3]. Quá trình tuyển nổi đạt hiệu suất khử chất rắn lơ lửng rất cao (lên đến $99\\%\\text{ SS}$) trong thời gian lưu nước ngắn hơn nhiều so với bể lắng, nhờ đó giúp giảm đáng kể diện tích mặt bằng xây dựng công trình và tạo ra lớp bùn nổi có nồng độ chất khô đặc hơn bùn lắng sơ cấp [Page 3]. Tuy nhiên, nhược điểm của hệ thống DAF là tiêu thụ nhiều điện năng cho bơm cao áp và máy nén khí, đòi hỏi hệ thống thiết bị cơ khí phức tạp có chi phí đầu tư cao, và kém hiệu quả đối với các hạt chất rắn lơ lửng có kích thước lớn và nặng [Page 3].",
+          "sentences": [
+            "Khi so sánh với bể lắng trọng lực truyền thống, hệ thống tuyển nổi DAF sở hữu nhiều ưu điểm kỹ thuật vượt trội nhưng cũng đi kèm một số hạn chế về năng lượng và thiết bị cơ khí [Page 3].",
+            "Hệ thống DAF xử lý rất hiệu quả các hạt cặn có kích thước nhỏ hoặc có tỷ trọng nhẹ gần bằng nước mà bể lắng trọng lực khó tách bỏ [Page 3].",
+            "Quá trình tuyển nổi đạt hiệu suất khử chất rắn lơ lửng rất cao (lên đến $99\\%\\text{ SS}$) trong thời gian lưu nước ngắn hơn nhiều so với bể lắng, nhờ đó giúp giảm đáng kể diện tích mặt bằng xây dựng công trình và tạo ra lớp bùn nổi có nồng độ chất khô đặc hơn bùn lắng sơ cấp [Page 3].",
+            "Tuy nhiên, nhược điểm của hệ thống DAF là tiêu thụ nhiều điện năng cho bơm cao áp và máy nén khí, đòi hỏi hệ thống thiết bị cơ khí phức tạp có chi phí đầu tư cao, và kém hiệu quả đối với các hạt chất rắn lơ lửng có kích thước lớn và nặng [Page 3]."
+          ],
+          "brief": [
+            "Hệ thống DAF xử lý rất hiệu quả các hạt cặn có kích thước nhỏ hoặc có tỷ trọng nhẹ gần bằng nước mà bể lắng trọng lực khó tách bỏ [Page 3].",
+            "Quá trình tuyển nổi đạt hiệu suất khử chất rắn lơ lửng rất cao (lên đến $99\\%\\text{ SS}$) trong thời gian lưu nước ngắn hơn nhiều so với bể lắng, nhờ đó giúp giảm đáng kể diện tích mặt bằng xây dựng công trình và tạo ra lớp bùn nổi có nồng độ chất khô đặc hơn bùn lắng sơ cấp [Page 3]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Quá trình tuyển nổi khử đến $99\\%\\text{ SS}$ nhưng tiêu thụ nhiều điện năng. Công nghệ này tách hiệu quả hạt cặn nhẹ và giảm diện tích bể nhưng kém hiệu quả với hạt nặng.",
+          "takeaway": "Quá trình tuyển nổi khử đến $99\\%\\text{ SS}$ nhưng tiêu thụ nhiều điện năng",
+          "topic": "Quá trình tuyển"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-phân-loại-cấu-tạo-bể-tuyển-nổi-và-bình-áp-lực-classification-tank-configuration-and-pressure-vessel",
+      "num": "2",
+      "title": "Phân Loại Cấu Tạo Bể Tuyển Nổi Và Bình Áp Lực (Classification Tank Configuration and Pressure Vessel)",
+      "depth": 1,
+      "takeaway": "Hệ thống tuyển nổi DAF vận hành theo sơ đồ tuần hoàn nước áp lực",
+      "topic": "sơ đồ tuần",
+      "units": [
+        {
+          "id": "p-072389a0",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Dựa theo sơ đồ cấp khí áp lực, các nhà máy xử lý nước thải phân loại hệ thống tuyển nổi DAF thành hệ thống không tuần hoàn (without recycle) và hệ thống có tuần hoàn nước áp lực (with recycle) [Page 4]. Trong sơ đồ tuyển nổi không tuần hoàn, toàn bộ lưu lượng nước thải đầu vào được bơm trực tiếp qua bình áp lực để bão hòa không khí trước khi xả vào bể tuyển nổi [Page 4]. Sơ đồ không tuần hoàn có cấu tạo gọn nhưng làm tăng lưu lượng qua bình áp lực và có nguy cơ phá vỡ cấu trúc bông cặn đã keo tụ khi đi qua bơm cao áp [Page 4]. Trong sơ đồ tuyển nổi có tuần hoàn, chỉ một phần nước trong sau xử lý (recycle flow) được trích ra để bơm qua bình áp lực, sau đó dòng nước tuần hoàn bão hòa khí này mới hòa trộn với dòng nước thải đầu vào ngay trước vùng phản ứng của bể tuyển nổi [Page 4].",
+          "sentences": [
+            "Dựa theo sơ đồ cấp khí áp lực, các nhà máy xử lý nước thải phân loại hệ thống tuyển nổi DAF thành hệ thống không tuần hoàn (without recycle) và hệ thống có tuần hoàn nước áp lực (with recycle) [Page 4].",
+            "Trong sơ đồ tuyển nổi không tuần hoàn, toàn bộ lưu lượng nước thải đầu vào được bơm trực tiếp qua bình áp lực để bão hòa không khí trước khi xả vào bể tuyển nổi [Page 4].",
+            "Sơ đồ không tuần hoàn có cấu tạo gọn nhưng làm tăng lưu lượng qua bình áp lực và có nguy cơ phá vỡ cấu trúc bông cặn đã keo tụ khi đi qua bơm cao áp [Page 4].",
+            "Trong sơ đồ tuyển nổi có tuần hoàn, chỉ một phần nước trong sau xử lý (recycle flow) được trích ra để bơm qua bình áp lực, sau đó dòng nước tuần hoàn bão hòa khí này mới hòa trộn với dòng nước thải đầu vào ngay trước vùng phản ứng của bể tuyển nổi [Page 4]."
+          ],
+          "brief": [
+            "Dựa theo sơ đồ cấp khí áp lực, các nhà máy xử lý nước thải phân loại hệ thống tuyển nổi DAF thành hệ thống không tuần hoàn (without recycle) và hệ thống có tuần hoàn nước áp lực (with recycle) [Page 4].",
+            "Trong sơ đồ tuyển nổi có tuần hoàn, chỉ một phần nước trong sau xử lý (recycle flow) được trích ra để bơm qua bình áp lực, sau đó dòng nước tuần hoàn bão hòa khí này mới hòa trộn với dòng nước thải đầu vào ngay trước vùng phản ứng của bể tuyển nổi [Page 4]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Sơ đồ tuần hoàn trích nước sau xử lý qua bình áp lực. Sơ đồ không tuần hoàn bơm toàn bộ lưu lượng đầu vào nên dễ làm vỡ bông cặn keo tụ.",
+          "takeaway": "Sơ đồ tuần hoàn trích nước sau xử lý qua bình áp lực",
+          "topic": "Sơ đồ tuần"
+        },
+        {
+          "id": "p-bd86f5b4",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Dựa theo hình dạng mặt bằng công trình, hệ thống tuyển nổi DAF được thiết kế theo dạng bể hình chữ nhật (rectangular DAF) hoặc bể hình tròn (circular DAF) kết hợp với bình bão hòa khí áp lực [Page 4] [Page 5] [Page 6]. Trong bể tuyển nổi hình chữ nhật và hình tròn, hỗn hợp nước thải và bọt khí mịn đi vào vùng tiếp xúc để đẩy các bông cặn nhẹ nổi lên mặt nước, nơi hệ thống thanh gạt bề mặt (skimmer) quét lớp váng bùn vào máng thu bọt (scum trough), trong khi phần cặn nặng lắng xuống đáy bể được thanh gạt đáy (scraper) gom về ống xả cặn và phần nước trong (supernatant effluent) chảy qua vách ngăn ra máng thu nước sau xử lý [Page 5] [Page 6]. Bình áp lực điển hình (typical pressure vessel) trên Slide 13 là một tháp hình trụ kín có bộ phân phối nước tuần hoàn ở đỉnh, lớp vật liệu đệm trơ truyền khối (inert mass transfer packing) ở thân giữa để tăng diện tích tiếp xúc giữa khí nén và nước, cùng vùng chứa nước bão hòa khí ở đáy tháp nối với van giảm áp cấp vào bể tuyển nổi [Page 7].",
+          "sentences": [
+            "Dựa theo hình dạng mặt bằng công trình, hệ thống tuyển nổi DAF được thiết kế theo dạng bể hình chữ nhật (rectangular DAF) hoặc bể hình tròn (circular DAF) kết hợp với bình bão hòa khí áp lực [Page 4] [Page 5] [Page 6].",
+            "Trong bể tuyển nổi hình chữ nhật và hình tròn, hỗn hợp nước thải và bọt khí mịn đi vào vùng tiếp xúc để đẩy các bông cặn nhẹ nổi lên mặt nước, nơi hệ thống thanh gạt bề mặt (skimmer) quét lớp váng bùn vào máng thu bọt (scum trough), trong khi phần cặn nặng lắng xuống đáy bể được thanh gạt đáy (scraper) gom về ống xả cặn và phần nước trong (supernatant effluent) chảy qua vách ngăn ra máng thu nước sau xử lý [Page 5] [Page 6].",
+            "Bình áp lực điển hình (typical pressure vessel) trên Slide 13 là một tháp hình trụ kín có bộ phân phối nước tuần hoàn ở đỉnh, lớp vật liệu đệm trơ truyền khối (inert mass transfer packing) ở thân giữa để tăng diện tích tiếp xúc giữa khí nén và nước, cùng vùng chứa nước bão hòa khí ở đáy tháp nối với van giảm áp cấp vào bể tuyển nổi [Page 7]."
+          ],
+          "brief": [
+            "Trong bể tuyển nổi hình chữ nhật và hình tròn, hỗn hợp nước thải và bọt khí mịn đi vào vùng tiếp xúc để đẩy các bông cặn nhẹ nổi lên mặt nước, nơi hệ thống thanh gạt bề mặt (skimmer) quét lớp váng bùn vào máng thu bọt (scum trough), trong khi phần cặn nặng lắng xuống đáy bể được thanh gạt đáy (scraper) gom về ống xả cặn và phần nước trong (supernatant effluent) chảy qua vách ngăn ra máng thu nước sau xử lý [Page 5] [Page 6].",
+            "Bình áp lực điển hình (typical pressure vessel) trên Slide 13 là một tháp hình trụ kín có bộ phân phối nước tuần hoàn ở đỉnh, lớp vật liệu đệm trơ truyền khối (inert mass transfer packing) ở thân giữa để tăng diện tích tiếp xúc giữa khí nén và nước, cùng vùng chứa nước bão hòa khí ở đáy tháp nối với van giảm áp cấp vào bể tuyển nổi [Page 7]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Bể tuyển nổi kết hợp thanh gạt bề mặt với bình áp lực. Thanh gạt trên mặt thu váng nổi vào máng bọt trong khi thanh gạt đáy gom cặn nặng lắng xuống.",
+          "takeaway": "Bể tuyển nổi kết hợp thanh gạt bề mặt với bình áp lực",
+          "topic": "Bể tuyển nổi"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-phương-trình-tỷ-số-khí-trên-rắn-và-bảng-thông-số-thiết-kế-daf-air-to-solids-ratio-equations-and-typical-design-information",
+      "num": "3",
+      "title": "Phương Trình Tỷ Số Khí Trên Rắn Và Bảng Thông Số Thiết Kế DAF (Air-to-Solids Ratio Equations and Typical Design Information)",
+      "depth": 1,
+      "takeaway": "Phương trình tỷ số khí trên rắn $A/S$ quyết định áp suất $P$ và lưu lượng $R$",
+      "topic": "Phương trình tỷ",
+      "units": [
+        {
+          "id": "p-fcfa6e57",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Thiết kế công nghệ hệ thống tuyển nổi DAF dựa trên phương trình cân bằng tỷ số khối lượng không khí giải phóng trên khối lượng chất rắn lơ lửng đầu vào ($A/S$, đơn vị $\\text{mg air/mg solids}$) trên Slide 14 [Page 7]. Giá trị độ hòa tan thể tích của không khí trong nước ở áp suất khí quyển ($s_a$, đơn vị $\\text{mL/L}$) giảm dần khi nhiệt độ nước tăng, cụ thể ở $0^\\circ\\text{C}$ đạt $s_a = 29.2\\text{ mL/L}$, ở $10^\\circ\\text{C}$ đạt $s_a = 22.8\\text{ mL/L}$, ở $20^\\circ\\text{C}$ đạt $s_a = 18.7\\text{ mL/L}$, và ở $30^\\circ\\text{C}$ đạt $s_a = 15.7\\text{ mL/L}$ [Page 7]. Xét hệ thống tuyển nổi không tuần hoàn (without recycle), tỷ số khí trên rắn được xác định theo phương trình $A/S = [1.3 s_a (f P - 1)] / S_a$, trong đó hệ số $1.3\\text{ mg/mL}$ là khối lượng riêng của không khí, $f$ là hệ số bão hòa khí ở áp suất $P$ (thường lấy $f = 0.5$), $P = p + 1$ là áp suất tuyệt đối trong bình áp lực ($\\text{atm}$) với $p$ là áp suất dư trên đồng hồ đo, và $S_a$ là nồng độ chất rắn lơ lửng đầu vào ($\\text{mg/L}$) [Page 7]. Xét hệ thống tuyển nổi có tuần hoàn nước áp lực (with recycle), phương trình thiết kế có dạng $A/S = [1.3 s_a (f P - 1) R] / (S_a Q)$, trong đó $R$ là lưu lượng dòng tuần hoàn áp lực ($\\text{m}^3/\\text{d}$) và $Q$ là lưu lượng nước thải đầu vào ($\\text{m}^3/\\text{d}$) [Page 7].",
+          "sentences": [
+            "Thiết kế công nghệ hệ thống tuyển nổi DAF dựa trên phương trình cân bằng tỷ số khối lượng không khí giải phóng trên khối lượng chất rắn lơ lửng đầu vào ($A/S$, đơn vị $\\text{mg air/mg solids}$) trên Slide 14 [Page 7].",
+            "Giá trị độ hòa tan thể tích của không khí trong nước ở áp suất khí quyển ($s_a$, đơn vị $\\text{mL/L}$) giảm dần khi nhiệt độ nước tăng, cụ thể ở $0^\\circ\\text{C}$ đạt $s_a = 29.2\\text{ mL/L}$, ở $10^\\circ\\text{C}$ đạt $s_a = 22.8\\text{ mL/L}$, ở $20^\\circ\\text{C}$ đạt $s_a = 18.7\\text{ mL/L}$, và ở $30^\\circ\\text{C}$ đạt $s_a = 15.7\\text{ mL/L}$ [Page 7].",
+            "Xét hệ thống tuyển nổi không tuần hoàn (without recycle), tỷ số khí trên rắn được xác định theo phương trình $A/S = [1.3 s_a (f P - 1)] / S_a$, trong đó hệ số $1.3\\text{ mg/mL}$ là khối lượng riêng của không khí, $f$ là hệ số bão hòa khí ở áp suất $P$ (thường lấy $f = 0.5$), $P = p + 1$ là áp suất tuyệt đối trong bình áp lực ($\\text{atm}$) với $p$ là áp suất dư trên đồng hồ đo, và $S_a$ là nồng độ chất rắn lơ lửng đầu vào ($\\text{mg/L}$) [Page 7].",
+            "Xét hệ thống tuyển nổi có tuần hoàn nước áp lực (with recycle), phương trình thiết kế có dạng $A/S = [1.3 s_a (f P - 1) R] / (S_a Q)$, trong đó $R$ là lưu lượng dòng tuần hoàn áp lực ($\\text{m}^3/\\text{d}$) và $Q$ là lưu lượng nước thải đầu vào ($\\text{m}^3/\\text{d}$) [Page 7]."
+          ],
+          "brief": [
+            "Xét hệ thống tuyển nổi không tuần hoàn (without recycle), tỷ số khí trên rắn được xác định theo phương trình $A/S = [1.3 s_a (f P - 1)] / S_a$, trong đó hệ số $1.3\\text{ mg/mL}$ là khối lượng riêng của không khí, $f$ là hệ số bão hòa khí ở áp suất $P$ (thường lấy $f = 0.5$), $P = p + 1$ là áp suất tuyệt đối trong bình áp lực ($\\text{atm}$) với $p$ là áp suất dư trên đồng hồ đo, và $S_a$ là nồng độ chất rắn lơ lửng đầu vào ($\\text{mg/L}$) [Page 7].",
+            "Xét hệ thống tuyển nổi có tuần hoàn nước áp lực (with recycle), phương trình thiết kế có dạng $A/S = [1.3 s_a (f P - 1) R] / (S_a Q)$, trong đó $R$ là lưu lượng dòng tuần hoàn áp lực ($\\text{m}^3/\\text{d}$) và $Q$ là lưu lượng nước thải đầu vào ($\\text{m}^3/\\text{d}$) [Page 7]."
+          ],
+          "evidence": [
+            2,
+            3
+          ],
+          "key": "Tỷ số $A/S$ phụ thuộc độ hòa tan $s_a = 18.7\\text{ mL/L}$ và áp suất $P$. Khi có tuần hoàn nước áp lực, phương trình nhân thêm tỷ số giữa lưu lượng tuần hoàn $R$ và lưu lượng $Q$.",
+          "takeaway": "Tỷ số $A/S$ phụ thuộc độ hòa tan $s_a = 18.7\\text{ mL/L}$ và áp suất $P$",
+          "topic": "độ hòa tan"
+        },
+        {
+          "id": "p-ab31213b",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Các biến số vận hành và bảng khuyến nghị thông số thiết kế chuẩn cho hệ thống tuyển nổi DAF được quy định cụ thể trên Slide 15, Slide 16 và Slide 17 [Page 8] [Page 9]. Thời gian lưu nước (detention time) của bể tuyển nổi nằm trong khoảng $20\\text{ đến }30\\text{ min}$ (cần thời gian lưu dài hơn khi dùng để cô đặc bùn), thời gian lưu nước của bình áp lực từ $1\\text{ đến }3\\text{ min}$ để không khí kịp hòa tan vào nước, và vận tốc nổi của tổ hợp bọt khí gắn hạt rắn nằm trong khoảng $2.56\\text{ đến }12.7\\text{ cm/min}$ tỷ lệ thuận với tỷ số $A/S$ [Page 8]. Theo bảng thông số khuyến nghị trên Slide 16, tỷ số $A/S$ nằm trong khoảng $0.005\\text{ đến }0.06\\text{ mg/mg}$, tải trọng bề mặt (surface loading rate) từ $80\\text{ đến }240\\text{ m}^3/(\\text{m}^2\\cdot\\text{day})$, chiều sâu bể $\\text{Depth} \\le 3\\text{ m}$, chiều dài bể $\\text{Length} \\le 11\\text{ m}$, tỷ lệ tuần hoàn (recycle ratio) từ $15\\text{ đến }120\\%$ lưu lượng đầu vào, khoảng cách vòi phun từ $0.2\\text{ đến }0.3\\text{ m}$, tải trọng thủy lực của bình áp lực (pressure vessel hydraulic loading rate) từ $1,440\\text{ đến }1,920\\text{ m}^3/(\\text{m}^2\\cdot\\text{day})$, chiều cao lớp đệm bình áp lực từ $1\\text{ đến }1.5\\text{ m}$, tải trọng khí cấp từ $6\\text{ đến }10\\text{ g air/m}^3\\text{ raw water}$, và đường kính bọt khí mịn từ $10\\text{ đến }100\\text{ }\\mu\\text{m}$ [Page 8]. Nhằm thu gom bùn nổi đạt độ đặc cao và tránh hiện tượng tách bọt sớm do tổn thất áp lực trên đường ống phân phối, kỹ sư ưu tiên dùng thiết bị gạt cơ học (cho độ đặc bùn từ $2\\text{ đến }3\\%$ chất khô so với mức $0.5\\%$ của hệ thống thu thủy lực), giữ mực nước trong bình áp lực cao hơn mực nước bể DAF, đặt bình áp lực càng gần bể DAF càng tốt và giảm thiểu số lượng phụ kiện co cút trên đường ống phía sau bình áp lực [Page 9].",
+          "sentences": [
+            "Các biến số vận hành và bảng khuyến nghị thông số thiết kế chuẩn cho hệ thống tuyển nổi DAF được quy định cụ thể trên Slide 15, Slide 16 và Slide 17 [Page 8] [Page 9].",
+            "Thời gian lưu nước (detention time) của bể tuyển nổi nằm trong khoảng $20\\text{ đến }30\\text{ min}$ (cần thời gian lưu dài hơn khi dùng để cô đặc bùn), thời gian lưu nước của bình áp lực từ $1\\text{ đến }3\\text{ min}$ để không khí kịp hòa tan vào nước, và vận tốc nổi của tổ hợp bọt khí gắn hạt rắn nằm trong khoảng $2.56\\text{ đến }12.7\\text{ cm/min}$ tỷ lệ thuận với tỷ số $A/S$ [Page 8].",
+            "Theo bảng thông số khuyến nghị trên Slide 16, tỷ số $A/S$ nằm trong khoảng $0.005\\text{ đến }0.06\\text{ mg/mg}$, tải trọng bề mặt (surface loading rate) từ $80\\text{ đến }240\\text{ m}^3/(\\text{m}^2\\cdot\\text{day})$, chiều sâu bể $\\text{Depth} \\le 3\\text{ m}$, chiều dài bể $\\text{Length} \\le 11\\text{ m}$, tỷ lệ tuần hoàn (recycle ratio) từ $15\\text{ đến }120\\%$ lưu lượng đầu vào, khoảng cách vòi phun từ $0.2\\text{ đến }0.3\\text{ m}$, tải trọng thủy lực của bình áp lực (pressure vessel hydraulic loading rate) từ $1,440\\text{ đến }1,920\\text{ m}^3/(\\text{m}^2\\cdot\\text{day})$, chiều cao lớp đệm bình áp lực từ $1\\text{ đến }1.5\\text{ m}$, tải trọng khí cấp từ $6\\text{ đến }10\\text{ g air/m}^3\\text{ raw water}$, và đường kính bọt khí mịn từ $10\\text{ đến }100\\text{ }\\mu\\text{m}$ [Page 8].",
+            "Nhằm thu gom bùn nổi đạt độ đặc cao và tránh hiện tượng tách bọt sớm do tổn thất áp lực trên đường ống phân phối, kỹ sư ưu tiên dùng thiết bị gạt cơ học (cho độ đặc bùn từ $2\\text{ đến }3\\%$ chất khô so với mức $0.5\\%$ của hệ thống thu thủy lực), giữ mực nước trong bình áp lực cao hơn mực nước bể DAF, đặt bình áp lực càng gần bể DAF càng tốt và giảm thiểu số lượng phụ kiện co cút trên đường ống phía sau bình áp lực [Page 9]."
+          ],
+          "brief": [
+            "Thời gian lưu nước (detention time) của bể tuyển nổi nằm trong khoảng $20\\text{ đến }30\\text{ min}$ (cần thời gian lưu dài hơn khi dùng để cô đặc bùn), thời gian lưu nước của bình áp lực từ $1\\text{ đến }3\\text{ min}$ để không khí kịp hòa tan vào nước, và vận tốc nổi của tổ hợp bọt khí gắn hạt rắn nằm trong khoảng $2.56\\text{ đến }12.7\\text{ cm/min}$ tỷ lệ thuận với tỷ số $A/S$ [Page 8].",
+            "Theo bảng thông số khuyến nghị trên Slide 16, tỷ số $A/S$ nằm trong khoảng $0.005\\text{ đến }0.06\\text{ mg/mg}$, tải trọng bề mặt (surface loading rate) từ $80\\text{ đến }240\\text{ m}^3/(\\text{m}^2\\cdot\\text{day})$, chiều sâu bể $\\text{Depth} \\le 3\\text{ m}$, chiều dài bể $\\text{Length} \\le 11\\text{ m}$, tỷ lệ tuần hoàn (recycle ratio) từ $15\\text{ đến }120\\%$ lưu lượng đầu vào, khoảng cách vòi phun từ $0.2\\text{ đến }0.3\\text{ m}$, tải trọng thủy lực của bình áp lực (pressure vessel hydraulic loading rate) từ $1,440\\text{ đến }1,920\\text{ m}^3/(\\text{m}^2\\cdot\\text{day})$, chiều cao lớp đệm bình áp lực từ $1\\text{ đến }1.5\\text{ m}$, tải trọng khí cấp từ $6\\text{ đến }10\\text{ g air/m}^3\\text{ raw water}$, và đường kính bọt khí mịn từ $10\\text{ đến }100\\text{ }\\mu\\text{m}$ [Page 8]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Bể tuyển nổi lưu nước $20\\text{ đến }30\\text{ min}$ với tỷ lệ tuần hoàn $15\\text{ đến }120\\%$. Thiết bị gạt cơ học tạo bùn đặc $2\\text{ đến }3\\%$ và bình áp lực đặt gần bể để tránh tách bọt sớm.",
+          "takeaway": "Bể tuyển nổi lưu nước $20\\text{ đến }30\\text{ min}$ với tỷ lệ tuần hoàn $15\\text{ đến }120\\%$",
+          "topic": "Bể tuyển nổi"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-lời-giải-chi-tiết-bài-tập-thiết-kế-hệ-thống-daf-trong-slide-bài-giảng-worked-solution-for-lecture-slide-example",
+      "num": "4",
+      "title": "Lời Giải Chi Tiết Bài Tập Thiết Kế Hệ Thống DAF Trong Slide Bài Giảng (Worked Solution for Lecture Slide Example)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch03_4_ex01-slide-18-21-lời-giải-từ-ảnh-chụp-slide-của-thầy-thiết-kế-hệ-thống-tuyển-nổi-daf-không-tuần-hoàn-và-có-tuần-hoàn-nước-áp-lực",
+      "num": "",
+      "title": "Bài tập ch03_4_ex01 (Slide 18-21, Lời giải từ ảnh chụp slide của thầy): Thiết kế hệ thống tuyển nổi DAF không tuần hoàn và có tuần hoàn nước áp lực",
+      "depth": 2,
+      "takeaway": "Bài tập thiết kế DAF xác định $P = 3.98\\text{ atm}$ và tuần hoàn $R = 197\\text{ m}^3/\\text{d}$",
+      "topic": "Bài tập thiết",
+      "units": [
+        {
+          "id": "p-84c28285",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Thiết kế hệ thống tuyển nổi khí hòa tan (DAF) cho hai phương án không tuần hoàn và có tuần hoàn nước áp lực với lưu lượng trung bình $Q = 400\\text{ m}^3/\\text{d}$ và nồng độ cặn lơ lửng đầu vào $S_a = 3,000\\text{ mg/L}$ [Page 9]. Hệ thống vận hành ở nhiệt độ $T = 20^\\circ\\text{C}$ có độ hòa tan không khí $s_a = 18.7\\text{ mL/L}$, tỷ số khí trên rắn tối ưu $A/S = 0.008\\text{ mg/mg}$, áp suất dư tuần hoàn $p = 5\\text{ atm}$, hệ số bão hòa $f = 0.5$ và tải trọng bề mặt $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ [Page 9].",
+          "sentences": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Thiết kế hệ thống tuyển nổi khí hòa tan (DAF) cho hai phương án không tuần hoàn và có tuần hoàn nước áp lực với lưu lượng trung bình $Q = 400\\text{ m}^3/\\text{d}$ và nồng độ cặn lơ lửng đầu vào $S_a = 3,000\\text{ mg/L}$ [Page 9].",
+            "Hệ thống vận hành ở nhiệt độ $T = 20^\\circ\\text{C}$ có độ hòa tan không khí $s_a = 18.7\\text{ mL/L}$, tỷ số khí trên rắn tối ưu $A/S = 0.008\\text{ mg/mg}$, áp suất dư tuần hoàn $p = 5\\text{ atm}$, hệ số bão hòa $f = 0.5$ và tải trọng bề mặt $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ [Page 9]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải từ ảnh chụp slide của thầy]): Thiết kế hệ thống tuyển nổi khí hòa tan (DAF) cho hai phương án không tuần hoàn và có tuần hoàn nước áp lực với lưu lượng trung bình $Q = 400\\text{ m}^3/\\text{d}$ và nồng độ cặn lơ lửng đầu vào $S_a = 3,000\\text{ mg/L}$ [Page 9].",
+            "Hệ thống vận hành ở nhiệt độ $T = 20^\\circ\\text{C}$ có độ hòa tan không khí $s_a = 18.7\\text{ mL/L}$, tỷ số khí trên rắn tối ưu $A/S = 0.008\\text{ mg/mg}$, áp suất dư tuần hoàn $p = 5\\text{ atm}$, hệ số bão hòa $f = 0.5$ và tải trọng bề mặt $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài thiết kế DAF ở $Q = 400\\text{ m}^3/\\text{d}$ và $S_a = 3,000\\text{ mg/L}$. Hệ thống vận hành ở $T = 20^\\circ\\text{C}$ với tỷ số $A/S = 0.008\\text{ mg/mg}$ và tải trọng $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$.",
+          "takeaway": "Đề bài thiết kế DAF ở $Q = 400\\text{ m}^3/\\text{d}$ và $S_a = 3,000\\text{ mg/L}$",
+          "topic": "Đề bài thiết"
+        },
+        {
+          "id": "p-51f2ba92",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính áp suất bình bão hòa cho phương án không tuần hoàn: Kỹ sư áp dụng phương trình cân bằng tỷ số khí trên rắn $A/S$ khi không tuần hoàn trên Slide $19$ để xác định áp suất tuyệt đối $P = 3.98\\text{ atm}$ [Page 9]. Từ mối liên hệ $P = p + 1$, áp suất dư cần cấp cho bình áp lực đạt $p = 2.98\\text{ atm}$ [Page 9].",
+          "sentences": [
+            "Bước 1 - Tính áp suất bình bão hòa cho phương án không tuần hoàn: Kỹ sư áp dụng phương trình cân bằng tỷ số khí trên rắn $A/S$ khi không tuần hoàn trên Slide $19$ để xác định áp suất tuyệt đối $P = 3.98\\text{ atm}$ [Page 9].",
+            "Từ mối liên hệ $P = p + 1$, áp suất dư cần cấp cho bình áp lực đạt $p = 2.98\\text{ atm}$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 1 - Tính áp suất bình bão hòa cho phương án không tuần hoàn: Kỹ sư áp dụng phương trình cân bằng tỷ số khí trên rắn $A/S$ khi không tuần hoàn trên Slide $19$ để xác định áp suất tuyệt đối $P = 3.98\\text{ atm}$ [Page 9].",
+            "Từ mối liên hệ $P = p + 1$, áp suất dư cần cấp cho bình áp lực đạt $p = 2.98\\text{ atm}$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Phương án không tuần hoàn cần $P = 3.98\\text{ atm}$ và $p = 2.98\\text{ atm}$. Giá trị áp suất này được giải trực tiếp từ phương trình cân bằng tỷ số khí trên rắn $A/S$.",
+          "takeaway": "Phương án không tuần hoàn cần $P = 3.98\\text{ atm}$ và $p = 2.98\\text{ atm}$",
+          "topic": "Phương án không"
+        },
+        {
+          "id": "p-b00052d6",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính diện tích bề mặt bể tuyển nổi khi không tuần hoàn: Diện tích mặt bằng bể tuyển nổi $A_s$ được xác định bằng tỷ số giữa lưu lượng thiết kế $Q$ và tải trọng bề mặt $\\text{SLR}$ [Page 9]. Thay số liệu thiết kế vào công thức cho kết quả diện tích bể là $A_s = 4\\text{ m}^2$ [Page 9].",
+          "sentences": [
+            "Bước 2 - Tính diện tích bề mặt bể tuyển nổi khi không tuần hoàn: Diện tích mặt bằng bể tuyển nổi $A_s$ được xác định bằng tỷ số giữa lưu lượng thiết kế $Q$ và tải trọng bề mặt $\\text{SLR}$ [Page 9].",
+            "Thay số liệu thiết kế vào công thức cho kết quả diện tích bể là $A_s = 4\\text{ m}^2$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 2 - Tính diện tích bề mặt bể tuyển nổi khi không tuần hoàn: Diện tích mặt bằng bể tuyển nổi $A_s$ được xác định bằng tỷ số giữa lưu lượng thiết kế $Q$ và tải trọng bề mặt $\\text{SLR}$ [Page 9].",
+            "Thay số liệu thiết kế vào công thức cho kết quả diện tích bể là $A_s = 4\\text{ m}^2$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Diện tích mặt bằng bể khi không tuần hoàn đạt $A_s = 4\\text{ m}^2$. Diện tích bể bằng lưu lượng thiết kế $Q$ chia cho tải trọng bề mặt $\\text{SLR}$.",
+          "takeaway": "Diện tích mặt bằng bể khi không tuần hoàn đạt $A_s = 4\\text{ m}^2$",
+          "topic": "Diện tích mặt"
+        },
+        {
+          "id": "p-040026ad",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính áp suất tuyệt đối và lưu lượng dòng tuần hoàn: Xét phương án có tuần hoàn nước áp lực trên Slide $20$ ở áp suất dư $p = 5\\text{ atm}$, áp suất tuyệt đối trong bình đạt $P = 6\\text{ atm}$ [Page 9]. Thay vào phương trình cân bằng khí trên rắn có tuần hoàn tìm được lưu lượng tuần hoàn $R = 197\\text{ m}^3/\\text{d}$ ứng với tỷ lệ tuần hoàn $49.25\\%$ [Page 9].",
+          "sentences": [
+            "Bước 3 - Tính áp suất tuyệt đối và lưu lượng dòng tuần hoàn: Xét phương án có tuần hoàn nước áp lực trên Slide $20$ ở áp suất dư $p = 5\\text{ atm}$, áp suất tuyệt đối trong bình đạt $P = 6\\text{ atm}$ [Page 9].",
+            "Thay vào phương trình cân bằng khí trên rắn có tuần hoàn tìm được lưu lượng tuần hoàn $R = 197\\text{ m}^3/\\text{d}$ ứng với tỷ lệ tuần hoàn $49.25\\%$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 3 - Tính áp suất tuyệt đối và lưu lượng dòng tuần hoàn: Xét phương án có tuần hoàn nước áp lực trên Slide $20$ ở áp suất dư $p = 5\\text{ atm}$, áp suất tuyệt đối trong bình đạt $P = 6\\text{ atm}$ [Page 9].",
+            "Thay vào phương trình cân bằng khí trên rắn có tuần hoàn tìm được lưu lượng tuần hoàn $R = 197\\text{ m}^3/\\text{d}$ ứng với tỷ lệ tuần hoàn $49.25\\%$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Phương án tuần hoàn ở $P = 6\\text{ atm}$ cần lưu lượng $R = 197\\text{ m}^3/\\text{d}$. Tỷ lệ nước tuần hoàn tương ứng đạt $49.25\\%$ nằm trong vùng vận hành chuẩn của bể DAF.",
+          "takeaway": "Phương án tuần hoàn ở $P = 6\\text{ atm}$ cần lưu lượng $R = 197\\text{ m}^3/\\text{d}$",
+          "topic": "Phương án tuần"
+        },
+        {
+          "id": "p-f4763664",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính diện tích bể tuyển nổi và kích thước bình áp lực: Tổng diện tích bề mặt bể tuyển nổi tính cả lưu lượng tuần hoàn $Q + R$ đạt $A_s = 5.97\\text{ m}^2$ và được làm tròn thành $A_s = 6\\text{ m}^2$ [Page 9]. Với tải trọng thủy lực bình áp lực chọn từ bảng Slide $16$ là $1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, tiết diện ngang bình áp lực đạt $A_{\\text{vessel}} = 0.137\\text{ m}^2$ và đường kính bình đạt $d = 0.42\\text{ m}$ [Page 9].",
+          "sentences": [
+            "Bước 4 - Tính diện tích bể tuyển nổi và kích thước bình áp lực: Tổng diện tích bề mặt bể tuyển nổi tính cả lưu lượng tuần hoàn $Q + R$ đạt $A_s = 5.97\\text{ m}^2$ và được làm tròn thành $A_s = 6\\text{ m}^2$ [Page 9].",
+            "Với tải trọng thủy lực bình áp lực chọn từ bảng Slide $16$ là $1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, tiết diện ngang bình áp lực đạt $A_{\\text{vessel}} = 0.137\\text{ m}^2$ và đường kính bình đạt $d = 0.42\\text{ m}$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 4 - Tính diện tích bể tuyển nổi và kích thước bình áp lực: Tổng diện tích bề mặt bể tuyển nổi tính cả lưu lượng tuần hoàn $Q + R$ đạt $A_s = 5.97\\text{ m}^2$ và được làm tròn thành $A_s = 6\\text{ m}^2$ [Page 9].",
+            "Với tải trọng thủy lực bình áp lực chọn từ bảng Slide $16$ là $1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, tiết diện ngang bình áp lực đạt $A_{\\text{vessel}} = 0.137\\text{ m}^2$ và đường kính bình đạt $d = 0.42\\text{ m}$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Bể tuyển nổi rộng $A_s = 6\\text{ m}^2$ và bình áp lực có $d = 0.42\\text{ m}$. Tiết diện bình áp lực đạt $A_{\\text{vessel}} = 0.137\\text{ m}^2$ ứng với tải trọng thủy lực $1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$.",
+          "takeaway": "Bể tuyển nổi rộng $A_s = 6\\text{ m}^2$ và bình áp lực có $d = 0.42\\text{ m}$",
+          "topic": "Bể tuyển nổi"
+        },
+        {
+          "id": "p-924a2fd5",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 5 - Tính tổng lưu lượng không khí nén yêu cầu: Lưu lượng không khí nén cần cấp cho hệ thống tuyển nổi $Q_{\\text{air}}$ được xác định từ tổng lượng chất rắn đầu vào và khối lượng riêng không khí $1.3\\text{ g/L}$ trên Slide $21$ [Page 9]. Kết quả tính toán cho lưu lượng khí nén là $Q_{\\text{air}} = 7,384.6\\text{ L/d}$, tương đương $5.13\\text{ L/min}$ [Page 9].",
+          "sentences": [
+            "Bước 5 - Tính tổng lưu lượng không khí nén yêu cầu: Lưu lượng không khí nén cần cấp cho hệ thống tuyển nổi $Q_{\\text{air}}$ được xác định từ tổng lượng chất rắn đầu vào và khối lượng riêng không khí $1.3\\text{ g/L}$ trên Slide $21$ [Page 9].",
+            "Kết quả tính toán cho lưu lượng khí nén là $Q_{\\text{air}} = 7,384.6\\text{ L/d}$, tương đương $5.13\\text{ L/min}$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 5 - Tính tổng lưu lượng không khí nén yêu cầu: Lưu lượng không khí nén cần cấp cho hệ thống tuyển nổi $Q_{\\text{air}}$ được xác định từ tổng lượng chất rắn đầu vào và khối lượng riêng không khí $1.3\\text{ g/L}$ trên Slide $21$ [Page 9].",
+            "Kết quả tính toán cho lưu lượng khí nén là $Q_{\\text{air}} = 7,384.6\\text{ L/d}$, tương đương $5.13\\text{ L/min}$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Lưu lượng khí nén cấp đạt $Q_{\\text{air}} = 7,384.6\\text{ L/d}$ hay $5.13\\text{ L/min}$. Lượng khí nén tỷ lệ với tải lượng chất rắn đầu vào chia cho khối lượng riêng khí $1.3\\text{ g/L}$.",
+          "takeaway": "Lưu lượng khí nén cấp đạt $Q_{\\text{air}} = 7,384.6\\text{ L/d}$ hay $5.13\\text{ L/min}$",
+          "topic": "Lưu lượng khí"
+        },
+        {
+          "id": "p-37678af4",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Hệ thống tuyển nổi đảm bảo tỷ lệ tuần hoàn và tải trọng bình áp lực nằm trong vùng vận hành tối ưu [Page 8] [Page 9].",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng.",
+            "Hệ thống tuyển nổi đảm bảo tỷ lệ tuần hoàn và tải trọng bình áp lực nằm trong vùng vận hành tối ưu [Page 8] [Page 9]."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng.",
+            "Hệ thống tuyển nổi đảm bảo tỷ lệ tuần hoàn và tải trọng bình áp lực nằm trong vùng vận hành tối ưu [Page 8] [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1,
+            2
+          ],
+          "key": "Toàn bộ thông số thiết kế của hai phương án DAF đều đạt chuẩn. Tỷ lệ tuần hoàn và tải trọng thủy lực bình áp lực nằm trong vùng vận hành tối ưu.",
+          "takeaway": "Toàn bộ thông số thiết kế của hai phương án DAF đều đạt chuẩn",
+          "topic": "thông số thiết"
+        },
+        {
+          "id": "p-14ded065",
+          "kind": "list item",
+          "role": "result",
+          "full": "Áp suất bình bão hòa không tuần hoàn ($P, p$): $P = 3.98\\text{ atm}$, $p = 2.98\\text{ atm}$ (Kiểm tra: $P \\in [3.4, 4.8]\\text{ atm}\\text{ — Đạt chuẩn Slide }5, 19$)",
+          "sentences": [
+            "Áp suất bình bão hòa không tuần hoàn ($P, p$): $P = 3.98\\text{ atm}$, $p = 2.98\\text{ atm}$ (Kiểm tra: $P \\in [3.4, 4.8]\\text{ atm}\\text{ — Đạt chuẩn Slide }5, 19$)"
+          ],
+          "brief": [
+            "Áp suất bình bão hòa không tuần hoàn ($P, p$): $P = 3.98\\text{ atm}$, $p = 2.98\\text{ atm}$ (Kiểm tra: $P \\in [3.4, 4.8]\\text{ atm}\\text{ — Đạt chuẩn Slide }5, 19$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Áp suất bình không tuần hoàn đạt $P = 3.98\\text{ atm}$ và $p = 2.98\\text{ atm}$.",
+          "takeaway": "Áp suất bình không tuần hoàn đạt $P = 3.98\\text{ atm}$ và $p = 2.98\\text{ atm}$",
+          "topic": "Áp suất bình"
+        },
+        {
+          "id": "p-dbf9ddd5",
+          "kind": "list item",
+          "role": "result",
+          "full": "Diện tích bể tuyển nổi không tuần hoàn ($A_s$): $4\\text{ m}^2$ (Kiểm tra: $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [80, 240]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }16$)",
+          "sentences": [
+            "Diện tích bể tuyển nổi không tuần hoàn ($A_s$): $4\\text{ m}^2$ (Kiểm tra: $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [80, 240]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }16$)"
+          ],
+          "brief": [
+            "Diện tích bể tuyển nổi không tuần hoàn ($A_s$): $4\\text{ m}^2$ (Kiểm tra: $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [80, 240]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }16$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Diện tích bể không tuần hoàn đạt $4\\text{ m}^2$ ở $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$.",
+          "takeaway": "Diện tích bể không tuần hoàn đạt $4\\text{ m}^2$ ở $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$",
+          "topic": "Diện tích bể"
+        },
+        {
+          "id": "p-a3034bad",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng và tỷ lệ nước tuần hoàn ($R, R/Q$): $R = 197\\text{ m}^3/\\text{d}$, $R/Q = 49.25\\%$ (Kiểm tra: $R/Q \\in [15\\%, 120\\%]\\text{ — Đạt chuẩn Slide }16, 20$)",
+          "sentences": [
+            "Lưu lượng và tỷ lệ nước tuần hoàn ($R, R/Q$): $R = 197\\text{ m}^3/\\text{d}$, $R/Q = 49.25\\%$ (Kiểm tra: $R/Q \\in [15\\%, 120\\%]\\text{ — Đạt chuẩn Slide }16, 20$)"
+          ],
+          "brief": [
+            "Lưu lượng và tỷ lệ nước tuần hoàn ($R, R/Q$): $R = 197\\text{ m}^3/\\text{d}$, $R/Q = 49.25\\%$ (Kiểm tra: $R/Q \\in [15\\%, 120\\%]\\text{ — Đạt chuẩn Slide }16, 20$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng tuần hoàn đạt $R = 197\\text{ m}^3/\\text{d}$ với $R/Q = 49.25\\%$.",
+          "takeaway": "Lưu lượng tuần hoàn đạt $R = 197\\text{ m}^3/\\text{d}$ với $R/Q = 49.25\\%$",
+          "topic": "Lưu lượng tuần"
+        },
+        {
+          "id": "p-ef43f203",
+          "kind": "list item",
+          "role": "result",
+          "full": "Diện tích bể tuyển nổi có tuần hoàn ($A_s$): $5.97\\text{ m}^2 \\rightarrow \\text{chọn }6\\text{ m}^2$ (Kiểm tra: $\\text{SLR}_{\\text{thực}} = 99.5\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }20$)",
+          "sentences": [
+            "Diện tích bể tuyển nổi có tuần hoàn ($A_s$): $5.97\\text{ m}^2 \\rightarrow \\text{chọn }6\\text{ m}^2$ (Kiểm tra: $\\text{SLR}_{\\text{thực}} = 99.5\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }20$)"
+          ],
+          "brief": [
+            "Diện tích bể tuyển nổi có tuần hoàn ($A_s$): $5.97\\text{ m}^2 \\rightarrow \\text{chọn }6\\text{ m}^2$ (Kiểm tra: $\\text{SLR}_{\\text{thực}} = 99.5\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }20$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Diện tích bể có tuần hoàn đạt $5.97\\text{ m}^2 \\rightarrow \\text{chọn }6\\text{ m}^2$.",
+          "takeaway": "Diện tích bể có tuần hoàn đạt $5.97\\text{ m}^2 \\rightarrow \\text{chọn }6\\text{ m}^2$",
+          "topic": "Diện tích bể"
+        },
+        {
+          "id": "p-4661557d",
+          "kind": "list item",
+          "role": "result",
+          "full": "Kích thước bình áp lực ($A_{\\text{vessel}}, d$): $A_{\\text{vessel}} = 0.137\\text{ m}^2$, $d = 0.42\\text{ m}$ (Kiểm tra: $\\text{HLR}_{\\text{vessel}} = 1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [1,440, 1,920]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }16, 21$)",
+          "sentences": [
+            "Kích thước bình áp lực ($A_{\\text{vessel}}, d$): $A_{\\text{vessel}} = 0.137\\text{ m}^2$, $d = 0.42\\text{ m}$ (Kiểm tra: $\\text{HLR}_{\\text{vessel}} = 1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [1,440, 1,920]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }16, 21$)"
+          ],
+          "brief": [
+            "Kích thước bình áp lực ($A_{\\text{vessel}}, d$): $A_{\\text{vessel}} = 0.137\\text{ m}^2$, $d = 0.42\\text{ m}$ (Kiểm tra: $\\text{HLR}_{\\text{vessel}} = 1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [1,440, 1,920]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }16, 21$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bình áp lực có $A_{\\text{vessel}} = 0.137\\text{ m}^2$ và đường kính $d = 0.42\\text{ m}$.",
+          "takeaway": "Bình áp lực có $A_{\\text{vessel}} = 0.137\\text{ m}^2$ và đường kính $d = 0.42\\text{ m}$",
+          "topic": "Bình áp lực"
+        },
+        {
+          "id": "p-4c442b8f",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng khí nén yêu cầu ($Q_{\\text{air}}$): $7,384.6\\text{ L/d} = 5.13\\text{ L/min}$ (Kiểm tra: $A/S = 0.008\\text{ mg/mg} \\in [0.005, 0.06]\\text{ mg/mg}\\text{ — Đạt chuẩn Slide }16, 21$)",
+          "sentences": [
+            "Lưu lượng khí nén yêu cầu ($Q_{\\text{air}}$): $7,384.6\\text{ L/d} = 5.13\\text{ L/min}$ (Kiểm tra: $A/S = 0.008\\text{ mg/mg} \\in [0.005, 0.06]\\text{ mg/mg}\\text{ — Đạt chuẩn Slide }16, 21$)"
+          ],
+          "brief": [
+            "Lưu lượng khí nén yêu cầu ($Q_{\\text{air}}$): $7,384.6\\text{ L/d} = 5.13\\text{ L/min}$ (Kiểm tra: $A/S = 0.008\\text{ mg/mg} \\in [0.005, 0.06]\\text{ mg/mg}\\text{ — Đạt chuẩn Slide }16, 21$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng khí nén đạt $7,384.6\\text{ L/d} = 5.13\\text{ L/min}$ ở $A/S = 0.008\\text{ mg/mg}$.",
+          "takeaway": "Lưu lượng khí nén đạt $7,384.6\\text{ L/d} = 5.13\\text{ L/min}$ ở $A/S = 0.008\\text{ mg/mg}$",
+          "topic": "Lưu lượng khí"
+        }
+      ]
+    },
+    {
+      "id": "sec-5-lời-giải-chi-tiết-bài-tập-về-nhà-trên-lớp-worked-solutions-for-classroom-projector-homeworks",
+      "num": "5",
+      "title": "Lời Giải Chi Tiết Bài Tập Về Nhà Trên Lớp (Worked Solutions for Classroom Projector Homeworks)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-proj_ch03_4_hw01-slide-22-lời-giải-khôi-phục-theo-chuẩn-slide-của-thầy-so-sánh-hệ-thống-tuyển-nổi-khí-hòa-tan-daf-và-bể-lắng-trọng-lực-theo-5-tiêu-chí",
+      "num": "",
+      "title": "Bài tập proj_ch03_4_hw01 (Slide 22, Lời giải khôi phục theo chuẩn slide của thầy): So sánh hệ thống tuyển nổi khí hòa tan (DAF) và bể lắng trọng lực theo 5 tiêu chí",
+      "depth": 2,
+      "takeaway": "Bể tuyển nổi DAF lưu nước $20\\text{ đến }30\\text{ min}$ và khử cặn đến $99\\%$",
+      "topic": "Bể tuyển nổi",
+      "units": [
+        {
+          "id": "p-b319eb13",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Đối chiếu công nghệ tuyển nổi khí hòa tan (DAF) với công nghệ lắng trọng lực truyền thống (gravity sedimentation) theo $5$ thông số kỹ thuật gồm (a) thời gian lưu nước $\\text{HRT}$, (b) tải trọng bề mặt $\\text{SLR}$, (c) công suất tiêu thụ năng lượng $P_{\\text{input}}$, (d) hiệu suất xử lý $E_{\\text{SS}}$, và (e) phạm vi ứng dụng thuận lợi nhất [Page 3] [Page 8]. Phân tích dựa trên số liệu thiết kế chuẩn tại Slide $6, 15, 16$ của Chương $3.4$ và Slide $22$ của Chương $3.3$ [Page 3] [Page 8].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Đối chiếu công nghệ tuyển nổi khí hòa tan (DAF) với công nghệ lắng trọng lực truyền thống (gravity sedimentation) theo $5$ thông số kỹ thuật gồm (a) thời gian lưu nước $\\text{HRT}$, (b) tải trọng bề mặt $\\text{SLR}$, (c) công suất tiêu thụ năng lượng $P_{\\text{input}}$, (d) hiệu suất xử lý $E_{\\text{SS}}$, và (e) phạm vi ứng dụng thuận lợi nhất [Page 3] [Page 8].",
+            "Phân tích dựa trên số liệu thiết kế chuẩn tại Slide $6, 15, 16$ của Chương $3.4$ và Slide $22$ của Chương $3.3$ [Page 3] [Page 8]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Đối chiếu công nghệ tuyển nổi khí hòa tan (DAF) với công nghệ lắng trọng lực truyền thống (gravity sedimentation) theo $5$ thông số kỹ thuật gồm (a) thời gian lưu nước $\\text{HRT}$, (b) tải trọng bề mặt $\\text{SLR}$, (c) công suất tiêu thụ năng lượng $P_{\\text{input}}$, (d) hiệu suất xử lý $E_{\\text{SS}}$, và (e) phạm vi ứng dụng thuận lợi nhất [Page 3] [Page 8].",
+            "Phân tích dựa trên số liệu thiết kế chuẩn tại Slide $6, 15, 16$ của Chương $3.4$ và Slide $22$ của Chương $3.3$ [Page 3] [Page 8]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài đối chiếu công nghệ tuyển nổi DAF và lắng theo $5$ thông số. Các tiêu chí gồm thời gian lưu $\\text{HRT}$, tải trọng bề mặt $\\text{SLR}$, năng lượng $P_{\\text{input}}$ và hiệu suất $E_{\\text{SS}}$.",
+          "takeaway": "Đề bài đối chiếu công nghệ tuyển nổi DAF và lắng theo $5$ thông số",
+          "topic": "công nghệ tuyển"
+        },
+        {
+          "id": "p-46da392e",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Bước 1 - So sánh thời gian lưu nước và thể tích công trình (Tiêu chí a): Hệ thống tuyển nổi DAF chỉ cần thời gian lưu nước $\\text{HRT}_{\\text{DAF}}$ từ $20\\text{ đến }30\\text{ min}$ trong bể tuyển nổi và từ $1\\text{ đến }3\\text{ min}$ trong bình bão hòa áp lực [Page 8]. Ngược lại, bể lắng sơ cấp trọng lực đòi hỏi thời gian lưu nước $\\text{HRT}_{\\text{sed}}$ từ $1.5\\text{ đến }2.5\\text{ h}$ (điển hình $2.0\\text{ h} = 120\\text{ min}$), nên thể tích bể DAF nhỏ hơn từ $4\\text{ đến }6$ lần ở cùng lưu lượng $Q$ [Page 8].",
+          "sentences": [
+            "Bước 1 - So sánh thời gian lưu nước và thể tích công trình (Tiêu chí a): Hệ thống tuyển nổi DAF chỉ cần thời gian lưu nước $\\text{HRT}_{\\text{DAF}}$ từ $20\\text{ đến }30\\text{ min}$ trong bể tuyển nổi và từ $1\\text{ đến }3\\text{ min}$ trong bình bão hòa áp lực [Page 8].",
+            "Ngược lại, bể lắng sơ cấp trọng lực đòi hỏi thời gian lưu nước $\\text{HRT}_{\\text{sed}}$ từ $1.5\\text{ đến }2.5\\text{ h}$ (điển hình $2.0\\text{ h} = 120\\text{ min}$), nên thể tích bể DAF nhỏ hơn từ $4\\text{ đến }6$ lần ở cùng lưu lượng $Q$ [Page 8]."
+          ],
+          "brief": [
+            "Bước 1 - So sánh thời gian lưu nước và thể tích công trình (Tiêu chí a): Hệ thống tuyển nổi DAF chỉ cần thời gian lưu nước $\\text{HRT}_{\\text{DAF}}$ từ $20\\text{ đến }30\\text{ min}$ trong bể tuyển nổi và từ $1\\text{ đến }3\\text{ min}$ trong bình bão hòa áp lực [Page 8].",
+            "Ngược lại, bể lắng sơ cấp trọng lực đòi hỏi thời gian lưu nước $\\text{HRT}_{\\text{sed}}$ từ $1.5\\text{ đến }2.5\\text{ h}$ (điển hình $2.0\\text{ h} = 120\\text{ min}$), nên thể tích bể DAF nhỏ hơn từ $4\\text{ đến }6$ lần ở cùng lưu lượng $Q$ [Page 8]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Thời gian lưu của bể DAF đạt $20\\text{ đến }30\\text{ min}$ giúp giảm thể tích. Bể lắng sơ cấp trọng lực đòi hỏi thời gian lưu nước dài từ $1.5\\text{ đến }2.5\\text{ h}$.",
+          "takeaway": "Thời gian lưu của bể DAF đạt $20\\text{ đến }30\\text{ min}$ giúp giảm thể tích",
+          "topic": "Thời gian lưu"
+        },
+        {
+          "id": "p-22247b9e",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Bước 2 - So sánh tải trọng bề mặt và diện tích mặt bằng (Tiêu chí b): Nhờ lực đẩy nổi của bọt khí mịn đường kính $10\\text{ đến }100\\text{ }\\mu\\text{m}$, bể DAF vận hành ở tải trọng bề mặt $\\text{SLR}_{\\text{DAF}}$ từ $80\\text{ đến }240\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ so với mức $\\text{SLR}_{\\text{sed}}$ từ $30\\text{ đến }50\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ của bể lắng trọng lực [Page 8]. Tỷ số diện tích mặt bằng yêu cầu giúp công trình DAF tiết kiệm từ $60\\%\\text{ đến }80\\%$ quỹ đất xây dựng [Page 3] [Page 8].",
+          "sentences": [
+            "Bước 2 - So sánh tải trọng bề mặt và diện tích mặt bằng (Tiêu chí b): Nhờ lực đẩy nổi của bọt khí mịn đường kính $10\\text{ đến }100\\text{ }\\mu\\text{m}$, bể DAF vận hành ở tải trọng bề mặt $\\text{SLR}_{\\text{DAF}}$ từ $80\\text{ đến }240\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ so với mức $\\text{SLR}_{\\text{sed}}$ từ $30\\text{ đến }50\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ của bể lắng trọng lực [Page 8].",
+            "Tỷ số diện tích mặt bằng yêu cầu giúp công trình DAF tiết kiệm từ $60\\%\\text{ đến }80\\%$ quỹ đất xây dựng [Page 3] [Page 8]."
+          ],
+          "brief": [
+            "Bước 2 - So sánh tải trọng bề mặt và diện tích mặt bằng (Tiêu chí b): Nhờ lực đẩy nổi của bọt khí mịn đường kính $10\\text{ đến }100\\text{ }\\mu\\text{m}$, bể DAF vận hành ở tải trọng bề mặt $\\text{SLR}_{\\text{DAF}}$ từ $80\\text{ đến }240\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ so với mức $\\text{SLR}_{\\text{sed}}$ từ $30\\text{ đến }50\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ của bể lắng trọng lực [Page 8].",
+            "Tỷ số diện tích mặt bằng yêu cầu giúp công trình DAF tiết kiệm từ $60\\%\\text{ đến }80\\%$ quỹ đất xây dựng [Page 3] [Page 8]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Tải trọng bề mặt $\\text{SLR}_{\\text{DAF}}$ cao giúp tiết kiệm $60\\%\\text{ đến }80\\%$ quỹ đất. Bể lắng trọng lực chỉ vận hành ở tải trọng bề mặt thấp từ $30\\text{ đến }50\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$.",
+          "takeaway": "Tải trọng bề mặt $\\text{SLR}_{\\text{DAF}}$ cao giúp tiết kiệm $60\\%\\text{ đến }80\\%$ quỹ đất",
+          "topic": "Tải trọng bề"
+        },
+        {
+          "id": "p-794f4842",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Bước 3 - So sánh tiêu thụ năng lượng, hiệu suất và phạm vi ứng dụng (Tiêu chí c, d, e): Hệ thống DAF tiêu thụ điện năng lớn để duy trì áp suất bình bão hòa $P$ từ $3.4\\text{ đến }6.0\\text{ atm}$ theo phương trình tỷ số khí trên rắn $A/S$, nhưng đạt hiệu suất khử cặn lơ lửng lên tới $99\\%$ và độ đặc bùn nổi từ $2\\text{ đến }3\\%$ [Page 3] [Page 9]. Vì vậy, bể DAF là lựa chọn tối ưu cho nước thải chứa dầu mỡ ($\\text{FOGs}$), bông cặn nhẹ hoặc nén bùn hoạt tính dư, trong khi bể lắng trọng lực phù hợp với cặn nặng có chi phí điện năng tối thiểu [Page 2] [Page 3].",
+          "sentences": [
+            "Bước 3 - So sánh tiêu thụ năng lượng, hiệu suất và phạm vi ứng dụng (Tiêu chí c, d, e): Hệ thống DAF tiêu thụ điện năng lớn để duy trì áp suất bình bão hòa $P$ từ $3.4\\text{ đến }6.0\\text{ atm}$ theo phương trình tỷ số khí trên rắn $A/S$, nhưng đạt hiệu suất khử cặn lơ lửng lên tới $99\\%$ và độ đặc bùn nổi từ $2\\text{ đến }3\\%$ [Page 3] [Page 9].",
+            "Vì vậy, bể DAF là lựa chọn tối ưu cho nước thải chứa dầu mỡ ($\\text{FOGs}$), bông cặn nhẹ hoặc nén bùn hoạt tính dư, trong khi bể lắng trọng lực phù hợp với cặn nặng có chi phí điện năng tối thiểu [Page 2] [Page 3]."
+          ],
+          "brief": [
+            "Bước 3 - So sánh tiêu thụ năng lượng, hiệu suất và phạm vi ứng dụng (Tiêu chí c, d, e): Hệ thống DAF tiêu thụ điện năng lớn để duy trì áp suất bình bão hòa $P$ từ $3.4\\text{ đến }6.0\\text{ atm}$ theo phương trình tỷ số khí trên rắn $A/S$, nhưng đạt hiệu suất khử cặn lơ lửng lên tới $99\\%$ và độ đặc bùn nổi từ $2\\text{ đến }3\\%$ [Page 3] [Page 9].",
+            "Vì vậy, bể DAF là lựa chọn tối ưu cho nước thải chứa dầu mỡ ($\\text{FOGs}$), bông cặn nhẹ hoặc nén bùn hoạt tính dư, trong khi bể lắng trọng lực phù hợp với cặn nặng có chi phí điện năng tối thiểu [Page 2] [Page 3]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Hệ thống DAF dùng áp suất $3.4\\text{ đến }6.0\\text{ atm}$ để khử $99\\%$ cặn. Công nghệ DAF tối ưu cho nước thải chứa dầu mỡ $\\text{FOGs}$ và hạt nhẹ trong khi bể lắng hợp với hạt nặng.",
+          "takeaway": "Hệ thống DAF dùng áp suất $3.4\\text{ đến }6.0\\text{ atm}$ để khử $99\\%$ cặn",
+          "topic": "Hệ thống DAF"
+        },
+        {
+          "id": "p-b2ff85be",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Bảng đối chiếu làm rõ sự đánh đổi giữa diện tích mặt bằng, hiệu suất tách hạt nhẹ và chi phí năng lượng [Page 3] [Page 8].",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng.",
+            "Bảng đối chiếu làm rõ sự đánh đổi giữa diện tích mặt bằng, hiệu suất tách hạt nhẹ và chi phí năng lượng [Page 3] [Page 8]."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng.",
+            "Bảng đối chiếu làm rõ sự đánh đổi giữa diện tích mặt bằng, hiệu suất tách hạt nhẹ và chi phí năng lượng [Page 3] [Page 8]."
+          ],
+          "evidence": [
+            0,
+            1,
+            2
+          ],
+          "key": "Bảng tổng hợp xác nhận sự đánh đổi giữa diện tích và chi phí điện. Toàn bộ số liệu so sánh tuân thủ đúng giới hạn tiêu chuẩn trên slide bài giảng.",
+          "takeaway": "Bảng tổng hợp xác nhận sự đánh đổi giữa diện tích và chi phí điện",
+          "topic": "Bảng tổng hợp"
+        },
+        {
+          "id": "p-29ddfd5f",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thời gian lưu nước ($\\text{HRT}$): $\\text{HRT}_{\\text{DAF}} = 20 - 30\\text{ min} < \\text{HRT}_{\\text{sed}} = 90 - 150\\text{ min}$ (Kiểm tra: $\\text{Giảm }4 - 6\\text{ lần thể tích bể — Đạt chuẩn Slide }15$)",
+          "sentences": [
+            "Thời gian lưu nước ($\\text{HRT}$): $\\text{HRT}_{\\text{DAF}} = 20 - 30\\text{ min} < \\text{HRT}_{\\text{sed}} = 90 - 150\\text{ min}$ (Kiểm tra: $\\text{Giảm }4 - 6\\text{ lần thể tích bể — Đạt chuẩn Slide }15$)"
+          ],
+          "brief": [
+            "Thời gian lưu nước ($\\text{HRT}$): $\\text{HRT}_{\\text{DAF}} = 20 - 30\\text{ min} < \\text{HRT}_{\\text{sed}} = 90 - 150\\text{ min}$ (Kiểm tra: $\\text{Giảm }4 - 6\\text{ lần thể tích bể — Đạt chuẩn Slide }15$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thời gian lưu nước $\\text{HRT}$ của bể DAF ngắn hơn bốn đến sáu lần.",
+          "takeaway": "Thời gian lưu nước $\\text{HRT}$ của bể DAF ngắn hơn bốn đến sáu lần",
+          "topic": "Thời gian lưu"
+        },
+        {
+          "id": "p-59dbab59",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tải trọng bề mặt ($\\text{SLR}$): $\\text{SLR}_{\\text{DAF}} = 80 - 240\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) > \\text{SLR}_{\\text{sed}} = 30 - 50\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ (Kiểm tra: $\\text{Tăng }2 - 6\\text{ lần tải trọng bề mặt — Đạt chuẩn Slide }16$)",
+          "sentences": [
+            "Tải trọng bề mặt ($\\text{SLR}$): $\\text{SLR}_{\\text{DAF}} = 80 - 240\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) > \\text{SLR}_{\\text{sed}} = 30 - 50\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ (Kiểm tra: $\\text{Tăng }2 - 6\\text{ lần tải trọng bề mặt — Đạt chuẩn Slide }16$)"
+          ],
+          "brief": [
+            "Tải trọng bề mặt ($\\text{SLR}$): $\\text{SLR}_{\\text{DAF}} = 80 - 240\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) > \\text{SLR}_{\\text{sed}} = 30 - 50\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ (Kiểm tra: $\\text{Tăng }2 - 6\\text{ lần tải trọng bề mặt — Đạt chuẩn Slide }16$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tải trọng bề mặt $\\text{SLR}$ của bể DAF cao gấp hai đến sáu lần.",
+          "takeaway": "Tải trọng bề mặt $\\text{SLR}$ của bể DAF cao gấp hai đến sáu lần",
+          "topic": "Tải trọng bề"
+        },
+        {
+          "id": "p-75892f30",
+          "kind": "list item",
+          "role": "result",
+          "full": "Công suất tiêu thụ năng lượng ($P_{\\text{input}}$): $\\text{DAF cao } (P = 3.4 - 6.0\\text{ atm}) > \\text{Bể lắng thấp}$ (Kiểm tra: $\\text{Cần bơm tuần hoàn cao áp và máy nén khí — Đạt chuẩn Slide }5, 6$)",
+          "sentences": [
+            "Công suất tiêu thụ năng lượng ($P_{\\text{input}}$): $\\text{DAF cao } (P = 3.4 - 6.0\\text{ atm}) > \\text{Bể lắng thấp}$ (Kiểm tra: $\\text{Cần bơm tuần hoàn cao áp và máy nén khí — Đạt chuẩn Slide }5, 6$)"
+          ],
+          "brief": [
+            "Công suất tiêu thụ năng lượng ($P_{\\text{input}}$): $\\text{DAF cao } (P = 3.4 - 6.0\\text{ atm}) > \\text{Bể lắng thấp}$ (Kiểm tra: $\\text{Cần bơm tuần hoàn cao áp và máy nén khí — Đạt chuẩn Slide }5, 6$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Công suất tiêu thụ năng lượng $P_{\\text{input}}$ của DAF cao hơn bể lắng.",
+          "takeaway": "Công suất tiêu thụ năng lượng $P_{\\text{input}}$ của DAF cao hơn bể lắng",
+          "topic": "Công suất tiêu"
+        },
+        {
+          "id": "p-1e28e456",
+          "kind": "list item",
+          "role": "result",
+          "full": "Hiệu suất khử cặn và độ đặc bùn ($E_{\\text{SS}}, C_{\\text{sludge}}$): $E_{\\text{SS,DAF}} \\le 99\\%, C_{\\text{sludge}} = 2 - 3\\%\\text{ TS}$ (Kiểm tra: $\\text{Vượt trội so với lắng trọng lực }50 - 70\\%\\text{ — Đạt chuẩn Slide }6, 17$)",
+          "sentences": [
+            "Hiệu suất khử cặn và độ đặc bùn ($E_{\\text{SS}}, C_{\\text{sludge}}$): $E_{\\text{SS,DAF}} \\le 99\\%, C_{\\text{sludge}} = 2 - 3\\%\\text{ TS}$ (Kiểm tra: $\\text{Vượt trội so với lắng trọng lực }50 - 70\\%\\text{ — Đạt chuẩn Slide }6, 17$)"
+          ],
+          "brief": [
+            "Hiệu suất khử cặn và độ đặc bùn ($E_{\\text{SS}}, C_{\\text{sludge}}$): $E_{\\text{SS,DAF}} \\le 99\\%, C_{\\text{sludge}} = 2 - 3\\%\\text{ TS}$ (Kiểm tra: $\\text{Vượt trội so với lắng trọng lực }50 - 70\\%\\text{ — Đạt chuẩn Slide }6, 17$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hiệu suất khử cặn của bể DAF đạt $E_{\\text{SS,DAF}} \\le 99\\%, C_{\\text{sludge}} = 2, 3\\%\\text{ TS}$.",
+          "takeaway": "Hiệu suất khử cặn của bể DAF đạt $E_{\\text{SS,DAF}} \\le 99\\%, C_{\\text{sludge}} = 2, 3\\%\\text{ TS}$",
+          "topic": "Hiệu suất khử"
+        },
+        {
+          "id": "p-3d876fdb",
+          "kind": "list item",
+          "role": "result",
+          "full": "Phạm vi ứng dụng thuận lợi nhất ($\\text{Application}$): $\\text{DAF tách FOGs, hạt nhẹ, tảo; Bể lắng tách hạt nặng}$ (Kiểm tra: $\\text{Phân loại đúng bản chất cơ lý — Đạt chuẩn Slide }3, 6$)",
+          "sentences": [
+            "Phạm vi ứng dụng thuận lợi nhất ($\\text{Application}$): $\\text{DAF tách FOGs, hạt nhẹ, tảo; Bể lắng tách hạt nặng}$ (Kiểm tra: $\\text{Phân loại đúng bản chất cơ lý — Đạt chuẩn Slide }3, 6$)"
+          ],
+          "brief": [
+            "Phạm vi ứng dụng thuận lợi nhất ($\\text{Application}$): $\\text{DAF tách FOGs, hạt nhẹ, tảo; Bể lắng tách hạt nặng}$ (Kiểm tra: $\\text{Phân loại đúng bản chất cơ lý — Đạt chuẩn Slide }3, 6$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Phạm vi ứng dụng của DAF là tách dầu mỡ và hạt cặn nhẹ.",
+          "takeaway": "Phạm vi ứng dụng của DAF là tách dầu mỡ và hạt cặn nhẹ",
+          "topic": "Phạm vi ứng"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-proj_ch03_4_hw02-slide-23-lời-giải-khôi-phục-theo-chuẩn-slide-của-thầy-thiết-kế-hệ-thống-tuyển-nổi-daf-có-tuần-hoàn-nước-áp-lực-công-suất-4000-m³ngày",
+      "num": "",
+      "title": "Bài tập proj_ch03_4_hw02 (Slide 23, Lời giải khôi phục theo chuẩn slide của thầy): Thiết kế hệ thống tuyển nổi DAF có tuần hoàn nước áp lực công suất 4,000 m³/ngày",
+      "depth": 2,
+      "takeaway": "Hệ thống DAF công suất $Q = 4,000\\text{ m}^3/\\text{d}$ cần $R/Q = 30.85\\%$ và $A_s = 53\\text{ m}^2$",
+      "topic": "Hệ thống DAF",
+      "units": [
+        {
+          "id": "p-5529f472",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế hệ thống tuyển nổi khí hòa tan (DAF) có tuần hoàn nước áp lực cho nhà máy có lưu lượng trung bình $Q = 4,000\\text{ m}^3/\\text{d}$ và nồng độ chất rắn lơ lửng đầu vào $S_a = 1,000\\text{ mg/L}$ [Page 9]. Hệ thống vận hành với tỷ số khí trên rắn tối ưu $A/S = 0.015\\text{ mg/mg}$, nhiệt độ $T = 20^\\circ\\text{C}$ ($s_a = 18.7\\text{ mL/L}$), áp suất hệ thống tuần hoàn $p = 5\\text{ atm}$, hệ số bão hòa $f = 0.5$ và tải trọng bề mặt $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ để xác định (a) tỷ lệ tuần hoàn, (b) diện tích mặt bằng bể và (c) lưu lượng khí nén yêu cầu [Page 7] [Page 8] [Page 9].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế hệ thống tuyển nổi khí hòa tan (DAF) có tuần hoàn nước áp lực cho nhà máy có lưu lượng trung bình $Q = 4,000\\text{ m}^3/\\text{d}$ và nồng độ chất rắn lơ lửng đầu vào $S_a = 1,000\\text{ mg/L}$ [Page 9].",
+            "Hệ thống vận hành với tỷ số khí trên rắn tối ưu $A/S = 0.015\\text{ mg/mg}$, nhiệt độ $T = 20^\\circ\\text{C}$ ($s_a = 18.7\\text{ mL/L}$), áp suất hệ thống tuần hoàn $p = 5\\text{ atm}$, hệ số bão hòa $f = 0.5$ và tải trọng bề mặt $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ để xác định (a) tỷ lệ tuần hoàn, (b) diện tích mặt bằng bể và (c) lưu lượng khí nén yêu cầu [Page 7] [Page 8] [Page 9]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế hệ thống tuyển nổi khí hòa tan (DAF) có tuần hoàn nước áp lực cho nhà máy có lưu lượng trung bình $Q = 4,000\\text{ m}^3/\\text{d}$ và nồng độ chất rắn lơ lửng đầu vào $S_a = 1,000\\text{ mg/L}$ [Page 9].",
+            "Hệ thống vận hành với tỷ số khí trên rắn tối ưu $A/S = 0.015\\text{ mg/mg}$, nhiệt độ $T = 20^\\circ\\text{C}$ ($s_a = 18.7\\text{ mL/L}$), áp suất hệ thống tuần hoàn $p = 5\\text{ atm}$, hệ số bão hòa $f = 0.5$ và tải trọng bề mặt $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ để xác định (a) tỷ lệ tuần hoàn, (b) diện tích mặt bằng bể và (c) lưu lượng khí nén yêu cầu [Page 7] [Page 8] [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài thiết kế DAF tuần hoàn với $Q = 4,000\\text{ m}^3/\\text{d}$ và $S_a = 1,000\\text{ mg/L}$. Thông số đầu vào gồm tỷ số $A/S = 0.015\\text{ mg/mg}$, độ hòa tan $s_a = 18.7\\text{ mL/L}$ và áp suất $p = 5\\text{ atm}$.",
+          "takeaway": "Đề bài thiết kế DAF tuần hoàn với $Q = 4,000\\text{ m}^3/\\text{d}$ và $S_a = 1,000\\text{ mg/L}$",
+          "topic": "Đề bài thiết"
+        },
+        {
+          "id": "p-2d865d46",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Xác định lưu lượng tuần hoàn và tỷ lệ tuần hoàn (Câu a): Áp dụng quy ước áp suất trên Slide $20$ của TS. Nguyễn Hoàng Dũng với $P = p + 1 = 6\\text{ atm}$, kỹ sư giải phương trình cân bằng $A/S$ có tuần hoàn và thu được lưu lượng tuần hoàn $R = 1,234\\text{ m}^3/\\text{d}$ [Page 7] [Page 9]. Tỷ lệ tuần hoàn tương ứng đạt $R/Q = 30.85\\%$ (hoặc nếu tính theo áp suất tuyệt đối $P = 5\\text{ atm}$ thì $R = 1,645.4\\text{ m}^3/\\text{d}$ và $R/Q = 41.14\\%$) [Page 8] [Page 9].",
+          "sentences": [
+            "Bước 1 - Xác định lưu lượng tuần hoàn và tỷ lệ tuần hoàn (Câu a): Áp dụng quy ước áp suất trên Slide $20$ của TS.",
+            "Nguyễn Hoàng Dũng với $P = p + 1 = 6\\text{ atm}$, kỹ sư giải phương trình cân bằng $A/S$ có tuần hoàn và thu được lưu lượng tuần hoàn $R = 1,234\\text{ m}^3/\\text{d}$ [Page 7] [Page 9].",
+            "Tỷ lệ tuần hoàn tương ứng đạt $R/Q = 30.85\\%$ (hoặc nếu tính theo áp suất tuyệt đối $P = 5\\text{ atm}$ thì $R = 1,645.4\\text{ m}^3/\\text{d}$ và $R/Q = 41.14\\%$) [Page 8] [Page 9]."
+          ],
+          "brief": [
+            "Bước 1 - Xác định lưu lượng tuần hoàn và tỷ lệ tuần hoàn (Câu a): Áp dụng quy ước áp suất trên Slide $20$ của TS.",
+            "Nguyễn Hoàng Dũng với $P = p + 1 = 6\\text{ atm}$, kỹ sư giải phương trình cân bằng $A/S$ có tuần hoàn và thu được lưu lượng tuần hoàn $R = 1,234\\text{ m}^3/\\text{d}$ [Page 7] [Page 9].",
+            "Tỷ lệ tuần hoàn tương ứng đạt $R/Q = 30.85\\%$ (hoặc nếu tính theo áp suất tuyệt đối $P = 5\\text{ atm}$ thì $R = 1,645.4\\text{ m}^3/\\text{d}$ và $R/Q = 41.14\\%$) [Page 8] [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1,
+            2
+          ],
+          "key": "Lưu lượng tuần hoàn đạt $R = 1,234\\text{ m}^3/\\text{d}$ ứng với $R/Q = 30.85\\%$. Nếu tính theo áp suất tuyệt đối $P = 5\\text{ atm}$ thì lưu lượng tuần hoàn đạt $R = 1,645.4\\text{ m}^3/\\text{d}$ và $R/Q = 41.14\\%$.",
+          "takeaway": "Lưu lượng tuần hoàn đạt $R = 1,234\\text{ m}^3/\\text{d}$ ứng với $R/Q = 30.85\\%$",
+          "topic": "Lưu lượng tuần"
+        },
+        {
+          "id": "p-98576125",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Xác định diện tích bề mặt bể tuyển nổi và bình áp lực (Câu b): Tổng diện tích bề mặt bể tuyển nổi $A_s$ tính theo tổng lưu lượng $Q + R$ chia cho tải trọng bề mặt $\\text{SLR}$ đạt $52.34\\text{ m}^2$ và được chọn tròn là $A_s = 53\\text{ m}^2$ [Page 9]. Nếu kiểm tra thêm bình áp lực ở tải trọng $1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, tiết diện bình đạt $A_{\\text{vessel}} = 0.857\\text{ m}^2$ ứng với đường kính $d = 1.04\\text{ m}$ [Page 8] [Page 9].",
+          "sentences": [
+            "Bước 2 - Xác định diện tích bề mặt bể tuyển nổi và bình áp lực (Câu b): Tổng diện tích bề mặt bể tuyển nổi $A_s$ tính theo tổng lưu lượng $Q + R$ chia cho tải trọng bề mặt $\\text{SLR}$ đạt $52.34\\text{ m}^2$ và được chọn tròn là $A_s = 53\\text{ m}^2$ [Page 9].",
+            "Nếu kiểm tra thêm bình áp lực ở tải trọng $1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, tiết diện bình đạt $A_{\\text{vessel}} = 0.857\\text{ m}^2$ ứng với đường kính $d = 1.04\\text{ m}$ [Page 8] [Page 9]."
+          ],
+          "brief": [
+            "Bước 2 - Xác định diện tích bề mặt bể tuyển nổi và bình áp lực (Câu b): Tổng diện tích bề mặt bể tuyển nổi $A_s$ tính theo tổng lưu lượng $Q + R$ chia cho tải trọng bề mặt $\\text{SLR}$ đạt $52.34\\text{ m}^2$ và được chọn tròn là $A_s = 53\\text{ m}^2$ [Page 9].",
+            "Nếu kiểm tra thêm bình áp lực ở tải trọng $1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$, tiết diện bình đạt $A_{\\text{vessel}} = 0.857\\text{ m}^2$ ứng với đường kính $d = 1.04\\text{ m}$ [Page 8] [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Diện tích mặt bằng bể tuyển nổi được chọn tròn là $A_s = 53\\text{ m}^2$. Bình áp lực tương ứng có tiết diện $A_{\\text{vessel}} = 0.857\\text{ m}^2$ và đường kính $d = 1.04\\text{ m}$.",
+          "takeaway": "Diện tích mặt bằng bể tuyển nổi được chọn tròn là $A_s = 53\\text{ m}^2$",
+          "topic": "Diện tích mặt"
+        },
+        {
+          "id": "p-6130d023",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Xác định lưu lượng không khí nén yêu cầu (Câu c): Theo công thức trên Slide $21$ và hướng dẫn đổi đơn vị trên bảng phấn của thầy, tổng khối lượng khí cần cấp đạt $60,000\\text{ g/d}$ chia cho khối lượng riêng không khí $1.3\\text{ g/L}$ [Page 9]. Lưu lượng khí nén yêu cầu đạt $Q_{\\text{air}} = 46,153.8\\text{ L/d}$, tương đương $46.15\\text{ m}^3/\\text{d}$ hoặc $32.05\\text{ L/min}$ [Page 9].",
+          "sentences": [
+            "Bước 3 - Xác định lưu lượng không khí nén yêu cầu (Câu c): Theo công thức trên Slide $21$ và hướng dẫn đổi đơn vị trên bảng phấn của thầy, tổng khối lượng khí cần cấp đạt $60,000\\text{ g/d}$ chia cho khối lượng riêng không khí $1.3\\text{ g/L}$ [Page 9].",
+            "Lưu lượng khí nén yêu cầu đạt $Q_{\\text{air}} = 46,153.8\\text{ L/d}$, tương đương $46.15\\text{ m}^3/\\text{d}$ hoặc $32.05\\text{ L/min}$ [Page 9]."
+          ],
+          "brief": [
+            "Bước 3 - Xác định lưu lượng không khí nén yêu cầu (Câu c): Theo công thức trên Slide $21$ và hướng dẫn đổi đơn vị trên bảng phấn của thầy, tổng khối lượng khí cần cấp đạt $60,000\\text{ g/d}$ chia cho khối lượng riêng không khí $1.3\\text{ g/L}$ [Page 9].",
+            "Lưu lượng khí nén yêu cầu đạt $Q_{\\text{air}} = 46,153.8\\text{ L/d}$, tương đương $46.15\\text{ m}^3/\\text{d}$ hoặc $32.05\\text{ L/min}$ [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Lưu lượng khí nén yêu cầu đạt $Q_{\\text{air}} = 46,153.8\\text{ L/d}$ hay $32.05\\text{ L/min}$. Tổng khối lượng khí cấp đạt $60,000\\text{ g/d}$ chia cho khối lượng riêng không khí $1.3\\text{ g/L}$.",
+          "takeaway": "Lưu lượng khí nén yêu cầu đạt $Q_{\\text{air}} = 46,153.8\\text{ L/d}$ hay $32.05\\text{ L/min}$",
+          "topic": "Lưu lượng khí"
+        },
+        {
+          "id": "p-315c2761",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng. Các đại lượng lưu lượng tuần hoàn, diện tích bể và lượng khí cấp đều nằm trong khoảng khuyến nghị của Chương $3.4$ [Page 8] [Page 9].",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng.",
+            "Các đại lượng lưu lượng tuần hoàn, diện tích bể và lượng khí cấp đều nằm trong khoảng khuyến nghị của Chương $3.4$ [Page 8] [Page 9]."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng.",
+            "Các đại lượng lưu lượng tuần hoàn, diện tích bể và lượng khí cấp đều nằm trong khoảng khuyến nghị của Chương $3.4$ [Page 8] [Page 9]."
+          ],
+          "evidence": [
+            0,
+            1,
+            2
+          ],
+          "key": "Toàn bộ thông số thiết kế của hệ thống DAF đều đạt chuẩn. Lưu lượng tuần hoàn, diện tích mặt bằng bể và lưu lượng khí cấp đều đạt chuẩn.",
+          "takeaway": "Toàn bộ thông số thiết kế của hệ thống DAF đều đạt chuẩn",
+          "topic": "thông số thiết"
+        },
+        {
+          "id": "p-767489a5",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng nước tuần hoàn ($R$): $1,234\\text{ m}^3/\\text{d}$ (hoặc $1,645.4\\text{ m}^3/\\text{d}$ khi lấy $P = 5\\text{ atm}$ tuyệt đối) (Kiểm tra: $P = 6\\text{ atm}\\text{ — Đạt chuẩn Slide }20$)",
+          "sentences": [
+            "Lưu lượng nước tuần hoàn ($R$): $1,234\\text{ m}^3/\\text{d}$ (hoặc $1,645.4\\text{ m}^3/\\text{d}$ khi lấy $P = 5\\text{ atm}$ tuyệt đối) (Kiểm tra: $P = 6\\text{ atm}\\text{ — Đạt chuẩn Slide }20$)"
+          ],
+          "brief": [
+            "Lưu lượng nước tuần hoàn ($R$): $1,234\\text{ m}^3/\\text{d}$ (hoặc $1,645.4\\text{ m}^3/\\text{d}$ khi lấy $P = 5\\text{ atm}$ tuyệt đối) (Kiểm tra: $P = 6\\text{ atm}\\text{ — Đạt chuẩn Slide }20$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng nước tuần hoàn đạt $1,234\\text{ m}^3/\\text{d}$ ở áp suất $P = 6\\text{ atm}$.",
+          "takeaway": "Lưu lượng nước tuần hoàn đạt $1,234\\text{ m}^3/\\text{d}$ ở áp suất $P = 6\\text{ atm}$",
+          "topic": "Lưu lượng nước"
+        },
+        {
+          "id": "p-d5539ab9",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ lệ tuần hoàn ($R/Q$): $30.85\\%$ (hoặc $41.14\\%$ khi lấy $P = 5\\text{ atm}$ tuyệt đối) (Kiểm tra: $R/Q \\in [15\\%, 120\\%]\\text{ — Đạt chuẩn Slide }16$)",
+          "sentences": [
+            "Tỷ lệ tuần hoàn ($R/Q$): $30.85\\%$ (hoặc $41.14\\%$ khi lấy $P = 5\\text{ atm}$ tuyệt đối) (Kiểm tra: $R/Q \\in [15\\%, 120\\%]\\text{ — Đạt chuẩn Slide }16$)"
+          ],
+          "brief": [
+            "Tỷ lệ tuần hoàn ($R/Q$): $30.85\\%$ (hoặc $41.14\\%$ khi lấy $P = 5\\text{ atm}$ tuyệt đối) (Kiểm tra: $R/Q \\in [15\\%, 120\\%]\\text{ — Đạt chuẩn Slide }16$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ lệ tuần hoàn đạt $30.85\\%$ thỏa mãn giới hạn $R/Q \\in [15\\%, 120\\%]$.",
+          "takeaway": "Tỷ lệ tuần hoàn đạt $30.85\\%$ thỏa mãn giới hạn $R/Q \\in [15\\%, 120\\%]$",
+          "topic": "Tỷ lệ tuần"
+        },
+        {
+          "id": "p-370bcee6",
+          "kind": "list item",
+          "role": "result",
+          "full": "Diện tích bề mặt bể tuyển nổi ($A_s$): $52.34\\text{ m}^2 \\rightarrow \\text{chọn }53\\text{ m}^2$ (Kiểm tra: $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [80, 240]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }16$)",
+          "sentences": [
+            "Diện tích bề mặt bể tuyển nổi ($A_s$): $52.34\\text{ m}^2 \\rightarrow \\text{chọn }53\\text{ m}^2$ (Kiểm tra: $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [80, 240]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }16$)"
+          ],
+          "brief": [
+            "Diện tích bề mặt bể tuyển nổi ($A_s$): $52.34\\text{ m}^2 \\rightarrow \\text{chọn }53\\text{ m}^2$ (Kiểm tra: $\\text{SLR} = 100\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [80, 240]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }16$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Diện tích bề mặt bể tuyển nổi đạt $52.34\\text{ m}^2 \\rightarrow \\text{chọn }53\\text{ m}^2$.",
+          "takeaway": "Diện tích bề mặt bể tuyển nổi đạt $52.34\\text{ m}^2 \\rightarrow \\text{chọn }53\\text{ m}^2$",
+          "topic": "Diện tích bề"
+        },
+        {
+          "id": "p-05c1a8c9",
+          "kind": "list item",
+          "role": "result",
+          "full": "Kích thước bình bão hòa áp lực ($A_{\\text{vessel}}, d$): $A_{\\text{vessel}} = 0.857\\text{ m}^2$, $d = 1.04\\text{ m}$ (Kiểm tra: $\\text{HLR}_{\\text{vessel}} = 1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [1,440, 1,920]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }16$)",
+          "sentences": [
+            "Kích thước bình bão hòa áp lực ($A_{\\text{vessel}}, d$): $A_{\\text{vessel}} = 0.857\\text{ m}^2$, $d = 1.04\\text{ m}$ (Kiểm tra: $\\text{HLR}_{\\text{vessel}} = 1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [1,440, 1,920]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }16$)"
+          ],
+          "brief": [
+            "Kích thước bình bão hòa áp lực ($A_{\\text{vessel}}, d$): $A_{\\text{vessel}} = 0.857\\text{ m}^2$, $d = 1.04\\text{ m}$ (Kiểm tra: $\\text{HLR}_{\\text{vessel}} = 1,440\\text{ m}^3/(\\text{m}^2\\cdot\\text{d}) \\in [1,440, 1,920]\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})\\text{ — Đạt chuẩn Slide }16$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bình bão hòa áp lực có $A_{\\text{vessel}} = 0.857\\text{ m}^2$ và đường kính $d = 1.04\\text{ m}$.",
+          "takeaway": "Bình bão hòa áp lực có $A_{\\text{vessel}} = 0.857\\text{ m}^2$ và đường kính $d = 1.04\\text{ m}$",
+          "topic": "Bình bão hòa"
+        },
+        {
+          "id": "p-23e443e5",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng không khí nén yêu cầu ($Q_{\\text{air}}$): $46,153.8\\text{ L/d} = 46.15\\text{ m}^3/\\text{d} = 32.05\\text{ L/min}$ (Kiểm tra: $A/S = 0.015\\text{ mg/mg} \\in [0.005, 0.06]\\text{ mg/mg}\\text{ — Đạt chuẩn Slide }16, 21$)",
+          "sentences": [
+            "Lưu lượng không khí nén yêu cầu ($Q_{\\text{air}}$): $46,153.8\\text{ L/d} = 46.15\\text{ m}^3/\\text{d} = 32.05\\text{ L/min}$ (Kiểm tra: $A/S = 0.015\\text{ mg/mg} \\in [0.005, 0.06]\\text{ mg/mg}\\text{ — Đạt chuẩn Slide }16, 21$)"
+          ],
+          "brief": [
+            "Lưu lượng không khí nén yêu cầu ($Q_{\\text{air}}$): $46,153.8\\text{ L/d} = 46.15\\text{ m}^3/\\text{d} = 32.05\\text{ L/min}$ (Kiểm tra: $A/S = 0.015\\text{ mg/mg} \\in [0.005, 0.06]\\text{ mg/mg}\\text{ — Đạt chuẩn Slide }16, 21$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng khí nén đạt $46,153.8\\text{ L/d} = 46.15\\text{ m}^3/\\text{d} = 32.05\\text{ L/min}$.",
+          "takeaway": "Lưu lượng khí nén đạt $46,153.8\\text{ L/d} = 46.15\\text{ m}^3/\\text{d} = 32.05\\text{ L/min}$",
+          "topic": "Lưu lượng khí"
+        },
+        {
+          "id": "p-83bc80e2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 1 (Page 2)",
+          "sentences": [
+            "Figure 1 (Page 2)"
+          ],
+          "brief": [
+            "Figure 1 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa cấu tạo nguyên lý tuyển nổi tại trang hai.",
+          "takeaway": "Hình minh họa cấu tạo nguyên lý tuyển nổi tại trang hai",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-18eb3e10",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 2 (Page 2)",
+          "sentences": [
+            "Figure 2 (Page 2)"
+          ],
+          "brief": [
+            "Figure 2 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ quá trình bão hòa khí áp lực tại trang hai.",
+          "takeaway": "Sơ đồ quá trình bão hòa khí áp lực tại trang hai",
+          "topic": "Sơ đồ quá"
+        },
+        {
+          "id": "p-ae99f2b3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 3 (Page 2)",
+          "sentences": [
+            "Figure 3 (Page 2)"
+          ],
+          "brief": [
+            "Figure 3 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh giải phóng bọt khí mịn qua van giảm áp.",
+          "takeaway": "Hình ảnh giải phóng bọt khí mịn qua van giảm áp",
+          "topic": "bọt khí mịn"
+        },
+        {
+          "id": "p-3fdce783",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 4 (Page 2)",
+          "sentences": [
+            "Figure 4 (Page 2)"
+          ],
+          "brief": [
+            "Figure 4 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Cơ chế bọt khí bám dính hạt rắn nổi lên mặt bể.",
+          "takeaway": "Cơ chế bọt khí bám dính hạt rắn nổi lên mặt bể",
+          "topic": "Cơ chế bọt"
+        },
+        {
+          "id": "p-fe3c2928",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 5 (Page 4)",
+          "sentences": [
+            "Figure 5 (Page 4)"
+          ],
+          "brief": [
+            "Figure 5 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ hệ thống tuyển nổi DAF không tuần hoàn tại trang bốn.",
+          "takeaway": "Sơ đồ hệ thống tuyển nổi DAF không tuần hoàn tại trang bốn",
+          "topic": "Sơ đồ hệ"
+        },
+        {
+          "id": "p-e211cbe3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 6 (Page 4)",
+          "sentences": [
+            "Figure 6 (Page 4)"
+          ],
+          "brief": [
+            "Figure 6 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ hệ thống tuyển nổi DAF có tuần hoàn nước áp lực.",
+          "takeaway": "Sơ đồ hệ thống tuyển nổi DAF có tuần hoàn nước áp lực",
+          "topic": "Sơ đồ hệ"
+        },
+        {
+          "id": "p-7efff3c3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 7 (Page 4)",
+          "sentences": [
+            "Figure 7 (Page 4)"
+          ],
+          "brief": [
+            "Figure 7 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh mặt cắt bể tuyển nổi khí hòa tan tại trang bốn.",
+          "takeaway": "Hình ảnh mặt cắt bể tuyển nổi khí hòa tan tại trang bốn",
+          "topic": "Hình ảnh mặt"
+        },
+        {
+          "id": "p-5d80bd1e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 8 (Page 5)",
+          "sentences": [
+            "Figure 8 (Page 5)"
+          ],
+          "brief": [
+            "Figure 8 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Cấu tạo chi tiết bể tuyển nổi DAF hình chữ nhật.",
+          "takeaway": "Cấu tạo chi tiết bể tuyển nổi DAF hình chữ nhật",
+          "topic": "Cấu tạo chi"
+        },
+        {
+          "id": "p-af859867",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 9 (Page 5)",
+          "sentences": [
+            "Figure 9 (Page 5)"
+          ],
+          "brief": [
+            "Figure 9 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hệ thống thanh gạt váng nổi và gạt bùn đáy bể DAF.",
+          "takeaway": "Hệ thống thanh gạt váng nổi và gạt bùn đáy bể DAF",
+          "topic": "Hệ thống thanh"
+        },
+        {
+          "id": "p-545a359a",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 10 (Page 5)",
+          "sentences": [
+            "Figure 10 (Page 5)"
+          ],
+          "brief": [
+            "Figure 10 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh thực tế thiết bị tuyển nổi hình chữ nhật.",
+          "takeaway": "Hình ảnh thực tế thiết bị tuyển nổi hình chữ nhật",
+          "topic": "Hình ảnh thực"
+        },
+        {
+          "id": "p-baf86e71",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 11 (Page 6)",
+          "sentences": [
+            "Figure 11 (Page 6)"
+          ],
+          "brief": [
+            "Figure 11 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ cấu tạo bể tuyển nổi DAF hình tròn tại trang sáu.",
+          "takeaway": "Sơ đồ cấu tạo bể tuyển nổi DAF hình tròn tại trang sáu",
+          "topic": "Sơ đồ cấu"
+        },
+        {
+          "id": "p-c874e688",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 12 (Page 6)",
+          "sentences": [
+            "Figure 12 (Page 6)"
+          ],
+          "brief": [
+            "Figure 12 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Mặt bằng và mặt cắt bể tuyển nổi tròn tại trang sáu.",
+          "takeaway": "Mặt bằng và mặt cắt bể tuyển nổi tròn tại trang sáu",
+          "topic": "Mặt bằng và"
+        },
+        {
+          "id": "p-9e5f2cea",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 13 (Page 6)",
+          "sentences": [
+            "Figure 13 (Page 6)"
+          ],
+          "brief": [
+            "Figure 13 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Vùng tiếp xúc và vùng tách bọt trong bể DAF tại trang sáu.",
+          "takeaway": "Vùng tiếp xúc và vùng tách bọt trong bể DAF tại trang sáu",
+          "topic": "Vùng tiếp xúc"
+        },
+        {
+          "id": "p-35daa220",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 14 (Page 6)",
+          "sentences": [
+            "Figure 14 (Page 6)"
+          ],
+          "brief": [
+            "Figure 14 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Cơ cấu dàn gạt bọt quay quanh tâm bể DAF tròn.",
+          "takeaway": "Cơ cấu dàn gạt bọt quay quanh tâm bể DAF tròn",
+          "topic": "Cơ cấu dàn"
+        },
+        {
+          "id": "p-9e2eecf2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 15 (Page 6)",
+          "sentences": [
+            "Figure 15 (Page 6)"
+          ],
+          "brief": [
+            "Figure 15 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bố trí đường ống cấp nước bão hòa khí vào bể.",
+          "takeaway": "Bố trí đường ống cấp nước bão hòa khí vào bể",
+          "topic": "Bố trí đường"
+        },
+        {
+          "id": "p-691912eb",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 16 (Page 6)",
+          "sentences": [
+            "Figure 16 (Page 6)"
+          ],
+          "brief": [
+            "Figure 16 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hệ thống máng thu bọt nổi và vách ngăn nước trong.",
+          "takeaway": "Hệ thống máng thu bọt nổi và vách ngăn nước trong",
+          "topic": "Hệ thống máng"
+        },
+        {
+          "id": "p-874a0a43",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 17 (Page 7)",
+          "sentences": [
+            "Figure 17 (Page 7)"
+          ],
+          "brief": [
+            "Figure 17 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Cấu tạo bình bão hòa khí áp lực chứa lớp đệm.",
+          "takeaway": "Cấu tạo bình bão hòa khí áp lực chứa lớp đệm",
+          "topic": "Cấu tạo bình"
+        },
+        {
+          "id": "p-2f380147",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 18 (Page 7)",
+          "sentences": [
+            "Figure 18 (Page 7)"
+          ],
+          "brief": [
+            "Figure 18 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bảng độ hòa tan của không khí theo nhiệt độ tại trang bảy.",
+          "takeaway": "Bảng độ hòa tan của không khí theo nhiệt độ tại trang bảy",
+          "topic": "Bảng độ hòa"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,1928 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-1-gi-i-thi-u-v-k-thu-t-x-l-n-c-th-e8c6262c",
+  "lang": "vi",
+  "title": "Chương 1 Giới thiệu về Kỹ thuật Xử lý Nước thải (Chapter 1 Introduction to Wastewater Treatment)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch01_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:42:35Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-08T00:42:34",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-tổng-quan-học-phần-và-lịch-sử-phát-triển-kỹ-thuật-xử-lý-nước-thải-course-overview-and-history-of-wastewater-treatment",
+      "num": "1",
+      "title": "Tổng quan học phần và lịch sử phát triển kỹ thuật xử lý nước thải (Course Overview and History of Wastewater Treatment)",
+      "depth": 1,
+      "takeaway": "Học phần tính toán thiết kế trạm nước thải và thu hồi tài nguyên",
+      "topic": "thu hồi tài nguyên",
+      "units": [
+        {
+          "id": "p-60627d42",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Học phần Kỹ thuật Xử lý Nước thải (Wastewater Treatment Engineering) do Tiến sĩ Nguyễn Hoàng Dũng giảng dạy cung cấp nguyên lý thiết kế và vận hành các nhà máy xử lý nước thải sinh hoạt và công nghiệp [Page 1]. Mục tiêu lý thuyết của môn học giúp sinh viên thiết kế hệ thống đạt quy chuẩn xả thải đầu ra với hiệu suất thu hồi dinh dưỡng cao, tiết kiệm năng lượng và chi phí thấp [Page 1]. Phần thí nghiệm rèn luyện kỹ năng lựa chọn thông số thiết kế, thông số vận hành và phân tích các yếu tố ức chế tác động lên quá trình hóa lý và sinh học [Page 1]. Sinh viên cần hoàn thành ba học phần tiên quyết gồm Hóa học Môi trường (Environmental Chemistry), Quá trình Hóa lý và Hóa học trong Kỹ thuật Môi trường, cùng Quá trình Sinh học trong Kỹ thuật Môi trường [Page 2]. Điểm đánh giá học phần bao gồm bài tập và bài tập về nhà chiếm $40\\%$, báo cáo thí nghiệm chiếm $20\\%$, và bài thi cuối kỳ chiếm $40\\%$ dựa trên giáo trình chuẩn của Metcalf and Eddy (2014) cùng Crittenden và cộng sự (2022) [Page 2] [Page 3] [Page 7].",
+          "sentences": [
+            "Học phần Kỹ thuật Xử lý Nước thải (Wastewater Treatment Engineering) do Tiến sĩ Nguyễn Hoàng Dũng giảng dạy cung cấp nguyên lý thiết kế và vận hành các nhà máy xử lý nước thải sinh hoạt và công nghiệp [Page 1].",
+            "Mục tiêu lý thuyết của môn học giúp sinh viên thiết kế hệ thống đạt quy chuẩn xả thải đầu ra với hiệu suất thu hồi dinh dưỡng cao, tiết kiệm năng lượng và chi phí thấp [Page 1].",
+            "Phần thí nghiệm rèn luyện kỹ năng lựa chọn thông số thiết kế, thông số vận hành và phân tích các yếu tố ức chế tác động lên quá trình hóa lý và sinh học [Page 1].",
+            "Sinh viên cần hoàn thành ba học phần tiên quyết gồm Hóa học Môi trường (Environmental Chemistry), Quá trình Hóa lý và Hóa học trong Kỹ thuật Môi trường, cùng Quá trình Sinh học trong Kỹ thuật Môi trường [Page 2]. Điểm đánh giá học phần bao gồm bài tập và bài tập về nhà chiếm $40\\%$, báo cáo thí nghiệm chiếm $20\\%$, và bài thi cuối kỳ chiếm $40\\%$ dựa trên giáo trình chuẩn của Metcalf and Eddy (2014) cùng Crittenden và cộng sự (2022) [Page 2] [Page 3] [Page 7]."
+          ],
+          "brief": [
+            "Học phần Kỹ thuật Xử lý Nước thải (Wastewater Treatment Engineering) do Tiến sĩ Nguyễn Hoàng Dũng giảng dạy cung cấp nguyên lý thiết kế và vận hành các nhà máy xử lý nước thải sinh hoạt và công nghiệp [Page 1].",
+            "Sinh viên cần hoàn thành ba học phần tiên quyết gồm Hóa học Môi trường (Environmental Chemistry), Quá trình Hóa lý và Hóa học trong Kỹ thuật Môi trường, cùng Quá trình Sinh học trong Kỹ thuật Môi trường [Page 2]. Điểm đánh giá học phần bao gồm bài tập và bài tập về nhà chiếm $40\\%$, báo cáo thí nghiệm chiếm $20\\%$, và bài thi cuối kỳ chiếm $40\\%$ dựa trên giáo trình chuẩn của Metcalf and Eddy (2014) cùng Crittenden và cộng sự (2022) [Page 2] [Page 3] [Page 7]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Học phần tính toán thiết kế nhà máy và thu hồi dinh dưỡng. Chương trình kết hợp lý thuyết, thí nghiệm cùng ba môn tiên quyết và đánh giá qua bài tập $40\\%$, thí nghiệm $20\\%$, thi cuối kỳ $40\\%$.",
+          "takeaway": "Học phần tính toán thiết kế nhà máy và thu hồi dinh dưỡng",
+          "topic": "thu hồi dinh dưỡng"
+        },
+        {
+          "id": "p-46c0e0d8",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Nội dung chương trình kéo dài 15 tuần bao quát toàn bộ dây chuyền công nghệ từ công trình tiền xử lý cơ học đến xử lý bùn cặn [Page 4] [Page 5] [Page 6] [Page 7]. Chương 1 và Chương 2 giới thiệu đặc tính nước thải, quy chuẩn kỹ thuật quốc gia và phương pháp thiết kế bể điều hòa (Equalization tank) [Page 4]. Chương 3 và Chương 4 trình bày các quá trình vật lý gồm song chắn rác (Screening), bể lắng cát (Grit chamber), bể lắng (Sedimentation tank), tuyển nổi áp lực cao (DAF), lọc (Filtration) và các quá trình hóa lý gồm keo tụ (Coagulation), tạo bông (Flocculation) và khử trùng (Disinfection) [Page 4]. Từ Chương 5 đến Chương 9, học phần phân tích động học vi sinh vật, bể bùn hoạt tính xáo trộn hoàn toàn (CMAS), bể sinh học màng (MBR), bể phản ứng theo mẻ (SBR), khử nitrat (Denitrification), phân hủy kỵ khí (UASB) và loại bỏ phốt pho sinh học tăng cường (EBPR) trước khi kết thúc bằng xử lý bùn (Sludge treatment) ở Chương 10 [Page 5] [Page 6].",
+          "sentences": [
+            "Nội dung chương trình kéo dài 15 tuần bao quát toàn bộ dây chuyền công nghệ từ công trình tiền xử lý cơ học đến xử lý bùn cặn [Page 4] [Page 5] [Page 6] [Page 7].",
+            "Chương 1 và Chương 2 giới thiệu đặc tính nước thải, quy chuẩn kỹ thuật quốc gia và phương pháp thiết kế bể điều hòa (Equalization tank) [Page 4].",
+            "Chương 3 và Chương 4 trình bày các quá trình vật lý gồm song chắn rác (Screening), bể lắng cát (Grit chamber), bể lắng (Sedimentation tank), tuyển nổi áp lực cao (DAF), lọc (Filtration) và các quá trình hóa lý gồm keo tụ (Coagulation), tạo bông (Flocculation) và khử trùng (Disinfection) [Page 4].",
+            "Từ Chương 5 đến Chương 9, học phần phân tích động học vi sinh vật, bể bùn hoạt tính xáo trộn hoàn toàn (CMAS), bể sinh học màng (MBR), bể phản ứng theo mẻ (SBR), khử nitrat (Denitrification), phân hủy kỵ khí (UASB) và loại bỏ phốt pho sinh học tăng cường (EBPR) trước khi kết thúc bằng xử lý bùn (Sludge treatment) ở Chương 10 [Page 5] [Page 6]."
+          ],
+          "brief": [
+            "Nội dung chương trình kéo dài 15 tuần bao quát toàn bộ dây chuyền công nghệ từ công trình tiền xử lý cơ học đến xử lý bùn cặn [Page 4] [Page 5] [Page 6] [Page 7].",
+            "Từ Chương 5 đến Chương 9, học phần phân tích động học vi sinh vật, bể bùn hoạt tính xáo trộn hoàn toàn (CMAS), bể sinh học màng (MBR), bể phản ứng theo mẻ (SBR), khử nitrat (Denitrification), phân hủy kỵ khí (UASB) và loại bỏ phốt pho sinh học tăng cường (EBPR) trước khi kết thúc bằng xử lý bùn (Sludge treatment) ở Chương 10 [Page 5] [Page 6]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Chương trình $15\\text{ tuần}$ kết nối dây chuyền từ lắng lọc đến xử lý bùn. Nội dung đi từ bể điều hòa, quá trình vật lý, hóa lý đến các bể sinh học hiếu khí, thiếu khí, kỵ khí và loại bỏ phốt pho.",
+          "takeaway": "Chương trình $15\\text{ tuần}$ kết nối dây chuyền từ lắng lọc đến xử lý bùn",
+          "topic": "dây chuyền"
+        },
+        {
+          "id": "p-43efdf06",
+          "kind": "paragraph",
+          "role": "claim",
+          "full": "Nước thải (Wastewater) là nguồn nước cấp mà cộng đồng đã sử dụng cho các mục đích sinh hoạt hoặc sản xuất và trở nên không còn phù hợp nếu chưa qua xử lý [Page 8]. Nước thải chưa xử lý tích tụ chất hữu cơ phân hủy tạo ra khí có mùi hôi thối, chứa vi sinh vật gây bệnh (Pathogenic microorganisms), gây phú dưỡng hóa (Nutrient enrichment) kích thích thực vật thủy sinh phát triển quá mức và mang các hợp chất độc hại gây đột biến hoặc ung thư [Page 8]. Kỹ thuật xử lý nước thải ứng dụng các nguyên lý khoa học và kỹ thuật để thu gom, xử lý và tái sử dụng nước thải nhằm bảo vệ sức khỏe cộng đồng và hệ sinh thái tự nhiên [Page 8] [Page 9]. Trong thời kỳ Cổ đại và Trung cổ, dân số còn ít và lượng nước ngọt dồi dào nên ô nhiễm nước thải vẫn nằm trong ngưỡng tự làm sạch của Trái Đất với hệ thống thoát nước đơn giản [Page 11].",
+          "sentences": [
+            "Nước thải (Wastewater) là nguồn nước cấp mà cộng đồng đã sử dụng cho các mục đích sinh hoạt hoặc sản xuất và trở nên không còn phù hợp nếu chưa qua xử lý [Page 8].",
+            "Nước thải chưa xử lý tích tụ chất hữu cơ phân hủy tạo ra khí có mùi hôi thối, chứa vi sinh vật gây bệnh (Pathogenic microorganisms), gây phú dưỡng hóa (Nutrient enrichment) kích thích thực vật thủy sinh phát triển quá mức và mang các hợp chất độc hại gây đột biến hoặc ung thư [Page 8].",
+            "Kỹ thuật xử lý nước thải ứng dụng các nguyên lý khoa học và kỹ thuật để thu gom, xử lý và tái sử dụng nước thải nhằm bảo vệ sức khỏe cộng đồng và hệ sinh thái tự nhiên [Page 8] [Page 9].",
+            "Trong thời kỳ Cổ đại và Trung cổ, dân số còn ít và lượng nước ngọt dồi dào nên ô nhiễm nước thải vẫn nằm trong ngưỡng tự làm sạch của Trái Đất với hệ thống thoát nước đơn giản [Page 11]."
+          ],
+          "brief": [
+            "Nước thải chưa xử lý tích tụ chất hữu cơ phân hủy tạo ra khí có mùi hôi thối, chứa vi sinh vật gây bệnh (Pathogenic microorganisms), gây phú dưỡng hóa (Nutrient enrichment) kích thích thực vật thủy sinh phát triển quá mức và mang các hợp chất độc hại gây đột biến hoặc ung thư [Page 8].",
+            "Kỹ thuật xử lý nước thải ứng dụng các nguyên lý khoa học và kỹ thuật để thu gom, xử lý và tái sử dụng nước thải nhằm bảo vệ sức khỏe cộng đồng và hệ sinh thái tự nhiên [Page 8] [Page 9]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Trạm nước thải loại bỏ mầm bệnh, độc chất và dinh dưỡng gây phú dưỡng. Nước thải chưa làm sạch sinh ra khí có mùi hôi, chứa vi sinh vật gây bệnh và kích thích tảo phát triển quá mức.",
+          "takeaway": "Trạm nước thải loại bỏ mầm bệnh, độc chất và dinh dưỡng gây phú dưỡng",
+          "topic": "mầm bệnh"
+        },
+        {
+          "id": "p-8341764c",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Cuộc cách mạng công nghiệp và bùng nổ đô thị hóa từ thế kỷ 19 làm cạn kiệt nguồn nước ngọt và tạo ra lưu lượng nước thải khổng lồ vượt quá khả năng tự làm sạch tự nhiên [Page 11]. Trong thế kỷ 19, các đô thị xây dựng hệ thống thoát nước hiện đại và áp dụng phương pháp tưới đất hoặc lọc gián đoạn mà đòi hỏi diện tích đất rất lớn [Page 11]. Bước sang thế kỷ 20, ngành kỹ thuật môi trường áp dụng quá trình xử lý sinh học bùn hoạt tính (Activated sludge), trong đó giai đoạn 1900 đến 1970 tập trung loại bỏ chất rắn lơ lửng, chất hữu cơ dễ phân hủy sinh học và vi sinh vật gây bệnh [Page 11]. Từ thập niên 1980 đến năm 2000, sự phát triển của các phương pháp phân tích hiện đại giúp phát hiện thêm nhiều thông số ô nhiễm vi lượng và thúc đẩy các quy chuẩn xả thải nghiêm ngặt hơn [Page 11]. Trong thế kỷ 21 hiện nay, các nhà máy hiện đại kết hợp đồng bộ phương pháp vật lý, hóa học và sinh học cùng tự động hóa để tối ưu năng lượng, thu hồi tài nguyên nước, dinh dưỡng, năng lượng và giảm phát thải khí nhà kính [Page 12].",
+          "sentences": [
+            "Cuộc cách mạng công nghiệp và bùng nổ đô thị hóa từ thế kỷ 19 làm cạn kiệt nguồn nước ngọt và tạo ra lưu lượng nước thải khổng lồ vượt quá khả năng tự làm sạch tự nhiên [Page 11].",
+            "Trong thế kỷ 19, các đô thị xây dựng hệ thống thoát nước hiện đại và áp dụng phương pháp tưới đất hoặc lọc gián đoạn mà đòi hỏi diện tích đất rất lớn [Page 11].",
+            "Bước sang thế kỷ 20, ngành kỹ thuật môi trường áp dụng quá trình xử lý sinh học bùn hoạt tính (Activated sludge), trong đó giai đoạn 1900 đến 1970 tập trung loại bỏ chất rắn lơ lửng, chất hữu cơ dễ phân hủy sinh học và vi sinh vật gây bệnh [Page 11].",
+            "Từ thập niên 1980 đến năm 2000, sự phát triển của các phương pháp phân tích hiện đại giúp phát hiện thêm nhiều thông số ô nhiễm vi lượng và thúc đẩy các quy chuẩn xả thải nghiêm ngặt hơn [Page 11].",
+            "Trong thế kỷ 21 hiện nay, các nhà máy hiện đại kết hợp đồng bộ phương pháp vật lý, hóa học và sinh học cùng tự động hóa để tối ưu năng lượng, thu hồi tài nguyên nước, dinh dưỡng, năng lượng và giảm phát thải khí nhà kính [Page 12]."
+          ],
+          "brief": [
+            "Bước sang thế kỷ 20, ngành kỹ thuật môi trường áp dụng quá trình xử lý sinh học bùn hoạt tính (Activated sludge), trong đó giai đoạn 1900 đến 1970 tập trung loại bỏ chất rắn lơ lửng, chất hữu cơ dễ phân hủy sinh học và vi sinh vật gây bệnh [Page 11].",
+            "Trong thế kỷ 21 hiện nay, các nhà máy hiện đại kết hợp đồng bộ phương pháp vật lý, hóa học và sinh học cùng tự động hóa để tối ưu năng lượng, thu hồi tài nguyên nước, dinh dưỡng, năng lượng và giảm phát thải khí nhà kính [Page 12]."
+          ],
+          "evidence": [
+            2,
+            4
+          ],
+          "key": "Công nghệ tiến hóa từ tưới đất sang bùn hoạt tính và thu hồi tài nguyên. Đô thị hóa và phương pháp phân tích hiện đại thúc đẩy sự kết hợp vật lý, hóa học, sinh học và tự động hóa để tiết kiệm năng lượng.",
+          "takeaway": "Công nghệ tiến hóa từ tưới đất sang bùn hoạt tính và thu hồi tài nguyên",
+          "topic": "bùn hoạt tính"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-nguồn-gốc-phát-sinh-hệ-thống-thu-gom-và-thành-phần-đặc-trưng-của-nước-thải-sources-collection-systems-and-constituents",
+      "num": "2",
+      "title": "Nguồn gốc phát sinh, hệ thống thu gom và thành phần đặc trưng của nước thải (Sources, Collection Systems, and Constituents)",
+      "depth": 1,
+      "takeaway": "Nước thải phát sinh từ bốn nguồn, qua mạng lưới cống và chứa ba nhóm bẩn",
+      "topic": "mạng lưới cống",
+      "units": [
+        {
+          "id": "p-30528a16",
+          "kind": "paragraph",
+          "role": "context",
+          "full": "Nước thải phát sinh từ bốn nguồn chính gồm nước thải sinh hoạt (Domestic wastewater), nước thải công nghiệp (Industrial wastewater), nước thải nông nghiệp (Agricultural wastewater) và nước mưa chảy tràn (Stormwater) [Page 12] [Page 13]. Nước thải sinh hoạt hay nước thải vệ sinh (Sanitary wastewater) bắt nguồn từ khu dân cư, cơ sở thương mại, trường học và công trình công cộng [Page 12]. Trong hộ gia đình, dòng thải từ bồn cầu chứa nước tiểu (Urine) và phân (Faeces) tạo thành dòng nước đen (Blackwater), trong khi dòng thải từ giặt giũ (Washing), tắm rửa (Bathing) và nhà bếp (Kitchen) tạo thành dòng nước xám (Greywater) [Page 13]. Nước thải công nghiệp phát sinh đa dạng từ các ngành chế biến thủy sản, dệt nhuộm, giấy, luyện kim, lọc dầu, hóa dược, bán dẫn và sản xuất ô tô với thành phần phụ thuộc chặt chẽ vào công nghệ sản xuất [Page 14].",
+          "sentences": [
+            "Nước thải phát sinh từ bốn nguồn chính gồm nước thải sinh hoạt (Domestic wastewater), nước thải công nghiệp (Industrial wastewater), nước thải nông nghiệp (Agricultural wastewater) và nước mưa chảy tràn (Stormwater) [Page 12] [Page 13].",
+            "Nước thải sinh hoạt hay nước thải vệ sinh (Sanitary wastewater) bắt nguồn từ khu dân cư, cơ sở thương mại, trường học và công trình công cộng [Page 12].",
+            "Trong hộ gia đình, dòng thải từ bồn cầu chứa nước tiểu (Urine) và phân (Faeces) tạo thành dòng nước đen (Blackwater), trong khi dòng thải từ giặt giũ (Washing), tắm rửa (Bathing) và nhà bếp (Kitchen) tạo thành dòng nước xám (Greywater) [Page 13].",
+            "Nước thải công nghiệp phát sinh đa dạng từ các ngành chế biến thủy sản, dệt nhuộm, giấy, luyện kim, lọc dầu, hóa dược, bán dẫn và sản xuất ô tô với thành phần phụ thuộc chặt chẽ vào công nghệ sản xuất [Page 14]."
+          ],
+          "brief": [
+            "Nước thải phát sinh từ bốn nguồn chính gồm nước thải sinh hoạt (Domestic wastewater), nước thải công nghiệp (Industrial wastewater), nước thải nông nghiệp (Agricultural wastewater) và nước mưa chảy tràn (Stormwater) [Page 12] [Page 13].",
+            "Trong hộ gia đình, dòng thải từ bồn cầu chứa nước tiểu (Urine) và phân (Faeces) tạo thành dòng nước đen (Blackwater), trong khi dòng thải từ giặt giũ (Washing), tắm rửa (Bathing) và nhà bếp (Kitchen) tạo thành dòng nước xám (Greywater) [Page 13]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Nước thải phát sinh từ sinh hoạt, công nghiệp, nông nghiệp và nước mưa. Nước thải sinh hoạt chia thành dòng nước đen từ bồn cầu và dòng nước xám từ tắm giặt, còn nước thải công nghiệp phụ thuộc ngành sản xuất.",
+          "takeaway": "Nước thải phát sinh từ sinh hoạt, công nghiệp, nông nghiệp và nước mưa",
+          "topic": "Nước thải"
+        },
+        {
+          "id": "p-65abcb8b",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Hệ thống mạng lưới thoát nước đô thị được phân thành ba loại chính gồm hệ thống thu gom nước thải riêng, hệ thống thu gom nước mưa riêng và hệ thống thu gom chung (Combined collection systems) [Page 14] [Page 15]. Hệ thống thu gom nước thải riêng tiếp nhận dòng nước thải sinh hoạt, công nghiệp cùng lượng nước ngầm thấm lậu (Infiltration) qua các mối nối hở hoặc vết nứt đường ống để dẫn về trạm xử lý [Page 14] [Page 15]. Hệ thống thu gom nước mưa riêng thu nhận nước mưa và băng tuyết tan chảy tràn trên bề mặt không thấm để xả ra nguồn tiếp nhận hoặc bể lưu giữ [Page 14] [Page 15]. Hệ thống thoát nước chung thu gom cả nước thải và nước mưa trong cùng một tuyến cống chính, đồng thời bố trí giếng tràn (Combined sewer overflow) để xả bớt lưu lượng vượt tải khi mưa lớn [Page 15] [Page 16].",
+          "sentences": [
+            "Hệ thống mạng lưới thoát nước đô thị được phân thành ba loại chính gồm hệ thống thu gom nước thải riêng, hệ thống thu gom nước mưa riêng và hệ thống thu gom chung (Combined collection systems) [Page 14] [Page 15].",
+            "Hệ thống thu gom nước thải riêng tiếp nhận dòng nước thải sinh hoạt, công nghiệp cùng lượng nước ngầm thấm lậu (Infiltration) qua các mối nối hở hoặc vết nứt đường ống để dẫn về trạm xử lý [Page 14] [Page 15].",
+            "Hệ thống thu gom nước mưa riêng thu nhận nước mưa và băng tuyết tan chảy tràn trên bề mặt không thấm để xả ra nguồn tiếp nhận hoặc bể lưu giữ [Page 14] [Page 15].",
+            "Hệ thống thoát nước chung thu gom cả nước thải và nước mưa trong cùng một tuyến cống chính, đồng thời bố trí giếng tràn (Combined sewer overflow) để xả bớt lưu lượng vượt tải khi mưa lớn [Page 15] [Page 16]."
+          ],
+          "brief": [
+            "Hệ thống mạng lưới thoát nước đô thị được phân thành ba loại chính gồm hệ thống thu gom nước thải riêng, hệ thống thu gom nước mưa riêng và hệ thống thu gom chung (Combined collection systems) [Page 14] [Page 15].",
+            "Hệ thống thoát nước chung thu gom cả nước thải và nước mưa trong cùng một tuyến cống chính, đồng thời bố trí giếng tràn (Combined sewer overflow) để xả bớt lưu lượng vượt tải khi mưa lớn [Page 15] [Page 16]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Mạng lưới thoát nước đô thị gồm hệ thống cống riêng và cống chung. Hệ thống riêng tách biệt dòng nước thải có nước ngầm thấm lậu với dòng nước mưa, trong khi hệ thống chung dùng giếng tràn khi mưa lớn.",
+          "takeaway": "Mạng lưới thoát nước đô thị gồm hệ thống cống riêng và cống chung",
+          "topic": "Mạng lưới thoát nước"
+        },
+        {
+          "id": "p-1488c685",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Các thành phần trong nước thải được chia thành ba nhóm tính chất vật lý, hóa học và sinh học tương ứng với nguồn phát sinh cụ thể [Page 16] [Page 17] [Page 18]. Nhóm tính chất vật lý bao gồm màu sắc (Color) do sự phân hủy chất hữu cơ hoặc chất thải công nghiệp, mùi hôi (Odor) từ quá trình phân hủy kỵ khí, tổng chất rắn (Solids) từ nguồn nước cấp, sinh hoạt, công nghiệp và xói mòn đất, cùng nhiệt độ (Temperature) ảnh hưởng trực tiếp đến vận tốc phản ứng sinh học [Page 16] [Page 20]. Nhóm thành phần hóa học hữu cơ bao gồm carbohydrate, chất béo và dầu mỡ (FOGs), protein, chất hoạt động bề mặt (Surfactants), hợp chất hữu cơ dễ bay hơi (VOCs) và thuốc bảo vệ thực vật (Pesticides) từ nông nghiệp [Page 17]. Nhóm hóa học vô cơ gồm độ kiềm (Alkalinity), clorua ($\\text{Cl}^-$), kim loại nặng, hợp chất nitơ, phốt pho, kali, lưu huỳnh, độ pH và các khí hòa tan như $\\text{H}_2\\text{S}$, $\\text{CH}_4$, $\\text{O}_2$, trong khi nhóm sinh học chứa động vật nguyên sinh, giun sán (Helminths), thực vật, vi khuẩn (Bacteria) và virus gây bệnh [Page 17] [Page 18].",
+          "sentences": [
+            "Các thành phần trong nước thải được chia thành ba nhóm tính chất vật lý, hóa học và sinh học tương ứng với nguồn phát sinh cụ thể [Page 16] [Page 17] [Page 18].",
+            "Nhóm tính chất vật lý bao gồm màu sắc (Color) do sự phân hủy chất hữu cơ hoặc chất thải công nghiệp, mùi hôi (Odor) từ quá trình phân hủy kỵ khí, tổng chất rắn (Solids) từ nguồn nước cấp, sinh hoạt, công nghiệp và xói mòn đất, cùng nhiệt độ (Temperature) ảnh hưởng trực tiếp đến vận tốc phản ứng sinh học [Page 16] [Page 20].",
+            "Nhóm thành phần hóa học hữu cơ bao gồm carbohydrate, chất béo và dầu mỡ (FOGs), protein, chất hoạt động bề mặt (Surfactants), hợp chất hữu cơ dễ bay hơi (VOCs) và thuốc bảo vệ thực vật (Pesticides) từ nông nghiệp [Page 17].",
+            "Nhóm hóa học vô cơ gồm độ kiềm (Alkalinity), clorua ($\\text{Cl}^-$), kim loại nặng, hợp chất nitơ, phốt pho, kali, lưu huỳnh, độ pH và các khí hòa tan như $\\text{H}_2\\text{S}$, $\\text{CH}_4$, $\\text{O}_2$, trong khi nhóm sinh học chứa động vật nguyên sinh, giun sán (Helminths), thực vật, vi khuẩn (Bacteria) và virus gây bệnh [Page 17] [Page 18]."
+          ],
+          "brief": [
+            "Các thành phần trong nước thải được chia thành ba nhóm tính chất vật lý, hóa học và sinh học tương ứng với nguồn phát sinh cụ thể [Page 16] [Page 17] [Page 18].",
+            "Nhóm hóa học vô cơ gồm độ kiềm (Alkalinity), clorua ($\\text{Cl}^-$), kim loại nặng, hợp chất nitơ, phốt pho, kali, lưu huỳnh, độ pH và các khí hòa tan như $\\text{H}_2\\text{S}$, $\\text{CH}_4$, $\\text{O}_2$, trong khi nhóm sinh học chứa động vật nguyên sinh, giun sán (Helminths), thực vật, vi khuẩn (Bacteria) và virus gây bệnh [Page 17] [Page 18]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Thành phần tạp chất chia thành nhóm vật lý, hóa học và sinh học. Nhóm vật lý gồm màu, mùi, chất rắn và nhiệt độ, nhóm hóa học gồm chất hữu cơ và vô cơ, còn nhóm sinh học chứa vi khuẩn và virus.",
+          "takeaway": "Thành phần tạp chất chia thành nhóm vật lý, hóa học và sinh học",
+          "topic": "Thành phần tạp chất"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-các-thông-số-chất-lượng-nước-thải-và-phương-trình-phân-đoạn-chất-rắn-nitơ-bod-cod-wastewater-parameters-and-fractionation-equations",
+      "num": "3",
+      "title": "Các thông số chất lượng nước thải và phương trình phân đoạn chất rắn, nitơ, BOD, COD (Wastewater Parameters and Fractionation Equations)",
+      "depth": 1,
+      "takeaway": "Cân bằng chất rắn, nitơ, phốt pho và động học $\\text{BOD}$, $\\text{COD}$ định lượng tải lượng bẩn",
+      "topic": "tải lượng bẩn",
+      "units": [
+        {
+          "id": "p-1e5f37f2",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Phân tích các phân đoạn chất rắn (Solids, tính bằng $\\text{mg/L}$ hoặc $\\text{ppm}$) giúp kỹ sư đánh giá khả năng tái sử dụng nước thải và lựa chọn quá trình xử lý phù hợp [Page 19]. Tổng chất rắn ($\\text{TS}$) được xác định bằng cách bay hơi mẫu nước ở $103\\text{–}105^\\circ\\text{C}$ và bằng tổng của chất rắn lơ lửng ($\\text{TSS}$, giữ lại trên màng lọc sợi thủy tinh) và chất rắn hòa tan ($\\text{TDS}$, đi qua màng lọc) theo phương trình $\\text{TS} = \\text{TSS} + \\text{TDS} = \\text{TVS} + \\text{TFS}$ [Page 19]. Khi nung cặn ở lò nung (Muffle oven) $550^\\circ\\text{C}$, phần bay hơi biểu thị chất rắn bay hơi hữu cơ ($\\text{VSS}$ và $\\text{VDS}$) và phần tro còn lại biểu thị chất rắn cố định vô cơ ($\\text{FSS}$ và $\\text{FDS}$) [Page 19]. Các quan hệ bảo toàn khối lượng chất rắn tuân theo các phương trình $\\text{TSS} = \\text{VSS} + \\text{FSS}$, $\\text{TDS} = \\text{VDS} + \\text{FDS}$, $\\text{TVS} = \\text{VSS} + \\text{VDS}$ và $\\text{TFS} = \\text{FSS} + \\text{FDS}$ [Page 19].",
+          "sentences": [
+            "Phân tích các phân đoạn chất rắn (Solids, tính bằng $\\text{mg/L}$ hoặc $\\text{ppm}$) giúp kỹ sư đánh giá khả năng tái sử dụng nước thải và lựa chọn quá trình xử lý phù hợp [Page 19].",
+            "Tổng chất rắn ($\\text{TS}$) được xác định bằng cách bay hơi mẫu nước ở $103\\text{–}105^\\circ\\text{C}$ và bằng tổng của chất rắn lơ lửng ($\\text{TSS}$, giữ lại trên màng lọc sợi thủy tinh) và chất rắn hòa tan ($\\text{TDS}$, đi qua màng lọc) theo phương trình $\\text{TS} = \\text{TSS} + \\text{TDS} = \\text{TVS} + \\text{TFS}$ [Page 19].",
+            "Khi nung cặn ở lò nung (Muffle oven) $550^\\circ\\text{C}$, phần bay hơi biểu thị chất rắn bay hơi hữu cơ ($\\text{VSS}$ và $\\text{VDS}$) và phần tro còn lại biểu thị chất rắn cố định vô cơ ($\\text{FSS}$ và $\\text{FDS}$) [Page 19].",
+            "Các quan hệ bảo toàn khối lượng chất rắn tuân theo các phương trình $\\text{TSS} = \\text{VSS} + \\text{FSS}$, $\\text{TDS} = \\text{VDS} + \\text{FDS}$, $\\text{TVS} = \\text{VSS} + \\text{VDS}$ và $\\text{TFS} = \\text{FSS} + \\text{FDS}$ [Page 19]."
+          ],
+          "brief": [
+            "Tổng chất rắn ($\\text{TS}$) được xác định bằng cách bay hơi mẫu nước ở $103\\text{–}105^\\circ\\text{C}$ và bằng tổng của chất rắn lơ lửng ($\\text{TSS}$, giữ lại trên màng lọc sợi thủy tinh) và chất rắn hòa tan ($\\text{TDS}$, đi qua màng lọc) theo phương trình $\\text{TS} = \\text{TSS} + \\text{TDS} = \\text{TVS} + \\text{TFS}$ [Page 19].",
+            "Các quan hệ bảo toàn khối lượng chất rắn tuân theo các phương trình $\\text{TSS} = \\text{VSS} + \\text{FSS}$, $\\text{TDS} = \\text{VDS} + \\text{FDS}$, $\\text{TVS} = \\text{VSS} + \\text{VDS}$ và $\\text{TFS} = \\text{FSS} + \\text{FDS}$ [Page 19]."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Tổng chất rắn $\\text{TS}$ bằng tổng chất rắn lơ lửng $\\text{TSS}$ và hòa tan $\\text{TDS}$. Phép lọc màng sợi thủy tinh và nung ở $550^\\circ\\text{C}$ tách riêng phần chất rắn bay hơi hữu cơ và phần tro cố định vô cơ.",
+          "takeaway": "Tổng chất rắn $\\text{TS}$ bằng tổng chất rắn lơ lửng $\\text{TSS}$ và hòa tan $\\text{TDS}$",
+          "topic": "Tổng chất rắn"
+        },
+        {
+          "id": "p-f6ae2ad2",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Các thông số hóa lý cơ bản kiểm soát môi trường phản ứng và khả năng tái sử dụng nước sau xử lý cho nông nghiệp hoặc công nghiệp [Page 20]. Nhiệt độ ($^\\circ\\text{C}$), độ màu ($\\text{Pt-Co}$) và độ đục ($\\text{NTU}$) phản ánh trạng thái tươi hoặc phân hủy của nước thải cùng chất lượng nước sau lọc [Page 20]. Độ dẫn điện ($\\text{EC}$, đơn vị $\\mu\\text{S/cm}$) dùng để đánh giá độ mặn của nước tưới nông nghiệp và liên hệ với tổng chất rắn hòa tan qua công thức thực nghiệm $\\text{TDS (mg/L)} \\approx \\text{EC (}\\mu\\text{S/cm)} \\times (0.55\\text{–}0.70)$ [Page 20]. Độ pH được tính bằng $\\text{pH} = -\\log[\\text{H}^+]$, độ cứng tổng cộng bằng tổng nồng độ ion $\\text{Ca}^{2+} + \\text{Mg}^{2+}$ (tính theo $\\text{mg CaCO}_3\\text{/L}$), và độ kiềm (Alkalinity) đặc trưng cho khả năng đệm pH của nước tự nhiên theo công thức $\\text{Alkalinity (meq/L)} = [\\text{HCO}_3^-] + 2[\\text{CO}_3^{2-}] + [\\text{OH}^-] - [\\text{H}^+]$ và quy đổi sang $\\text{mg/L as CaCO}_3$ bằng cách nhân với $50$ [Page 20].",
+          "sentences": [
+            "Các thông số hóa lý cơ bản kiểm soát môi trường phản ứng và khả năng tái sử dụng nước sau xử lý cho nông nghiệp hoặc công nghiệp [Page 20].",
+            "Nhiệt độ ($^\\circ\\text{C}$), độ màu ($\\text{Pt-Co}$) và độ đục ($\\text{NTU}$) phản ánh trạng thái tươi hoặc phân hủy của nước thải cùng chất lượng nước sau lọc [Page 20]. Độ dẫn điện ($\\text{EC}$, đơn vị $\\mu\\text{S/cm}$) dùng để đánh giá độ mặn của nước tưới nông nghiệp và liên hệ với tổng chất rắn hòa tan qua công thức thực nghiệm $\\text{TDS (mg/L)} \\approx \\text{EC (}\\mu\\text{S/cm)} \\times (0.55\\text{–}0.70)$ [Page 20]. Độ pH được tính bằng $\\text{pH} = -\\log[\\text{H}^+]$, độ cứng tổng cộng bằng tổng nồng độ ion $\\text{Ca}^{2+} + \\text{Mg}^{2+}$ (tính theo $\\text{mg CaCO}_3\\text{/L}$), và độ kiềm (Alkalinity) đặc trưng cho khả năng đệm pH của nước tự nhiên theo công thức $\\text{Alkalinity (meq/L)} = [\\text{HCO}_3^-] + 2[\\text{CO}_3^{2-}] + [\\text{OH}^-] - [\\text{H}^+]$ và quy đổi sang $\\text{mg/L as CaCO}_3$ bằng cách nhân với $50$ [Page 20]."
+          ],
+          "brief": [
+            "Các thông số hóa lý cơ bản kiểm soát môi trường phản ứng và khả năng tái sử dụng nước sau xử lý cho nông nghiệp hoặc công nghiệp [Page 20].",
+            "Nhiệt độ ($^\\circ\\text{C}$), độ màu ($\\text{Pt-Co}$) và độ đục ($\\text{NTU}$) phản ánh trạng thái tươi hoặc phân hủy của nước thải cùng chất lượng nước sau lọc [Page 20]. Độ dẫn điện ($\\text{EC}$, đơn vị $\\mu\\text{S/cm}$) dùng để đánh giá độ mặn của nước tưới nông nghiệp và liên hệ với tổng chất rắn hòa tan qua công thức thực nghiệm $\\text{TDS (mg/L)} \\approx \\text{EC (}\\mu\\text{S/cm)} \\times (0.55\\text{–}0.70)$ [Page 20]. Độ pH được tính bằng $\\text{pH} = -\\log[\\text{H}^+]$, độ cứng tổng cộng bằng tổng nồng độ ion $\\text{Ca}^{2+} + \\text{Mg}^{2+}$ (tính theo $\\text{mg CaCO}_3\\text{/L}$), và độ kiềm (Alkalinity) đặc trưng cho khả năng đệm pH của nước tự nhiên theo công thức $\\text{Alkalinity (meq/L)} = [\\text{HCO}_3^-] + 2[\\text{CO}_3^{2-}] + [\\text{OH}^-] - [\\text{H}^+]$ và quy đổi sang $\\text{mg/L as CaCO}_3$ bằng cách nhân với $50$ [Page 20]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Nhiệt độ, độ dẫn điện $\\text{EC}$, $\\text{pH}$, độ cứng và độ kiềm quyết định phản ứng. Độ dẫn điện ước tính nhanh $\\text{TDS}$ qua hệ số $0.55$ đến $0.70$, còn độ kiềm đo khả năng đệm $\\text{pH}$ theo $\\text{mg/L as CaCO}_3$.",
+          "takeaway": "Nhiệt độ, độ dẫn điện $\\text{EC}$, $\\text{pH}$, độ cứng và độ kiềm quyết định phản ứng",
+          "topic": "độ kiềm"
+        },
+        {
+          "id": "p-6773f91d",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng nitơ ($\\text{TN}$, đơn vị $\\text{mg N/L}$) và tổng phốt pho ($\\text{TP}$, đơn vị $\\text{mg P/L}$) là hai nguyên tố dinh dưỡng kiểm soát sự phát triển của vi sinh vật và hiện tượng phú dưỡng hóa [Page 21] [Page 22]. Tổng nitơ bao gồm nitơ hữu cơ ($\\text{ON}$), nitơ amoni ($\\text{NH}_4^+\\text{-N}$), nitơ nitrit ($\\text{NO}_2^-\\text{-N}$) và nitơ nitrat ($\\text{NO}_3^-\\text{-N}$), trong đó tổng nitơ vô cơ là $\\text{TIN} = \\text{NH}_4^+\\text{-N} + \\text{NO}_2^-\\text{-N} + \\text{NO}_3^-\\text{-N}$ và tổng nitơ Kjeldahl là $\\text{TKN} = \\text{ON} + \\text{NH}_4^+\\text{-N}$ nên $\\text{TN} = \\text{TKN} + \\text{NO}_2^-\\text{-N} + \\text{NO}_3^-\\text{-N}$ [Page 21]. Nitơ hữu cơ ($\\text{ON}$) được chia thành phần phân hủy sinh học ($\\text{bON} = \\text{bsON} + \\text{bpON}$) và phần không phân hủy sinh học ($\\text{nbON} = \\text{nbsON} + \\text{nbpON}$), hoặc chia theo kích thước hạt thành dạng hạt ($\\text{pON} = \\text{bpON} + \\text{nbpON}$) và dạng hòa tan ($\\text{sON} = \\text{bsON} + \\text{nbsON}$) [Page 21] [Page 22]. Đối với phốt pho, dạng orthophosphate ($\\text{PO}_4^{3-}$, tính theo $\\text{mg P/L}$) là dạng hòa tan sẵn sàng cho quá trình trao đổi chất sinh học của vi khuẩn và tảo [Page 21].",
+          "sentences": [
+            "Tổng nitơ ($\\text{TN}$, đơn vị $\\text{mg N/L}$) và tổng phốt pho ($\\text{TP}$, đơn vị $\\text{mg P/L}$) là hai nguyên tố dinh dưỡng kiểm soát sự phát triển của vi sinh vật và hiện tượng phú dưỡng hóa [Page 21] [Page 22].",
+            "Tổng nitơ bao gồm nitơ hữu cơ ($\\text{ON}$), nitơ amoni ($\\text{NH}_4^+\\text{-N}$), nitơ nitrit ($\\text{NO}_2^-\\text{-N}$) và nitơ nitrat ($\\text{NO}_3^-\\text{-N}$), trong đó tổng nitơ vô cơ là $\\text{TIN} = \\text{NH}_4^+\\text{-N} + \\text{NO}_2^-\\text{-N} + \\text{NO}_3^-\\text{-N}$ và tổng nitơ Kjeldahl là $\\text{TKN} = \\text{ON} + \\text{NH}_4^+\\text{-N}$ nên $\\text{TN} = \\text{TKN} + \\text{NO}_2^-\\text{-N} + \\text{NO}_3^-\\text{-N}$ [Page 21].",
+            "Nitơ hữu cơ ($\\text{ON}$) được chia thành phần phân hủy sinh học ($\\text{bON} = \\text{bsON} + \\text{bpON}$) và phần không phân hủy sinh học ($\\text{nbON} = \\text{nbsON} + \\text{nbpON}$), hoặc chia theo kích thước hạt thành dạng hạt ($\\text{pON} = \\text{bpON} + \\text{nbpON}$) và dạng hòa tan ($\\text{sON} = \\text{bsON} + \\text{nbsON}$) [Page 21] [Page 22]. Đối với phốt pho, dạng orthophosphate ($\\text{PO}_4^{3-}$, tính theo $\\text{mg P/L}$) là dạng hòa tan sẵn sàng cho quá trình trao đổi chất sinh học của vi khuẩn và tảo [Page 21]."
+          ],
+          "brief": [
+            "Tổng nitơ bao gồm nitơ hữu cơ ($\\text{ON}$), nitơ amoni ($\\text{NH}_4^+\\text{-N}$), nitơ nitrit ($\\text{NO}_2^-\\text{-N}$) và nitơ nitrat ($\\text{NO}_3^-\\text{-N}$), trong đó tổng nitơ vô cơ là $\\text{TIN} = \\text{NH}_4^+\\text{-N} + \\text{NO}_2^-\\text{-N} + \\text{NO}_3^-\\text{-N}$ và tổng nitơ Kjeldahl là $\\text{TKN} = \\text{ON} + \\text{NH}_4^+\\text{-N}$ nên $\\text{TN} = \\text{TKN} + \\text{NO}_2^-\\text{-N} + \\text{NO}_3^-\\text{-N}$ [Page 21].",
+            "Nitơ hữu cơ ($\\text{ON}$) được chia thành phần phân hủy sinh học ($\\text{bON} = \\text{bsON} + \\text{bpON}$) và phần không phân hủy sinh học ($\\text{nbON} = \\text{nbsON} + \\text{nbpON}$), hoặc chia theo kích thước hạt thành dạng hạt ($\\text{pON} = \\text{bpON} + \\text{nbpON}$) và dạng hòa tan ($\\text{sON} = \\text{bsON} + \\text{nbsON}$) [Page 21] [Page 22]. Đối với phốt pho, dạng orthophosphate ($\\text{PO}_4^{3-}$, tính theo $\\text{mg P/L}$) là dạng hòa tan sẵn sàng cho quá trình trao đổi chất sinh học của vi khuẩn và tảo [Page 21]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Tổng nitơ $\\text{TN}$ bằng $\\text{TKN}$ cộng nitrit, nitrat và nitơ hữu cơ gồm $\\text{bON}$, $\\text{nbON}$. Việc tách riêng các phân đoạn hòa tan và dạng hạt của nitơ cùng orthophosphate giúp kiểm soát dinh dưỡng cho vi sinh vật.",
+          "takeaway": "Tổng nitơ $\\text{TN}$ bằng $\\text{TKN}$ cộng nitrit, nitrat và nitơ hữu cơ gồm $\\text{bON}$, $\\text{nbON}$",
+          "topic": "Tổng nitơ"
+        },
+        {
+          "id": "p-40f9691d",
+          "kind": "paragraph",
+          "role": "claim",
+          "full": "Nhu cầu oxy sinh hóa ($\\text{BOD}$) và nhu cầu oxy hóa học ($\\text{COD}$) đo lường hàm lượng chất hữu cơ trong nước thải thông qua lượng oxy tương đương [Page 22] [Page 23]. Lượng chất hữu cơ còn lại tại thời điểm $t$ (ngày) tuân theo động học bậc nhất $\\text{BOD}_r = \\text{UBOD} \\cdot e^{-kt}$, do đó lượng $\\text{BOD}$ đã tiêu thụ sau $t$ ngày là $\\text{BOD}_t = \\text{UBOD} - \\text{BOD}_r = \\text{UBOD}(1 - e^{-kt})$ và tại $t = 5\\text{ ngày}$ là $\\text{BOD}_5 = \\text{UBOD}(1 - e^{-5k})$ [Page 23]. Hằng số tốc độ phản ứng bậc nhất $k$ ($\\text{1/d}$) phụ thuộc vào nhiệt độ theo phương trình van't Hoff-Arrhenius $k_2 / k_1 = \\theta^{(T_2 - T_1)}$ với hệ số nhiệt độ điển hình $\\theta = 1.047$ [Page 23] [Page 25]. Tổng nhu cầu oxy hóa học ($\\text{COD}$) được phân chia thành phần phân hủy sinh học ($\\text{bCOD} = \\text{sbCOD} + \\text{rbCOD} \\approx 1.6 \\times \\text{BOD}$, hoặc lấy hệ số $1.25$ đối với nước tự nhiên) và phần không phân hủy sinh học ($\\text{nbCOD} = \\text{nbpCOD} + \\text{nbsCOD}$), tạo thành phương trình tổng quát $\\text{COD} = \\text{sbCOD} + \\text{rbCOD} + \\text{nbpCOD} + \\text{nbsCOD}$ [Page 24] [Page 25].",
+          "sentences": [
+            "Nhu cầu oxy sinh hóa ($\\text{BOD}$) và nhu cầu oxy hóa học ($\\text{COD}$) đo lường hàm lượng chất hữu cơ trong nước thải thông qua lượng oxy tương đương [Page 22] [Page 23].",
+            "Lượng chất hữu cơ còn lại tại thời điểm $t$ (ngày) tuân theo động học bậc nhất $\\text{BOD}_r = \\text{UBOD} \\cdot e^{-kt}$, do đó lượng $\\text{BOD}$ đã tiêu thụ sau $t$ ngày là $\\text{BOD}_t = \\text{UBOD} - \\text{BOD}_r = \\text{UBOD}(1 - e^{-kt})$ và tại $t = 5\\text{ ngày}$ là $\\text{BOD}_5 = \\text{UBOD}(1 - e^{-5k})$ [Page 23].",
+            "Hằng số tốc độ phản ứng bậc nhất $k$ ($\\text{1/d}$) phụ thuộc vào nhiệt độ theo phương trình van't Hoff-Arrhenius $k_2 / k_1 = \\theta^{(T_2 - T_1)}$ với hệ số nhiệt độ điển hình $\\theta = 1.047$ [Page 23] [Page 25].",
+            "Tổng nhu cầu oxy hóa học ($\\text{COD}$) được phân chia thành phần phân hủy sinh học ($\\text{bCOD} = \\text{sbCOD} + \\text{rbCOD} \\approx 1.6 \\times \\text{BOD}$, hoặc lấy hệ số $1.25$ đối với nước tự nhiên) và phần không phân hủy sinh học ($\\text{nbCOD} = \\text{nbpCOD} + \\text{nbsCOD}$), tạo thành phương trình tổng quát $\\text{COD} = \\text{sbCOD} + \\text{rbCOD} + \\text{nbpCOD} + \\text{nbsCOD}$ [Page 24] [Page 25]."
+          ],
+          "brief": [
+            "Lượng chất hữu cơ còn lại tại thời điểm $t$ (ngày) tuân theo động học bậc nhất $\\text{BOD}_r = \\text{UBOD} \\cdot e^{-kt}$, do đó lượng $\\text{BOD}$ đã tiêu thụ sau $t$ ngày là $\\text{BOD}_t = \\text{UBOD} - \\text{BOD}_r = \\text{UBOD}(1 - e^{-kt})$ và tại $t = 5\\text{ ngày}$ là $\\text{BOD}_5 = \\text{UBOD}(1 - e^{-5k})$ [Page 23].",
+            "Tổng nhu cầu oxy hóa học ($\\text{COD}$) được phân chia thành phần phân hủy sinh học ($\\text{bCOD} = \\text{sbCOD} + \\text{rbCOD} \\approx 1.6 \\times \\text{BOD}$, hoặc lấy hệ số $1.25$ đối với nước tự nhiên) và phần không phân hủy sinh học ($\\text{nbCOD} = \\text{nbpCOD} + \\text{nbsCOD}$), tạo thành phương trình tổng quát $\\text{COD} = \\text{sbCOD} + \\text{rbCOD} + \\text{nbpCOD} + \\text{nbsCOD}$ [Page 24] [Page 25]."
+          ],
+          "evidence": [
+            1,
+            3
+          ],
+          "key": "Động học bậc nhất xác định $\\text{BOD}_5 = \\text{UBOD}(1, e^{-5k})$ và $\\text{COD} = \\text{bCOD} + \\text{nbCOD}$. Hằng số tốc độ phản ứng biến thiên theo nhiệt độ với $\\theta = 1.047$ và phần phân hủy sinh học thỏa mãn $\\text{bCOD} \\approx 1.6 \\times \\text{BOD}$.",
+          "takeaway": "Động học bậc nhất xác định $\\text{BOD}_5 = \\text{UBOD}(1, e^{-5k})$ và $\\text{COD} = \\text{bCOD} + \\text{nbCOD}$",
+          "topic": "Động học bậc nhất"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-phân-loại-phương-pháp-xử-lý-các-bậc-xử-lý-và-quy-chuẩn-kỹ-thuật-quốc-gia-qcvn-treatment-methods-levels-and-qcvn-regulations",
+      "num": "4",
+      "title": "Phân loại phương pháp xử lý, các bậc xử lý và quy chuẩn kỹ thuật quốc gia QCVN (Treatment Methods, Levels, and QCVN Regulations)",
+      "depth": 1,
+      "takeaway": "Dây chuyền công nghệ kết hợp cơ học, hóa học, sinh học để đạt quy chuẩn QCVN",
+      "topic": "quy chuẩn QCVN",
+      "units": [
+        {
+          "id": "p-cfddd472",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Các công trình đơn vị trong nhà máy xử lý nước thải được phân loại thành quá trình vật lý (Physical unit processes), quá trình hóa học (Chemical unit processes) và quá trình sinh học (Biological unit processes) [Page 26] [Page 27] [Page 28]. Quá trình vật lý dựa trên tác dụng của lực cơ học và hiện tượng tự nhiên như chắn rác (Screening), khuấy trộn (Mixing), tạo bông (Flocculation), lắng trọng lực (Sedimentation), tuyển nổi (Flotation), lọc (Filtration) và hấp phụ (Adsorption) [Page 26] [Page 27]. Quá trình hóa học loại bỏ chất ô nhiễm bằng cách châm hóa chất tạo phản ứng kết tủa (Precipitation) kết hợp lắng hoặc lọc, truyền khí (Gas transfer) cấp oxy hòa tan và khử trùng (Disinfection) bằng clo hoặc Javel để tiêu diệt mầm bệnh [Page 27] [Page 28]. Quá trình sinh học sử dụng hoạt động trao đổi chất của vi sinh vật trong bể thiếu khí (Anoxic tank) và bể hiếu khí (Aerobic tank) để chuyển hóa chất hữu cơ hòa tan, chất keo cùng nitơ và phốt pho thành khí thoát ra khí quyển và tế bào sinh khối được tách ra tại bể lắng thứ cấp [Page 28] [Page 29].",
+          "sentences": [
+            "Các công trình đơn vị trong nhà máy xử lý nước thải được phân loại thành quá trình vật lý (Physical unit processes), quá trình hóa học (Chemical unit processes) và quá trình sinh học (Biological unit processes) [Page 26] [Page 27] [Page 28].",
+            "Quá trình vật lý dựa trên tác dụng của lực cơ học và hiện tượng tự nhiên như chắn rác (Screening), khuấy trộn (Mixing), tạo bông (Flocculation), lắng trọng lực (Sedimentation), tuyển nổi (Flotation), lọc (Filtration) và hấp phụ (Adsorption) [Page 26] [Page 27].",
+            "Quá trình hóa học loại bỏ chất ô nhiễm bằng cách châm hóa chất tạo phản ứng kết tủa (Precipitation) kết hợp lắng hoặc lọc, truyền khí (Gas transfer) cấp oxy hòa tan và khử trùng (Disinfection) bằng clo hoặc Javel để tiêu diệt mầm bệnh [Page 27] [Page 28].",
+            "Quá trình sinh học sử dụng hoạt động trao đổi chất của vi sinh vật trong bể thiếu khí (Anoxic tank) và bể hiếu khí (Aerobic tank) để chuyển hóa chất hữu cơ hòa tan, chất keo cùng nitơ và phốt pho thành khí thoát ra khí quyển và tế bào sinh khối được tách ra tại bể lắng thứ cấp [Page 28] [Page 29]."
+          ],
+          "brief": [
+            "Các công trình đơn vị trong nhà máy xử lý nước thải được phân loại thành quá trình vật lý (Physical unit processes), quá trình hóa học (Chemical unit processes) và quá trình sinh học (Biological unit processes) [Page 26] [Page 27] [Page 28].",
+            "Quá trình sinh học sử dụng hoạt động trao đổi chất của vi sinh vật trong bể thiếu khí (Anoxic tank) và bể hiếu khí (Aerobic tank) để chuyển hóa chất hữu cơ hòa tan, chất keo cùng nitơ và phốt pho thành khí thoát ra khí quyển và tế bào sinh khối được tách ra tại bể lắng thứ cấp [Page 28] [Page 29]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Công trình đơn vị gồm quá trình vật lý cơ học, hóa học và sinh học. Quá trình vật lý tách cặn bằng trọng lực, quá trình hóa học kết tủa và khử trùng, còn quá trình sinh học chuyển hóa chất hữu cơ và dinh dưỡng.",
+          "takeaway": "Công trình đơn vị gồm quá trình vật lý cơ học, hóa học và sinh học",
+          "topic": "Công trình đơn vị"
+        },
+        {
+          "id": "p-50a892df",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Dây chuyền công nghệ xử lý nước thải được tổ chức theo các bậc từ tiền xử lý đến xử lý bậc cao tùy theo yêu cầu chất lượng nước đầu ra [Page 29] [Page 30] [Page 31]. Bậc tiền xử lý (Preliminary treatment) dùng song chắn rác, bể lắng cát và bể tách dầu mỡ để loại bỏ rác kích thước lớn, cát sỏi và dầu mỡ nhằm bảo vệ máy bơm và thiết bị phía sau [Page 30]. Bậc xử lý sơ cấp (Primary treatment) dùng bể lắng sơ cấp hoặc kết hợp keo tụ tạo bông nâng cao (Advanced primary treatment) để tách một phần chất rắn lơ lửng và chất hữu cơ, giúp giảm tải cho công đoạn tiếp theo [Page 30]. Bậc xử lý thứ cấp (Secondary treatment) dùng bể bùn hoạt tính, bể lọc sinh học nhỏ giọt hoặc công nghệ loại bỏ dinh dưỡng sinh học (BNR) kết hợp kết tủa hóa học để khử chất hữu cơ phân hủy sinh học ($\\text{BOD}$), chất rắn lơ lửng ($\\text{SS}$), nitơ và phốt pho nhằm ngăn ngừa phú dưỡng hóa nguồn tiếp nhận [Page 30] [Page 31]. Bậc xử lý bậc ba (Tertiary treatment) dùng bể lọc vật liệu hạt để khử cặn lơ lửng dư sau lắng thứ cấp phục vụ tái sử dụng, trong khi bậc xử lý nâng cao (Advanced treatment) dùng màng lọc (Membrane filtration), thẩm thấu ngược (Reverse osmosis), oxy hóa nâng cao (AOPs) và hấp phụ than hoạt tính để loại bỏ chất hữu cơ bền vững, kim loại nặng và muối vô cơ hòa tan nhằm sản xuất nước cấp [Page 31] [Page 32].",
+          "sentences": [
+            "Dây chuyền công nghệ xử lý nước thải được tổ chức theo các bậc từ tiền xử lý đến xử lý bậc cao tùy theo yêu cầu chất lượng nước đầu ra [Page 29] [Page 30] [Page 31].",
+            "Bậc tiền xử lý (Preliminary treatment) dùng song chắn rác, bể lắng cát và bể tách dầu mỡ để loại bỏ rác kích thước lớn, cát sỏi và dầu mỡ nhằm bảo vệ máy bơm và thiết bị phía sau [Page 30].",
+            "Bậc xử lý sơ cấp (Primary treatment) dùng bể lắng sơ cấp hoặc kết hợp keo tụ tạo bông nâng cao (Advanced primary treatment) để tách một phần chất rắn lơ lửng và chất hữu cơ, giúp giảm tải cho công đoạn tiếp theo [Page 30].",
+            "Bậc xử lý thứ cấp (Secondary treatment) dùng bể bùn hoạt tính, bể lọc sinh học nhỏ giọt hoặc công nghệ loại bỏ dinh dưỡng sinh học (BNR) kết hợp kết tủa hóa học để khử chất hữu cơ phân hủy sinh học ($\\text{BOD}$), chất rắn lơ lửng ($\\text{SS}$), nitơ và phốt pho nhằm ngăn ngừa phú dưỡng hóa nguồn tiếp nhận [Page 30] [Page 31].",
+            "Bậc xử lý bậc ba (Tertiary treatment) dùng bể lọc vật liệu hạt để khử cặn lơ lửng dư sau lắng thứ cấp phục vụ tái sử dụng, trong khi bậc xử lý nâng cao (Advanced treatment) dùng màng lọc (Membrane filtration), thẩm thấu ngược (Reverse osmosis), oxy hóa nâng cao (AOPs) và hấp phụ than hoạt tính để loại bỏ chất hữu cơ bền vững, kim loại nặng và muối vô cơ hòa tan nhằm sản xuất nước cấp [Page 31] [Page 32]."
+          ],
+          "brief": [
+            "Dây chuyền công nghệ xử lý nước thải được tổ chức theo các bậc từ tiền xử lý đến xử lý bậc cao tùy theo yêu cầu chất lượng nước đầu ra [Page 29] [Page 30] [Page 31].",
+            "Bậc xử lý thứ cấp (Secondary treatment) dùng bể bùn hoạt tính, bể lọc sinh học nhỏ giọt hoặc công nghệ loại bỏ dinh dưỡng sinh học (BNR) kết hợp kết tủa hóa học để khử chất hữu cơ phân hủy sinh học ($\\text{BOD}$), chất rắn lơ lửng ($\\text{SS}$), nitơ và phốt pho nhằm ngăn ngừa phú dưỡng hóa nguồn tiếp nhận [Page 30] [Page 31]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Các bậc công nghệ gồm tiền xử lý, sơ cấp, thứ cấp, bậc ba và nâng cao. Bậc sơ cấp giảm tải cặn lơ lửng, bậc thứ cấp khử $\\text{BOD}$ và dinh dưỡng, còn bậc nâng cao dùng màng lọc để tái sử dụng nước.",
+          "takeaway": "Các bậc công nghệ gồm tiền xử lý, sơ cấp, thứ cấp, bậc ba và nâng cao",
+          "topic": "Các bậc công nghệ"
+        },
+        {
+          "id": "p-06943f54",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Hệ thống quy chuẩn kỹ thuật quốc gia về nước thải tại Việt Nam quy định nồng độ xả thải tối đa cho phép theo từng ngành công nghiệp và loại hình nguồn thải [Page 33]. Các quy chuẩn chuyên ngành bao gồm QCVN 01-MT:2015/BTNMT cho chế biến cao su thiên nhiên, QCVN 11-MT:2015/BTNMT cho chế biến thủy sản, QCVN 12-MT:2015/BTNMT cho giấy và bột giấy, QCVN 13-MT:2015/BTNMT cho dệt nhuộm, QCVN 25:2009/BTNMT cho bãi chôn lấp chất thải rắn, QCVN 28:2010/BTNMT cho nước thải y tế, QCVN 29:2010/BTNMT cho kho và trạm xăng dầu, và QCVN 62:2016/BTNMT cho nước thải chăn nuôi [Page 33]. Đối với nước thải sinh hoạt, QCVN 14:2008/BTNMT tính nồng độ tối đa cho phép theo công thức $C_{\\max} = C \\times K$ (không áp dụng hệ số $K$ cho $\\text{pH}$ và tổng Coliforms), trong đó giá trị $C$ ở Cột A (nguồn cấp nước sinh hoạt) và Cột B (nguồn không cấp nước sinh hoạt) lần lượt là $\\text{pH} = 5\\text{–}9$, $\\text{BOD}_5 = 30$ và $50\\text{ mg/L}$, $\\text{TSS} = 50$ và $100\\text{ mg/L}$, $\\text{TDS} = 500$ và $1000\\text{ mg/L}$, $\\text{H}_2\\text{S} = 1.0$ và $4.0\\text{ mg/L}$, $\\text{NH}_4^+\\text{-N} = 5$ và $10\\text{ mg/L}$, $\\text{NO}_3^-\\text{-N} = 30$ và $50\\text{ mg/L}$, dầu mỡ động thực vật $= 10$ và $20\\text{ mg/L}$, chất hoạt động bề mặt $= 5$ và $10\\text{ mg/L}$, $\\text{PO}_4^{3-}\\text{-P} = 6$ và $10\\text{ mg/L}$, và Tổng Coliforms $= 3000$ và $5000\\text{ MPN/100 mL}$, còn hệ số quy mô $K$ theo Bảng 2 nhận giá trị $K = 1.0$ đối với cơ sở quy mô lớn và $K = 1.2$ đối với cơ sở quy mô nhỏ [Page 34] [Page 35].",
+          "sentences": [
+            "Hệ thống quy chuẩn kỹ thuật quốc gia về nước thải tại Việt Nam quy định nồng độ xả thải tối đa cho phép theo từng ngành công nghiệp và loại hình nguồn thải [Page 33].",
+            "Các quy chuẩn chuyên ngành bao gồm QCVN 01-MT:2015/BTNMT cho chế biến cao su thiên nhiên, QCVN 11-MT:2015/BTNMT cho chế biến thủy sản, QCVN 12-MT:2015/BTNMT cho giấy và bột giấy, QCVN 13-MT:2015/BTNMT cho dệt nhuộm, QCVN 25:2009/BTNMT cho bãi chôn lấp chất thải rắn, QCVN 28:2010/BTNMT cho nước thải y tế, QCVN 29:2010/BTNMT cho kho và trạm xăng dầu, và QCVN 62:2016/BTNMT cho nước thải chăn nuôi [Page 33]. Đối với nước thải sinh hoạt, QCVN 14:2008/BTNMT tính nồng độ tối đa cho phép theo công thức $C_{\\max} = C \\times K$ (không áp dụng hệ số $K$ cho $\\text{pH}$ và tổng Coliforms), trong đó giá trị $C$ ở Cột A (nguồn cấp nước sinh hoạt) và Cột B (nguồn không cấp nước sinh hoạt) lần lượt là $\\text{pH} = 5\\text{–}9$, $\\text{BOD}_5 = 30$ và $50\\text{ mg/L}$, $\\text{TSS} = 50$ và $100\\text{ mg/L}$, $\\text{TDS} = 500$ và $1000\\text{ mg/L}$, $\\text{H}_2\\text{S} = 1.0$ và $4.0\\text{ mg/L}$, $\\text{NH}_4^+\\text{-N} = 5$ và $10\\text{ mg/L}$, $\\text{NO}_3^-\\text{-N} = 30$ và $50\\text{ mg/L}$, dầu mỡ động thực vật $= 10$ và $20\\text{ mg/L}$, chất hoạt động bề mặt $= 5$ và $10\\text{ mg/L}$, $\\text{PO}_4^{3-}\\text{-P} = 6$ và $10\\text{ mg/L}$, và Tổng Coliforms $= 3000$ và $5000\\text{ MPN/100 mL}$, còn hệ số quy mô $K$ theo Bảng 2 nhận giá trị $K = 1.0$ đối với cơ sở quy mô lớn và $K = 1.2$ đối với cơ sở quy mô nhỏ [Page 34] [Page 35]."
+          ],
+          "brief": [
+            "Hệ thống quy chuẩn kỹ thuật quốc gia về nước thải tại Việt Nam quy định nồng độ xả thải tối đa cho phép theo từng ngành công nghiệp và loại hình nguồn thải [Page 33].",
+            "Các quy chuẩn chuyên ngành bao gồm QCVN 01-MT:2015/BTNMT cho chế biến cao su thiên nhiên, QCVN 11-MT:2015/BTNMT cho chế biến thủy sản, QCVN 12-MT:2015/BTNMT cho giấy và bột giấy, QCVN 13-MT:2015/BTNMT cho dệt nhuộm, QCVN 25:2009/BTNMT cho bãi chôn lấp chất thải rắn, QCVN 28:2010/BTNMT cho nước thải y tế, QCVN 29:2010/BTNMT cho kho và trạm xăng dầu, và QCVN 62:2016/BTNMT cho nước thải chăn nuôi [Page 33]. Đối với nước thải sinh hoạt, QCVN 14:2008/BTNMT tính nồng độ tối đa cho phép theo công thức $C_{\\max} = C \\times K$ (không áp dụng hệ số $K$ cho $\\text{pH}$ và tổng Coliforms), trong đó giá trị $C$ ở Cột A (nguồn cấp nước sinh hoạt) và Cột B (nguồn không cấp nước sinh hoạt) lần lượt là $\\text{pH} = 5\\text{–}9$, $\\text{BOD}_5 = 30$ và $50\\text{ mg/L}$, $\\text{TSS} = 50$ và $100\\text{ mg/L}$, $\\text{TDS} = 500$ và $1000\\text{ mg/L}$, $\\text{H}_2\\text{S} = 1.0$ và $4.0\\text{ mg/L}$, $\\text{NH}_4^+\\text{-N} = 5$ và $10\\text{ mg/L}$, $\\text{NO}_3^-\\text{-N} = 30$ và $50\\text{ mg/L}$, dầu mỡ động thực vật $= 10$ và $20\\text{ mg/L}$, chất hoạt động bề mặt $= 5$ và $10\\text{ mg/L}$, $\\text{PO}_4^{3-}\\text{-P} = 6$ và $10\\text{ mg/L}$, và Tổng Coliforms $= 3000$ và $5000\\text{ MPN/100 mL}$, còn hệ số quy mô $K$ theo Bảng 2 nhận giá trị $K = 1.0$ đối với cơ sở quy mô lớn và $K = 1.2$ đối với cơ sở quy mô nhỏ [Page 34] [Page 35]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Quy chuẩn nước thải sinh hoạt QCVN 14 tính giới hạn theo $C_{\\max} = C \\times K$. Giá trị chuẩn $C$ tra theo Cột A hoặc Cột B ở Bảng $1$ và nhân với hệ số quy mô cơ sở $K = 1.0$ hoặc $K = 1.2$ ở Bảng $2$.",
+          "takeaway": "Quy chuẩn nước thải sinh hoạt QCVN 14 tính giới hạn theo $C_{\\max} = C \\times K$",
+          "topic": "nước thải sinh hoạt"
+        },
+        {
+          "id": "p-b9e6665b",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đối với nước thải công nghiệp, QCVN 40:2011/BTNMT xác định giá trị tối đa cho phép của các thông số ô nhiễm khi xả vào nguồn tiếp nhận theo công thức $C_{\\max} = C \\times K_q \\times K_f$ (không áp dụng cho nhiệt độ, $\\text{pH}$ và Coliform) [Page 35] [Page 36]. Tại Bảng 1 của QCVN 40:2011/BTNMT, các giá trị chuẩn $C$ ở Cột A và Cột B lần lượt là nhiệt độ $40^\\circ\\text{C}$, độ màu $50$ và $150\\text{ Pt-Co}$, $\\text{pH}$ từ $6\\text{–}9$ (Cột A) và $5.5\\text{–}9$ (Cột B), $\\text{BOD}_5 = 30$ và $50\\text{ mg/L}$, $\\text{COD} = 75$ và $150\\text{ mg/L}$, $\\text{TSS} = 50$ và $100\\text{ mg/L}$, tổng nitơ $\\text{TN} = 20$ và $40\\text{ mg/L}$, tổng phốt pho $\\text{TP} = 4$ và $6\\text{ mg/L}$, $\\text{NH}_4^+\\text{-N} = 5$ và $10\\text{ mg/L}$, tổng dầu mỡ khoáng $= 5$ và $10\\text{ mg/L}$, và clo dư $= 1$ và $2\\text{ mg/L}$ [Page 36] [Page 37] [Page 38]. Hệ số nguồn tiếp nhận $K_q$ đối với sông suối (Bảng 2) phụ thuộc lưu lượng dòng chảy $Q$ ($\\text{m}^3\\text{/s}$) gồm $K_q = 0.9$ khi $Q \\le 50$, $K_q = 1.0$ khi $50 < Q \\le 200$, $K_q = 1.1$ khi $200 < Q \\le 500$ và $K_q = 1.2$ khi $Q > 500\\text{ m}^3\\text{/s}$ [Page 38]. Đối với hồ, ao, đầm tiếp nhận nước thải (Bảng 3), hệ số $K_q$ phụ thuộc dung tích hồ $V$ ($\\text{m}^3$) gồm $K_q = 0.6$ khi $V \\le 10 \\times 10^6\\text{ m}^3$, $K_q = 0.8$ khi $10 \\times 10^6 < V \\le 100 \\times 10^6\\text{ m}^3$ và $K_q = 1.0$ khi $V > 100 \\times 10^6\\text{ m}^3$, trong khi hệ số lưu lượng nguồn thải $K_f$ (Bảng 4) phụ thuộc lưu lượng xả thải $F$ ($\\text{m}^3\\text{/24h}$) gồm $K_f = 1.2$ khi $F \\le 50$, $K_f = 1.1$ khi $50 < F \\le 500$, $K_f = 1.0$ khi $500 < F \\le 5000$ và $K_f = 0.9$ khi $F > 5000\\text{ m}^3\\text{/24h}$ [Page 39].",
+          "sentences": [
+            "Đối với nước thải công nghiệp, QCVN 40:2011/BTNMT xác định giá trị tối đa cho phép của các thông số ô nhiễm khi xả vào nguồn tiếp nhận theo công thức $C_{\\max} = C \\times K_q \\times K_f$ (không áp dụng cho nhiệt độ, $\\text{pH}$ và Coliform) [Page 35] [Page 36].",
+            "Tại Bảng 1 của QCVN 40:2011/BTNMT, các giá trị chuẩn $C$ ở Cột A và Cột B lần lượt là nhiệt độ $40^\\circ\\text{C}$, độ màu $50$ và $150\\text{ Pt-Co}$, $\\text{pH}$ từ $6\\text{–}9$ (Cột A) và $5.5\\text{–}9$ (Cột B), $\\text{BOD}_5 = 30$ và $50\\text{ mg/L}$, $\\text{COD} = 75$ và $150\\text{ mg/L}$, $\\text{TSS} = 50$ và $100\\text{ mg/L}$, tổng nitơ $\\text{TN} = 20$ và $40\\text{ mg/L}$, tổng phốt pho $\\text{TP} = 4$ và $6\\text{ mg/L}$, $\\text{NH}_4^+\\text{-N} = 5$ và $10\\text{ mg/L}$, tổng dầu mỡ khoáng $= 5$ và $10\\text{ mg/L}$, và clo dư $= 1$ và $2\\text{ mg/L}$ [Page 36] [Page 37] [Page 38].",
+            "Hệ số nguồn tiếp nhận $K_q$ đối với sông suối (Bảng 2) phụ thuộc lưu lượng dòng chảy $Q$ ($\\text{m}^3\\text{/s}$) gồm $K_q = 0.9$ khi $Q \\le 50$, $K_q = 1.0$ khi $50 < Q \\le 200$, $K_q = 1.1$ khi $200 < Q \\le 500$ và $K_q = 1.2$ khi $Q > 500\\text{ m}^3\\text{/s}$ [Page 38]. Đối với hồ, ao, đầm tiếp nhận nước thải (Bảng 3), hệ số $K_q$ phụ thuộc dung tích hồ $V$ ($\\text{m}^3$) gồm $K_q = 0.6$ khi $V \\le 10 \\times 10^6\\text{ m}^3$, $K_q = 0.8$ khi $10 \\times 10^6 < V \\le 100 \\times 10^6\\text{ m}^3$ và $K_q = 1.0$ khi $V > 100 \\times 10^6\\text{ m}^3$, trong khi hệ số lưu lượng nguồn thải $K_f$ (Bảng 4) phụ thuộc lưu lượng xả thải $F$ ($\\text{m}^3\\text{/24h}$) gồm $K_f = 1.2$ khi $F \\le 50$, $K_f = 1.1$ khi $50 < F \\le 500$, $K_f = 1.0$ khi $500 < F \\le 5000$ và $K_f = 0.9$ khi $F > 5000\\text{ m}^3\\text{/24h}$ [Page 39]."
+          ],
+          "brief": [
+            "Đối với nước thải công nghiệp, QCVN 40:2011/BTNMT xác định giá trị tối đa cho phép của các thông số ô nhiễm khi xả vào nguồn tiếp nhận theo công thức $C_{\\max} = C \\times K_q \\times K_f$ (không áp dụng cho nhiệt độ, $\\text{pH}$ và Coliform) [Page 35] [Page 36].",
+            "Hệ số nguồn tiếp nhận $K_q$ đối với sông suối (Bảng 2) phụ thuộc lưu lượng dòng chảy $Q$ ($\\text{m}^3\\text{/s}$) gồm $K_q = 0.9$ khi $Q \\le 50$, $K_q = 1.0$ khi $50 < Q \\le 200$, $K_q = 1.1$ khi $200 < Q \\le 500$ và $K_q = 1.2$ khi $Q > 500\\text{ m}^3\\text{/s}$ [Page 38]. Đối với hồ, ao, đầm tiếp nhận nước thải (Bảng 3), hệ số $K_q$ phụ thuộc dung tích hồ $V$ ($\\text{m}^3$) gồm $K_q = 0.6$ khi $V \\le 10 \\times 10^6\\text{ m}^3$, $K_q = 0.8$ khi $10 \\times 10^6 < V \\le 100 \\times 10^6\\text{ m}^3$ và $K_q = 1.0$ khi $V > 100 \\times 10^6\\text{ m}^3$, trong khi hệ số lưu lượng nguồn thải $K_f$ (Bảng 4) phụ thuộc lưu lượng xả thải $F$ ($\\text{m}^3\\text{/24h}$) gồm $K_f = 1.2$ khi $F \\le 50$, $K_f = 1.1$ khi $50 < F \\le 500$, $K_f = 1.0$ khi $500 < F \\le 5000$ và $K_f = 0.9$ khi $F > 5000\\text{ m}^3\\text{/24h}$ [Page 39]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Quy chuẩn nước thải công nghiệp QCVN 40 tính theo $C_{\\max} = C \\times K_q \\times K_f$. Hệ số nguồn tiếp nhận $K_q$ phụ thuộc lưu lượng sông hoặc dung tích hồ, còn hệ số $K_f$ phụ thuộc lưu lượng xả thải ngày đêm.",
+          "takeaway": "Quy chuẩn nước thải công nghiệp QCVN 40 tính theo $C_{\\max} = C \\times K_q \\times K_f$",
+          "topic": "nước thải công nghiệp"
+        }
+      ]
+    },
+    {
+      "id": "sec-5-lời-giải-chi-tiết-các-bài-tập-trong-slide-chương-1-worked-solutions-for-chapter-1-slide-exercises",
+      "num": "5",
+      "title": "Lời giải chi tiết các bài tập trong Slide Chương 1 (Worked Solutions for Chapter 1 Slide Exercises)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch01_ex01-slide-50---example-1-xác-định-bod-1-ngày-ubod-và-quy-đổi-bod5-theo-nhiệt-độ",
+      "num": "",
+      "title": "Bài tập ch01_ex01 (Slide 50 - Example 1): Xác định BOD 1 ngày, UBOD và quy đổi BOD5 theo nhiệt độ",
+      "depth": 2,
+      "takeaway": "Bài tập Example 1 xác định $\\text{UBOD} = 292.67\\text{ mg/L}$, $\\text{BOD}_1 = 60.13\\text{ mg/L}$ và $\\text{BOD}_{5,25} = 223.80\\text{ mg/L}$",
+      "topic": "Bài tập Example 1",
+      "units": [
+        {
+          "id": "p-6e01ba47",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một mẫu nước thải có nhu cầu oxy sinh hóa sau $5\\text{ ngày}$ ở nhiệt độ $T_1 = 20^\\circ\\text{C}$ là $\\text{BOD}_5 = 200\\text{ mg/L}$ [Page 25]. Biết hằng số tốc độ phản ứng bậc nhất (cơ số $e$) ở $20^\\circ\\text{C}$ là $k_{20} = 0.23\\text{ ngày}^{-1}$ và hệ số nhiệt độ $\\theta = 1.047$ [Page 23] [Page 25]. Hãy xác định nhu cầu oxy sinh hóa hoàn toàn $\\text{UBOD}$, nhu cầu oxy sinh hóa sau $1\\text{ ngày}$ ($\\text{BOD}_1$) ở $20^\\circ\\text{C}$, và giá trị $\\text{BOD}_5$ nếu thí nghiệm được thực hiện ở nhiệt độ $T_2 = 25^\\circ\\text{C}$ [Page 25].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một mẫu nước thải có nhu cầu oxy sinh hóa sau $5\\text{ ngày}$ ở nhiệt độ $T_1 = 20^\\circ\\text{C}$ là $\\text{BOD}_5 = 200\\text{ mg/L}$ [Page 25].",
+            "Biết hằng số tốc độ phản ứng bậc nhất (cơ số $e$) ở $20^\\circ\\text{C}$ là $k_{20} = 0.23\\text{ ngày}^{-1}$ và hệ số nhiệt độ $\\theta = 1.047$ [Page 23] [Page 25].",
+            "Hãy xác định nhu cầu oxy sinh hóa hoàn toàn $\\text{UBOD}$, nhu cầu oxy sinh hóa sau $1\\text{ ngày}$ ($\\text{BOD}_1$) ở $20^\\circ\\text{C}$, và giá trị $\\text{BOD}_5$ nếu thí nghiệm được thực hiện ở nhiệt độ $T_2 = 25^\\circ\\text{C}$ [Page 25]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một mẫu nước thải có nhu cầu oxy sinh hóa sau $5\\text{ ngày}$ ở nhiệt độ $T_1 = 20^\\circ\\text{C}$ là $\\text{BOD}_5 = 200\\text{ mg/L}$ [Page 25].",
+            "Hãy xác định nhu cầu oxy sinh hóa hoàn toàn $\\text{UBOD}$, nhu cầu oxy sinh hóa sau $1\\text{ ngày}$ ($\\text{BOD}_1$) ở $20^\\circ\\text{C}$, và giá trị $\\text{BOD}_5$ nếu thí nghiệm được thực hiện ở nhiệt độ $T_2 = 25^\\circ\\text{C}$ [Page 25]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Đề bài cho mẫu nước thải có $\\text{BOD}_5 = 200\\text{ mg/L}$, $k_{20} = 0.23\\text{ ngày}^{-1}$ và $\\theta = 1.047$. Yêu cầu tính $\\text{UBOD}$, $\\text{BOD}_1$ ở $20^\\circ\\text{C}$ và quy đổi giá trị $\\text{BOD}_5$ sang nhiệt độ $25^\\circ\\text{C}$.",
+          "takeaway": "Đề bài cho mẫu nước thải có $\\text{BOD}_5 = 200\\text{ mg/L}$, $k_{20} = 0.23\\text{ ngày}^{-1}$ và $\\theta = 1.047$",
+          "topic": "mẫu nước thải"
+        },
+        {
+          "id": "p-48b4c244",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Xác định nhu cầu oxy sinh hóa hoàn toàn $\\text{UBOD}$ ở $20^\\circ\\text{C}$: Áp dụng phương trình động học bậc nhất tại thời điểm $t = 5\\text{ ngày}$ với $\\text{BOD}_{5,20} = 200\\text{ mg/L}$ và $k_{20} = 0.23\\text{ ngày}^{-1}$ để tính $\\text{UBOD} = 292.67\\text{ mg/L}$ [Page 23] [Page 25].",
+          "sentences": [
+            "Bước 1 - Xác định nhu cầu oxy sinh hóa hoàn toàn $\\text{UBOD}$ ở $20^\\circ\\text{C}$: Áp dụng phương trình động học bậc nhất tại thời điểm $t = 5\\text{ ngày}$ với $\\text{BOD}_{5,20} = 200\\text{ mg/L}$ và $k_{20} = 0.23\\text{ ngày}^{-1}$ để tính $\\text{UBOD} = 292.67\\text{ mg/L}$ [Page 23] [Page 25]."
+          ],
+          "brief": [
+            "Bước 1 - Xác định nhu cầu oxy sinh hóa hoàn toàn $\\text{UBOD}$ ở $20^\\circ\\text{C}$: Áp dụng phương trình động học bậc nhất tại thời điểm $t = 5\\text{ ngày}$ với $\\text{BOD}_{5,20} = 200\\text{ mg/L}$ và $k_{20} = 0.23\\text{ ngày}^{-1}$ để tính $\\text{UBOD} = 292.67\\text{ mg/L}$ [Page 23] [Page 25]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 1 xác định nhu cầu oxy sinh hóa hoàn toàn $\\text{UBOD} = 292.67\\text{ mg/L}$.",
+          "takeaway": "Bước 1 xác định nhu cầu oxy sinh hóa hoàn toàn $\\text{UBOD} = 292.67\\text{ mg/L}$",
+          "topic": "Bước 1"
+        },
+        {
+          "id": "p-077d92e7",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính nhu cầu oxy sinh hóa sau $1\\text{ ngày}$ ($\\text{BOD}_1$) ở $20^\\circ\\text{C}$: Thay giá trị $\\text{UBOD} = 292.67\\text{ mg/L}$ và thời gian $t = 1\\text{ ngày}$ vào phương trình động học bậc nhất, thu được $\\text{BOD}_{1,20} = 60.13\\text{ mg/L}$ [Page 23].",
+          "sentences": [
+            "Bước 2 - Tính nhu cầu oxy sinh hóa sau $1\\text{ ngày}$ ($\\text{BOD}_1$) ở $20^\\circ\\text{C}$: Thay giá trị $\\text{UBOD} = 292.67\\text{ mg/L}$ và thời gian $t = 1\\text{ ngày}$ vào phương trình động học bậc nhất, thu được $\\text{BOD}_{1,20} = 60.13\\text{ mg/L}$ [Page 23]."
+          ],
+          "brief": [
+            "Bước 2 - Tính nhu cầu oxy sinh hóa sau $1\\text{ ngày}$ ($\\text{BOD}_1$) ở $20^\\circ\\text{C}$: Thay giá trị $\\text{UBOD} = 292.67\\text{ mg/L}$ và thời gian $t = 1\\text{ ngày}$ vào phương trình động học bậc nhất, thu được $\\text{BOD}_{1,20} = 60.13\\text{ mg/L}$ [Page 23]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 2 tính nhu cầu oxy sinh hóa sau $1\\text{ ngày}$ đạt $\\text{BOD}_{1,20} = 60.13\\text{ mg/L}$.",
+          "takeaway": "Bước 2 tính nhu cầu oxy sinh hóa sau $1\\text{ ngày}$ đạt $\\text{BOD}_{1,20} = 60.13\\text{ mg/L}$",
+          "topic": "Bước 2"
+        },
+        {
+          "id": "p-1ef06c9c",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Quy đổi hằng số tốc độ phản ứng sang nhiệt độ $25^\\circ\\text{C}$: Áp dụng công thức van't Hoff-Arrhenius với hệ số $\\theta = 1.047$ để xác định hằng số tốc độ ở $25^\\circ\\text{C}$ là $k_{25} = 0.2894\\text{ ngày}^{-1}$ [Page 23] [Page 25].",
+          "sentences": [
+            "Bước 3 - Quy đổi hằng số tốc độ phản ứng sang nhiệt độ $25^\\circ\\text{C}$: Áp dụng công thức van't Hoff-Arrhenius với hệ số $\\theta = 1.047$ để xác định hằng số tốc độ ở $25^\\circ\\text{C}$ là $k_{25} = 0.2894\\text{ ngày}^{-1}$ [Page 23] [Page 25]."
+          ],
+          "brief": [
+            "Bước 3 - Quy đổi hằng số tốc độ phản ứng sang nhiệt độ $25^\\circ\\text{C}$: Áp dụng công thức van't Hoff-Arrhenius với hệ số $\\theta = 1.047$ để xác định hằng số tốc độ ở $25^\\circ\\text{C}$ là $k_{25} = 0.2894\\text{ ngày}^{-1}$ [Page 23] [Page 25]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 3 quy đổi hằng số tốc độ ở $25^\\circ\\text{C}$ đạt $k_{25} = 0.2894\\text{ ngày}^{-1}$.",
+          "takeaway": "Bước 3 quy đổi hằng số tốc độ ở $25^\\circ\\text{C}$ đạt $k_{25} = 0.2894\\text{ ngày}^{-1}$",
+          "topic": "Bước 3"
+        },
+        {
+          "id": "p-ad1d3959",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính nhu cầu oxy sinh hóa $\\text{BOD}_5$ ở nhiệt độ $25^\\circ\\text{C}$: Thay $\\text{UBOD} = 292.67\\text{ mg/L}$ và $k_{25} = 0.2894\\text{ ngày}^{-1}$ vào phương trình tại $t = 5\\text{ ngày}$, thu được $\\text{BOD}_{5,25} = 223.80\\text{ mg/L}$ [Page 25].",
+          "sentences": [
+            "Bước 4 - Tính nhu cầu oxy sinh hóa $\\text{BOD}_5$ ở nhiệt độ $25^\\circ\\text{C}$: Thay $\\text{UBOD} = 292.67\\text{ mg/L}$ và $k_{25} = 0.2894\\text{ ngày}^{-1}$ vào phương trình tại $t = 5\\text{ ngày}$, thu được $\\text{BOD}_{5,25} = 223.80\\text{ mg/L}$ [Page 25]."
+          ],
+          "brief": [
+            "Bước 4 - Tính nhu cầu oxy sinh hóa $\\text{BOD}_5$ ở nhiệt độ $25^\\circ\\text{C}$: Thay $\\text{UBOD} = 292.67\\text{ mg/L}$ và $k_{25} = 0.2894\\text{ ngày}^{-1}$ vào phương trình tại $t = 5\\text{ ngày}$, thu được $\\text{BOD}_{5,25} = 223.80\\text{ mg/L}$ [Page 25]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 4 tính nhu cầu oxy sinh hóa ở $25^\\circ\\text{C}$ đạt $\\text{BOD}_{5,25} = 223.80\\text{ mg/L}$.",
+          "takeaway": "Bước 4 tính nhu cầu oxy sinh hóa ở $25^\\circ\\text{C}$ đạt $\\text{BOD}_{5,25} = 223.80\\text{ mg/L}$",
+          "topic": "Bước 4"
+        },
+        {
+          "id": "p-7bda8dc7",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số thỏa mãn hoàn toàn giới hạn động học trên slide bài giảng.",
+          "takeaway": "Tổng hợp đáp số thỏa mãn hoàn toàn giới hạn động học trên slide bài giảng",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-c5c73c42",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nhu cầu oxy sinh hóa hoàn toàn ($\\text{UBOD}$): $292.67\\text{ mg/L}$ (Kiểm tra: $\\text{UBOD} > \\text{BOD}_{5,20} = 200\\text{ mg/L}\\text{ — Đạt chuẩn Slide 46}$)",
+          "sentences": [
+            "Nhu cầu oxy sinh hóa hoàn toàn ($\\text{UBOD}$): $292.67\\text{ mg/L}$ (Kiểm tra: $\\text{UBOD} > \\text{BOD}_{5,20} = 200\\text{ mg/L}\\text{ — Đạt chuẩn Slide 46}$)"
+          ],
+          "brief": [
+            "Nhu cầu oxy sinh hóa hoàn toàn ($\\text{UBOD}$): $292.67\\text{ mg/L}$ (Kiểm tra: $\\text{UBOD} > \\text{BOD}_{5,20} = 200\\text{ mg/L}\\text{ — Đạt chuẩn Slide 46}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đáp số nhu cầu oxy sinh hóa hoàn toàn là $\\text{UBOD} = 292.67\\text{ mg/L}$.",
+          "takeaway": "Đáp số nhu cầu oxy sinh hóa hoàn toàn là $\\text{UBOD} = 292.67\\text{ mg/L}$",
+          "topic": "Đáp số"
+        },
+        {
+          "id": "p-2144ea83",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nhu cầu oxy sinh hóa $1\\text{ ngày}$ ở $20^\\circ\\text{C}$ ($\\text{BOD}_{1,20}$): $60.13\\text{ mg/L}$ (Kiểm tra: $\\text{BOD}_{1,20} < \\text{BOD}_{5,20} = 200\\text{ mg/L}\\text{ — Đạt chuẩn Slide 50}$)",
+          "sentences": [
+            "Nhu cầu oxy sinh hóa $1\\text{ ngày}$ ở $20^\\circ\\text{C}$ ($\\text{BOD}_{1,20}$): $60.13\\text{ mg/L}$ (Kiểm tra: $\\text{BOD}_{1,20} < \\text{BOD}_{5,20} = 200\\text{ mg/L}\\text{ — Đạt chuẩn Slide 50}$)"
+          ],
+          "brief": [
+            "Nhu cầu oxy sinh hóa $1\\text{ ngày}$ ở $20^\\circ\\text{C}$ ($\\text{BOD}_{1,20}$): $60.13\\text{ mg/L}$ (Kiểm tra: $\\text{BOD}_{1,20} < \\text{BOD}_{5,20} = 200\\text{ mg/L}\\text{ — Đạt chuẩn Slide 50}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Giá trị nhu cầu oxy sinh hóa $1\\text{ ngày}$ ở $20^\\circ\\text{C}$ là $\\text{BOD}_{1,20} = 60.13\\text{ mg/L}$.",
+          "takeaway": "Giá trị nhu cầu oxy sinh hóa $1\\text{ ngày}$ ở $20^\\circ\\text{C}$ là $\\text{BOD}_{1,20} = 60.13\\text{ mg/L}$",
+          "topic": "Giá trị"
+        },
+        {
+          "id": "p-314be83d",
+          "kind": "list item",
+          "role": "result",
+          "full": "Hằng số tốc độ phản ứng ở $25^\\circ\\text{C}$ ($k_{25}$): $0.2894\\text{ ngày}^{-1}$ (Kiểm tra: $k_{25} > k_{20} = 0.23\\text{ ngày}^{-1}\\text{ — Đạt chuẩn Slide 46}$)",
+          "sentences": [
+            "Hằng số tốc độ phản ứng ở $25^\\circ\\text{C}$ ($k_{25}$): $0.2894\\text{ ngày}^{-1}$ (Kiểm tra: $k_{25} > k_{20} = 0.23\\text{ ngày}^{-1}\\text{ — Đạt chuẩn Slide 46}$)"
+          ],
+          "brief": [
+            "Hằng số tốc độ phản ứng ở $25^\\circ\\text{C}$ ($k_{25}$): $0.2894\\text{ ngày}^{-1}$ (Kiểm tra: $k_{25} > k_{20} = 0.23\\text{ ngày}^{-1}\\text{ — Đạt chuẩn Slide 46}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hằng số tốc độ phản ứng ở $25^\\circ\\text{C}$ bằng $k_{25} = 0.2894\\text{ ngày}^{-1}$.",
+          "takeaway": "Hằng số tốc độ phản ứng ở $25^\\circ\\text{C}$ bằng $k_{25} = 0.2894\\text{ ngày}^{-1}$",
+          "topic": "Hằng số tốc độ"
+        },
+        {
+          "id": "p-1f585b8b",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nhu cầu oxy sinh hóa $5\\text{ ngày}$ ở $25^\\circ\\text{C}$ ($\\text{BOD}_{5,25}$): $223.80\\text{ mg/L}$ (Kiểm tra: $60.13 < 200 < 223.80 < 292.67\\text{ mg/L}\\text{ — Đạt chuẩn Slide 50}$)",
+          "sentences": [
+            "Nhu cầu oxy sinh hóa $5\\text{ ngày}$ ở $25^\\circ\\text{C}$ ($\\text{BOD}_{5,25}$): $223.80\\text{ mg/L}$ (Kiểm tra: $60.13 < 200 < 223.80 < 292.67\\text{ mg/L}\\text{ — Đạt chuẩn Slide 50}$)"
+          ],
+          "brief": [
+            "Nhu cầu oxy sinh hóa $5\\text{ ngày}$ ở $25^\\circ\\text{C}$ ($\\text{BOD}_{5,25}$): $223.80\\text{ mg/L}$ (Kiểm tra: $60.13 < 200 < 223.80 < 292.67\\text{ mg/L}\\text{ — Đạt chuẩn Slide 50}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Kết quả nhu cầu oxy sinh hóa $5\\text{ ngày}$ ở $25^\\circ\\text{C}$ là $\\text{BOD}_{5,25} = 223.80\\text{ mg/L}$.",
+          "takeaway": "Kết quả nhu cầu oxy sinh hóa $5\\text{ ngày}$ ở $25^\\circ\\text{C}$ là $\\text{BOD}_{5,25} = 223.80\\text{ mg/L}$",
+          "topic": "Kết quả"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch01_ex02-slide-52---example-2-phân-đoạn-các-thành-phần-nhu-cầu-oxy-hóa-học-cod",
+      "num": "",
+      "title": "Bài tập ch01_ex02 (Slide 52 - Example 2): Phân đoạn các thành phần nhu cầu oxy hóa học COD",
+      "depth": 2,
+      "takeaway": "Bài tập Example 2 xác định các phân đoạn $\\text{bCOD} = 320\\text{ mg/L}$, $\\text{nbpCOD} = 70\\text{ mg/L}$ và $\\text{sbCOD} = 240\\text{ mg/L}$",
+      "topic": "Bài tập Example 2",
+      "units": [
+        {
+          "id": "p-b4c1d988",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một mẫu nước thải có các thông số chất lượng đầu vào gồm $\\text{BOD} = 200\\text{ mg/L}$, tổng nhu cầu oxy hóa học $\\text{COD} = 420\\text{ mg/L}$, phần $\\text{COD}$ phân hủy sinh học nhanh $\\text{rbCOD} = 80\\text{ mg/L}$ và phần $\\text{COD}$ hòa tan không phân hủy sinh học $\\text{nbsCOD} = 30\\text{ mg/L}$ [Page 26]. Hãy xác định nồng độ $\\text{COD}$ phân hủy sinh học ($\\text{bCOD}$), $\\text{COD}$ dạng hạt không phân hủy sinh học ($\\text{nbpCOD}$) và $\\text{COD}$ phân hủy sinh học chậm ($\\text{sbCOD}$) [Page 25] [Page 26].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một mẫu nước thải có các thông số chất lượng đầu vào gồm $\\text{BOD} = 200\\text{ mg/L}$, tổng nhu cầu oxy hóa học $\\text{COD} = 420\\text{ mg/L}$, phần $\\text{COD}$ phân hủy sinh học nhanh $\\text{rbCOD} = 80\\text{ mg/L}$ và phần $\\text{COD}$ hòa tan không phân hủy sinh học $\\text{nbsCOD} = 30\\text{ mg/L}$ [Page 26].",
+            "Hãy xác định nồng độ $\\text{COD}$ phân hủy sinh học ($\\text{bCOD}$), $\\text{COD}$ dạng hạt không phân hủy sinh học ($\\text{nbpCOD}$) và $\\text{COD}$ phân hủy sinh học chậm ($\\text{sbCOD}$) [Page 25] [Page 26]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một mẫu nước thải có các thông số chất lượng đầu vào gồm $\\text{BOD} = 200\\text{ mg/L}$, tổng nhu cầu oxy hóa học $\\text{COD} = 420\\text{ mg/L}$, phần $\\text{COD}$ phân hủy sinh học nhanh $\\text{rbCOD} = 80\\text{ mg/L}$ và phần $\\text{COD}$ hòa tan không phân hủy sinh học $\\text{nbsCOD} = 30\\text{ mg/L}$ [Page 26].",
+            "Hãy xác định nồng độ $\\text{COD}$ phân hủy sinh học ($\\text{bCOD}$), $\\text{COD}$ dạng hạt không phân hủy sinh học ($\\text{nbpCOD}$) và $\\text{COD}$ phân hủy sinh học chậm ($\\text{sbCOD}$) [Page 25] [Page 26]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Đề bài cho $\\text{BOD} = 200\\text{ mg/L}$, $\\text{COD} = 420\\text{ mg/L}$, $\\text{rbCOD} = 80\\text{ mg/L}$ và $\\text{nbsCOD} = 30\\text{ mg/L}$. Yêu cầu tính các thành phần phân đoạn gồm $\\text{bCOD}$, $\\text{nbpCOD}$ và $\\text{sbCOD}$ theo phương trình cân bằng trên Slide $49$.",
+          "takeaway": "Đề bài cho $\\text{BOD} = 200\\text{ mg/L}$, $\\text{COD} = 420\\text{ mg/L}$, $\\text{rbCOD} = 80\\text{ mg/L}$ và $\\text{nbsCOD} = 30\\text{ mg/L}$",
+          "topic": "Đề bài"
+        },
+        {
+          "id": "p-16ce4418",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Xác định nồng độ $\\text{COD}$ phân hủy sinh học ($\\text{bCOD}$): Áp dụng tỷ lệ thực nghiệm $\\text{bCOD} = 1.6 \\cdot \\text{BOD}$ trên Slide 49 với $\\text{BOD} = 200\\text{ mg/L}$, tính được $\\text{bCOD} = 320\\text{ mg/L}$ [Page 25] [Page 26].",
+          "sentences": [
+            "Bước 1 - Xác định nồng độ $\\text{COD}$ phân hủy sinh học ($\\text{bCOD}$): Áp dụng tỷ lệ thực nghiệm $\\text{bCOD} = 1.6 \\cdot \\text{BOD}$ trên Slide 49 với $\\text{BOD} = 200\\text{ mg/L}$, tính được $\\text{bCOD} = 320\\text{ mg/L}$ [Page 25] [Page 26]."
+          ],
+          "brief": [
+            "Bước 1 - Xác định nồng độ $\\text{COD}$ phân hủy sinh học ($\\text{bCOD}$): Áp dụng tỷ lệ thực nghiệm $\\text{bCOD} = 1.6 \\cdot \\text{BOD}$ trên Slide 49 với $\\text{BOD} = 200\\text{ mg/L}$, tính được $\\text{bCOD} = 320\\text{ mg/L}$ [Page 25] [Page 26]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 1 tính nồng độ $\\text{COD}$ phân hủy sinh học đạt $\\text{bCOD} = 320\\text{ mg/L}$.",
+          "takeaway": "Bước 1 tính nồng độ $\\text{COD}$ phân hủy sinh học đạt $\\text{bCOD} = 320\\text{ mg/L}$",
+          "topic": "Bước 1"
+        },
+        {
+          "id": "p-a76938a4",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Xác định nồng độ $\\text{COD}$ không phân hủy sinh học tổng cộng ($\\text{nbCOD}$): Áp dụng phương trình cân bằng tổng $\\text{COD}$ để tìm $\\text{nbCOD} = 100\\text{ mg/L}$ [Page 25].",
+          "sentences": [
+            "Bước 2 - Xác định nồng độ $\\text{COD}$ không phân hủy sinh học tổng cộng ($\\text{nbCOD}$): Áp dụng phương trình cân bằng tổng $\\text{COD}$ để tìm $\\text{nbCOD} = 100\\text{ mg/L}$ [Page 25]."
+          ],
+          "brief": [
+            "Bước 2 - Xác định nồng độ $\\text{COD}$ không phân hủy sinh học tổng cộng ($\\text{nbCOD}$): Áp dụng phương trình cân bằng tổng $\\text{COD}$ để tìm $\\text{nbCOD} = 100\\text{ mg/L}$ [Page 25]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 2 tính nồng độ $\\text{COD}$ không phân hủy sinh học đạt $\\text{nbCOD} = 100\\text{ mg/L}$.",
+          "takeaway": "Bước 2 tính nồng độ $\\text{COD}$ không phân hủy sinh học đạt $\\text{nbCOD} = 100\\text{ mg/L}$",
+          "topic": "Bước 2"
+        },
+        {
+          "id": "p-6e249fa7",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Xác định nồng độ $\\text{COD}$ dạng hạt không phân hủy sinh học ($\\text{nbpCOD}$): Lấy $\\text{nbCOD} = 100\\text{ mg/L}$ trừ đi phần hòa tan $\\text{nbsCOD} = 30\\text{ mg/L}$, thu được $\\text{nbpCOD} = 70\\text{ mg/L}$ [Page 25] [Page 26].",
+          "sentences": [
+            "Bước 3 - Xác định nồng độ $\\text{COD}$ dạng hạt không phân hủy sinh học ($\\text{nbpCOD}$): Lấy $\\text{nbCOD} = 100\\text{ mg/L}$ trừ đi phần hòa tan $\\text{nbsCOD} = 30\\text{ mg/L}$, thu được $\\text{nbpCOD} = 70\\text{ mg/L}$ [Page 25] [Page 26]."
+          ],
+          "brief": [
+            "Bước 3 - Xác định nồng độ $\\text{COD}$ dạng hạt không phân hủy sinh học ($\\text{nbpCOD}$): Lấy $\\text{nbCOD} = 100\\text{ mg/L}$ trừ đi phần hòa tan $\\text{nbsCOD} = 30\\text{ mg/L}$, thu được $\\text{nbpCOD} = 70\\text{ mg/L}$ [Page 25] [Page 26]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 3 xác định phần dạng hạt không phân hủy sinh học đạt $\\text{nbpCOD} = 70\\text{ mg/L}$.",
+          "takeaway": "Bước 3 xác định phần dạng hạt không phân hủy sinh học đạt $\\text{nbpCOD} = 70\\text{ mg/L}$",
+          "topic": "Bước 3"
+        },
+        {
+          "id": "p-7a788c58",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Xác định nồng độ $\\text{COD}$ phân hủy sinh học chậm ($\\text{sbCOD}$): Lấy $\\text{bCOD} = 320\\text{ mg/L}$ trừ đi phần phân hủy nhanh $\\text{rbCOD} = 80\\text{ mg/L}$, thu được $\\text{sbCOD} = 240\\text{ mg/L}$ [Page 25] [Page 26].",
+          "sentences": [
+            "Bước 4 - Xác định nồng độ $\\text{COD}$ phân hủy sinh học chậm ($\\text{sbCOD}$): Lấy $\\text{bCOD} = 320\\text{ mg/L}$ trừ đi phần phân hủy nhanh $\\text{rbCOD} = 80\\text{ mg/L}$, thu được $\\text{sbCOD} = 240\\text{ mg/L}$ [Page 25] [Page 26]."
+          ],
+          "brief": [
+            "Bước 4 - Xác định nồng độ $\\text{COD}$ phân hủy sinh học chậm ($\\text{sbCOD}$): Lấy $\\text{bCOD} = 320\\text{ mg/L}$ trừ đi phần phân hủy nhanh $\\text{rbCOD} = 80\\text{ mg/L}$, thu được $\\text{sbCOD} = 240\\text{ mg/L}$ [Page 25] [Page 26]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 4 xác định phần phân hủy sinh học chậm đạt $\\text{sbCOD} = 240\\text{ mg/L}$.",
+          "takeaway": "Bước 4 xác định phần phân hủy sinh học chậm đạt $\\text{sbCOD} = 240\\text{ mg/L}$",
+          "topic": "Bước 4"
+        },
+        {
+          "id": "p-7bda8dc7-2",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số bảo toàn chính xác phương trình phân đoạn tổng $\\text{COD}$.",
+          "takeaway": "Tổng hợp đáp số bảo toàn chính xác phương trình phân đoạn tổng $\\text{COD}$",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-dca85a48",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ $\\text{COD}$ phân hủy sinh học ($\\text{bCOD}$): $320\\text{ mg/L}$ (Kiểm tra: $\\frac{\\text{bCOD}}{\\text{BOD}} = \\frac{320}{200} = 1.6\\text{ — Đạt chuẩn Slide 49}$)",
+          "sentences": [
+            "Nồng độ $\\text{COD}$ phân hủy sinh học ($\\text{bCOD}$): $320\\text{ mg/L}$ (Kiểm tra: $\\frac{\\text{bCOD}}{\\text{BOD}} = \\frac{320}{200} = 1.6\\text{ — Đạt chuẩn Slide 49}$)"
+          ],
+          "brief": [
+            "Nồng độ $\\text{COD}$ phân hủy sinh học ($\\text{bCOD}$): $320\\text{ mg/L}$ (Kiểm tra: $\\frac{\\text{bCOD}}{\\text{BOD}} = \\frac{320}{200} = 1.6\\text{ — Đạt chuẩn Slide 49}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thành phần phân hủy sinh học bằng $\\text{bCOD} = 320\\text{ mg/L}$ ứng với tỷ số $1.6$.",
+          "takeaway": "Thành phần phân hủy sinh học bằng $\\text{bCOD} = 320\\text{ mg/L}$ ứng với tỷ số $1.6$",
+          "topic": "Thành phần"
+        },
+        {
+          "id": "p-e4b813f5",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ $\\text{COD}$ không phân hủy sinh học ($\\text{nbCOD}$): $100\\text{ mg/L}$ (Kiểm tra: $\\text{bCOD} + \\text{nbCOD} = 320 + 100 = 420\\text{ mg/L}\\text{ — Đạt chuẩn Slide 49}$)",
+          "sentences": [
+            "Nồng độ $\\text{COD}$ không phân hủy sinh học ($\\text{nbCOD}$): $100\\text{ mg/L}$ (Kiểm tra: $\\text{bCOD} + \\text{nbCOD} = 320 + 100 = 420\\text{ mg/L}\\text{ — Đạt chuẩn Slide 49}$)"
+          ],
+          "brief": [
+            "Nồng độ $\\text{COD}$ không phân hủy sinh học ($\\text{nbCOD}$): $100\\text{ mg/L}$ (Kiểm tra: $\\text{bCOD} + \\text{nbCOD} = 320 + 100 = 420\\text{ mg/L}\\text{ — Đạt chuẩn Slide 49}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng phần không phân hủy sinh học bằng $\\text{nbCOD} = 100\\text{ mg/L}$.",
+          "takeaway": "Tổng phần không phân hủy sinh học bằng $\\text{nbCOD} = 100\\text{ mg/L}$",
+          "topic": "Tổng phần"
+        },
+        {
+          "id": "p-dd64fb2b",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ $\\text{COD}$ dạng hạt không phân hủy ($\\text{nbpCOD}$): $70\\text{ mg/L}$ (Kiểm tra: $\\text{nbpCOD} + \\text{nbsCOD} = 70 + 30 = 100\\text{ mg/L}\\text{ — Đạt chuẩn Slide 52}$)",
+          "sentences": [
+            "Nồng độ $\\text{COD}$ dạng hạt không phân hủy ($\\text{nbpCOD}$): $70\\text{ mg/L}$ (Kiểm tra: $\\text{nbpCOD} + \\text{nbsCOD} = 70 + 30 = 100\\text{ mg/L}\\text{ — Đạt chuẩn Slide 52}$)"
+          ],
+          "brief": [
+            "Nồng độ $\\text{COD}$ dạng hạt không phân hủy ($\\text{nbpCOD}$): $70\\text{ mg/L}$ (Kiểm tra: $\\text{nbpCOD} + \\text{nbsCOD} = 70 + 30 = 100\\text{ mg/L}\\text{ — Đạt chuẩn Slide 52}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Phần dạng hạt không phân hủy sinh học bằng $\\text{nbpCOD} = 70\\text{ mg/L}$.",
+          "takeaway": "Phần dạng hạt không phân hủy sinh học bằng $\\text{nbpCOD} = 70\\text{ mg/L}$",
+          "topic": "Phần dạng hạt"
+        },
+        {
+          "id": "p-b57d251a",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ $\\text{COD}$ phân hủy sinh học chậm ($\\text{sbCOD}$): $240\\text{ mg/L}$ (Kiểm tra: $240 + 80 + 70 + 30 = 420\\text{ mg/L}\\text{ — Đạt chuẩn Slide 52}$)",
+          "sentences": [
+            "Nồng độ $\\text{COD}$ phân hủy sinh học chậm ($\\text{sbCOD}$): $240\\text{ mg/L}$ (Kiểm tra: $240 + 80 + 70 + 30 = 420\\text{ mg/L}\\text{ — Đạt chuẩn Slide 52}$)"
+          ],
+          "brief": [
+            "Nồng độ $\\text{COD}$ phân hủy sinh học chậm ($\\text{sbCOD}$): $240\\text{ mg/L}$ (Kiểm tra: $240 + 80 + 70 + 30 = 420\\text{ mg/L}\\text{ — Đạt chuẩn Slide 52}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Phần phân hủy sinh học chậm bằng $\\text{sbCOD} = 240\\text{ mg/L}$.",
+          "takeaway": "Phần phân hủy sinh học chậm bằng $\\text{sbCOD} = 240\\text{ mg/L}$",
+          "topic": "sinh học chậm"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch01_ex03-slide-81---example-3-xác-định-nồng-độ-cod-tối-đa-cho-phép-xả-vào-hồ-theo-qcvn-402011btnmt",
+      "num": "",
+      "title": "Bài tập ch01_ex03 (Slide 81 - Example 3): Xác định nồng độ COD tối đa cho phép xả vào hồ theo QCVN 40:2011/BTNMT",
+      "depth": 2,
+      "takeaway": "Bài tập Example 3 xác định giới hạn xả thải vào hồ theo QCVN 40 là $C_{\\max} = 99\\text{ mg/L}$",
+      "topic": "Bài tập Example 3",
+      "units": [
+        {
+          "id": "p-835510d5",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một nhà máy xả nước thải công nghiệp với lưu lượng $F = 100\\text{ m}^3\\text{/ngày}$ vào một hồ tiếp nhận có dung tích $V = 100,000\\text{ m}^3$ [Page 40]. Hồ nước này không sử dụng cho mục đích cấp nước sinh hoạt [Page 40]. Hãy áp dụng quy chuẩn kỹ thuật quốc gia QCVN 40:2011/BTNMT để xác định nồng độ $\\text{COD}$ tối đa cho phép ($C_{\\max}$) trong nước thải xả ra hồ [Page 36] [Page 39] [Page 40].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một nhà máy xả nước thải công nghiệp với lưu lượng $F = 100\\text{ m}^3\\text{/ngày}$ vào một hồ tiếp nhận có dung tích $V = 100,000\\text{ m}^3$ [Page 40].",
+            "Hồ nước này không sử dụng cho mục đích cấp nước sinh hoạt [Page 40].",
+            "Hãy áp dụng quy chuẩn kỹ thuật quốc gia QCVN 40:2011/BTNMT để xác định nồng độ $\\text{COD}$ tối đa cho phép ($C_{\\max}$) trong nước thải xả ra hồ [Page 36] [Page 39] [Page 40]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Một nhà máy xả nước thải công nghiệp với lưu lượng $F = 100\\text{ m}^3\\text{/ngày}$ vào một hồ tiếp nhận có dung tích $V = 100,000\\text{ m}^3$ [Page 40].",
+            "Hãy áp dụng quy chuẩn kỹ thuật quốc gia QCVN 40:2011/BTNMT để xác định nồng độ $\\text{COD}$ tối đa cho phép ($C_{\\max}$) trong nước thải xả ra hồ [Page 36] [Page 39] [Page 40]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Nhà máy xả lưu lượng $F = 100\\text{ m}^3\\text{/ngày}$ vào hồ dung tích $V = 100,000\\text{ m}^3$. Hồ tiếp nhận không cấp nước sinh hoạt nên áp dụng QCVN 40:2011/BTNMT để tính giới hạn $C_{\\max}$ của thông số $\\text{COD}$.",
+          "takeaway": "Nhà máy xả lưu lượng $F = 100\\text{ m}^3\\text{/ngày}$ vào hồ dung tích $V = 100,000\\text{ m}^3$",
+          "topic": "Nhà máy"
+        },
+        {
+          "id": "p-38f877f5",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tra giá trị nồng độ cơ sở $C$ của thông số $\\text{COD}$: Do hồ tiếp nhận không dùng cho mục đích cấp nước sinh hoạt, tra Cột B tại Bảng 1 của QCVN 40:2011/BTNMT thu được $C = 150\\text{ mg/L}$ [Page 36].",
+          "sentences": [
+            "Bước 1 - Tra giá trị nồng độ cơ sở $C$ của thông số $\\text{COD}$: Do hồ tiếp nhận không dùng cho mục đích cấp nước sinh hoạt, tra Cột B tại Bảng 1 của QCVN 40:2011/BTNMT thu được $C = 150\\text{ mg/L}$ [Page 36]."
+          ],
+          "brief": [
+            "Bước 1 - Tra giá trị nồng độ cơ sở $C$ của thông số $\\text{COD}$: Do hồ tiếp nhận không dùng cho mục đích cấp nước sinh hoạt, tra Cột B tại Bảng 1 của QCVN 40:2011/BTNMT thu được $C = 150\\text{ mg/L}$ [Page 36]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 1 tra Cột B tại Bảng $1$ thu được nồng độ cơ sở $C = 150\\text{ mg/L}$.",
+          "takeaway": "Bước 1 tra Cột B tại Bảng $1$ thu được nồng độ cơ sở $C = 150\\text{ mg/L}$",
+          "topic": "Bước 1"
+        },
+        {
+          "id": "p-79ce9fdb",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Xác định hệ số nguồn tiếp nhận $K_q$ và hệ số lưu lượng $K_f$: Với dung tích hồ $V = 0.1 \\times 10^6\\text{ m}^3 \\le 10 \\times 10^6\\text{ m}^3$, tra Bảng 3 được $K_q = 0.6$, và với lưu lượng $50 < F = 100 \\le 500\\text{ m}^3\\text{/ngày}$, tra Bảng 4 được $K_f = 1.1$ [Page 39].",
+          "sentences": [
+            "Bước 2 - Xác định hệ số nguồn tiếp nhận $K_q$ và hệ số lưu lượng $K_f$: Với dung tích hồ $V = 0.1 \\times 10^6\\text{ m}^3 \\le 10 \\times 10^6\\text{ m}^3$, tra Bảng 3 được $K_q = 0.6$, và với lưu lượng $50 < F = 100 \\le 500\\text{ m}^3\\text{/ngày}$, tra Bảng 4 được $K_f = 1.1$ [Page 39]."
+          ],
+          "brief": [
+            "Bước 2 - Xác định hệ số nguồn tiếp nhận $K_q$ và hệ số lưu lượng $K_f$: Với dung tích hồ $V = 0.1 \\times 10^6\\text{ m}^3 \\le 10 \\times 10^6\\text{ m}^3$, tra Bảng 3 được $K_q = 0.6$, và với lưu lượng $50 < F = 100 \\le 500\\text{ m}^3\\text{/ngày}$, tra Bảng 4 được $K_f = 1.1$ [Page 39]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 2 tra Bảng $3$ và Bảng $4$ xác định $K_q = 0.6$ và $K_f = 1.1$.",
+          "takeaway": "Bước 2 tra Bảng $3$ và Bảng $4$ xác định $K_q = 0.6$ và $K_f = 1.1$",
+          "topic": "Bước 2"
+        },
+        {
+          "id": "p-38bf79ba",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính nồng độ $\\text{COD}$ tối đa cho phép xả ra hồ ($C_{\\max}$): Nhân giá trị chuẩn $C = 150\\text{ mg/L}$ với hai hệ số $K_q = 0.6$ và $K_f = 1.1$, thu được $C_{\\max} = 99\\text{ mg/L}$ [Page 36] [Page 40].",
+          "sentences": [
+            "Bước 3 - Tính nồng độ $\\text{COD}$ tối đa cho phép xả ra hồ ($C_{\\max}$): Nhân giá trị chuẩn $C = 150\\text{ mg/L}$ với hai hệ số $K_q = 0.6$ và $K_f = 1.1$, thu được $C_{\\max} = 99\\text{ mg/L}$ [Page 36] [Page 40]."
+          ],
+          "brief": [
+            "Bước 3 - Tính nồng độ $\\text{COD}$ tối đa cho phép xả ra hồ ($C_{\\max}$): Nhân giá trị chuẩn $C = 150\\text{ mg/L}$ với hai hệ số $K_q = 0.6$ và $K_f = 1.1$, thu được $C_{\\max} = 99\\text{ mg/L}$ [Page 36] [Page 40]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bước 3 tính nồng độ $\\text{COD}$ tối đa cho phép đạt $C_{\\max} = 99\\text{ mg/L}$.",
+          "takeaway": "Bước 3 tính nồng độ $\\text{COD}$ tối đa cho phép đạt $C_{\\max} = 99\\text{ mg/L}$",
+          "topic": "Bước 3"
+        },
+        {
+          "id": "p-7bda8dc7-3",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của Tiến sĩ Nguyễn Hoàng Dũng."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số tuân thủ đầy đủ các bảng hệ số của QCVN 40:2011/BTNMT.",
+          "takeaway": "Tổng hợp đáp số tuân thủ đầy đủ các bảng hệ số của QCVN 40:2011/BTNMT",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-b847d8ec",
+          "kind": "list item",
+          "role": "result",
+          "full": "Giá trị cơ sở Cột B của $\\text{COD}$ ($C$): $150\\text{ mg/L}$ (Kiểm tra: $\\text{Nguồn tiếp nhận không cấp nước sinh hoạt — Đạt chuẩn Slide 74}$)",
+          "sentences": [
+            "Giá trị cơ sở Cột B của $\\text{COD}$ ($C$): $150\\text{ mg/L}$ (Kiểm tra: $\\text{Nguồn tiếp nhận không cấp nước sinh hoạt — Đạt chuẩn Slide 74}$)"
+          ],
+          "brief": [
+            "Giá trị cơ sở Cột B của $\\text{COD}$ ($C$): $150\\text{ mg/L}$ (Kiểm tra: $\\text{Nguồn tiếp nhận không cấp nước sinh hoạt — Đạt chuẩn Slide 74}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Giá trị cơ sở Cột B của thông số $\\text{COD}$ bằng $C = 150\\text{ mg/L}$.",
+          "takeaway": "Giá trị cơ sở Cột B của thông số $\\text{COD}$ bằng $C = 150\\text{ mg/L}$",
+          "topic": "Giá trị cơ sở"
+        },
+        {
+          "id": "p-a9b619a9",
+          "kind": "list item",
+          "role": "result",
+          "full": "Hệ số dung tích hồ tiếp nhận ($K_q$): $0.6$ (Kiểm tra: $V = 10^5\\text{ m}^3 \\le 10^7\\text{ m}^3\\text{ — Đạt chuẩn Slide 79}$)",
+          "sentences": [
+            "Hệ số dung tích hồ tiếp nhận ($K_q$): $0.6$ (Kiểm tra: $V = 10^5\\text{ m}^3 \\le 10^7\\text{ m}^3\\text{ — Đạt chuẩn Slide 79}$)"
+          ],
+          "brief": [
+            "Hệ số dung tích hồ tiếp nhận ($K_q$): $0.6$ (Kiểm tra: $V = 10^5\\text{ m}^3 \\le 10^7\\text{ m}^3\\text{ — Đạt chuẩn Slide 79}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hệ số dung tích hồ tiếp nhận bằng $K_q = 0.6$ ứng với $V \\le 10^7\\text{ m}^3$.",
+          "takeaway": "Hệ số dung tích hồ tiếp nhận bằng $K_q = 0.6$ ứng với $V \\le 10^7\\text{ m}^3$",
+          "topic": "Hệ số dung tích"
+        },
+        {
+          "id": "p-d1e9b080",
+          "kind": "list item",
+          "role": "result",
+          "full": "Hệ số lưu lượng nguồn thải ($K_f$): $1.1$ (Kiểm tra: $50 < F = 100 \\le 500\\text{ m}^3\\text{/ngày}\\text{ — Đạt chuẩn Slide 80}$)",
+          "sentences": [
+            "Hệ số lưu lượng nguồn thải ($K_f$): $1.1$ (Kiểm tra: $50 < F = 100 \\le 500\\text{ m}^3\\text{/ngày}\\text{ — Đạt chuẩn Slide 80}$)"
+          ],
+          "brief": [
+            "Hệ số lưu lượng nguồn thải ($K_f$): $1.1$ (Kiểm tra: $50 < F = 100 \\le 500\\text{ m}^3\\text{/ngày}\\text{ — Đạt chuẩn Slide 80}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hệ số lưu lượng nguồn thải bằng $K_f = 1.1$ ứng với $50 < F \\le 500\\text{ m}^3\\text{/ngày}$.",
+          "takeaway": "Hệ số lưu lượng nguồn thải bằng $K_f = 1.1$ ứng với $50 < F \\le 500\\text{ m}^3\\text{/ngày}$",
+          "topic": "Hệ số lưu lượng"
+        },
+        {
+          "id": "p-fab059a8",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ $\\text{COD}$ tối đa cho phép ($C_{\\max}$): $99\\text{ mg/L}$ (Kiểm tra: $C_{\\max} = 99\\text{ mg/L} < C = 150\\text{ mg/L}\\text{ — Đạt chuẩn Slide 81}$)",
+          "sentences": [
+            "Nồng độ $\\text{COD}$ tối đa cho phép ($C_{\\max}$): $99\\text{ mg/L}$ (Kiểm tra: $C_{\\max} = 99\\text{ mg/L} < C = 150\\text{ mg/L}\\text{ — Đạt chuẩn Slide 81}$)"
+          ],
+          "brief": [
+            "Nồng độ $\\text{COD}$ tối đa cho phép ($C_{\\max}$): $99\\text{ mg/L}$ (Kiểm tra: $C_{\\max} = 99\\text{ mg/L} < C = 150\\text{ mg/L}\\text{ — Đạt chuẩn Slide 81}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ $\\text{COD}$ tối đa cho phép xả ra hồ bằng $C_{\\max} = 99\\text{ mg/L}$.",
+          "takeaway": "Nồng độ $\\text{COD}$ tối đa cho phép xả ra hồ bằng $C_{\\max} = 99\\text{ mg/L}$",
+          "topic": "tối đa cho phép"
+        },
+        {
+          "id": "p-83bc80e2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 1 (Page 2)",
+          "sentences": [
+            "Figure 1 (Page 2)"
+          ],
+          "brief": [
+            "Figure 1 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ học phần tiên quyết Hóa học Môi trường trên Trang $2$.",
+          "takeaway": "Sơ đồ học phần tiên quyết Hóa học Môi trường trên Trang $2$",
+          "topic": "học phần"
+        },
+        {
+          "id": "p-18eb3e10",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 2 (Page 2)",
+          "sentences": [
+            "Figure 2 (Page 2)"
+          ],
+          "brief": [
+            "Figure 2 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ học phần Quá trình Hóa lý trên Trang $2$.",
+          "takeaway": "Sơ đồ học phần Quá trình Hóa lý trên Trang $2$",
+          "topic": "Quá trình Hóa lý"
+        },
+        {
+          "id": "p-ae99f2b3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 3 (Page 2)",
+          "sentences": [
+            "Figure 3 (Page 2)"
+          ],
+          "brief": [
+            "Figure 3 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ trọng điểm bài tập $40\\%$ của học phần trên Trang $2$.",
+          "takeaway": "Tỷ trọng điểm bài tập $40\\%$ của học phần trên Trang $2$",
+          "topic": "điểm bài tập"
+        },
+        {
+          "id": "p-3fdce783",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 4 (Page 2)",
+          "sentences": [
+            "Figure 4 (Page 2)"
+          ],
+          "brief": [
+            "Figure 4 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ trọng điểm báo cáo thí nghiệm $20\\%$ trên Trang $2$.",
+          "takeaway": "Tỷ trọng điểm báo cáo thí nghiệm $20\\%$ trên Trang $2$",
+          "topic": "báo cáo thí nghiệm"
+        },
+        {
+          "id": "p-2cf940b7",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 5 (Page 2)",
+          "sentences": [
+            "Figure 5 (Page 2)"
+          ],
+          "brief": [
+            "Figure 5 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ trọng điểm thi cuối kỳ $40\\%$ của học phần trên Trang $2$.",
+          "takeaway": "Tỷ trọng điểm thi cuối kỳ $40\\%$ của học phần trên Trang $2$",
+          "topic": "thi cuối kỳ"
+        },
+        {
+          "id": "p-f505a9f7",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 6 (Page 2)",
+          "sentences": [
+            "Figure 6 (Page 2)"
+          ],
+          "brief": [
+            "Figure 6 (Page 2)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Biểu ngữ tiêu đề học phần Kỹ thuật Nước thải trên Trang $2$.",
+          "takeaway": "Biểu ngữ tiêu đề học phần Kỹ thuật Nước thải trên Trang $2$",
+          "topic": "Biểu ngữ tiêu đề"
+        },
+        {
+          "id": "p-e7f33075",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 7 (Page 3)",
+          "sentences": [
+            "Figure 7 (Page 3)"
+          ],
+          "brief": [
+            "Figure 7 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Giáo trình tham khảo về công nghệ môi trường trên Trang $3$.",
+          "takeaway": "Giáo trình tham khảo về công nghệ môi trường trên Trang $3$",
+          "topic": "Giáo trình tham khảo"
+        },
+        {
+          "id": "p-9fd8ccad",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 8 (Page 3)",
+          "sentences": [
+            "Figure 8 (Page 3)"
+          ],
+          "brief": [
+            "Figure 8 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tài liệu tham khảo chuyên ngành môi trường nước trên Trang $3$.",
+          "takeaway": "Tài liệu tham khảo chuyên ngành môi trường nước trên Trang $3$",
+          "topic": "Tài liệu tham khảo"
+        },
+        {
+          "id": "p-c01f58fb",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 9 (Page 3)",
+          "sentences": [
+            "Figure 9 (Page 3)"
+          ],
+          "brief": [
+            "Figure 9 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Giáo trình thiết kế công trình làm sạch nước trên Trang $3$.",
+          "takeaway": "Giáo trình thiết kế công trình làm sạch nước trên Trang $3$",
+          "topic": "Giáo trình thiết kế"
+        },
+        {
+          "id": "p-601b86bf",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 10 (Page 3)",
+          "sentences": [
+            "Figure 10 (Page 3)"
+          ],
+          "brief": [
+            "Figure 10 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sách giáo khoa Metcalf and Eddy ấn bản thứ $5$ trên Trang $3$.",
+          "takeaway": "Sách giáo khoa Metcalf and Eddy ấn bản thứ $5$ trên Trang $3$",
+          "topic": "Sách giáo khoa"
+        },
+        {
+          "id": "p-cf892917",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 11 (Page 3)",
+          "sentences": [
+            "Figure 11 (Page 3)"
+          ],
+          "brief": [
+            "Figure 11 (Page 3)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sách chuyên khảo thiết kế nhà máy nước của Stantec trên Trang $3$.",
+          "takeaway": "Sách chuyên khảo thiết kế nhà máy nước của Stantec trên Trang $3$",
+          "topic": "nhà máy nước"
+        },
+        {
+          "id": "p-c874e688",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 12 (Page 6)",
+          "sentences": [
+            "Figure 12 (Page 6)"
+          ],
+          "brief": [
+            "Figure 12 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ chuẩn đầu ra học phần trên Trang $6$.",
+          "takeaway": "Sơ đồ chuẩn đầu ra học phần trên Trang $6$",
+          "topic": "chuẩn đầu ra"
+        },
+        {
+          "id": "p-b3e527a8",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 13 (Page 13)",
+          "sentences": [
+            "Figure 13 (Page 13)"
+          ],
+          "brief": [
+            "Figure 13 (Page 13)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Minh họa các nguồn phát sinh nước thải trên Trang $13$.",
+          "takeaway": "Minh họa các nguồn phát sinh nước thải trên Trang $13$",
+          "topic": "nguồn phát sinh"
+        },
+        {
+          "id": "p-5b450513",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 14 (Page 13)",
+          "sentences": [
+            "Figure 14 (Page 13)"
+          ],
+          "brief": [
+            "Figure 14 (Page 13)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ tách dòng nước đen và nước xám trên Trang $13$.",
+          "takeaway": "Sơ đồ tách dòng nước đen và nước xám trên Trang $13$",
+          "topic": "dòng nước đen"
+        },
+        {
+          "id": "p-fd6986a5",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 15 (Page 14)",
+          "sentences": [
+            "Figure 15 (Page 14)"
+          ],
+          "brief": [
+            "Figure 15 (Page 14)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ các ngành công nghiệp xả nước thải trên Trang $14$.",
+          "takeaway": "Sơ đồ các ngành công nghiệp xả nước thải trên Trang $14$",
+          "topic": "ngành công nghiệp"
+        },
+        {
+          "id": "p-cc62070a",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 16 (Page 14)",
+          "sentences": [
+            "Figure 16 (Page 14)"
+          ],
+          "brief": [
+            "Figure 16 (Page 14)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Biểu đồ phân loại nguồn nước thải công nghiệp trên Trang $14$.",
+          "takeaway": "Biểu đồ phân loại nguồn nước thải công nghiệp trên Trang $14$",
+          "topic": "nước thải công nghiệp"
+        },
+        {
+          "id": "p-b891ec7c",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 17 (Page 15)",
+          "sentences": [
+            "Figure 17 (Page 15)"
+          ],
+          "brief": [
+            "Figure 17 (Page 15)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ mặt cắt hệ thống cống thoát nước trên Trang $15$.",
+          "takeaway": "Sơ đồ mặt cắt hệ thống cống thoát nước trên Trang $15$",
+          "topic": "hệ thống cống"
+        },
+        {
+          "id": "p-d8fc2341",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 18 (Page 15)",
+          "sentences": [
+            "Figure 18 (Page 15)"
+          ],
+          "brief": [
+            "Figure 18 (Page 15)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Minh họa tuyến cống thu gom nước thải đô thị trên Trang $15$.",
+          "takeaway": "Minh họa tuyến cống thu gom nước thải đô thị trên Trang $15$",
+          "topic": "tuyến cống"
+        },
+        {
+          "id": "p-2d3e6a90",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 19 (Page 16)",
+          "sentences": [
+            "Figure 19 (Page 16)"
+          ],
+          "brief": [
+            "Figure 19 (Page 16)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bảng nguồn gốc các tính chất vật lý trên Trang $16$.",
+          "takeaway": "Bảng nguồn gốc các tính chất vật lý trên Trang $16$",
+          "topic": "tính chất vật lý"
+        },
+        {
+          "id": "p-0731ac5d",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 20 (Page 19)",
+          "sentences": [
+            "Figure 20 (Page 19)"
+          ],
+          "brief": [
+            "Figure 20 (Page 19)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ phân tích các phân đoạn chất rắn $\\text{TS}$ trên Trang $19$.",
+          "takeaway": "Sơ đồ phân tích các phân đoạn chất rắn $\\text{TS}$ trên Trang $19$",
+          "topic": "phân đoạn chất rắn"
+        },
+        {
+          "id": "p-48557286",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 21 (Page 19)",
+          "sentences": [
+            "Figure 21 (Page 19)"
+          ],
+          "brief": [
+            "Figure 21 (Page 19)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ cân bằng khối lượng các chỉ tiêu chất rắn trên Trang $19$.",
+          "takeaway": "Sơ đồ cân bằng khối lượng các chỉ tiêu chất rắn trên Trang $19$",
+          "topic": "chỉ tiêu chất rắn"
+        },
+        {
+          "id": "p-a747dbad",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 22 (Page 22)",
+          "sentences": [
+            "Figure 22 (Page 22)"
+          ],
+          "brief": [
+            "Figure 22 (Page 22)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ cây phân đoạn nitơ hữu cơ $\\text{ON}$ trên Trang $22$.",
+          "takeaway": "Sơ đồ cây phân đoạn nitơ hữu cơ $\\text{ON}$ trên Trang $22$",
+          "topic": "nitơ hữu cơ"
+        },
+        {
+          "id": "p-9468f725",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 23 (Page 23)",
+          "sentences": [
+            "Figure 23 (Page 23)"
+          ],
+          "brief": [
+            "Figure 23 (Page 23)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ phân nhánh quan hệ giữa $\\text{TOC}$, $\\text{COD}$ và $\\text{BOD}$ trên Trang $23$.",
+          "takeaway": "Sơ đồ phân nhánh quan hệ giữa $\\text{TOC}$, $\\text{COD}$ và $\\text{BOD}$ trên Trang $23$",
+          "topic": "Sơ đồ phân nhánh"
+        },
+        {
+          "id": "p-54916110",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 24 (Page 24)",
+          "sentences": [
+            "Figure 24 (Page 24)"
+          ],
+          "brief": [
+            "Figure 24 (Page 24)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ cây phân đoạn nhu cầu oxy hóa học $\\text{COD}$ trên Trang $24$.",
+          "takeaway": "Sơ đồ cây phân đoạn nhu cầu oxy hóa học $\\text{COD}$ trên Trang $24$",
+          "topic": "nhu cầu oxy"
+        },
+        {
+          "id": "p-4b0c14fe",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 25 (Page 26)",
+          "sentences": [
+            "Figure 25 (Page 26)"
+          ],
+          "brief": [
+            "Figure 25 (Page 26)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Minh họa thiết bị song chắn rác cơ học trên Trang $26$.",
+          "takeaway": "Minh họa thiết bị song chắn rác cơ học trên Trang $26$",
+          "topic": "song chắn rác"
+        },
+        {
+          "id": "p-c9bcc564",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 26 (Page 26)",
+          "sentences": [
+            "Figure 26 (Page 26)"
+          ],
+          "brief": [
+            "Figure 26 (Page 26)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Minh họa thiết bị khuấy trộn cơ học trên Trang $26$.",
+          "takeaway": "Minh họa thiết bị khuấy trộn cơ học trên Trang $26$",
+          "topic": "thiết bị khuấy trộn"
+        },
+        {
+          "id": "p-0f514c2e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 27 (Page 27)",
+          "sentences": [
+            "Figure 27 (Page 27)"
+          ],
+          "brief": [
+            "Figure 27 (Page 27)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh bể lắng trọng lực tách cặn trên Trang $27$.",
+          "takeaway": "Hình ảnh bể lắng trọng lực tách cặn trên Trang $27$",
+          "topic": "bể lắng trọng lực"
+        },
+        {
+          "id": "p-26751945",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 28 (Page 27)",
+          "sentences": [
+            "Figure 28 (Page 27)"
+          ],
+          "brief": [
+            "Figure 28 (Page 27)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh cột lọc hạt giữ cặn lơ lửng trên Trang $27$.",
+          "takeaway": "Hình ảnh cột lọc hạt giữ cặn lơ lửng trên Trang $27$",
+          "topic": "cột lọc hạt"
+        },
+        {
+          "id": "p-471f7c08",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 29 (Page 28)",
+          "sentences": [
+            "Figure 29 (Page 28)"
+          ],
+          "brief": [
+            "Figure 29 (Page 28)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh hóa chất khử trùng Chlorine và Javel trên Trang $28$.",
+          "takeaway": "Hình ảnh hóa chất khử trùng Chlorine và Javel trên Trang $28$",
+          "topic": "hóa chất khử trùng"
+        },
+        {
+          "id": "p-2675004f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 30 (Page 28)",
+          "sentences": [
+            "Figure 30 (Page 28)"
+          ],
+          "brief": [
+            "Figure 30 (Page 28)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình ảnh bể tiếp xúc khử trùng nước thải trên Trang $28$.",
+          "takeaway": "Hình ảnh bể tiếp xúc khử trùng nước thải trên Trang $28$",
+          "topic": "bể tiếp xúc"
+        },
+        {
+          "id": "p-06c5b268",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 31 (Page 28)",
+          "sentences": [
+            "Figure 31 (Page 28)"
+          ],
+          "brief": [
+            "Figure 31 (Page 28)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Biểu tượng quá trình châm hóa chất khử trùng trên Trang $28$.",
+          "takeaway": "Biểu tượng quá trình châm hóa chất khử trùng trên Trang $28$",
+          "topic": "châm hóa chất"
+        },
+        {
+          "id": "p-72a634de",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 32 (Page 28)",
+          "sentences": [
+            "Figure 32 (Page 28)"
+          ],
+          "brief": [
+            "Figure 32 (Page 28)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ dòng chảy zíc zắc trong bể khử trùng trên Trang $28$.",
+          "takeaway": "Sơ đồ dòng chảy zíc zắc trong bể khử trùng trên Trang $28$",
+          "topic": "bể khử trùng"
+        },
+        {
+          "id": "p-18ff2923",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 33 (Page 29)",
+          "sentences": [
+            "Figure 33 (Page 29)"
+          ],
+          "brief": [
+            "Figure 33 (Page 29)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ cụm bể thiếu khí Anoxic khử nitrat trên Trang $29$.",
+          "takeaway": "Sơ đồ cụm bể thiếu khí Anoxic khử nitrat trên Trang $29$",
+          "topic": "bể thiếu khí"
+        },
+        {
+          "id": "p-4580720f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 34 (Page 29)",
+          "sentences": [
+            "Figure 34 (Page 29)"
+          ],
+          "brief": [
+            "Figure 34 (Page 29)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ cụm bể hiếu khí Aerobic và tuần hoàn bùn trên Trang $29$.",
+          "takeaway": "Sơ đồ cụm bể hiếu khí Aerobic và tuần hoàn bùn trên Trang $29$",
+          "topic": "bể hiếu khí"
+        },
+        {
+          "id": "p-f5d57021",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 35 (Page 29)",
+          "sentences": [
+            "Figure 35 (Page 29)"
+          ],
+          "brief": [
+            "Figure 35 (Page 29)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ bể lắng thứ cấp tách bùn hoạt tính trên Trang $29$.",
+          "takeaway": "Sơ đồ bể lắng thứ cấp tách bùn hoạt tính trên Trang $29$",
+          "topic": "bể lắng thứ cấp"
+        },
+        {
+          "id": "p-50e4d813",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 36 (Page 31)",
+          "sentences": [
+            "Figure 36 (Page 31)"
+          ],
+          "brief": [
+            "Figure 36 (Page 31)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ dây chuyền công nghệ bùn hoạt tính truyền thống trên Trang $31$.",
+          "takeaway": "Sơ đồ dây chuyền công nghệ bùn hoạt tính truyền thống trên Trang $31$",
+          "topic": "bùn hoạt tính"
+        },
+        {
+          "id": "p-49857e35",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 37 (Page 32)",
+          "sentences": [
+            "Figure 37 (Page 32)"
+          ],
+          "brief": [
+            "Figure 37 (Page 32)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ dây chuyền công nghệ loại bỏ dinh dưỡng $\\text{BNR}$ trên Trang $32$.",
+          "takeaway": "Sơ đồ dây chuyền công nghệ loại bỏ dinh dưỡng $\\text{BNR}$ trên Trang $32$",
+          "topic": "loại bỏ dinh dưỡng"
+        },
+        {
+          "id": "p-a884f558",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 38 (Page 32)",
+          "sentences": [
+            "Figure 38 (Page 32)"
+          ],
+          "brief": [
+            "Figure 38 (Page 32)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sơ đồ dây chuyền công nghệ lọc màng tái sử dụng nước trên Trang $32$.",
+          "takeaway": "Sơ đồ dây chuyền công nghệ lọc màng tái sử dụng nước trên Trang $32$",
+          "topic": "tái sử dụng nước"
+        },
+        {
+          "id": "p-e0e7d116",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 39 (Page 33)",
+          "sentences": [
+            "Figure 39 (Page 33)"
+          ],
+          "brief": [
+            "Figure 39 (Page 33)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Danh mục các quy chuẩn kỹ thuật quốc gia QCVN trên Trang $33$.",
+          "takeaway": "Danh mục các quy chuẩn kỹ thuật quốc gia QCVN trên Trang $33$",
+          "topic": "quy chuẩn kỹ thuật"
+        },
+        {
+          "id": "p-f9dc072c",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 40 (Page 34)",
+          "sentences": [
+            "Figure 40 (Page 34)"
+          ],
+          "brief": [
+            "Figure 40 (Page 34)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Công thức tính nồng độ tối đa trong QCVN 14 trên Trang $34$.",
+          "takeaway": "Công thức tính nồng độ tối đa trong QCVN 14 trên Trang $34$",
+          "topic": "nồng độ tối đa"
+        },
+        {
+          "id": "p-a3af86ea",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 41 (Page 34)",
+          "sentences": [
+            "Figure 41 (Page 34)"
+          ],
+          "brief": [
+            "Figure 41 (Page 34)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bảng $1$ giá trị $C$ của thông số ô nhiễm QCVN 14 trên Trang $34$.",
+          "takeaway": "Bảng $1$ giá trị $C$ của thông số ô nhiễm QCVN 14 trên Trang $34$",
+          "topic": "thông số ô nhiễm"
+        },
+        {
+          "id": "p-5b2faa6a",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 42 (Page 35)",
+          "sentences": [
+            "Figure 42 (Page 35)"
+          ],
+          "brief": [
+            "Figure 42 (Page 35)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bảng $2$ hệ số quy mô $K$ trong QCVN 14 trên Trang $35$.",
+          "takeaway": "Bảng $2$ hệ số quy mô $K$ trong QCVN 14 trên Trang $35$",
+          "topic": "hệ số quy mô"
+        },
+        {
+          "id": "p-07c1b88e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 43 (Page 35)",
+          "sentences": [
+            "Figure 43 (Page 35)"
+          ],
+          "brief": [
+            "Figure 43 (Page 35)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Trang bìa quy chuẩn nước thải công nghiệp QCVN 40 trên Trang $35$.",
+          "takeaway": "Trang bìa quy chuẩn nước thải công nghiệp QCVN 40 trên Trang $35$",
+          "topic": "nước thải công nghiệp"
+        },
+        {
+          "id": "p-28d06edf",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 44 (Page 36)",
+          "sentences": [
+            "Figure 44 (Page 36)"
+          ],
+          "brief": [
+            "Figure 44 (Page 36)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Công thức tính giá trị tối đa $C_{\\max}$ trong QCVN 40 trên Trang $36$.",
+          "takeaway": "Công thức tính giá trị tối đa $C_{\\max}$ trong QCVN 40 trên Trang $36$",
+          "topic": "giá trị tối đa"
+        },
+        {
+          "id": "p-faaa7c8f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 45 (Page 36)",
+          "sentences": [
+            "Figure 45 (Page 36)"
+          ],
+          "brief": [
+            "Figure 45 (Page 36)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tiêu đề Bảng $1$ giá trị $C$ trong QCVN 40 trên Trang $36$.",
+          "takeaway": "Tiêu đề Bảng $1$ giá trị $C$ trong QCVN 40 trên Trang $36$",
+          "topic": "giá trị"
+        },
+        {
+          "id": "p-3ab25c69",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 46 (Page 36)",
+          "sentences": [
+            "Figure 46 (Page 36)"
+          ],
+          "brief": [
+            "Figure 46 (Page 36)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bảng giá trị $C$ cho $\\text{BOD}_5$, $\\text{COD}$ và $\\text{TSS}$ trên Trang $36$.",
+          "takeaway": "Bảng giá trị $C$ cho $\\text{BOD}_5$, $\\text{COD}$ và $\\text{TSS}$ trên Trang $36$",
+          "topic": "Bảng giá trị"
+        },
+        {
+          "id": "p-3277f6c5",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 47 (Page 37)",
+          "sentences": [
+            "Figure 47 (Page 37)"
+          ],
+          "brief": [
+            "Figure 47 (Page 37)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bảng $1$ giá trị $C$ cho kim loại nặng trên Trang $37$.",
+          "takeaway": "Bảng $1$ giá trị $C$ cho kim loại nặng trên Trang $37$",
+          "topic": "kim loại nặng"
+        },
+        {
+          "id": "p-bee00711",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 48 (Page 37)",
+          "sentences": [
+            "Figure 48 (Page 37)"
+          ],
+          "brief": [
+            "Figure 48 (Page 37)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bảng $1$ giá trị $C$ cho amoni, nitơ và phốt pho trên Trang $37$.",
+          "takeaway": "Bảng $1$ giá trị $C$ cho amoni, nitơ và phốt pho trên Trang $37$",
+          "topic": "phốt pho"
+        },
+        {
+          "id": "p-de841a2d",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 49 (Page 38)",
+          "sentences": [
+            "Figure 49 (Page 38)"
+          ],
+          "brief": [
+            "Figure 49 (Page 38)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bảng $1$ giá trị $C$ cho clo dư và Coliform trên Trang $38$.",
+          "takeaway": "Bảng $1$ giá trị $C$ cho clo dư và Coliform trên Trang $38$",
+          "topic": "clo dư"
+        },
+        {
+          "id": "p-a670e736",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 50 (Page 38)",
+          "sentences": [
+            "Figure 50 (Page 38)"
+          ],
+          "brief": [
+            "Figure 50 (Page 38)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bảng $2$ hệ số $K_q$ theo lưu lượng dòng chảy sông trên Trang $38$.",
+          "takeaway": "Bảng $2$ hệ số $K_q$ theo lưu lượng dòng chảy sông trên Trang $38$",
+          "topic": "lưu lượng dòng chảy"
+        },
+        {
+          "id": "p-6e8ce1a2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 51 (Page 39)",
+          "sentences": [
+            "Figure 51 (Page 39)"
+          ],
+          "brief": [
+            "Figure 51 (Page 39)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bảng $3$ hệ số $K_q$ theo dung tích hồ tiếp nhận trên Trang $39$.",
+          "takeaway": "Bảng $3$ hệ số $K_q$ theo dung tích hồ tiếp nhận trên Trang $39$",
+          "topic": "dung tích hồ"
+        },
+        {
+          "id": "p-c35aab91",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 52 (Page 39)",
+          "sentences": [
+            "Figure 52 (Page 39)"
+          ],
+          "brief": [
+            "Figure 52 (Page 39)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Bảng $4$ hệ số lưu lượng nguồn thải $K_f$ trên Trang $39$.",
+          "takeaway": "Bảng $4$ hệ số lưu lượng nguồn thải $K_f$ trên Trang $39$",
+          "topic": "hệ số lưu lượng"
+        }
+      ]
+    }
+  ],
+  "links": []
+}

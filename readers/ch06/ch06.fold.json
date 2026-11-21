@@ -1,0 +1,1692 @@
+{
+  "format": "textfold/doc",
+  "version": 0,
+  "id": "md-ch-ng-6-c-ng-tr-nh-x-l-sinh-h-c-hi-u-kh-5ab5883e",
+  "lang": "vi",
+  "title": "Chương 6 - Công trình Xử lý Sinh học Hiếu khí (Chapter 6 - Biological Aerobic Treatment Unit)",
+  "authors": [],
+  "date": "",
+  "source": {
+    "kind": "markdown",
+    "url": "",
+    "snapshot": "",
+    "label": "ch06_fold_input.md",
+    "license": ""
+  },
+  "levels": [
+    "topic",
+    "takeaway",
+    "key",
+    "brief",
+    "full"
+  ],
+  "written": [
+    "topic",
+    "takeaway",
+    "key"
+  ],
+  "provenance": {
+    "made_with": "TextFold 0.10.36",
+    "exported": "2026-11-07T17:44:02Z",
+    "ai_generated": true,
+    "model": "antigravity-branches",
+    "levels_made": "2026-11-08T00:44:02",
+    "local": false
+  },
+  "sections": [
+    {
+      "id": "sec-1-hệ-thống-cấp-khí-và-phương-trình-truyền-oxy-tiêu-chuẩn-aeration-system-and-oxygen-transfer",
+      "num": "1",
+      "title": "Hệ thống cấp khí và phương trình truyền oxy tiêu chuẩn (Aeration System and Oxygen Transfer)",
+      "depth": 1,
+      "takeaway": "Hệ thống cấp khí cung cấp oxy theo phương trình truyền oxy tiêu chuẩn $\\text{SOTR}$",
+      "topic": "Hệ thống cấp khí",
+      "units": [
+        {
+          "id": "p-ffb40eaa",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Hệ thống cấp khí cung cấp lượng oxy hòa tan cần thiết để quần thể vi sinh vật hiếu khí phân hủy chất hữu cơ và oxy hóa amoni trong nước thải [Page 1] [Page 2] [Page 3]. Hai phương pháp cấp khí phổ biến trong bể sinh học hiếu khí là hệ thống phân phối khí khuếch tán qua đĩa hoặc ống beramic và màng đàn hồi cùng với thiết bị làm thoáng bề mặt cơ khí [Page 3] [Page 4]. Hệ thống khí khuếch tán dùng máy thổi khí để nén không khí qua đường ống dẫn vào các đĩa phân phối đặt sát đáy bể [Page 4] [Page 5]. Theo bảng thông số vận tốc khí tiêu chuẩn trên Slide 7, đường ống đường kính $25\\text{–}75\\text{ mm}$ vận hành ở vận tốc khí $6\\text{–}9\\text{ m/s}$, ống $100\\text{–}250\\text{ mm}$ có vận tốc $9\\text{–}15\\text{ m/s}$, ống $300\\text{–}600\\text{ mm}$ có vận tốc $15\\text{–}20\\text{ m/s}$ và ống $750\\text{–}1500\\text{ mm}$ có vận tốc $20\\text{–}35\\text{ m/s}$ [Page 4]. Nhiệt độ nước tăng làm giảm độ hòa tan bão hòa của oxy nhưng làm tăng tốc độ hoạt động sinh học của vi sinh vật, trong khi chiều sâu đặt đĩa phân phối lớn giúp cải thiện hiệu suất truyền oxy nhờ áp suất thủy tĩnh cao hơn [Page 4].",
+          "sentences": [
+            "Hệ thống cấp khí cung cấp lượng oxy hòa tan cần thiết để quần thể vi sinh vật hiếu khí phân hủy chất hữu cơ và oxy hóa amoni trong nước thải [Page 1] [Page 2] [Page 3].",
+            "Hai phương pháp cấp khí phổ biến trong bể sinh học hiếu khí là hệ thống phân phối khí khuếch tán qua đĩa hoặc ống beramic và màng đàn hồi cùng với thiết bị làm thoáng bề mặt cơ khí [Page 3] [Page 4].",
+            "Hệ thống khí khuếch tán dùng máy thổi khí để nén không khí qua đường ống dẫn vào các đĩa phân phối đặt sát đáy bể [Page 4] [Page 5].",
+            "Theo bảng thông số vận tốc khí tiêu chuẩn trên Slide 7, đường ống đường kính $25\\text{–}75\\text{ mm}$ vận hành ở vận tốc khí $6\\text{–}9\\text{ m/s}$, ống $100\\text{–}250\\text{ mm}$ có vận tốc $9\\text{–}15\\text{ m/s}$, ống $300\\text{–}600\\text{ mm}$ có vận tốc $15\\text{–}20\\text{ m/s}$ và ống $750\\text{–}1500\\text{ mm}$ có vận tốc $20\\text{–}35\\text{ m/s}$ [Page 4].",
+            "Nhiệt độ nước tăng làm giảm độ hòa tan bão hòa của oxy nhưng làm tăng tốc độ hoạt động sinh học của vi sinh vật, trong khi chiều sâu đặt đĩa phân phối lớn giúp cải thiện hiệu suất truyền oxy nhờ áp suất thủy tĩnh cao hơn [Page 4]."
+          ],
+          "brief": [
+            "Hệ thống cấp khí cung cấp lượng oxy hòa tan cần thiết để quần thể vi sinh vật hiếu khí phân hủy chất hữu cơ và oxy hóa amoni trong nước thải [Page 1] [Page 2] [Page 3].",
+            "Theo bảng thông số vận tốc khí tiêu chuẩn trên Slide 7, đường ống đường kính $25\\text{–}75\\text{ mm}$ vận hành ở vận tốc khí $6\\text{–}9\\text{ m/s}$, ống $100\\text{–}250\\text{ mm}$ có vận tốc $9\\text{–}15\\text{ m/s}$, ống $300\\text{–}600\\text{ mm}$ có vận tốc $15\\text{–}20\\text{ m/s}$ và ống $750\\text{–}1500\\text{ mm}$ có vận tốc $20\\text{–}35\\text{ m/s}$ [Page 4]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Hệ thống phân phối khí khuếch tán cấp oxy theo vận tốc đường ống chuẩn. Đường ống từ $25\\text{, }1500\\text{ mm}$ vận hành ở vận tốc khí từ $6\\text{, }35\\text{ m/s}$.",
+          "takeaway": "Hệ thống phân phối khí khuếch tán cấp oxy theo vận tốc đường ống chuẩn",
+          "topic": "phân phối khí"
+        },
+        {
+          "id": "p-a7ae5ec4",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Thiết bị làm thoáng cơ khí bề mặt khuấy trộn trực tiếp lớp nước mặt để hòa tan oxy không khí vào hỗn hợp bùn hoạt tính [Page 5]. Bảng kích thước máy làm thoáng bề mặt tiêu chuẩn trên Slide 10 quy định công suất máy theo chiều sâu và chiều rộng của bể hiếu khí khuấy trộn hoàn toàn [Page 5]. Máy công suất $7.5\\text{ kW}$ ($10\\text{ hp}$) phù hợp cho bể sâu $3.0\\text{–}3.5\\text{ m}$ và rộng $9\\text{–}12\\text{ m}$, máy $15\\text{ kW}$ ($20\\text{ hp}$) dùng cho bể sâu $3.5\\text{–}4.0\\text{ m}$ và rộng $10\\text{–}15\\text{ m}$, còn máy $22.5\\text{ kW}$ ($30\\text{ hp}$) dùng cho bể sâu $4.0\\text{–}4.5\\text{ m}$ và rộng $12\\text{–}18\\text{ m}$ [Page 5]. Đối với các bể lớn hơn, máy $30\\text{ kW}$ ($40\\text{ hp}$) đáp ứng chiều sâu $3.5\\text{–}5.0\\text{ m}$ và chiều rộng $14\\text{–}20\\text{ m}$, máy $37.5\\text{ kW}$ ($50\\text{ hp}$) đáp ứng chiều sâu $4.5\\text{–}5.5\\text{ m}$ và chiều rộng $14\\text{–}23\\text{ m}$ [Page 5]. Các máy công suất lớn $55\\text{ kW}$ ($75\\text{ hp}$) và $75\\text{ kW}$ ($100\\text{ hp}$) phục vụ bể sâu $4.5\\text{–}6.0\\text{ m}$ với chiều rộng tương ứng từ $15\\text{–}26\\text{ m}$ và từ $18\\text{–}27\\text{ m}$ [Page 5].",
+          "sentences": [
+            "Thiết bị làm thoáng cơ khí bề mặt khuấy trộn trực tiếp lớp nước mặt để hòa tan oxy không khí vào hỗn hợp bùn hoạt tính [Page 5].",
+            "Bảng kích thước máy làm thoáng bề mặt tiêu chuẩn trên Slide 10 quy định công suất máy theo chiều sâu và chiều rộng của bể hiếu khí khuấy trộn hoàn toàn [Page 5].",
+            "Máy công suất $7.5\\text{ kW}$ ($10\\text{ hp}$) phù hợp cho bể sâu $3.0\\text{–}3.5\\text{ m}$ và rộng $9\\text{–}12\\text{ m}$, máy $15\\text{ kW}$ ($20\\text{ hp}$) dùng cho bể sâu $3.5\\text{–}4.0\\text{ m}$ và rộng $10\\text{–}15\\text{ m}$, còn máy $22.5\\text{ kW}$ ($30\\text{ hp}$) dùng cho bể sâu $4.0\\text{–}4.5\\text{ m}$ và rộng $12\\text{–}18\\text{ m}$ [Page 5]. Đối với các bể lớn hơn, máy $30\\text{ kW}$ ($40\\text{ hp}$) đáp ứng chiều sâu $3.5\\text{–}5.0\\text{ m}$ và chiều rộng $14\\text{–}20\\text{ m}$, máy $37.5\\text{ kW}$ ($50\\text{ hp}$) đáp ứng chiều sâu $4.5\\text{–}5.5\\text{ m}$ và chiều rộng $14\\text{–}23\\text{ m}$ [Page 5].",
+            "Các máy công suất lớn $55\\text{ kW}$ ($75\\text{ hp}$) và $75\\text{ kW}$ ($100\\text{ hp}$) phục vụ bể sâu $4.5\\text{–}6.0\\text{ m}$ với chiều rộng tương ứng từ $15\\text{–}26\\text{ m}$ và từ $18\\text{–}27\\text{ m}$ [Page 5]."
+          ],
+          "brief": [
+            "Thiết bị làm thoáng cơ khí bề mặt khuấy trộn trực tiếp lớp nước mặt để hòa tan oxy không khí vào hỗn hợp bùn hoạt tính [Page 5].",
+            "Máy công suất $7.5\\text{ kW}$ ($10\\text{ hp}$) phù hợp cho bể sâu $3.0\\text{–}3.5\\text{ m}$ và rộng $9\\text{–}12\\text{ m}$, máy $15\\text{ kW}$ ($20\\text{ hp}$) dùng cho bể sâu $3.5\\text{–}4.0\\text{ m}$ và rộng $10\\text{–}15\\text{ m}$, còn máy $22.5\\text{ kW}$ ($30\\text{ hp}$) dùng cho bể sâu $4.0\\text{–}4.5\\text{ m}$ và rộng $12\\text{–}18\\text{ m}$ [Page 5]. Đối với các bể lớn hơn, máy $30\\text{ kW}$ ($40\\text{ hp}$) đáp ứng chiều sâu $3.5\\text{–}5.0\\text{ m}$ và chiều rộng $14\\text{–}20\\text{ m}$, máy $37.5\\text{ kW}$ ($50\\text{ hp}$) đáp ứng chiều sâu $4.5\\text{–}5.5\\text{ m}$ và chiều rộng $14\\text{–}23\\text{ m}$ [Page 5]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Máy làm thoáng bề mặt có công suất từ $7.5\\text{ kW}$ đến $75\\text{ kW}$. Công suất máy được chọn theo chiều sâu $3.0\\text{, }6.0\\text{ m}$ và chiều rộng $9\\text{, }27\\text{ m}$.",
+          "takeaway": "Máy làm thoáng bề mặt có công suất từ $7.5\\text{ kW}$ đến $75\\text{ kW}$",
+          "topic": "Máy làm thoáng"
+        },
+        {
+          "id": "p-3639d7fe",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Phương trình truyền oxy trên Slide 11 quy đổi tốc độ truyền oxy thực tế tại công trường $\\text{OTR}_f$ ($\\text{kg O}_2/\\text{h}$) về tốc độ truyền oxy tiêu chuẩn $\\text{SOTR}$ ở $20^\\circ\\text{C}$ và áp suất $1\\text{ atm}$ [Page 6]. Trong phương trình truyền oxy, hệ số hiệu chỉnh nước thải $\\alpha$ nằm trong khoảng $0.4\\text{–}0.8$, hệ số độ mặn $\\beta$ từ $0.95\\text{–}0.98$, hệ số tắc nghẽn đĩa phân phối $F$ từ $0.65\\text{–}0.90$ và hệ số nhiệt độ $\\theta = 1.024$ [Page 6]. Hệ số hiệu chỉnh áp suất theo cao trình $\\Omega = P_b / P_a$ sử dụng gia tốc trọng trường $g = 9.81\\text{ m/s}^2$, khối lượng mol không khí $M = 28.97\\text{ g/mol}$, hằng số khí $R = 8314\\text{ N}\\cdot\\text{m}/(\\text{mol}\\cdot\\text{K})$ và cao trình $z$ ($\\text{m}$), còn hệ số nhiệt độ bão hòa $\\tau = C_{st}^* / C_{s20}^*$ lấy từ bảng oxy hòa tan bão hòa trên Slide 12 (với $C_{s20}^* = 9.092\\text{ mg/L}$ và $C_{s12}^* = 10.777\\text{ mg/L}$ tại mực nước biển) [Page 6]. Nồng độ oxy bão hòa ở đáy bể khuếch tán $C_{\\infty 20}^*$ được tính theo chiều sâu đặt đĩa $D_f$ và áp suất chuẩn $P_a = 10.33\\text{ m}$, từ đó xác định lưu lượng khí cấp cần thiết với hiệu suất truyền oxy $E = 25\\%\\text{–}40\\%$ [Page 6].",
+          "sentences": [
+            "Phương trình truyền oxy trên Slide 11 quy đổi tốc độ truyền oxy thực tế tại công trường $\\text{OTR}_f$ ($\\text{kg O}_2/\\text{h}$) về tốc độ truyền oxy tiêu chuẩn $\\text{SOTR}$ ở $20^\\circ\\text{C}$ và áp suất $1\\text{ atm}$ [Page 6].",
+            "Trong phương trình truyền oxy, hệ số hiệu chỉnh nước thải $\\alpha$ nằm trong khoảng $0.4\\text{–}0.8$, hệ số độ mặn $\\beta$ từ $0.95\\text{–}0.98$, hệ số tắc nghẽn đĩa phân phối $F$ từ $0.65\\text{–}0.90$ và hệ số nhiệt độ $\\theta = 1.024$ [Page 6].",
+            "Hệ số hiệu chỉnh áp suất theo cao trình $\\Omega = P_b / P_a$ sử dụng gia tốc trọng trường $g = 9.81\\text{ m/s}^2$, khối lượng mol không khí $M = 28.97\\text{ g/mol}$, hằng số khí $R = 8314\\text{ N}\\cdot\\text{m}/(\\text{mol}\\cdot\\text{K})$ và cao trình $z$ ($\\text{m}$), còn hệ số nhiệt độ bão hòa $\\tau = C_{st}^* / C_{s20}^*$ lấy từ bảng oxy hòa tan bão hòa trên Slide 12 (với $C_{s20}^* = 9.092\\text{ mg/L}$ và $C_{s12}^* = 10.777\\text{ mg/L}$ tại mực nước biển) [Page 6].",
+            "Nồng độ oxy bão hòa ở đáy bể khuếch tán $C_{\\infty 20}^*$ được tính theo chiều sâu đặt đĩa $D_f$ và áp suất chuẩn $P_a = 10.33\\text{ m}$, từ đó xác định lưu lượng khí cấp cần thiết với hiệu suất truyền oxy $E = 25\\%\\text{–}40\\%$ [Page 6]."
+          ],
+          "brief": [
+            "Phương trình truyền oxy trên Slide 11 quy đổi tốc độ truyền oxy thực tế tại công trường $\\text{OTR}_f$ ($\\text{kg O}_2/\\text{h}$) về tốc độ truyền oxy tiêu chuẩn $\\text{SOTR}$ ở $20^\\circ\\text{C}$ và áp suất $1\\text{ atm}$ [Page 6].",
+            "Trong phương trình truyền oxy, hệ số hiệu chỉnh nước thải $\\alpha$ nằm trong khoảng $0.4\\text{–}0.8$, hệ số độ mặn $\\beta$ từ $0.95\\text{–}0.98$, hệ số tắc nghẽn đĩa phân phối $F$ từ $0.65\\text{–}0.90$ và hệ số nhiệt độ $\\theta = 1.024$ [Page 6]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Phương trình truyền oxy quy đổi $\\text{OTR}_f$ về $\\text{SOTR}$ và lưu lượng khí cấp. Công thức hiệu chỉnh theo hệ số $\\alpha$, $\\beta$, $F$, cao trình $z$ và chiều sâu $D_f$.",
+          "takeaway": "Phương trình truyền oxy quy đổi $\\text{OTR}_f$ về $\\text{SOTR}$ và lưu lượng khí cấp",
+          "topic": "Phương trình truyền oxy"
+        }
+      ]
+    },
+    {
+      "id": "sec-2-động-học-sinh-trưởng-lơ-lửng-và-quy-trình-thiết-kế-bể-cmas-cmas-reactor-design-kinetics",
+      "num": "2",
+      "title": "Động học sinh trưởng lơ lửng và quy trình thiết kế bể CMAS (CMAS Reactor Design Kinetics)",
+      "depth": 1,
+      "takeaway": "Động học sinh trưởng xác định thời gian lưu bùn $\\text{SRT}$ và thể tích bể $V$",
+      "topic": "Động học sinh trưởng",
+      "units": [
+        {
+          "id": "p-7f0e82d5",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Các phương trình cân bằng sinh khối và cơ chất trên Slide 13 thiết lập nền tảng toán học để tính toán bể bùn hoạt tính khuấy trộn hoàn toàn (Complete-Mix Activated Sludge, viết tắt là CMAS) [Page 7]. Nồng độ cơ chất dễ phân hủy sinh học hòa tan ở đầu ra $S$ ($\\text{g bCOD/m}^3$) phụ thuộc vào thời gian lưu bùn $\\text{SRT}$ ($\\text{ngày}$) và tốc độ sinh trưởng cực đại $\\mu_{\\max} = Y_H k$ [Page 7]. Đối với quá trình nitrat hóa, tốc độ sinh trưởng riêng của vi khuẩn oxy hóa amoni $\\mu_{\\text{AOB}}$ xác định thời gian lưu bùn tối thiểu $\\text{SRT}_{\\min} = 1 / \\mu_{\\text{AOB}}$ và thời gian lưu bùn thiết kế $\\text{SRT}_{\\text{des}} = \\text{SF} \\times \\text{SRT}_{\\min}$ với hệ số an toàn $\\text{SF} = 1.3\\text{–}2.0$ [Page 7] [Page 8]. Bảng hệ số động học chuẩn ở $20^\\circ\\text{C}$ trên Slide 14 quy định cho quá trình oxy hóa $\\text{COD}$ các giá trị $\\mu_{\\max} = 6.0\\text{ g/g}\\cdot\\text{d}$ ($\\theta = 1.07$), $K_s = 8.0\\text{ mg/L}$ ($\\theta = 1.0$), $Y_H = 0.45\\text{ g/g}$, $b_H = 0.12\\text{ g/g}\\cdot\\text{d}$ ($\\theta = 1.04$) và $f_d = 0.15$ [Page 7]. Đối với quá trình oxy hóa $\\text{NH}_4\\text{-N}$ ở $20^\\circ\\text{C}$, bảng trên Slide 14 quy định $\\mu_{\\max,\\text{AOB}} = 0.90\\text{ g/g}\\cdot\\text{d}$ ($\\theta = 1.072$), $K_{\\text{NH}_4} = 0.50\\text{ mg/L}$ ($\\theta = 1.0$), $Y_n = 0.15\\text{ g/g}$, $b_n = 0.17\\text{ g/g}\\cdot\\text{d}$ ($\\theta = 1.029$), $f_d = 0.15$ và $K_{o,\\text{AOB}} = 0.50\\text{ mg/L}$ [Page 7].",
+          "sentences": [
+            "Các phương trình cân bằng sinh khối và cơ chất trên Slide 13 thiết lập nền tảng toán học để tính toán bể bùn hoạt tính khuấy trộn hoàn toàn (Complete-Mix Activated Sludge, viết tắt là CMAS) [Page 7].",
+            "Nồng độ cơ chất dễ phân hủy sinh học hòa tan ở đầu ra $S$ ($\\text{g bCOD/m}^3$) phụ thuộc vào thời gian lưu bùn $\\text{SRT}$ ($\\text{ngày}$) và tốc độ sinh trưởng cực đại $\\mu_{\\max} = Y_H k$ [Page 7]. Đối với quá trình nitrat hóa, tốc độ sinh trưởng riêng của vi khuẩn oxy hóa amoni $\\mu_{\\text{AOB}}$ xác định thời gian lưu bùn tối thiểu $\\text{SRT}_{\\min} = 1 / \\mu_{\\text{AOB}}$ và thời gian lưu bùn thiết kế $\\text{SRT}_{\\text{des}} = \\text{SF} \\times \\text{SRT}_{\\min}$ với hệ số an toàn $\\text{SF} = 1.3\\text{–}2.0$ [Page 7] [Page 8].",
+            "Bảng hệ số động học chuẩn ở $20^\\circ\\text{C}$ trên Slide 14 quy định cho quá trình oxy hóa $\\text{COD}$ các giá trị $\\mu_{\\max} = 6.0\\text{ g/g}\\cdot\\text{d}$ ($\\theta = 1.07$), $K_s = 8.0\\text{ mg/L}$ ($\\theta = 1.0$), $Y_H = 0.45\\text{ g/g}$, $b_H = 0.12\\text{ g/g}\\cdot\\text{d}$ ($\\theta = 1.04$) và $f_d = 0.15$ [Page 7]. Đối với quá trình oxy hóa $\\text{NH}_4\\text{-N}$ ở $20^\\circ\\text{C}$, bảng trên Slide 14 quy định $\\mu_{\\max,\\text{AOB}} = 0.90\\text{ g/g}\\cdot\\text{d}$ ($\\theta = 1.072$), $K_{\\text{NH}_4} = 0.50\\text{ mg/L}$ ($\\theta = 1.0$), $Y_n = 0.15\\text{ g/g}$, $b_n = 0.17\\text{ g/g}\\cdot\\text{d}$ ($\\theta = 1.029$), $f_d = 0.15$ và $K_{o,\\text{AOB}} = 0.50\\text{ mg/L}$ [Page 7]."
+          ],
+          "brief": [
+            "Nồng độ cơ chất dễ phân hủy sinh học hòa tan ở đầu ra $S$ ($\\text{g bCOD/m}^3$) phụ thuộc vào thời gian lưu bùn $\\text{SRT}$ ($\\text{ngày}$) và tốc độ sinh trưởng cực đại $\\mu_{\\max} = Y_H k$ [Page 7]. Đối với quá trình nitrat hóa, tốc độ sinh trưởng riêng của vi khuẩn oxy hóa amoni $\\mu_{\\text{AOB}}$ xác định thời gian lưu bùn tối thiểu $\\text{SRT}_{\\min} = 1 / \\mu_{\\text{AOB}}$ và thời gian lưu bùn thiết kế $\\text{SRT}_{\\text{des}} = \\text{SF} \\times \\text{SRT}_{\\min}$ với hệ số an toàn $\\text{SF} = 1.3\\text{–}2.0$ [Page 7] [Page 8].",
+            "Bảng hệ số động học chuẩn ở $20^\\circ\\text{C}$ trên Slide 14 quy định cho quá trình oxy hóa $\\text{COD}$ các giá trị $\\mu_{\\max} = 6.0\\text{ g/g}\\cdot\\text{d}$ ($\\theta = 1.07$), $K_s = 8.0\\text{ mg/L}$ ($\\theta = 1.0$), $Y_H = 0.45\\text{ g/g}$, $b_H = 0.12\\text{ g/g}\\cdot\\text{d}$ ($\\theta = 1.04$) và $f_d = 0.15$ [Page 7]. Đối với quá trình oxy hóa $\\text{NH}_4\\text{-N}$ ở $20^\\circ\\text{C}$, bảng trên Slide 14 quy định $\\mu_{\\max,\\text{AOB}} = 0.90\\text{ g/g}\\cdot\\text{d}$ ($\\theta = 1.072$), $K_{\\text{NH}_4} = 0.50\\text{ mg/L}$ ($\\theta = 1.0$), $Y_n = 0.15\\text{ g/g}$, $b_n = 0.17\\text{ g/g}\\cdot\\text{d}$ ($\\theta = 1.029$), $f_d = 0.15$ và $K_{o,\\text{AOB}} = 0.50\\text{ mg/L}$ [Page 7]."
+          ],
+          "evidence": [
+            1,
+            2
+          ],
+          "key": "Phương trình cân bằng cơ chất và nitrat hóa xác định nồng độ theo $\\text{SRT}$. Bảng hệ số động học ở $20^\\circ\\text{C}$ cung cấp thông số chuẩn cho khử $\\text{COD}$ và $\\text{NH}_4\\text{-N}$.",
+          "takeaway": "Phương trình cân bằng cơ chất và nitrat hóa xác định nồng độ theo $\\text{SRT}$",
+          "topic": "Phương trình cân bằng"
+        },
+        {
+          "id": "p-cd707cca",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Sản lượng sinh khối hoạt tính và tổng lượng bùn dư hàng ngày trên Slide 13 quyết định thể tích bể phản ứng và nhu cầu oxy tiêu thụ [Page 7]. Lượng sinh khối hoạt tính tạo thành mỗi ngày $P_{X,\\text{bio}}$ gồm phần tổng hợp tế bào dị dưỡng mới, phần cặn trơ nội bào và phần sinh khối tự dưỡng nitrat hóa [Page 7]. Tổng sản lượng chất rắn bay hơi $P_{X,\\text{VSS}}$ và chất rắn lơ lửng $P_{X,\\text{TSS}}$ cộng thêm phần chất rắn bay hơi không phân hủy sinh học $\\text{nbVSS}$ và chất rắn vô cơ trơ $\\text{iTSS} = \\text{TSS}_0 - \\text{VSS}_0$ [Page 7]. Tổng khối lượng bùn trong bể bằng tích số của sản lượng bùn ngày với thời gian lưu bùn $\\text{SRT}$, từ đó xác định thể tích bể $V$, tỷ số thức ăn trên vi sinh vật $F/M$ và tải trọng hữu cơ thể tích $L_{\\text{org}}$ [Page 7] [Page 8]. Nồng độ nitơ amoni bị oxy hóa thành nitrat $\\text{NO}_x$ được xác định từ cân bằng nitơ để tính tổng lượng oxy tiêu thụ hàng ngày $R_o$ [Page 7] [Page 8].",
+          "sentences": [
+            "Sản lượng sinh khối hoạt tính và tổng lượng bùn dư hàng ngày trên Slide 13 quyết định thể tích bể phản ứng và nhu cầu oxy tiêu thụ [Page 7].",
+            "Lượng sinh khối hoạt tính tạo thành mỗi ngày $P_{X,\\text{bio}}$ gồm phần tổng hợp tế bào dị dưỡng mới, phần cặn trơ nội bào và phần sinh khối tự dưỡng nitrat hóa [Page 7].",
+            "Tổng sản lượng chất rắn bay hơi $P_{X,\\text{VSS}}$ và chất rắn lơ lửng $P_{X,\\text{TSS}}$ cộng thêm phần chất rắn bay hơi không phân hủy sinh học $\\text{nbVSS}$ và chất rắn vô cơ trơ $\\text{iTSS} = \\text{TSS}_0 - \\text{VSS}_0$ [Page 7].",
+            "Tổng khối lượng bùn trong bể bằng tích số của sản lượng bùn ngày với thời gian lưu bùn $\\text{SRT}$, từ đó xác định thể tích bể $V$, tỷ số thức ăn trên vi sinh vật $F/M$ và tải trọng hữu cơ thể tích $L_{\\text{org}}$ [Page 7] [Page 8].",
+            "Nồng độ nitơ amoni bị oxy hóa thành nitrat $\\text{NO}_x$ được xác định từ cân bằng nitơ để tính tổng lượng oxy tiêu thụ hàng ngày $R_o$ [Page 7] [Page 8]."
+          ],
+          "brief": [
+            "Sản lượng sinh khối hoạt tính và tổng lượng bùn dư hàng ngày trên Slide 13 quyết định thể tích bể phản ứng và nhu cầu oxy tiêu thụ [Page 7].",
+            "Tổng khối lượng bùn trong bể bằng tích số của sản lượng bùn ngày với thời gian lưu bùn $\\text{SRT}$, từ đó xác định thể tích bể $V$, tỷ số thức ăn trên vi sinh vật $F/M$ và tải trọng hữu cơ thể tích $L_{\\text{org}}$ [Page 7] [Page 8]."
+          ],
+          "evidence": [
+            0,
+            3
+          ],
+          "key": "Sản lượng bùn hoạt tính $P_{X,\\text{TSS}}$ quyết định thể tích bể $V$ và oxy $R_o$. Thể tích bể $V$ bằng tích của $P_{X,\\text{TSS}}$ và $\\text{SRT}$ chia cho nồng độ $X_{\\text{TSS}}$.",
+          "takeaway": "Sản lượng bùn hoạt tính $P_{X,\\text{TSS}}$ quyết định thể tích bể $V$ và oxy $R_o$",
+          "topic": "Sản lượng bùn"
+        }
+      ]
+    },
+    {
+      "id": "sec-3-thiết-kế-bể-phản-ứng-sinh-học-màng-mbr-bể-sbr-và-kiểm-soát-sự-cố-bùn-hoạt-tính-mbr-sbr-and-operation-issues",
+      "num": "3",
+      "title": "Thiết kế bể phản ứng sinh học màng MBR, bể SBR và kiểm soát sự cố bùn hoạt tính (MBR, SBR, and Operation Issues)",
+      "depth": 1,
+      "takeaway": "Công nghệ màng MBR, bể theo mẻ SBR và kiểm soát sự cố bùn hoạt tính",
+      "topic": "Công nghệ màng",
+      "units": [
+        {
+          "id": "p-ce7d6e5e",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bể phản ứng sinh học màng (Membrane Bioreactor, viết tắt là MBR) kết hợp quá trình bùn hoạt tính sinh học với quá trình lọc màng vi lọc ($0.1\\text{–}10\\text{ }\\mu\\text{m}$) hoặc siêu lọc ($0.01\\text{–}0.1\\text{ }\\mu\\text{m}$) bằng mô-đun sợi rỗng hoặc tấm phẳng để thay thế hoàn toàn bể lắng thứ cấp [Page 10] [Page 11]. Phương trình cân bằng khối lượng bùn quanh bể hiếu khí trên Slide 39 với giả thiết $X_0 = 0$ liên hệ nồng độ bùn bể hiếu khí $X_A$ với bể màng $X_m$ qua tỷ số tuần hoàn $R = Q_R / Q$ [Page 10]. Bảng thông số thiết kế chuẩn trên Slide 40 quy định tỷ số tuần hoàn $R = 4\\text{–}6$, nồng độ bùn trong bể màng $X_m = 8,000\\text{–}12,000\\text{ g/m}^3$, tỷ lệ thể tích bể màng trên diện tích màng $V_m / A_m = 0.015\\text{–}0.05\\text{ m}^3/\\text{m}^2$ và thông lượng thấm qua màng $J_m = 0.4\\text{–}0.6\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ [Page 11]. Để kiểm soát tắc nghẽn màng làm tăng áp suất xuyên màng (TMP), hệ thống thực hiện rửa duy trì $1\\text{–}2\\text{ lần/tuần}$ bằng dòng ngược $\\text{NaClO } 200\\text{ mg/L}$ hoặc axit citric $2,000\\text{ mg/L}$ trong $60\\text{–}75\\text{ phút}$ và rửa phục hồi $2\\text{–}4\\text{ lần/năm}$ bằng ngâm clo $1,000\\text{ mg/L}$ cùng axit citric $2,000\\text{ mg/L}$ trong $4\\text{–}6\\text{ giờ}$ [Page 12].",
+          "sentences": [
+            "Bể phản ứng sinh học màng (Membrane Bioreactor, viết tắt là MBR) kết hợp quá trình bùn hoạt tính sinh học với quá trình lọc màng vi lọc ($0.1\\text{–}10\\text{ }\\mu\\text{m}$) hoặc siêu lọc ($0.01\\text{–}0.1\\text{ }\\mu\\text{m}$) bằng mô-đun sợi rỗng hoặc tấm phẳng để thay thế hoàn toàn bể lắng thứ cấp [Page 10] [Page 11].",
+            "Phương trình cân bằng khối lượng bùn quanh bể hiếu khí trên Slide 39 với giả thiết $X_0 = 0$ liên hệ nồng độ bùn bể hiếu khí $X_A$ với bể màng $X_m$ qua tỷ số tuần hoàn $R = Q_R / Q$ [Page 10].",
+            "Bảng thông số thiết kế chuẩn trên Slide 40 quy định tỷ số tuần hoàn $R = 4\\text{–}6$, nồng độ bùn trong bể màng $X_m = 8,000\\text{–}12,000\\text{ g/m}^3$, tỷ lệ thể tích bể màng trên diện tích màng $V_m / A_m = 0.015\\text{–}0.05\\text{ m}^3/\\text{m}^2$ và thông lượng thấm qua màng $J_m = 0.4\\text{–}0.6\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ [Page 11]. Để kiểm soát tắc nghẽn màng làm tăng áp suất xuyên màng (TMP), hệ thống thực hiện rửa duy trì $1\\text{–}2\\text{ lần/tuần}$ bằng dòng ngược $\\text{NaClO } 200\\text{ mg/L}$ hoặc axit citric $2,000\\text{ mg/L}$ trong $60\\text{–}75\\text{ phút}$ và rửa phục hồi $2\\text{–}4\\text{ lần/năm}$ bằng ngâm clo $1,000\\text{ mg/L}$ cùng axit citric $2,000\\text{ mg/L}$ trong $4\\text{–}6\\text{ giờ}$ [Page 12]."
+          ],
+          "brief": [
+            "Bể phản ứng sinh học màng (Membrane Bioreactor, viết tắt là MBR) kết hợp quá trình bùn hoạt tính sinh học với quá trình lọc màng vi lọc ($0.1\\text{–}10\\text{ }\\mu\\text{m}$) hoặc siêu lọc ($0.01\\text{–}0.1\\text{ }\\mu\\text{m}$) bằng mô-đun sợi rỗng hoặc tấm phẳng để thay thế hoàn toàn bể lắng thứ cấp [Page 10] [Page 11].",
+            "Bảng thông số thiết kế chuẩn trên Slide 40 quy định tỷ số tuần hoàn $R = 4\\text{–}6$, nồng độ bùn trong bể màng $X_m = 8,000\\text{–}12,000\\text{ g/m}^3$, tỷ lệ thể tích bể màng trên diện tích màng $V_m / A_m = 0.015\\text{–}0.05\\text{ m}^3/\\text{m}^2$ và thông lượng thấm qua màng $J_m = 0.4\\text{–}0.6\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ [Page 11]. Để kiểm soát tắc nghẽn màng làm tăng áp suất xuyên màng (TMP), hệ thống thực hiện rửa duy trì $1\\text{–}2\\text{ lần/tuần}$ bằng dòng ngược $\\text{NaClO } 200\\text{ mg/L}$ hoặc axit citric $2,000\\text{ mg/L}$ trong $60\\text{–}75\\text{ phút}$ và rửa phục hồi $2\\text{–}4\\text{ lần/năm}$ bằng ngâm clo $1,000\\text{ mg/L}$ cùng axit citric $2,000\\text{ mg/L}$ trong $4\\text{–}6\\text{ giờ}$ [Page 12]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Bể sinh học màng vận hành ở $X_m = 8,000\\text{, }12,000\\text{ g/m}^3$ và $R = 4\\text{, }6$. Hệ thống rửa duy trì bằng $\\text{NaClO } 200\\text{ mg/L}$ để kiểm soát áp suất xuyên màng.",
+          "takeaway": "Bể sinh học màng vận hành ở $X_m = 8,000\\text{, }12,000\\text{ g/m}^3$ và $R = 4\\text{, }6$",
+          "topic": "Bể sinh học màng"
+        },
+        {
+          "id": "p-e32c834e",
+          "kind": "paragraph",
+          "role": "method",
+          "full": "Bể phản ứng theo mẻ kế tiếp (Sequencing Batch Reactor, viết tắt là SBR) tích hợp toàn bộ các giai đoạn làm đầy (Fill), phản ứng sục khí (React), lắng tĩnh (Settle) và chắt nước trong (Decant) trong cùng một bể đơn trên hệ thống tối thiểu $2\\text{ bể}$ hoạt động luân phiên [Page 13] [Page 15]. Một chu kỳ vận hành điển hình kéo dài $6.0\\text{ h}$ gồm $3.0\\text{ h}$ làm đầy, $2.0\\text{ h}$ phản ứng sục khí, $0.5\\text{ h}$ lắng tĩnh và $0.5\\text{ h}$ chắt nước với thời gian lưu nước tiêu chuẩn $\\text{HRT} = 18\\text{–}30\\text{ h}$ [Page 15]. Trong giai đoạn phản ứng tĩnh ($Q = 0$), tích phân phương trình cân bằng cơ chất và amoni trên Slide 47 và Slide 48 xác định thời gian phản ứng $t$ cần thiết để đạt nồng độ đầu ra $S_t$ và $N_t$ [Page 14]. Theo Slide 65, hệ thống CMAS vận hành ở $\\text{SRT} = 3\\text{–}15\\text{ d}$, $F/M = 0.2\\text{–}0.6\\text{ d}^{-1}$, $L_{\\text{org}} = 0.3\\text{–}1.6\\text{ kg/m}^3\\cdot\\text{d}$, $\\text{MLSS} = 1,500\\text{–}4,000\\text{ g/m}^3$ và $\\text{HRT} = 3\\text{–}6\\text{ h}$, trong khi bể SBR vận hành ở $\\text{SRT} = 15\\text{–}30\\text{ d}$, $F/M = 0.04\\text{–}0.1\\text{ d}^{-1}$, $L_{\\text{org}} = 0.1\\text{–}0.3\\text{ kg/m}^3\\cdot\\text{d}$, $\\text{MLSS} = 2,000\\text{–}5,000\\text{ g/m}^3$ và $\\text{HRT} = 15\\text{–}40\\text{ h}$ [Page 16] [Page 17].",
+          "sentences": [
+            "Bể phản ứng theo mẻ kế tiếp (Sequencing Batch Reactor, viết tắt là SBR) tích hợp toàn bộ các giai đoạn làm đầy (Fill), phản ứng sục khí (React), lắng tĩnh (Settle) và chắt nước trong (Decant) trong cùng một bể đơn trên hệ thống tối thiểu $2\\text{ bể}$ hoạt động luân phiên [Page 13] [Page 15].",
+            "Một chu kỳ vận hành điển hình kéo dài $6.0\\text{ h}$ gồm $3.0\\text{ h}$ làm đầy, $2.0\\text{ h}$ phản ứng sục khí, $0.5\\text{ h}$ lắng tĩnh và $0.5\\text{ h}$ chắt nước với thời gian lưu nước tiêu chuẩn $\\text{HRT} = 18\\text{–}30\\text{ h}$ [Page 15].",
+            "Trong giai đoạn phản ứng tĩnh ($Q = 0$), tích phân phương trình cân bằng cơ chất và amoni trên Slide 47 và Slide 48 xác định thời gian phản ứng $t$ cần thiết để đạt nồng độ đầu ra $S_t$ và $N_t$ [Page 14].",
+            "Theo Slide 65, hệ thống CMAS vận hành ở $\\text{SRT} = 3\\text{–}15\\text{ d}$, $F/M = 0.2\\text{–}0.6\\text{ d}^{-1}$, $L_{\\text{org}} = 0.3\\text{–}1.6\\text{ kg/m}^3\\cdot\\text{d}$, $\\text{MLSS} = 1,500\\text{–}4,000\\text{ g/m}^3$ và $\\text{HRT} = 3\\text{–}6\\text{ h}$, trong khi bể SBR vận hành ở $\\text{SRT} = 15\\text{–}30\\text{ d}$, $F/M = 0.04\\text{–}0.1\\text{ d}^{-1}$, $L_{\\text{org}} = 0.1\\text{–}0.3\\text{ kg/m}^3\\cdot\\text{d}$, $\\text{MLSS} = 2,000\\text{–}5,000\\text{ g/m}^3$ và $\\text{HRT} = 15\\text{–}40\\text{ h}$ [Page 16] [Page 17]."
+          ],
+          "brief": [
+            "Bể phản ứng theo mẻ kế tiếp (Sequencing Batch Reactor, viết tắt là SBR) tích hợp toàn bộ các giai đoạn làm đầy (Fill), phản ứng sục khí (React), lắng tĩnh (Settle) và chắt nước trong (Decant) trong cùng một bể đơn trên hệ thống tối thiểu $2\\text{ bể}$ hoạt động luân phiên [Page 13] [Page 15].",
+            "Trong giai đoạn phản ứng tĩnh ($Q = 0$), tích phân phương trình cân bằng cơ chất và amoni trên Slide 47 và Slide 48 xác định thời gian phản ứng $t$ cần thiết để đạt nồng độ đầu ra $S_t$ và $N_t$ [Page 14]."
+          ],
+          "evidence": [
+            0,
+            2
+          ],
+          "key": "Bể phản ứng theo mẻ vận hành chu kỳ $6.0\\text{ h}$ với $\\text{SRT} = 15\\text{, }30\\text{ d}$. Tích phân phương trình động học trong kỳ phản ứng xác định thời gian sục khí $t$.",
+          "takeaway": "Bể phản ứng theo mẻ vận hành chu kỳ $6.0\\text{ h}$ với $\\text{SRT} = 15\\text{, }30\\text{ d}$",
+          "topic": "Bể phản ứng"
+        },
+        {
+          "id": "p-9548efcc",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Ba sự cố vận hành bùn hoạt tính quan trọng nhất trên Slide 67 đến Slide 74 là hiện tượng bung bùn (Sludge Bulking), nổi bọt (Sludge Foaming) và trồi bùn (Sludge Rising) [Page 17] [Page 18] [Page 19] [Page 20] [Page 21]. Hiện tượng bung bùn xảy ra khi vi khuẩn dạng sợi phát triển vươn dài ra ngoài bông bùn khiến bùn khó lắng với chỉ số $\\text{SVI} > 150\\text{ mL/g}$ (bùn lắng tốt có $\\text{SVI} = 90\\text{–}120\\text{ mL/g}$), được khắc phục bằng cách duy trì $\\text{DO} > 2\\text{ mg/L}$, điều chỉnh $F/M$ và lắp đặt bể chọn lọc sinh học (Selector tank) [Page 17] [Page 18] [Page 19]. Hiện tượng nổi bọt nâu nhớt ổn định trên mặt bể sục khí xảy ra do nhóm vi khuẩn kỵ nước Nocardioform bám vào bọt khí mịn khi nước thải chứa nhiều dầu mỡ, được kiểm soát bằng cách vớt xả bùn bề mặt, phun dung dịch clo, tách dầu mỡ đầu vào và châm polymer cation [Page 19] [Page 20]. Hiện tượng trồi bùn xảy ra ở bể lắng thứ cấp khi quá trình khử nitrat sinh ra các bọt khí nitơ $\\text{N}_2$ làm bùn nổi lên mặt nước, được khắc phục bằng cách tăng lưu lượng bùn tuần hoàn RAS, giảm lưu lượng khí hoặc bố trí bể thiếu khí trước bể hiếu khí [Page 21].",
+          "sentences": [
+            "Ba sự cố vận hành bùn hoạt tính quan trọng nhất trên Slide 67 đến Slide 74 là hiện tượng bung bùn (Sludge Bulking), nổi bọt (Sludge Foaming) và trồi bùn (Sludge Rising) [Page 17] [Page 18] [Page 19] [Page 20] [Page 21].",
+            "Hiện tượng bung bùn xảy ra khi vi khuẩn dạng sợi phát triển vươn dài ra ngoài bông bùn khiến bùn khó lắng với chỉ số $\\text{SVI} > 150\\text{ mL/g}$ (bùn lắng tốt có $\\text{SVI} = 90\\text{–}120\\text{ mL/g}$), được khắc phục bằng cách duy trì $\\text{DO} > 2\\text{ mg/L}$, điều chỉnh $F/M$ và lắp đặt bể chọn lọc sinh học (Selector tank) [Page 17] [Page 18] [Page 19].",
+            "Hiện tượng nổi bọt nâu nhớt ổn định trên mặt bể sục khí xảy ra do nhóm vi khuẩn kỵ nước Nocardioform bám vào bọt khí mịn khi nước thải chứa nhiều dầu mỡ, được kiểm soát bằng cách vớt xả bùn bề mặt, phun dung dịch clo, tách dầu mỡ đầu vào và châm polymer cation [Page 19] [Page 20].",
+            "Hiện tượng trồi bùn xảy ra ở bể lắng thứ cấp khi quá trình khử nitrat sinh ra các bọt khí nitơ $\\text{N}_2$ làm bùn nổi lên mặt nước, được khắc phục bằng cách tăng lưu lượng bùn tuần hoàn RAS, giảm lưu lượng khí hoặc bố trí bể thiếu khí trước bể hiếu khí [Page 21]."
+          ],
+          "brief": [
+            "Ba sự cố vận hành bùn hoạt tính quan trọng nhất trên Slide 67 đến Slide 74 là hiện tượng bung bùn (Sludge Bulking), nổi bọt (Sludge Foaming) và trồi bùn (Sludge Rising) [Page 17] [Page 18] [Page 19] [Page 20] [Page 21].",
+            "Hiện tượng bung bùn xảy ra khi vi khuẩn dạng sợi phát triển vươn dài ra ngoài bông bùn khiến bùn khó lắng với chỉ số $\\text{SVI} > 150\\text{ mL/g}$ (bùn lắng tốt có $\\text{SVI} = 90\\text{–}120\\text{ mL/g}$), được khắc phục bằng cách duy trì $\\text{DO} > 2\\text{ mg/L}$, điều chỉnh $F/M$ và lắp đặt bể chọn lọc sinh học (Selector tank) [Page 17] [Page 18] [Page 19]."
+          ],
+          "evidence": [
+            0,
+            1
+          ],
+          "key": "Ba sự cố bùn hoạt tính gồm bung bùn, nổi bọt và trồi bùn. Hiện tượng bung bùn khi $\\text{SVI} > 150\\text{ mL/g}$ được khắc phục bằng duy trì $\\text{DO} > 2\\text{ mg/L}$.",
+          "takeaway": "Ba sự cố bùn hoạt tính gồm bung bùn, nổi bọt và trồi bùn",
+          "topic": "sự cố bùn"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-lời-giải-chi-tiết-các-bài-tập-thiết-kế-trong-slide-chương-6-worked-design-exercises-in-chapter-6",
+      "num": "4",
+      "title": "Lời giải chi tiết các bài tập thiết kế trong Slide Chương 6 (Worked Design Exercises in Chapter 6)",
+      "depth": 1,
+      "takeaway": "",
+      "topic": "",
+      "units": []
+    },
+    {
+      "id": "sec-bài-tập-ch06_ex01-slide-1617-thiết-kế-bể-bùn-hoạt-tính-khuấy-trộn-hoàn-toàn-cmas-chỉ-khử-bod",
+      "num": "",
+      "title": "Bài tập ch06_ex01 (Slide 16–17): Thiết kế bể bùn hoạt tính khuấy trộn hoàn toàn (CMAS) chỉ khử BOD",
+      "depth": 2,
+      "takeaway": "Thiết kế bể hiếu khí chỉ khử $\\text{BOD}$ đạt thể tích $V = 4,445\\text{ m}^3$",
+      "topic": "Thiết kế bể",
+      "units": [
+        {
+          "id": "p-37bb37e5",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể bùn hoạt tính khuấy trộn hoàn toàn (CMAS) chỉ khử $\\text{BOD}$ cho lưu lượng $Q = 22,700\\text{ m}^3/\\text{ngày}$ ở nhiệt độ $T = 12^\\circ\\text{C}$, thời gian lưu bùn $\\text{SRT} = 5\\text{ ngày}$, nồng độ $\\text{MLSS}$ $X_{\\text{TSS}} = 3,000\\text{ g/m}^3$, chiều sâu nước $H = 4.9\\text{ m}$, chiều sâu đặt đĩa phân phối khí $D_f = 4.4\\text{ m}$, nồng độ oxy hòa tan $C = 2.0\\text{ g/m}^3$, cao trình $z = 500\\text{ m}$ để đạt chất lượng nước sau xử lý $\\text{BOD}_e \\le 30\\text{ g/m}^3$ và $\\text{TSS}_e \\le 15\\text{ g/m}^3$ [Page 8] [Page 9].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể bùn hoạt tính khuấy trộn hoàn toàn (CMAS) chỉ khử $\\text{BOD}$ cho lưu lượng $Q = 22,700\\text{ m}^3/\\text{ngày}$ ở nhiệt độ $T = 12^\\circ\\text{C}$, thời gian lưu bùn $\\text{SRT} = 5\\text{ ngày}$, nồng độ $\\text{MLSS}$ $X_{\\text{TSS}} = 3,000\\text{ g/m}^3$, chiều sâu nước $H = 4.9\\text{ m}$, chiều sâu đặt đĩa phân phối khí $D_f = 4.4\\text{ m}$, nồng độ oxy hòa tan $C = 2.0\\text{ g/m}^3$, cao trình $z = 500\\text{ m}$ để đạt chất lượng nước sau xử lý $\\text{BOD}_e \\le 30\\text{ g/m}^3$ và $\\text{TSS}_e \\le 15\\text{ g/m}^3$ [Page 8] [Page 9]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể bùn hoạt tính khuấy trộn hoàn toàn (CMAS) chỉ khử $\\text{BOD}$ cho lưu lượng $Q = 22,700\\text{ m}^3/\\text{ngày}$ ở nhiệt độ $T = 12^\\circ\\text{C}$, thời gian lưu bùn $\\text{SRT} = 5\\text{ ngày}$, nồng độ $\\text{MLSS}$ $X_{\\text{TSS}} = 3,000\\text{ g/m}^3$, chiều sâu nước $H = 4.9\\text{ m}$, chiều sâu đặt đĩa phân phối khí $D_f = 4.4\\text{ m}$, nồng độ oxy hòa tan $C = 2.0\\text{ g/m}^3$, cao trình $z = 500\\text{ m}$ để đạt chất lượng nước sau xử lý $\\text{BOD}_e \\le 30\\text{ g/m}^3$ và $\\text{TSS}_e \\le 15\\text{ g/m}^3$ [Page 8] [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài thiết kế bể hiếu khí cho $Q = 22,700\\text{ m}^3/\\text{ngày}$ tại $\\text{SRT} = 5\\text{ ngày}$.",
+          "takeaway": "Đề bài thiết kế bể hiếu khí cho $Q = 22,700\\text{ m}^3/\\text{ngày}$ tại $\\text{SRT} = 5\\text{ ngày}$",
+          "topic": "Đề bài thiết kế"
+        },
+        {
+          "id": "p-4ef3aebb",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Phân tích các thành phần cơ chất và chất rắn đầu vào: Từ bảng thành phần nước thải trên Slide 16, nồng độ cơ chất dễ phân hủy sinh học đạt $S_0 = 224\\text{ g/m}^3$, nồng độ chất rắn bay hơi không phân hủy sinh học đạt $\\text{nbVSS} = 20\\text{ g/m}^3$ và chất rắn vô cơ trơ đạt $\\text{iTSS} = 10\\text{ g/m}^3$ [Page 8].",
+          "sentences": [
+            "Bước 1 - Phân tích các thành phần cơ chất và chất rắn đầu vào: Từ bảng thành phần nước thải trên Slide 16, nồng độ cơ chất dễ phân hủy sinh học đạt $S_0 = 224\\text{ g/m}^3$, nồng độ chất rắn bay hơi không phân hủy sinh học đạt $\\text{nbVSS} = 20\\text{ g/m}^3$ và chất rắn vô cơ trơ đạt $\\text{iTSS} = 10\\text{ g/m}^3$ [Page 8]."
+          ],
+          "brief": [
+            "Bước 1 - Phân tích các thành phần cơ chất và chất rắn đầu vào: Từ bảng thành phần nước thải trên Slide 16, nồng độ cơ chất dễ phân hủy sinh học đạt $S_0 = 224\\text{ g/m}^3$, nồng độ chất rắn bay hơi không phân hủy sinh học đạt $\\text{nbVSS} = 20\\text{ g/m}^3$ và chất rắn vô cơ trơ đạt $\\text{iTSS} = 10\\text{ g/m}^3$ [Page 8]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thành phần đầu vào có $S_0 = 224\\text{ g/m}^3$, $\\text{nbVSS} = 20\\text{ g/m}^3$ và $\\text{iTSS} = 10\\text{ g/m}^3$.",
+          "takeaway": "Thành phần đầu vào có $S_0 = 224\\text{ g/m}^3$, $\\text{nbVSS} = 20\\text{ g/m}^3$ và $\\text{iTSS} = 10\\text{ g/m}^3$",
+          "topic": "Thành phần đầu vào"
+        },
+        {
+          "id": "p-eee3f265",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Hiệu chỉnh hệ số động học ở nhiệt độ $T = 12^\\circ\\text{C}$ và tính cơ chất hòa tan đầu ra: Quy đổi các hệ số động học từ $20^\\circ\\text{C}$ về $12^\\circ\\text{C}$ theo phương trình trên Slide 13 và Slide 14 cho $\\mu_{m,12} = 3.5\\text{ g/g}\\cdot\\text{d}$, $b_{H,12} = 0.088\\text{ g/g}\\cdot\\text{d}$ và nồng độ cơ chất hòa tan đầu ra ở $\\text{SRT} = 5\\text{ ngày}$ là $S = 0.72\\text{ g/m}^3$ [Page 7] [Page 9].",
+          "sentences": [
+            "Bước 2 - Hiệu chỉnh hệ số động học ở nhiệt độ $T = 12^\\circ\\text{C}$ và tính cơ chất hòa tan đầu ra: Quy đổi các hệ số động học từ $20^\\circ\\text{C}$ về $12^\\circ\\text{C}$ theo phương trình trên Slide 13 và Slide 14 cho $\\mu_{m,12} = 3.5\\text{ g/g}\\cdot\\text{d}$, $b_{H,12} = 0.088\\text{ g/g}\\cdot\\text{d}$ và nồng độ cơ chất hòa tan đầu ra ở $\\text{SRT} = 5\\text{ ngày}$ là $S = 0.72\\text{ g/m}^3$ [Page 7] [Page 9]."
+          ],
+          "brief": [
+            "Bước 2 - Hiệu chỉnh hệ số động học ở nhiệt độ $T = 12^\\circ\\text{C}$ và tính cơ chất hòa tan đầu ra: Quy đổi các hệ số động học từ $20^\\circ\\text{C}$ về $12^\\circ\\text{C}$ theo phương trình trên Slide 13 và Slide 14 cho $\\mu_{m,12} = 3.5\\text{ g/g}\\cdot\\text{d}$, $b_{H,12} = 0.088\\text{ g/g}\\cdot\\text{d}$ và nồng độ cơ chất hòa tan đầu ra ở $\\text{SRT} = 5\\text{ ngày}$ là $S = 0.72\\text{ g/m}^3$ [Page 7] [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hiệu chỉnh động học ở $12^\\circ\\text{C}$ cho nồng độ cơ chất đầu ra $S = 0.72\\text{ g/m}^3$.",
+          "takeaway": "Hiệu chỉnh động học ở $12^\\circ\\text{C}$ cho nồng độ cơ chất đầu ra $S = 0.72\\text{ g/m}^3$",
+          "topic": "Hiệu chỉnh động học"
+        },
+        {
+          "id": "p-38a6f88d",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính sản lượng sinh khối hoạt tính và tổng lượng bùn dư mỗi ngày: Áp dụng phương trình sản lượng bùn trên Slide 13 cho lượng sinh khối hoạt tính $P_{X,\\text{bio}} = 1,688.2\\text{ kg/d}$, sản lượng chất rắn bay hơi $P_{X,\\text{VSS}} = 2,142.2\\text{ kg/d}$ và tổng sản lượng chất rắn lơ lửng $P_{X,\\text{TSS}} = 2,667.1\\text{ kg/d}$ [Page 7].",
+          "sentences": [
+            "Bước 3 - Tính sản lượng sinh khối hoạt tính và tổng lượng bùn dư mỗi ngày: Áp dụng phương trình sản lượng bùn trên Slide 13 cho lượng sinh khối hoạt tính $P_{X,\\text{bio}} = 1,688.2\\text{ kg/d}$, sản lượng chất rắn bay hơi $P_{X,\\text{VSS}} = 2,142.2\\text{ kg/d}$ và tổng sản lượng chất rắn lơ lửng $P_{X,\\text{TSS}} = 2,667.1\\text{ kg/d}$ [Page 7]."
+          ],
+          "brief": [
+            "Bước 3 - Tính sản lượng sinh khối hoạt tính và tổng lượng bùn dư mỗi ngày: Áp dụng phương trình sản lượng bùn trên Slide 13 cho lượng sinh khối hoạt tính $P_{X,\\text{bio}} = 1,688.2\\text{ kg/d}$, sản lượng chất rắn bay hơi $P_{X,\\text{VSS}} = 2,142.2\\text{ kg/d}$ và tổng sản lượng chất rắn lơ lửng $P_{X,\\text{TSS}} = 2,667.1\\text{ kg/d}$ [Page 7]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sản lượng bùn hoạt tính đạt $P_{X,\\text{VSS}} = 2,142.2\\text{ kg/d}$ và $P_{X,\\text{TSS}} = 2,667.1\\text{ kg/d}$.",
+          "takeaway": "Sản lượng bùn hoạt tính đạt $P_{X,\\text{VSS}} = 2,142.2\\text{ kg/d}$ và $P_{X,\\text{TSS}} = 2,667.1\\text{ kg/d}$",
+          "topic": "Sản lượng bùn"
+        },
+        {
+          "id": "p-9c8ef2bb",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Xác định khối lượng bùn, thể tích bể hiếu khí và các thông số tải trọng: Tại $\\text{SRT} = 5\\text{ ngày}$ và nồng độ $X_{\\text{TSS}} = 3,000\\text{ g/m}^3$, tổng khối lượng bùn trong bể đạt $\\text{Mass}_{\\text{TSS}} = 13,336\\text{ kg}$, thể tích bể hiếu khí đạt $V = 4,445\\text{ m}^3$, thời gian lưu nước $\\text{HRT} = 4.70\\text{ h}$, tỷ số $F/M = 0.30\\text{ kg/kg}\\cdot\\text{d}$ và tải trọng hữu cơ $L_{\\text{org}} = 0.71\\text{ kg/m}^3\\cdot\\text{d}$ [Page 7] [Page 16].",
+          "sentences": [
+            "Bước 4 - Xác định khối lượng bùn, thể tích bể hiếu khí và các thông số tải trọng: Tại $\\text{SRT} = 5\\text{ ngày}$ và nồng độ $X_{\\text{TSS}} = 3,000\\text{ g/m}^3$, tổng khối lượng bùn trong bể đạt $\\text{Mass}_{\\text{TSS}} = 13,336\\text{ kg}$, thể tích bể hiếu khí đạt $V = 4,445\\text{ m}^3$, thời gian lưu nước $\\text{HRT} = 4.70\\text{ h}$, tỷ số $F/M = 0.30\\text{ kg/kg}\\cdot\\text{d}$ và tải trọng hữu cơ $L_{\\text{org}} = 0.71\\text{ kg/m}^3\\cdot\\text{d}$ [Page 7] [Page 16]."
+          ],
+          "brief": [
+            "Bước 4 - Xác định khối lượng bùn, thể tích bể hiếu khí và các thông số tải trọng: Tại $\\text{SRT} = 5\\text{ ngày}$ và nồng độ $X_{\\text{TSS}} = 3,000\\text{ g/m}^3$, tổng khối lượng bùn trong bể đạt $\\text{Mass}_{\\text{TSS}} = 13,336\\text{ kg}$, thể tích bể hiếu khí đạt $V = 4,445\\text{ m}^3$, thời gian lưu nước $\\text{HRT} = 4.70\\text{ h}$, tỷ số $F/M = 0.30\\text{ kg/kg}\\cdot\\text{d}$ và tải trọng hữu cơ $L_{\\text{org}} = 0.71\\text{ kg/m}^3\\cdot\\text{d}$ [Page 7] [Page 16]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể hiếu khí đạt $V = 4,445\\text{ m}^3$ với $\\text{HRT} = 4.70\\text{ h}$.",
+          "takeaway": "Thể tích bể hiếu khí đạt $V = 4,445\\text{ m}^3$ với $\\text{HRT} = 4.70\\text{ h}$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-a1c1a2b6",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 5 - Tính nhu cầu oxy thực tế, tốc độ truyền oxy tiêu chuẩn và lưu lượng khí cấp: Lượng oxy tiêu thụ để oxy hóa chất hữu cơ đạt $R_o = 2,671.3\\text{ kg O}_2/\\text{d}$ ($\\text{OTR}_f = 111.3\\text{ kg O}_2/\\text{h}$), quy đổi theo Slide 11 và Slide 12 ở cao trình $z = 500\\text{ m}$ cho $\\text{SOTR} = 342.5\\text{ kg O}_2/\\text{h}$ và lưu lượng khí cấp ở hiệu suất $E = 30\\%$ đạt $Q_{\\text{air}} = 70.5\\text{ m}^3/\\text{min}$ [Page 6].",
+          "sentences": [
+            "Bước 5 - Tính nhu cầu oxy thực tế, tốc độ truyền oxy tiêu chuẩn và lưu lượng khí cấp: Lượng oxy tiêu thụ để oxy hóa chất hữu cơ đạt $R_o = 2,671.3\\text{ kg O}_2/\\text{d}$ ($\\text{OTR}_f = 111.3\\text{ kg O}_2/\\text{h}$), quy đổi theo Slide 11 và Slide 12 ở cao trình $z = 500\\text{ m}$ cho $\\text{SOTR} = 342.5\\text{ kg O}_2/\\text{h}$ và lưu lượng khí cấp ở hiệu suất $E = 30\\%$ đạt $Q_{\\text{air}} = 70.5\\text{ m}^3/\\text{min}$ [Page 6]."
+          ],
+          "brief": [
+            "Bước 5 - Tính nhu cầu oxy thực tế, tốc độ truyền oxy tiêu chuẩn và lưu lượng khí cấp: Lượng oxy tiêu thụ để oxy hóa chất hữu cơ đạt $R_o = 2,671.3\\text{ kg O}_2/\\text{d}$ ($\\text{OTR}_f = 111.3\\text{ kg O}_2/\\text{h}$), quy đổi theo Slide 11 và Slide 12 ở cao trình $z = 500\\text{ m}$ cho $\\text{SOTR} = 342.5\\text{ kg O}_2/\\text{h}$ và lưu lượng khí cấp ở hiệu suất $E = 30\\%$ đạt $Q_{\\text{air}} = 70.5\\text{ m}^3/\\text{min}$ [Page 6]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tốc độ truyền oxy chuẩn đạt $\\text{SOTR} = 342.5\\text{ kg O}_2/\\text{h}$ và $Q_{\\text{air}} = 70.5\\text{ m}^3/\\text{min}$.",
+          "takeaway": "Tốc độ truyền oxy chuẩn đạt $\\text{SOTR} = 342.5\\text{ kg O}_2/\\text{h}$ và $Q_{\\text{air}} = 70.5\\text{ m}^3/\\text{min}$",
+          "topic": "Tốc độ truyền oxy"
+        },
+        {
+          "id": "p-47659d61",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số thiết kế thỏa mãn hoàn toàn tiêu chuẩn bài giảng. Các thông số vận hành nằm trong dải tiêu chuẩn thiết kế.",
+          "takeaway": "Tổng hợp đáp số thiết kế thỏa mãn hoàn toàn tiêu chuẩn bài giảng",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-aad88d40",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ $\\text{bCOD}$ hòa tan đầu ra ($S$): $0.72\\text{ g/m}^3$ (Kiểm tra: $\\text{sBOD}_e = 0.45\\text{ g/m}^3 \\le 30\\text{ g/m}^3\\text{ — Đạt chuẩn Slide 16}$)",
+          "sentences": [
+            "Nồng độ $\\text{bCOD}$ hòa tan đầu ra ($S$): $0.72\\text{ g/m}^3$ (Kiểm tra: $\\text{sBOD}_e = 0.45\\text{ g/m}^3 \\le 30\\text{ g/m}^3\\text{ — Đạt chuẩn Slide 16}$)"
+          ],
+          "brief": [
+            "Nồng độ $\\text{bCOD}$ hòa tan đầu ra ($S$): $0.72\\text{ g/m}^3$ (Kiểm tra: $\\text{sBOD}_e = 0.45\\text{ g/m}^3 \\le 30\\text{ g/m}^3\\text{ — Đạt chuẩn Slide 16}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ cơ chất hòa tan đầu ra đạt $S = 0.72\\text{ g/m}^3$.",
+          "takeaway": "Nồng độ cơ chất hòa tan đầu ra đạt $S = 0.72\\text{ g/m}^3$",
+          "topic": "Nồng độ cơ chất"
+        },
+        {
+          "id": "p-339d51d4",
+          "kind": "list item",
+          "role": "result",
+          "full": "Sản lượng sinh khối và bùn dư ($P_{X,\\text{bio}}, P_{X,\\text{VSS}}, P_{X,\\text{TSS}}$): $1,688.2\\text{ kg/d}$, $2,142.2\\text{ kg/d}$ và $2,667.1\\text{ kg/d}$ (Kiểm tra: $\\text{MLVSS}/\\text{MLSS} = 0.803\\text{ — Đạt chuẩn Slide 13}$)",
+          "sentences": [
+            "Sản lượng sinh khối và bùn dư ($P_{X,\\text{bio}}, P_{X,\\text{VSS}}, P_{X,\\text{TSS}}$): $1,688.2\\text{ kg/d}$, $2,142.2\\text{ kg/d}$ và $2,667.1\\text{ kg/d}$ (Kiểm tra: $\\text{MLVSS}/\\text{MLSS} = 0.803\\text{ — Đạt chuẩn Slide 13}$)"
+          ],
+          "brief": [
+            "Sản lượng sinh khối và bùn dư ($P_{X,\\text{bio}}, P_{X,\\text{VSS}}, P_{X,\\text{TSS}}$): $1,688.2\\text{ kg/d}$, $2,142.2\\text{ kg/d}$ và $2,667.1\\text{ kg/d}$ (Kiểm tra: $\\text{MLVSS}/\\text{MLSS} = 0.803\\text{ — Đạt chuẩn Slide 13}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng sản lượng bùn dư đạt $P_{X,\\text{TSS}} = 2,667.1\\text{ kg/d}$.",
+          "takeaway": "Tổng sản lượng bùn dư đạt $P_{X,\\text{TSS}} = 2,667.1\\text{ kg/d}$",
+          "topic": "sản lượng bùn dư"
+        },
+        {
+          "id": "p-24abf566",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể hiếu khí và thời gian lưu nước ($V, \\text{HRT}$): $4,445\\text{ m}^3$ và $4.70\\text{ h}$ (Kiểm tra: $\\text{HRT} = 4.70\\text{ h} \\in [3, 6]\\text{ h — Đạt chuẩn Slide 65}$)",
+          "sentences": [
+            "Thể tích bể hiếu khí và thời gian lưu nước ($V, \\text{HRT}$): $4,445\\text{ m}^3$ và $4.70\\text{ h}$ (Kiểm tra: $\\text{HRT} = 4.70\\text{ h} \\in [3, 6]\\text{ h — Đạt chuẩn Slide 65}$)"
+          ],
+          "brief": [
+            "Thể tích bể hiếu khí và thời gian lưu nước ($V, \\text{HRT}$): $4,445\\text{ m}^3$ và $4.70\\text{ h}$ (Kiểm tra: $\\text{HRT} = 4.70\\text{ h} \\in [3, 6]\\text{ h — Đạt chuẩn Slide 65}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể phản ứng đạt $V = 4,445\\text{ m}^3$ và $\\text{HRT} = 4.70\\text{ h}$.",
+          "takeaway": "Thể tích bể phản ứng đạt $V = 4,445\\text{ m}^3$ và $\\text{HRT} = 4.70\\text{ h}$",
+          "topic": "Thể tích bể phản ứng"
+        },
+        {
+          "id": "p-96ae28c2",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ số thức ăn trên vi sinh vật và tải trọng hữu cơ ($F/M, L_{\\text{org}}$): $0.30\\text{ kg BOD/kg MLVSS}\\cdot\\text{d}$ và $0.71\\text{ kg BOD/m}^3\\cdot\\text{d}$ (Kiểm tra: $F/M \\in [0.2, 0.6]$ và $L_{\\text{org}} \\in [0.3, 1.6]\\text{ — Đạt chuẩn Slide 65}$)",
+          "sentences": [
+            "Tỷ số thức ăn trên vi sinh vật và tải trọng hữu cơ ($F/M, L_{\\text{org}}$): $0.30\\text{ kg BOD/kg MLVSS}\\cdot\\text{d}$ và $0.71\\text{ kg BOD/m}^3\\cdot\\text{d}$ (Kiểm tra: $F/M \\in [0.2, 0.6]$ và $L_{\\text{org}} \\in [0.3, 1.6]\\text{ — Đạt chuẩn Slide 65}$)"
+          ],
+          "brief": [
+            "Tỷ số thức ăn trên vi sinh vật và tải trọng hữu cơ ($F/M, L_{\\text{org}}$): $0.30\\text{ kg BOD/kg MLVSS}\\cdot\\text{d}$ và $0.71\\text{ kg BOD/m}^3\\cdot\\text{d}$ (Kiểm tra: $F/M \\in [0.2, 0.6]$ và $L_{\\text{org}} \\in [0.3, 1.6]\\text{ — Đạt chuẩn Slide 65}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ số thức ăn đạt $F/M = 0.30\\text{ d}^{-1}$ và $L_{\\text{org}} = 0.71\\text{ kg/m}^3\\cdot\\text{d}$.",
+          "takeaway": "Tỷ số thức ăn đạt $F/M = 0.30\\text{ d}^{-1}$ và $L_{\\text{org}} = 0.71\\text{ kg/m}^3\\cdot\\text{d}$",
+          "topic": "Tỷ số thức ăn"
+        },
+        {
+          "id": "p-6e9fe9d4",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tốc độ truyền oxy tiêu chuẩn và lưu lượng khí cấp ($\\text{SOTR}, Q_{\\text{air}}$): $342.5\\text{ kg O}_2/\\text{h}$ và $70.5\\text{ m}^3/\\text{min}$ (Kiểm tra: $E = 30\\% \\in [25\\%, 40\\%]\\text{ — Đạt chuẩn Slide 11}$)",
+          "sentences": [
+            "Tốc độ truyền oxy tiêu chuẩn và lưu lượng khí cấp ($\\text{SOTR}, Q_{\\text{air}}$): $342.5\\text{ kg O}_2/\\text{h}$ và $70.5\\text{ m}^3/\\text{min}$ (Kiểm tra: $E = 30\\% \\in [25\\%, 40\\%]\\text{ — Đạt chuẩn Slide 11}$)"
+          ],
+          "brief": [
+            "Tốc độ truyền oxy tiêu chuẩn và lưu lượng khí cấp ($\\text{SOTR}, Q_{\\text{air}}$): $342.5\\text{ kg O}_2/\\text{h}$ và $70.5\\text{ m}^3/\\text{min}$ (Kiểm tra: $E = 30\\% \\in [25\\%, 40\\%]\\text{ — Đạt chuẩn Slide 11}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng khí cấp đạt $Q_{\\text{air}} = 70.5\\text{ m}^3/\\text{min}$ tại $E = 30\\%$.",
+          "takeaway": "Lưu lượng khí cấp đạt $Q_{\\text{air}} = 70.5\\text{ m}^3/\\text{min}$ tại $E = 30\\%$",
+          "topic": "Lưu lượng khí cấp"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch06_ex02-slide-26-thiết-kế-bể-bùn-hoạt-tính-khuấy-trộn-hoàn-toàn-cmas-kết-hợp-khử-bod-và-nitrat-hóa",
+      "num": "",
+      "title": "Bài tập ch06_ex02 (Slide 26): Thiết kế bể bùn hoạt tính khuấy trộn hoàn toàn (CMAS) kết hợp khử BOD và nitrat hóa",
+      "depth": 2,
+      "takeaway": "Thiết kế bể hiếu khí kết hợp nitrat hóa đạt $\\text{SRT} = 21\\text{ d}$ và $V = 13,418\\text{ m}^3$",
+      "topic": "kết hợp nitrat hóa",
+      "units": [
+        {
+          "id": "p-49ae2768",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể bùn hoạt tính khuấy trộn hoàn toàn (CMAS) kết hợp khử $\\text{BOD}$ và nitrat hóa với cùng thông số nước thải đầu vào như Bài tập ch06_ex01 ($Q = 22,700\\text{ m}^3/\\text{ngày}$, $T = 12^\\circ\\text{C}$, $X_{\\text{TSS}} = 3,000\\text{ g/m}^3$, $\\text{DO} = 2.0\\text{ g/m}^3$, $z = 500\\text{ m}$), nhưng đổi hệ số truyền oxy $\\alpha = 0.65$ và chọn lại thời gian lưu bùn $\\text{SRT}$ để đạt nồng độ amoni đầu ra $N_e = \\text{NH}_4\\text{-N} = 0.5\\text{ g/m}^3$, khớp hoàn toàn với bộ đáp số trung gian công bố tại Slide 43 [Page 9] [Page 12].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể bùn hoạt tính khuấy trộn hoàn toàn (CMAS) kết hợp khử $\\text{BOD}$ và nitrat hóa với cùng thông số nước thải đầu vào như Bài tập ch06_ex01 ($Q = 22,700\\text{ m}^3/\\text{ngày}$, $T = 12^\\circ\\text{C}$, $X_{\\text{TSS}} = 3,000\\text{ g/m}^3$, $\\text{DO} = 2.0\\text{ g/m}^3$, $z = 500\\text{ m}$), nhưng đổi hệ số truyền oxy $\\alpha = 0.65$ và chọn lại thời gian lưu bùn $\\text{SRT}$ để đạt nồng độ amoni đầu ra $N_e = \\text{NH}_4\\text{-N} = 0.5\\text{ g/m}^3$, khớp hoàn toàn với bộ đáp số trung gian công bố tại Slide 43 [Page 9] [Page 12]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế bể bùn hoạt tính khuấy trộn hoàn toàn (CMAS) kết hợp khử $\\text{BOD}$ và nitrat hóa với cùng thông số nước thải đầu vào như Bài tập ch06_ex01 ($Q = 22,700\\text{ m}^3/\\text{ngày}$, $T = 12^\\circ\\text{C}$, $X_{\\text{TSS}} = 3,000\\text{ g/m}^3$, $\\text{DO} = 2.0\\text{ g/m}^3$, $z = 500\\text{ m}$), nhưng đổi hệ số truyền oxy $\\alpha = 0.65$ và chọn lại thời gian lưu bùn $\\text{SRT}$ để đạt nồng độ amoni đầu ra $N_e = \\text{NH}_4\\text{-N} = 0.5\\text{ g/m}^3$, khớp hoàn toàn với bộ đáp số trung gian công bố tại Slide 43 [Page 9] [Page 12]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài thiết kế bể hiếu khí nitrat hóa đạt $N_e = 0.5\\text{ g/m}^3$ với $\\alpha = 0.65$.",
+          "takeaway": "Đề bài thiết kế bể hiếu khí nitrat hóa đạt $N_e = 0.5\\text{ g/m}^3$ với $\\alpha = 0.65$",
+          "topic": "bể hiếu khí"
+        },
+        {
+          "id": "p-0ad36105",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Xác định tốc độ sinh trưởng riêng của vi khuẩn nitrat hóa và chọn $\\text{SRT}$ thiết kế: Tại nhiệt độ $T = 12^\\circ\\text{C}$, quy đổi các hệ số động học nitrat hóa từ Slide 14 được $\\mu_{nm,12} = 0.516\\text{ g/g}\\cdot\\text{d}$ và $b_{n,12} = 0.135\\text{ g/g}\\cdot\\text{d}$, từ đó tốc độ sinh trưởng riêng đạt $\\mu_n = 0.0714\\text{ d}^{-1}$, thời gian lưu bùn tối thiểu là $\\text{SRT}_{\\min} = 14.0\\text{ ngày}$ và thời gian lưu bùn thiết kế với hệ số an toàn $\\text{SF} = 1.5$ là $\\text{SRT} = 21\\text{ ngày}$ [Page 7] [Page 9].",
+          "sentences": [
+            "Bước 1 - Xác định tốc độ sinh trưởng riêng của vi khuẩn nitrat hóa và chọn $\\text{SRT}$ thiết kế: Tại nhiệt độ $T = 12^\\circ\\text{C}$, quy đổi các hệ số động học nitrat hóa từ Slide 14 được $\\mu_{nm,12} = 0.516\\text{ g/g}\\cdot\\text{d}$ và $b_{n,12} = 0.135\\text{ g/g}\\cdot\\text{d}$, từ đó tốc độ sinh trưởng riêng đạt $\\mu_n = 0.0714\\text{ d}^{-1}$, thời gian lưu bùn tối thiểu là $\\text{SRT}_{\\min} = 14.0\\text{ ngày}$ và thời gian lưu bùn thiết kế với hệ số an toàn $\\text{SF} = 1.5$ là $\\text{SRT} = 21\\text{ ngày}$ [Page 7] [Page 9]."
+          ],
+          "brief": [
+            "Bước 1 - Xác định tốc độ sinh trưởng riêng của vi khuẩn nitrat hóa và chọn $\\text{SRT}$ thiết kế: Tại nhiệt độ $T = 12^\\circ\\text{C}$, quy đổi các hệ số động học nitrat hóa từ Slide 14 được $\\mu_{nm,12} = 0.516\\text{ g/g}\\cdot\\text{d}$ và $b_{n,12} = 0.135\\text{ g/g}\\cdot\\text{d}$, từ đó tốc độ sinh trưởng riêng đạt $\\mu_n = 0.0714\\text{ d}^{-1}$, thời gian lưu bùn tối thiểu là $\\text{SRT}_{\\min} = 14.0\\text{ ngày}$ và thời gian lưu bùn thiết kế với hệ số an toàn $\\text{SF} = 1.5$ là $\\text{SRT} = 21\\text{ ngày}$ [Page 7] [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thời gian lưu bùn tối thiểu đạt $\\text{SRT}_{\\min} = 14.0\\text{ d}$ và chọn $\\text{SRT} = 21\\text{ d}$.",
+          "takeaway": "Thời gian lưu bùn tối thiểu đạt $\\text{SRT}_{\\min} = 14.0\\text{ d}$ và chọn $\\text{SRT} = 21\\text{ d}$",
+          "topic": "Thời gian lưu bùn"
+        },
+        {
+          "id": "p-ae8e3670",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính nồng độ cơ chất hòa tan đầu ra và sản lượng sinh khối hoạt tính: Ở $\\text{SRT} = 21\\text{ ngày}$, nồng độ $\\text{bCOD}$ hòa tan đầu ra giảm xuống $S = 0.32\\text{ g/m}^3 \\approx 0.3\\text{ g/m}^3$, sản lượng sinh khối dị dưỡng đạt $P_{X,\\text{het}} = 1,024.76\\text{ kg/d}$ và sinh khối nitrat hóa đạt $P_{X,\\text{nit}} = 25.66\\text{ kg/d}$, cho tổng sinh khối hoạt tính $P_{X,\\text{bio}} = 1,050.4\\text{ kg/d}$ khớp tuyệt đối với Slide 43 [Page 7] [Page 12].",
+          "sentences": [
+            "Bước 2 - Tính nồng độ cơ chất hòa tan đầu ra và sản lượng sinh khối hoạt tính: Ở $\\text{SRT} = 21\\text{ ngày}$, nồng độ $\\text{bCOD}$ hòa tan đầu ra giảm xuống $S = 0.32\\text{ g/m}^3 \\approx 0.3\\text{ g/m}^3$, sản lượng sinh khối dị dưỡng đạt $P_{X,\\text{het}} = 1,024.76\\text{ kg/d}$ và sinh khối nitrat hóa đạt $P_{X,\\text{nit}} = 25.66\\text{ kg/d}$, cho tổng sinh khối hoạt tính $P_{X,\\text{bio}} = 1,050.4\\text{ kg/d}$ khớp tuyệt đối với Slide 43 [Page 7] [Page 12]."
+          ],
+          "brief": [
+            "Bước 2 - Tính nồng độ cơ chất hòa tan đầu ra và sản lượng sinh khối hoạt tính: Ở $\\text{SRT} = 21\\text{ ngày}$, nồng độ $\\text{bCOD}$ hòa tan đầu ra giảm xuống $S = 0.32\\text{ g/m}^3 \\approx 0.3\\text{ g/m}^3$, sản lượng sinh khối dị dưỡng đạt $P_{X,\\text{het}} = 1,024.76\\text{ kg/d}$ và sinh khối nitrat hóa đạt $P_{X,\\text{nit}} = 25.66\\text{ kg/d}$, cho tổng sinh khối hoạt tính $P_{X,\\text{bio}} = 1,050.4\\text{ kg/d}$ khớp tuyệt đối với Slide 43 [Page 7] [Page 12]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng sản lượng sinh khối hoạt tính đạt $P_{X,\\text{bio}} = 1,050.4\\text{ kg/d}$ tại $S = 0.3\\text{ g/m}^3$.",
+          "takeaway": "Tổng sản lượng sinh khối hoạt tính đạt $P_{X,\\text{bio}} = 1,050.4\\text{ kg/d}$ tại $S = 0.3\\text{ g/m}^3$",
+          "topic": "sinh khối hoạt tính"
+        },
+        {
+          "id": "p-adf24f6d",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Tính sản lượng bùn ngày, tổng khối lượng bùn và thể tích bể hiếu khí: Tổng sản lượng chất rắn bay hơi đạt $P_{X,\\text{VSS}} = 1,504.4\\text{ kg/d}$ và chất rắn lơ lửng đạt $P_{X,\\text{TSS}} = 1,916.8\\text{ kg/d}$, nhân với $\\text{SRT} = 21\\text{ ngày}$ cho $\\text{Mass}_{\\text{MLVSS}} = 31,592\\text{ kg}$, $\\text{Mass}_{\\text{MLSS}} = 40,253\\text{ kg}$ và thể tích bể hiếu khí $V = 13,418\\text{ m}^3$ ($\\text{HRT} = 14.2\\text{ h}$) [Page 7] [Page 12].",
+          "sentences": [
+            "Bước 3 - Tính sản lượng bùn ngày, tổng khối lượng bùn và thể tích bể hiếu khí: Tổng sản lượng chất rắn bay hơi đạt $P_{X,\\text{VSS}} = 1,504.4\\text{ kg/d}$ và chất rắn lơ lửng đạt $P_{X,\\text{TSS}} = 1,916.8\\text{ kg/d}$, nhân với $\\text{SRT} = 21\\text{ ngày}$ cho $\\text{Mass}_{\\text{MLVSS}} = 31,592\\text{ kg}$, $\\text{Mass}_{\\text{MLSS}} = 40,253\\text{ kg}$ và thể tích bể hiếu khí $V = 13,418\\text{ m}^3$ ($\\text{HRT} = 14.2\\text{ h}$) [Page 7] [Page 12]."
+          ],
+          "brief": [
+            "Bước 3 - Tính sản lượng bùn ngày, tổng khối lượng bùn và thể tích bể hiếu khí: Tổng sản lượng chất rắn bay hơi đạt $P_{X,\\text{VSS}} = 1,504.4\\text{ kg/d}$ và chất rắn lơ lửng đạt $P_{X,\\text{TSS}} = 1,916.8\\text{ kg/d}$, nhân với $\\text{SRT} = 21\\text{ ngày}$ cho $\\text{Mass}_{\\text{MLVSS}} = 31,592\\text{ kg}$, $\\text{Mass}_{\\text{MLSS}} = 40,253\\text{ kg}$ và thể tích bể hiếu khí $V = 13,418\\text{ m}^3$ ($\\text{HRT} = 14.2\\text{ h}$) [Page 7] [Page 12]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng khối lượng bùn đạt $\\text{Mass}_{\\text{MLSS}} = 40,253\\text{ kg}$ và thể tích $V = 13,418\\text{ m}^3$.",
+          "takeaway": "Tổng khối lượng bùn đạt $\\text{Mass}_{\\text{MLSS}} = 40,253\\text{ kg}$ và thể tích $V = 13,418\\text{ m}^3$",
+          "topic": "Tổng khối lượng bùn"
+        },
+        {
+          "id": "p-74b8d2b2",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính tổng nhu cầu oxy, lưu lượng khí cấp và lượng độ kiềm cần châm thêm: Tổng lượng oxy tiêu thụ cho cả khử $\\text{bCOD}$ và nitrat hóa đạt $R_o = 6,588.9\\text{ kg O}_2/\\text{d}$ ($\\text{OTR}_f = 274.5\\text{ kg O}_2/\\text{h}$), ứng với $\\text{SOTR} = 649.6\\text{ kg O}_2/\\text{h}$, lưu lượng khí cấp $Q_{\\text{air}} = 133.7\\text{ m}^3/\\text{min}$ và lượng độ kiềm cần bổ sung đạt $\\text{Alk}_{\\text{add}} = 146.7\\text{ g/m}^3\\text{ as CaCO}_3$ ($3,330\\text{ kg/d}$) [Page 6] [Page 9].",
+          "sentences": [
+            "Bước 4 - Tính tổng nhu cầu oxy, lưu lượng khí cấp và lượng độ kiềm cần châm thêm: Tổng lượng oxy tiêu thụ cho cả khử $\\text{bCOD}$ và nitrat hóa đạt $R_o = 6,588.9\\text{ kg O}_2/\\text{d}$ ($\\text{OTR}_f = 274.5\\text{ kg O}_2/\\text{h}$), ứng với $\\text{SOTR} = 649.6\\text{ kg O}_2/\\text{h}$, lưu lượng khí cấp $Q_{\\text{air}} = 133.7\\text{ m}^3/\\text{min}$ và lượng độ kiềm cần bổ sung đạt $\\text{Alk}_{\\text{add}} = 146.7\\text{ g/m}^3\\text{ as CaCO}_3$ ($3,330\\text{ kg/d}$) [Page 6] [Page 9]."
+          ],
+          "brief": [
+            "Bước 4 - Tính tổng nhu cầu oxy, lưu lượng khí cấp và lượng độ kiềm cần châm thêm: Tổng lượng oxy tiêu thụ cho cả khử $\\text{bCOD}$ và nitrat hóa đạt $R_o = 6,588.9\\text{ kg O}_2/\\text{d}$ ($\\text{OTR}_f = 274.5\\text{ kg O}_2/\\text{h}$), ứng với $\\text{SOTR} = 649.6\\text{ kg O}_2/\\text{h}$, lưu lượng khí cấp $Q_{\\text{air}} = 133.7\\text{ m}^3/\\text{min}$ và lượng độ kiềm cần bổ sung đạt $\\text{Alk}_{\\text{add}} = 146.7\\text{ g/m}^3\\text{ as CaCO}_3$ ($3,330\\text{ kg/d}$) [Page 6] [Page 9]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nhu cầu oxy đạt $R_o = 6,588.9\\text{ kg/d}$ và lưu lượng khí $Q_{\\text{air}} = 133.7\\text{ m}^3/\\text{min}$.",
+          "takeaway": "Nhu cầu oxy đạt $R_o = 6,588.9\\text{ kg/d}$ và lưu lượng khí $Q_{\\text{air}} = 133.7\\text{ m}^3/\\text{min}$",
+          "topic": "Nhu cầu oxy"
+        },
+        {
+          "id": "p-47659d61-2",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số nitrat hóa khớp tuyệt đối với số liệu chuẩn. Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn.",
+          "takeaway": "Tổng hợp đáp số nitrat hóa khớp tuyệt đối với số liệu chuẩn",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-28b36542",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thời gian lưu bùn thiết kế ($\\text{SRT}$): $21\\text{ ngày}$ (Kiểm tra: $\\text{SRT} = 21\\text{ d} > \\text{SRT}_{\\min} = 14.0\\text{ d}$ với $\\text{SF} = 1.5\\text{ — Đạt chuẩn Slide 15 và Slide 43}$)",
+          "sentences": [
+            "Thời gian lưu bùn thiết kế ($\\text{SRT}$): $21\\text{ ngày}$ (Kiểm tra: $\\text{SRT} = 21\\text{ d} > \\text{SRT}_{\\min} = 14.0\\text{ d}$ với $\\text{SF} = 1.5\\text{ — Đạt chuẩn Slide 15 và Slide 43}$)"
+          ],
+          "brief": [
+            "Thời gian lưu bùn thiết kế ($\\text{SRT}$): $21\\text{ ngày}$ (Kiểm tra: $\\text{SRT} = 21\\text{ d} > \\text{SRT}_{\\min} = 14.0\\text{ d}$ với $\\text{SF} = 1.5\\text{ — Đạt chuẩn Slide 15 và Slide 43}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thời gian lưu bùn thiết kế đạt $\\text{SRT} = 21\\text{ ngày}$ với $\\text{SF} = 1.5$.",
+          "takeaway": "Thời gian lưu bùn thiết kế đạt $\\text{SRT} = 21\\text{ ngày}$ với $\\text{SF} = 1.5$",
+          "topic": "lưu bùn thiết kế"
+        },
+        {
+          "id": "p-217f0a3b",
+          "kind": "list item",
+          "role": "result",
+          "full": "Sản lượng bùn chuẩn ($P_{X,\\text{bio}}, P_{X,\\text{VSS}}, P_{X,\\text{TSS}}$): $1,050.4\\text{ kg/d}$, $1,504.4\\text{ kg/d}$ và $1,916.8\\text{ kg/d}$ (Kiểm tra: $\\text{Khớp 100\\% số liệu gốc trên Slide 43 — Đạt chuẩn Slide 43}$)",
+          "sentences": [
+            "Sản lượng bùn chuẩn ($P_{X,\\text{bio}}, P_{X,\\text{VSS}}, P_{X,\\text{TSS}}$): $1,050.4\\text{ kg/d}$, $1,504.4\\text{ kg/d}$ và $1,916.8\\text{ kg/d}$ (Kiểm tra: $\\text{Khớp 100\\% số liệu gốc trên Slide 43 — Đạt chuẩn Slide 43}$)"
+          ],
+          "brief": [
+            "Sản lượng bùn chuẩn ($P_{X,\\text{bio}}, P_{X,\\text{VSS}}, P_{X,\\text{TSS}}$): $1,050.4\\text{ kg/d}$, $1,504.4\\text{ kg/d}$ và $1,916.8\\text{ kg/d}$ (Kiểm tra: $\\text{Khớp 100\\% số liệu gốc trên Slide 43 — Đạt chuẩn Slide 43}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Sản lượng bùn chuẩn đạt $P_{X,\\text{VSS}} = 1,504.4\\text{ kg/d}$ và $P_{X,\\text{TSS}} = 1,916.8\\text{ kg/d}$.",
+          "takeaway": "Sản lượng bùn chuẩn đạt $P_{X,\\text{VSS}} = 1,504.4\\text{ kg/d}$ và $P_{X,\\text{TSS}} = 1,916.8\\text{ kg/d}$",
+          "topic": "Sản lượng bùn chuẩn"
+        },
+        {
+          "id": "p-23330942",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tổng khối lượng bùn và tỷ lệ bay hơi ($\\text{Mass}_{\\text{MLVSS}}, \\text{Mass}_{\\text{MLSS}}, f_{\\text{VSS}}$): $31,592\\text{ kg}$, $40,253\\text{ kg}$ và $0.785$ (Kiểm tra: $\\text{Khớp 100\\% số liệu gốc trên Slide 43 — Đạt chuẩn Slide 43}$)",
+          "sentences": [
+            "Tổng khối lượng bùn và tỷ lệ bay hơi ($\\text{Mass}_{\\text{MLVSS}}, \\text{Mass}_{\\text{MLSS}}, f_{\\text{VSS}}$): $31,592\\text{ kg}$, $40,253\\text{ kg}$ và $0.785$ (Kiểm tra: $\\text{Khớp 100\\% số liệu gốc trên Slide 43 — Đạt chuẩn Slide 43}$)"
+          ],
+          "brief": [
+            "Tổng khối lượng bùn và tỷ lệ bay hơi ($\\text{Mass}_{\\text{MLVSS}}, \\text{Mass}_{\\text{MLSS}}, f_{\\text{VSS}}$): $31,592\\text{ kg}$, $40,253\\text{ kg}$ và $0.785$ (Kiểm tra: $\\text{Khớp 100\\% số liệu gốc trên Slide 43 — Đạt chuẩn Slide 43}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Khối lượng bùn đạt $\\text{Mass}_{\\text{MLVSS}} = 31,592\\text{ kg}$ với tỷ lệ $f_{\\text{VSS}} = 0.785$.",
+          "takeaway": "Khối lượng bùn đạt $\\text{Mass}_{\\text{MLVSS}} = 31,592\\text{ kg}$ với tỷ lệ $f_{\\text{VSS}} = 0.785$",
+          "topic": "Khối lượng bùn"
+        },
+        {
+          "id": "p-fb4d4474",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể hiếu khí và thời gian lưu nước ($V, \\text{HRT}$): $13,418\\text{ m}^3$ và $14.2\\text{ h}$ (Kiểm tra: $F/M = 0.10\\text{ d}^{-1}$ và $L_{\\text{org}} = 0.24\\text{ kg/m}^3\\cdot\\text{d}\\text{ — Đạt chuẩn Slide 13}$)",
+          "sentences": [
+            "Thể tích bể hiếu khí và thời gian lưu nước ($V, \\text{HRT}$): $13,418\\text{ m}^3$ và $14.2\\text{ h}$ (Kiểm tra: $F/M = 0.10\\text{ d}^{-1}$ và $L_{\\text{org}} = 0.24\\text{ kg/m}^3\\cdot\\text{d}\\text{ — Đạt chuẩn Slide 13}$)"
+          ],
+          "brief": [
+            "Thể tích bể hiếu khí và thời gian lưu nước ($V, \\text{HRT}$): $13,418\\text{ m}^3$ và $14.2\\text{ h}$ (Kiểm tra: $F/M = 0.10\\text{ d}^{-1}$ và $L_{\\text{org}} = 0.24\\text{ kg/m}^3\\cdot\\text{d}\\text{ — Đạt chuẩn Slide 13}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể hiếu khí đạt $V = 13,418\\text{ m}^3$ và $\\text{HRT} = 14.2\\text{ h}$.",
+          "takeaway": "Thể tích bể hiếu khí đạt $V = 13,418\\text{ m}^3$ và $\\text{HRT} = 14.2\\text{ h}$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-92278f08",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nhu cầu oxy, tốc độ truyền oxy và lưu lượng khí ($R_o, \\text{SOTR}, Q_{\\text{air}}$): $6,588.9\\text{ kg O}_2/\\text{d}$, $649.6\\text{ kg O}_2/\\text{h}$ và $133.7\\text{ m}^3/\\text{min}$ (Kiểm tra: $\\alpha = 0.65 \\in [0.4, 0.8]\\text{ — Đạt chuẩn Slide 11}$)",
+          "sentences": [
+            "Nhu cầu oxy, tốc độ truyền oxy và lưu lượng khí ($R_o, \\text{SOTR}, Q_{\\text{air}}$): $6,588.9\\text{ kg O}_2/\\text{d}$, $649.6\\text{ kg O}_2/\\text{h}$ và $133.7\\text{ m}^3/\\text{min}$ (Kiểm tra: $\\alpha = 0.65 \\in [0.4, 0.8]\\text{ — Đạt chuẩn Slide 11}$)"
+          ],
+          "brief": [
+            "Nhu cầu oxy, tốc độ truyền oxy và lưu lượng khí ($R_o, \\text{SOTR}, Q_{\\text{air}}$): $6,588.9\\text{ kg O}_2/\\text{d}$, $649.6\\text{ kg O}_2/\\text{h}$ và $133.7\\text{ m}^3/\\text{min}$ (Kiểm tra: $\\alpha = 0.65 \\in [0.4, 0.8]\\text{ — Đạt chuẩn Slide 11}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tốc độ truyền oxy tiêu chuẩn đạt $\\text{SOTR} = 649.6\\text{ kg O}_2/\\text{h}$.",
+          "takeaway": "Tốc độ truyền oxy tiêu chuẩn đạt $\\text{SOTR} = 649.6\\text{ kg O}_2/\\text{h}$",
+          "topic": "Tốc độ truyền oxy"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch06_ex03-slide-43-thiết-kế-bể-phản-ứng-sinh-học-màng-mbr",
+      "num": "",
+      "title": "Bài tập ch06_ex03 (Slide 43): Thiết kế bể phản ứng sinh học màng (MBR)",
+      "depth": 2,
+      "takeaway": "Thiết kế cụm bể sinh học màng đạt $A_m = 59,115\\text{ m}^2$ và $V_{\\text{total}} = 3,667\\text{ m}^3$",
+      "topic": "bể sinh học màng",
+      "units": [
+        {
+          "id": "p-5ae58a38",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế hệ thống bể phản ứng sinh học màng (MBR) với cùng thông số nước thải đầu vào và kết quả sinh khối của Bài tập ch06_ex02 ($Q = 22,700\\text{ m}^3/\\text{ngày}$, $\\text{SRT} = 21\\text{ ngày}$, $P_{X,\\text{bio}} = 1,050.4\\text{ kg/d}$, $P_{X,\\text{VSS}} = 1,504.4\\text{ kg/d}$, $P_{X,\\text{TSS}} = 1,916.8\\text{ kg/d}$, $\\text{Mass}_{\\text{MLVSS}} = 31,592\\text{ kg}$, $\\text{Mass}_{\\text{MLSS}} = 40,253\\text{ kg}$, tỷ lệ $\\text{MLVSS}/\\text{MLSS} = 0.785$), biết tỷ số tuần hoàn bùn $R = 6$, nồng độ $\\text{MLSS}$ trong bể màng $X_m = 12,000\\text{ g/m}^3$, thông lượng màng $J_m = 16\\text{ L}/(\\text{m}^2\\cdot\\text{h})$ và tỷ lệ thể tích bể màng trên diện tích màng là $0.025\\text{ m}^3/\\text{m}^2$ [Page 10] [Page 11] [Page 12].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế hệ thống bể phản ứng sinh học màng (MBR) với cùng thông số nước thải đầu vào và kết quả sinh khối của Bài tập ch06_ex02 ($Q = 22,700\\text{ m}^3/\\text{ngày}$, $\\text{SRT} = 21\\text{ ngày}$, $P_{X,\\text{bio}} = 1,050.4\\text{ kg/d}$, $P_{X,\\text{VSS}} = 1,504.4\\text{ kg/d}$, $P_{X,\\text{TSS}} = 1,916.8\\text{ kg/d}$, $\\text{Mass}_{\\text{MLVSS}} = 31,592\\text{ kg}$, $\\text{Mass}_{\\text{MLSS}} = 40,253\\text{ kg}$, tỷ lệ $\\text{MLVSS}/\\text{MLSS} = 0.785$), biết tỷ số tuần hoàn bùn $R = 6$, nồng độ $\\text{MLSS}$ trong bể màng $X_m = 12,000\\text{ g/m}^3$, thông lượng màng $J_m = 16\\text{ L}/(\\text{m}^2\\cdot\\text{h})$ và tỷ lệ thể tích bể màng trên diện tích màng là $0.025\\text{ m}^3/\\text{m}^2$ [Page 10] [Page 11] [Page 12]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế hệ thống bể phản ứng sinh học màng (MBR) với cùng thông số nước thải đầu vào và kết quả sinh khối của Bài tập ch06_ex02 ($Q = 22,700\\text{ m}^3/\\text{ngày}$, $\\text{SRT} = 21\\text{ ngày}$, $P_{X,\\text{bio}} = 1,050.4\\text{ kg/d}$, $P_{X,\\text{VSS}} = 1,504.4\\text{ kg/d}$, $P_{X,\\text{TSS}} = 1,916.8\\text{ kg/d}$, $\\text{Mass}_{\\text{MLVSS}} = 31,592\\text{ kg}$, $\\text{Mass}_{\\text{MLSS}} = 40,253\\text{ kg}$, tỷ lệ $\\text{MLVSS}/\\text{MLSS} = 0.785$), biết tỷ số tuần hoàn bùn $R = 6$, nồng độ $\\text{MLSS}$ trong bể màng $X_m = 12,000\\text{ g/m}^3$, thông lượng màng $J_m = 16\\text{ L}/(\\text{m}^2\\cdot\\text{h})$ và tỷ lệ thể tích bể màng trên diện tích màng là $0.025\\text{ m}^3/\\text{m}^2$ [Page 10] [Page 11] [Page 12]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài thiết kế hệ thống màng ở $R = 6$, $X_m = 12,000\\text{ g/m}^3$ và $J_m = 16\\text{ L}/(\\text{m}^2\\cdot\\text{h})$.",
+          "takeaway": "Đề bài thiết kế hệ thống màng ở $R = 6$, $X_m = 12,000\\text{ g/m}^3$ và $J_m = 16\\text{ L}/(\\text{m}^2\\cdot\\text{h})$",
+          "topic": "hệ thống màng"
+        },
+        {
+          "id": "p-20c5c760",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Tính nồng độ $\\text{MLSS}$ trong bể hiếu khí từ phương trình cân bằng khối lượng: Áp dụng phương trình cân bằng sinh khối quanh bể hiếu khí trên Slide 39 với tỷ số tuần hoàn $R = 6$ và $X_m = 12,000\\text{ g/m}^3$ cho nồng độ bùn trong bể hiếu khí là $X_A = 10,286\\text{ g/m}^3$ và $X_{\\text{VSS},A} = 8,075\\text{ g/m}^3$ [Page 10] [Page 12].",
+          "sentences": [
+            "Bước 1 - Tính nồng độ $\\text{MLSS}$ trong bể hiếu khí từ phương trình cân bằng khối lượng: Áp dụng phương trình cân bằng sinh khối quanh bể hiếu khí trên Slide 39 với tỷ số tuần hoàn $R = 6$ và $X_m = 12,000\\text{ g/m}^3$ cho nồng độ bùn trong bể hiếu khí là $X_A = 10,286\\text{ g/m}^3$ và $X_{\\text{VSS},A} = 8,075\\text{ g/m}^3$ [Page 10] [Page 12]."
+          ],
+          "brief": [
+            "Bước 1 - Tính nồng độ $\\text{MLSS}$ trong bể hiếu khí từ phương trình cân bằng khối lượng: Áp dụng phương trình cân bằng sinh khối quanh bể hiếu khí trên Slide 39 với tỷ số tuần hoàn $R = 6$ và $X_m = 12,000\\text{ g/m}^3$ cho nồng độ bùn trong bể hiếu khí là $X_A = 10,286\\text{ g/m}^3$ và $X_{\\text{VSS},A} = 8,075\\text{ g/m}^3$ [Page 10] [Page 12]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ bùn trong bể hiếu khí đạt $X_A = 10,286\\text{ g/m}^3$ và $X_{\\text{VSS},A} = 8,075\\text{ g/m}^3$.",
+          "takeaway": "Nồng độ bùn trong bể hiếu khí đạt $X_A = 10,286\\text{ g/m}^3$ và $X_{\\text{VSS},A} = 8,075\\text{ g/m}^3$",
+          "topic": "Nồng độ bùn"
+        },
+        {
+          "id": "p-50ad95c1",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính diện tích bề mặt màng yêu cầu và thể tích bể màng: Đổi thông lượng màng $J_m = 16\\text{ L}/(\\text{m}^2\\cdot\\text{h}) = 0.384\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ theo Slide 40 và Slide 43, diện tích bề mặt màng cần lắp đặt là $A_m = 59,115\\text{ m}^2$ và thể tích bể màng là $V_m = 1,478\\text{ m}^3$ [Page 11] [Page 12].",
+          "sentences": [
+            "Bước 2 - Tính diện tích bề mặt màng yêu cầu và thể tích bể màng: Đổi thông lượng màng $J_m = 16\\text{ L}/(\\text{m}^2\\cdot\\text{h}) = 0.384\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ theo Slide 40 và Slide 43, diện tích bề mặt màng cần lắp đặt là $A_m = 59,115\\text{ m}^2$ và thể tích bể màng là $V_m = 1,478\\text{ m}^3$ [Page 11] [Page 12]."
+          ],
+          "brief": [
+            "Bước 2 - Tính diện tích bề mặt màng yêu cầu và thể tích bể màng: Đổi thông lượng màng $J_m = 16\\text{ L}/(\\text{m}^2\\cdot\\text{h}) = 0.384\\text{ m}^3/(\\text{m}^2\\cdot\\text{d})$ theo Slide 40 và Slide 43, diện tích bề mặt màng cần lắp đặt là $A_m = 59,115\\text{ m}^2$ và thể tích bể màng là $V_m = 1,478\\text{ m}^3$ [Page 11] [Page 12]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Diện tích màng yêu cầu đạt $A_m = 59,115\\text{ m}^2$ và thể tích bể màng $V_m = 1,478\\text{ m}^3$.",
+          "takeaway": "Diện tích màng yêu cầu đạt $A_m = 59,115\\text{ m}^2$ và thể tích bể màng $V_m = 1,478\\text{ m}^3$",
+          "topic": "Diện tích màng"
+        },
+        {
+          "id": "p-db2a9af3",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Xác định thể tích bể hiếu khí, tổng thể tích cụm MBR và lưu lượng xả bùn dư: Trừ khối lượng bùn nằm trong bể màng $\\text{Mass}_m = 17,736\\text{ kg}$ khỏi tổng khối lượng bùn $\\text{Mass}_{\\text{MLSS}} = 40,253\\text{ kg}$ cho khối lượng bùn trong bể hiếu khí $\\text{Mass}_A = 22,517\\text{ kg}$, suy ra thể tích bể hiếu khí $V_A = 2,189\\text{ m}^3$, tổng thể tích cụm MBR $V_{\\text{total}} = 3,667\\text{ m}^3$ ($\\text{HRT} = 3.88\\text{ h}$) và lưu lượng xả bùn dư $Q_w = 159.7\\text{ m}^3/\\text{d}$ [Page 10] [Page 12].",
+          "sentences": [
+            "Bước 3 - Xác định thể tích bể hiếu khí, tổng thể tích cụm MBR và lưu lượng xả bùn dư: Trừ khối lượng bùn nằm trong bể màng $\\text{Mass}_m = 17,736\\text{ kg}$ khỏi tổng khối lượng bùn $\\text{Mass}_{\\text{MLSS}} = 40,253\\text{ kg}$ cho khối lượng bùn trong bể hiếu khí $\\text{Mass}_A = 22,517\\text{ kg}$, suy ra thể tích bể hiếu khí $V_A = 2,189\\text{ m}^3$, tổng thể tích cụm MBR $V_{\\text{total}} = 3,667\\text{ m}^3$ ($\\text{HRT} = 3.88\\text{ h}$) và lưu lượng xả bùn dư $Q_w = 159.7\\text{ m}^3/\\text{d}$ [Page 10] [Page 12]."
+          ],
+          "brief": [
+            "Bước 3 - Xác định thể tích bể hiếu khí, tổng thể tích cụm MBR và lưu lượng xả bùn dư: Trừ khối lượng bùn nằm trong bể màng $\\text{Mass}_m = 17,736\\text{ kg}$ khỏi tổng khối lượng bùn $\\text{Mass}_{\\text{MLSS}} = 40,253\\text{ kg}$ cho khối lượng bùn trong bể hiếu khí $\\text{Mass}_A = 22,517\\text{ kg}$, suy ra thể tích bể hiếu khí $V_A = 2,189\\text{ m}^3$, tổng thể tích cụm MBR $V_{\\text{total}} = 3,667\\text{ m}^3$ ($\\text{HRT} = 3.88\\text{ h}$) và lưu lượng xả bùn dư $Q_w = 159.7\\text{ m}^3/\\text{d}$ [Page 10] [Page 12]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể hiếu khí đạt $V_A = 2,189\\text{ m}^3$ và tổng thể tích $V_{\\text{total}} = 3,667\\text{ m}^3$.",
+          "takeaway": "Thể tích bể hiếu khí đạt $V_A = 2,189\\text{ m}^3$ và tổng thể tích $V_{\\text{total}} = 3,667\\text{ m}^3$",
+          "topic": "Thể tích bể"
+        },
+        {
+          "id": "p-47659d61-3",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số thiết kế màng thỏa mãn giới hạn tiêu chuẩn. Cụm bể màng giảm mạnh diện tích xây dựng so với bể truyền thống.",
+          "takeaway": "Tổng hợp đáp số thiết kế màng thỏa mãn giới hạn tiêu chuẩn",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-e3c9ccf9",
+          "kind": "list item",
+          "role": "result",
+          "full": "Nồng độ $\\text{MLSS}$ trong bể hiếu khí và bể màng ($X_A, X_m$): $10,286\\text{ g/m}^3$ và $12,000\\text{ g/m}^3$ (Kiểm tra: $X_m \\in [8,000, 12,000]\\text{ g/m}^3\\text{ và }R = 6 \\in [4, 6]\\text{ — Đạt chuẩn Slide 40}$)",
+          "sentences": [
+            "Nồng độ $\\text{MLSS}$ trong bể hiếu khí và bể màng ($X_A, X_m$): $10,286\\text{ g/m}^3$ và $12,000\\text{ g/m}^3$ (Kiểm tra: $X_m \\in [8,000, 12,000]\\text{ g/m}^3\\text{ và }R = 6 \\in [4, 6]\\text{ — Đạt chuẩn Slide 40}$)"
+          ],
+          "brief": [
+            "Nồng độ $\\text{MLSS}$ trong bể hiếu khí và bể màng ($X_A, X_m$): $10,286\\text{ g/m}^3$ và $12,000\\text{ g/m}^3$ (Kiểm tra: $X_m \\in [8,000, 12,000]\\text{ g/m}^3\\text{ và }R = 6 \\in [4, 6]\\text{ — Đạt chuẩn Slide 40}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Nồng độ bùn vùng hiếu khí đạt $X_A = 10,286\\text{ g/m}^3$ tại $R = 6$.",
+          "takeaway": "Nồng độ bùn vùng hiếu khí đạt $X_A = 10,286\\text{ g/m}^3$ tại $R = 6$",
+          "topic": "vùng hiếu khí"
+        },
+        {
+          "id": "p-4060d460",
+          "kind": "list item",
+          "role": "result",
+          "full": "Diện tích màng và thể tích bể màng ($A_m, V_m$): $59,115\\text{ m}^2$ và $1,478\\text{ m}^3$ (Kiểm tra: $V_m / A_m = 0.025 \\in [0.015, 0.05]\\text{ m}^3/\\text{m}^2\\text{ — Đạt chuẩn Slide 40}$)",
+          "sentences": [
+            "Diện tích màng và thể tích bể màng ($A_m, V_m$): $59,115\\text{ m}^2$ và $1,478\\text{ m}^3$ (Kiểm tra: $V_m / A_m = 0.025 \\in [0.015, 0.05]\\text{ m}^3/\\text{m}^2\\text{ — Đạt chuẩn Slide 40}$)"
+          ],
+          "brief": [
+            "Diện tích màng và thể tích bể màng ($A_m, V_m$): $59,115\\text{ m}^2$ và $1,478\\text{ m}^3$ (Kiểm tra: $V_m / A_m = 0.025 \\in [0.015, 0.05]\\text{ m}^3/\\text{m}^2\\text{ — Đạt chuẩn Slide 40}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích bể màng đạt $V_m = 1,478\\text{ m}^3$ với tỷ lệ $0.025\\text{ m}^3/\\text{m}^2$.",
+          "takeaway": "Thể tích bể màng đạt $V_m = 1,478\\text{ m}^3$ với tỷ lệ $0.025\\text{ m}^3/\\text{m}^2$",
+          "topic": "Thể tích bể màng"
+        },
+        {
+          "id": "p-42894b79",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích bể hiếu khí và tổng thể tích cụm MBR ($V_A, V_{\\text{total}}$): $2,189\\text{ m}^3$ và $3,667\\text{ m}^3$ (Kiểm tra: $\\text{HRT} = 3.88\\text{ h}$, giảm $72.7\\%$ thể tích so với CMAS $\\text{— Đạt chuẩn Slide 39 và Slide 43}$)",
+          "sentences": [
+            "Thể tích bể hiếu khí và tổng thể tích cụm MBR ($V_A, V_{\\text{total}}$): $2,189\\text{ m}^3$ và $3,667\\text{ m}^3$ (Kiểm tra: $\\text{HRT} = 3.88\\text{ h}$, giảm $72.7\\%$ thể tích so với CMAS $\\text{— Đạt chuẩn Slide 39 và Slide 43}$)"
+          ],
+          "brief": [
+            "Thể tích bể hiếu khí và tổng thể tích cụm MBR ($V_A, V_{\\text{total}}$): $2,189\\text{ m}^3$ và $3,667\\text{ m}^3$ (Kiểm tra: $\\text{HRT} = 3.88\\text{ h}$, giảm $72.7\\%$ thể tích so với CMAS $\\text{— Đạt chuẩn Slide 39 và Slide 43}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng thể tích cụm màng đạt $V_{\\text{total}} = 3,667\\text{ m}^3$ với $\\text{HRT} = 3.88\\text{ h}$.",
+          "takeaway": "Tổng thể tích cụm màng đạt $V_{\\text{total}} = 3,667\\text{ m}^3$ với $\\text{HRT} = 3.88\\text{ h}$",
+          "topic": "Tổng thể tích"
+        },
+        {
+          "id": "p-cfca2b48",
+          "kind": "list item",
+          "role": "result",
+          "full": "Lưu lượng xả bùn dư và tải trọng hữu cơ ($Q_w, L_{\\text{org}}$): $159.7\\text{ m}^3/\\text{d}$ và $0.87\\text{ kg BOD/m}^3\\cdot\\text{d}$ (Kiểm tra: $\\text{SRT} = (X_A V_A + X_m V_m)/(Q_w X_m) = 21\\text{ d — Đạt chuẩn Slide 39}$)",
+          "sentences": [
+            "Lưu lượng xả bùn dư và tải trọng hữu cơ ($Q_w, L_{\\text{org}}$): $159.7\\text{ m}^3/\\text{d}$ và $0.87\\text{ kg BOD/m}^3\\cdot\\text{d}$ (Kiểm tra: $\\text{SRT} = (X_A V_A + X_m V_m)/(Q_w X_m) = 21\\text{ d — Đạt chuẩn Slide 39}$)"
+          ],
+          "brief": [
+            "Lưu lượng xả bùn dư và tải trọng hữu cơ ($Q_w, L_{\\text{org}}$): $159.7\\text{ m}^3/\\text{d}$ và $0.87\\text{ kg BOD/m}^3\\cdot\\text{d}$ (Kiểm tra: $\\text{SRT} = (X_A V_A + X_m V_m)/(Q_w X_m) = 21\\text{ d — Đạt chuẩn Slide 39}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng xả bùn dư đạt $Q_w = 159.7\\text{ m}^3/\\text{d}$ và $L_{\\text{org}} = 0.87\\text{ kg/m}^3\\cdot\\text{d}$.",
+          "takeaway": "Lưu lượng xả bùn dư đạt $Q_w = 159.7\\text{ m}^3/\\text{d}$ và $L_{\\text{org}} = 0.87\\text{ kg/m}^3\\cdot\\text{d}$",
+          "topic": "Lưu lượng xả bùn"
+        }
+      ]
+    },
+    {
+      "id": "sec-bài-tập-ch06_ex04-slide-51-thiết-kế-bể-phản-ứng-theo-mẻ-kế-tiếp-sbr",
+      "num": "",
+      "title": "Bài tập ch06_ex04 (Slide 51): Thiết kế bể phản ứng theo mẻ kế tiếp (SBR)",
+      "depth": 2,
+      "takeaway": "Thiết kế hệ thống $2\\text{ bể}$ theo mẻ đạt $V_T = 4,731.25\\text{ m}^3/\\text{bể}$ và $\\text{SRT} = 26.5\\text{ d}$",
+      "topic": "Thiết kế hệ thống",
+      "units": [
+        {
+          "id": "p-250f14a5",
+          "kind": "paragraph",
+          "role": "setup",
+          "full": "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế hệ thống bể phản ứng theo mẻ kế tiếp (SBR) gồm $N = 2\\text{ bể}$ xử lý lưu lượng $Q = 7,570\\text{ m}^3/\\text{ngày}$ ở nhiệt độ $T = 12^\\circ\\text{C}$, nồng độ $\\text{MLSS}$ khi đầy bể $X_{\\text{TSS}} = 3,500\\text{ g/m}^3$, chỉ số thể tích bùn $\\text{SVI} = 150\\text{ mL/g}$, chiều sâu nước khi đầy $H = 6.0\\text{ m}$, chiều sâu chắt nước bằng $20\\%$ chiều sâu bể ($V_F / V_T = 0.20$) để đạt nồng độ amoni đầu ra $N_e = \\text{NH}_4\\text{-N} = 1.0\\text{ g/m}^3$ [Page 14] [Page 15] [Page 16].",
+          "sentences": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế hệ thống bể phản ứng theo mẻ kế tiếp (SBR) gồm $N = 2\\text{ bể}$ xử lý lưu lượng $Q = 7,570\\text{ m}^3/\\text{ngày}$ ở nhiệt độ $T = 12^\\circ\\text{C}$, nồng độ $\\text{MLSS}$ khi đầy bể $X_{\\text{TSS}} = 3,500\\text{ g/m}^3$, chỉ số thể tích bùn $\\text{SVI} = 150\\text{ mL/g}$, chiều sâu nước khi đầy $H = 6.0\\text{ m}$, chiều sâu chắt nước bằng $20\\%$ chiều sâu bể ($V_F / V_T = 0.20$) để đạt nồng độ amoni đầu ra $N_e = \\text{NH}_4\\text{-N} = 1.0\\text{ g/m}^3$ [Page 14] [Page 15] [Page 16]."
+          ],
+          "brief": [
+            "Đề bài ([Lời giải khôi phục theo chuẩn slide của thầy]): Thiết kế hệ thống bể phản ứng theo mẻ kế tiếp (SBR) gồm $N = 2\\text{ bể}$ xử lý lưu lượng $Q = 7,570\\text{ m}^3/\\text{ngày}$ ở nhiệt độ $T = 12^\\circ\\text{C}$, nồng độ $\\text{MLSS}$ khi đầy bể $X_{\\text{TSS}} = 3,500\\text{ g/m}^3$, chỉ số thể tích bùn $\\text{SVI} = 150\\text{ mL/g}$, chiều sâu nước khi đầy $H = 6.0\\text{ m}$, chiều sâu chắt nước bằng $20\\%$ chiều sâu bể ($V_F / V_T = 0.20$) để đạt nồng độ amoni đầu ra $N_e = \\text{NH}_4\\text{-N} = 1.0\\text{ g/m}^3$ [Page 14] [Page 15] [Page 16]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Đề bài thiết kế hệ thống $N = 2\\text{ bể}$ cho $Q = 7,570\\text{ m}^3/\\text{ngày}$ tại $12^\\circ\\text{C}$.",
+          "takeaway": "Đề bài thiết kế hệ thống $N = 2\\text{ bể}$ cho $Q = 7,570\\text{ m}^3/\\text{ngày}$ tại $12^\\circ\\text{C}$",
+          "topic": "Đề bài thiết kế"
+        },
+        {
+          "id": "p-7631efef",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 1 - Phân tích thành phần nước thải đầu vào và kiểm tra tỷ lệ thể tích làm đầy: Từ bảng thông số trên Slide 51, nồng độ $\\text{bCOD}$ đầu vào đạt $S_0 = 352\\text{ g/m}^3$, $\\text{nbVSS} = 68.4\\text{ g/m}^3$, $\\text{iTSS} = 20\\text{ g/m}^3$; theo công thức trên Slide 49, tỷ lệ thể tích bùn lắng chiếm chỗ có dự trữ $20\\%$ là $V_S / V_T = 0.63$, cho phép tỷ lệ làm đầy tối đa $0.37 > 0.20$ (thỏa mãn) [Page 15] [Page 16].",
+          "sentences": [
+            "Bước 1 - Phân tích thành phần nước thải đầu vào và kiểm tra tỷ lệ thể tích làm đầy: Từ bảng thông số trên Slide 51, nồng độ $\\text{bCOD}$ đầu vào đạt $S_0 = 352\\text{ g/m}^3$, $\\text{nbVSS} = 68.4\\text{ g/m}^3$, $\\text{iTSS} = 20\\text{ g/m}^3$; theo công thức trên Slide 49, tỷ lệ thể tích bùn lắng chiếm chỗ có dự trữ $20\\%$ là $V_S / V_T = 0.63$, cho phép tỷ lệ làm đầy tối đa $0.37 > 0.20$ (thỏa mãn) [Page 15] [Page 16]."
+          ],
+          "brief": [
+            "Bước 1 - Phân tích thành phần nước thải đầu vào và kiểm tra tỷ lệ thể tích làm đầy: Từ bảng thông số trên Slide 51, nồng độ $\\text{bCOD}$ đầu vào đạt $S_0 = 352\\text{ g/m}^3$, $\\text{nbVSS} = 68.4\\text{ g/m}^3$, $\\text{iTSS} = 20\\text{ g/m}^3$; theo công thức trên Slide 49, tỷ lệ thể tích bùn lắng chiếm chỗ có dự trữ $20\\%$ là $V_S / V_T = 0.63$, cho phép tỷ lệ làm đầy tối đa $0.37 > 0.20$ (thỏa mãn) [Page 15] [Page 16]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ lệ bùn lắng đạt $V_S / V_T = 0.63$, cho phép tỷ lệ làm đầy $0.20 < 0.37$.",
+          "takeaway": "Tỷ lệ bùn lắng đạt $V_S / V_T = 0.63$, cho phép tỷ lệ làm đầy $0.20 < 0.37$",
+          "topic": "Tỷ lệ bùn lắng"
+        },
+        {
+          "id": "p-91fc1096",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 2 - Tính thể tích làm đầy mỗi mẻ, thể tích bể SBR và thời gian lưu bùn $\\text{SRT}$: Với chu kỳ $t_c = 6.0\\text{ h}$ ($4\\text{ mẻ/bể}\\cdot\\text{ngày}$, tổng $8\\text{ mẻ/ngày}$ cho $2\\text{ bể}$), thể tích làm đầy mỗi mẻ đạt $V_F = 946.25\\text{ m}^3$, thể tích mỗi bể đạt $V_T = 4,731.25\\text{ m}^3$ (tổng $2\\text{ bể}$ là $V_{\\text{total}} = 9,462.5\\text{ m}^3$, $\\text{HRT} = 30.0\\text{ h}$) và giải cân bằng tổng khối lượng bùn $\\text{Mass}_{\\text{MLSS}} = 33,119\\text{ kg}$ tại $T = 12^\\circ\\text{C}$ cho $\\text{SRT} = 26.5\\text{ ngày}$ [Page 15] [Page 16].",
+          "sentences": [
+            "Bước 2 - Tính thể tích làm đầy mỗi mẻ, thể tích bể SBR và thời gian lưu bùn $\\text{SRT}$: Với chu kỳ $t_c = 6.0\\text{ h}$ ($4\\text{ mẻ/bể}\\cdot\\text{ngày}$, tổng $8\\text{ mẻ/ngày}$ cho $2\\text{ bể}$), thể tích làm đầy mỗi mẻ đạt $V_F = 946.25\\text{ m}^3$, thể tích mỗi bể đạt $V_T = 4,731.25\\text{ m}^3$ (tổng $2\\text{ bể}$ là $V_{\\text{total}} = 9,462.5\\text{ m}^3$, $\\text{HRT} = 30.0\\text{ h}$) và giải cân bằng tổng khối lượng bùn $\\text{Mass}_{\\text{MLSS}} = 33,119\\text{ kg}$ tại $T = 12^\\circ\\text{C}$ cho $\\text{SRT} = 26.5\\text{ ngày}$ [Page 15] [Page 16]."
+          ],
+          "brief": [
+            "Bước 2 - Tính thể tích làm đầy mỗi mẻ, thể tích bể SBR và thời gian lưu bùn $\\text{SRT}$: Với chu kỳ $t_c = 6.0\\text{ h}$ ($4\\text{ mẻ/bể}\\cdot\\text{ngày}$, tổng $8\\text{ mẻ/ngày}$ cho $2\\text{ bể}$), thể tích làm đầy mỗi mẻ đạt $V_F = 946.25\\text{ m}^3$, thể tích mỗi bể đạt $V_T = 4,731.25\\text{ m}^3$ (tổng $2\\text{ bể}$ là $V_{\\text{total}} = 9,462.5\\text{ m}^3$, $\\text{HRT} = 30.0\\text{ h}$) và giải cân bằng tổng khối lượng bùn $\\text{Mass}_{\\text{MLSS}} = 33,119\\text{ kg}$ tại $T = 12^\\circ\\text{C}$ cho $\\text{SRT} = 26.5\\text{ ngày}$ [Page 15] [Page 16]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thể tích mỗi bể đạt $V_T = 4,731.25\\text{ m}^3$ và thời gian lưu bùn $\\text{SRT} = 26.5\\text{ ngày}$.",
+          "takeaway": "Thể tích mỗi bể đạt $V_T = 4,731.25\\text{ m}^3$ và thời gian lưu bùn $\\text{SRT} = 26.5\\text{ ngày}$",
+          "topic": "Thể tích mỗi bể"
+        },
+        {
+          "id": "p-e0f35d5a",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 3 - Kiểm tra thời gian sục khí nitrat hóa theo phương trình động học bậc hỗn hợp: Nồng độ nitơ bị oxy hóa đạt $\\text{NO}_x = 26.2\\text{ g/m}^3$, nồng độ amoni đầu kỳ phản ứng là $N_0 = 6.04\\text{ g/m}^3$ và nồng độ vi khuẩn nitrat hóa trong bể là $X_n = 18.2\\text{ g/m}^3$; thay vào phương trình trên Slide 48 cho thời gian sục khí cần thiết là $t = 2.85\\text{ h} > 2.0\\text{ h}$, do đó chọn sục khí thêm $1.0\\text{ h}$ cuối của giai đoạn làm đầy để tổng thời gian sục khí đạt $3.0\\text{ h} > 2.85\\text{ h}$ (thỏa mãn) [Page 14] [Page 15].",
+          "sentences": [
+            "Bước 3 - Kiểm tra thời gian sục khí nitrat hóa theo phương trình động học bậc hỗn hợp: Nồng độ nitơ bị oxy hóa đạt $\\text{NO}_x = 26.2\\text{ g/m}^3$, nồng độ amoni đầu kỳ phản ứng là $N_0 = 6.04\\text{ g/m}^3$ và nồng độ vi khuẩn nitrat hóa trong bể là $X_n = 18.2\\text{ g/m}^3$; thay vào phương trình trên Slide 48 cho thời gian sục khí cần thiết là $t = 2.85\\text{ h} > 2.0\\text{ h}$, do đó chọn sục khí thêm $1.0\\text{ h}$ cuối của giai đoạn làm đầy để tổng thời gian sục khí đạt $3.0\\text{ h} > 2.85\\text{ h}$ (thỏa mãn) [Page 14] [Page 15]."
+          ],
+          "brief": [
+            "Bước 3 - Kiểm tra thời gian sục khí nitrat hóa theo phương trình động học bậc hỗn hợp: Nồng độ nitơ bị oxy hóa đạt $\\text{NO}_x = 26.2\\text{ g/m}^3$, nồng độ amoni đầu kỳ phản ứng là $N_0 = 6.04\\text{ g/m}^3$ và nồng độ vi khuẩn nitrat hóa trong bể là $X_n = 18.2\\text{ g/m}^3$; thay vào phương trình trên Slide 48 cho thời gian sục khí cần thiết là $t = 2.85\\text{ h} > 2.0\\text{ h}$, do đó chọn sục khí thêm $1.0\\text{ h}$ cuối của giai đoạn làm đầy để tổng thời gian sục khí đạt $3.0\\text{ h} > 2.85\\text{ h}$ (thỏa mãn) [Page 14] [Page 15]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thời gian sục khí yêu cầu đạt $t = 2.85\\text{ h}$, chọn tổng thời gian sục khí $3.0\\text{ h}$.",
+          "takeaway": "Thời gian sục khí yêu cầu đạt $t = 2.85\\text{ h}$, chọn tổng thời gian sục khí $3.0\\text{ h}$",
+          "topic": "Thời gian sục khí"
+        },
+        {
+          "id": "p-270cedab",
+          "kind": "paragraph",
+          "role": "result",
+          "full": "Bước 4 - Tính lưu lượng chắt nước, nhu cầu oxy và kiểm tra tải trọng vận hành: Lưu lượng bơm chắt nước trong $t_D = 30\\text{ phút}$ đạt $q_{\\text{decant}} = 31.5\\text{ m}^3/\\text{min}$, nhu cầu oxy tiêu thụ đạt $R_o = 2,869.7\\text{ kg O}_2/\\text{d}$, tỷ số $F/M = 0.062\\text{ kg/kg}\\cdot\\text{d}$ và tải trọng hữu cơ $L_{\\text{org}} = 0.18\\text{ kg BOD/m}^3\\cdot\\text{d}$ [Page 15] [Page 16].",
+          "sentences": [
+            "Bước 4 - Tính lưu lượng chắt nước, nhu cầu oxy và kiểm tra tải trọng vận hành: Lưu lượng bơm chắt nước trong $t_D = 30\\text{ phút}$ đạt $q_{\\text{decant}} = 31.5\\text{ m}^3/\\text{min}$, nhu cầu oxy tiêu thụ đạt $R_o = 2,869.7\\text{ kg O}_2/\\text{d}$, tỷ số $F/M = 0.062\\text{ kg/kg}\\cdot\\text{d}$ và tải trọng hữu cơ $L_{\\text{org}} = 0.18\\text{ kg BOD/m}^3\\cdot\\text{d}$ [Page 15] [Page 16]."
+          ],
+          "brief": [
+            "Bước 4 - Tính lưu lượng chắt nước, nhu cầu oxy và kiểm tra tải trọng vận hành: Lưu lượng bơm chắt nước trong $t_D = 30\\text{ phút}$ đạt $q_{\\text{decant}} = 31.5\\text{ m}^3/\\text{min}$, nhu cầu oxy tiêu thụ đạt $R_o = 2,869.7\\text{ kg O}_2/\\text{d}$, tỷ số $F/M = 0.062\\text{ kg/kg}\\cdot\\text{d}$ và tải trọng hữu cơ $L_{\\text{org}} = 0.18\\text{ kg BOD/m}^3\\cdot\\text{d}$ [Page 15] [Page 16]."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Lưu lượng chắt nước đạt $q_{\\text{decant}} = 31.5\\text{ m}^3/\\text{min}$ và nhu cầu oxy $R_o = 2,869.7\\text{ kg/d}$.",
+          "takeaway": "Lưu lượng chắt nước đạt $q_{\\text{decant}} = 31.5\\text{ m}^3/\\text{min}$ và nhu cầu oxy $R_o = 2,869.7\\text{ kg/d}$",
+          "topic": "Lưu lượng chắt nước"
+        },
+        {
+          "id": "p-47659d61-4",
+          "kind": "paragraph",
+          "role": "analysis",
+          "full": "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS. Nguyễn Hoàng Dũng.",
+          "sentences": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS.",
+            "Nguyễn Hoàng Dũng."
+          ],
+          "brief": [
+            "Tổng hợp đáp số và kiểm tra điều kiện biên: Toàn bộ thông số thiết kế thỏa mãn giới hạn tiêu chuẩn trên slide bài giảng của TS."
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng hợp đáp số bể theo mẻ thỏa mãn giới hạn tiêu chuẩn. Các thông số thiết kế nằm trong miền vận hành an toàn.",
+          "takeaway": "Tổng hợp đáp số bể theo mẻ thỏa mãn giới hạn tiêu chuẩn",
+          "topic": "Tổng hợp đáp số"
+        },
+        {
+          "id": "p-52c21806",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ lệ thể tích làm đầy mỗi mẻ ($V_F / V_T$): $0.20$ (Kiểm tra: $V_F / V_T = 0.20 < 0.37\\text{ — Đạt chuẩn Slide 49}$)",
+          "sentences": [
+            "Tỷ lệ thể tích làm đầy mỗi mẻ ($V_F / V_T$): $0.20$ (Kiểm tra: $V_F / V_T = 0.20 < 0.37\\text{ — Đạt chuẩn Slide 49}$)"
+          ],
+          "brief": [
+            "Tỷ lệ thể tích làm đầy mỗi mẻ ($V_F / V_T$): $0.20$ (Kiểm tra: $V_F / V_T = 0.20 < 0.37\\text{ — Đạt chuẩn Slide 49}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ lệ thể tích làm đầy đạt $V_F / V_T = 0.20 < 0.37$.",
+          "takeaway": "Tỷ lệ thể tích làm đầy đạt $V_F / V_T = 0.20 < 0.37$",
+          "topic": "thể tích làm đầy"
+        },
+        {
+          "id": "p-555a87f9",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thể tích mỗi bể SBR và tổng thời gian lưu nước ($V_T, \\text{HRT}$): $4,731.25\\text{ m}^3/\\text{bể}$ ($9,462.5\\text{ m}^3$ cho $2\\text{ bể}$) và $30.0\\text{ h}$ (Kiểm tra: $\\text{HRT} = 30.0\\text{ h} \\in [18, 30]\\text{ h — Đạt chuẩn Slide 49 và Slide 65}$)",
+          "sentences": [
+            "Thể tích mỗi bể SBR và tổng thời gian lưu nước ($V_T, \\text{HRT}$): $4,731.25\\text{ m}^3/\\text{bể}$ ($9,462.5\\text{ m}^3$ cho $2\\text{ bể}$) và $30.0\\text{ h}$ (Kiểm tra: $\\text{HRT} = 30.0\\text{ h} \\in [18, 30]\\text{ h — Đạt chuẩn Slide 49 và Slide 65}$)"
+          ],
+          "brief": [
+            "Thể tích mỗi bể SBR và tổng thời gian lưu nước ($V_T, \\text{HRT}$): $4,731.25\\text{ m}^3/\\text{bể}$ ($9,462.5\\text{ m}^3$ cho $2\\text{ bể}$) và $30.0\\text{ h}$ (Kiểm tra: $\\text{HRT} = 30.0\\text{ h} \\in [18, 30]\\text{ h — Đạt chuẩn Slide 49 và Slide 65}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng thể tích $2\\text{ bể}$ đạt $9,462.5\\text{ m}^3$ với $\\text{HRT} = 30.0\\text{ h}$.",
+          "takeaway": "Tổng thể tích $2\\text{ bể}$ đạt $9,462.5\\text{ m}^3$ với $\\text{HRT} = 30.0\\text{ h}$",
+          "topic": "Tổng thể tích"
+        },
+        {
+          "id": "p-71b7d9a2",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thời gian lưu bùn và sản lượng bùn dư ($\\text{SRT}, P_{X,\\text{TSS}}$): $26.5\\text{ ngày}$ và $1,248.4\\text{ kg TSS/d}$ (Kiểm tra: $\\text{SRT} = 26.5\\text{ d} \\in [15, 30]\\text{ d — Đạt chuẩn Slide 65}$)",
+          "sentences": [
+            "Thời gian lưu bùn và sản lượng bùn dư ($\\text{SRT}, P_{X,\\text{TSS}}$): $26.5\\text{ ngày}$ và $1,248.4\\text{ kg TSS/d}$ (Kiểm tra: $\\text{SRT} = 26.5\\text{ d} \\in [15, 30]\\text{ d — Đạt chuẩn Slide 65}$)"
+          ],
+          "brief": [
+            "Thời gian lưu bùn và sản lượng bùn dư ($\\text{SRT}, P_{X,\\text{TSS}}$): $26.5\\text{ ngày}$ và $1,248.4\\text{ kg TSS/d}$ (Kiểm tra: $\\text{SRT} = 26.5\\text{ d} \\in [15, 30]\\text{ d — Đạt chuẩn Slide 65}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Thời gian lưu bùn đạt $\\text{SRT} = 26.5\\text{ d}$ và $P_{X,\\text{TSS}} = 1,248.4\\text{ kg/d}$.",
+          "takeaway": "Thời gian lưu bùn đạt $\\text{SRT} = 26.5\\text{ d}$ và $P_{X,\\text{TSS}} = 1,248.4\\text{ kg/d}$",
+          "topic": "Thời gian lưu bùn"
+        },
+        {
+          "id": "p-49375a1c",
+          "kind": "list item",
+          "role": "result",
+          "full": "Thời gian sục khí mỗi chu kỳ ($t_{\\text{air}}$): $3.0\\text{ h}$ gồm $1.0\\text{ h}$ làm đầy sục khí + $2.0\\text{ h}$ phản ứng (Kiểm tra: $t_{\\text{air}} = 3.0\\text{ h} > t_{\\text{req}} = 2.85\\text{ h — Đạt chuẩn Slide 48 và Slide 50}$)",
+          "sentences": [
+            "Thời gian sục khí mỗi chu kỳ ($t_{\\text{air}}$): $3.0\\text{ h}$ gồm $1.0\\text{ h}$ làm đầy sục khí + $2.0\\text{ h}$ phản ứng (Kiểm tra: $t_{\\text{air}} = 3.0\\text{ h} > t_{\\text{req}} = 2.85\\text{ h — Đạt chuẩn Slide 48 và Slide 50}$)"
+          ],
+          "brief": [
+            "Thời gian sục khí mỗi chu kỳ ($t_{\\text{air}}$): $3.0\\text{ h}$ gồm $1.0\\text{ h}$ làm đầy sục khí + $2.0\\text{ h}$ phản ứng (Kiểm tra: $t_{\\text{air}} = 3.0\\text{ h} > t_{\\text{req}} = 2.85\\text{ h — Đạt chuẩn Slide 48 và Slide 50}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tổng thời gian sục khí mỗi mẻ đạt $t_{\\text{air}} = 3.0\\text{ h} > 2.85\\text{ h}$.",
+          "takeaway": "Tổng thời gian sục khí mỗi mẻ đạt $t_{\\text{air}} = 3.0\\text{ h} > 2.85\\text{ h}$",
+          "topic": "sục khí mỗi mẻ"
+        },
+        {
+          "id": "p-408e84d1",
+          "kind": "list item",
+          "role": "result",
+          "full": "Tỷ số $F/M$ và tải trọng hữu cơ ($F/M, L_{\\text{org}}$): $0.062\\text{ kg BOD/kg MLVSS}\\cdot\\text{d}$ và $0.18\\text{ kg BOD/m}^3\\cdot\\text{d}$ (Kiểm tra: $F/M \\in [0.04, 0.1]$ và $L_{\\text{org}} \\in [0.1, 0.3]\\text{ — Đạt chuẩn Slide 65}$)",
+          "sentences": [
+            "Tỷ số $F/M$ và tải trọng hữu cơ ($F/M, L_{\\text{org}}$): $0.062\\text{ kg BOD/kg MLVSS}\\cdot\\text{d}$ và $0.18\\text{ kg BOD/m}^3\\cdot\\text{d}$ (Kiểm tra: $F/M \\in [0.04, 0.1]$ và $L_{\\text{org}} \\in [0.1, 0.3]\\text{ — Đạt chuẩn Slide 65}$)"
+          ],
+          "brief": [
+            "Tỷ số $F/M$ và tải trọng hữu cơ ($F/M, L_{\\text{org}}$): $0.062\\text{ kg BOD/kg MLVSS}\\cdot\\text{d}$ và $0.18\\text{ kg BOD/m}^3\\cdot\\text{d}$ (Kiểm tra: $F/M \\in [0.04, 0.1]$ và $L_{\\text{org}} \\in [0.1, 0.3]\\text{ — Đạt chuẩn Slide 65}$)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Tỷ số thức ăn đạt $F/M = 0.062\\text{ d}^{-1}$ và $L_{\\text{org}} = 0.18\\text{ kg/m}^3\\cdot\\text{d}$.",
+          "takeaway": "Tỷ số thức ăn đạt $F/M = 0.062\\text{ d}^{-1}$ và $L_{\\text{org}} = 0.18\\text{ kg/m}^3\\cdot\\text{d}$",
+          "topic": "Tỷ số thức ăn"
+        },
+        {
+          "id": "p-865b07d9",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 1 (Page 4)",
+          "sentences": [
+            "Figure 1 (Page 4)"
+          ],
+          "brief": [
+            "Figure 1 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $1$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $1$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-cf515b28",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 2 (Page 4)",
+          "sentences": [
+            "Figure 2 (Page 4)"
+          ],
+          "brief": [
+            "Figure 2 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $2$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $2$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-5503fd51",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 3 (Page 4)",
+          "sentences": [
+            "Figure 3 (Page 4)"
+          ],
+          "brief": [
+            "Figure 3 (Page 4)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $3$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $3$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-f07c9392",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 4 (Page 5)",
+          "sentences": [
+            "Figure 4 (Page 5)"
+          ],
+          "brief": [
+            "Figure 4 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $4$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $4$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-3e540e54",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 5 (Page 5)",
+          "sentences": [
+            "Figure 5 (Page 5)"
+          ],
+          "brief": [
+            "Figure 5 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $5$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $5$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-1af08b1f",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 6 (Page 5)",
+          "sentences": [
+            "Figure 6 (Page 5)"
+          ],
+          "brief": [
+            "Figure 6 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $6$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $6$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-44e08b02",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 7 (Page 5)",
+          "sentences": [
+            "Figure 7 (Page 5)"
+          ],
+          "brief": [
+            "Figure 7 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $7$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $7$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-5d80bd1e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 8 (Page 5)",
+          "sentences": [
+            "Figure 8 (Page 5)"
+          ],
+          "brief": [
+            "Figure 8 (Page 5)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $8$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $8$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-5080dc41",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 9 (Page 6)",
+          "sentences": [
+            "Figure 9 (Page 6)"
+          ],
+          "brief": [
+            "Figure 9 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $9$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $9$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-7269c17d",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 10 (Page 6)",
+          "sentences": [
+            "Figure 10 (Page 6)"
+          ],
+          "brief": [
+            "Figure 10 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $10$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $10$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-baf86e71",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 11 (Page 6)",
+          "sentences": [
+            "Figure 11 (Page 6)"
+          ],
+          "brief": [
+            "Figure 11 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $11$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $11$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-c874e688",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 12 (Page 6)",
+          "sentences": [
+            "Figure 12 (Page 6)"
+          ],
+          "brief": [
+            "Figure 12 (Page 6)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $12$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $12$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-1f526d5c",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 13 (Page 7)",
+          "sentences": [
+            "Figure 13 (Page 7)"
+          ],
+          "brief": [
+            "Figure 13 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $13$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $13$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-ffebe59e",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 14 (Page 7)",
+          "sentences": [
+            "Figure 14 (Page 7)"
+          ],
+          "brief": [
+            "Figure 14 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $14$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $14$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-87495ef4",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 15 (Page 7)",
+          "sentences": [
+            "Figure 15 (Page 7)"
+          ],
+          "brief": [
+            "Figure 15 (Page 7)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $15$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $15$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-dc662812",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 16 (Page 8)",
+          "sentences": [
+            "Figure 16 (Page 8)"
+          ],
+          "brief": [
+            "Figure 16 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $16$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $16$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-62311ea5",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 17 (Page 8)",
+          "sentences": [
+            "Figure 17 (Page 8)"
+          ],
+          "brief": [
+            "Figure 17 (Page 8)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $17$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $17$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-503bec84",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 18 (Page 10)",
+          "sentences": [
+            "Figure 18 (Page 10)"
+          ],
+          "brief": [
+            "Figure 18 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $18$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $18$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-387b1b79",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 19 (Page 10)",
+          "sentences": [
+            "Figure 19 (Page 10)"
+          ],
+          "brief": [
+            "Figure 19 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $19$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $19$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-625b0b93",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 20 (Page 10)",
+          "sentences": [
+            "Figure 20 (Page 10)"
+          ],
+          "brief": [
+            "Figure 20 (Page 10)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $20$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $20$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-55ce7817",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 21 (Page 11)",
+          "sentences": [
+            "Figure 21 (Page 11)"
+          ],
+          "brief": [
+            "Figure 21 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $21$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $21$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-f3412899",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 22 (Page 11)",
+          "sentences": [
+            "Figure 22 (Page 11)"
+          ],
+          "brief": [
+            "Figure 22 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $22$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $22$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-e72bc2fa",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 23 (Page 11)",
+          "sentences": [
+            "Figure 23 (Page 11)"
+          ],
+          "brief": [
+            "Figure 23 (Page 11)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $23$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $23$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-90a95f2a",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 24 (Page 13)",
+          "sentences": [
+            "Figure 24 (Page 13)"
+          ],
+          "brief": [
+            "Figure 24 (Page 13)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $24$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $24$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-fb4c62b3",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 25 (Page 14)",
+          "sentences": [
+            "Figure 25 (Page 14)"
+          ],
+          "brief": [
+            "Figure 25 (Page 14)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $25$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $25$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-e2c3f23b",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 26 (Page 14)",
+          "sentences": [
+            "Figure 26 (Page 14)"
+          ],
+          "brief": [
+            "Figure 26 (Page 14)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $26$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $26$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-a24dd9c7",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 27 (Page 15)",
+          "sentences": [
+            "Figure 27 (Page 15)"
+          ],
+          "brief": [
+            "Figure 27 (Page 15)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $27$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $27$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-6179f42a",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 28 (Page 15)",
+          "sentences": [
+            "Figure 28 (Page 15)"
+          ],
+          "brief": [
+            "Figure 28 (Page 15)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $28$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $28$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-8ddd224c",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 29 (Page 16)",
+          "sentences": [
+            "Figure 29 (Page 16)"
+          ],
+          "brief": [
+            "Figure 29 (Page 16)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $29$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $29$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-54cead2d",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 30 (Page 17)",
+          "sentences": [
+            "Figure 30 (Page 17)"
+          ],
+          "brief": [
+            "Figure 30 (Page 17)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $30$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $30$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-c6a43f63",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 31 (Page 18)",
+          "sentences": [
+            "Figure 31 (Page 18)"
+          ],
+          "brief": [
+            "Figure 31 (Page 18)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $31$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $31$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-7573f1e7",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 32 (Page 18)",
+          "sentences": [
+            "Figure 32 (Page 18)"
+          ],
+          "brief": [
+            "Figure 32 (Page 18)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $32$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $32$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-29b0a55d",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 33 (Page 18)",
+          "sentences": [
+            "Figure 33 (Page 18)"
+          ],
+          "brief": [
+            "Figure 33 (Page 18)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $33$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $33$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        },
+        {
+          "id": "p-3a8a59f2",
+          "kind": "caption",
+          "role": "context",
+          "full": "Figure 34 (Page 20)",
+          "sentences": [
+            "Figure 34 (Page 20)"
+          ],
+          "brief": [
+            "Figure 34 (Page 20)"
+          ],
+          "evidence": [
+            0
+          ],
+          "key": "Hình minh họa kỹ thuật số $34$ trong bài giảng Chương $6$.",
+          "takeaway": "Hình minh họa kỹ thuật số $34$ trong bài giảng Chương $6$",
+          "topic": "Hình minh họa"
+        }
+      ]
+    }
+  ],
+  "links": []
+}
